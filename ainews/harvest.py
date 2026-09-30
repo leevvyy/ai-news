@@ -15,9 +15,12 @@ from __future__ import annotations
 
 import hashlib
 import html
+import html.entities
 import json
 import re
+import time as _time
 import tomllib
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -83,10 +86,42 @@ def is_ai(text: str) -> bool:
     return bool(AI_PATTERN.search(text))
 
 
-def fetch(url: str, timeout: float = 20.0) -> bytes:
+def fetch(url: str, timeout: float = 30.0, retries: int = 1) -> bytes:
+    """GET with one retry on timeouts, 429 and 5xx (honouring Retry-After up to 10 s).
+    4xx other than 429 is a site decision (gone, forbidden to bots) and is not retried."""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*", "Accept-Encoding": "identity"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read()
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as exc:
+            if attempt == retries or not (exc.code == 429 or exc.code >= 500):
+                raise
+            wait = exc.headers.get("Retry-After", "") if exc.headers else ""
+            _time.sleep(min(10.0, float(wait)) if wait.isdigit() else 3.0)
+        except (TimeoutError, urllib.error.URLError):
+            if attempt == retries:
+                raise
+            _time.sleep(3.0)
+    raise RuntimeError("unreachable")
+
+
+_BAD_XML = re.compile(rb"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+_ENTITY = re.compile(rb"&(#[0-9]{1,7};|#x[0-9A-Fa-f]{1,6};|[A-Za-z][A-Za-z0-9]{0,31};)?")
+_XML_ENTITIES = {b"amp;", b"lt;", b"gt;", b"quot;", b"apos;"}
+
+
+def sanitize_xml(data: bytes) -> bytes:
+    """Repair the usual feed breakage: control characters, bare '&', HTML-only entities (&nbsp;)."""
+    def fix(m: re.Match) -> bytes:
+        ent = m.group(1)
+        if ent is None:
+            return b"&amp;"
+        if ent.startswith(b"#") or ent in _XML_ENTITIES:
+            return m.group(0)
+        cp = html.entities.name2codepoint.get(ent[:-1].decode("ascii"))
+        return f"&#{cp};".encode() if cp else b"&amp;" + ent
+    return _ENTITY.sub(fix, _BAD_XML.sub(b"", data))
 
 
 # ---- parsers -------------------------------------------------------------------
@@ -96,7 +131,10 @@ def _text(el: ET.Element | None) -> str:
 
 def parse_feed(data: bytes) -> list[dict]:
     """RSS 2.0, RSS 1.0 (RDF) and Atom → [{title, url, published, summary, outlet?, outlet_url?}]."""
-    root = ET.fromstring(data)
+    try:
+        root = ET.fromstring(data)
+    except ET.ParseError:
+        root = ET.fromstring(sanitize_xml(data))
     out: list[dict] = []
     for it in root.iter("item"):                                     # RSS 2.0
         src = it.find("source")
@@ -182,7 +220,9 @@ def cluster(items: list[dict], threshold: float) -> list[dict]:
     for members in groups.values():
         its = sorted((items[i] for i in members), key=lambda it: (it["published_at"], it["id"]))
         outlets = sorted({it["outlet"] for it in its})
-        best = min(its, key=lambda it: ({"primary": 0, "press": 1, "trade": 2, "social": 3}[it["tier"]], it["published_at"]))
+        # best link: most reliable tier, then the outlet's own URL over a Google News redirect, then earliest
+        best = min(its, key=lambda it: ({"primary": 0, "press": 1, "trade": 2, "social": 3}[it["tier"]],
+                                        it["via"] == "gnews", it["published_at"]))
         out.append({"title": best["title"], "url": best["url"], "lang": best["lang"],
                     "n_outlets": len(outlets), "outlets": outlets, "item_ids": [it["id"] for it in its],
                     "first_seen": its[0]["published_at"],
@@ -203,7 +243,8 @@ class FeedResult:
 
 
 def load_feeds(cfg: Config) -> list[dict]:
-    return tomllib.loads((cfg.root / "feeds.toml").read_text("utf-8")).get("feed", [])
+    feeds = tomllib.loads((cfg.root / "feeds.toml").read_text("utf-8")).get("feed", [])
+    return [f for f in feeds if f.get("enabled", True)]
 
 
 def _run_feed(cfg: Config, feed: dict, since: datetime, now: datetime,

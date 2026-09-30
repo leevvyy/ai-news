@@ -228,3 +228,35 @@ class MarketPipeline(unittest.TestCase):
             self.assertIn('"bench":"^GSPC"', html)
         finally:
             repo.cleanup()
+
+
+class FeedRobustness(unittest.TestCase):
+    def test_sanitize_repairs_common_breakage(self):
+        broken = ("<?xml version='1.0'?><rss><channel><item><title>A&B \x0bpartners&nbsp;now &amp; later "
+                  "&#169; &unknownthing;</title><link>https://example.com/x?a=1&b=2</link>"
+                  "<pubDate>Tue, 29 Sep 2026 17:00:00 GMT</pubDate></item></channel></rss>").encode()
+        items = harvest.parse_feed(broken)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["title"], "A&B partners\xa0now & later © &unknownthing;")
+        self.assertEqual(items[0]["url"], "https://example.com/x?a=1&b=2")
+
+    def test_disabled_feeds_are_skipped(self):
+        repo = TempRepo()
+        try:
+            (repo.dir / "feeds.toml").write_text(
+                '[[feed]]\nname = "On"\nurl = "https://a.example.com/rss"\n\n'
+                '[[feed]]\nname = "Off"\nurl = "https://b.example.com/rss"\nenabled = false\n', "utf-8")
+            self.assertEqual([f["name"] for f in harvest.load_feeds(repo.cfg)], ["On"])
+        finally:
+            repo.cleanup()
+
+    def test_cluster_prefers_outlet_url_over_google_news(self):
+        base = {"lang": "en", "tier": "press", "summary": "", "outlet": "X"}
+        items = [{**base, "id": "g", "title": "Chipmaker unveils new accelerator today", "via": "gnews",
+                  "url": "https://news.google.com/rss/articles/abc", "outlet": "Reuters",
+                  "published_at": "2026-09-29T10:00:00Z"},
+                 {**base, "id": "d", "title": "Chipmaker unveils new accelerator", "via": "rss",
+                  "url": "https://outlet.example.com/story", "published_at": "2026-09-29T11:00:00Z"}]
+        [c] = harvest.cluster(items, 0.4)
+        self.assertEqual(c["url"], "https://outlet.example.com/story")
+        self.assertEqual(c["n_outlets"], 2)
