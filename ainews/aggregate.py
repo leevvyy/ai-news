@@ -9,6 +9,7 @@ from typing import Any, Iterable
 from .archive import Archive, Item, daterange, week_bounds
 from .config import LANGS, TOPICS, Config
 from .dedupe import jaccard, title_tokens
+from .market import item_events, mean_ci
 from .scoring import rank_key
 
 
@@ -132,4 +133,36 @@ def weekly_view(cfg: Config, archive: Archive, wid: str) -> dict[str, Any]:
         "per_day": per_day, "n": len(items),
         "daily_issues": sum(1 for p in per_day if p["issue"]),
         "backfilled": bool(wk.get("items")),
+        "market": weekly_market(cfg, archive, pool),
     }
+
+
+def market_for(cfg: Config, archive: Archive, items: Iterable[Item]) -> dict[str, list[dict]]:
+    """item id → event-study results for its tickers (computed from data/market/prices.csv)."""
+    return {it["id"]: ev for it in items if (ev := item_events(cfg.market, archive.prices, it))}
+
+
+def china_desk(items: Iterable[Item]) -> list[Item]:
+    return [it for it in items if it["region"] == "cn"]
+
+
+def weekly_market(cfg: Config, archive: Archive, pool: list[tuple[date, Item]]) -> dict[str, Any]:
+    """Mean CAR by topic (95% t-interval) over completed events of the week, plus the largest |t|.
+
+    An event is a unique (symbol, day 0): several stories naming the same stock on the same day
+    share one abnormal return, so counting them separately would inflate n. Within a topic each
+    event counts once; its story is the highest-scoring one that named it."""
+    events: dict[tuple[str, str, str], tuple[dict, date, Item]] = {}
+    for d, it in sorted(pool, key=lambda p: rank_key(p[1])):
+        for ev in item_events(cfg.market, archive.prices, it):
+            if ev["status"] == "ok":
+                events.setdefault((it["topic"], ev["symbol"], ev["day0"]), (ev, d, it))
+    by_topic: defaultdict[str, list[float]] = defaultdict(list)
+    rows = []
+    for (topic, _, _), (ev, d, it) in sorted(events.items()):
+        by_topic[topic].append(ev["car"])
+        rows.append({**ref(d, it), "symbol": ev["symbol"], "car": ev["car"], "t": ev["t"], "day0": ev["day0"]})
+    topics = [{"topic": k, **ci} for k in TOPICS if (ci := mean_ci(by_topic.get(k, [])))]
+    unique = {(r["symbol"], r["day0"]): r for r in rows}
+    top = sorted(unique.values(), key=lambda r: (-abs(r["t"] or 0.0), r["symbol"], r["day0"]))
+    return {"n_events": len(unique), "by_topic": topics, "top": top[:8]}

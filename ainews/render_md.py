@@ -6,7 +6,7 @@ import re
 from datetime import date
 from typing import Any
 
-from .aggregate import calendar_as_of, lang_split, rolling_week, weekly_view
+from .aggregate import calendar_as_of, china_desk, lang_split, market_for, rolling_week, weekly_view
 from .archive import Archive, Issue, parse_ts
 from .config import COMPONENTS, REGIONS, TOPICS, Config
 
@@ -48,6 +48,26 @@ def _window_line(cfg: Config, iss: Issue) -> str:
     ls, le = s.astimezone(cfg.tz), e.astimezone(cfg.tz)
     return (f"{s:%Y-%m-%d %H:%M} → {e:%Y-%m-%d %H:%M} UTC "
             f"({ls:%a %H:%M} → {le:%a %H:%M} {cfg.tz_label})")
+
+
+def pct(x: float | None, signed: bool = True) -> str:
+    return "–" if x is None else f"{100 * x:+.2f}%" if signed else f"{100 * x:.2f}%"
+
+
+def _market_rows(cfg: Config, items: list[dict], events: dict[str, list[dict]]) -> list[str]:
+    thr = float(cfg.market.get("t_threshold", 2.0))
+    rows = ["| Story | Ticker | Day 0 | AR per session | CAR | t | β |", "|---|---|---|---|--:|--:|--:|"]
+    for it in items:
+        for ev in events.get(it["id"], []):
+            if ev["status"] in ("ok", "partial"):
+                ars = " · ".join(pct(a) for a in ev["ar"])
+                t = f"{ev['t']:.2f}" if ev["t"] is not None else "–"
+                t = f"**{t}**" if ev["t"] is not None and abs(ev["t"]) >= thr else t
+                rows.append(f"| {esc(it['title'][:70])} | `{ev['symbol']}` | {ev['day0']} | {ars} | "
+                            f"{pct(ev['car'])} | {t} | {ev['beta']:.2f} |")
+            elif ev["status"] != "no-data":
+                rows.append(f"| {esc(it['title'][:70])} | `{ev['symbol']}` | {ev['day0'] or '–'} | {ev['status']} | | | |")
+    return rows if len(rows) > 2 else []
 
 
 def _dash(cfg: Config) -> str:
@@ -119,6 +139,24 @@ def render_daily(cfg: Config, archive: Archive, d: date) -> str:
                        f"{link(esc(it['sources'][0]['outlet']), it['sources'][0]['url'])} |")
         out.append("")
 
+    desk = [it for it in china_desk(items) if it["placement"] != "lead"]
+    if desk:
+        out += ["## 中国 China desk", "",
+                f"<sub>Chinese-market stories outside the leads · quota ≥ {cfg.china_quota} in leads + briefs</sub>", ""]
+        for it in desk:
+            tag = {"brief": "brief", "noted": "noted"}[it["placement"]] + (" · quota pick" if it.get("quota") else "")
+            orig = f" · 原标题：{it['original_title']}" if it.get("original_title") else ""
+            out.append(f"- {link(it['title'], it['sources'][0]['url'])} · I {it['score']['total']:.1f} · {tag}{orig}")
+        out.append("")
+
+    events = market_for(cfg, archive, leads + briefs)
+    mrows = _market_rows(cfg, leads + briefs, events)
+    if mrows:
+        out += ["## Market read-through", "",
+                "<sub>Market model: $AR_t = R_{i,t} - (\\hat\\alpha + \\hat\\beta R_{m,t})$, 60-session OLS ending 10 sessions "
+                "before day 0 (first close after publication); CAR over sessions 0–2; t = CAR / (σ̂√n). "
+                "Descriptive only; stories overlap and n is small.</sub>", "", *mrows, ""]
+
     cal = calendar_as_of(cfg, archive, d)
     if cal:
         out += ["## Upcoming", "", "| Date | Event | Kind | Status |", "|---|---|---|---|"]
@@ -186,6 +224,14 @@ def render_weekly(cfg: Config, archive: Archive, wid: str) -> str:
     if v["entities"]:
         out += ["## Entity leaderboard", "", "| Entity | Mentions | Σ I |", "|---|--:|--:|"]
         out += [f"| {esc(e['entity'])} | {e['mentions']} | {e['weight']:.1f} |" for e in v["entities"]]
+        out.append("")
+    mk = v["market"]
+    if mk["by_topic"]:
+        out += ["## Market read-through", "", f"<sub>{mk['n_events']} completed ticker events · mean CAR[0,2] with 95% t-interval</sub>", "",
+                "| Topic | n | mean CAR | 95% CI |", "|---|--:|--:|---|"]
+        for r in mk["by_topic"]:
+            ci = f"[{pct(r['lo'])}, {pct(r['hi'])}]" if r["lo"] is not None else "–"
+            out.append(f"| {TOPICS[r['topic']]} | {r['n']} | {pct(r['mean'])} | {ci} |")
         out.append("")
     out += ["## Stories per day", "", "| Day | " + " | ".join(TOPICS.values()) + " | Total |",
             "|---|" + "--:|" * (len(TOPICS) + 1)]

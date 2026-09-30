@@ -1,0 +1,259 @@
+# Nightly harvester sources (ainews/harvest.py, run by .github/workflows/harvest.yml).
+#
+# kind:   rss    RSS 2.0 / RSS 1.0 / Atom feed
+#         gnews  Google News search feed for `query` in `locale` (en | zh); outlet comes from <source>
+#         hf     Hugging Face daily papers API (upvotes as a signal)
+#         hn     Hacker News stories via the Algolia API (points/comments as signals)
+# filter: true keeps only items that match the AI keyword pattern (for general tech/business feeds)
+# tier/lang follow sources.toml. Every run records per-feed status in data/raw/<date>.json → "feeds",
+# so a dead URL shows up there instead of failing silently. Edit freely; no code changes needed.
+
+# ---- labs & primary --------------------------------------------------------
+[[feed]]
+name = "OpenAI News"
+url = "https://openai.com/news/rss.xml"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "Google DeepMind"
+url = "https://deepmind.google/blog/rss.xml"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "Google AI (The Keyword)"
+url = "https://blog.google/technology/ai/rss/"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "Google Research"
+url = "https://research.google/blog/rss/"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "Microsoft AI"
+url = "https://blogs.microsoft.com/ai/feed/"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "NVIDIA Newsroom"
+url = "https://nvidianews.nvidia.com/releases.xml"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "NVIDIA Blog"
+url = "https://blogs.nvidia.com/feed/"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "Hugging Face Blog"
+url = "https://huggingface.co/blog/feed.xml"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "AWS Machine Learning"
+url = "https://aws.amazon.com/blogs/machine-learning/feed/"
+tier = "primary"
+lang = "en"
+
+[[feed]]
+name = "Hugging Face Daily Papers"
+kind = "hf"
+url = "https://huggingface.co/api/daily_papers"
+tier = "primary"
+lang = "en"
+
+# ---- press -------------------------------------------------------------------
+[[feed]]
+name = "TechCrunch AI"
+url = "https://techcrunch.com/category/artificial-intelligence/feed/"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "The Verge AI"
+url = "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "Ars Technica AI"
+url = "https://arstechnica.com/ai/feed/"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "VentureBeat AI"
+url = "https://venturebeat.com/category/ai/feed/"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "MIT Technology Review AI"
+url = "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "Wired AI"
+url = "https://www.wired.com/feed/tag/ai/latest/rss"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "CNBC Technology"
+url = "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+tier = "press"
+lang = "en"
+filter = true
+
+[[feed]]
+name = "Bloomberg Technology"
+url = "https://feeds.bloomberg.com/technology/news.rss"
+tier = "press"
+lang = "en"
+filter = true
+
+[[feed]]
+name = "The Register AI/ML"
+url = "https://www.theregister.com/software/ai_ml/headlines.atom"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "Tom's Hardware"
+url = "https://www.tomshardware.com/feeds/all"
+tier = "press"
+lang = "en"
+filter = true
+
+[[feed]]
+name = "SCMP Tech"
+url = "https://www.scmp.com/rss/36/feed"
+tier = "press"
+lang = "en"
+filter = true
+
+# ---- trade & newsletters -----------------------------------------------------
+[[feed]]
+name = "Simon Willison"
+url = "https://simonwillison.net/atom/everything/"
+tier = "trade"
+lang = "en"
+filter = true
+
+[[feed]]
+name = "The Decoder"
+url = "https://the-decoder.com/feed/"
+tier = "trade"
+lang = "en"
+
+[[feed]]
+name = "Import AI"
+url = "https://importai.substack.com/feed"
+tier = "trade"
+lang = "en"
+
+[[feed]]
+name = "Interconnects"
+url = "https://www.interconnects.ai/feed"
+tier = "trade"
+lang = "en"
+
+[[feed]]
+name = "MarkTechPost"
+url = "https://www.marktechpost.com/feed/"
+tier = "trade"
+lang = "en"
+
+# ---- 中文 ---------------------------------------------------------------------
+[[feed]]
+name = "36氪"
+url = "https://36kr.com/feed"
+tier = "press"
+lang = "zh"
+filter = true
+
+[[feed]]
+name = "量子位"
+url = "https://www.qbitai.com/feed"
+tier = "trade"
+lang = "zh"
+
+[[feed]]
+name = "机器之心"
+url = "https://www.jiqizhixin.com/rss"
+tier = "trade"
+lang = "zh"
+
+[[feed]]
+name = "IT之家"
+url = "https://www.ithome.com/rss/"
+tier = "trade"
+lang = "zh"
+filter = true
+
+[[feed]]
+name = "虎嗅"
+url = "https://www.huxiu.com/rss/0.xml"
+tier = "trade"
+lang = "zh"
+filter = true
+
+# ---- Google News (breadth: many outlets per story) ---------------------------
+[[feed]]
+name = "Google News · AI"
+kind = "gnews"
+query = "artificial intelligence OR LLM OR \"AI model\""
+locale = "en"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "Google News · labs"
+kind = "gnews"
+query = "OpenAI OR Anthropic OR \"Google DeepMind\" OR xAI OR \"Meta AI\" OR Mistral"
+locale = "en"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "Google News · AI chips"
+kind = "gnews"
+query = "Nvidia OR TSMC OR HBM OR \"SK Hynix\" OR \"AI chip\" OR \"data center\""
+locale = "en"
+tier = "press"
+lang = "en"
+
+[[feed]]
+name = "Google News · 人工智能"
+kind = "gnews"
+query = "人工智能 OR 大模型 OR 智能体"
+locale = "zh"
+tier = "press"
+lang = "zh"
+
+[[feed]]
+name = "Google News · 中国AI公司"
+kind = "gnews"
+query = "DeepSeek OR 通义千问 OR 月之暗面 OR 智谱 OR 豆包 OR 昇腾 OR MiniMax"
+locale = "zh"
+tier = "press"
+lang = "zh"
+
+# ---- community signals --------------------------------------------------------
+[[feed]]
+name = "Hacker News"
+kind = "hn"
+url = "https://hn.algolia.com/api/v1/search_by_date"
+min_points = 60
+tier = "social"
+lang = "en"
+filter = true

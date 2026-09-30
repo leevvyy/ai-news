@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any, Iterator
 
 from .config import Config
+from .market import Prices, load_prices
 
 Issue = dict[str, Any]
 Item = dict[str, Any]
@@ -76,6 +77,10 @@ class Archive:
     cfg: Config
     _daily: dict[date, Issue] = field(default_factory=dict, repr=False)
     _weekly: dict[str, Issue] = field(default_factory=dict, repr=False)
+
+    @cached_property
+    def prices(self) -> Prices:
+        return load_prices(self.cfg.prices_path)
 
     # dailies
     def daily_path(self, d: date) -> Path:

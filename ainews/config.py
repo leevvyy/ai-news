@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from datetime import timedelta, timezone, tzinfo
 from pathlib import Path
 from types import MappingProxyType
-from typing import Mapping
+from typing import Any, Mapping
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -54,6 +54,7 @@ class Config:
     leads: int
     max_leads_per_entity: int
     briefs: int
+    china_quota: int
     dedupe_lookback_days: int
     title_jaccard_threshold: float
     dashboard_days: int
@@ -72,6 +73,8 @@ class Config:
     publish_target: str
     site_title: str
     known_domains: Mapping[str, KnownDomain]
+    market: Mapping[str, Any]
+    harvest: Mapping[str, Any]
 
     # ---- derived -------------------------------------------------------
     @property
@@ -81,6 +84,14 @@ class Config:
     @property
     def tz_label(self) -> str:
         return f"UTC{self.utc_offset_hours:+d}"
+
+    @property
+    def raw_data(self) -> Path:
+        return self.root / "data" / "raw"
+
+    @property
+    def prices_path(self) -> Path:
+        return self.root / "data" / "market" / "prices.csv"
 
     @property
     def daily_data(self) -> Path:
@@ -149,6 +160,7 @@ def load_config(root: Path | str = ROOT) -> Config:
         grace_hours=int(sch["grace_hours"]),
         leads=int(iss["leads"]),
         max_leads_per_entity=int(iss.get("max_leads_per_entity", 2)),
+        china_quota=int(iss.get("china_quota", 0)),
         briefs=int(iss["briefs"]),
         dedupe_lookback_days=int(iss["dedupe_lookback_days"]),
         title_jaccard_threshold=float(iss["title_jaccard_threshold"]),
@@ -168,4 +180,6 @@ def load_config(root: Path | str = ROOT) -> Config:
         publish_target=str(pub.get("target", "github-pages")),
         site_title=str(pub.get("title", "AI Daily")),
         known_domains=MappingProxyType(_load_domains(root / "sources.toml")),
+        market=MappingProxyType(raw.get("market", {})),
+        harvest=MappingProxyType(raw.get("harvest", {})),
     )

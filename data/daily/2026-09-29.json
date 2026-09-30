@@ -142,9 +142,7 @@
         "Saachi Jain",
         "Sam Altman"
       ],
-      "tickers": [
-        "MSFT"
-      ],
+      "tickers": [],
       "published_at": "2026-09-28T18:00:00Z",
       "sources": [
         {
@@ -254,9 +252,7 @@
         "Anthropic",
         "Claude Opus 5.5"
       ],
-      "tickers": [
-        "MSFT"
-      ],
+      "tickers": [],
       "published_at": "2026-09-29T17:00:00Z",
       "sources": [
         {
@@ -551,10 +547,7 @@
         "Microsoft",
         "SoftBank"
       ],
-      "tickers": [
-        "MSFT",
-        "9984.T"
-      ],
+      "tickers": [],
       "published_at": "2026-09-29T18:30:00Z",
       "sources": [
         {
@@ -945,9 +938,7 @@
       "entities": [
         "OpenAI"
       ],
-      "tickers": [
-        "MSFT"
-      ],
+      "tickers": [],
       "published_at": "2026-09-29T14:00:00Z",
       "sources": [
         {
@@ -1249,146 +1240,6 @@
       "rank": 14
     },
     {
-      "id": "openai-pro-500-ultrafast",
-      "title": "OpenAI adds $500/month 'Pro 500' ChatGPT plan with Ultrafast tier, trims limits on $200 Pro",
-      "summary": "OpenAI introduced Pro 500, a $500/month ChatGPT plan with its highest usage limits (25x Plus) and access to 'Ultrafast', a premium speed tier. Ultrafast is available now for GPT-6 Astra in Codex, ChatGPT Work and the API, with GPT-6.1 Sol support 'coming soon'. It offers up to 8x faster token generation in Codex (reported up to 6x in the API, up to ~300 tokens/s). The existing $200 Pro tier remains but with reduced usage allowances.",
-      "why_it_matters": "OpenAI is now charging for inference speed as a separate product for heavy agentic-coding users, and the $200 plan's limits are being squeezed. Expect rival premium coding plans to answer on both speed and price.",
-      "key_numbers": [
-        "$500/month",
-        "25x Plus usage limits",
-        "up to 8x faster in Codex",
-        "up to ~300 tokens/s"
-      ],
-      "topic": "products",
-      "region": "us",
-      "entities": [
-        "OpenAI",
-        "ChatGPT Pro",
-        "Codex",
-        "GPT-6 Astra"
-      ],
-      "tickers": [],
-      "published_at": "2026-09-29T17:57:00Z",
-      "sources": [
-        {
-          "url": "https://x.com/OpenAI/status/2104993967985381673",
-          "outlet": "OpenAI (X)",
-          "lang": "en",
-          "tier": "primary",
-          "title": "Ultrafast is available today for GPT-6 Astra in Codex, ChatGPT Work, and the API, with GPT-6.1 Sol coming soon..."
-        },
-        {
-          "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "outlet": "OpenAI Help Center",
-          "lang": "en",
-          "tier": "primary",
-          "title": "About ChatGPT Pro tiers"
-        },
-        {
-          "url": "https://www.engadget.com/2272106/openai-adds-dollar500-pro-subscription-nerfs-its-existing-dollar200-tier/",
-          "outlet": "Engadget",
-          "lang": "en",
-          "tier": "press",
-          "title": "OpenAI adds $500(!) Pro subscription, nerfs its existing $200 tier"
-        },
-        {
-          "url": "https://tech.yahoo.com/ai/chatgpt/articles/chatgpts-plan-costs-500-month-171502745.html",
-          "outlet": "Yahoo Tech",
-          "lang": "en",
-          "tier": "press",
-          "title": "ChatGPT's new plan costs $500 a month"
-        }
-      ],
-      "coverage": 6,
-      "impact": 0.4,
-      "novelty": 0.4,
-      "confidence_note": "The 6x API speedup and ~300 tokens/s figures come from a third-party X account (AGTP), not OpenAI. The published_at is taken from the Snowflake ID of OpenAI's X post.",
-      "score": {
-        "total": 59.7,
-        "components": {
-          "impact": 0.4,
-          "novelty": 0.4,
-          "credibility": 0.912,
-          "breadth": 0.632,
-          "momentum": 0.997
-        },
-        "coverage": 6,
-        "mentions": 8,
-        "baseline": 0.4,
-        "verified": true
-      },
-      "placement": "brief",
-      "rank": 15
-    },
-    {
-      "id": "trump-eo-rename-ai-super-intelligence",
-      "title": "Trump executive order renames 'artificial intelligence' as 'Super Intelligence' across the executive branch",
-      "summary": "Trump signed an executive order titled 'Inaugurating the Era of Super Intelligence'. It tells federal agencies to use 'Super Intelligence'/'SI' in place of 'Artificial Intelligence'/'AI' in official correspondence, websites, reports, policy papers and other non-statutory documents. The order asks the Assistant to the President for Science and Technology to propose a federal definition of SI. According to Nextgov, White House officials and OSTP are to propose statutory updates within 60 days so the term carries into federal law. It was issued hours after the White House AI accord was signed.",
-      "why_it_matters": "The rename is largely symbolic, but any new statutory definition of 'SI' could shift the scope of existing federal AI rules, procurement language and compliance obligations. CNBC framed the move against polls showing Trump losing ground on AI.",
-      "key_numbers": [
-        "60 days for proposed statutory updates (per Nextgov)"
-      ],
-      "topic": "policy",
-      "region": "us",
-      "entities": [
-        "The White House",
-        "Donald Trump",
-        "Office of Science and Technology Policy"
-      ],
-      "tickers": [],
-      "published_at": "2026-09-29T21:00:00Z",
-      "sources": [
-        {
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
-          "outlet": "The White House",
-          "lang": "en",
-          "tier": "primary",
-          "title": "Inaugurating The Era Of Super Intelligence"
-        },
-        {
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
-          "outlet": "The White House",
-          "lang": "en",
-          "tier": "primary",
-          "title": "Fact Sheet: President Donald J. Trump Inaugurates The Era of Super Intelligence"
-        },
-        {
-          "url": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
-          "outlet": "CNBC",
-          "lang": "en",
-          "tier": "press",
-          "title": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue"
-        },
-        {
-          "url": "https://www.foxbusiness.com/politics/trump-signs-executive-order-rebranding-ai-super-intelligence-tech-titans-ink-separate-accord",
-          "outlet": "Fox Business",
-          "lang": "en",
-          "tier": "press",
-          "title": "Trump signs executive order rebranding AI as 'Super Intelligence' as tech titans ink separate SI accord"
-        }
-      ],
-      "coverage": 5,
-      "impact": 0.35,
-      "novelty": 0.6,
-      "confidence_note": "Reports say the order came 'hours after' the lunch on 29 Sep. The signing time is not verified and could fall just after the window closed at 22:00Z. This could be merged into the accord item.",
-      "score": {
-        "total": 59.0,
-        "components": {
-          "impact": 0.35,
-          "novelty": 0.6,
-          "credibility": 0.879,
-          "breadth": 0.565,
-          "momentum": 0.865
-        },
-        "coverage": 5,
-        "mentions": 2,
-        "baseline": 0.0,
-        "verified": true
-      },
-      "placement": "noted",
-      "rank": 16
-    },
-    {
       "id": "deepseek-harness-v0-2-desktop-preview",
       "title": "DeepSeek ships Harness v0.2 preview agent app with macOS and Windows desktop installers and plugin manager",
       "original_title": "DeepSeek Harness 桌面端预览版 v0.2 发布，支持插件安装与自动化任务",
@@ -1460,6 +1311,147 @@
         "coverage": 6,
         "mentions": 1,
         "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15,
+      "quota": "cn"
+    },
+    {
+      "id": "openai-pro-500-ultrafast",
+      "title": "OpenAI adds $500/month 'Pro 500' ChatGPT plan with Ultrafast tier, trims limits on $200 Pro",
+      "summary": "OpenAI introduced Pro 500, a $500/month ChatGPT plan with its highest usage limits (25x Plus) and access to 'Ultrafast', a premium speed tier. Ultrafast is available now for GPT-6 Astra in Codex, ChatGPT Work and the API, with GPT-6.1 Sol support 'coming soon'. It offers up to 8x faster token generation in Codex (reported up to 6x in the API, up to ~300 tokens/s). The existing $200 Pro tier remains but with reduced usage allowances.",
+      "why_it_matters": "OpenAI is now charging for inference speed as a separate product for heavy agentic-coding users, and the $200 plan's limits are being squeezed. Expect rival premium coding plans to answer on both speed and price.",
+      "key_numbers": [
+        "$500/month",
+        "25x Plus usage limits",
+        "up to 8x faster in Codex",
+        "up to ~300 tokens/s"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "ChatGPT Pro",
+        "Codex",
+        "GPT-6 Astra"
+      ],
+      "tickers": [],
+      "published_at": "2026-09-29T17:57:00Z",
+      "sources": [
+        {
+          "url": "https://x.com/OpenAI/status/2104993967985381673",
+          "outlet": "OpenAI (X)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Ultrafast is available today for GPT-6 Astra in Codex, ChatGPT Work, and the API, with GPT-6.1 Sol coming soon..."
+        },
+        {
+          "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+          "outlet": "OpenAI Help Center",
+          "lang": "en",
+          "tier": "primary",
+          "title": "About ChatGPT Pro tiers"
+        },
+        {
+          "url": "https://www.engadget.com/2272106/openai-adds-dollar500-pro-subscription-nerfs-its-existing-dollar200-tier/",
+          "outlet": "Engadget",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI adds $500(!) Pro subscription, nerfs its existing $200 tier"
+        },
+        {
+          "url": "https://tech.yahoo.com/ai/chatgpt/articles/chatgpts-plan-costs-500-month-171502745.html",
+          "outlet": "Yahoo Tech",
+          "lang": "en",
+          "tier": "press",
+          "title": "ChatGPT's new plan costs $500 a month"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "confidence_note": "The 6x API speedup and ~300 tokens/s figures come from a third-party X account (AGTP), not OpenAI. The published_at is taken from the Snowflake ID of OpenAI's X post.",
+      "score": {
+        "total": 59.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.912,
+          "breadth": 0.632,
+          "momentum": 0.997
+        },
+        "coverage": 6,
+        "mentions": 8,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "trump-eo-rename-ai-super-intelligence",
+      "title": "Trump executive order renames 'artificial intelligence' as 'Super Intelligence' across the executive branch",
+      "summary": "Trump signed an executive order titled 'Inaugurating the Era of Super Intelligence'. It tells federal agencies to use 'Super Intelligence'/'SI' in place of 'Artificial Intelligence'/'AI' in official correspondence, websites, reports, policy papers and other non-statutory documents. The order asks the Assistant to the President for Science and Technology to propose a federal definition of SI. According to Nextgov, White House officials and OSTP are to propose statutory updates within 60 days so the term carries into federal law. It was issued hours after the White House AI accord was signed.",
+      "why_it_matters": "The rename is largely symbolic, but any new statutory definition of 'SI' could shift the scope of existing federal AI rules, procurement language and compliance obligations. CNBC framed the move against polls showing Trump losing ground on AI.",
+      "key_numbers": [
+        "60 days for proposed statutory updates (per Nextgov)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "The White House",
+        "Donald Trump",
+        "Office of Science and Technology Policy"
+      ],
+      "tickers": [],
+      "published_at": "2026-09-29T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+          "outlet": "The White House",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Inaugurating The Era Of Super Intelligence"
+        },
+        {
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+          "outlet": "The White House",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Fact Sheet: President Donald J. Trump Inaugurates The Era of Super Intelligence"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue"
+        },
+        {
+          "url": "https://www.foxbusiness.com/politics/trump-signs-executive-order-rebranding-ai-super-intelligence-tech-titans-ink-separate-accord",
+          "outlet": "Fox Business",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump signs executive order rebranding AI as 'Super Intelligence' as tech titans ink separate SI accord"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.35,
+      "novelty": 0.6,
+      "confidence_note": "Reports say the order came 'hours after' the lunch on 29 Sep. The signing time is not verified and could fall just after the window closed at 22:00Z. This could be merged into the accord item.",
+      "score": {
+        "total": 59.0,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.565,
+          "momentum": 0.865
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 0.0,
         "verified": true
       },
       "placement": "noted",

@@ -17,12 +17,17 @@ explicit importance model, archived here, and published as a living dashboard.
 | Beats | models, labs & open weights · research · products & agents · business & funding · compute & chips · policy & safety |
 | Sources | primary-first; Chinese-language sources translated to English (original headline kept) |
 | Ranking | $I = 100\sum_k w_k s_k$ over impact, novelty, credibility, breadth, momentum ([METHODOLOGY.md](METHODOLOGY.md)) |
+| China desk | ≥ 2 China stories among leads + briefs (visible "quota pick" swaps) plus a 中国 desk section |
+| Markets | tickers in the news get a market-model event study: AR by session, CAR[0,2], t-stat; weekly mean CAR by topic with a 95% CI |
+| Harvester | nightly GitHub Action pulls ~35 feeds/APIs (EN + 中文, Google News, HF papers, HN) and prices, because the routine's sandbox cannot reach them |
 
 ## How it works
 
 ```mermaid
 flowchart LR
-    R["Routine fires<br/>05:48 UTC+8"] --> W["ainews window<br/>+ new"]
+    HV["Harvest Action<br/>05:07 UTC+8"] --> RAW["data/raw/DATE.json<br/>+ data/market/prices.csv"]
+    RAW --> W
+    R["Routine fires<br/>05:48 UTC+8"] --> W["ainews window · new · raw"]
     W --> S["3 research desks<br/>EN labs · EN business/policy · 中文"]
     S --> J["data/daily/DATE.json<br/>(research JSON)"]
     J --> B["ainews build<br/>validate → dedupe → score → place"]
@@ -43,13 +48,16 @@ rebuild every generated file and fail on any drift or hand edit.
 ```
 config.toml            tunables: schedule, weights, tier reliabilities, lead count, artifact URL, publish flag
 sources.toml           research checklist + domain → tier map (EN + 中文)
+feeds.toml             harvester sources (RSS/Atom, Google News queries, HF papers, HN)
 RUNBOOK.md             the routine's step-by-step instructions
 METHODOLOGY.md         scoring, placement, window and dedupe maths
 ainews/                pipeline package (python3 -m ainews …)
-  config.py archive.py timewin.py validate.py dedupe.py scoring.py aggregate.py
+  config.py archive.py timewin.py validate.py dedupe.py scoring.py aggregate.py market.py harvest.py
   render_md.py dashboard.py site.py cli.py templates/dashboard.html
 data/daily/DATE.json   research + scores (source of truth)
 data/weekly/WEEK.json  weekly themes (+ back-fill items for weeks without dailies)
+data/raw/DATE.json     nightly harvest (30-day retention in the tree)
+data/market/prices.csv tidy daily closes for tickers in the news + benchmarks
 issues/                generated Markdown (do not edit)
 artifacts/latest.html  generated living dashboard (do not edit)
 scripts/calibration.py score-component spread and correlation report
@@ -66,6 +74,9 @@ python3 -m ainews weekly 2026-W40        # weekly recap (Mondays)
 python3 -m ainews summary                # push-notification text
 python3 -m ainews check                  # CI: validate all + verify generated files are reproducible
 python3 -m ainews site --out site        # static site + Atom feed
+python3 -m ainews raw                    # digest of the latest nightly harvest
+python3 -m ainews harvest                # (network, GitHub Actions) feeds → data/raw, prices → data/market
+python3 -m ainews render                 # re-render all generated files after a price update
 python3 -m unittest discover -s tests    # tests
 python3 scripts/calibration.py           # is each score component still discriminating?
 ```
