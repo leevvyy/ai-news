@@ -1,0 +1,761 @@
+<title>AI Daily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: sticky masthead with date stepper + tabs. Daily = reading column
+   (TL;DR → lead stories → briefs → calendar) beside a 344px data rail
+   (week so far, topic mix, 30-day trend, entities, source languages); one column under 1040px. */
+:root {
+  --bg: #f3f4f7;
+  --surface: #ffffff;
+  --surface-2: #eceef3;
+  --ink: #13141b;
+  --ink-2: #434655;
+  --muted: #676b7c;
+  --line: #dadde6;
+  --accent: #4a3aa7;
+  --accent-soft: #ebe8fa;
+  --warn-ink: #8a5a00;
+  --warn-soft: #fff1cc;
+  --t-models: #2a78d6;
+  --t-research: #eb6834;
+  --t-products: #1baf7a;
+  --t-business: #eda100;
+  --t-compute: #e87ba4;
+  --t-policy: #008300;
+  --c1: #2f2478; --c2: #4a3aa7; --c3: #6b5cc4; --c4: #8e82d6; --c5: #b0a6e4;
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --step--1: 0.8125rem; --step-0: 0.9375rem; --step-1: 1.0625rem; --step-2: 1.3125rem;
+  --step-3: 1.75rem; --step-4: 2.375rem;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d0e13; --surface: #16171e; --surface-2: #1f212a; --ink: #eceef5; --ink-2: #c1c4d1;
+    --muted: #9095a6; --line: #2b2e3a; --accent: #9d93ee; --accent-soft: #26233f;
+    --warn-ink: #f2bd4b; --warn-soft: #3a2d10;
+    --t-models: #3987e5; --t-research: #d95926; --t-products: #199e70; --t-business: #c98500;
+    --t-compute: #d55181; --t-policy: #008300;
+    --c1: #ddd8fc; --c2: #bcb3f4; --c3: #9489ea; --c4: #7266d2; --c5: #5548b2;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d0e13; --surface: #16171e; --surface-2: #1f212a; --ink: #eceef5; --ink-2: #c1c4d1;
+  --muted: #9095a6; --line: #2b2e3a; --accent: #9d93ee; --accent-soft: #26233f;
+  --warn-ink: #f2bd4b; --warn-soft: #3a2d10;
+  --t-models: #3987e5; --t-research: #d95926; --t-products: #199e70; --t-business: #c98500;
+  --t-compute: #d55181; --t-policy: #008300;
+  --c1: #ddd8fc; --c2: #bcb3f4; --c3: #9489ea; --c4: #7266d2; --c5: #5548b2;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--f-display); font-size: var(--step-0); line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration-color: color-mix(in srgb, var(--accent) 55%, transparent); text-underline-offset: 3px; }
+a:hover { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 16px; }
+@media (min-width: 720px) { .wrap { padding-inline: 28px; } }
+
+/* ---- masthead ---- */
+.mast {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.mast-row { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; padding-block: 12px 0; }
+.brand { display: flex; align-items: baseline; gap: 10px; margin-right: auto; }
+.brand b { font-weight: 700; font-size: var(--step-2); letter-spacing: -0.02em; font-variation-settings: "opsz" 96; }
+.brand span { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
+.stepper { display: flex; align-items: center; gap: 6px; }
+.stepper button, .stepper select {
+  font: inherit; font-size: var(--step--1); color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; height: 34px; cursor: pointer;
+}
+.stepper button { width: 34px; display: grid; place-items: center; }
+.stepper button:disabled { opacity: 0.35; cursor: default; }
+.stepper select { padding: 0 10px; font-family: var(--f-mono); max-width: 60vw; }
+.tabs { display: flex; gap: 4px; margin-top: 10px; overflow-x: auto; }
+.tabs button {
+  font: inherit; font-weight: 600; font-size: var(--step--1); color: var(--muted); background: none; border: 0;
+  padding: 8px 12px 10px; border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tabs button:hover { color: var(--ink); }
+
+/* ---- issue head ---- */
+.issue-head { padding-block: 28px 18px; display: grid; gap: 10px; }
+.eyebrow { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.issue-date { font-size: var(--step-4); font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; font-variation-settings: "opsz" 96; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 4px 0 0; }
+.facts div { display: grid; gap: 1px; }
+.facts dt { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.facts dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+.facts a { color: var(--accent); }
+
+.grid { display: grid; gap: 28px; padding-bottom: 56px; }
+@media (min-width: 1040px) { .grid { grid-template-columns: minmax(0, 1fr) 344px; align-items: start; } }
+.col-main, .col-rail { display: grid; gap: 28px; min-width: 0; }
+@media (min-width: 1040px) { .col-rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 112px); } }
+
+.sec-title { display: flex; align-items: baseline; gap: 10px; font-size: var(--step-1); font-weight: 700; letter-spacing: -0.01em; margin-bottom: 12px; }
+.sec-title small { font-family: var(--f-mono); font-weight: 400; font-size: 0.72rem; color: var(--muted); letter-spacing: 0.02em; }
+
+/* ---- TL;DR ---- */
+.tldr { background: var(--accent-soft); border-radius: var(--radius); padding: 18px 20px; }
+.tldr ol { margin: 0; padding-left: 1.3em; display: grid; gap: 8px; font-family: var(--f-body); font-size: var(--step-1); line-height: 1.45; }
+.tldr li::marker { font-family: var(--f-mono); font-size: 0.8em; color: var(--accent); }
+
+/* ---- lead cards ---- */
+.leads { display: grid; gap: 16px; }
+.lead { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px 14px; display: grid; gap: 10px; min-width: 0; }
+.lead-top { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; }
+.lead-n { font-family: var(--f-mono); font-weight: 600; font-size: 0.8rem; color: var(--muted); }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: var(--step--1); font-weight: 600; color: var(--ink-2); }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; background: var(--muted); }
+.meta { font-size: var(--step--1); color: var(--muted); }
+.tag-zh { font-size: 0.72rem; font-weight: 600; color: var(--ink-2); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; }
+.flag { font-size: 0.72rem; font-weight: 600; color: var(--warn-ink); background: var(--warn-soft); border-radius: 999px; padding: 1px 8px; }
+.score { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-mono); font-size: 0.8rem; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.meter { width: 64px; height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.lead-title { font-size: var(--step-2); font-weight: 700; line-height: 1.2; letter-spacing: -0.015em; font-variation-settings: "opsz" 48; }
+.lead-title a { text-decoration: none; }
+.lead-title a:hover { text-decoration: underline; }
+.orig { margin: -4px 0 0; color: var(--muted); font-size: var(--step--1); }
+.prose { font-family: var(--f-body); font-size: var(--step-1); line-height: 1.55; margin: 0; max-width: 68ch; color: var(--ink); }
+.prose strong { font-family: var(--f-display); font-weight: 700; font-size: 0.92em; }
+.why { color: var(--ink-2); }
+.nums { list-style: none; padding: 0; margin: 2px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.nums li { font-family: var(--f-mono); font-size: 0.78rem; background: var(--surface-2); border-radius: 6px; padding: 3px 8px; }
+.ents { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: var(--step--1); color: var(--muted); margin: 0; }
+.ticker { font-family: var(--f-mono); font-size: 0.75rem; color: var(--ink-2); border: 1px solid var(--line); border-radius: 5px; padding: 0 6px; }
+.srcs { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: var(--step--1); }
+.srcs a { font-weight: 600; }
+.tier { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-left: 5px; }
+.tier.primary { color: var(--accent); }
+.note { font-size: var(--step--1); color: var(--muted); font-style: italic; margin: 0; }
+details.breakdown { border-top: 1px dashed var(--line); padding-top: 8px; }
+details.breakdown summary { cursor: pointer; font-size: var(--step--1); color: var(--muted); font-weight: 600; list-style: none; display: flex; align-items: center; gap: 6px; }
+details.breakdown summary::before { content: "+"; font-family: var(--f-mono); width: 1ch; }
+details.breakdown[open] summary::before { content: "−"; }
+details.breakdown summary::-webkit-details-marker { display: none; }
+.bd { display: grid; gap: 10px; padding-top: 10px; }
+.stack { display: flex; gap: 2px; height: 14px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
+.stack span { display: block; height: 100%; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.75rem; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 3px; flex: none; }
+.tbl-wrap { overflow-x: auto; }
+table.data { border-collapse: collapse; font-size: 0.8rem; font-variant-numeric: tabular-nums; min-width: 100%; }
+table.data th, table.data td { padding: 5px 10px 5px 0; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+table.data th:first-child, table.data td:first-child { text-align: left; }
+table.data th { font-family: var(--f-mono); font-weight: 400; font-size: 0.68rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+table.data tfoot td { font-weight: 700; border-bottom: 0; }
+.bd-foot { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); }
+
+/* ---- briefs ---- */
+.filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.filters button {
+  font: inherit; font-size: 0.78rem; font-weight: 600; color: var(--ink-2); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+}
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.filters button .n { font-family: var(--f-mono); font-weight: 400; opacity: 0.75; }
+.brief-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.brief { display: grid; grid-template-columns: 2.2rem 3rem minmax(0, 1fr); gap: 4px 10px; padding: 12px 16px; border-bottom: 1px solid var(--line); align-items: baseline; }
+.brief:last-child { border-bottom: 0; }
+.brief .rk { font-family: var(--f-mono); font-size: 0.75rem; color: var(--muted); }
+.brief .sc { font-family: var(--f-mono); font-size: 0.8rem; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.brief-body { display: grid; gap: 3px; min-width: 0; }
+.brief-title { font-weight: 600; line-height: 1.3; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.brief-title .dot { transform: translateY(-1px); }
+.brief-sum { margin: 0; font-family: var(--f-body); color: var(--ink-2); line-height: 1.45; }
+.brief-src { margin: 0; font-size: 0.75rem; color: var(--muted); }
+.empty { padding: 16px; color: var(--muted); font-size: var(--step--1); }
+
+/* ---- calendar ---- */
+.cal { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.cal li { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr); gap: 4px 14px; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+.cal li:last-child { border-bottom: 0; }
+.cal .when { font-family: var(--f-mono); font-size: 0.78rem; line-height: 1.3; font-variant-numeric: tabular-nums; }
+.cal .when small { display: block; color: var(--muted); font-size: 0.7rem; }
+.cal .what { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; min-width: 0; }
+.cal .what a, .cal .what span.t { font-weight: 600; }
+.kind { font-family: var(--f-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.conf { font-size: 0.7rem; font-weight: 600; border-radius: 999px; padding: 0 8px; border: 1px solid var(--ink-2); color: var(--ink-2); }
+.conf.confirmed { background: var(--ink-2); color: var(--surface); }
+.conf.rumored { border-style: dashed; color: var(--muted); border-color: var(--muted); }
+
+.noted { margin: 0; padding-left: 1.1em; display: grid; gap: 4px; font-size: var(--step--1); color: var(--ink-2); }
+.noted .sc { font-family: var(--f-mono); color: var(--muted); font-size: 0.75rem; }
+
+/* ---- rail panels ---- */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel h2 { font-size: var(--step-0); font-weight: 700; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.panel h2 small { font-family: var(--f-mono); font-weight: 400; font-size: 0.68rem; color: var(--muted); }
+.wk-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.wk-list li { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: 8px; font-size: var(--step--1); line-height: 1.35; }
+.wk-list .sc { font-family: var(--f-mono); font-weight: 600; color: var(--accent); font-size: 0.78rem; }
+.wk-list .d { display: block; color: var(--muted); font-size: 0.72rem; font-family: var(--f-mono); }
+.hbars { display: grid; gap: 7px; }
+.hrow { display: grid; grid-template-columns: 7.6rem minmax(0, 1fr) 2.6rem; align-items: center; gap: 8px; font-size: 0.78rem; }
+.hrow .hl { color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.htrack { height: 12px; background: var(--surface-2); border-radius: 0 4px 4px 0; }
+.hfill { display: block; height: 100%; min-width: 2px; border-radius: 0 4px 4px 0; background: var(--accent); }
+.hrow .hv { font-family: var(--f-mono); font-variant-numeric: tabular-nums; text-align: right; color: var(--ink); }
+.split { display: flex; gap: 2px; height: 16px; border-radius: 4px; overflow: hidden; }
+.split span { display: block; height: 100%; min-width: 2px; }
+.split-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.78rem; color: var(--ink-2); }
+.split-legend b { font-family: var(--f-mono); font-weight: 600; color: var(--ink); }
+svg.chart { width: 100%; height: auto; display: block; overflow: visible; }
+svg.chart text { fill: var(--muted); font-family: var(--f-mono); font-size: 9px; }
+svg.chart .grid-l { stroke: var(--line); stroke-width: 1; }
+svg.chart .base { stroke: var(--muted); stroke-width: 1; }
+svg.chart .sel { fill: var(--surface-2); }
+svg.chart .hit { fill: transparent; cursor: crosshair; }
+svg.chart .gap-mark { fill: none; stroke: var(--muted); stroke-dasharray: 2 2; }
+details.tv summary { cursor: pointer; font-size: 0.75rem; color: var(--muted); }
+
+/* topic colour classes: fills (SVG) + backgrounds (HTML) */
+.t-models { background: var(--t-models); fill: var(--t-models); }
+.t-research { background: var(--t-research); fill: var(--t-research); }
+.t-products { background: var(--t-products); fill: var(--t-products); }
+.t-business { background: var(--t-business); fill: var(--t-business); }
+.t-compute { background: var(--t-compute); fill: var(--t-compute); }
+.t-policy { background: var(--t-policy); fill: var(--t-policy); }
+.c-impact { background: var(--c1); } .c-novelty { background: var(--c2); } .c-credibility { background: var(--c3); }
+.c-breadth { background: var(--c4); } .c-momentum { background: var(--c5); }
+.l-en { background: var(--ink-2); } .l-zh { background: var(--accent); } .l-other { background: var(--muted); }
+
+/* ---- weekly ---- */
+.wk-head { padding-block: 28px 18px; display: grid; gap: 10px; }
+.wk-head select { font: inherit; font-family: var(--f-mono); font-size: var(--step--1); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; height: 34px; padding: 0 10px; justify-self: start; }
+.headline { font-family: var(--f-body); font-size: var(--step-2); line-height: 1.4; margin: 6px 0 0; max-width: 60ch; }
+.themes { display: grid; gap: 14px; }
+@media (min-width: 720px) { .themes { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.theme { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; display: grid; gap: 8px; align-content: start; }
+.theme h3 { font-size: var(--step-1); font-weight: 700; }
+.theme ul { margin: 0; padding-left: 1.1em; display: grid; gap: 4px; font-size: var(--step--1); }
+.top-tbl td:nth-child(5) { white-space: normal; text-align: left; min-width: 16rem; }
+.top-tbl td .dot { display: inline-block; margin-right: 6px; }
+
+/* ---- method ---- */
+.method { padding-block: 28px 56px; display: grid; gap: 24px; max-width: 860px; }
+.method h1 { font-size: var(--step-3); letter-spacing: -0.02em; }
+.method h2 { font-size: var(--step-1); margin-bottom: 8px; }
+.method p, .method li { font-family: var(--f-body); font-size: var(--step-1); line-height: 1.55; max-width: 70ch; }
+.method math { font-size: 1.15em; }
+.method .eyebrow { font-family: var(--f-mono); font-size: 0.72rem; }
+.method > *, .formula > * { min-width: 0; }
+.formula { display: grid; gap: 12px; }
+table.data.left th, table.data.left td { text-align: left; white-space: normal; }
+table.data.left td.num { text-align: right; white-space: nowrap; }
+details.more summary { cursor: pointer; font-size: 0.75rem; color: var(--muted); margin-top: 4px; }
+.formula { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; overflow-x: auto; }
+.method table.data td, .method table.data th { font-size: 0.85rem; }
+
+#tip {
+  position: fixed; z-index: 50; pointer-events: none; max-width: 260px;
+  background: var(--ink); color: var(--bg); font-size: 0.75rem; line-height: 1.4; border-radius: 8px; padding: 7px 10px;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.18); white-space: pre-line; font-variant-numeric: tabular-nums;
+}
+footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size: 0.75rem; color: var(--muted); font-family: var(--f-mono); }
+@media (prefers-reduced-motion: no-preference) { .lead, .panel { transition: border-color 0.15s ease; } .lead:hover { border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); } }
+@media (max-width: 520px) {
+  .issue-date { font-size: var(--step-3); }
+  .lead { padding: 16px; }
+  .score { margin-left: 0; }
+  .brief { grid-template-columns: 2.6rem minmax(0, 1fr); }
+  .brief .rk { display: none; }
+}
+</style>
+<!--BODY-->
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <div class="brand"><b>AI Daily</b><span id="brand-sub">06:00 UTC+8</span></div>
+      <div class="stepper" id="stepper">
+        <button type="button" id="prev" aria-label="Previous issue">‹</button>
+        <select id="date-select" aria-label="Choose issue"></select>
+        <button type="button" id="next" aria-label="Next issue">›</button>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Views">
+      <button type="button" role="tab" id="tab-daily" aria-controls="view-daily" aria-selected="true">Daily issue</button>
+      <button type="button" role="tab" id="tab-weekly" aria-controls="view-weekly" aria-selected="false">Weekly recap</button>
+      <button type="button" role="tab" id="tab-method" aria-controls="view-method" aria-selected="false">Method</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section id="view-daily" role="tabpanel" aria-labelledby="tab-daily"></section>
+  <section id="view-weekly" role="tabpanel" aria-labelledby="tab-weekly" hidden></section>
+  <section id="view-method" role="tabpanel" aria-labelledby="tab-method" hidden>
+    <div class="method">
+      <div>
+        <p class="eyebrow">How stories are ranked</p>
+        <h1>Importance score</h1>
+      </div>
+      <div class="formula">
+        <math display="block"><mi>I</mi><mo>=</mo><mn>100</mn><mo>·</mo><munder><mo>∑</mo><mrow><mi>k</mi></mrow></munder><msub><mi>w</mi><mi>k</mi></msub><mspace width="0.15em"></mspace><msub><mi>s</mi><mi>k</mi></msub><mo>,</mo><mspace width="1em"></mspace><msub><mi>s</mi><mi>k</mi></msub><mo>∈</mo><mo>[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>]</mo><mo>,</mo><mspace width="1em"></mspace><munder><mo>∑</mo><mi>k</mi></munder><msub><mi>w</mi><mi>k</mi></msub><mo>=</mo><mn>1</mn></math>
+      </div>
+      <div>
+        <h2>Components and weights</h2>
+        <div class="tbl-wrap"><table class="data left" id="weights-tbl"></table></div>
+      </div>
+      <div>
+        <h2>Computed components</h2>
+        <p>Impact and novelty are rubric judgements made during research. The other three are computed in Python from the sources and the archive, so they cannot drift with the writer's mood.</p>
+        <div class="formula">
+          <math display="block"><msub><mi>s</mi><mtext>cred</mtext></msub><mo>=</mo><mn>1</mn><mo>−</mo><munder><mo>∏</mo><mrow><mi>j</mi><mo>≤</mo><mi>n</mi></mrow></munder><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>r</mi><mrow><mtext>tier</mtext><mo>(</mo><mi>j</mi><mo>)</mo></mrow></msub><mo>)</mo></math>
+          <math display="block"><msub><mi>s</mi><mtext>breadth</mtext></msub><mo>=</mo><mn>1</mn><mo>−</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>c</mi><mo>/</mo><mi>κ</mi></mrow></msup></math>
+          <math display="block"><msub><mi>s</mi><mtext>momentum</mtext></msub><mo>=</mo><mn>1</mn><mo>−</mo><msup><mi>e</mi><mrow><mo>−</mo><msub><mi>m</mi><mi>t</mi></msub><mo>/</mo><mo>(</mo><msub><mi>μ</mi><mn>7</mn></msub><mo>+</mo><mn>1</mn><mo>)</mo></mrow></msup></math>
+        </div>
+        <ul>
+          <li><b>Credibility</b> is a noisy-OR over the <i>n</i> = <span id="topn"></span> most reliable distinct outlet domains <i>j</i>: the probability that at least one of them is reliable, with tier reliabilities <span id="tiers-inline"></span>. Capping <i>n</i> stops a pile of links from saturating it.</li>
+          <li><b>Breadth</b> saturates with <i>c</i>, the number of independent outlets covering the story (<i>κ</i> = <span id="kappa"></span>).</li>
+          <li><b>Momentum</b> is an attention burst: <i>m<sub>t</sub></i> is the number of stories in this issue on the item's primary entity, set against <i>μ</i><sub>7</sub>, that entity's mean stories per day over the previous <span id="bdays"></span> archived days. Four stories on a usually quiet lab score near 1; a lab that is in the news every day needs a bigger burst.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Placement</h2>
+        <p>Items are sorted by <i>I</i>, ties broken by credibility. The first <span id="n-leads"></span> <b>verified</b> items become lead stories (verified means at least one primary source, or at least <span id="n-indep"></span> distinct non-social outlets), with at most <span id="n-cap"></span> leads per primary entity so one company cannot fill the page. The next <span id="n-briefs"></span> become briefs, and everything else is kept as "also noted" for the weekly pool.</p>
+        <p>The "Entities in play" boards weight each story's score fully to its primary entity and by 0.25 to every other entity it names.</p>
+      </div>
+      <div>
+        <h2>Rubrics</h2>
+        <div class="tbl-wrap"><table class="data left">
+          <thead><tr><th>s</th><th>Impact</th><th>Novelty</th></tr></thead>
+          <tbody>
+            <tr><td>1.0</td><td>Shifts the frontier or industry; &gt;100M users or &gt;$10B</td><td>First of its kind</td></tr>
+            <tr><td>0.8</td><td>Major release or deal from a top lab or company</td><td>(interpolate)</td></tr>
+            <tr><td>0.6</td><td>Significant and sector-relevant</td><td>A meaningful step</td></tr>
+            <tr><td>0.4</td><td>Notable but niche</td><td>(interpolate)</td></tr>
+            <tr><td>0.2</td><td>Minor</td><td>Incremental or expected (0.3)</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div>
+        <h2>Worked example</h2>
+        <p id="example-lead"></p>
+        <div class="tbl-wrap"><table class="data" id="example-tbl"></table></div>
+      </div>
+      <div>
+        <h2>Window and dedupe</h2>
+        <p>Each run covers the time since the previous run's window closed (24 h on a normal day, capped at 72 h after missed runs) and is dated by the reader-local date of the window's midpoint. A story is a duplicate of anything in the previous 7 days when it shares a canonical source URL, or when its title's token Jaccard overlap is at least 0.5 with a shared entity. Genuine developments carry a <code>follow_up_of</code> link instead.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="foot"><div class="wrap" id="foot"></div></footer>
+<div id="tip" role="tooltip" hidden></div>
+<script type="application/json" id="payload">__PAYLOAD__</script>
+<script>
+(() => {
+  "use strict";
+  const P = JSON.parse(document.getElementById("payload").textContent);
+  const M = P.meta;
+  const TOPICS = M.topics;
+  const TOPIC_LABEL = Object.fromEntries(TOPICS);
+  const DATES = Object.keys(P.issues).sort();
+  const WEEKS = Object.keys(P.weeklies).sort();
+  const LANG_LABEL = { en: "English", zh: "中文", other: "Other" };
+  const state = { tab: "daily", date: DATES.includes(M.latest) ? M.latest : DATES[DATES.length - 1], week: WEEKS[WEEKS.length - 1] || null, topic: "all" };
+
+  // ---------- tiny DOM helpers ----------
+  const $ = (sel, root = document) => root.querySelector(sel);
+  function h(tag, attrs, ...kids) {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k === "class") el.className = v;
+      else if (k === "style") el.setAttribute("style", v);
+      else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else el.setAttribute(k, v === true ? "" : v);
+    }
+    for (const kid of kids.flat(Infinity)) {
+      if (kid == null || kid === false) continue;
+      el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+    }
+    return el;
+  }
+  const SVGNS = "http://www.w3.org/2000/svg";
+  function s(tag, attrs, ...kids) {
+    const el = document.createElementNS(SVGNS, tag);
+    for (const [k, v] of Object.entries(attrs || {})) if (v != null) el.setAttribute(k, v);
+    for (const kid of kids.flat(Infinity)) if (kid != null) el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+    return el;
+  }
+  const ext = (href, ...kids) => h("a", { href, target: "_blank", rel: "noopener noreferrer" }, ...kids);
+
+  // ---------- formatting ----------
+  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const MONTH = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const WD = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const WEEKDAY = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const utcDate = (iso) => new Date(iso.length === 7 ? iso + "-01T00:00:00Z" : iso.slice(0, 10) + "T00:00:00Z");
+  // o: {weekday: "short"|"long", day: true, month: "short"|"long", year: true}
+  function fmtDay(iso, o) {
+    const d = utcDate(iso), parts = [];
+    if (o.weekday) parts.push((o.weekday === "long" ? WEEKDAY : WD)[d.getUTCDay()]);
+    if (o.day) parts.push(String(d.getUTCDate()));
+    if (o.month) parts.push((o.month === "long" ? MONTH : MON)[d.getUTCMonth()]);
+    if (o.year) parts.push(String(d.getUTCFullYear()));
+    return parts.join(" ");
+  }
+  const pad = (n) => String(n).padStart(2, "0");
+  function localHM(ts) {
+    const d = new Date(new Date(ts).getTime() + M.utc_offset * 3600e3);
+    return `${["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][d.getUTCDay()]} ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`;
+  }
+  const pct = (a, b) => (b ? Math.round((100 * a) / b) : 0);
+  const topicChip = (t) => h("span", { class: "chip" }, h("span", { class: `dot t-${t}` }), TOPIC_LABEL[t]);
+
+  // ---------- tooltip ----------
+  const tip = $("#tip");
+  document.addEventListener("pointermove", (e) => {
+    const el = e.target.closest && e.target.closest("[data-tip]");
+    if (!el) { tip.hidden = true; return; }
+    tip.textContent = el.getAttribute("data-tip");
+    tip.hidden = false;
+    const r = tip.getBoundingClientRect();
+    const x = Math.min(e.clientX + 14, window.innerWidth - r.width - 8);
+    const y = e.clientY + 16 + r.height > window.innerHeight ? e.clientY - r.height - 12 : e.clientY + 16;
+    tip.style.left = `${Math.max(8, x)}px`;
+    tip.style.top = `${y}px`;
+  });
+  document.addEventListener("pointerleave", () => { tip.hidden = true; });
+
+  // ---------- shared chart pieces ----------
+  function hbars(rows, { cls = () => "", fmt = (v) => v, max } = {}) {
+    const top = max ?? Math.max(1, ...rows.map((r) => r.value));
+    return h("div", { class: "hbars" }, rows.map((r) =>
+      h("div", { class: "hrow", "data-tip": r.tip },
+        h("span", { class: "hl" }, r.label),
+        h("span", { class: "htrack" }, r.value > 0 ? h("span", { class: `hfill ${cls(r)}`, style: `width:${(100 * r.value) / top}%` }) : null),
+        h("span", { class: "hv" }, fmt(r.value)))));
+  }
+
+  function roundTop(x, y, w, hgt, r) {
+    r = Math.min(r, w / 2, hgt);
+    return `M${x},${y + hgt}V${y + r}Q${x},${y} ${x + r},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + hgt}Z`;
+  }
+
+  // Stacked columns by topic. days: [{date, counts, missing?}], selected: iso or null.
+  function stackedColumns(days, { selected = null, height = 150, labelEvery = 5, label = (iso) => fmtDay(iso, { day: true, month: "short" }) } = {}) {
+    const W = 320, H = height, ml = 22, mr = 4, mt = 8, mb = 20;
+    const pw = W - ml - mr, ph = H - mt - mb;
+    const totals = days.map((d) => TOPICS.reduce((a, [k]) => a + d.counts[k], 0));
+    const maxV = Math.max(1, ...totals);
+    const step = maxV <= 5 ? 1 : maxV <= 10 ? 2 : maxV <= 25 ? 5 : 10;
+    const top = Math.ceil(maxV / step) * step;
+    const y = (v) => mt + ph - (v / top) * ph;
+    const band = pw / Math.max(days.length, 1);
+    const bw = Math.max(3, Math.min(22, band * 0.68));
+    const svg = s("svg", { class: "chart", viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Stories per day by topic" });
+    for (let v = 0; v <= top; v += step) {
+      svg.append(s("line", { class: v === 0 ? "base" : "grid-l", x1: ml, x2: W - mr, y1: y(v), y2: y(v) }));
+      svg.append(s("text", { x: ml - 5, y: y(v) + 3, "text-anchor": "end" }, v));
+    }
+    days.forEach((d, i) => {
+      const cx = ml + band * i + band / 2, x = cx - bw / 2;
+      if (d.date === selected) svg.append(s("rect", { class: "sel", x: ml + band * i + 1, y: mt, width: band - 2, height: ph, rx: 4 }));
+      let acc = 0;
+      const present = TOPICS.filter(([k]) => d.counts[k] > 0);
+      present.forEach(([k], j) => {
+        const v = d.counts[k];
+        const y0 = y(acc + v), hh = y(acc) - y(acc + v) - (j < present.length - 1 ? 0 : 0);
+        const gap = j > 0 ? 1.5 : 0;
+        const isTop = j === present.length - 1;
+        const hgt = Math.max(0.5, hh - gap);
+        svg.append(isTop ? s("path", { class: `t-${k}`, d: roundTop(x, y0, bw, hgt, 3) })
+                         : s("rect", { class: `t-${k}`, x, y: y0, width: bw, height: hgt }));
+        acc += v;
+      });
+      if (d.missing) svg.append(s("line", { class: "gap-mark", x1: x, x2: x + bw, y1: y(0) - 3, y2: y(0) - 3 }));
+      const lines = [fmtDay(d.date, { weekday: "short", day: true, month: "short" }) + (d.missing ? " · no issue" : ` · ${totals[i]} stories`)]
+        .concat(TOPICS.filter(([k]) => d.counts[k]).map(([k, lab]) => `${lab}: ${d.counts[k]}`));
+      svg.append(s("rect", { class: "hit", x: ml + band * i, y: mt, width: band, height: ph, "data-tip": lines.join("\n") }));
+      if (i % labelEvery === 0 || i === days.length - 1) {
+        if (i === days.length - 1 && i % labelEvery !== 0 && i % labelEvery < labelEvery / 2) return;
+        svg.append(s("text", { x: cx, y: H - 6, "text-anchor": "middle" }, label(d.date)));
+      }
+    });
+    const present = TOPICS.filter(([k]) => days.some((d) => d.counts[k]));
+    const legend = h("div", { class: "legend" }, present.map(([k, lab]) => h("span", {}, h("span", { class: `sw t-${k}` }), lab)));
+    const table = h("details", { class: "tv" }, h("summary", {}, "Table view"),
+      h("div", { class: "tbl-wrap" }, h("table", { class: "data" },
+        h("thead", {}, h("tr", {}, h("th", {}, "Day"), TOPICS.map(([, lab]) => h("th", {}, lab.split(" ")[0])), h("th", {}, "Total"))),
+        h("tbody", {}, days.map((d, i) => h("tr", {}, h("td", {}, d.date + (d.missing ? " (no issue)" : "")),
+          TOPICS.map(([k]) => h("td", {}, d.counts[k])), h("td", {}, totals[i])))))));
+    return [svg, legend, table];
+  }
+
+  function topicRows(counts) {
+    const total = Object.values(counts).reduce((a, b) => a + b, 0);
+    return TOPICS.map(([k, lab]) => ({ key: k, label: lab, value: counts[k] || 0, tip: `${lab}: ${counts[k] || 0} of ${total} (${pct(counts[k] || 0, total)}%)` }));
+  }
+
+  function langSplit(langs) {
+    const total = Object.values(langs).reduce((a, b) => a + b, 0);
+    const keys = ["en", "zh", "other"].filter((k) => langs[k]);
+    return [
+      h("div", { class: "split" }, keys.map((k) => h("span", { class: `l-${k}`, style: `flex:${langs[k]}`, "data-tip": `${LANG_LABEL[k]}: ${langs[k]} source links (${pct(langs[k], total)}%)` }))),
+      h("div", { class: "split-legend" }, keys.map((k) => h("span", {}, h("span", { class: `sw l-${k}` }), " ", LANG_LABEL[k], " ", h("b", {}, `${pct(langs[k], total)}%`), ` (${langs[k]})`))),
+    ];
+  }
+
+  // ---------- daily ----------
+  function scoreBadge(sc) {
+    return h("span", { class: "score", "data-tip": `Importance I = ${sc.total.toFixed(1)} / 100` },
+      `I ${sc.total.toFixed(1)}`, h("span", { class: "meter" }, h("i", { style: `width:${sc.total}%` })));
+  }
+
+  function breakdown(it) {
+    const sc = it.score, W = M.weights;
+    const contrib = M.components.map((k) => ({ k, s: sc.components[k], w: W[k], c: 100 * W[k] * sc.components[k] }));
+    return h("details", { class: "breakdown" }, h("summary", {}, "Score breakdown"),
+      h("div", { class: "bd" },
+        h("div", { class: "stack", role: "img", "aria-label": `Score composition, total ${sc.total}` },
+          contrib.map((c) => h("span", { class: `c-${c.k}`, style: `width:${c.c}%`, "data-tip": `${c.k}: ${c.w.toFixed(2)} × ${c.s.toFixed(3)} = ${c.c.toFixed(1)} pts` }))),
+        h("div", { class: "legend" }, contrib.map((c) => h("span", {}, h("span", { class: `sw c-${c.k}` }), `${c.k} ${c.c.toFixed(1)}`))),
+        h("div", { class: "tbl-wrap" }, h("table", { class: "data" },
+          h("thead", {}, h("tr", {}, ["component", "s_k", "w_k", "points"].map((t) => h("th", {}, t)))),
+          h("tbody", {}, contrib.map((c) => h("tr", {}, h("td", {}, c.k), h("td", {}, c.s.toFixed(3)), h("td", {}, c.w.toFixed(2)), h("td", {}, c.c.toFixed(1))))),
+          h("tfoot", {}, h("tr", {}, h("td", {}, "I"), h("td", {}), h("td", {}), h("td", {}, sc.total.toFixed(1)))))),
+        h("div", { class: "bd-foot" }, `coverage c = ${sc.coverage} · entity baseline μ7 = ${sc.baseline.toFixed(2)} · ${sc.verified ? "verified ✓" : "unverified"}`)));
+  }
+
+  function sources(list, keep = 5) {
+    const li = (src) => h("li", {}, ext(src.url, src.outlet), h("span", { class: `tier ${src.tier}` }, src.tier + (src.lang === "zh" ? " · 中文" : "")));
+    const head = h("ul", { class: "srcs" }, list.slice(0, keep).map(li));
+    if (list.length <= keep) return head;
+    return h("div", {}, head, h("details", { class: "more" }, h("summary", {}, `+${list.length - keep} more sources`), h("ul", { class: "srcs" }, list.slice(keep).map(li))));
+  }
+
+  function leadCard(it, n) {
+    const zh = it.sources.some((x) => x.lang === "zh");
+    return h("article", { class: "lead", id: `story-${it.id}` },
+      h("div", { class: "lead-top" },
+        h("span", { class: "lead-n" }, `#${n}`), topicChip(it.topic),
+        h("span", { class: "meta" }, M.regions[it.region]),
+        zh ? h("span", { class: "tag-zh", title: "Translated from Chinese-language sources" }, "译自中文") : null,
+        scoreBadge(it.score)),
+      h("h3", { class: "lead-title" }, ext(it.sources[0].url, it.title)),
+      it.original_title ? h("p", { class: "orig", lang: "zh" }, "原标题：", it.original_title) : null,
+      h("p", { class: "prose" }, it.summary),
+      h("p", { class: "prose why" }, h("strong", {}, "Why it matters. "), it.why_it_matters),
+      it.key_numbers && it.key_numbers.length ? h("ul", { class: "nums", "aria-label": "Key numbers" }, it.key_numbers.map((k) => h("li", {}, k))) : null,
+      h("p", { class: "ents" }, h("span", {}, it.entities.join(" · ")), (it.tickers || []).map((t) => h("span", { class: "ticker" }, t))),
+      sources(it.sources),
+      it.follow_up_of ? h("p", { class: "note" }, `Follow-up to ${it.follow_up_of}.`) : null,
+      it.confidence_note ? h("p", { class: "note" }, it.confidence_note) : null,
+      breakdown(it));
+  }
+
+  function briefsBlock(briefs) {
+    const wrap = h("section", {}, h("h2", { class: "sec-title" }, "Briefs", h("small", {}, `${briefs.length} ranked ${M.leads + 1}–${M.leads + briefs.length}`)));
+    const counts = {};
+    briefs.forEach((b) => (counts[b.topic] = (counts[b.topic] || 0) + 1));
+    if (state.topic !== "all" && !counts[state.topic]) state.topic = "all";
+    const list = h("ul", { class: "brief-list" });
+    const filters = h("div", { class: "filters", role: "group", "aria-label": "Filter briefs by topic" });
+    const draw = () => {
+      filters.replaceChildren(
+        h("button", { type: "button", "aria-pressed": String(state.topic === "all"), onclick: () => { state.topic = "all"; draw(); } }, "All", h("span", { class: "n" }, briefs.length)),
+        TOPICS.filter(([k]) => counts[k]).map(([k, lab]) => h("button", { type: "button", "aria-pressed": String(state.topic === k), onclick: () => { state.topic = k; draw(); } },
+          h("span", { class: `dot t-${k}` }), lab, h("span", { class: "n" }, counts[k]))));
+      const shown = briefs.filter((b) => state.topic === "all" || b.topic === state.topic);
+      list.replaceChildren(...(shown.length ? shown.map((b) => h("li", { class: "brief" },
+        h("span", { class: "rk" }, `#${b.rank}`),
+        h("span", { class: "sc" }, b.score.total.toFixed(1)),
+        h("div", { class: "brief-body" },
+          h("div", { class: "brief-title" }, h("span", { class: `dot t-${b.topic}`, title: TOPIC_LABEL[b.topic] }), ext(b.sources[0].url, b.title),
+            b.original_title ? h("span", { class: "tag-zh", title: b.original_title }, "译自中文") : null,
+            b.score.verified ? null : h("span", { class: "flag" }, "⚠ unverified")),
+          h("p", { class: "brief-sum" }, b.summary.split(/(?<=[.!?])\s+(?=[A-Z0-9"“(])/)[0]),
+          h("p", { class: "brief-src" }, `${b.sources[0].outlet} · ${TOPIC_LABEL[b.topic]} · ${M.regions[b.region]}`))))
+        : [h("li", { class: "empty" }, "No briefs in this topic today.")]));
+    };
+    draw();
+    wrap.append(filters, list);
+    return wrap;
+  }
+
+  function calendarBlock(cal) {
+    const sec = h("section", {}, h("h2", { class: "sec-title" }, "Upcoming", h("small", {}, `${cal.length} dated events`)));
+    if (!cal.length) { sec.append(h("p", { class: "empty" }, "No dated events on the calendar yet.")); return sec; }
+    sec.append(h("ul", { class: "cal" }, cal.map((ev) => {
+      const approx = ev.date.length === 7;
+      return h("li", {},
+        h("div", { class: "when" }, approx ? fmtDay(ev.date, { month: "short", year: true }) : fmtDay(ev.date, { day: true, month: "short" }),
+          h("small", {}, approx ? "month" : fmtDay(ev.date, { weekday: "short" }))),
+        h("div", { class: "what" }, ev.url ? ext(ev.url, ev.title) : h("span", { class: "t" }, ev.title),
+          h("span", { class: "kind" }, ev.kind), h("span", { class: `conf ${ev.confidence}` }, ev.confidence)));
+    })));
+    return sec;
+  }
+
+  function renderDaily() {
+    const root = $("#view-daily");
+    const iss = P.issues[state.date];
+    if (!iss) { root.replaceChildren(h("p", { class: "empty" }, "No issue for this date.")); return; }
+    const items = iss.items;
+    const leads = items.filter((i) => i.placement === "lead");
+    const briefs = items.filter((i) => i.placement === "brief");
+    const noted = items.filter((i) => i.placement === "noted");
+    const L = iss.langs, nL = L.en + L.zh + L.other;
+    const head = h("section", { class: "issue-head" },
+      h("p", { class: "eyebrow" }, `Issue · news of`),
+      h("h1", { class: "issue-date" }, fmtDay(iss.date, { weekday: "long", day: true, month: "long", year: true })),
+      h("dl", { class: "facts" },
+        h("div", {}, h("dt", {}, `Window (${M.tz_label})`), h("dd", {}, `${localHM(iss.window.start)} → ${localHM(iss.window.end)}`)),
+        h("div", {}, h("dt", {}, "Stories"), h("dd", {}, `${items.length} · ${leads.length} leads`)),
+        h("div", {}, h("dt", {}, "Source links"), h("dd", {}, `EN ${pct(L.en, nL)}% · 中文 ${pct(L.zh, nL)}%`)),
+        h("div", {}, h("dt", {}, "Top score"), h("dd", {}, items.length ? Math.max(...items.map((i) => i.score.total)).toFixed(1) : "–")),
+        iss.md ? h("div", {}, h("dt", {}, "Archive"), h("dd", {}, ext(iss.md, "Markdown ↗"))) : null));
+    const main = h("div", { class: "col-main" },
+      h("section", { class: "tldr", "aria-label": "TL;DR" }, h("h2", { class: "sec-title" }, "TL;DR"), h("ol", {}, iss.tldr.map((t) => h("li", {}, t)))),
+      h("section", {}, h("h2", { class: "sec-title" }, "Lead stories", h("small", {}, "ranked by I, verified only")),
+        h("div", { class: "leads" }, leads.map((it, i) => leadCard(it, i + 1)))),
+      briefs.length ? briefsBlock(briefs) : null,
+      calendarBlock(iss.calendar),
+      noted.length ? h("section", {}, h("h2", { class: "sec-title" }, "Also noted", h("small", {}, "kept for the weekly pool")),
+        h("ul", { class: "noted" }, noted.map((n) => h("li", {}, ext(n.sources[0].url, n.title), " ", h("span", { class: "sc" }, `I ${n.score.total.toFixed(1)}`))))) : null,
+      iss.notes ? h("section", {}, h("h2", { class: "sec-title" }, "Editor's notes"), h("p", { class: "prose" }, iss.notes)) : null);
+
+    const wk = iss.week;
+    const idx = P.trend.findIndex((d) => d.date === state.date);
+    const trendDays = P.trend.slice(Math.max(0, idx - 29), idx + 1);
+    const rail = h("aside", { class: "col-rail", "aria-label": "Data" },
+      h("section", { class: "panel" }, h("h2", {}, "This week so far", h("small", {}, `${fmtDay(wk.from, { day: true, month: "short" })} – ${fmtDay(wk.to, { day: true, month: "short" })} · ${wk.n} stories`)),
+        wk.top.length ? h("ol", { class: "wk-list" }, wk.top.map((r) => h("li", {}, h("span", { class: "sc" }, r.score.toFixed(1)),
+          h("span", {}, ext(r.url, r.title), h("span", { class: "d" }, `${fmtDay(r.date, { weekday: "short", day: true })} · ${TOPIC_LABEL[r.topic]}`)))))
+          : h("p", { class: "empty" }, "The rolling week fills in as issues accumulate.")),
+      h("section", { class: "panel" }, h("h2", {}, "Topic mix", h("small", {}, "7 days")),
+        hbars(topicRows(wk.topics), { cls: (r) => `t-${r.key}` })),
+      h("section", { class: "panel" }, h("h2", {}, "Stories per day", h("small", {}, `${trendDays.length} day${trendDays.length === 1 ? "" : "s"}`)),
+        stackedColumns(trendDays, { selected: state.date, labelEvery: trendDays.length > 14 ? 7 : trendDays.length > 6 ? 3 : 1 })),
+      wk.entities.length ? h("section", { class: "panel" }, h("h2", {}, "Entities in play", h("small", {}, "Σ I · 7 days")),
+        hbars(wk.entities.map((e) => ({ label: e.entity, value: e.weight, tip: `${e.entity}: Σ I = ${e.weight} across ${e.mentions} stor${e.mentions === 1 ? "y" : "ies"}` })), { fmt: (v) => Math.round(v) })) : null,
+      h("section", { class: "panel" }, h("h2", {}, "Source languages", h("small", {}, "today")), langSplit(L)));
+    root.replaceChildren(head, h("div", { class: "grid" }, main, rail));
+  }
+
+  // ---------- weekly ----------
+  function renderWeekly() {
+    const root = $("#view-weekly");
+    if (!state.week) {
+      root.replaceChildren(h("section", { class: "wk-head" }, h("p", { class: "eyebrow" }, "Weekly recap"),
+        h("h1", { class: "issue-date" }, "No recap yet"),
+        h("p", { class: "prose" }, "Recaps publish with the Monday issue and cover Monday to Sunday.")));
+      return;
+    }
+    const w = P.weeklies[state.week];
+    const sel = h("select", { id: "week-select", "aria-label": "Choose week", onchange: (e) => { state.week = e.target.value; renderWeekly(); } },
+      WEEKS.slice().reverse().map((id) => h("option", { value: id, selected: id === state.week }, `${id} · ${fmtDay(P.weeklies[id].start, { day: true, month: "short" })}–${fmtDay(P.weeklies[id].end, { day: true, month: "short" })}`)));
+    const head = h("section", { class: "wk-head" }, h("p", { class: "eyebrow" }, "Weekly recap"),
+      h("h1", { class: "issue-date" }, `${fmtDay(w.start, { day: true, month: "short" })} – ${fmtDay(w.end, { day: true, month: "short", year: true })}`),
+      sel,
+      h("dl", { class: "facts" },
+        h("div", {}, h("dt", {}, "Stories"), h("dd", {}, w.n)),
+        h("div", {}, h("dt", {}, "Daily issues"), h("dd", {}, `${w.daily_issues} of 7${w.backfilled ? " + back-fill" : ""}`)),
+        w.md ? h("div", {}, h("dt", {}, "Archive"), h("dd", {}, ext(w.md, "Markdown ↗"))) : null),
+      w.headline ? h("p", { class: "headline" }, w.headline) : null);
+    const main = h("div", { class: "col-main" },
+      w.themes.length ? h("section", {}, h("h2", { class: "sec-title" }, "Themes"), h("div", { class: "themes" }, w.themes.map((th) =>
+        h("article", { class: "theme" }, h("h3", {}, th.title), h("p", { class: "prose" }, th.summary),
+          th.items.length ? h("ul", {}, th.items.map((r) => h("li", {}, ext(r.url, r.title), " ", h("span", { class: "meta" }, `I ${r.score.toFixed(1)}`)))) : null)))) : null,
+      h("section", {}, h("h2", { class: "sec-title" }, "Top stories", h("small", {}, "by I")),
+        h("div", { class: "panel" }, h("div", { class: "tbl-wrap" }, h("table", { class: "data top-tbl" },
+          h("thead", {}, h("tr", {}, ["#", "I", "Day", "Topic", "Story"].map((t) => h("th", {}, t)))),
+          h("tbody", {}, w.top.map((r, i) => h("tr", {}, h("td", {}, i + 1), h("td", {}, r.score.toFixed(1)),
+            h("td", {}, r.date ? fmtDay(r.date, { weekday: "short", day: true }) : ""),
+            h("td", {}, TOPIC_LABEL[r.topic].split(" ")[0]),
+            h("td", {}, h("span", { class: `dot t-${r.topic}` }), ext(r.url, r.title))))))))));
+    const rail = h("aside", { class: "col-rail" },
+      h("section", { class: "panel" }, h("h2", {}, "Topic mix", h("small", {}, `${w.n} stories`)), hbars(topicRows(w.topics), { cls: (r) => `t-${r.key}` })),
+      h("section", { class: "panel" }, h("h2", {}, "Stories per day"), stackedColumns(w.per_day.map((p) => ({ ...p, missing: !p.issue && !Object.values(p.counts).some(Boolean) })), { labelEvery: 1, height: 140, label: (iso) => fmtDay(iso, { weekday: "short", day: true }) })),
+      w.entities.length ? h("section", { class: "panel" }, h("h2", {}, "Entity leaderboard", h("small", {}, "Σ I")),
+        hbars(w.entities.map((e) => ({ label: e.entity, value: e.weight, tip: `${e.entity}: Σ I = ${e.weight} across ${e.mentions} stories` })), { fmt: (v) => Math.round(v) })) : null,
+      h("section", { class: "panel" }, h("h2", {}, "Source languages"), langSplit(w.langs)));
+    root.replaceChildren(head, h("div", { class: "grid" }, main, rail));
+  }
+
+  // ---------- method ----------
+  function renderMethod() {
+    const labels = { impact: "Who or what changes (users, $, state of the art)", novelty: "First of its kind vs incremental", credibility: "Primary source > press > trade > social", breadth: "Independent outlets covering it", momentum: "Stories on the entity today vs its 7-day baseline" };
+    $("#weights-tbl").replaceChildren(
+      h("thead", {}, h("tr", {}, ["k", "w_k", "", "measures", "source"].map((t) => h("th", {}, t)))),
+      h("tbody", {}, M.components.map((k) => h("tr", {}, h("td", {}, k), h("td", { class: "num" }, M.weights[k].toFixed(2)),
+        h("td", {}, h("span", { class: "htrack", style: "display:block;width:90px" }, h("span", { class: `hfill c-${k}`, style: `width:${M.weights[k] * 100 / 0.4}%` }))),
+        h("td", { style: "text-align:left;white-space:normal" }, labels[k]),
+        h("td", {}, ["impact", "novelty"].includes(k) ? "rubric" : "computed")))));
+    $("#tiers-inline").textContent = ["primary", "press", "trade", "social"].map((t) => `${t} ${M.tiers[t].toFixed(2)}`).join(", ");
+    $("#topn").textContent = M.top_n;
+    $("#n-cap").textContent = M.max_leads_per_entity;
+    $("#kappa").textContent = M.kappa;
+    $("#bdays").textContent = M.baseline_days;
+    $("#n-leads").textContent = M.leads;
+    $("#n-briefs").textContent = M.briefs;
+    $("#n-indep").textContent = M.min_independent;
+    const iss = P.issues[state.date];
+    const lead = iss && iss.items.find((i) => i.placement === "lead");
+    if (!lead) return;
+    $("#example-lead").textContent = `Lead #1 on ${fmtDay(iss.date, { day: true, month: "short" })}: "${lead.title}".`;
+    const rows = M.components.map((k) => [k, lead.score.components[k], M.weights[k]]);
+    $("#example-tbl").replaceChildren(
+      h("thead", {}, h("tr", {}, ["k", "s_k", "w_k", "100·w_k·s_k"].map((t) => h("th", {}, t)))),
+      h("tbody", {}, rows.map(([k, sv, wv]) => h("tr", {}, h("td", {}, k), h("td", {}, sv.toFixed(3)), h("td", {}, wv.toFixed(2)), h("td", {}, (100 * sv * wv).toFixed(1))))),
+      h("tfoot", {}, h("tr", {}, h("td", {}, "I"), h("td", {}), h("td", {}), h("td", {}, lead.score.total.toFixed(1)))));
+  }
+
+  // ---------- shell ----------
+  const dateSel = $("#date-select");
+  dateSel.replaceChildren(...DATES.slice().reverse().map((d) => h("option", { value: d }, fmtDay(d, { weekday: "short", day: true, month: "short", year: true }))));
+  function setDate(d) { if (!P.issues[d]) return; state.date = d; render(); }
+  dateSel.addEventListener("change", (e) => setDate(e.target.value));
+  $("#prev").addEventListener("click", () => setDate(DATES[DATES.indexOf(state.date) - 1]));
+  $("#next").addEventListener("click", () => setDate(DATES[DATES.indexOf(state.date) + 1]));
+  document.addEventListener("keydown", (e) => {
+    if (e.target.closest("input, select, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (state.tab !== "daily") return;
+    if (e.key === "ArrowLeft") setDate(DATES[DATES.indexOf(state.date) - 1]);
+    if (e.key === "ArrowRight") setDate(DATES[DATES.indexOf(state.date) + 1]);
+  });
+  const TABS = ["daily", "weekly", "method"];
+  TABS.forEach((t) => $(`#tab-${t}`).addEventListener("click", () => { state.tab = t; render(); try { history.replaceState(null, "", `#${t}`); } catch (_) {} }));
+
+  function render() {
+    TABS.forEach((t) => { $(`#tab-${t}`).setAttribute("aria-selected", String(state.tab === t)); $(`#view-${t}`).hidden = state.tab !== t; });
+    $("#stepper").hidden = state.tab !== "daily";
+    dateSel.value = state.date;
+    const i = DATES.indexOf(state.date);
+    $("#prev").disabled = i <= 0;
+    $("#next").disabled = i >= DATES.length - 1;
+    $("#brand-sub").textContent = `${state.date === M.latest ? "latest" : "archive"} · 06:00 ${M.tz_label}`;
+    if (state.tab === "daily") renderDaily();
+    else if (state.tab === "weekly") renderWeekly();
+    else renderMethod();
+  }
+
+  // deep links: #daily #weekly #method #2026-09-29 #2026-W39
+  const hash = (location.hash || "").slice(1);
+  if (TABS.includes(hash)) state.tab = hash;
+  else if (P.issues[hash]) state.date = hash;
+  else if (P.weeklies[hash]) { state.week = hash; state.tab = "weekly"; }
+  $("#foot").textContent = `${M.title} · ${DATES.length} issue${DATES.length === 1 ? "" : "s"} embedded · latest ${M.latest} · I = 100·Σ w·s · generated from data/daily/*.json`;
+  render();
+})();
+</script>

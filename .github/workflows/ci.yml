@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.flag.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate archive and verify generated files
+        run: python -m ainews check
+      - name: Build static site + Atom feed
+        run: python -m ainews site --out site
+      - name: Read publish flag
+        id: flag
+        run: |
+          python - <<'EOF' >> "$GITHUB_OUTPUT"
+          import tomllib
+          print("publish=" + str(tomllib.load(open("config.toml", "rb"))["publish"]["enabled"]).lower())
+          EOF
+      - name: Upload Pages artifact
+        if: steps.flag.outputs.publish == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: check
+    if: needs.check.outputs.publish == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
