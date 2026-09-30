@@ -3,8 +3,10 @@
 A daily AI-news digest, researched every morning at **06:00 UTC+8** by a Claude Code routine, scored with an
 explicit importance model, archived here, and published as a living dashboard.
 
-**Read it:** [dashboard](https://claude.ai/artifact/JWKqbkjDyRY4pGhrJpgjz5) (private artifact, one URL, updated
-daily) · [`issues/daily/`](issues/daily) (Markdown archive) · [`issues/weekly/`](issues/weekly) (Monday recaps)
+**Read it:** [leevvyy.github.io/ai-news](https://leevvyy.github.io/ai-news/) (public site) ·
+[Atom feed](https://leevvyy.github.io/ai-news/feed.xml) · [`issues/daily/`](issues/daily) (Markdown archive) ·
+[`issues/weekly/`](issues/weekly) (Monday recaps) · the owner's private
+[dashboard artifact](https://claude.ai/artifact/JWKqbkjDyRY4pGhrJpgjz5)
 
 | | |
 |---|---|
@@ -29,7 +31,7 @@ flowchart LR
     H --> A["Artifact republished<br/>(same URL)"]
     B --> G["git push main"]
     G --> CI["CI: tests + check<br/>+ site/RSS build"]
-    CI -. "publish.enabled" .-> P["GitHub Pages<br/>+ Atom feed"]
+    CI --> P["GitHub Pages<br/>+ Atom feed"]
 ```
 
 Claude does the part that needs judgement: finding, verifying, translating and summarising stories, and setting the
@@ -68,16 +70,20 @@ python3 -m unittest discover -s tests    # tests
 python3 scripts/calibration.py           # is each score component still discriminating?
 ```
 
-## Publishing (built, switched off)
+## Publishing
 
-`python3 -m ainews site` renders `site/`: the dashboard as `index.html`, one static page per daily and weekly issue,
-`archive.html` and an Atom `feed.xml`. CI builds it on every push. To go live:
+Publishing is **on** (`[publish] enabled = true`). Every push to `main` (including the routine's daily commit) runs CI,
+which renders `site/` with `python3 -m ainews site` and deploys it to GitHub Pages at
+<https://leevvyy.github.io/ai-news/>. The site contains:
 
-1. Set `[publish] enabled = true` and `site_url` in `config.toml`.
-2. **GitHub Pages:** this repo is private, so Pages needs GitHub Pro (or make the repo public). Then go to
-   Settings → Pages → Source: GitHub Actions. The `deploy` job in `.github/workflows/ci.yml` does the rest.
-3. **Cloudflare Pages (works with private repos on the free plan):** build command
-   `python3 -m ainews site --out site`, output directory `site`.
+* `index.html`: the dashboard, embedding the last 30 days
+* `daily/DATE.html` and `weekly/WEEK.html`: one static page per issue, without JavaScript
+* `archive.html`: every issue
+* `feed.xml`: an Atom feed with one entry per daily and weekly issue
+
+One-time repository settings this needs: the repo is **public** (Pages on a private repo needs GitHub Pro), and
+**Settings → Pages → Build and deployment → Source** is set to **GitHub Actions**. To pause publishing, set
+`enabled = false`: CI keeps building the site as a check but stops deploying it.
 
 ## Tuning
 

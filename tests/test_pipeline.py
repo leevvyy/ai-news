@@ -69,7 +69,12 @@ class Pipeline(unittest.TestCase):
         self.assertTrue(out.startswith("AI Daily Tue 29 Sep:"))
         out_dir = self.repo.dir / "site"
         self.assertEqual(run("--root", self.root, "site", "--out", str(out_dir))[0], 0)
-        self.assertTrue((out_dir / "index.html").read_text("utf-8").startswith("<!doctype html>"))
+        index = (out_dir / "index.html").read_text("utf-8")
+        self.assertTrue(index.startswith("<!doctype html>"))
+        self.assertIn('type="application/atom+xml" href="feed.xml"', index)
+        self.assertIn('"site_links"', index)
+        self.assertNotIn('"site_links"', (self.repo.dir / "artifacts" / "latest.html").read_text("utf-8"))
+        self.assertIn("Web: https://leevvyy.github.io/ai-news/daily/2026-09-29.html", out)
         self.assertIn("<feed", (out_dir / "feed.xml").read_text("utf-8"))
 
     def test_invalid_issue_blocks_build(self):

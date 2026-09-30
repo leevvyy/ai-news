@@ -73,10 +73,14 @@ def _embed(data: dict[str, Any]) -> str:
 
 
 def render(cfg: Config, archive: Archive, latest: date, *, standalone: bool = False) -> str:
-    tpl = TEMPLATE.read_text("utf-8").replace("__PAYLOAD__", _embed(payload(cfg, archive, latest)))
+    data = payload(cfg, archive, latest)
+    if standalone:  # the static site has an archive and a feed next to index.html; the artifact does not
+        data["meta"]["site_links"] = {"Archive": "archive.html", "Atom feed": "feed.xml"}
+    tpl = TEMPLATE.read_text("utf-8").replace("__PAYLOAD__", _embed(data))
     head, _, body = tpl.partition(_MARK)
     if not standalone:
         return head.rstrip() + "\n" + body.lstrip()
+    feed = f'<link rel="alternate" type="application/atom+xml" href="feed.xml" title="{cfg.site_title}">\n'
     return ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
-            f"{head.strip()}\n</head>\n<body>\n{body.strip()}\n</body>\n</html>\n")
+            f"{feed}{head.strip()}\n</head>\n<body>\n{body.strip()}\n</body>\n</html>\n")
