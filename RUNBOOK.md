@@ -32,7 +32,8 @@ python3 -m ainews raw > /tmp/harvest.txt          # digest of tonight's harvest 
 
 `raw` digests the nightly harvest (GitHub Action at 05:07 UTC+8, `data/raw/<date>.json`): multi-outlet **story
 clusters** (EN and 中文) ranked by the number of distinct outlets, primary-source posts, Hugging Face papers by upvotes
-and Hacker News stories by points, each with exact timestamps and URLs. Feed summaries are the outlets' own text, so
+and Hacker News stories by points, each with exact timestamps and URLs. `news.google.com/rss/articles/…` links are
+Google News redirects: never cite them; search the headline and cite the outlet's own URL. Feed summaries are the outlets' own text, so
 they count as "seen" sources. If `raw` says there is no harvest (the Action failed or ran late), research with
 WebSearch only and add a line to `notes`.
 

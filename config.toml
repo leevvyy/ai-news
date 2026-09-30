@@ -78,8 +78,8 @@ watchlist = ["NVDA", "AMD", "AVGO", "TSM", "MU", "MSFT", "GOOGL", "META", "AMZN"
 ".KQ" = "^KS11"
 ".T" = "^N225"
 ".TW" = "^TWII"
-".SS" = "000300.SS"
-".SZ" = "000300.SS"
+".SS" = "000001.SS"               # SSE Composite (Yahoo serves CSI 300 000300.SS with ~no history)
+".SZ" = "399001.SZ"               # SZSE Component
 
 # Nightly harvester (GitHub Actions; the routine's sandbox cannot reach these hosts).
 [harvest]

@@ -7,6 +7,8 @@
 # filter: true keeps only items that match the AI keyword pattern (for general tech/business feeds)
 # tier/lang follow sources.toml. Every run records per-feed status in data/raw/<date>.json → "feeds",
 # so a dead URL shows up there instead of failing silently. Edit freely; no code changes needed.
+# enabled = false keeps a source listed but skipped. Sites that answer 403 to our honest bot User-Agent
+# are respected rather than worked around.
 
 # ---- labs & primary --------------------------------------------------------
 [[feed]]
@@ -34,10 +36,11 @@ tier = "primary"
 lang = "en"
 
 [[feed]]
-name = "Microsoft AI"
-url = "https://blogs.microsoft.com/ai/feed/"
+name = "Microsoft"
+url = "https://blogs.microsoft.com/feed/"
 tier = "primary"
 lang = "en"
+filter = true                     # was blogs.microsoft.com/ai/feed/ (410 Gone on 2026-09-30)
 
 [[feed]]
 name = "NVIDIA Newsroom"
@@ -154,12 +157,14 @@ name = "The Decoder"
 url = "https://the-decoder.com/feed/"
 tier = "trade"
 lang = "en"
+enabled = false                   # 403 to bots (2026-09-30)
 
 [[feed]]
 name = "Import AI"
 url = "https://importai.substack.com/feed"
 tier = "trade"
 lang = "en"
+enabled = false                   # 403 to bots (2026-09-30)
 
 [[feed]]
 name = "Interconnects"
@@ -172,6 +177,7 @@ name = "MarkTechPost"
 url = "https://www.marktechpost.com/feed/"
 tier = "trade"
 lang = "en"
+enabled = false                   # 403 to bots (2026-09-30)
 
 # ---- 中文 ---------------------------------------------------------------------
 [[feed]]
