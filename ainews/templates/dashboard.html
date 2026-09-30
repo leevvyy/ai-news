@@ -140,6 +140,22 @@ h1, h2, h3 { text-wrap: balance; margin: 0; }
 .nums li { font-family: var(--f-mono); font-size: 0.78rem; background: var(--surface-2); border-radius: 6px; padding: 3px 8px; }
 .ents { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: var(--step--1); color: var(--muted); margin: 0; }
 .ticker { font-family: var(--f-mono); font-size: 0.75rem; color: var(--ink-2); border: 1px solid var(--line); border-radius: 5px; padding: 0 6px; }
+.mk { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 1px 7px; font-variant-numeric: tabular-nums; cursor: default; }
+.mk b { color: var(--ink-2); font-weight: 600; }
+.mk.sig { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); }
+.mk.sig b { color: var(--accent); }
+.desk { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.desk li { padding: 10px 16px; border-bottom: 1px solid var(--line); display: grid; gap: 2px; }
+.desk li:last-child { border-bottom: 0; }
+.desk .t { font-weight: 600; }
+.desk .o { font-size: var(--step--1); color: var(--muted); }
+.desk .m { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); }
+.pill { font-size: 0.7rem; font-weight: 600; border-radius: 999px; padding: 0 8px; border: 1px solid var(--line); color: var(--ink-2); }
+.pill.q { border-color: var(--accent); color: var(--accent); }
+table.data.mkt td:nth-child(2) { text-align: left; white-space: normal; min-width: 9rem; }
+svg.chart .zero { stroke: var(--muted); stroke-width: 1; }
+svg.chart .whisk { stroke: var(--ink-2); stroke-width: 2; stroke-linecap: round; }
+svg.chart .dotring { stroke: var(--surface); stroke-width: 2; }
 .srcs { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: var(--step--1); }
 .srcs a { font-weight: 600; }
 .tier { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-left: 5px; }
@@ -352,6 +368,18 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
         <div class="tbl-wrap"><table class="data" id="example-tbl"></table></div>
       </div>
       <div>
+        <h2>Market read-through</h2>
+        <p>For each ticker a story names, day 0 is the first session of that stock's exchange whose close falls after the story was published. Returns are measured against the stock's home index (S&amp;P 500, KOSPI, Nikkei 225, TAIEX, Hang Seng or CSI 300) with a market model fitted by OLS over 60 sessions ending 10 sessions before day 0:</p>
+        <div class="formula">
+          <math display="block"><msub><mi>AR</mi><mi>t</mi></msub><mo>=</mo><msub><mi>R</mi><mrow><mi>i</mi><mo>,</mo><mi>t</mi></mrow></msub><mo>−</mo><mo>(</mo><mover><mi>α</mi><mo>^</mo></mover><mo>+</mo><mover><mi>β</mi><mo>^</mo></mover><msub><mi>R</mi><mrow><mi>m</mi><mo>,</mo><mi>t</mi></mrow></msub><mo>)</mo><mo>,</mo><mspace width="1em"></mspace><mi>CAR</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><mn>2</mn></munderover><msub><mi>AR</mi><mi>t</mi></msub><mo>,</mo><mspace width="1em"></mspace><mi>t</mi><mo>=</mo><mfrac><mi>CAR</mi><mrow><mover><mi>σ</mi><mo>^</mo></mover><msqrt><mi>n</mi></msqrt></mrow></mfrac></math>
+        </div>
+        <p>Chips turn accent-coloured only when |t| ≥ <span id="t-thr"></span>. Several stories can hit the same stock on the same day and n is small, so read these as descriptive context, never as a trading signal. The weekly recap averages CAR by topic with a 95% Student-t interval.</p>
+      </div>
+      <div>
+        <h2>China desk</h2>
+        <p>At least <span id="cn-q"></span> stories from China appear among the leads and briefs. When the ranking alone would show fewer, the best remaining China stories (verified first) replace the lowest-scoring non-China briefs and are marked "quota pick", so the swap stays visible.</p>
+      </div>
+      <div>
         <h2>Window and dedupe</h2>
         <p>Each run covers the time since the previous run's window closed (24 h on a normal day, capped at 72 h after missed runs) and is dated by the reader-local date of the window's midpoint. A story is a duplicate of anything in the previous 7 days when it shares a canonical source URL, or when its title's token Jaccard overlap is at least 0.5 with a shared entity. Genuine developments carry a <code>follow_up_of</code> link instead.</p>
       </div>
@@ -420,6 +448,19 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
     return `${["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][d.getUTCDay()]} ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`;
   }
   const pct = (a, b) => (b ? Math.round((100 * a) / b) : 0);
+  const pctf = (x, d = 1) => (x == null ? "–" : `${x >= 0 ? "+" : "−"}${Math.abs(100 * x).toFixed(d)}%`);
+  function marketChip(ev) {
+    if (ev.status === "no-data") return h("span", { class: "ticker" }, ev.symbol);
+    if (ev.status !== "ok" && ev.status !== "partial") {
+      const why = { pending: "no session has closed since publication yet", "no-data": "no price data", "short-history": "not enough history for β" }[ev.status] || ev.status;
+      return h("span", { class: "mk", "data-tip": `${ev.symbol}: ${why}` }, ev.symbol, " · ", ev.status);
+    }
+    const sig = ev.t != null && Math.abs(ev.t) >= M.t_threshold;
+    const tip = [`${ev.symbol} vs ${ev.bench} · day 0 ${ev.day0}`, `AR by session: ${ev.ar.map((a) => pctf(a, 2)).join(", ")}`,
+      `CAR[0,${ev.n - 1}] ${pctf(ev.car, 2)} · t ${ev.t == null ? "–" : ev.t.toFixed(2)} · β ${ev.beta.toFixed(2)}`,
+      ev.status === "partial" ? `${ev.n} of ${M.car_days} sessions so far` : "complete"].join("\n");
+    return h("span", { class: `mk${sig ? " sig" : ""}`, "data-tip": tip }, h("b", {}, ev.symbol), ` ${ev.car >= 0 ? "▲" : "▼"} CAR ${pctf(ev.car)} · t ${ev.t == null ? "–" : ev.t.toFixed(1)}`);
+  }
   const topicChip = (t) => h("span", { class: "chip" }, h("span", { class: `dot t-${t}` }), TOPIC_LABEL[t]);
 
   // ---------- tooltip ----------
@@ -557,7 +598,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
       h("p", { class: "prose" }, it.summary),
       h("p", { class: "prose why" }, h("strong", {}, "Why it matters. "), it.why_it_matters),
       it.key_numbers && it.key_numbers.length ? h("ul", { class: "nums", "aria-label": "Key numbers" }, it.key_numbers.map((k) => h("li", {}, k))) : null,
-      h("p", { class: "ents" }, h("span", {}, it.entities.join(" · ")), (it.tickers || []).map((t) => h("span", { class: "ticker" }, t))),
+      h("p", { class: "ents" }, h("span", {}, it.entities.join(" · ")),
+        (it.market && it.market.length ? it.market.map(marketChip) : (it.tickers || []).map((t) => h("span", { class: "ticker" }, t)))),
       sources(it.sources),
       it.follow_up_of ? h("p", { class: "note" }, `Follow-up to ${it.follow_up_of}.`) : null,
       it.confidence_note ? h("p", { class: "note" }, it.confidence_note) : null,
@@ -591,6 +633,65 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
     draw();
     wrap.append(filters, list);
     return wrap;
+  }
+
+  function chinaDesk(items) {
+    const desk = items.filter((i) => i.region === "cn" && i.placement !== "lead");
+    if (!desk.length) return null;
+    return h("section", {}, h("h2", { class: "sec-title" }, "中国 China desk", h("small", {}, `quota ≥ ${M.china_quota} in leads + briefs`)),
+      h("ul", { class: "desk" }, desk.map((it) => h("li", {},
+        h("span", {}, h("span", { class: "t" }, ext(it.sources[0].url, it.title)), " ",
+          it.quota ? h("span", { class: "pill q", title: "Swapped in by the China quota" }, "quota pick") : h("span", { class: "pill" }, it.placement)),
+        it.original_title ? h("span", { class: "o", lang: "zh" }, it.original_title) : null,
+        h("span", { class: "m" }, `I ${it.score.total.toFixed(1)} · ${TOPIC_LABEL[it.topic]} · ${it.sources[0].outlet}`)))));
+  }
+
+  function tickersPanel(items) {
+    // one row per event (symbol, day 0); stories naming the same stock that day share it
+    const byEvent = new Map();
+    items.slice().sort((a, b) => b.score.total - a.score.total).forEach((it) => (it.market || [])
+      .filter((e) => e.status === "ok" || e.status === "partial").forEach((e) => {
+        const k = `${e.symbol}|${e.day0}`;
+        if (byEvent.has(k)) byEvent.get(k).n += 1; else byEvent.set(k, { it, e, n: 1 });
+      }));
+    const rows = [...byEvent.values()].sort((a, b) => Math.abs(b.e.t || 0) - Math.abs(a.e.t || 0));
+    if (!rows.length) return null;
+    const short = (t) => (t.length > 34 ? t.slice(0, 33) + "…" : t);
+    return h("section", { class: "panel" }, h("h2", {}, "Tickers in the news", h("small", {}, "CAR[0,2] · market model")),
+      h("div", { class: "tbl-wrap" }, h("table", { class: "data mkt" },
+        h("thead", {}, h("tr", {}, ["Ticker", "Top story", "CAR", "t"].map((t) => h("th", {}, t)))),
+        h("tbody", {}, rows.slice(0, 8).map(({ it, e, n }) => h("tr", { "data-tip": `${e.symbol} vs ${e.bench} · day 0 ${e.day0}\nnamed by ${n} stor${n === 1 ? "y" : "ies"} today` },
+          h("td", {}, e.symbol),
+          h("td", {}, ext(it.sources[0].url, short(it.title)), n > 1 ? h("span", { class: "meta" }, ` +${n - 1}`) : null),
+          h("td", {}, pctf(e.car)), h("td", {}, e.t == null ? "–" : e.t.toFixed(1))))))));
+  }
+
+  function ciChart(rowsIn) {
+    const rows = rowsIn.filter((r) => r.n > 0);
+    const W = 320, rowH = 26, ml = 92, mr = 44, mt = 6, H = mt + rows.length * rowH + 22;
+    const ext_ = Math.max(0.005, ...rows.flatMap((r) => [Math.abs(r.lo ?? r.mean), Math.abs(r.hi ?? r.mean), Math.abs(r.mean)]));
+    const step = ext_ <= 0.01 ? 0.005 : ext_ <= 0.02 ? 0.01 : ext_ <= 0.05 ? 0.025 : 0.05;
+    const lim = Math.ceil(ext_ / step) * step;
+    const x = (v) => ml + ((v + lim) / (2 * lim)) * (W - ml - mr);
+    const svg = s("svg", { class: "chart", viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Mean CAR by topic with 95% confidence intervals" });
+    for (let v = -lim; v <= lim + 1e-9; v += step) {
+      svg.append(s("line", { class: Math.abs(v) < 1e-9 ? "zero" : "grid-l", x1: x(v), x2: x(v), y1: mt, y2: H - 20 }));
+      svg.append(s("text", { x: x(v), y: H - 6, "text-anchor": "middle" }, `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v * 100).toFixed(step < 0.01 ? 1 : 0)}%`));
+    }
+    rows.forEach((r, i) => {
+      const cy = mt + i * rowH + rowH / 2;
+      svg.append(s("text", { x: ml - 8, y: cy + 3, "text-anchor": "end" }, TOPIC_LABEL[r.topic].split(" ")[0]));
+      if (r.lo != null) svg.append(s("line", { class: "whisk", x1: x(r.lo), x2: x(r.hi), y1: cy, y2: cy }));
+      svg.append(s("circle", { class: `t-${r.topic} dotring`, cx: x(r.mean), cy, r: 5 }));
+      svg.append(s("text", { x: W - mr + 6, y: cy + 3 }, pctf(r.mean)));
+      svg.append(s("rect", { class: "hit", x: ml, y: cy - rowH / 2, width: W - ml - mr, height: rowH,
+        "data-tip": `${TOPIC_LABEL[r.topic]} · n = ${r.n}\nmean CAR ${pctf(r.mean, 2)}` + (r.lo != null ? `\n95% CI [${pctf(r.lo, 2)}, ${pctf(r.hi, 2)}]` : "\n(one event, no interval)") }));
+    });
+    const table = h("details", { class: "tv" }, h("summary", {}, "Table view"), h("div", { class: "tbl-wrap" }, h("table", { class: "data" },
+      h("thead", {}, h("tr", {}, ["Topic", "n", "Mean", "95% CI"].map((t) => h("th", {}, t)))),
+      h("tbody", {}, rows.map((r) => h("tr", {}, h("td", {}, TOPIC_LABEL[r.topic]), h("td", {}, r.n), h("td", {}, pctf(r.mean, 2)),
+        h("td", {}, r.lo == null ? "–" : `${pctf(r.lo, 2)} … ${pctf(r.hi, 2)}`)))))));
+    return [svg, table];
   }
 
   function calendarBlock(cal) {
@@ -630,6 +731,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
       h("section", {}, h("h2", { class: "sec-title" }, "Lead stories", h("small", {}, "ranked by I, verified only")),
         h("div", { class: "leads" }, leads.map((it, i) => leadCard(it, i + 1)))),
       briefs.length ? briefsBlock(briefs) : null,
+      chinaDesk(items),
       calendarBlock(iss.calendar),
       noted.length ? h("section", {}, h("h2", { class: "sec-title" }, "Also noted", h("small", {}, "kept for the weekly pool")),
         h("ul", { class: "noted" }, noted.map((n) => h("li", {}, ext(n.sources[0].url, n.title), " ", h("span", { class: "sc" }, `I ${n.score.total.toFixed(1)}`))))) : null,
@@ -649,6 +751,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
         stackedColumns(trendDays, { selected: state.date, labelEvery: trendDays.length > 14 ? 7 : trendDays.length > 6 ? 3 : 1 })),
       wk.entities.length ? h("section", { class: "panel" }, h("h2", {}, "Entities in play", h("small", {}, "Σ I · 7 days")),
         hbars(wk.entities.map((e) => ({ label: e.entity, value: e.weight, tip: `${e.entity}: Σ I = ${e.weight} across ${e.mentions} stor${e.mentions === 1 ? "y" : "ies"}` })), { fmt: (v) => Math.round(v) })) : null,
+      tickersPanel(items),
       h("section", { class: "panel" }, h("h2", {}, "Source languages", h("small", {}, "today")), langSplit(L)));
     root.replaceChildren(head, h("div", { class: "grid" }, main, rail));
   }
@@ -689,6 +792,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
       h("section", { class: "panel" }, h("h2", {}, "Stories per day"), stackedColumns(w.per_day.map((p) => ({ ...p, missing: !p.issue && !Object.values(p.counts).some(Boolean) })), { labelEvery: 1, height: 140, label: (iso) => fmtDay(iso, { weekday: "short", day: true }) })),
       w.entities.length ? h("section", { class: "panel" }, h("h2", {}, "Entity leaderboard", h("small", {}, "Σ I")),
         hbars(w.entities.map((e) => ({ label: e.entity, value: e.weight, tip: `${e.entity}: Σ I = ${e.weight} across ${e.mentions} stories` })), { fmt: (v) => Math.round(v) })) : null,
+      w.market && w.market.by_topic.length ? h("section", { class: "panel" }, h("h2", {}, "Market read-through", h("small", {}, `${w.market.n_events} events · mean CAR, 95% CI`)), ciChart(w.market.by_topic)) : null,
       h("section", { class: "panel" }, h("h2", {}, "Source languages"), langSplit(w.langs)));
     root.replaceChildren(head, h("div", { class: "grid" }, main, rail));
   }
@@ -705,6 +809,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
     $("#tiers-inline").textContent = ["primary", "press", "trade", "social"].map((t) => `${t} ${M.tiers[t].toFixed(2)}`).join(", ");
     $("#topn").textContent = M.top_n;
     $("#n-cap").textContent = M.max_leads_per_entity;
+    $("#t-thr").textContent = M.t_threshold;
+    $("#cn-q").textContent = M.china_quota;
     $("#kappa").textContent = M.kappa;
     $("#bdays").textContent = M.baseline_days;
     $("#n-leads").textContent = M.leads;

@@ -8,3 +8,5 @@
 * Scoring constants live in `config.toml`; the maths is documented in METHODOLOGY.md. Keep the two in sync.
 * The dashboard template (`ainews/templates/dashboard.html`) is an Artifact page: no doctype/html/head/body tags, theme
   tokens on `:root` with dark overrides, no external requests except Google Fonts.
+* `ainews/harvest.py` and the price fetch in `ainews/market.py` need the internet: they run in GitHub Actions
+  (`.github/workflows/harvest.yml`), not in the routine's sandbox. Everything else must stay network-free.

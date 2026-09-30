@@ -78,7 +78,10 @@ Re-run [`scripts/calibration.py`](scripts/calibration.py) after a few weeks to c
 2. **Leads**: the first 5 *verified* items, with at most 2 leads sharing a primary entity (a diversity constraint,
    so one company's big day cannot fill the page). Verified means ≥ 1 primary source, or ≥ 2 distinct non-social outlets.
 3. **Briefs**: the next 10 items (unverified ones are flagged).
-4. **Also noted**: the rest. They stay in the archive and feed the weekly pool.
+4. **China quota**: if fewer than $q = 2$ items with `region = "cn"` made leads + briefs, the best remaining China
+   items (verified first, then by $I$) replace the lowest-scoring non-China briefs. They carry `"quota": "cn"` and
+   show as "quota pick", so the swap stays visible. Cost: at most $q$ briefs move to "also noted".
+5. **Also noted**: the rest. They stay in the archive and feed the weekly pool.
 
 ## 3. Window
 
@@ -107,7 +110,40 @@ $$
 
 on title token sets **and** they share a canonical entity. Genuine developments carry `follow_up_of`.
 
-## 5. Aggregates
+## 5. Market read-through (event study)
+
+For each ticker a story names (Yahoo symbols; only companies that are a party to the story), with $m$ the stock's
+home index (S&P 500, KOSPI, Nikkei 225, TAIEX, Hang Seng, CSI 300):
+
+* **day 0** is the first session of the stock's exchange whose close falls after the story's `published_at`
+  (exchange time zones and closes: New York 16:00, Hong Kong 16:00, Seoul 15:30, Tokyo 15:30, Taipei 13:30,
+  Shanghai/Shenzhen 15:00);
+* returns $R_t = P_t / P_{t-1} - 1$ on adjusted closes, over sessions both series share;
+* **market model** by OLS over the $L = 60$ sessions ending $G = 10$ sessions before day 0:
+
+$$
+R_{i,t} = \alpha + \beta R_{m,t} + \varepsilon_t, \qquad
+AR_t = R_{i,t} - (\hat\alpha + \hat\beta R_{m,t}), \qquad
+CAR = \sum_{t=0}^{2} AR_t, \qquad
+t = \frac{CAR}{\hat\sigma_\varepsilon \sqrt{n}}
+$$
+
+A chip is highlighted only when $|t| \ge 2$. An **event** is a unique (symbol, day 0): stories naming the same stock
+on the same day share one abnormal return, so the dashboard and the weekly means count it once. The weekly recap
+reports mean CAR by topic with a 95% Student-t interval, $\bar x \pm t_{0.975,\,n-1}\, s/\sqrt{n}$. Events overlap and
+$n$ is small, so these numbers are descriptive and never a trading signal.
+
+Prices come from the nightly harvester (`data/market/prices.csv`, tidy `symbol,date,close`). When the provider restates
+history (splits, dividends), the stored series is rescaled by the median overlap ratio. That leaves every return, and
+therefore every AR, unchanged.
+
+## 6. Harvest clusters
+
+The harvester joins headlines into story clusters by single-link union-find on title tokens (English words and CJK
+character bigrams) with $J \ge 0.4$. A cluster's `n_outlets` is an objective breadth count for the researcher's
+`coverage` field.
+
+## 7. Aggregates
 
 * **This week so far** (daily, minor): the 7 days ending on the issue date. It shows the top 5 stories that are not
   today's leads, the topic mix, and the entities in play.

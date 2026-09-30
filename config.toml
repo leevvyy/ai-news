@@ -12,6 +12,7 @@ grace_hours = 6          # stories up to this long before the window start are a
 leads = 5                        # lead stories (must be verified, see [score.verification])
 max_leads_per_entity = 2         # diversity: at most this many leads share a primary entity
 briefs = 10                      # one-line briefs after the leads
+china_quota = 2                  # at least this many region="cn" items among leads + briefs (swapped in if needed)
 dedupe_lookback_days = 7         # compare new items with this many prior days
 title_jaccard_threshold = 0.5    # token-set Jaccard on titles that flags a probable duplicate
 dashboard_days = 30              # days of history embedded in the living dashboard
@@ -58,6 +59,34 @@ min_independent = 2
 "Meta AI" = "Meta"
 "Microsoft Research" = "Microsoft"
 "AWS" = "Amazon"
+
+# Market read-through: event study on tickers named in the news (ainews/market.py).
+[market]
+estimation_days = 60             # OLS window for alpha, beta (sessions)
+estimation_gap = 10              # sessions between the estimation window and day 0
+car_days = 3                     # CAR over sessions [0, car_days - 1]
+t_threshold = 2.0                # |t| above this is highlighted; below it the chip is grey
+history_days = 400               # first backfill length (calendar days)
+watchlist = ["NVDA", "AMD", "AVGO", "TSM", "MU", "MSFT", "GOOGL", "META", "AMZN", "AAPL",
+             "2330.TW", "005930.KS", "000660.KS", "285A.T", "9984.T", "9988.HK", "0700.HK", "0981.HK"]
+
+# Benchmark by symbol suffix ("" = no suffix, US listing).
+[market.benchmarks]
+"" = "^GSPC"
+".HK" = "^HSI"
+".KS" = "^KS11"
+".KQ" = "^KS11"
+".T" = "^N225"
+".TW" = "^TWII"
+".SS" = "000300.SS"
+".SZ" = "000300.SS"
+
+# Nightly harvester (GitHub Actions; the routine's sandbox cannot reach these hosts).
+[harvest]
+since_hours = 36                 # keep items published this long before the harvest
+cluster_jaccard = 0.4            # title-token Jaccard that joins two headlines into one story cluster
+retention_days = 30              # data/raw files older than this are pruned from the tree
+summary_chars = 600
 
 [artifact]
 url = "https://claude.ai/artifact/JWKqbkjDyRY4pGhrJpgjz5"   # living dashboard (republished each morning)

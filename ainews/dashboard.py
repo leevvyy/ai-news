@@ -12,7 +12,7 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
-from .aggregate import calendar_as_of, lang_split, rolling_week, trend, weekly_view
+from .aggregate import calendar_as_of, lang_split, market_for, rolling_week, trend, weekly_view
 from .archive import Archive, week_bounds
 from .config import COMPONENTS, REGIONS, TOPICS, Config
 
@@ -24,12 +24,13 @@ def payload(cfg: Config, archive: Archive, latest: date) -> dict[str, Any]:
     lo = latest - timedelta(days=cfg.dashboard_days - 1)
     issues: dict[str, Any] = {}
     for d, iss in archive.dailies_between(lo, latest):
+        events = market_for(cfg, archive, iss["items"])
         issues[d.isoformat()] = {
             "date": d.isoformat(),
             "window": iss["window"],
             "tldr": iss["tldr"],
             "notes": iss.get("notes", ""),
-            "items": iss["items"],
+            "items": [{**it, "market": events.get(it["id"], [])} for it in iss["items"]],
             "calendar": calendar_as_of(cfg, archive, d),
             "week": rolling_week(cfg, archive, d),
             "langs": lang_split(iss["items"]),
@@ -58,6 +59,9 @@ def payload(cfg: Config, archive: Archive, latest: date) -> dict[str, Any]:
             "min_independent": cfg.min_independent,
             "max_leads_per_entity": cfg.max_leads_per_entity,
             "top_n": cfg.credibility_top_n,
+            "china_quota": cfg.china_quota,
+            "t_threshold": float(cfg.market.get("t_threshold", 2.0)),
+            "car_days": int(cfg.market.get("car_days", 3)),
             "baseline_days": cfg.momentum_baseline_days,
             "repo": cfg.repo_url,
         },

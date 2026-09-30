@@ -16,7 +16,9 @@ every day needs a bigger burst to score the same.
 Placement: sort by (−I, −s_credibility, id); the first `leads` *verified* items
 become leads, skipping any whose primary entity already has `max_leads_per_entity`
 leads (a diversity constraint); the next `briefs` items are briefs, the rest are
-"noted" (kept for the weekly pool). Verified ⇔ ≥1 primary source, or
+"noted" (kept for the weekly pool). China quota: if fewer than `china_quota` items with
+region "cn" made leads + briefs, the best remaining ones (verified first) replace the
+lowest-scoring non-China briefs and carry `"quota": "cn"`. Verified ⇔ ≥1 primary source, or
 ≥ `min_independent` distinct non-social outlets.
 """
 
@@ -115,6 +117,7 @@ def rank_key(item: Item) -> tuple[float, float, str]:
 def score_and_place(cfg: Config, archive: Archive, items: list[Item], on: date) -> list[Item]:
     """Mutates items (adds score/rank/placement) and returns them in rank order."""
     for it in items:
+        it.pop("quota", None)
         it["score"] = score_item(cfg, archive, it, on, items)
     ranked = sorted(items, key=rank_key)
     leads = 0
@@ -130,11 +133,26 @@ def score_and_place(cfg: Config, archive: Archive, items: list[Item], on: date) 
             rest.append(it)
     for i, it in enumerate(rest):
         it["placement"] = "brief" if i < cfg.briefs else "noted"
+    apply_china_quota(cfg, ranked)
     order = {"lead": 0, "brief": 1, "noted": 2}
     ranked.sort(key=lambda it: (order[it["placement"]], rank_key(it)))
     for i, it in enumerate(ranked, 1):
         it["rank"] = i
     return ranked
+
+
+def apply_china_quota(cfg: Config, ranked: list[Item]) -> None:
+    """Swap the best unplaced China items in for the weakest non-China briefs."""
+    shown = sum(1 for it in ranked if it["placement"] in ("lead", "brief") and it["region"] == "cn")
+    need = cfg.china_quota - shown
+    if need <= 0:
+        return
+    pool = sorted((it for it in ranked if it["placement"] == "noted" and it["region"] == "cn"),
+                  key=lambda it: (not it["score"]["verified"], rank_key(it)))
+    victims = [it for it in reversed(ranked) if it["placement"] == "brief" and it["region"] != "cn"]
+    for add, drop in zip(pool[:need], victims):
+        add["placement"], add["quota"] = "brief", "cn"
+        drop["placement"] = "noted"
 
 
 def item_local_date(cfg: Config, item: Item) -> date:

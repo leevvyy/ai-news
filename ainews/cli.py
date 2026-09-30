@@ -5,6 +5,9 @@
     build    [DATE]                         validate → dedupe → score → place → Markdown + dashboard (+ weekly on Sundays)
     weekly   WEEK                           score back-fill items, validate themes, render the weekly recap
     summary  [DATE]                         text for the routine's push notification
+    raw      [--file PATH] [--top N]        digest of the nightly harvest (clusters, primary items, papers, HN)
+    harvest  [--now TS] [--no-news|--no-prices]   network: feeds → data/raw, prices → data/market (GitHub Actions)
+    render                                  re-render every generated file (after a price update)
     check                                   CI: validate everything and verify generated files are reproducible
     site     [--out DIR]                    static site + Atom feed (publish-ready)
 """
@@ -25,6 +28,7 @@ from .dedupe import find_conflicts
 from .scoring import item_local_date, score_and_place, score_item
 from .site import build_site
 from .timewin import compute_window
+from . import harvest as harvest_mod
 from .validate import Report, validate_daily, validate_weekly
 
 
@@ -123,6 +127,7 @@ def cmd_window(cfg: Config, args: argparse.Namespace) -> int:
         "weekly_due": win.week if win.closes_week else None,
         "recent_items": recent,
         "open_calendar": calendar_as_of(cfg, archive, win.issue_date),
+        "raw_file": str(p.relative_to(cfg.root)) if (p := harvest_mod.latest_raw(cfg)) else None,
     }
     print(json.dumps(out, ensure_ascii=False, indent=2))
     return 0
@@ -242,6 +247,49 @@ def cmd_check(cfg: Config, args: argparse.Namespace) -> int:
     return 1 if failed else 0
 
 
+def cmd_raw(cfg: Config, args: argparse.Namespace) -> int:
+    path = Path(args.file) if args.file else harvest_mod.latest_raw(cfg)
+    if path is None or not path.exists():
+        print("no harvest file in data/raw/ (the nightly harvester has not run yet); research with WebSearch only")
+        return 1
+    print(f"# {path.relative_to(cfg.root) if path.is_absolute() and cfg.root in path.parents else path}")
+    print(harvest_mod.digest(harvest_mod.load_raw(path), args.top))
+    return 0
+
+
+def cmd_harvest(cfg: Config, args: argparse.Namespace) -> int:
+    from datetime import timezone
+    now = _ts(args.now) or datetime.now(timezone.utc).replace(microsecond=0)
+    archive = Archive(cfg)
+    ok = True
+    if not args.no_news:
+        raw = harvest_mod.harvest_news(cfg, now)
+        path = harvest_mod.write_raw(cfg, raw, now)
+        good = sum(f["ok"] for f in raw["feeds"])
+        print(f"news: {raw['n_items']} items, {len(raw['clusters'])} clusters, feeds ok {good}/{len(raw['feeds'])} → "
+              f"{path.relative_to(cfg.root)}")
+        for f in raw["feeds"]:
+            if not f["ok"]:
+                print(f"  feed failed: {f['name']}: {f.get('error', '')}")
+        for gone in harvest_mod.prune_raw(cfg, now.astimezone(cfg.tz).date()):
+            print(f"  pruned {gone.relative_to(cfg.root)}")
+        ok &= good > 0
+    if not args.no_prices:
+        status = harvest_mod.harvest_prices(cfg, archive, now.date())
+        good = sum(st["ok"] for st in status)
+        print(f"prices: {good}/{len(status)} symbols updated → {cfg.prices_path.relative_to(cfg.root)}")
+        for st in status:
+            if not st["ok"]:
+                print(f"  price failed: {st['symbol']}: {st['error']}")
+        ok &= good > 0
+    return 0 if ok else 1
+
+
+def cmd_render(cfg: Config, args: argparse.Namespace) -> int:
+    write_outputs(cfg, render_all(cfg, Archive(cfg)))
+    return 0
+
+
 def cmd_site(cfg: Config, args: argparse.Namespace) -> int:
     written = build_site(cfg, Archive(cfg), Path(args.out))
     print(f"site: {len(written)} files in {args.out}")
@@ -259,8 +307,13 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("weekly"); p.add_argument("week")
     p = sub.add_parser("summary"); p.add_argument("date", nargs="?")
     sub.add_parser("check")
+    p = sub.add_parser("raw"); p.add_argument("--file"); p.add_argument("--top", type=int, default=40)
+    p = sub.add_parser("harvest"); p.add_argument("--now"); p.add_argument("--no-news", action="store_true")
+    p.add_argument("--no-prices", action="store_true")
+    sub.add_parser("render")
     p = sub.add_parser("site"); p.add_argument("--out", default="site")
     args = ap.parse_args(argv)
     cfg = load_config(args.root) if args.root else load_config()
     return {"window": cmd_window, "new": cmd_new, "build": cmd_build, "weekly": cmd_weekly,
-            "summary": cmd_summary, "check": cmd_check, "site": cmd_site}[args.cmd](cfg, args)
+            "summary": cmd_summary, "check": cmd_check, "site": cmd_site, "raw": cmd_raw,
+            "harvest": cmd_harvest, "render": cmd_render}[args.cmd](cfg, args)

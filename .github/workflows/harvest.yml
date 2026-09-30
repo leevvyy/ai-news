@@ -1,0 +1,43 @@
+name: Harvest
+
+# Nightly: news feeds/APIs → data/raw/<date>.json and prices → data/market/prices.csv.
+# Runs where the internet is reachable (the routine's sandbox is not), 41 minutes before
+# the 05:48 UTC+8 routine, which reads the result with `python3 -m ainews raw`.
+on:
+  schedule:
+    - cron: "7 21 * * *"   # 05:07 UTC+8
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Harvest, re-render, verify, commit
+        run: |
+          git config user.name "ai-daily-harvester"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python -m ainews harvest || echo "::warning::harvest reported failures, see the log above"
+            python -m ainews render
+            python -m ainews check
+            git add data/raw data/market issues artifacts
+            if git diff --cached --quiet; then echo "nothing new to commit"; exit 0; fi
+            git commit -q -m "harvest: $(date -u +%Y-%m-%dT%H:%MZ)"
+            if git push -q origin HEAD:main; then echo "pushed"; exit 0; fi
+            echo "push rejected on attempt $attempt; retrying on a fresh main"
+            sleep 15
+          done
+          exit 1

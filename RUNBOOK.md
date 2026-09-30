@@ -24,10 +24,17 @@ test -f RUNBOOK.md -a -d ainews || { echo "scaffolding missing on main"; exit 1;
 python3 -m unittest discover -s tests -q          # must pass
 python3 -m ainews window                          # read the JSON it prints
 python3 -m ainews new                             # writes data/daily/<issue_date>.json skeleton
+python3 -m ainews raw > /tmp/harvest.txt          # digest of tonight's harvest (read it; share with the desks)
 ```
 
 `window` prints `issue_date`, the UTC and UTC+8 window, `recent_items` (the last 7 days, **do not repeat these**),
-`weekly_due` (non-null on Mondays) and `open_calendar` (upcoming events already tracked).
+`weekly_due` (non-null on Mondays), `open_calendar` (upcoming events already tracked) and `raw_file`.
+
+`raw` digests the nightly harvest (GitHub Action at 05:07 UTC+8, `data/raw/<date>.json`): multi-outlet **story
+clusters** (EN and 中文) ranked by the number of distinct outlets, primary-source posts, Hugging Face papers by upvotes
+and Hacker News stories by points, each with exact timestamps and URLs. Feed summaries are the outlets' own text, so
+they count as "seen" sources. If `raw` says there is no harvest (the Action failed or ran late), research with
+WebSearch only and add a line to `notes`.
 
 * If the clone or push is refused, call `add_repo(owner="leevvyy", repo="ai-news", access="push")` and retry.
 * If `RUNBOOK.md`/`ainews/` are missing on `main`, stop and notify: "AI Daily: scaffolding PR not merged yet".
@@ -38,7 +45,9 @@ python3 -m ainews new                             # writes data/daily/<issue_dat
 * **WebSearch: ~200 calls per session, shared with subagents.** Plan about 150 for the daily issue, 25 for the
   Monday weekly and 15 for the calendar. Use date-explicit queries ("September 30 2026 OpenAI", "9月30日 大模型 发布").
 * **WebFetch is blocked for many news domains** by the environment's network policy. `github.com`, `arxiv.org` and some
-  lab sites usually work. When a fetch fails, verify the fact across ≥ 2 independent search results and note it.
+  lab sites usually work. **Start from the harvest**, which already has the text of most feeds, and use WebSearch to
+  confirm, find primary sources and fill gaps. When neither reaches a page, verify across ≥ 2 independent search
+  results and note it.
 * Run the research as **three parallel subagents** (general-purpose, ≤ 50 searches each), one per desk in §2. Give
   each the window, `recent_items`, the item schema in §3 and the no-invention rule. Ask for JSON back, then merge.
 
@@ -46,6 +55,10 @@ python3 -m ainews new                             # writes data/daily/<issue_dat
 
 Only stories first published inside the window (up to 6 h earlier is accepted with a warning, e.g. when a story kept
 developing). Target **20–30 candidates** in total. A quiet day with 12 good items beats 30 padded ones.
+
+Seed each desk with its slice of the harvest digest. Clusters with `n_outlets ≥ 3` are almost always stories. Use a
+cluster's outlet count for `coverage` when it exceeds what you saw yourself. Make sure the China desk returns at least
+**3** solid 中文 stories: the build guarantees ≥ 2 China items among leads + briefs and swaps them in if needed.
 
 | Desk | Beat | Where to look (see `sources.toml`) |
 |---|---|---|
@@ -74,7 +87,7 @@ Keep the `date` and `window` that `new` wrote. Fill `items`, `upcoming`, optiona
   "topic": "models | research | products | business | compute | policy",
   "region": "us | cn | eu | global | other",
   "entities": ["OpenAI", "Microsoft"],          // PRIMARY ENTITY FIRST; canonical names (config.toml aliases)
-  "tickers": ["MSFT"],                          // directly affected listed companies, [] if none
+  "tickers": ["MSFT"],                          // listed companies that are a PARTY to the story, [] if none
   "published_at": "2026-09-29T17:00:00Z",       // first report, UTC; estimate → say so in confidence_note
   "sources": [ {"url": "https://…", "outlet": "OpenAI", "lang": "en|zh|other",
                 "tier": "primary|press|trade|social", "title": "headline at the source"} ],
@@ -88,6 +101,10 @@ Keep the `date` and `window` that `new` wrote. Fill `items`, `upcoming`, optiona
   GitHub/X account); press = established newsroom; trade = specialist media/newsletters; social = X/Reddit/HN/Weibo/Zhihu.
   A lead needs ≥ 1 primary source **or** ≥ 2 distinct non-social outlets; otherwise the build keeps it out of the leads.
 * A roundup or live-blog URL may support **one** item only (the dedupe gate rejects shared URLs).
+* **Tickers** feed the market event study, so tag only the companies that announced, acquired, were acquired, reported
+  or were directly regulated. Don't tag partners, investors or customers "for context": MSFT on every OpenAI story would
+  count one Microsoft price move many times. Use Yahoo symbols (`NVDA`, `2330.TW`, `005930.KS`, `285A.T`, `9988.HK`,
+  `688256.SS`).
 * **Impact** (0–1): 1.0 shifts the frontier or industry (>100M users, >$10B); 0.8 major release or deal from a top
   player; 0.6 significant and sector-relevant; 0.4 notable but niche; 0.2 minor.
   **Novelty**: 1.0 first of its kind; 0.6 a meaningful step; 0.3 incremental or expected; 0.1 rehash.
