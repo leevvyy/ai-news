@@ -253,7 +253,9 @@ def cmd_raw(cfg: Config, args: argparse.Namespace) -> int:
         print("no harvest file in data/raw/ (the nightly harvester has not run yet); research with WebSearch only")
         return 1
     print(f"# {path.relative_to(cfg.root) if path.is_absolute() and cfg.root in path.parents else path}")
-    print(harvest_mod.digest(harvest_mod.load_raw(path), args.top))
+    from datetime import timezone
+    now = _ts(args.now) or datetime.now(timezone.utc)
+    print(harvest_mod.digest(harvest_mod.load_raw(path), args.top, now))
     return 0
 
 
@@ -308,6 +310,7 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("summary"); p.add_argument("date", nargs="?")
     sub.add_parser("check")
     p = sub.add_parser("raw"); p.add_argument("--file"); p.add_argument("--top", type=int, default=40)
+    p.add_argument("--now")
     p = sub.add_parser("harvest"); p.add_argument("--now"); p.add_argument("--no-news", action="store_true")
     p.add_argument("--no-prices", action="store_true")
     sub.add_parser("render")

@@ -153,6 +153,12 @@ class Harvest(unittest.TestCase):
         text = harvest.digest(raw)
         self.assertIn("failed feeds: Broken", text)
 
+    def test_digest_flags_stale_harvest(self):
+        now = datetime(2026, 9, 29, 21, 7, tzinfo=timezone.utc)
+        raw = harvest.harvest_news(self.repo.cfg, now, fetcher=self.fetcher)
+        self.assertNotIn("STALE", harvest.digest(raw, now=now + timedelta(hours=1)))
+        self.assertIn("STALE: this harvest is 11 h old", harvest.digest(raw, now=now + timedelta(hours=11)))
+
     def test_cluster_tokens_cjk_bigrams(self):
         toks = harvest.cluster_tokens("DeepSeek发布新模型")
         self.assertIn("deepseek", toks)
