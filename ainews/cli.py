@@ -195,6 +195,8 @@ def cmd_summary(cfg: Config, args: argparse.Namespace) -> int:
              "Leads: " + " | ".join(f"{it['title']} [{it['score']['total']:.0f}]" for it in leads[1:]),
              f"{len(iss['items'])} stories · topics: " + ", ".join(
                  f"{TOPICS[k].split(' ')[0]} {n}" for k, n in topic_counts(iss["items"]).items() if n)]
+    if cfg.publish_enabled and cfg.site_url:
+        lines.append(f"Web: {cfg.site_url.rstrip('/')}/daily/{d.isoformat()}.html")
     if cfg.artifact_url:
         lines.append(f"Dashboard: {cfg.artifact_url}")
     if cfg.repo_url:

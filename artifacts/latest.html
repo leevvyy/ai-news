@@ -754,7 +754,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
   if (TABS.includes(hash)) state.tab = hash;
   else if (P.issues[hash]) state.date = hash;
   else if (P.weeklies[hash]) { state.week = hash; state.tab = "weekly"; }
-  $("#foot").textContent = `${M.title} · ${DATES.length} issue${DATES.length === 1 ? "" : "s"} embedded · latest ${M.latest} · I = 100·Σ w·s · generated from data/daily/*.json`;
+  $("#foot").replaceChildren(`${M.title} · ${DATES.length} issue${DATES.length === 1 ? "" : "s"} embedded · latest ${M.latest} · I = 100·Σ w·s`,
+    ...Object.entries(M.site_links || {}).flatMap(([label, href]) => [" · ", h("a", { href }, label)]));
   render();
 })();
 </script>

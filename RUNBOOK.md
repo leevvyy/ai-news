@@ -131,6 +131,9 @@ git commit -m "news: <issue_date>"            # Mondays: "news: <issue_date> + w
 git push origin main
 ```
 
+The push triggers CI, which rebuilds the site and deploys it to <https://leevvyy.github.io/ai-news/>. There is
+nothing to publish by hand. If `check` fails in CI, the site is not deployed, so step 4's `check` must be green.
+
 On a non-fast-forward rejection: `git pull --rebase origin main`, rerun `build` + `check`, push again. On a permission
 refusal: `add_repo(..., access="push")`, then retry; as a last resort push the changed files with the GitHub MCP
 `push_files` tool to `main`.

@@ -64,7 +64,7 @@ url = "https://claude.ai/artifact/JWKqbkjDyRY4pGhrJpgjz5"   # living dashboard (
 repo_url = "https://github.com/leevvyy/ai-news"
 
 [publish]
-enabled = false                            # flip to true to deploy the static site from CI
-site_url = ""                              # e.g. https://leevvyy.github.io/ai-news/
+enabled = true                             # CI deploys site/ to GitHub Pages on every push to main
+site_url = "https://leevvyy.github.io/ai-news/"
 target = "github-pages"                    # github-pages | cloudflare-pages
 title = "AI Daily"
