@@ -1,0 +1,149 @@
+# Research checklist and domain → tier map.
+#
+# This is NOT an allow-list: the routine may cite any credible outlet. It serves two purposes:
+#   1. RUNBOOK.md step 2 walks these groups so coverage is consistent day to day.
+#   2. ainews/validate.py warns when an item labels a known domain with a different tier.
+#
+# tier: primary = the organisation's own channel (blog, paper, model card, filing, government doc)
+#       press   = established newsroom          trade = specialist media / newsletters
+#       social  = community platforms (signal only, never sole support for a lead)
+
+[[source]]
+group = "labs"
+name = "OpenAI"
+domains = ["openai.com"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "labs"
+name = "Anthropic"
+domains = ["anthropic.com"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "labs"
+name = "Google / DeepMind"
+domains = ["blog.google", "deepmind.google", "research.google", "developers.googleblog.com"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "labs"
+name = "Meta AI"
+domains = ["ai.meta.com", "about.fb.com"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "labs"
+name = "Microsoft"
+domains = ["blogs.microsoft.com", "microsoft.com", "news.microsoft.com"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "labs"
+name = "xAI"
+domains = ["x.ai"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "labs"
+name = "NVIDIA"
+domains = ["nvidianews.nvidia.com", "blogs.nvidia.com", "developer.nvidia.com"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "labs"
+name = "Mistral / Cohere / AI2 / Hugging Face"
+domains = ["mistral.ai", "cohere.com", "allenai.org", "huggingface.co"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "research"
+name = "arXiv"
+domains = ["arxiv.org"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "research"
+name = "GitHub"
+domains = ["github.com"]
+tier = "primary"
+lang = "en"
+
+[[source]]
+group = "press"
+name = "Wire & business press"
+domains = ["reuters.com", "bloomberg.com", "ft.com", "wsj.com", "nytimes.com", "cnbc.com", "apnews.com", "nikkei.com", "asia.nikkei.com", "economist.com"]
+tier = "press"
+lang = "en"
+
+[[source]]
+group = "press"
+name = "Tech press"
+domains = ["theverge.com", "techcrunch.com", "arstechnica.com", "wired.com", "technologyreview.com", "theinformation.com", "venturebeat.com", "axios.com", "semafor.com", "tomshardware.com", "zdnet.com", "engadget.com"]
+tier = "press"
+lang = "en"
+
+[[source]]
+group = "press"
+name = "Policy press"
+domains = ["politico.com", "politico.eu", "euractiv.com"]
+tier = "press"
+lang = "en"
+
+[[source]]
+group = "press"
+name = "Asia (English)"
+domains = ["scmp.com", "caixinglobal.com", "digitimes.com", "koreaherald.com", "restofworld.org"]
+tier = "press"
+lang = "en"
+
+[[source]]
+group = "trade"
+name = "Newsletters & analysts"
+domains = ["semianalysis.com", "simonwillison.net", "importai.substack.com", "latent.space", "stratechery.com", "chinatalk.media", "thezvi.substack.com", "interconnects.ai"]
+tier = "trade"
+lang = "en"
+
+[[source]]
+group = "policy"
+name = "Government"
+domains = ["whitehouse.gov", "commerce.gov", "bis.gov", "bis.doc.gov", "nist.gov", "ftc.gov", "europa.eu", "ec.europa.eu", "gov.uk", "cac.gov.cn", "miit.gov.cn", "gov.cn"]
+tier = "primary"
+lang = "other"
+
+[[source]]
+group = "zh-labs"
+name = "Chinese labs (official)"
+domains = ["deepseek.com", "api-docs.deepseek.com", "qwenlm.github.io", "qwen.ai", "moonshot.cn", "kimi.com", "zhipuai.cn", "bigmodel.cn", "z.ai", "minimaxi.com", "minimax.io", "stepfun.com", "seed.bytedance.com", "volcengine.com", "hunyuan.tencent.com", "yiyan.baidu.com"]
+tier = "primary"
+lang = "zh"
+
+[[source]]
+group = "zh-press"
+name = "Chinese newsrooms"
+domains = ["caixin.com", "yicai.com", "jiemian.com", "thepaper.cn", "36kr.com", "latepost.com", "wallstreetcn.com", "stcn.com", "cls.cn"]
+tier = "press"
+lang = "zh"
+
+[[source]]
+group = "zh-trade"
+name = "Chinese AI media"
+domains = ["jiqizhixin.com", "qbitai.com", "infoq.cn", "ithome.com", "tmtpost.com", "leiphone.com", "geekpark.net"]
+tier = "trade"
+lang = "zh"
+
+[[source]]
+group = "social"
+name = "Community"
+domains = ["x.com", "twitter.com", "reddit.com", "news.ycombinator.com", "weibo.com", "zhihu.com", "linkedin.com", "youtube.com"]
+tier = "social"
+lang = "other"

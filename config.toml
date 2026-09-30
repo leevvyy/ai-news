@@ -1,0 +1,70 @@
+# AI Daily: pipeline configuration (read by ainews/config.py).
+# Everything the scorer, window logic and renderers need lives here, so tuning
+# the digest never means editing Python.
+
+[schedule]
+utc_offset_hours = 8     # reader's clock: issues are dated and displayed in UTC+8
+run_local_time = "06:00" # nominal publish time (routine cron: 48 21 * * * UTC ≈ 05:48 UTC+8)
+max_window_hours = 72    # catch-up cap when one or more runs were missed
+grace_hours = 6          # stories up to this long before the window start are accepted (with a warning)
+
+[issue]
+leads = 5                        # lead stories (must be verified, see [score.verification])
+max_leads_per_entity = 2         # diversity: at most this many leads share a primary entity
+briefs = 10                      # one-line briefs after the leads
+dedupe_lookback_days = 7         # compare new items with this many prior days
+title_jaccard_threshold = 0.5    # token-set Jaccard on titles that flags a probable duplicate
+dashboard_days = 30              # days of history embedded in the living dashboard
+calendar_horizon_days = 60       # upcoming events further out than this are hidden
+
+[score]
+breadth_kappa = 6.0              # s_breadth = 1 - exp(-coverage / kappa); coverage typically 1-15
+momentum_baseline_days = 7       # mu_7 = mean daily items on the primary entity over this many prior days
+credibility_top_n = 3            # noisy-OR over the n most reliable distinct outlet domains
+
+# I = 100 * sum_k w_k * s_k ; weights must sum to 1.
+[score.weights]
+impact = 0.35
+novelty = 0.20
+credibility = 0.20
+breadth = 0.15
+momentum = 0.10
+
+# Reliability by tier; credibility = 1 - prod_j (1 - r_j) over the top-n distinct outlets (noisy-OR).
+# Calibrated so one primary source = 0.60, primary + 2 press = 0.88, one social post = 0.10.
+[score.tiers]
+primary = 0.60
+press = 0.45
+trade = 0.25
+social = 0.10
+
+# A lead story needs >= 1 primary source OR >= min_independent distinct non-social outlets.
+[score.verification]
+min_independent = 2
+
+# Canonical entity names, so momentum baselines are not split across spellings.
+[entities.aliases]
+"Google DeepMind" = "Google"
+"DeepMind" = "Google"
+"Alibaba Qwen" = "Alibaba"
+"Qwen" = "Alibaba"
+"Tongyi" = "Alibaba"
+"Moonshot" = "Moonshot AI"
+"Kimi" = "Moonshot AI"
+"Zhipu" = "Zhipu AI"
+"Z.ai" = "Zhipu AI"
+"ByteDance Seed" = "ByteDance"
+"Doubao" = "ByteDance"
+"Meta AI" = "Meta"
+"Microsoft Research" = "Microsoft"
+"AWS" = "Amazon"
+
+[artifact]
+url = "https://claude.ai/artifact/JWKqbkjDyRY4pGhrJpgjz5"   # living dashboard (republished each morning)
+repo_url = "https://github.com/leevvyy/ai-news"
+
+[publish]
+enabled = false                            # flip to true to deploy the static site from CI
+site_url = ""                              # e.g. https://leevvyy.github.io/ai-news/
+target = "github-pages"                    # github-pages | cloudflare-pages
+title = "AI Daily"
