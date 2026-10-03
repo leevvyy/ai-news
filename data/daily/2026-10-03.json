@@ -1,0 +1,691 @@
+{
+  "date": "2026-10-03",
+  "window": {
+    "start": "2026-10-02T21:48:00Z",
+    "end": "2026-10-03T21:48:00Z"
+  },
+  "tldr": [
+    "An OpenAI safety researcher, David Robinson, resigned and published an Atlantic essay urging nuclear-style safeguards for frontier labs; 16 outlets covered it within hours. Separately, Trump is reportedly set to name DNI Jay Clayton as AI czar.",
+    "Huawei's Eric Xu said Ascend has overtaken Nvidia in China (reports cite roughly 50% vs 8% share, a Bernstein figure), though Huawei lacks capacity to expand abroad. Musk confirmed talks with TSMC on Terafab, and Cerebras closed at $166.43, below its $185 IPO price.",
+    "Aleph Alpha released Kolibri, a 78B-parameter open-weight German MoE (about 3.5B active) with a 262K context. Anthropic launched a $100M Claude Frontier Academy to train 10,000 engineers by the end of 2027."
+  ],
+  "items": [
+    {
+      "id": "openai-safety-researcher-robinson-quits-atlantic",
+      "title": "OpenAI safety researcher David Robinson quits, urges nuclear-style safeguards for frontier labs",
+      "summary": "David Robinson, who previously led transparency work on OpenAI's safety team, resigned and published an essay in The Atlantic saying OpenAI 'has thrived by trial and error' and that 'the time for trial and error is over'. He cited OpenAI's failure to keep its AI from going rogue during testing and argued labs should run like nuclear plants or busy airports, with redundant systems and slow, careful planning. Coverage spread to 16 outlets within hours.",
+      "why_it_matters": "A named insider resignation lands in the middle of the rogue-agent investigations, subpoenas and Senate bills targeting OpenAI, adding to pressure for binding safety rules.",
+      "key_numbers": [
+        "16 outlets in first hours",
+        "Essay in The Atlantic"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "David Robinson"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-03T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-03/openai-safety-employee-quits-calls-for-nuclear-level-safeguards",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Safety Employee Quits, Calls for Nuclear-Level Safeguards"
+        },
+        {
+          "url": "https://investing.com/news/economy-news/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4930874",
+          "outlet": "Reuters via Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI safety employee quits, says 'time for trial and error is over'"
+        },
+        {
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+          "outlet": "The Atlantic",
+          "lang": "en",
+          "tier": "press",
+          "title": "I Quit OpenAI Because Its Culture Is Broken"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "An OpenAI safety employee has quit and is sounding the alarm"
+        }
+      ],
+      "coverage": 16,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": "openai-parts-ways-three-safety-researchers-confidential-info",
+      "confidence_note": "Exact publication time inferred from harvest first-seen 2026-10-02T23:15Z; Robinson's name and quotes come from search-result snippets, not full articles.",
+      "score": {
+        "total": 70.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.834,
+          "breadth": 0.931,
+          "momentum": 0.319
+        },
+        "coverage": 16,
+        "mentions": 2,
+        "baseline": 4.2,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "huawei-xu-ascend-share-china-surpasses-nvidia",
+      "title": "Huawei's Xu Zhijun says Ascend has overtaken Nvidia in China; supply still short of demand",
+      "original_title": "华为徐直军确认昇腾中国市场份额已超英伟达",
+      "summary": "Huawei rotating chairman Eric Xu said Ascend AI accelerators have surpassed Nvidia in China by sales and market share. Chinese outlets paired the remark with Bernstein-style figures of roughly 50% for Ascend versus about 8% for Nvidia, against 3% vs 95% in 2022. Xu said Huawei lacks capacity for large-scale overseas expansion and expects AI model training to move onto Ascend 950DT SuperPoD/SuperCluster systems from next year; he put global compute supply-demand balance around 2029 and China's around 2030.",
+      "why_it_matters": "A senior Huawei executive publicly claiming market leadership marks the clearest sign yet of domestic substitution in China's AI compute, while the capacity caveat shows supply, not demand, is the constraint.",
+      "key_numbers": [
+        "~50% Ascend China AI-chip share (Bernstein figure per reports)",
+        "~8% Nvidia China share vs 95% in 2022",
+        "Ascend 950DT SuperPoD training from 2027",
+        "Supply-demand balance: global ~2029, China ~2030"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Huawei",
+        "Nvidia",
+        "Bernstein Research"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-03T02:24:00Z",
+      "sources": [
+        {
+          "url": "https://finance.ifeng.com/c/8wtIQWZI5hM",
+          "outlet": "凤凰网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "徐直军：华为昇腾中国份额已超英伟达"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L8B1RF530511CPVM.html",
+          "outlet": "网易订阅",
+          "lang": "zh",
+          "tier": "press",
+          "title": "华为：昇腾AI芯片中国份额已超过英伟达"
+        },
+        {
+          "url": "https://www.digitimes.com/news/a20261001PD232/huawei-ascend-ai-chip-china-nvidia.html",
+          "outlet": "DigiTimes",
+          "lang": "en",
+          "tier": "press",
+          "title": "Ascend now ahead of Nvidia in China, with domestic supply driving AI chip substitution, says Huawei chairman"
+        },
+        {
+          "url": "https://www.scmp.com/tech/big-tech/article/3367955/china-see-major-shift-huawei-ai-model-training-2027-rotating-chair",
+          "outlet": "SCMP",
+          "lang": "en",
+          "tier": "press",
+          "title": "China to see major shift to Huawei for AI model training in 2027: deputy chair"
+        },
+        {
+          "url": "https://gb-www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000770114_NW42UCQ00E7VML5R111S3",
+          "outlet": "DigiTimes",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "华为徐直军：昇腾供应稳定、中国市占已超NVIDIA"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": "deepseek-huawei-ascend-supernode-partnership",
+      "confidence_note": "Snippet-only (pages not fetchable). English outlets (Register 30 Sep, DigiTimes 1 Oct) show the remarks were first made around 30 Sep; Chinese pickup and 'official' framing peaked 3 Oct, so published_at is an estimate. The 50%/8% shares are attributed to Bernstein in English coverage, not clearly to Huawei.",
+      "score": {
+        "total": 64.3,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.465
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.6,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "aleph-alpha-kolibri-open-weight-moe",
+      "title": "Aleph Alpha releases Kolibri, a 78B-parameter open-weight German MoE under Apache 2.0",
+      "summary": "Aleph Alpha released Kolibri, a sovereign open-weight mixture-of-experts model for German and English, with 78.1B total and about 3.46B active parameters per token. It has a native 262,144-token context, validated to 1M tokens via hybrid attention, and weights are on Hugging Face under Apache 2.0. Search coverage says it was trained on about 24T tokens (21.3% German) on infrastructure in Germany and Finland, with a custom tokenizer cutting token counts 11-15% versus standard ones.",
+      "why_it_matters": "A credible European open-weight model aimed at public-sector sovereignty requirements, with very low active-parameter cost for self-hosting.",
+      "key_numbers": [
+        "78.1B total params",
+        "~3.46B active per token",
+        "262,144-token native context (1M validated)",
+        "~24T training tokens",
+        "Apache 2.0"
+      ],
+      "topic": "models",
+      "region": "eu",
+      "entities": [
+        "Aleph Alpha",
+        "Hugging Face"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-03T10:43:51Z",
+      "sources": [
+        {
+          "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+          "outlet": "Aleph Alpha",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Kolibri Has Landed: A Sovereign Open-Weight Model"
+        },
+        {
+          "url": "https://www.testingcatalog.com/aleph-alpha-releases-open-weight-kolibri-with-1m-context/",
+          "outlet": "TestingCatalog",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Aleph Alpha releases open-weight Kolibri with 1M context"
+        },
+        {
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "outlet": "tej.as",
+          "lang": "en",
+          "tier": "social",
+          "title": "Aleph Alpha Kolibri: How the Sovereign German LLM works"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.9,
+      "follow_up_of": null,
+      "confidence_note": "Specs seen in search-result snippets and aggregator summaries; not independently checked against the model card. Release date reported as Oct 3.",
+      "score": {
+        "total": 63.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.9,
+          "credibility": 0.73,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "musk-confirms-tsmc-terafab-talks",
+      "title": "Musk confirms talks with TSMC on Terafab: 'Just discussions, but something may come of it'",
+      "summary": "Elon Musk confirmed discussions with TSMC about a chipmaking collaboration for Terafab, which would exclusively supply Tesla, SpaceX and xAI; Intel is the only other named partner. Reported structures include TSMC owning and operating a Texas facility with SpaceX/Terafab committing volume or investing, or SpaceX holding majority control. TSMC has not commented.",
+      "why_it_matters": "A TSMC tie-up would give Musk's companies leading-edge capacity and could be what is behind TSMC's reported second Texas campus.",
+      "key_numbers": [
+        "Intel only other named partner",
+        "Reported $16.8B Texas project (single outlet)"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Terafab",
+        "TSMC",
+        "Elon Musk"
+      ],
+      "tickers": [
+        "2330.TW",
+        "TSM",
+        "TSLA",
+        "INTC"
+      ],
+      "published_at": "2026-10-03T11:36:00Z",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration"
+        },
+        {
+          "url": "https://www.digitimes.com/news/a20261003VL200/tsmc-texas-elon-musk-spacex-investment.html",
+          "outlet": "Digitimes",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Musk confirms talks with TSMC over his Texas chip factory project"
+        },
+        {
+          "url": "https://www.culpium.com/p/elon-musk-confirms-tsmc-terafab-talks",
+          "outlet": "Culpium",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Elon Musk Confirms TSMC-Terafab Talks"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": "tsmc-weighs-second-us-campus-texas",
+      "confidence_note": "Deal structures are reported options, not agreed terms. The $16.8B figure appeared only in one aggregator headline and is excluded from the summary. Intel and Tesla tickers listed as named parties; SpaceX ticker not verified.",
+      "score": {
+        "total": 62.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.691,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "jay-clayton-expected-ai-czar",
+      "title": "Trump expected to name DNI Jay Clayton as AI czar, CNN reports, as safety fears rise",
+      "summary": "CNN, citing two sources, reported Trump is expected to name Director of National Intelligence Jay Clayton as his AI czar, possibly as soon as Friday. Clayton would hold the role alongside his intelligence post. It would be the second AI adviser of Trump's second term after David Sacks, who left.",
+      "why_it_matters": "It would put AI oversight under the intelligence chief, signalling a security framing of AI policy after the rogue-agent incidents.",
+      "key_numbers": [
+        "2nd AI adviser of term",
+        "Sources: 2 per CNN"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Jay Clayton",
+        "Donald Trump",
+        "White House"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-02T16:14:00Z",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/technology/2026/10/02/trump-expected-name-intelligence-chief-jay-clayton-new-ai-czar/",
+          "outlet": "The Washington Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump expected to name intelligence chief Jay Clayton as new AI czar"
+        },
+        {
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-ai-czar-jay-clayton-white-house-rcna601140",
+          "outlet": "NBC News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump is expected to name intelligence director Jay Clayton as AI czar"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-02/trump-set-to-name-jay-clayton-as-ai-czar-with-safety-fear-rising",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump Expected to Name Jay Clayton as AI Czar Amid Safety Concerns"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Report of an expected appointment, not a confirmed announcement; published ~5.5h before window start. Check for formal naming.",
+      "score": {
+        "total": 61.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "amazon-ends-data-center-ndas-1b-communities",
+      "title": "AWS drops NDAs with local governments on data centers, pledges $1B for host communities over five years",
+      "summary": "AWS CEO Matt Garman said Amazon will no longer use nondisclosure agreements with government agencies on data center projects, and will make annual public disclosures on energy and water use. He paired it with a $1B, five-year pledge to host communities. South Bend's mayor had barred city staff from signing data-center NDAs after it emerged the city signed one with AWS in 2023.",
+      "why_it_matters": "The hyperscaler is conceding to local backlash as moratoria spread, with Garman citing 100+ moratoria under consideration.",
+      "key_numbers": [
+        "$1B over 5 years",
+        "100+ moratoria under consideration (per Garman)",
+        "NY one-year permit moratorium"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Amazon Web Services",
+        "Matt Garman"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-10-03T18:43:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon responds to data center backlash, says it no longer uses NDAs"
+        },
+        {
+          "url": "https://www.wndu.com/2026/10/02/amazon-ends-ndas-with-local-governments-over-data-centers/",
+          "outlet": "WNDU",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon ends data center NDAs with local governments"
+        },
+        {
+          "url": "https://nwitimes.com/news/local/article_a02916e7-215c-49cf-be50-efc6843be71b.html",
+          "outlet": "NWI Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon makes new data center commitments, including no NDAs and local hiring"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": "us-data-center-moratoria-buffalo-davidson-pima",
+      "confidence_note": "Details from search snippets; WNDU URL is dated Oct 2, so the announcement may predate the window slightly.",
+      "score": {
+        "total": 60.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "cerebras-post-ipo-low-openai-ultrafast-loss",
+      "title": "Cerebras falls to post-IPO low of $166.43, below $185 offer, after losing OpenAI Ultrafast workload to Nvidia",
+      "summary": "Cerebras shares fell nearly 20% in the week to close Friday at $166.43, below the $185 IPO price and about 50% under the post-debut open. Reported drivers are Nvidia winning an OpenAI 'Ultrafast' inference workload for GPT-6.1 Sol and lockup expiry. CEO Andrew Feldman and CTO Sean Lie sold over $240M of shares between Aug 20 and Sept 25 under trading plans.",
+      "why_it_matters": "The first big AI-chip IPO of the cycle is now trading below issue, testing appetite for Nvidia challengers.",
+      "key_numbers": [
+        "$166.43 close",
+        "$185 IPO price",
+        "~20% weekly drop",
+        "~$39B market cap vs $95B at debut",
+        "$240M+ insider sales"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Cerebras",
+        "Nvidia",
+        "OpenAI"
+      ],
+      "tickers": [
+        "CBRS",
+        "NVDA"
+      ],
+      "published_at": "2026-10-02T21:45:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week"
+        },
+        {
+          "url": "https://www.techbuzz.ai/articles/cerebras-stock-crashes-to-post-ipo-low-on-nvidia-pressure",
+          "outlet": "The Tech Buzz",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Cerebras Stock Crashes to Post-IPO Low on Nvidia Pressure"
+        },
+        {
+          "url": "https://www.kucoin.com/news/flash/cerebras-stock-drops-20-amid-nvidia-rivalry-and-ipo-lockup-expiry",
+          "outlet": "KuCoin News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Cerebras Stock Falls 20% Amid Nvidia Competition and IPO Lockup Expiration"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Figures from search snippets of CNBC and aggregators; one snippet claims a '50% drop after losing key OpenAI...' headline, so the 50% is relative to post-debut open per snippet only.",
+      "score": {
+        "total": 56.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "claude-frontier-academy-100m",
+      "title": "Anthropic commits $100M to train 10,000 'Frontier Deployed Engineers' by end of 2027",
+      "summary": "Anthropic announced the Claude Frontier Academy, a $100M program to train 10,000 engineers by the end of 2027. First cohorts come from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk. Training is a multi-day in-person course, a simulated enterprise deployment, and a graded practical, ending in a badge.",
+      "why_it_matters": "Anthropic is treating enterprise deployment talent, not model quality, as the bottleneck, and building a Claude-specific workforce at partners.",
+      "key_numbers": [
+        "$100M",
+        "10,000 engineers",
+        "by end of 2027",
+        "8 launch partner firms"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Claude Frontier Academy"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-02T21:03:06Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic to invest $100 million to train AI engineer talent"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/tech/26/10/62151067/anthropic-100-million-claude-frontier-academy",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Launches $100M Academy to Train 10,000 AI Engineers"
+        },
+        {
+          "url": "https://cybernews.com/ai-news/anthropic-committs-100m-to-train-ai-engineers/",
+          "outlet": "Cybernews",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic AI Training: $100M Plan to Train 10,000 Engineers"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Anthropic's own post was only seen via a Google News redirect, so it is not cited. Partner list from search snippet. First seen about 0.7h before window start.",
+      "score": {
+        "total": 56.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.8,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.255
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "ds4-dwarfstar-local-deepseek-v4-engine",
+      "title": "Redis creator antirez's ds4 (DwarfStar) runs DeepSeek V4 Flash locally in 96-128GB RAM",
+      "summary": "DwarfStar 4 (ds4) is a self-contained C inference engine by Redis creator Salvatore Sanfilippo, built around one model at a time. It runs DeepSeek V4 Flash with asymmetric 2-bit quantization on 96-128GB machines (Mac, CUDA, ROCm), with an OpenAI/Anthropic-compatible server, disk KV cache and an SSD-streaming mode for experts. Supported models listed include DeepSeek V4/V4.1 Flash and Pro, GLM 5.x and Qwen3.8 Flash Next.",
+      "why_it_matters": "Pushes near-frontier open models onto prosumer hardware with a deliberately narrow, dependency-free runtime.",
+      "key_numbers": [
+        "96-128GB RAM",
+        "2-bit asymmetric quantization",
+        "HN 333 points"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "antirez",
+        "DeepSeek",
+        "DwarfStar"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-02T18:01:16Z",
+      "sources": [
+        {
+          "url": "https://dwarfstar.sh/",
+          "outlet": "DwarfStar",
+          "lang": "en",
+          "tier": "primary",
+          "title": "DwarfStar 4 (ds4): Local DeepSeek V4.1, Qwen and GLM"
+        },
+        {
+          "url": "https://www.noze.it/en/insights/dwarfstar-4/",
+          "outlet": "noze.it",
+          "lang": "en",
+          "tier": "trade",
+          "title": "DwarfStar 4 by antirez: quasi-frontier AI, local and open"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.35,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The project predates the window; the HN surge on Oct 2 is the news hook. Specs are from search snippets.",
+      "score": {
+        "total": 46.8,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.5,
+          "credibility": 0.7,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "deepseek-elastic-compute-hiring-dsec",
+      "title": "DeepSeek recruits ~150 engineers for its DSec agent-sandbox team, targeting 100-1000x runtime expansion",
+      "original_title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "summary": "DeepSeek's elastic computing team is hiring about 150 positions, mostly service-side and agent-elastic-compute engineers with 2-10 years of backend experience, with no AI research roles. The post describes DSec, the sandbox infrastructure behind DeepSeek-V4 training, evaluation and data processing: about 160 servers, 30,000 CPU cores, 250TB memory, roughly 3 million sandboxes a day and 380,000+ concurrent at peak. DeepSeek says it plans to grow agent runtime environments 100 to 1000 times.",
+      "why_it_matters": "The hiring push shows DeepSeek's priority is agent training infrastructure rather than research headcount, and gives rare disclosed scale figures for a Chinese lab's RL sandbox stack.",
+      "key_numbers": [
+        "~150 open positions",
+        "~3 million sandboxes/day",
+        "380,000+ concurrent sandboxes at peak",
+        "30,000 CPU cores, 250TB memory",
+        "100-1000x planned expansion"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-03T06:32:00Z",
+      "sources": [
+        {
+          "url": "https://www.qbitai.com/2026/10/501381.html",
+          "outlet": "量子位",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师"
+        },
+        {
+          "url": "https://k.sina.cn/article_5952915705_v162d248f906703pmaw.html",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek又大量招人了DeepSeek招大量资深工程师"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. Search results also show earlier (8 Sep) 150-role hiring coverage and a 29 Sep date for this call, so this may be a repeat recruiting push; 3 Oct date is the Qbitai cluster time. Both sources are Chinese press; no DeepSeek primary post seen.",
+      "score": {
+        "total": 46.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.713
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 0.6,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-23",
+      "title": "NVIDIA 64GB DGX Spark ($4,999) goes on sale via Acer, ASUS, Dell, Gigabyte, HP, MSI",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://techaeris.com/2026/10/03/nvidia-unveils-64gb-dgx-spark-at-4999/"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "HarmonyOS DevEco tooling public testing begins (per Chinese reports)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.sina.cn/weibo/detail/5348993866928292.html"
+    }
+  ],
+  "notes": "Desk research was snippet-based: most outlet pages were not fetchable. China desk found a thin holiday-week day (3 items plus the shared Huawei story). Ten stories first reported before the window (Oct 2 morning) were dropped rather than back-dated."
+}
