@@ -1,11 +1,16 @@
 name: Harvest
 
 # Nightly: news feeds/APIs → data/raw/<date>.json and prices → data/market/prices.csv.
-# Runs where the internet is reachable (the routine's sandbox is not), 41 minutes before
-# the 05:48 UTC+8 routine, which reads the result with `python3 -m ainews raw`.
+# Runs where the internet is reachable (the routine's sandbox is not), before the 21:48 UTC
+# (05:48 UTC+8) routine, which reads the newest result with `python3 -m ainews raw`.
+# GitHub starts schedules best-effort. The 21:07 UTC slot started 3h15m-3h32m late on each of
+# 2026-10-01..03 (00:22-00:39 UTC), after the routine. Two slots keep a harvest under ~3 h old at
+# 21:48 for any delay up to ~3.6 h: 20:37 serves a punctual scheduler, 17:37 a late one.
+# Each run writes data/raw/<UTC+8 date>.json (both slots share a date) and commits only on change.
 on:
   schedule:
-    - cron: "7 21 * * *"   # 05:07 UTC+8
+    - cron: "37 17 * * *"  # 01:37 UTC+8
+    - cron: "37 20 * * *"  # 04:37 UTC+8
   workflow_dispatch:
 
 permissions:

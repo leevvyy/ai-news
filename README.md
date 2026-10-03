@@ -25,7 +25,7 @@ explicit importance model, archived here, and published as a living dashboard.
 
 ```mermaid
 flowchart LR
-    HV["Harvest Action<br/>05:07 UTC+8"] --> RAW["data/raw/DATE.json<br/>+ data/market/prices.csv"]
+    HV["Harvest Action<br/>01:37 + 04:37 UTC+8"] --> RAW["data/raw/DATE.json<br/>+ data/market/prices.csv"]
     RAW --> W
     R["Routine fires<br/>05:48 UTC+8"] --> W["ainews window · new · raw"]
     W --> S["3 research desks<br/>EN labs · EN business/policy · 中文"]

@@ -252,10 +252,16 @@ def _run_feed(cfg: Config, feed: dict, since: datetime, now: datetime,
     res = FeedResult(feed["name"])
     parse = PARSERS[feed.get("kind", "rss")]
     limit = int(cfg.harvest.get("summary_chars", 600))
-    try:
-        rows = [row for url in feed_url(feed, since, now) for row in parse(fetcher(url))]
-    except Exception as exc:  # network, HTTP, XML/JSON errors: record and move on
-        res.error = f"{type(exc).__name__}: {exc}"[:200]
+    urls = feed_url(feed, since, now)
+    rows: list[dict] = []
+    errors: list[str] = []
+    for url in urls:  # a feed is ok if any of its URLs works (HF: today's page 400s until papers are posted)
+        try:
+            rows += parse(fetcher(url))
+        except Exception as exc:  # network, HTTP, XML/JSON errors: record and move on
+            errors.append(f"{type(exc).__name__}: {exc}")
+    if len(errors) == len(urls):
+        res.error = errors[-1][:200]
         return res
     res.ok = True
     for row in rows:
@@ -354,10 +360,18 @@ def latest_raw(cfg: Config) -> Path | None:
     return files[-1] if files else None
 
 
-def digest(raw: dict, top: int = 40) -> str:
+def staleness(raw: dict, now: datetime) -> float:
+    """Hours between the harvest and `now`."""
+    return (now - datetime.fromisoformat(raw["harvested_at"].replace("Z", "+00:00"))).total_seconds() / 3600
+
+
+def digest(raw: dict, top: int = 40, now: datetime | None = None) -> str:
     """Compact text view for the routine: clusters first, then primary items, HN, papers."""
     lines = [f"harvested {raw['harvested_at']} · since {raw['since']} · {raw['n_items']} items · "
              f"feeds ok {sum(f['ok'] for f in raw['feeds'])}/{len(raw['feeds'])}"]
+    if now is not None and (age := staleness(raw, now)) > 6:
+        lines.append(f"STALE: this harvest is {age:.0f} h old, so tonight's scheduled run did not land. Stories after "
+                     f"{raw['harvested_at']} are missing here; cover the rest of the window with WebSearch and say so in notes.")
     bad = [f"{f['name']} ({f.get('error', 'no items')[:60]})" for f in raw["feeds"] if not f["ok"]]
     if bad:
         lines.append("failed feeds: " + "; ".join(bad))
