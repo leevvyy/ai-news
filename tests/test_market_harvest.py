@@ -4,6 +4,7 @@ import json
 import math
 import random
 import unittest
+import urllib.error
 from datetime import date, datetime, timedelta, timezone
 
 from ainews import harvest, market
@@ -158,6 +159,23 @@ class Harvest(unittest.TestCase):
         raw = harvest.harvest_news(self.repo.cfg, now, fetcher=self.fetcher)
         self.assertNotIn("STALE", harvest.digest(raw, now=now + timedelta(hours=1)))
         self.assertIn("STALE: this harvest is 11 h old", harvest.digest(raw, now=now + timedelta(hours=11)))
+
+    def test_feed_ok_when_one_of_its_urls_fails(self):
+        # Just after 00:00 UTC, HF's page for the new day answers 400; yesterday's papers must survive.
+        (self.repo.dir / "feeds.toml").write_text(
+            '[[feed]]\nname = "HF"\nkind = "hf"\nurl = "https://hf.example.com/api/daily_papers"\n'
+            'tier = "primary"\nlang = "en"\n', "utf-8")
+        paper = json.dumps([{"paper": {"id": "2609.00001", "title": "A paper", "upvotes": 42,
+                                       "publishedAt": "2026-09-30T12:00:00Z"}}]).encode()
+
+        def fetcher(url: str) -> bytes:
+            if url.endswith("2026-10-01"):
+                raise urllib.error.HTTPError(url, 400, "Bad Request", None, None)
+            return paper
+
+        raw = harvest.harvest_news(self.repo.cfg, datetime(2026, 10, 1, 0, 22, tzinfo=timezone.utc), fetcher=fetcher)
+        self.assertEqual(raw["feeds"], [{"name": "HF", "ok": True, "n": 1}])
+        self.assertEqual([it["url"] for it in raw["items"]], ["https://arxiv.org/abs/2609.00001"])
 
     def test_cluster_tokens_cjk_bigrams(self):
         toks = harvest.cluster_tokens("DeepSeek发布新模型")

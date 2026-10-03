@@ -252,10 +252,16 @@ def _run_feed(cfg: Config, feed: dict, since: datetime, now: datetime,
     res = FeedResult(feed["name"])
     parse = PARSERS[feed.get("kind", "rss")]
     limit = int(cfg.harvest.get("summary_chars", 600))
-    try:
-        rows = [row for url in feed_url(feed, since, now) for row in parse(fetcher(url))]
-    except Exception as exc:  # network, HTTP, XML/JSON errors: record and move on
-        res.error = f"{type(exc).__name__}: {exc}"[:200]
+    urls = feed_url(feed, since, now)
+    rows: list[dict] = []
+    errors: list[str] = []
+    for url in urls:  # a feed is ok if any of its URLs works (HF: today's page 400s until papers are posted)
+        try:
+            rows += parse(fetcher(url))
+        except Exception as exc:  # network, HTTP, XML/JSON errors: record and move on
+            errors.append(f"{type(exc).__name__}: {exc}")
+    if len(errors) == len(urls):
+        res.error = errors[-1][:200]
         return res
     res.ok = True
     for row in rows:

@@ -30,12 +30,13 @@ python3 -m ainews raw > /tmp/harvest.txt          # digest of tonight's harvest 
 `window` prints `issue_date`, the UTC and UTC+8 window, `recent_items` (the last 7 days, **do not repeat these**),
 `weekly_due` (non-null on Mondays), `open_calendar` (upcoming events already tracked) and `raw_file`.
 
-`raw` digests the nightly harvest (GitHub Action at 05:07 UTC+8, `data/raw/<date>.json`): multi-outlet **story
+`raw` digests the newest nightly harvest (GitHub Action at 01:37 and 04:37 UTC+8, often hours late, `data/raw/<date>.json`): multi-outlet **story
 clusters** (EN and 中文) ranked by the number of distinct outlets, primary-source posts, Hugging Face papers by upvotes
 and Hacker News stories by points, each with exact timestamps and URLs. `news.google.com/rss/articles/…` links are
 Google News redirects: never cite them; search the headline and cite the outlet's own URL. Feed summaries are the outlets' own text, so
-they count as "seen" sources. If `raw` says there is no harvest (the Action failed or ran late), research with
-WebSearch only and add a line to `notes`.
+they count as "seen" sources. If `raw` says there is no harvest (the Action failed), research with WebSearch only
+and add a line to `notes`. If it prints a `STALE:` line, the harvest covers only the start of the window: use it for
+that span and cover the rest (harvested_at → window end) with WebSearch.
 
 * If the clone or push is refused, call `add_repo(owner="leevvyy", repo="ai-news", access="push")` and retry.
 * If `RUNBOOK.md`/`ainews/` are missing on `main`, stop and notify: "AI Daily: scaffolding PR not merged yet".
