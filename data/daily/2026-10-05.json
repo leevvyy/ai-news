@@ -1,0 +1,885 @@
+{
+  "date": "2026-10-05",
+  "window": {
+    "start": "2026-10-04T21:48:00Z",
+    "end": "2026-10-05T21:49:00Z"
+  },
+  "tldr": [
+    "Nvidia-backed Reflection AI unveiled Beam, a 501B-parameter (23B active) open-weight MoE with a 1M-token context; Apache 2.0 weights are promised later in October, and the benchmark claims are vendor-reported.",
+    "Huawei and Qualcomm signed a multi-year 5G/AI patent cross-licence in which Qualcomm buys Huawei US patents and becomes net payer for the first time in 25 years; Goldman upgraded Zhipu to Buy (HK$1,560 target, 2026 ARR forecast $3.2B) and the shares closed up 6%.",
+    "The NYC Council questioned Anthropic, OpenAI, Google and Meta under oath on AI risk, while the Pentagon told the BBC it has ceased using Anthropic products, though sources say Claude was still used via Maven last week."
+  ],
+  "items": [
+    {
+      "id": "reflection-beam-501b-open-weight",
+      "title": "Reflection AI unveils Beam, a 501B-parameter open-weight MoE; Apache 2.0 weights promised later in October",
+      "summary": "Nvidia-backed Reflection debuted its first model, Beam, on Oct 5: a 501B-total, 23B-active MoE pretrained on 23.8T tokens with a 1M-token context. Reflection says it is competitive with Z.ai's GLM-5.2 on coding and agentic tasks while using 3-4x less inference compute. Early access is by waitlist; weights, a technical report and a model card are due under Apache 2.0 later in October. TechCrunch notes the claims are unverified, and Beam trails Kimi K3 on Terminal-Bench and DeepSWE.",
+      "why_it_matters": "It is the first serious US-built open-weight challenger to the Chinese models that dominate open rankings. The weights have not shipped, so independent testing is still pending.",
+      "key_numbers": [
+        "501B total / 23B active params",
+        "23.8T pretraining tokens",
+        "1M context",
+        "Terminal-Bench v2.1: 80.1 (Kimi K3 88.3)",
+        "SWE-Bench Verified: 80.9 (vendor-reported)",
+        "Valuation $25B"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Reflection AI",
+        "Z.ai",
+        "Moonshot AI",
+        "Nvidia"
+      ],
+      "published_at": "2026-10-05T19:30:00Z",
+      "sources": [
+        {
+          "url": "https://reflection.ai/blog/introducing-beam",
+          "outlet": "Reflection AI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Beam: Reflection's 501B open-weight model"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost"
+        },
+        {
+          "url": "https://fortune.com/2026/10/05/reflection-ai-unveils-beam-a-new-us-based-open-source-model-to-compete-with-china/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Reflection AI unveils its first open model, Beam"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/nvidiabacked-reflection-unveils-first-ai-model-to-take-on-chinese-open-models-4932928",
+          "outlet": "Reuters via Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia-backed Reflection unveils first AI model to take on Chinese open models"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/",
+          "outlet": "MarkTechPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Reflection AI Introduces Beam"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.9,
+      "confidence_note": "Facts from search snippets only; no page was opened. Benchmark scores are vendor-reported and unverified per TechCrunch. Publish time approximate. No price published; weights not yet released.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 75.9,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.9,
+          "credibility": 0.879,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "huawei-qualcomm-patent-cross-license-5g-ai",
+      "title": "Huawei and Qualcomm sign multi-year patent deal covering 5G and AI; Qualcomm to buy Huawei US patents",
+      "original_title": "华为与高通达成多年专利许可协议，高通将收购华为部分美国专利",
+      "summary": "On Oct 5 Huawei and Qualcomm announced a multi-year cross-licence across 5G, computing, AI and networking. Qualcomm will also buy selected Huawei US patents in compute, AI and networking. Reports say Qualcomm becomes the net payer for the first time in the firms' 25-year licensing history, and this is the first Huawei-Qualcomm deal to cover 5G. The deal needs regulatory approval; financial terms and timing were not disclosed.",
+      "why_it_matters": "A US chip leader paying a sanctioned Chinese rival for AI and compute patents reverses the usual IP flow and signals the commercial value of Huawei's R&D.",
+      "key_numbers": [
+        "Multi-year deal",
+        "Qualcomm net payer for the first time in 25 years",
+        "Terms undisclosed"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Huawei",
+        "Qualcomm"
+      ],
+      "tickers": [
+        "QCOM"
+      ],
+      "published_at": "2026-10-05T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/huawei-qualcomm-patent-deal-5g-ai",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "Huawei and Qualcomm sign patent deal covering 5G, AI and networking"
+        },
+        {
+          "url": "https://www.notebookcheck.net/Qualcomm-to-buy-Huawei-US-patents-in-multi-year-5G-and-AI-licensing-deal.1415975.0.html",
+          "outlet": "Notebookcheck",
+          "lang": "en",
+          "tier": "press",
+          "title": "Qualcomm to buy Huawei US patents in multi-year 5G and AI licensing deal"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5350703774041640.html",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "华为高通达成专利许可，高通将收购华为部分美国专利"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.9,
+      "confidence_note": "Snippet-only; no Huawei or Qualcomm release was opened. Publish time approximate (only the date Oct 5 confirmed).",
+      "follow_up_of": null,
+      "score": {
+        "total": 71.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.9,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.451
+        },
+        "coverage": 9,
+        "mentions": 1,
+        "baseline": 0.667,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "goldman-upgrades-zhipu-buy-hk1560",
+      "title": "Goldman upgrades Zhipu to Buy with HK$1,560 target, lifts 2026 ARR forecast to $3.2B; shares close up 6%",
+      "original_title": "高盛将智谱港股评级从中性上调至买入 目标价1560港元",
+      "summary": "Goldman Sachs raised Zhipu (2513.HK) from Neutral to Buy with a DCF-based 12-month target of HK$1,560, and lifted its end-2026 ARR forecast from $2.7B to $3.2B. It cites token-demand growth and new commercial terms with large Chinese and global cloud providers from October, plus compute expansion and better inference gross margin. Zhipu closed at HK$665, up 6.15%, for a market cap of about HK$324B.",
+      "why_it_matters": "A top-tier broker's upgrade is the clearest recent read on how the market prices China's first listed pure-play LLM company after last week's selloff.",
+      "key_numbers": [
+        "Target HK$1,560",
+        "2026 year-end ARR forecast $3.2B (from $2.7B)",
+        "Close HK$665, +6.15%",
+        "Market cap about HK$324B"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu",
+        "Goldman Sachs"
+      ],
+      "tickers": [
+        "2513.HK"
+      ],
+      "published_at": "2026-10-04T21:43:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261005/herald/dc75ada08f371ac97719649080143dfa.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "“全球大模型第一股”，大涨"
+        },
+        {
+          "url": "https://news.futunn.com/en/post/1000561099/goldman-sachs-upgrades-zhipu-02513-to-buy-with-a-target",
+          "outlet": "Futu News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Goldman Sachs: Upgrades Zhipu (02513) to Buy with a target price of HKD 1,560"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/shenji/2026-10-05/doc-iniucyni9684509.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "智谱股价涨近5%，市值3206亿港元"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.55,
+      "novelty": 0.7,
+      "confidence_note": "Figures from search snippets; the Goldman report was not read. Close reported as +6.15% (21jingji, Futu) while a Sina headline says nearly 5% (intraday).",
+      "follow_up_of": null,
+      "score": {
+        "total": 68.7,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.777
+        },
+        "coverage": 8,
+        "mentions": 2,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "nyc-council-ai-hearing-coxon-big-tech",
+      "title": "NYC Council grills OpenAI, Anthropic, Google, Meta on AI risk as ex-Anthropic researcher Coxon testifies",
+      "summary": "All 51 NYC Council members questioned policy executives from Anthropic (Logan Graham), OpenAI (Morgan Dwyer), Google (Alice Friend) and Meta (Shane Cahill) under oath on Oct 5. Former Anthropic researcher Jacob Coxon told the panel humanity is more likely than not to lose control of AI. Speaker Julie Menin called answers on legal liability 'troubling at best'. The firms reportedly agreed to appear only after subpoena threats. Menin's bill would bar selling or deploying an AI model in NYC unless an outside validator has reviewed it and a person can shut it down.",
+      "why_it_matters": "A US city is moving toward binding frontier-AI safeguards while federal policy stays light-touch, adding to the state and local patchwork the labs face.",
+      "key_numbers": [
+        "51 council members",
+        "4 AI companies testifying",
+        "Bill: outside validator plus human shutdown"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "New York City Council",
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Meta"
+      ],
+      "published_at": "2026-10-05T19:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic, OpenAI, Google, Meta execs testify at NYC Council AI hearing"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Ex-Anthropic Researcher Jacob Coxon Testifies at NYC Council AI Hearing"
+        },
+        {
+          "url": "https://gothamist.com/news/nyc-council-hearing-to-put-ai-risks-in-the-spotlight",
+          "outlet": "Gothamist",
+          "lang": "en",
+          "tier": "press",
+          "title": "NYC Council hearing to put AI risks in the spotlight"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "confidence_note": "Snippet-only. Publish time approximate. Quotes and the bill description are as reported; whether the bill has passed is not confirmed.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 68.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "pentagon-says-it-stopped-using-anthropic-claude",
+      "title": "Pentagon tells BBC it has ceased using Anthropic products, though sources say Claude was still used via Maven last week",
+      "summary": "A Defense Department official told the BBC on Oct 5 that the Pentagon 'has ceased the use of Anthropic products'. This follows Hegseth's February supply-chain-risk designation and a six-month phaseout. BBC sources said Claude was still used as recently as last week, including in operations against Iran, through Palantir's Maven Smart System.",
+      "why_it_matters": "It marks the formal end of the largest government deployment of a frontier lab's model after a dispute over safeguards, and shows how hard it is to extract an embedded model from classified workflows.",
+      "key_numbers": [
+        "Six-month phaseout from late Feb 2026 designation"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "US Department of Defense",
+        "Palantir"
+      ],
+      "published_at": "2026-10-05T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://lowerbuckstimes.com/2026/10/05/defense-department-ends-use-of-anthropic-s-claude-months-after-blacklisting/",
+          "outlet": "Lower Bucks Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Defense Department Ends Use of Anthropic's Claude Months After Blacklisting"
+        },
+        {
+          "url": "https://runtimewire.com/article/pentagon-stops-anthropic-claude-use-maven-phaseout",
+          "outlet": "Runtime Wire",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Pentagon says it has stopped using Anthropic's Claude after a six-month phaseout"
+        },
+        {
+          "url": "https://www.philstockworld.com/2026/10/05/pentagon-stops-using-anthropic-ai-tools-after-blacklisting-company-bbc-told/",
+          "outlet": "Phil Stock World",
+          "lang": "en",
+          "tier": "press",
+          "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "confidence_note": "Snippet-only; the original BBC piece was not seen, only secondary reports. Publish time approximate.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 65.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.593
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 2.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "goldman-us-data-center-capacity-64gw-2026",
+      "title": "Goldman: US data-center growth intact despite local opposition; 2026 forecast raised to 64 GW, 2027 trimmed to 90 GW",
+      "summary": "Goldman Sachs raised its end-2026 US data-center capacity forecast by 5 GW to 64 GW and cut end-2027 by 5 GW to 90 GW. It expects US data-center power demand to grow 38% (12 GW) in 2026 and 38% (17 GW) in 2027. Its view is that moratoria and community pushback have had limited near-term impact because developers shift to friendlier jurisdictions. A June Reuters/Ipsos poll found only 14% would support a local AI data center.",
+      "why_it_matters": "Wall Street reads the backlash as moving where AI capacity gets built rather than how much, with some 2027 build pulled into 2026.",
+      "key_numbers": [
+        "64 GW end-2026 (+5 GW)",
+        "90 GW end-2027 (-5 GW)",
+        "Power demand +38% in 2026 (12 GW)",
+        "Power demand +38% in 2027 (17 GW)"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Goldman Sachs"
+      ],
+      "published_at": "2026-10-05T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://money.usnews.com/investing/news/articles/2026-10-05/goldman-sees-us-data-center-growth-intact-despite-opposition",
+          "outlet": "US News (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Goldman Sees US Data Center Growth Intact Despite Opposition"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/goldman-sees-us-data-center-growth-intact-despite-opposition-4931142",
+          "outlet": "Investing.com (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Goldman sees US data center growth intact despite opposition"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "confidence_note": "Numbers from search snippets of the Reuters wire; publish hour approximate. Both sources are the same wire story.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 63.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.698,
+          "breadth": 0.632,
+          "momentum": 0.865
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "samsung-q3-preview-100t-won-operating-profit",
+      "title": "Samsung set for first 100-trillion-won quarter: Q3 operating profit seen near 107-108T won on memory boom",
+      "summary": "Ahead of Samsung's preliminary Q3 release, expected this week, consensus operating profit is about 106.9T won (FnGuide, Oct 2) to 108.1T won, roughly ninefold year on year. Revenue is seen near 201.7T won. The record would top Q2's 89.4-89.5T won. Chip-division margin is estimated at 72-75%, with DRAM above 80%, on DDR5, enterprise SSD and HBM demand.",
+      "why_it_matters": "A 100T-won quarter would show memory pricing, not just HBM, driving record profits, the main support for the chip-stock rally.",
+      "key_numbers": [
+        "~108.1T won expected operating profit",
+        "FnGuide consensus 106.94T won",
+        "Revenue ~201.7T won",
+        "Prior record 89.4T won (Q2)",
+        "DS margin 72-75%"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Samsung Electronics",
+        "Micron",
+        "SK hynix"
+      ],
+      "tickers": [
+        "005930.KS"
+      ],
+      "published_at": "2026-10-05T09:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.koreaherald.com/article/10893284",
+          "outlet": "Korea Herald",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung set for record W100tr quarterly profit on memory boom"
+        },
+        {
+          "url": "https://www.aninews.in/news/business/samsung-poised-for-historic-usd-734-billion-quarterly-operating-profit-on-memory-demand-surge20261005173517/",
+          "outlet": "ANI",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung poised for historic USD 73.4 billion quarterly operating profit on memory demand surge"
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/10/05/samsung-may-report-its-first-100-trillion-won-quarter-micron-stock-has-more-to-lose-than-to-gain/",
+          "outlet": "Motley Fool",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung May Report Its First 100 Trillion Won Quarter"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "confidence_note": "Analyst forecasts, not results. Snippet-only. One source says guidance is due Oct 8; Samsung has not confirmed that date.",
+      "follow_up_of": null,
+      "score": {
+        "total": 62.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.42
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.833,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "china-asml-duv-stockpile-13b",
+      "title": "China reportedly spent $13B+ stockpiling ASML immersion DUV tools in 2024-25, sparking US calls for a full export ban",
+      "summary": "TrendForce reports Chinese fabs spent over $13B on about 90 ASML NXT:1980i machines in 2024 and 89 in 2025. A separate report puts Chinese-owned fabs at an estimated 343 immersion DUV systems by early 2026, around 270 of them NXT:1980i, which can be adapted for 7nm-class chips. China was 41% of ASML's system sales in 2024 and 33% in 2025. SCMP says the stockpile is driving US calls for a complete export ban on the tools.",
+      "why_it_matters": "It shows how much licensed DUV supply has fed China's advanced-chip push and adds pressure on Washington and The Hague to tighten approvals.",
+      "key_numbers": [
+        ">$13B spent in 2024-25",
+        "~90 NXT:1980i in 2024, 89 in 2025",
+        "343 immersion DUV tools by early 2026 (est.)",
+        "China 41% of ASML system sales 2024, 33% in 2025"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "ASML",
+        "China"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-05T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.trendforce.com/news/2026/10/05/news-china-reportedly-spent-13b-stockpiling-asml-duv-tools-in-2024-25-as-advanced-chip-push-continues/",
+          "outlet": "TrendForce",
+          "lang": "en",
+          "tier": "trade",
+          "title": "China Reportedly Spent $13B+ Stockpiling ASML DUV Tools in 2024-25"
+        },
+        {
+          "url": "https://www.scmp.com/tech/tech-war/article/3369557/china-stockpiles-asml-lithography-tools-spurring-us-calls-complete-export-ban",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "China stockpiles ASML lithography tools, spurring US calls for complete export ban"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.55,
+      "novelty": 0.65,
+      "confidence_note": "Underlying report not named in snippets; SCMP seen by headline and snippet only. All figures 'reportedly'. Publish time approximate. A Tom's Hardware piece on the 343-tool figure may predate Oct 5, so it is not cited.",
+      "follow_up_of": null,
+      "score": {
+        "total": 56.2,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.65,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "deepseek-harness-claude-code-mods-compat-layer",
+      "title": "DeepSeek Harness holiday update adds experimental Claude Code Mods compatibility layer",
+      "original_title": "DeepSeek国庆假期更新Harness，加入实验性Claude Code Mods兼容层",
+      "summary": "DeepSeek's agent framework Harness shipped alpha v0.2.1-alpha.1 on Oct 3, strengthening plugin and cross-platform support and adding an experimental layer that can run some of Anthropic's Claude Code Mods extensions. Team member Cui Tianyi, who wrote the layer, says it tests whether Mods capabilities are a subset of Harness's 'everything is a plugin' architecture. It cannot yet run all Mods, but he says full support is technically feasible.",
+      "why_it_matters": "A Chinese lab is making its agent harness interoperable with a leading US coding agent's extension ecosystem, which could ease developer migration between the stacks.",
+      "key_numbers": [
+        "v0.2.1-alpha.1",
+        "Released Oct 3"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Anthropic"
+      ],
+      "published_at": "2026-10-05T02:00:00Z",
+      "follow_up_of": "deepseek-harness-cui-tianyi-plugin-interview",
+      "sources": [
+        {
+          "url": "https://www.36kr.com/p/4010809598922624",
+          "outlet": "36氪",
+          "lang": "zh",
+          "tier": "press",
+          "title": "太卷了！DeepSeek假期更新，Harness有了新版本"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261005/herald/a1c2279eb6be1b79e53747770f5bec2b.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek 假期上新，90后负责人回应"
+        },
+        {
+          "url": "https://news.sina.com.cn/c/2026-10-05/doc-iniucpwp4700537.shtml",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek Harness国庆假期上新！90后负责人回应"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "confidence_note": "Release was Oct 3, before the window; Chinese press wrote it up Oct 4-5, so published_at is an estimate. Snippet-only; no GitHub release page opened.",
+      "tickers": [],
+      "score": {
+        "total": 53.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.37
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 1.167,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "crunchbase-q3-2026-venture-159b-27-billion-dollar-rounds",
+      "title": "Crunchbase: Q3 venture hit $159B with a record 27 billion-dollar rounds; AI took 64%",
+      "summary": "Crunchbase reports global venture funding of $159B in Q3 2026 across close to 6,000 startups, down 25% from Q2 but up 53% year on year. A record 27 companies raised $1B+ rounds, about a third of all dollars. AI-driven startups raised $102B (64%). Databricks and Safe Superintelligence led with $5B each. Funding for Q1-Q3 totals $679B, the highest first nine months on record.",
+      "why_it_matters": "Capital is concentrating in a handful of giant AI and compute rounds even as total quarterly funding cooled from Q2's peak.",
+      "key_numbers": [
+        "$159B Q3 global venture",
+        "$102B to AI (64%)",
+        "27 billion-dollar rounds (record)",
+        "$679B Q1-Q3 2026",
+        "Q3 -25% QoQ, +53% YoY"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Crunchbase",
+        "Databricks",
+        "Safe Superintelligence"
+      ],
+      "published_at": "2026-10-05T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/venture/q3-2026-global-startup-funding-ai-billion-dollar-rounds-exits-data/",
+          "outlet": "Crunchbase News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Q3 2026 Posted A Record Count Of Billion-Dollar Rounds As The Global AI Race Heats Up"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-crunchbase-q3-2026-159b-venture-27-billion-dollar-rounds-ai/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Crunchbase: Q3 Venture Hit $159B, AI Took 64%"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.45,
+      "novelty": 0.7,
+      "confidence_note": "Figures from search snippets; publication date inferred as Oct 5 from result text.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 52.1,
+        "components": {
+          "impact": 0.45,
+          "novelty": 0.7,
+          "credibility": 0.438,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "tsmc-record-high-terafab-talks-oct15-preview",
+      "title": "TSMC US shares hit record as Musk-confirmed Terafab talks reshape the Oct 15 earnings preview",
+      "summary": "TSMC's US-listed shares reached fresh records near $477-480 on Oct 5, closing up about 3%, after Musk confirmed early talks with TSMC on the Texas Terafab. TrendForce's preview says the structure could range from TSMC owning and operating the fab with Terafab/SpaceX taking equity or wafer commitments, to Musk's side holding a majority with TSMC supplying process technology. TSMC reports Q3 results on Oct 15.",
+      "why_it_matters": "A Musk-linked US foundry deal would depart from TSMC's usual operating model and tie its returns to the counterparties' execution.",
+      "key_numbers": [
+        "TSM ~$477-480 record",
+        "Q3 results Oct 15"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "TSMC",
+        "Terafab",
+        "SpaceX"
+      ],
+      "tickers": [
+        "2330.TW"
+      ],
+      "published_at": "2026-10-05T18:00:00Z",
+      "follow_up_of": "musk-confirms-tsmc-terafab-talks",
+      "sources": [
+        {
+          "url": "https://www.trendforce.com/news/2026/10/05/news-tsmc-earnings-preview-terafab-talks-price-hikes-and-a14-intel-race-lead-five-key-themes/",
+          "outlet": "TrendForce",
+          "lang": "en",
+          "tier": "trade",
+          "title": "TSMC Earnings Preview: Terafab Talks, Price Hikes and A14-Intel Race Lead Five Key Themes"
+        },
+        {
+          "url": "https://fool.com/investing/2026/10/05/elon-musk-confirmed-terafab-talks-with-tsmc-intel-has-been-its-only-named-chip-partner",
+          "outlet": "Motley Fool",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elon Musk Confirmed Terafab Talks With TSMC"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "confidence_note": "Follow-up; new elements are the record share price and TrendForce's structure scenarios. Price moves snippet-only. Dallas/six-fab and Terafab investment figures omitted as secondary.",
+      "score": {
+        "total": 51.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.565,
+          "momentum": 0.528
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "apple-oct-13-event-siri-ai-home-hub",
+      "title": "Gurman: Apple plans Oct 13 event for Siri-AI smart home hub, HomePod mini and Apple TV",
+      "summary": "Bloomberg's Mark Gurman reports Apple will hold a special event on Oct 13 to introduce a smart home hub with a roughly 6-inch screen, a refreshed HomePod mini and an updated Apple TV, all with Siri AI at the core. Apple has not sent invitations or confirmed the date. Apple's Siri upgrade is based on Google Gemini models under a multi-year deal.",
+      "why_it_matters": "It would be the first dedicated home hardware for the Gemini-based Siri.",
+      "key_numbers": [
+        "Event reportedly Oct 13",
+        "~6-inch hub display"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Apple",
+        "Google"
+      ],
+      "tickers": [
+        "AAPL"
+      ],
+      "published_at": "2026-10-05T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://9to5mac.com/2026/10/05/apple-event-is-reportedly-happening-next-week-per-mark-gurman",
+          "outlet": "9to5Mac",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apple event is reportedly happening next week, per Mark Gurman"
+        },
+        {
+          "url": "https://www.macrumors.com/2026/10/04/apple-event-reportedly-planned-for-october-13/",
+          "outlet": "MacRumors",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apple Event Reportedly Planned for October 13"
+        },
+        {
+          "url": "https://macdailynews.com/2026/10/05/apple-special-event-reportedly-planned-for-october-13th",
+          "outlet": "MacDailyNews",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apple special event reportedly planned for October 13th"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "confidence_note": "Rumor, unconfirmed by Apple. Snippet-only; publish time approximate.",
+      "follow_up_of": null,
+      "score": {
+        "total": 47.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.578,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "cme-compute-futures-launch-slips-cftc-review",
+      "title": "CME's first GPU compute futures miss Oct 5 launch as CFTC extends review to Nov 9",
+      "summary": "CME Group and Silicon Data had planned to launch cash-settled H100 and B200 rental-index futures on Oct 5, pending regulatory review. The CFTC confirmed in September it was extending its review by 45 days to Nov 9, saying the GPU rental market is fragmented and opaque. Search results show no new launch date.",
+      "why_it_matters": "It delays the first hedging market for AI compute prices, which labs and neoclouds have sought as they take on chip-backed debt.",
+      "key_numbers": [
+        "Planned launch Oct 5, 2026",
+        "CFTC review extended 45 days to Nov 9"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "CME Group",
+        "Silicon Data",
+        "CFTC"
+      ],
+      "tickers": [
+        "CME"
+      ],
+      "published_at": "2026-10-05T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cmegroup.com/media-room/press-releases/2026/8/11/cme_group_and_silicondatatolaunchcomputefuturesonoctober5tounloc.html",
+          "outlet": "CME Group",
+          "lang": "en",
+          "tier": "primary",
+          "title": "CME Group and Silicon Data to Launch Compute Futures on October 5"
+        },
+        {
+          "url": "https://www.gurufocus.com/news/9093171/nvidia-gpu-futures-delayed-cftc-extends-review-period",
+          "outlet": "GuruFocus",
+          "lang": "en",
+          "tier": "press",
+          "title": "NVIDIA GPU Futures Delayed: CFTC Extends Review Period"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.35,
+      "novelty": 0.3,
+      "confidence_note": "The CFTC extension was reported around Sep 21; the news is the missed Oct 5 date. Snippet-only. Some snippets still describe Oct 5 as planned; Nov 9 comes from secondary outlets.",
+      "follow_up_of": null,
+      "score": {
+        "total": 47.5,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.3,
+          "credibility": 0.78,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-08",
+      "title": "Samsung Electronics preliminary Q3 results expected (consensus ~107-108T won operating profit)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.aninews.in/news/business/samsung-poised-for-historic-usd-734-billion-quarterly-operating-profit-on-memory-demand-surge20261005173517/"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Apple special event reportedly planned (smart home hub, HomePod mini, Apple TV with Siri AI)",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.macrumors.com/2026/10/04/apple-event-reportedly-planned-for-october-13/"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Gemini app begins rolling out Skills (Workspace rollout began Oct 5)",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "StepFun reportedly to release open weights for Step 5 Preview (600B MoE, 27B active, 1M context)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.163.com/tech/article/L78VD8I600098IEO.html"
+    },
+    {
+      "date": "2026-10",
+      "title": "Reflection AI to release Beam open weights (Apache 2.0) 'later in October'",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://reflection.ai/blog/introducing-beam"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "CFTC extended review deadline for CME/Silicon Data H100/B200 compute futures",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://www.gurufocus.com/news/9093171/nvidia-gpu-futures-delayed-cftc-extends-review-period"
+    }
+  ],
+  "notes": "Nightly harvest was stale (ends 2026-10-04T23:30Z); Oct 5 coverage came from WebSearch only, and most facts are search-snippet level (see confidence_note per item). No frontier model releases or papers dated Oct 5 other than Reflection Beam were found. Dropped as stale or minor: Ping An Bank AI rules (Sep 30), Googlebook and AWS Kiro roundup."
+}
