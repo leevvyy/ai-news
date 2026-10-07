@@ -1,0 +1,483 @@
+{
+  "date": "2026-10-07",
+  "window": {
+    "start": "2026-10-06T21:49:00Z",
+    "end": "2026-10-07T21:49:00Z"
+  },
+  "tldr": [
+    "Anthropic's Claude Haiku 5.5 launches at $0.10/$0.50 per million tokens for prompts up to 100K, matching OpenAI's GPT-6 Luna and turning the small-model tier into a price fight (launch day reported as Oct 6 or 7).",
+    "SpaceX is reportedly seeking about $40B of debt, led by Apollo, to buy Nvidia chips: roughly $10B of bank loans and $30B of investment-grade debt, per the FT as relayed by Reuters and Bloomberg.",
+    "Marvell raised its FY2028 revenue target to about $20B and set a $70-90B FY2031 range, while Memphis pushed its data-center moratorium vote to Oct 20 amid protests."
+  ],
+  "items": [
+    {
+      "id": "spacex-seeks-40b-debt-nvidia-chips-apollo",
+      "title": "SpaceX seeks about $40B of debt, led by Apollo, to buy Nvidia chips, FT reports",
+      "summary": "The Financial Times reported, and Reuters and Bloomberg relayed, that SpaceX is looking to raise about $40 billion to fund a large Nvidia chip order: roughly $10 billion of bank loans and $30 billion of investment-grade debt. Apollo is expected to lead and place the debt with investors, and SpaceX is reportedly in talks with PIMCO. Bloomberg describes the talks as early and says they could end without a deal; Benzinga says closing is expected in 2027.",
+      "why_it_matters": "It shows AI capex moving into investment-grade credit markets at a size few issuers can match, and ties SpaceX (which absorbed xAI) to Nvidia supply for Colossus and orbital compute.",
+      "key_numbers": [
+        "~$40B target",
+        "~$10B bank loans",
+        "~$30B investment-grade debt",
+        "Close expected 2027 (Benzinga)"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "Nvidia",
+        "Apollo",
+        "PIMCO"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-06T22:47:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX Seeks $40 Billion Debt Deal to Buy Nvidia Chips for AI Expansion"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/spacex-seeks-40-billion-to-buy-nvidia-chips-ft-reports-4935381",
+          "outlet": "Reuters via Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX seeks $40 billion financing to buy Nvidia chips, sources say"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/tech/26/10/62208031/spacex-apollo-40-billion-nvidia-chips-financing",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SpaceX Seeks $40 Billion, Led By Apollo, to Buy Nvidia Chips"
+        },
+        {
+          "url": "https://gvwire.com/2026/10/07/spacex-seeks-40-billion-financing-to-buy-nvidia-chips-sources-say/",
+          "outlet": "GV Wire (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX Seeks $40 Billion Financing to Buy Nvidia Chips, Sources Say"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Anonymous-source report (FT, relayed by Reuters/Bloomberg); no SpaceX confirmation. Debt split and PIMCO talks come from search-result summaries, not read in full. Ticker SPCX taken from Benzinga's NASDAQ:SPCX label; verify Yahoo symbol. Nvidia is a supplier, not tagged. Harvest first-seen time 22:47Z Oct 6. Ticker omitted: SPCX symbol unverified.",
+      "score": {
+        "total": 66.1,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.541
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "marvell-investor-day-fy28-20b-fy31-70-90b",
+      "title": "Marvell lifts FY2028 revenue target to about $20B and sets FY2031 range of $70-90B at investor day",
+      "summary": "At its Oct 6 investor day in New York, Marvell raised its fiscal 2028 revenue target from $18B to about $20B, above the $18.2B consensus cited by coverage, and set a first fiscal 2031 range of $70-90B. It lifted its FY2029 custom-silicon target to above $12B and cited a $400B AI addressable market by 2030. Coverage ties the targets to an August Google agreement with warrants linked to up to $120B of cumulative custom-chip orders; the stock rose over 7% intraday.",
+      "why_it_matters": "It reads as a bet that hyperscaler custom ASIC and optical interconnect demand will outgrow merchant GPUs, a direct challenge to Broadcom, with a hyperscaler-warrant structure that ties customer orders to Marvell equity.",
+      "key_numbers": [
+        "FY2028 target ~$20B (from $18B)",
+        "FY2031 target $70-90B",
+        "FY2029 custom >$12B",
+        "AI TAM $400B by 2030",
+        "Stock +7% intraday"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Marvell",
+        "Google",
+        "Broadcom"
+      ],
+      "tickers": [
+        "MRVL"
+      ],
+      "published_at": "2026-10-06T20:14:00Z",
+      "sources": [
+        {
+          "url": "https://rollingout.com/2026/10/06/marvell-technology-stock-surge-revenue/",
+          "outlet": "Rolling Out",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Marvell forecasts explosive growth through 2031"
+        },
+        {
+          "url": "https://www.techtimes.com/articles/328671/20261006/marvell-targets-90b-revenue-2031-google-warrant-ties-120b-chip-buys-marvell-equity.htm",
+          "outlet": "Tech Times",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Marvell Targets $90B Revenue by 2031; Google Warrant Ties $120B Chip Buys to Marvell Equity"
+        },
+        {
+          "url": "https://startupfortune.com/marvell-lays-out-its-custom-ai-chip-case-to-wall-street-at-investor-day/",
+          "outlet": "Startup Fortune",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Marvell Lays Out Its Custom AI Chip Case to Wall Street at Investor Day"
+        },
+        {
+          "url": "https://www.marvell.com/company/events/investor-day-2026.html",
+          "outlet": "Marvell",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Investor Day 2026"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Event was Oct 6 US daytime; harvest first-seen 20:14Z, about 1.5h before window start, with the stock reaction and analysis spilling into the window. Figures come from search summaries of trade outlets (FY28 shown as $18B->$20B in most, other outlets quote $16.5B/$18B older steps). $120B Google warrant value is reported, not company-confirmed. The Marvell URL is the event page, not a press release; no deck read.",
+      "score": {
+        "total": 61.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.775,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "anthropic-claude-haiku-5-5-90pct-price-cut",
+      "title": "Anthropic launches Claude Haiku 5.5 at $0.10/$0.50 per million tokens for prompts under 100K, matching GPT-6 Luna",
+      "summary": "Anthropic released Claude Haiku 5.5, its small model, with API pricing of $0.10 input and $0.50 output per million tokens for prompts up to 100,000 tokens (down from $1/$5 on Haiku 4.5) and $0.50/$2.50 above that. Anthropic reports 72.4% on OSWorld 2.1 (offline subset; 15.7% for Haiku 4.5) and 39.2% on Terminal-Bench 4.0 (0% for Haiku 4.5), and puts average savings near 75% after a tokenizer change that uses slightly more tokens per task. The model also adds adjustable effort levels.",
+      "why_it_matters": "The base rate matches OpenAI's smallest model, GPT-6 Luna, so the small-model tier is now a price fight. Cheap computer-use and agentic-coding capability at this level lowers the cost of running sub-agent fleets, though the 100K-token step-up and tokenizer change blunt the headline cut for long-context agent loops.",
+      "key_numbers": [
+        "$0.10/$0.50 per M tokens (<=100K prompts)",
+        "$0.50/$2.50 per M tokens (>100K)",
+        "~75% average cost saving (Anthropic)",
+        "72.4% OSWorld 2.1 (offline subset)",
+        "39.2% Terminal-Bench 4.0"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-07T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
+          "outlet": "VentureBeat",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna"
+        },
+        {
+          "url": "https://thenewstack.io/anthropic-claude-haiku-5-5/",
+          "outlet": "The New Stack",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic launches Haiku 5.5 at a much lower price"
+        },
+        {
+          "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over"
+        },
+        {
+          "url": "https://tbreak.com/claude-haiku-5-5-launch-price/",
+          "outlet": "TechBreak",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Claude Haiku 5.5 launches with up to 90% lower prices"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Launch day not pinned: Yahoo Finance (snippet) dates it Wed Oct 7, while The Tech Portal (dated Oct 8) says Tuesday; published_at 16:00Z Oct 7 is an estimate, and if it was Oct 6 it falls before the window. No anthropic.com URL was seen, so the primary-source check rests on 4+ independent outlets. Figures come from search-result summaries of those articles and are Anthropic's own benchmarks; Sonnet 5.5 and GPT-6 Luna comparison figures omitted. Several searches in this session returned no Haiku 5.5 results at all, so verify against Anthropic's release page before publishing.",
+      "score": {
+        "total": 57.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.295
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "memphis-council-delays-data-center-moratorium-oct-20",
+      "title": "Memphis council delays data-center moratorium vote to Oct 20 for a second time, amid protest and a lobby fistfight",
+      "summary": "The Memphis City Council voted 7-5 on Oct 6 to push its vote on a data-center moratorium, along with related data-center ordinances, to Oct 20; it had already slipped from Sept 15. Protesters erupted, a fight broke out in the lobby, police cleared the chamber and the meeting was recessed. The council also agreed to a Thursday working session on the remaining issues.",
+      "why_it_matters": "The pause would not cover xAI's existing Colossus sites but would freeze new approvals, making Memphis a test of local pushback against Musk's expanding AI footprint.",
+      "key_numbers": [
+        "7-5 vote to delay",
+        "Vote now Oct 20",
+        "Second delay (was Sept 15, then Oct 6)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Memphis City Council",
+        "xAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-06T23:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.wsmv.com/2026/10/06/data-center-moratorium-vote-ends-abruptly-amid-protests-fistfight/",
+          "outlet": "WSMV",
+          "lang": "en",
+          "tier": "press",
+          "title": "Data center moratorium vote ends abruptly amid protests, fistfight"
+        },
+        {
+          "url": "https://www.actionnews5.com/2026/10/06/data-center-moratorium-vote-ends-abruptly-amid-protests-fistfight/",
+          "outlet": "Action News 5",
+          "lang": "en",
+          "tier": "press",
+          "title": "Protests, fistfight break out after data center moratorium vote postponed for 2nd time"
+        },
+        {
+          "url": "https://www.13abc.com/2026/10/07/data-center-moratorium-vote-postponed-after-fight-protests/",
+          "outlet": "13abc",
+          "lang": "en",
+          "tier": "press",
+          "title": "Memphis City Council halts meeting amid chaos, delays vote to Oct. 20"
+        },
+        {
+          "url": "https://www.foxnews.com/politics/memphis-city-council-devolves-chaos-data-center-moratorium-vote-postponed",
+          "outlet": "Fox News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Memphis City Council devolves into chaos after data center moratorium vote postponed"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Details from search summaries of local/syndicated reports. published_at estimated from harvest first-seen (23:00Z Oct 6); meeting was Tuesday evening Central time. xAI is not a party to the ordinance, so no ticker.",
+      "score": {
+        "total": 53.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "google-embeddinggemma-2-open-multimodal-embeddings",
+      "title": "Google DeepMind releases EmbeddingGemma 2, an open multimodal embedding model for on-device search",
+      "summary": "Google DeepMind published EmbeddingGemma 2, an open-weight embedding model that maps text, images, video and audio into one shared vector space for search and organisation on local devices. One report puts it at about 740 million parameters. It was first posted on October 6.",
+      "why_it_matters": "An open, small multimodal embedder lets developers build private on-device retrieval without calling a hosted API such as Gemini Embedding 2. It extends the Gemma line into retrieval, a core piece of agent memory stacks.",
+      "key_numbers": [
+        "~740M parameters (single report)"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google DeepMind",
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-06T16:03:49Z",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4650648-google-deepmind-launches-multimodal-ai-model-for-on-device-search",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google DeepMind launches multimodal AI model for on-device search"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Borderline for the window: first posted 2026-10-06T16:03Z (about 5h45m before window start), with no in-window development found. Blog URL taken from the stale harvest digest, not opened; it was not returned by WebSearch, and searches for 'EmbeddingGemma 2' did not surface it. The 740M figure and the modality list are from a single search-result summary. Keep out of leads unless the blog is verified.",
+      "score": {
+        "total": 49.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.78,
+          "breadth": 0.393,
+          "momentum": 0.607
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 1.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "nous-research-90m-series-b-1-5b-valuation",
+      "title": "Nous Research confirms $90M Series B at $1.5B valuation, launches Hermes agents for businesses",
+      "summary": "TechCrunch reports the Hermes open-source agent developer raised $90M in a Series B at a $1.5B valuation, led by Robot Ventures with Nvidia, Union Square Ventures, Menlo Ventures, Samsung and 1789 Capital participating. Total funding is now $158M. It confirms July reporting that a round of at least $75M was being finalised, and the company is launching agents for business users.",
+      "why_it_matters": "Investors, including Nvidia and Samsung, are funding open-source agent frameworks that compete with OpenClaw-style local agents.",
+      "key_numbers": [
+        "$90M Series B",
+        "$1.5B valuation",
+        "$158M total raised"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nous Research",
+        "Robot Ventures",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-07T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only the TechCrunch headline URL and a snippet-level summary seen; the Block link is the July pre-report (not an in-window source). published_at is an estimate. Likely Desk A territory (agents); kept as a funding item.",
+      "score": {
+        "total": 34.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 6
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-14",
+      "title": "OpenAI retires GPT-5.5 from ChatGPT, ChatGPT Work and Codex (API unaffected)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.newsbytesapp.com/news/science/openai-to-retire-gpt-5-5-model-on-october-14/story"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Memphis City Council working session on data-center ordinances (Thursday)",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.13abc.com/2026/10/07/data-center-moratorium-vote-postponed-after-fight-protests/"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Senate record open for additional testimony after Hawley 'Rogue AI' hearing",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://www.hawley.senate.gov/icymi-hawley-convenes-first-senate-hearing-on-rogue-ai-attacks/"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Memphis City Council scheduled vote on data-center moratorium",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.13abc.com/2026/10/07/data-center-moratorium-vote-postponed-after-fight-protests/"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "NYT v. OpenAI/Microsoft: summary-judgment responses due (per tracker)",
+      "kind": "deadline",
+      "confidence": "rumored",
+      "url": "https://openclassactions.com/news/openai-class-action-lawsuits-explained.php"
+    },
+    {
+      "date": "2026-10",
+      "title": "SK hynix Q3 2026 earnings (later this month, date not confirmed)",
+      "kind": "earnings",
+      "confidence": "rumored",
+      "url": "https://sundayguardianlive.com/business/korea-stock-market-krx-today-october-06-why-is-the-korean-stock-market-down-today-kospi-falls-below-7000-as-samsung-electronics-sk-hynix-slide-kosdaq-rises-check-top-gainers-losers-299805/"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "iFlytek to release flagship LLM on Huawei Ascend 950 around its 1024 developer festival",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://stock.10jqka.com.cn/20260710/c678108969.shtml"
+    },
+    {
+      "date": "2026-10",
+      "title": "Moonshot Kimi K3.1 (leaked 'kimi-k3-1' API identifier; 1M context, Low/High/Max reasoning) may launch",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://tech.ifeng.com/c/8wlHr8PgALK"
+    },
+    {
+      "date": "2027-01",
+      "title": "DeepSeek IPO filing/listing prep reportedly targets early 2027 (STAR Market speculation)",
+      "kind": "other",
+      "confidence": "rumored",
+      "url": "https://www.ithome.com/1/009/990.htm"
+    },
+    {
+      "date": "2027-01",
+      "title": "Kuaishou Kling AI aims to file for Hong Kong IPO in early 2027 (reported)",
+      "kind": "other",
+      "confidence": "rumored",
+      "url": "https://stock.10jqka.com.cn/20260702/c677889749.shtml"
+    }
+  ],
+  "notes": "Stale harvest (ends 2026-10-07T00:00Z, nightly run missing) and WebSearch returned very little indexed after Oct 6, so this issue is thin. Left out as pre-window or unverifiable: DeepSeek 80B-yuan round (first reported Oct 6 ~05Z), Moonshot pre-IPO round, Kling HK IPO plan, Nvidia record-high/dip, Crusoe Jayton campus (publication time unknown). Haiku 5.5 launch day is ambiguous (Oct 6 vs Oct 7)."
+}
