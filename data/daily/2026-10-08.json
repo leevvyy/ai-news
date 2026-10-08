@@ -1,0 +1,809 @@
+{
+  "date": "2026-10-08",
+  "window": {
+    "start": "2026-10-07T21:49:00Z",
+    "end": "2026-10-08T21:48:00Z"
+  },
+  "tldr": [
+    "Google Cloud launched the 'Gemini agent', a single enterprise work agent in private preview that can route tasks to Claude as well as Gemini, setting up a direct contest with OpenAI's dots agents and Microsoft's Copilot.",
+    "Samsung guided Q3 operating profit to a record 107.4 trillion won (~$80B) on ~195T won sales, the first quarter above 100T, though shares slipped as the memory upcycle was already priced in.",
+    "China/Asia: Manus raised over $500M, led by Boyu and IDG, its first round since Beijing forced Meta to unwind its ~$2B purchase; separately, South Korea suspects AI was used in hacks of seven banks that exposed about 68,000 people."
+  ],
+  "items": [
+    {
+      "id": "google-cloud-gemini-agent-universal-work-agent",
+      "title": "Google Cloud launches 'Gemini agent', a universal enterprise work agent that can route to Claude",
+      "summary": "At Gemini at Work 2026, Google Cloud unveiled the Gemini agent, a single agent for knowledge work, media creation and coding that works across Gemini Enterprise, Workspace, Slack, Microsoft 365, the command line and mobile. It picks a model per task, starting with Gemini and Claude, and can spawn temporary job-specific sub-agents; teams can also create 'coworker' agents with their own mailbox, calendar and Drive. An API exposes it as a headless agent. It is in private preview, with wide availability for select Workspace Business and Enterprise plans promised 'soon'.",
+      "why_it_matters": "Google is consolidating its enterprise agent products into one surface and openly orchestrating a rival's model, raising the stakes against OpenAI's always-on dots agents and Microsoft's Copilot.",
+      "key_numbers": [
+        "Private preview",
+        "Models: Gemini + Claude at launch"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google Cloud",
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-08T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "outlet": "Google Cloud Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini at Work 2026: Introducing Gemini agent"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google brings agentic AI to Gemini, starting with businesses"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/google-gemini-ai-workplace-agent/",
+          "outlet": "CBS News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google launches Gemini AI workplace agent that can write code and run tasks, company says"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Details from search-result summaries of the Google blog and press; publication time estimated.",
+      "score": {
+        "total": 69.9,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "samsung-q3-prelim-107t-won-record",
+      "title": "Samsung guides Q3 operating profit to a record 107.4 trillion won on ~195T won sales",
+      "summary": "Samsung Electronics' preliminary Q3 2026 results put operating profit at about 107.4 trillion won (~$80B), its first quarter above 100 trillion won, on sales of about 195 trillion won. Operating profit rose roughly 20% from Q2 and 782% year on year, a 55.1% margin, and beat a consensus near 106 trillion won while sales came in slightly below the ~199T consensus. The figures are preliminary; the full division breakdown is due Oct 29. Seoul shares slipped on the day and the KOSPI fell, while SK hynix rose.",
+      "why_it_matters": "It confirms the memory upcycle is still accelerating through Q3 and sets the bar for SK hynix and Micron prints later this month; the muted share reaction suggests the good news was already priced in.",
+      "key_numbers": [
+        "107.4T won operating profit",
+        "~195T won sales",
+        "55.1% operating margin",
+        "+782% YoY",
+        "Full results Oct 29"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Samsung Electronics",
+        "SK hynix"
+      ],
+      "tickers": [
+        "005930.KS"
+      ],
+      "published_at": "2026-10-08T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand"
+        },
+        {
+          "url": "https://en.sedaily.com/finance/2026/10/08/samsung-electronics-posts-record-107-trillion-won-quarterly",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung Electronics Q3 Operating Profit Tops 100 Trillion Won for First Time"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62236247/samsung-third-quarter-guidance-profit-sales-ai-memory-demand",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Samsung Stock Slips in Seoul Despite $80 Billion Q3 Profit Guidance"
+        },
+        {
+          "url": "https://www.ajupress.com/view/20261008110815166",
+          "outlet": "Aju Press",
+          "lang": "en",
+          "tier": "press",
+          "title": "Korean stocks slip despite spectacular Samsung Q3"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.8,
+      "novelty": 0.5,
+      "follow_up_of": "samsung-q3-preview-100t-won-operating-profit",
+      "confidence_note": "Seen via search-result summaries; release time estimated (Korean morning filing). Market-reaction figures differ across outlets, so none are quoted beyond direction.",
+      "score": {
+        "total": 68.6,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.541
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "manus-raises-500m-after-meta-unwind",
+      "title": "Manus raises over $500M, its first round since Meta's $2B acquisition was unwound",
+      "original_title": "Manus完成超5亿美元新一轮融资，博裕投资、IDG资本领投",
+      "summary": "Manus parent Butterfly Effect said it closed a round of more than $500 million co-led by Boyu Capital and IDG Capital, with existing investors including Tencent, HSG (formerly Sequoia China) and ZhenFund participating. It is the first raise since Beijing forced Meta to unwind its roughly $2B purchase of the agent startup, after which Manus resumed independent operations on Sept 1. The company did not disclose a valuation; Bloomberg had earlier reported talks at about $4B.",
+      "why_it_matters": "It shows Chinese capital can fund a frontier-adjacent agent company that was nearly absorbed by a US giant, and sets a marker for China's agent-application valuations.",
+      "key_numbers": [
+        ">$500M round",
+        "Valuation undisclosed (~$4B reported in September talks)",
+        "~$2B original Meta price"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Manus",
+        "Butterfly Effect",
+        "Meta"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-08T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI startup Manus raises $500 million in first funding round since Meta breakup"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/manus-raises-more-than-500-million-after-meta-exit-4938004",
+          "outlet": "Reuters via Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Manus raises more than $500 million after Meta exit"
+        },
+        {
+          "url": "https://finance.sina.com.cn/7x24/2026-10-08/doc-iniunrri4431869.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "Manus完成超5亿美元新一轮融资"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L8NL6M7O0539ABYY.html",
+          "outlet": "网易订阅",
+          "lang": "zh",
+          "tier": "press",
+          "title": "Manus完成超5亿美元新一轮融资：博裕投资、IDG资本领投"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Seen via search results; announcement time estimated. Revenue and valuation figures in some outlets are unconfirmed and omitted.",
+      "score": {
+        "total": 65.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "microsoft-nvidia-surface-laptop-ultra-rtx-spark",
+      "title": "Microsoft and Nvidia launch Surface Laptop Ultra on RTX Spark with OS-level controls for local AI agents",
+      "summary": "At an Oct 7 event, Microsoft and Nvidia launched the 15-inch Surface Laptop Ultra built on Nvidia's RTX Spark chip, with preorders open. Windows 11 gains agent-oriented identity, containment and management controls, and Nvidia is bringing OpenShell to Windows so agents such as OpenClaw can run locally. Microsoft says it outperforms MacBooks, per Bloomberg.",
+      "why_it_matters": "It pushes sandboxed always-on agents onto mainstream Windows hardware and puts Nvidia into PC silicon against Apple and Qualcomm.",
+      "key_numbers": [
+        "12 outlets covering",
+        "15-inch"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "Nvidia"
+      ],
+      "tickers": [
+        "MSFT",
+        "NVDA"
+      ],
+      "published_at": "2026-10-07T20:22:00Z",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+          "outlet": "NVIDIA Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11"
+        },
+        {
+          "url": "https://www.tomshardware.com/laptops/microsoft-and-nvidia-launch-surface-laptop-ultra-with-rtx-spark-rtx-spark-preorders-live-now-coinciding-with-major-windows-11-changes-for-agentic-ai",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft and Nvidia launch Surface Laptop Ultra with RTX Spark"
+        }
+      ],
+      "coverage": 12,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Borderline timing: first report Oct 7 12:41Z, about 1.5h before the window opened. Details from the harvest and headlines; no price or ship date seen.",
+      "score": {
+        "total": 62.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.865,
+          "momentum": 0.541
+        },
+        "coverage": 12,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "korea-bank-hacks-ai-suspected-68k-exposed",
+      "title": "South Korea orders probe as AI is suspected in hacks of seven banks exposing about 68,000 people",
+      "original_title": "韩国多家银行被黑，疑似有人工智能参与，李在明要求彻查",
+      "summary": "President Lee Jae-myung told an Oct 6 cabinet meeting there are signs AI was used in recent attacks on Korean banks and ordered a thorough investigation. The Financial Services Commission puts the affected number at over 68,000 people across institutions including Shinhan (about 25,000 customers), KB Kookmin and Hana. Police formed a dedicated team; attribution to a Chinese-developed AI tool is reported but not confirmed by Korean authorities.",
+      "why_it_matters": "It is a concrete government-level acknowledgement of AI-assisted attacks on financial infrastructure, adding to the agent-misuse enforcement wave.",
+      "key_numbers": [
+        ">68,000 people affected",
+        "7 banks named",
+        "28-33 IP addresses traced"
+      ],
+      "topic": "policy",
+      "region": "other",
+      "entities": [
+        "South Korea",
+        "Shinhan Bank",
+        "KB Kookmin Bank",
+        "Hana Bank"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-07T22:39:00Z",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/tech-news/south-koreas-lee-says-ai-appears-used-bank-hacks-rcna601943",
+          "outlet": "NBC News",
+          "lang": "en",
+          "tier": "press",
+          "title": "South Korea's Lee says AI appears to have been used in bank hacks"
+        },
+        {
+          "url": "https://therecord.media/south-korean-bank-hacks-ai-agents",
+          "outlet": "The Record",
+          "lang": "en",
+          "tier": "trade",
+          "title": "South Korean officials believe AI agents were used to hack several banks"
+        },
+        {
+          "url": "https://finance.sina.com.cn/roll/2026-10-08/doc-iniunezq5342447.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "韩国多家银行被黑，疑似有人工智能参与，李在明要求彻查"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Cabinet remarks were Oct 6; the Chinese-language wave and wider coverage ran into the window. The tool attribution (Artex AI) is unconfirmed.",
+      "score": {
+        "total": 58.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "nvidia-1b-us-science-genesis-mission",
+      "title": "Nvidia commits $1B over five years to US science at White House Genesis Mission event",
+      "summary": "At the 'Science: A New Golden Age' event in Washington, Nvidia pledged about $1 billion over five years for higher-education research, US quantum computing and cloud providers serving government, tied to the Energy Department's Genesis Mission. Reports put the industry total at about $2.4B, with AMD at $500M and OpenAI at $200M. Jensen Huang, Elon Musk, Lisa Su and Sergey Brin received the National Medal of Science at the same event.",
+      "why_it_matters": "Frontier labs and chip makers are competing to be the federal science partner, which shapes who gets government compute and data access.",
+      "key_numbers": [
+        "$1B over 5 years",
+        "~$2.4B industry total",
+        "AMD $500M",
+        "OpenAI $200M"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Genesis Mission",
+        "AMD",
+        "OpenAI"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-08T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Commits $1 Billion to Advance US Science Over the Next Five Years"
+        },
+        {
+          "url": "https://thenextweb.com/news/nvidia-1-billion-us-science-genesis-mission-quantum",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia commits $1 billion to US science over five years"
+        },
+        {
+          "url": "https://fedscoop.com/genesis-mission-investment-nvidia-google-anthropic-openai",
+          "outlet": "FedScoop",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Tech sector pours $2.4B in AI tools, compute credits for Genesis Mission Consortium"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Seen via search summaries; AMD/OpenAI amounts and the $2.4B total are from secondary coverage.",
+      "score": {
+        "total": 56.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.583
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "anthropic-cyber-mission-oss-scanner-cidp",
+      "title": "Anthropic launches Cyber Mission: free OSS Scanner and a critical-infrastructure defense program with 11 partners",
+      "summary": "Anthropic announced two programs: the Critical Infrastructure Defense Program, giving operational-technology security providers frontier Claude models and engineers with eleven founding partners (including CrowdStrike, Palo Alto Networks, Deloitte and Rockwell Automation), and a free, opt-in OSS Scanner that periodically scans enrolled open-source projects and sends findings with proof of concept and suggested fix, without human review. Anthropic expects a true-positive rate above 90%.",
+      "why_it_matters": "It turns Project Glasswing-style vulnerability discovery into a standing free service; unreviewed reports shift triage onto maintainers, so report quality will be the test.",
+      "key_numbers": [
+        "11 founding partners",
+        "True-positive rate >90% (Anthropic estimate)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "CrowdStrike",
+        "Palo Alto Networks",
+        "Rockwell Automation"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-08T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing the Anthropic Cyber Mission"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Single primary source; no independent coverage found; published_at is a placeholder. The 90% rate is Anthropic's expectation, not measured.",
+      "score": {
+        "total": 52.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.65
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "anthropic-150m-genesis-mission-commitment",
+      "title": "Anthropic commits $150M over three years to the Genesis Mission, extending Claude to 15+ federal agencies",
+      "summary": "At the White House OSTP science summit on Oct 8, Anthropic pledged $150 million over three years to the Genesis Mission, making Claude available to more than 15 agencies including NASA, NIH and NSF. It will provide Claude, Claude Code and API credits to several hundred research projects and partner with national labs on fusion and quantum work.",
+      "why_it_matters": "It deepens Anthropic's federal footprint at a time when the Pentagon has said it stopped using Claude.",
+      "key_numbers": [
+        "$150M over 3 years",
+        "15+ agencies",
+        "Several hundred research projects"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Genesis Mission",
+        "NASA",
+        "NIH",
+        "NSF"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-08T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Building on our commitment to American scientific discovery"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Single primary source read by the research desk; published_at is a placeholder (page gives the date only).",
+      "score": {
+        "total": 50.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.65
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "ant-amp-agent-payment-network-shanghai",
+      "title": "Ant International's agent protocol links 10 e-wallets and 7 acquirers with Visa and Mastercard trust frameworks",
+      "original_title": "全球最大智能体支付协同网络在上海启动，AI让银行卡与电子钱包统一语言",
+      "summary": "Shanghai-based Ant International said its Agent Mobile Protocol (AMP) has connected its first 10 mainstream e-wallets and 7 leading acquirers, covering 1.5 billion users, and aligned trust frameworks with Mastercard and Visa so bank cards and wallets can interoperate in agent commerce. Users who pre-bind payment tools in agents such as Doubao could let the agent pay without redirects. UnionPay has a competing agent-payment framework (APOP).",
+      "why_it_matters": "Agent payments standards are fragmenting between Ant and UnionPay, and whoever wins decides how Chinese consumer agents transact.",
+      "key_numbers": [
+        "10 e-wallets",
+        "7 acquirers",
+        "1.5B users covered"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Ant International",
+        "Visa",
+        "Mastercard"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-07T22:03:00Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/dy/article/L8MR21BP055040N3.html",
+          "outlet": "网易订阅",
+          "lang": "zh",
+          "tier": "press",
+          "title": "全球最大智能体支付协同网络在上海启动，AI让银行卡与电子钱包统一语言"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1878430146013280546",
+          "outlet": "百家号",
+          "lang": "zh",
+          "tier": "press",
+          "title": "全球最大智能体支付协同网络在上海启动，AI让银行卡与电子钱包统一语言"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "'Largest in the world' is a company/media claim with no independent verification; all figures come from Ant's own statement via Chinese media.",
+      "score": {
+        "total": 50.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "solidigm-picks-banks-us-ipo-2027",
+      "title": "SK hynix's Solidigm reportedly picks banks for a US IPO next year",
+      "summary": "Bloomberg reported on Oct 7 that SK hynix's NAND unit Solidigm has chosen banks for a US IPO planned for next year. Earlier aggregator summaries cited a raise of about $15B at up to a $150B valuation; SK hynix has not confirmed.",
+      "why_it_matters": "A listing would put a pure-play AI storage business in public markets and let SK hynix monetise the memory upcycle.",
+      "key_numbers": [
+        "US IPO targeted 2027",
+        "~$15B raise (earlier reports)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Solidigm",
+        "SK hynix"
+      ],
+      "tickers": [
+        "000660.KS"
+      ],
+      "published_at": "2026-10-07T21:29:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-07/sk-hynix-s-solidigm-is-said-to-pick-banks-for-us-ipo-next-year",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "SK Hynix's Solidigm Is Said to Pick Banks for US IPO Next Year"
+        },
+        {
+          "url": "https://www.itiger.com/news/1194426869",
+          "outlet": "Tiger Brokers",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Solidigm Eyes Largest US Semiconductor IPO Ever"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Bloomberg is headline-only; size and valuation come from earlier secondhand pages, not the Oct 7 article.",
+      "score": {
+        "total": 46.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "broadcom-early-talks-financing-openai-chips",
+      "title": "Broadcom reportedly holds early talks on financing OpenAI's chips",
+      "summary": "Bloomberg reported on Oct 7 that Broadcom is in early talks about financing OpenAI's custom chips; the article URL attributes a $50B scale to the Wall Street Journal. It follows Broadcom's reported $42B loan and $60B syndication tied to Anthropic's TPU leases.",
+      "why_it_matters": "Broadcom would finance both leading labs' custom silicon, shifting balance-sheet risk from the labs to the chip vendor.",
+      "key_numbers": [
+        "$50B (per URL slug, unverified)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Broadcom",
+        "OpenAI"
+      ],
+      "tickers": [
+        "AVGO"
+      ],
+      "published_at": "2026-10-07T21:25:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-07/broadcom-plans-50-billion-financing-for-openai-chips-wsj-says",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Broadcom Holds Early Talks About Financing for OpenAI Chips"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "broadcom-anthropic-42b-loan-60b-syndication",
+      "confidence_note": "Headline and URL only; the $50B figure and WSJ attribution come from the URL slug and are unverified. Published about 24 minutes before the window.",
+      "score": {
+        "total": 46.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.541
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "anthropic-2026-usage-policy-update-nov-12",
+      "title": "Anthropic rewrites usage policy with weapons, surveillance and robotics limits, effective Nov 12",
+      "summary": "Anthropic's 2026 Usage Policy update bars weapons-related software and components and arming drones or autonomous vehicles, prohibits tracking people without consent, and says Claude may not decide whom to investigate, arrest or charge. Claude connected to hardware must be observable and stoppable by a qualified operator and hold a safe state if disconnected. The elections section is narrowed, and the supported-regions rule now covers entities headquartered in or majority-owned from unsupported regions.",
+      "why_it_matters": "It sets contractual limits for agentic and robotic builders and government customers, amid the dispute over Claude's military-use restrictions.",
+      "key_numbers": [
+        "Effective Nov 12, 2026"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-08T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "2026 Usage Policy update"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Single primary source, paraphrased via summarised fetch; published_at is a placeholder.",
+      "score": {
+        "total": 44.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.65
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "tsmc-september-2026-revenue-nt511-9b",
+      "title": "TSMC September revenue NT$511.86B, up 54.6% YoY; Q1-Q3 total NT$3.90T",
+      "summary": "TSMC reported September 2026 consolidated revenue of NT$511.86 billion, 0.6% below August and 54.6% above a year earlier. January-September revenue reached about NT$3.90 trillion, up 41.1%. The report lands a week before the Oct 15 Q3 earnings call.",
+      "why_it_matters": "It is the last monthly data point before the Q3 print and shows no AI-driven demand slowdown at the leading foundry.",
+      "key_numbers": [
+        "NT$511.86B Sept revenue",
+        "+54.6% YoY",
+        "NT$3.90T Jan-Sep, +41.1%"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "TSMC"
+      ],
+      "tickers": [
+        "2330.TW"
+      ],
+      "published_at": "2026-10-08T05:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+          "outlet": "SEC EDGAR (TSMC 6-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "TSMC Form 6-K, September 2026 revenue"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "tsmc-record-high-terafab-talks-oct15-preview",
+      "confidence_note": "Figures from a search summary of the filing, not opened directly; release time assumed.",
+      "score": {
+        "total": 39.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.541
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-15",
+      "title": "TSMC Q3 2026 earnings call (revenue guidance US$44.6-45.8B)",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://investor.tsmc.com/english/financial-calendar"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Samsung Electronics full Q3 results with division breakdown",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Anthropic 2026 Usage Policy update takes effect",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+    }
+  ],
+  "notes": "Harvest was stale (ends 2026-10-08T00:21Z; tonight's run did not land), so most of the window was covered by WebSearch, which surfaced few in-window items; the issue is deliberately small. Desks A/B/C returned 4/4/0 items; China items were found directly. Several items rely on search-result summaries (see confidence notes). Not covered: DeepSeek funding (reported Oct 6-7, pre-window), Kimi/Qwen/StepFun (no in-window news found)."
+}
