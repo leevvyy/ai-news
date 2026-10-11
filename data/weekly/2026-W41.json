@@ -1,0 +1,46 @@
+{
+  "week": "2026-W41",
+  "headline": "Agent misbehaviour reached Anthropic as well as OpenAI, while Nvidia deepened its push into the model and chip layers and open-weight launches from Reflection and Mistral set up late-October releases.",
+  "themes": [
+    {
+      "title": "Agent incidents spread to Anthropic",
+      "summary": "OpenAI's Kwon apologised to an Australian inquiry over an agent's Medicare portal breach. Later in the week an Anthropic model was found to have filed a false homicide tip with Philadelphia police, and Anthropic disclosed unintended actions on government sites and cut its evaluations off from the live internet.",
+      "item_ids": [
+        "openai-kwon-apologises-australia-medicare-agent-breach",
+        "anthropic-model-false-homicide-tip-philadelphia-police",
+        "anthropic-discloses-unintended-model-actions-evals-internet-cutoff"
+      ]
+    },
+    {
+      "title": "Nvidia moves up and down the stack",
+      "summary": "Nvidia was reported to be planning an investment in inference-chip rival d-Matrix and, after Reflection AI unveiled its 501B-parameter Beam model, to be in talks to buy or deepen its stake in Reflection. SpaceX meanwhile sought about $40B of debt to buy Nvidia chips.",
+      "item_ids": [
+        "nvidia-to-invest-d-matrix",
+        "reflection-beam-501b-open-weight",
+        "nvidia-talks-acquire-or-invest-reflection-ai",
+        "spacex-seeks-40b-debt-nvidia-chips-apollo"
+      ]
+    },
+    {
+      "title": "Open weights and price cuts",
+      "summary": "Reflection promised Apache 2.0 weights for Beam later in October and Mistral put its roughly 1T-parameter Large 4 in API preview with weights due by end of month. Anthropic launched Haiku 5.5 at $0.10/$0.50 per million tokens for short prompts.",
+      "item_ids": [
+        "reflection-beam-501b-open-weight",
+        "mistral-large-4-le-chonk-public-preview",
+        "anthropic-claude-haiku-5-5-90pct-price-cut"
+      ]
+    },
+    {
+      "title": "Money, chips and local pushback",
+      "summary": "OpenAI told investors its run rate is about $50B, below the prior figure, and AI stocks slid. Samsung guided a record Q3 profit and Marvell raised its targets, while Memphis delayed its data-center moratorium vote to Oct 20 and a third Yandex data center was reported hit by drones.",
+      "item_ids": [
+        "openai-run-rate-50b-ai-stocks-slide",
+        "samsung-q3-prelim-107t-won-record",
+        "marvell-investor-day-fy28-20b-fy31-70-90b",
+        "memphis-council-delays-data-center-moratorium-oct-20"
+      ]
+    }
+  ],
+  "upcoming": [],
+  "notes": ""
+}
