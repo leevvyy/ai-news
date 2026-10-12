@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-12",
+  "window": {
+    "start": "2026-10-11T21:48:00Z",
+    "end": "2026-10-12T21:48:00Z"
+  },
+  "tldr": [
+    "Amazon is reportedly in talks to buy cross-chip AI software startup Decart for about $7B, per the WSJ; Anthropic had walked away from a ~$6B deal in September.",
+    "Caixin reports ByteDance and Tencent are rushing personal AI agents after Meta's Muse, as China's AI race shifts from chatbots to agents (single-outlet, snippet-only).",
+    "Quiet window: the nightly harvest was stale and no other new, verifiable stories surfaced beyond those already covered in the last 7 days."
+  ],
+  "items": [
+    {
+      "id": "amazon-talks-buy-decart-7b-wsj",
+      "title": "Amazon in talks to buy AI-compute startup Decart for about $7B, WSJ reports",
+      "summary": "The Wall Street Journal reports Amazon is negotiating to acquire Decart, an AI startup whose software runs AI workloads across Nvidia GPUs, Google TPUs and Amazon's Trainium chips, in a deal valued at about $7 billion. The deal could close soon if talks hold, but another bidder could still emerge. Anthropic had been in talks at about $6B but walked away after due diligence in September.",
+      "why_it_matters": "A $7B purchase would be a large bid by AWS for cross-chip inference software, aimed at easing Trainium adoption against Nvidia's software lock-in.",
+      "key_numbers": [
+        "~$7B reported price",
+        "~$4B valuation in May (PitchBook, per WSJ)",
+        "Anthropic ~$6B talks abandoned in Sept"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Amazon",
+        "Decart",
+        "Anthropic"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-10-11T20:46:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports"
+        },
+        {
+          "url": "https://www.ksl.com/article/51635095/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports",
+          "outlet": "KSL",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports"
+        },
+        {
+          "url": "https://www.business-standard.com/industry/news/amazon-talks-acquire-ai-startup-decart-7-billion-126101200176_1.html",
+          "outlet": "Business Standard",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon eyes Decart acquisition at $7 billion as AI chip race intensifies"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.55,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Details come from search-result snippets of Bloomberg/KSL/Business Standard relaying WSJ; full articles not read. First report was about 1h before window start. Ticker AMZN only; Decart is private. Deal not signed.",
+      "score": {
+        "total": 61.7,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.583
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "caixin-bytedance-tencent-personal-agents-after-muse",
+      "title": "ByteDance, Tencent rush personal AI agents after Meta's Muse; Caixin cover story on China's shift to agents",
+      "summary": "Caixin Global reports on 12 Oct that ByteDance and Tencent are fast-tracking personal AI agents following the success of Meta's Muse assistant, with ByteDance reportedly speeding up a personal agent for its Doubao assistant ahead of the National Day holiday. A companion Caixin cover story says Tencent, Alibaba and ByteDance are betting that office-task enterprise agents (Tencent's WorkBuddy, ByteDance's Doubao Work) will reshape workplace software, while adoption and business models remain uncertain.",
+      "why_it_matters": "Signals China's big platforms are pivoting from chatbots to consumer and enterprise agents, mirroring the US Muse-driven shift.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "Tencent",
+        "Alibaba",
+        "Doubao",
+        "WorkBuddy"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-10-12T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://caixinglobal.com/2026-10-12/bytedance-tencent-rush-to-launch-personal-ai-agents-after-metas-muse-success-102492455.html",
+          "outlet": "Caixin Global",
+          "lang": "en",
+          "tier": "press",
+          "title": "ByteDance, Tencent Rush to Launch Personal AI Agents After Meta's Muse Success"
+        },
+        {
+          "url": "https://caixinglobal.com/2026-10-12/cover-story-chinas-ai-battle-moves-from-chatbots-to-agents-102492501.html",
+          "outlet": "Caixin Global",
+          "lang": "en",
+          "tier": "press",
+          "title": "Cover Story: China's AI Battle Moves From Chatbots to Agents"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only: article pages could not be fetched (WebFetch DNS failure); details come from search summaries. Single outlet (Caixin Global, both pieces), so it fails the 2-outlet rule; exact publish time unknown (placeholder 00:00Z on 12 Oct). Drop if strict.",
+      "score": {
+        "total": 41.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 2
+    }
+  ],
+  "upcoming": [],
+  "notes": "Very thin day: the nightly harvest was stale (ends 2026-10-11T23:53Z) and WebSearch returned almost nothing dated inside the window. Desk A (labs/research) found no verifiable in-window stories; Desk C (China) found one single-outlet item from snippets only. Everything else seen was already in recent_items or outside the window."
+}
