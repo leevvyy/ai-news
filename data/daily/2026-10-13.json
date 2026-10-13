@@ -1,0 +1,563 @@
+{
+  "date": "2026-10-13",
+  "window": {
+    "start": "2026-10-12T21:48:00Z",
+    "end": "2026-10-13T21:48:00Z"
+  },
+  "tldr": [
+    "Google opened Gemini 4 Argon to all paying developers and Pro/Ultra users at $2/$10 per million tokens, doubling to $4/$20 on Dec 1.",
+    "Meta's first frontier models, Muse Wonder and Wonder Full, went on sale at $4/$20 per million tokens; Artificial Analysis reportedly ranks Wonder Full at 56 against Opus 5.5's 58.",
+    "DeepSeek is reportedly closing a ~100B-yuan round at a ~500B-yuan valuation, and Alibaba began selling Qwen Glasses N1 from 2,999 yuan."
+  ],
+  "items": [
+    {
+      "id": "meta-muse-wonder-first-frontier-model",
+      "title": "Meta releases Muse Wonder and Muse Wonder Full, its first frontier models, with API at $4/$20 per million tokens",
+      "summary": "Meta Superintelligence Labs released two models on Oct 12. Muse Wonder is available via the Meta Model API and Muse Code; Muse Wonder Full is limited to Muse Code subscribers and will not be served through the API. Meta pitches 'Active Memory' and 'Active Focus' for long-running agents; the model takes text, image, video, audio and PDF input with a 1M-token context window. API pricing is $4 input / $20 output per million tokens. Meta's own charts claim parity with leading rivals; Artificial Analysis reportedly puts Wonder Full at 56 on its Intelligence Index, behind Claude Opus 5.5 at 58.",
+      "why_it_matters": "Meta moves from its Muse Spark tier to a priced, API-sold frontier model, a direct test of whether developers and consumers will pay Meta for AI. Independent indices put it near but not above the leader.",
+      "key_numbers": [
+        "$4/M input, $20/M output (Wonder API)",
+        "1M-token context",
+        "AA Intelligence Index 56 (Full) vs 58 Opus 5.5",
+        "MemoryBench 85.6 (Meta-reported)"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Meta",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-10-12T16:41:00Z",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+          "outlet": "Meta",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta releases its first frontier model, Muse Wonder"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay"
+        },
+        {
+          "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+          "outlet": "Wired",
+          "lang": "en",
+          "tier": "press",
+          "title": "Muse Wonder Puts Meta Back at the AI Frontier"
+        },
+        {
+          "url": "https://fortune.com/2026/10/13/metas-muse-models-reach-the-ai-frontier-and-kill-any-hopes-to-pace-it/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta's Muse models reach the AI frontier"
+        }
+      ],
+      "coverage": 14,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Published about 5h before the window opened; kept because it developed through Oct 13. Details are from search-result summaries and the harvest cluster, not full page reads. Benchmarks are Meta-reported; Artificial Analysis figures come from secondary roundups. Sources disagreed on Muse Code subscription prices, so none is stated.",
+      "score": {
+        "total": 76.5,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.903,
+          "momentum": 0.541
+        },
+        "coverage": 14,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "google-gemini-4-argon-general-availability",
+      "title": "Google releases Gemini 4 Argon to developers, businesses and paid users at $2/$10 introductory pricing",
+      "summary": "Google opened Gemini 4 Argon, limited to vetted cyber defenders since Sep 30, to paying API customers, enterprises, and Google AI Pro and Ultra subscribers in the Gemini app and AI Mode in Search. The model ID is gemini-4-argon with a 1M-token window. Introductory pricing is $2 input / $10 output per million tokens through Nov 30, then $4/$20 from Dec 1. Antigravity access is limited to Ultra subscribers. Google says Argon cut code rollbacks by nearly a third in Antigravity, and is expanding its Fairwind cyber program. Independent indices reportedly show it trailing Claude Opus 5.5.",
+      "why_it_matters": "Google's flagship finally reaches general developers after delays, resetting the price/performance comparison with OpenAI and Anthropic. Pricing doubles in seven weeks, so the introductory rate is a land-grab.",
+      "key_numbers": [
+        "$2/M input, $10/M output until Nov 30",
+        "$4/$20 from Dec 1",
+        "1M-token context",
+        "AA Intelligence Index ~53 vs ~58 Opus 5.5"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-13T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "outlet": "Google",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Argon: Built to solve your hardest problems"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+          "outlet": "Google",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Argon is now available in the Gemini app"
+        },
+        {
+          "url": "https://tech.yahoo.com/ai/gemini/articles/google-launches-flagship-ai-model-160147613.html",
+          "outlet": "Reuters via Yahoo",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses"
+        },
+        {
+          "url": "https://www.digitaltrends.com/computing/gemini-4-argon-is-finally-available-for-developers-businesses-and-paid-users/",
+          "outlet": "Digital Trends",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Gemini 4 Argon is finally available for developers, businesses, and paid users"
+        },
+        {
+          "url": "https://qz.com/google-gemini-4-argon-ai-model-developers-subscribers-101326",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google releases Gemini 4 Argon AI model to developers, businesses"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.8,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Facts come from search-result snippets. published_at is an ESTIMATE (time inferred from the Reuters/Yahoo URL). Benchmark figures come from blog roundups and differ slightly.",
+      "score": {
+        "total": 69.8,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.632,
+          "momentum": 0.471
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "deepseek-funding-round-nears-100b-yuan",
+      "title": "DeepSeek's funding round reportedly nears 100B yuan at about 500B yuan valuation",
+      "original_title": "DeepSeek将完成1000亿元融资",
+      "summary": "Chinese outlets (21财经, IT之家, 华尔街见闻 and others) reported on Oct 13 that DeepSeek is set to complete a round of about 100 billion yuan, roughly double the ~50 billion yuan first target. This follows reports from Oct 6 that it was close to at least 80 billion yuan with Tencent and CATL among the largest backers. The pre-money valuation is reported as roughly 500 billion yuan, and CITIC Securities has reportedly been picked to lead a STAR Market IPO.",
+      "why_it_matters": "A raise of this size would be among the largest ever for a Chinese AI lab and funds the compute and IPO path of the main Chinese open-weight rival.",
+      "key_numbers": [
+        "~100B yuan round (up from ~50B target)",
+        "~500B yuan valuation",
+        "STAR IPO targeted early 2027"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Tencent",
+        "CATL"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-13T01:29:00Z",
+      "sources": [
+        {
+          "url": "https://www.thestandard.com.hk/innovation/article/345350/DeepSeek-doubles-funding-round-to-100bn-yuan-as-valuation-holds-steady",
+          "outlet": "The Standard (HK)",
+          "lang": "en",
+          "tier": "press",
+          "title": "DeepSeek doubles funding round to 100bn yuan as valuation holds steady"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say"
+        },
+        {
+          "url": "https://news.10jqka.com.cn/20261007/c680447191.shtml",
+          "outlet": "同花顺",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek新一轮融资或达千亿"
+        },
+        {
+          "url": "https://www.sohu.com/a/1084526862_211762",
+          "outlet": "搜狐",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek融资相关报道"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.8,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Unconfirmed by DeepSeek, Tencent or CATL; all figures come from unnamed sources. The Oct 13 'will complete' article (6 outlets in the harvest) was reachable only via a Google News link, so cited sources are the Oct 6-7 and secondary reports; published_at is the harvest first-seen time of the Oct 13 cluster.",
+      "score": {
+        "total": 68.5,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "anthropic-red-team-small-models-self-replicate-iot",
+      "title": "Anthropic red team: small open-weight models may soon self-replicate on cheap IoT hardware",
+      "summary": "Anthropic's Frontier Red Team published research on Oct 12 on whether small open-weight models can copy themselves onto consumer devices. A 9B-parameter model stood up an inference server on 8 of 9 hardware types tested. GLM-5.2 was the only open-weight model to complete end-to-end replication, reaching all 8 nodes in 4 of 5 trials. A 26B model ran across 15 roughly $55 Android TV boxes at about 0.39 tokens/s. The team projects small models could reach the needed capability by end-2026 but says the test was simplified and is an upper bound.",
+      "why_it_matters": "It gives a first quantified 'worm' threat model for open weights at the edge, feeding the rogue-agent policy debate in Washington.",
+      "key_numbers": [
+        "9B model: 8 of 9 hardware types",
+        "GLM-5.2: 4/5 full replications to 8 nodes",
+        "26B on 15 ~$55 TV boxes at 0.39 tok/s"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Zhipu AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-12T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.unite.ai/anthropic-red-team-says-small-ai-models-may-soon-replicate-on-iot-devices/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Red Team Says Small AI Models May Soon Replicate on IoT Devices"
+        },
+        {
+          "url": "https://www.irishtimes.com/technology/big-tech/2026/10/13/anthropic-warns-rogue-ai-agents-may-soon-hijack-your-smart-tv-or-oven/",
+          "outlet": "The Irish Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic warns rogue AI agents may soon hijack your smart TV or oven"
+        },
+        {
+          "url": "https://www.resultsense.com/news/2026-10-13-anthropic-small-models-self-replicate-iot/",
+          "outlet": "Resultsense",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic: small AI models near self-replication on IoT"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Anthropic's own post was not seen; numbers come from secondary summaries. published_at is an ESTIMATE (coverage dated Oct 12-13).",
+      "score": {
+        "total": 64.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.669
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 1.714,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "asia-chip-stocks-plunge-sk-hynix-softbank-oct13",
+      "title": "SK hynix, Samsung and SoftBank shares plunge as Asian tech tracks a Wall Street chip sell-off",
+      "summary": "CNBC reported on Oct 13 that SK hynix, SoftBank and Samsung Electronics shares fell sharply in Asian trading, following a chip sell-off on Wall Street the previous session. A Korea Economic Daily headline the same day said the Kospi briefly broke below 6,000 as the chip rout deepened. The move comes the day before ASML results and two days before TSMC's Q3 call.",
+      "why_it_matters": "Memory names carry much of the Kospi and are again the high-beta leg of AI-infrastructure sentiment. ASML (Oct 14) and TSMC (Oct 15) become the test events.",
+      "key_numbers": [
+        "Kospi briefly below 6,000 (KED headline)"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "SK hynix",
+        "Samsung Electronics",
+        "SoftBank Group"
+      ],
+      "tickers": [
+        "000660.KS",
+        "005930.KS",
+        "9984.T"
+      ],
+      "published_at": "2026-10-13T02:08:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off"
+        },
+        {
+          "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202610130001",
+          "outlet": "KED Global",
+          "lang": "en",
+          "tier": "press",
+          "title": "Kospi tumbles as chip rout deepens, briefly breaking below 6,000"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Headline-level only: article bodies were not read, so percentage moves are omitted. Search summaries gave conflicting figures and causes, which are left out.",
+      "score": {
+        "total": 54.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.541
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "alibaba-qwen-glasses-n1-on-sale-china",
+      "title": "Alibaba puts Qwen Glasses N1 on sale in China from 2,999 yuan; N1 Pro adds eye tracking and iris payments",
+      "summary": "Alibaba put its next-generation Qwen AI glasses on sale in China on Oct 13 via Taobao, Tmall, JD.com and Douyin. The N1 starts at 2,999 yuan (about $450) before discounts and the N1 Pro at 3,499 yuan; some outlets list lower prices, likely post-discount. The N1 has a 50MP camera, bone-conduction microphones and the Qwen assistant. The Pro adds eye tracking, iris-scan payment confirmation via Alipay, and heart-rate, blood-oxygen and skin-temperature sensing.",
+      "why_it_matters": "It brings Qwen out of the cloud into a consumer wearable, with Alipay iris payment as the differentiator against Meta and Xiaomi glasses.",
+      "key_numbers": [
+        "2,999 yuan (~$450) N1",
+        "3,499 yuan N1 Pro",
+        "50MP camera"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Alibaba",
+        "Ant Group"
+      ],
+      "tickers": [
+        "BABA"
+      ],
+      "published_at": "2026-10-13T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/alibaba-qwen-glasses-n1-price-launch",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "Alibaba starts selling its Qwen N1 AI glasses in China from $450"
+        },
+        {
+          "url": "https://aiweekly.co/alerts/alibaba-launches-qwen-glasses-n1-at-450-pro-adds-eye-tracking",
+          "outlet": "AI Weekly",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alibaba launches Qwen Glasses N1 at $450, Pro adds eye tracking"
+        },
+        {
+          "url": "https://thearabianpost.com/alibaba-introduces-new-qwen-glasses-with-biometric-payments/",
+          "outlet": "Arabian Post",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alibaba introduces new Qwen glasses with biometric payments"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "published_at is an ESTIMATE. Prices vary by outlet (2,999/3,499 vs 2,899/3,399). Facts from search snippets.",
+      "score": {
+        "total": 50.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.583
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "harvard-study-ai-coding-agents-more-code-not-more-software",
+      "title": "Harvard paper: AI coding agents raised code output 30% but not finished work; PR review time up 49%",
+      "summary": "Ars Technica covered a working paper using Jellyfish data on about 725,938 workers at 718 firms (Jan 2021 to Mar 2026). After agent adoption, code per worker rose about 30%, but resolved Jira issues and completed epics showed no statistically significant increase. Pull-request time-to-merge rose 49%, per secondary coverage.",
+      "why_it_matters": "It supports the view that review and integration, not generation, is the new bottleneck, where the next wave of dev-tool investment is heading.",
+      "key_numbers": [
+        "+30% code per worker",
+        "+49% PR time-to-merge",
+        "725,938 workers, 718 firms"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Harvard University",
+        "Jellyfish"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-12T17:14:00Z",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "outlet": "Ars Technica",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI coding agents generate more code, but not more software"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-coding-agents-add-30-more-code-not-more-finished-work/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Coding Agents Add 30% More Code, Not More Finished Work"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The Ars article was not read; figures come from secondary coverage. The paper itself reportedly dates from August, so this is Ars's pick-up.",
+      "score": {
+        "total": 46.0,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "china-mobile-inner-mongolia-computing-hub-triples",
+      "title": "China Mobile triples capacity at its Inner Mongolia computing hub",
+      "summary": "The South China Morning Post reported on Oct 13 that China Mobile has tripled capacity at its large Inner Mongolia computing hub as part of China's national AI compute push. Only the headline claim is confirmed; the article body was not read.",
+      "why_it_matters": "State-carrier AI capacity is a leading indicator for domestic accelerator demand, notably Huawei Ascend.",
+      "key_numbers": [
+        "Capacity tripled (SCMP headline)"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "China Mobile"
+      ],
+      "tickers": [
+        "0941.HK"
+      ],
+      "published_at": "2026-10-13T01:00:12Z",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/big-tech/article/3370600/china-mobile-triples-capacity-mega-inner-mongolia-computing-hub-amid-nations-ai-push",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "China Mobile triples capacity at mega Inner Mongolia computing hub amid nation's AI push"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "HEADLINE-ONLY, single outlet. Capacity units, chip vendor and timeline unknown.",
+      "score": {
+        "total": 36.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 8
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-30",
+      "title": "Gemini 4 Argon introductory API pricing ($2/$10 per M tokens) ends; $4/$20 from Dec 1",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://tech.yahoo.com/ai/gemini/articles/google-launches-flagship-ai-model-160147613.html"
+    },
+    {
+      "date": "2026-10",
+      "title": "Alibaba Qwen 4 flagship (in training, 'very soon' per Alibaba on Sept 22; no date)",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.yottalabs.ai/post/qwen-4-release-date-what-is-known-how-to-prepare-2026"
+    },
+    {
+      "date": "2027-03",
+      "title": "Moonshot AI (Kimi) Hong Kong IPO reportedly targeted for Q1 2027",
+      "kind": "other",
+      "confidence": "rumored",
+      "url": "https://m.21jingji.com/article/20261006/herald/6ff81a98827897412c54be5ad82f0173.html"
+    }
+  ],
+  "notes": "Nightly harvest was stale (ends 2026-10-13T02:12Z); the remainder of the window was covered by WebSearch only, which was thin for Oct 13. WebFetch could not reach news sites, so no article bodies were read; facts rest on search results and harvest summaries. Several Oct 12 stories (Microsoft Maia 300, Anthropic distillation defences, DeepSeek-led Winverse seed round, Beijing police Moonshot-rumour case) fell outside the window or lacked citable URLs and were left out."
+}
