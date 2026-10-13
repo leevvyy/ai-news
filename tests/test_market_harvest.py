@@ -5,6 +5,7 @@ import math
 import random
 import unittest
 import urllib.error
+import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 
 from ainews import harvest, market
@@ -176,6 +177,15 @@ class Harvest(unittest.TestCase):
         raw = harvest.harvest_news(self.repo.cfg, datetime(2026, 10, 1, 0, 22, tzinfo=timezone.utc), fetcher=fetcher)
         self.assertEqual(raw["feeds"], [{"name": "HF", "ok": True, "n": 1}])
         self.assertEqual([it["url"] for it in raw["items"]], ["https://arxiv.org/abs/2609.00001"])
+
+    def test_parse_error_shows_the_bytes_it_choked_on(self):
+        # What 36氪 sent instead of RSS on 2026-10-13: the error must say so, not just give a position.
+        page = b"<html><head><script>function r(e,n){return e>>>n|e<<32-n}</script></head></html>"
+        with self.assertRaisesRegex(ET.ParseError, r"not well-formed \(invalid token\).* near b'unction r\(e,n\)"):
+            harvest.parse_feed(page)
+        raw = harvest.harvest_news(self.repo.cfg, datetime(2026, 10, 13, 9, 0, tzinfo=timezone.utc),
+                                   fetcher=lambda url: page if "rss" in url else ATOM)
+        self.assertIn("near b'", next(f for f in raw["feeds"] if f["name"] == "Test RSS")["error"])
 
     def test_cluster_tokens_cjk_bigrams(self):
         toks = harvest.cluster_tokens("DeepSeek发布新模型")
