@@ -10,3 +10,6 @@
   tokens on `:root` with dark overrides, no external requests except Google Fonts.
 * `ainews/harvest.py` and the price fetch in `ainews/market.py` need the internet: they run in GitHub Actions
   (`.github/workflows/harvest.yml`), not in the routine's sandbox. Everything else must stay network-free.
+* To prove a feed or parser change against the live feeds, push the branch and dispatch the Harvest workflow on it
+  with `dry_run: true`: it prints a per-feed status table and commits nothing. `inspect: <url ...>` also prints the
+  first 8 KB each URL returns, as the harvester sees it.

@@ -129,12 +129,27 @@ def _text(el: ET.Element | None) -> str:
     return (el.text or "").strip() if el is not None else ""
 
 
+def _parse_error(exc: ET.ParseError, data: bytes) -> ET.ParseError:
+    """The parser's error plus the bytes it choked on, so a broken feed explains itself in data/raw
+    (on 2026-10-13 this showed 36氪 serving a JavaScript challenge and 机器之心 an HTML page)."""
+    line, col = getattr(exc, "position", (1, 0))
+    lines = data.splitlines() or [b""]
+    row = lines[min(max(line, 1), len(lines)) - 1]
+    err = ET.ParseError(f"{exc} near {row[max(0, col - 30):col + 30]!r}")
+    err.position = (line, col)
+    return err
+
+
 def parse_feed(data: bytes) -> list[dict]:
     """RSS 2.0, RSS 1.0 (RDF) and Atom → [{title, url, published, summary, outlet?, outlet_url?}]."""
     try:
         root = ET.fromstring(data)
     except ET.ParseError:
-        root = ET.fromstring(sanitize_xml(data))
+        clean = sanitize_xml(data)
+        try:
+            root = ET.fromstring(clean)
+        except ET.ParseError as exc:
+            raise _parse_error(exc, clean) from None
     out: list[dict] = []
     for it in root.iter("item"):                                     # RSS 2.0
         src = it.find("source")

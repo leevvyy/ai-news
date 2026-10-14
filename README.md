@@ -76,6 +76,7 @@ python3 -m ainews check                  # CI: validate all + verify generated f
 python3 -m ainews site --out site        # static site + Atom feed
 python3 -m ainews raw                    # digest of the latest nightly harvest
 python3 -m ainews harvest                # (network, GitHub Actions) feeds → data/raw, prices → data/market
+# test feed changes on a branch: Actions → Harvest → Run workflow → branch, dry_run [+ inspect URLs]; commits nothing
 python3 -m ainews render                 # re-render all generated files after a price update
 python3 -m unittest discover -s tests    # tests
 python3 scripts/calibration.py           # is each score component still discriminating?

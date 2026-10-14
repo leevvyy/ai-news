@@ -7,8 +7,10 @@
 # filter: true keeps only items that match the AI keyword pattern (for general tech/business feeds)
 # tier/lang follow sources.toml. Every run records per-feed status in data/raw/<date>.json → "feeds",
 # so a dead URL shows up there instead of failing silently. Edit freely; no code changes needed.
-# enabled = false keeps a source listed but skipped. Sites that answer 403 to our honest bot User-Agent
-# are respected rather than worked around.
+# enabled = false keeps a source listed but skipped. Sites that block our honest bot User-Agent (403, a steady
+# 429, a bot challenge or a "use our data service" page) are respected rather than worked around.
+# A feed that stops parsing reports the bytes it choked on (data/raw → feeds → error). To test feed changes,
+# dispatch the Harvest workflow on a branch with dry_run (and inspect: <url> to print what a URL returns).
 
 # ---- labs & primary --------------------------------------------------------
 [[feed]]
@@ -97,6 +99,7 @@ name = "VentureBeat AI"
 url = "https://venturebeat.com/category/ai/feed/"
 tier = "press"
 lang = "en"
+enabled = false                   # 429 to our bot on every run 2026-09-30..10-13
 
 [[feed]]
 name = "MIT Technology Review AI"
@@ -186,6 +189,7 @@ url = "https://36kr.com/feed"
 tier = "press"
 lang = "zh"
 filter = true
+enabled = false                   # serves a JavaScript bot challenge instead of RSS (2026-10-13 dry run)
 
 [[feed]]
 name = "量子位"
@@ -198,6 +202,7 @@ name = "机器之心"
 url = "https://www.jiqizhixin.com/rss"
 tier = "trade"
 lang = "zh"
+enabled = false                   # /rss now serves an HTML ad for their paid data service (2026-10-13 dry run)
 
 [[feed]]
 name = "IT之家"
@@ -212,6 +217,7 @@ url = "https://www.huxiu.com/rss/0.xml"
 tier = "trade"
 lang = "zh"
 filter = true
+enabled = false                   # times out from GitHub's runners on every run 2026-09-30..10-13 (also at 60 s)
 
 # ---- Google News (breadth: many outlets per story) ---------------------------
 [[feed]]

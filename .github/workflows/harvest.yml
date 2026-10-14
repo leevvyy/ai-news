@@ -12,6 +12,15 @@ on:
     - cron: "37 17 * * *"  # 01:37 UTC+8
     - cron: "37 20 * * *"  # 04:37 UTC+8
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Test the selected branch's harvester against the live feeds; commit nothing"
+        type: boolean
+        default: false
+      inspect:
+        description: "Dry run only: space-separated URLs whose first 8 KB to print, as the harvester receives them"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -29,7 +38,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      # The sandbox the routine (and Claude) work in cannot reach news hosts, so feed changes are proven here:
+      # Actions → Harvest → Run workflow → pick the branch, tick dry_run. The feed status table is in the log.
+      - name: Dry run (no commit)
+        if: ${{ inputs.dry_run }}
+        env:
+          INSPECT: ${{ inputs.inspect }}
+        run: |
+          python -m ainews harvest --no-prices || true
+          python - <<'EOF'
+          import json, os, pathlib
+          from ainews.harvest import fetch
+          raw = json.loads(sorted(pathlib.Path("data/raw").glob("*.json"))[-1].read_text("utf-8"))
+          for f in raw["feeds"]:
+              print(f"{'ok  ' if f['ok'] else 'FAIL'} {f['n']:>4}  {f['name']}  {f.get('note') or f.get('error') or ''}")
+          for url in os.environ["INSPECT"].split():
+              print(f"\n===== {url}")
+              try:
+                  print(fetch(url)[:8192].decode("utf-8", "replace"))
+              except Exception as exc:
+                  print(f"{type(exc).__name__}: {exc}")
+          EOF
       - name: Harvest, re-render, verify, commit
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "ai-daily-harvester"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
