@@ -1,0 +1,1287 @@
+{
+  "date": "2026-10-14",
+  "window": {
+    "start": "2026-10-13T21:48:00Z",
+    "end": "2026-10-14T21:48:00Z"
+  },
+  "tldr": [
+    "Eight US states sued OpenAI over ChatGPT's safety for children, while an OpenAI engineer was arrested for allegedly planting a $14 recording device in an executive conference room and a judge signalled an injunction for Apple in its trade-secret fight.",
+    "ASML beat on Q3 profit (net income about EUR 4.96B) and lifted its 2026 sales floor to EUR 44B, yet chip stocks fell for a sixth session (SOX -3.1%) as SK hynix dropped 5% on CXMT's server-memory push, CoreWeave sank about 15% with bond yields near 15%, and Dell fell about 11% on a Barclays downgrade.",
+    "In China, 151 apps (65 Tencent, 23 Alibaba) refused ByteDance's Doubao phone agent, StepFun priced its STEPX Neo agent phone at 3,999 yuan, and DeepSeek's funding round was reported to double to about 100B yuan."
+  ],
+  "items": [
+    {
+      "id": "eight-states-sue-openai-chatgpt-child-safety",
+      "title": "Eight US states sue OpenAI, alleging ChatGPT harms children and was marketed as safe",
+      "summary": "Attorneys general from eight states sued OpenAI on Oct 14 over ChatGPT's safety for minors. Iowa, Kansas, Nebraska and West Virginia announced suits at a joint press conference, while Arkansas, Arizona, Idaho and Montana filed separately in their own state courts. Iowa's suit invokes its Consumer Fraud Act and alleges OpenAI falsely portrayed ChatGPT as safe for ages 13 and up. The states seek court orders changing how ChatGPT treats young users, plus civil penalties and damages.",
+      "why_it_matters": "It is the first multi-state litigation wave against a frontier lab on child safety, following Florida's lone suit in June. It raises OpenAI's legal and product-compliance exposure on age gating and youth features.",
+      "key_numbers": [
+        "8 states",
+        "4 joint filers (IA, KS, NE, WV)",
+        "4 separate filers (AR, AZ, ID, MT)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-14T18:56:11Z",
+      "sources": [
+        {
+          "url": "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
+          "outlet": "Engadget",
+          "lang": "en",
+          "tier": "press",
+          "title": "Iowa, Nebraska and six other states are suing OpenAI for endangering children"
+        },
+        {
+          "url": "https://www.wdtv.com/2026/10/14/west-virginia-attorney-general-joins-multi-state-lawsuit-against-openai/",
+          "outlet": "WDTV",
+          "lang": "en",
+          "tier": "press",
+          "title": "West Virginia Attorney General joins multi-state lawsuit against OpenAI"
+        },
+        {
+          "url": "https://www.dakotanewsnow.com/2026/10/14/iowa-attorney-general-brenna-bird-announces-lawsuit-against-openai-chatgpt/",
+          "outlet": "Dakota News Now",
+          "lang": "en",
+          "tier": "press",
+          "title": "Iowa Attorney General Brenna Bird announces lawsuit against OpenAI, ChatGPT"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4653098-openais-legal-issues-mount-as-eight-states-sue-chatgpt-maker-for-harming-children",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI's legal issues mount as eight states sue ChatGPT maker for harming children"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.8,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Harvest cluster shows Reuters, CNBC, NBC News and others (Google News redirects, not cited). Sources differ on whether Arkansas joined the press conference; all agree it filed. Complaint text not read. Florida June suit from search snippets.",
+      "score": {
+        "total": 77.9,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.753
+        },
+        "coverage": 9,
+        "mentions": 4,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "openai-engineer-alfozan-arrested-recording-device",
+      "title": "FBI arrests OpenAI engineer charged with planting hidden recording device in executive conference room",
+      "summary": "The Justice Department charged Saudi national Abdulrahman Alfozan after OpenAI staff found a roughly $14 ESP32-based device hidden in toilet paper behind a TV in a San Francisco executive conference room, installed around Sept 28. Prosecutors say a ChatGPT account tied to his spouse was used for prompts on building and hiding such a device, and Bloomberg reports a court filing shows a one-way ticket to Saudi Arabia booked for Oct 12. OpenAI fired him and said it saw no sign of access to model weights, source code or customer data.",
+      "why_it_matters": "A physical-security and insider-threat incident at the most prominent US lab, amid scrutiny of AI-lab security. The complaint does not allege trade-secret theft or acting for a foreign government.",
+      "key_numbers": [
+        "$14 device",
+        "Device installed ~Sept 28",
+        "One-way ticket for Oct 12",
+        "Detention hearing Oct 19"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-13T20:23:55Z",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san",
+          "outlet": "US Attorney's Office, N.D. Cal.",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Saudi national arrested for installing surreptitious audio recording device at OpenAI (San Francisco)"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Arrested OpenAI Engineer Booked a One-Way Ticket to Saudi Arabia"
+        },
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+          "outlet": "Ars Technica",
+          "lang": "en",
+          "tier": "press",
+          "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room"
+        },
+        {
+          "url": "https://fortune.com/2026/10/14/openai-arrest-engineer-alfozan-fbi-recording-device-ai-chatbot/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "FBI says an OpenAI engineer used his wife's ChatGPT account to figure out how to plant a secret recording device at the office"
+        }
+      ],
+      "coverage": 11,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "First report ~20:23Z Oct 13, about 1.5h before the window opens; still developing Oct 14. Details come from search/feed summaries of the DOJ release and outlets; pages not opened. Whether the device captured conversation is unknown. Presumed innocent.",
+      "score": {
+        "total": 74.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.879,
+          "breadth": 0.84,
+          "momentum": 0.753
+        },
+        "coverage": 11,
+        "mentions": 4,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "doubao-phone-saep-151-apps-refuse-screen-automation",
+      "title": "Doubao phone assistant opens screen automation after 30-day notice; 151 apps, incl. 65 Tencent and 23 Alibaba, opt out",
+      "summary": "ByteDance's Doubao phone assistant said the 30-day public-notice period for its Screen Automation Execution Protocol ended on Oct 14 and it will gradually open screen-automation permissions for third-party apps. Apps that declared a refusal will not be operated by the agent, and the platform acts within 3 working days of a refusal. The latest list shows 151 refusing apps, including WeChat, Taobao, Alipay, Meituan, Kuaishou, DeepSeek and Kimi. Media say the block only stops the AI's GUI recognition and simulated taps; the apps still work manually.",
+      "why_it_matters": "The largest Chinese super-apps are refusing to let a rival's phone agent drive their interfaces, showing how hard open agent-to-app access is without formal APIs.",
+      "key_numbers": [
+        "151 apps refused",
+        "65 Tencent-ecosystem apps",
+        "23 Alibaba-ecosystem apps",
+        "30-day notice period"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "Tencent",
+        "Alibaba",
+        "DeepSeek",
+        "Moonshot AI"
+      ],
+      "tickers": [
+        "0700.HK",
+        "9988.HK"
+      ],
+      "published_at": "2026-10-14T02:30:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/discovery/2026-10-14/doc-iniveefr8526990.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豆包手机助手宣布陆续放开第三方应用操作权限：腾讯、阿里系等App拒绝开放"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L97SH4PL0511CPVM.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "微信、淘宝在列 151款应用拒绝接入豆包手机助手 业内：头部应用开放接口的难度很大"
+        },
+        {
+          "url": "https://news.17173.com/content/10142026/220456882.shtml",
+          "outlet": "17173",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "微信、淘宝在列 151款应用拒绝接入豆包手机助手"
+        }
+      ],
+      "coverage": 12,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Count and Tencent/Alibaba split come from media relaying the Doubao assistant's official account; official list not seen. One outlet reports 155 apps. published_at is harvest first-seen time.",
+      "original_title": "豆包手机助手宣布陆续放开第三方应用屏幕自动化操作权限，151款应用明确拒绝",
+      "score": {
+        "total": 67.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.865,
+          "momentum": 0.583
+        },
+        "coverage": 12,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "asml-q3-2026-raises-floor-china-sales-surge",
+      "title": "ASML Q3 profit beats, raises 2026 sales floor to EUR 44B; customers float orders for 2029-2030",
+      "summary": "ASML reported Q3 net sales of EUR 11.66B and net income of about EUR 4.96B (versus 4.1B expected), guided Q4 sales of EUR 14.2-15.2B and lifted the low end of its 2026 range to EUR 44-45B. CEO Christophe Fouquet said some customers are asking about orders for 2029 and 2030 and the company is looking at expanding capacity beyond its earlier 30% increase for 2028. SCMP reports China sales rose 109% quarter on quarter, to 23% of machine sales from 14%.",
+      "why_it_matters": "The strongest read-through yet that AI capex still pulls through lithography demand despite a chip-stock rout, and a sign of Chinese stockpiling ahead of possible tighter DUV export rules.",
+      "key_numbers": [
+        "Q3 sales EUR 11.66B",
+        "Net income ~EUR 4.96B vs 4.1B est",
+        "Q4 guide EUR 14.2-15.2B",
+        "FY26 EUR 44-45B",
+        "China +109% QoQ"
+      ],
+      "topic": "compute",
+      "region": "eu",
+      "entities": [
+        "ASML"
+      ],
+      "tickers": [
+        "ASML"
+      ],
+      "published_at": "2026-10-14T05:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm",
+          "outlet": "ASML (SEC Form 6-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "ASML Form 6-K, Q3 2026 results"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "ASML says it's getting order interest through 2030 as profit smashes expectations"
+        },
+        {
+          "url": "https://www.scmp.com/tech/big-tech/article/3370904/asmls-chip-equipment-sales-china-soar-109-despite-us-export-curb-push",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "ASML's chip equipment sales to China soar 109% despite US export curb push"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Figures from search-result snippets of the 6-K, CNBC and SCMP, not full pages. published_at is an estimate (pre-market CET release; CNBC first seen 08:45Z). 109% is QoQ per SCMP.",
+      "score": {
+        "total": 65.7,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "deepseek-funding-round-doubles-to-100b-yuan-catl",
+      "title": "DeepSeek reportedly raising about 100 billion yuan, double the earlier target, at an unchanged valuation",
+      "summary": "Media reported on Oct 13 that DeepSeek's new round has grown from about 50 billion yuan to about 100 billion yuan at a pre-money valuation of roughly 500 billion yuan. Sina Tech's headline says CATL may add 10 billion yuan and Geely has joined. Fund LPs said terms were still changing and DeepSeek declined to comment. Earlier reports said funds would go mainly to compute ahead of a planned early-2027 IPO.",
+      "why_it_matters": "The reported size would make it one of the largest private AI financings anywhere; terms are not closed.",
+      "key_numbers": [
+        "About 100B yuan round (up from about 50B)",
+        "About 500B yuan pre-money",
+        "CATL reportedly 10B yuan"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "CATL"
+      ],
+      "tickers": [
+        "300750.SZ"
+      ],
+      "published_at": "2026-10-14T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-iniuzuyr8229983.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "传DeepSeek完成1000亿元融资：宁德时代拟增资100亿、吉利入局"
+        },
+        {
+          "url": "https://news.qq.com/rain/a/20261013A041B700",
+          "outlet": "Tencent News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "消息称DeepSeek将完成约1000亿元融资"
+        },
+        {
+          "url": "https://en.sedaily.com/international/2026/10/14/deepseek-nears-14-billion-funding-round-double-its-original",
+          "outlet": "Seoul Economic Daily",
+          "lang": "other",
+          "tier": "press",
+          "title": "DeepSeek Nears $14 Billion Funding Round, Double Its Original Target"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.7,
+      "novelty": 0.3,
+      "follow_up_of": "deepseek-funding-round-nears-100b-yuan",
+      "confidence_note": "Unconfirmed, sourced to anonymous people. Snippet-only. First reports Oct 13; published_at set to window start as the Oct 14 Seoul Economic Daily report extended the story.",
+      "original_title": "消息称DeepSeek将完成约1000亿元融资，投前估值仍为约5000亿元",
+      "score": {
+        "total": 63.9,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.826
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "apple-openai-trade-secret-injunction-hearing",
+      "title": "Judge says Apple injunction 'highly likely' as OpenAI alleges ex-employee took 100+ device files to Apple",
+      "summary": "At a hearing in Apple's trade-secret suit against OpenAI, the judge said he is highly likely to grant a preliminary injunction barring use of Apple proprietary information by former employees now at OpenAI, per Bloomberg. OpenAI countered in a filing that a former employee who returned to Apple sent more than 100 files about an unreleased device to personal accounts and presented OpenAI product plans to Apple leadership. Apple disputes the claim. A day earlier a judge ordered OpenAI to turn over hiring records in the case.",
+      "why_it_matters": "The case bears on OpenAI's consumer-hardware push and on Silicon Valley hiring norms; an injunction would constrain engineers moving between the two companies.",
+      "key_numbers": [
+        "100+ files alleged",
+        "Apple suit filed July 10 (N.D. Cal.)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Apple"
+      ],
+      "tickers": [
+        "AAPL"
+      ],
+      "published_at": "2026-10-14T10:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Apple-OpenAI Judge Says He's 'Likely' to Side With iPhone Maker"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Content from harvest feed summaries and search snippets; full articles not fetchable. Hearing timestamp is the harvest first-seen time. Reuters/WSJ/Guardian coverage seen only as Google News redirects (not cited).",
+      "score": {
+        "total": 66.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.753
+        },
+        "coverage": 9,
+        "mentions": 4,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "apple-iphone-china-llm-filing-numbers-qwen",
+      "title": "China-market iPhones gain generative-AI filing numbers for Apple Intelligence and Alibaba's Qwen",
+      "summary": "MIIT network-access records show China-version iPhone models now list three generative-AI filing numbers: Apple Intelligence, Tongyi Wanxiang and Tongyi Qianwen. Reports say the licences were renewed on Sept 29 and that Alibaba has said Qwen will be integrated into Apple Intelligence for Chinese users.",
+      "why_it_matters": "A regulatory signal that Apple Intelligence with Alibaba models is moving toward launch in China; the filing numbers do not mean the features are live.",
+      "key_numbers": [
+        "3 filing numbers on the device record"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Apple",
+        "Alibaba",
+        "Qwen"
+      ],
+      "tickers": [
+        "AAPL",
+        "9988.HK"
+      ],
+      "published_at": "2026-10-14T06:57:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/012/818.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "苹果 iPhone 15 Pro 及后续机型国行版备案大模型编号：Apple 智能、通义万象、通义千问"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L979R2BL0534A4SC.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "苹果iPhone Duo完成大模型备案！Apple智能、通义千问等现身"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5354032128594716.html",
+          "outlet": "Sina News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "苹果 iPhone 备案新增大模型编号，AI 功能有望加速上线"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Search-summary only. Reports disagree on which iPhone models were updated. published_at is harvest first-seen time.",
+      "original_title": "多款 iPhone 新增 AI 大模型备案编号，通义千问等现身",
+      "score": {
+        "total": 63.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.95
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "coreweave-plunges-15pct-bond-yields-near-15pct",
+      "title": "CoreWeave stock sinks about 15% as its bond yields near 15% on AI borrowing worries",
+      "summary": "CoreWeave shares fell roughly 15% on Oct 14 while yields on its junk bonds blew out, with the 2032 and 2031 notes yielding about 14.8-14.9%. CEO Mike Intrator told Bloomberg the market is acting 'irrationally' and that he stands by the business model. Neocloud peers Nebius and Oracle also fell.",
+      "why_it_matters": "Yields near 15% price the neocloud model as distressed-adjacent and show AI data-center credit, not chip demand, is the market's current pressure point.",
+      "key_numbers": [
+        "Stock ~-15%",
+        "2032 notes ~14.8% yield",
+        "2031 notes ~14.9% yield"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "CoreWeave"
+      ],
+      "tickers": [
+        "CRWV"
+      ],
+      "published_at": "2026-10-14T17:54:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "CoreWeave stock sinks as bond yields surge near 15%"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/coreweave-s-ceo-blames-rout-on-market-acting-irrationally",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "CoreWeave CEO Says Market Acting 'Irrationally,' Stands by Model"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/10/14/coreweave-falls-10-as-bond-yield-touches-15-and-elon-musk-says-yikes-nebius-drops-6-oracle-slips/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CoreWeave Falls 10% as Bond Yield Touches 15% and Elon Musk Says 'Yikes'; Nebius Drops 6%, Oracle Slips"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Yield figures from search-result snippets, not full articles. Intraday move differs by source (-10% to -15%); published_at is the Bloomberg CEO piece first-seen time.",
+      "score": {
+        "total": 61.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.583
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "memory-stocks-slide-cxmt-server-dram-sox-rout",
+      "title": "SK hynix falls 5% as China's CXMT targets server memory; chip index slides for a sixth session",
+      "summary": "SK hynix fell about 5%, Western Digital 4% and Micron 3% on Oct 14 after CXMT signalled a denser chip design aimed at server memory, which it aims to introduce by year-end; analysts say hyperscaler qualification is the hurdle. Bloomberg reports the Philadelphia Semiconductor Index fell 3.1%, roughly 10% over six sessions, on rate-hike fears, stretched valuations and AI build-out costs.",
+      "why_it_matters": "Chinese DRAM entering server memory threatens the pricing power behind the memory super-cycle just as a macro rate scare hits crowded AI semis.",
+      "key_numbers": [
+        "SK hynix ~-5% (Oct 14)",
+        "Micron ~-3%",
+        "SOX -3.1%, ~-10% in 6 sessions"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "SK hynix",
+        "CXMT",
+        "Micron",
+        "Samsung Electronics"
+      ],
+      "tickers": [
+        "000660.KS",
+        "MU"
+      ],
+      "published_at": "2026-10-14T18:01:00Z",
+      "sources": [
+        {
+          "url": "https://247wallst.com/investing/2026/10/14/sk-hynix-sinks-5-as-chinas-cxmt-aims-at-server-memory-western-digital-drops-4-micron-falls-3/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SK Hynix Sinks 5% as China's CXMT Aims at Server Memory; Western Digital Drops 4%, Micron Falls 3%"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Why this little known Chinese chipmaker has caused a global stock rout"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/chip-stocks-set-to-erase-1-trillion-in-value-as-rout-deepens",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Chip Stocks Slide as SOX Index Set to Wipe Out $1 Trillion in Value"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.7,
+      "novelty": 0.4,
+      "follow_up_of": "asia-chip-stocks-plunge-sk-hynix-softbank-oct13",
+      "confidence_note": "All figures from search-result snippets; articles not fetched. Dollar totals of erased value differ between sources, so none is used.",
+      "score": {
+        "total": 58.9,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.503
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "nvidia-250m-uk-agentic-safety-huang-cut-off-unsafe-customers",
+      "title": "Nvidia commits $250M to UK agentic safety research; Huang says he would cut off customers building unsafe AI",
+      "summary": "Nvidia's newsroom announced a five-year, $250 million commitment to advance agentic AI safety and security research in the UK, alongside UK startup-ecosystem investments. Desk reports describe it as compute delivered through UK Nvidia Cloud Partners. In a Bloomberg interview, Jensen Huang said Nvidia would stop supplying a customer developing unsafe AI software. GTC Berlin follows on Oct 20-22.",
+      "why_it_matters": "The largest AI chip vendor is funding agent-safety research and stating a customer cut-off policy, though 'unsafe' is undefined.",
+      "key_numbers": [
+        "$250M over 5 years",
+        "GTC Berlin Oct 20-22"
+      ],
+      "topic": "policy",
+      "region": "eu",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-14T06:01:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/nvidia-ceo-says-he-would-cut-off-customers-who-build-unsafe-ai",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia CEO Says He Would Cut Off Customers Who Build Unsafe AI"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Nvidia release not fetched; programme details (compute form, recipients) come from a search summary and are not independently confirmed. Huang remark from Bloomberg headline/blurb.",
+      "score": {
+        "total": 57.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.78,
+          "breadth": 0.565,
+          "momentum": 0.338
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 1.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "apple-intelligence-china-december-ios-27-3",
+      "title": "Apple to launch limited Apple Intelligence in mainland China in December, Bloomberg reports",
+      "summary": "Bloomberg reports Apple will release Apple Intelligence in mainland China in December with iOS 27.3 after a long regulatory delay, without the new Siri AI assistant and other features announced this year. Initial features reportedly cover Genmoji, notification summaries, writing tools and Photos Clean Up. Alibaba's Qwen models are involved, and Apple must let Chinese authorities approve ongoing model updates. Apple has not confirmed.",
+      "why_it_matters": "Opens Apple's biggest contested market to on-device AI and is a win for Alibaba's Qwen, but the stripped-down feature set leaves Apple behind local AI phones.",
+      "key_numbers": [
+        "December launch",
+        "iOS 27.3"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Apple",
+        "Alibaba"
+      ],
+      "tickers": [
+        "AAPL",
+        "9988.HK"
+      ],
+      "published_at": "2026-10-14T19:50:37Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-prepares-to-debut-first-ai-features-in-china-in-december",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Apple Prepares to Debut First AI Features in China in December"
+        },
+        {
+          "url": "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
+          "outlet": "9to5Mac",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apple Intelligence reportedly coming to China in December, but without Siri AI"
+        },
+        {
+          "url": "https://www.macrumors.com/2026/10/14/apple-intelligence-china-ios-27-3/",
+          "outlet": "MacRumors",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apple Intelligence Coming to China in December With iOS 27.3"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Feature list and iOS version come from search summaries of MacRumors/9to5Mac relaying Bloomberg; not confirmed by Apple.",
+      "score": {
+        "total": 56.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.393,
+          "momentum": 0.95
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "anthropic-scion-source-control-replaces-git",
+      "title": "Anthropic details Scion, an in-house git replacement built after merges grew from 2,500 to 30,000+ a day",
+      "summary": "Anthropic's engineering blog says merges to its monorepo rose from about 2,500 per day in May 2026 to over 30,000 by September, with nearly all clients being always-online agents and CI jobs. Seven engineers built a server-heavy version control system called Scion, plus a review tool called Antique, and migrated in five months. Anthropic says it cut CPU and memory use about 200x versus the old git mirrors, with cache hit rates above 99%, and that Scion is not planned as a public product.",
+      "why_it_matters": "A frontier lab reports that agent-driven code volume has outgrown git's offline-client assumptions; source control and review are becoming the bottleneck for AI-assisted engineering.",
+      "key_numbers": [
+        "2,500 to 30,000+ merges/day",
+        "~200x smaller CPU/memory footprint",
+        "7 engineers, 5 months"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-13T15:49:56Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Redesigning source control at Anthropic"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "outlet": "Simon Willison",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Redesigning source control at Anthropic"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Anthropic post read via WebFetch. published_at is harvest first-seen time, exactly 6h before the window opens; story kept developing (HN 857 points).",
+      "score": {
+        "total": 56.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.7,
+          "breadth": 0.393,
+          "momentum": 0.487
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "stepfun-stepx-neo-agent-phone-3999-yuan",
+      "title": "StepFun launches STEPX Neo agent-native phone at 3,999 yuan, first sales Oct 16",
+      "summary": "StepFun's STEPX terminal unit held a launch event in Shanghai on the evening of Oct 13 for the STEPX Neo early-access edition, a Snapdragon 8-series phone (16GB+256GB) running the agent-native Step AOS 1.0. The 3,999 yuan price covers hardware, the OS, tools and Step models, with a 12-month token plan of 10 billion tokens a month. First sales are Oct 16 at 10:13.",
+      "why_it_matters": "A frontier-model lab is selling its own agent phone while Doubao's agent phone is being refused by major apps, testing whether OS-level agents can bypass app-gatekeeper limits.",
+      "key_numbers": [
+        "3,999 yuan (16GB+256GB)",
+        "10B tokens/month for 12 months",
+        "First sales Oct 16"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "StepFun"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-13T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://pingce.ifeng.com/c/8xCMTm7oACu",
+          "outlet": "ifeng",
+          "lang": "zh",
+          "tier": "press",
+          "title": "阶跃发布首款大模型原生智能体手机STEPX Neo：全栈定价3999元，10月16日开售"
+        },
+        {
+          "url": "https://www.chinaz.com/ainews/31633.shtml",
+          "outlet": "Chinaz",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "“软硬模”三位一体！STEPX 首款大模型原生智能体手机 Neo 登场，售价 3999 元起"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Search-snippet only. Event was the evening of Oct 13 Beijing time; published_at is an estimate placed at the window start because coverage kept developing on Oct 14.",
+      "original_title": "阶跃发布首款大模型原生智能体手机STEPX Neo先行版：全栈定价3999元，10月16日开售",
+      "score": {
+        "total": 54.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "openai-katti-leaves-infrastructure-role-ruddarraju-to-lead",
+      "title": "OpenAI's Sachin Katti to leave infrastructure role; Uday Ruddarraju to lead compute",
+      "summary": "Sachin Katti, who joined OpenAI from Intel in November 2025 and took over the Stargate data-center effort in March, said on LinkedIn he 'decided to move on to build something new'. His last day is Nov 15, after which he stays as an advisor. Uday Ruddarraju, OpenAI's CTO of compute and a former xAI infrastructure executive, will lead the compute organisation.",
+      "why_it_matters": "Another compute-leadership change at OpenAI as it plans very large compute spending and faces investor scrutiny of financing.",
+      "key_numbers": [
+        "Last day Nov 15"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-14T16:35:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI's Sachin Katti to leave infrastructure role, stay on as advisor"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/openai-again-shakes-up-compute-leadership-with-xai-exec-uday-ruddarraju-to-lead-and-sachin-katti-to-leave/",
+          "outlet": "Data Center Dynamics",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI again shakes up data center leadership, with xAI exec Uday Ruddarraju to lead and Sachin Katti to leave"
+        },
+        {
+          "url": "https://qz.com/openai-computing-chief-sachin-katti-leaving-101426",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI computing chief Sachin Katti is set to leave"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Details from search-result summaries; published_at is DCD first-seen time.",
+      "score": {
+        "total": 52.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.753
+        },
+        "coverage": 3,
+        "mentions": 4,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "dell-hpe-netapp-barclays-downgrade-enterprise-ai",
+      "title": "Dell falls about 11% as Barclays downgrades Dell, HPE and NetApp on enterprise AI timing",
+      "summary": "Barclays cut Dell, HPE and NetApp to hold, saying it has not seen a meaningful AI inflection in enterprise spending and that strong enterprise revenue reflects memory shortages and higher passed-through memory prices rather than AI adoption. CNBC put Dell down about 11% after a run of more than 300% this year, with HPE and Oracle also lower.",
+      "why_it_matters": "Challenges the 'enterprise AI is next' leg of the server-hardware trade and flags falling memory prices as a later headwind.",
+      "key_numbers": [
+        "Dell about -11%",
+        "Dell +300% YTD (before drop)",
+        "HPE +160% YTD"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Dell Technologies",
+        "Barclays",
+        "Hewlett Packard Enterprise",
+        "NetApp"
+      ],
+      "tickers": [
+        "DELL",
+        "HPE",
+        "NTAP"
+      ],
+      "published_at": "2026-10-14T20:06:38Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/10/14/dell-falls-8-as-barclays-cuts-rating-and-target-to-574-hewlett-packard-enterprise-drops-5-super-micro-computer-slides-4/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Dell Falls 8% as Barclays Cuts Rating and Target to $574; Hewlett Packard Enterprise Drops 5%, Super Micro Computer Slides 4%"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Intraday moves differ by source (CNBC -11%, 24/7 earlier -8%). published_at is CNBC first-seen time.",
+      "score": {
+        "total": 51.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "fink-data-center-moratorium-recession-warning",
+      "title": "BlackRock's Fink warns a data-center moratorium could trigger a US recession",
+      "summary": "After BlackRock's Q3 earnings, CEO Larry Fink told CNBC that a moratorium of some kind on data-center construction would push the US into recession, saying much of the economy rests on the capex build-out, and called much public fear misinformation. Local opposition is a live midterm issue.",
+      "why_it_matters": "The world's largest asset manager is publicly lobbying against moratoria as local bans spread, tying AI capex to GDP.",
+      "key_numbers": [
+        "Memphis vote Oct 20",
+        "Midterms Nov 3"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "BlackRock"
+      ],
+      "tickers": [
+        "BLK"
+      ],
+      "published_at": "2026-10-14T15:10:54Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession"
+        },
+        {
+          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/14/blackrock-chief-larry-fink-says-pause-on-data-center-construction-could-spark-recession/",
+          "outlet": "Forbes",
+          "lang": "en",
+          "tier": "press",
+          "title": "BlackRock Chief Larry Fink Says Pause On Data Center Construction Could Spark Recession"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": "memphis-council-delays-data-center-moratorium-oct-20",
+      "confidence_note": "Quotes paraphrased from search-result summaries of CNBC/Forbes. Recession claim is an opinion.",
+      "score": {
+        "total": 48.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "mot-waterway-ai-application-scenarios-guidance",
+      "title": "China's transport ministry lists 22 AI application scenarios for waterway transport",
+      "summary": "The Ministry of Transport's general office issued guidance on AI application scenarios in waterway transport, listing 22 scenarios across safety (9), efficiency (10) and green transition (3), including port safety-risk prevention, maritime search and rescue and automated terminals. It implements the seven-ministry 'AI + Transport' implementation opinions.",
+      "why_it_matters": "It gives ports and shipping firms an official checklist for AI pilots, extending the ministry's 'AI + transport' push to waterways.",
+      "key_numbers": [
+        "22 scenarios",
+        "9 safety, 10 efficiency, 3 green"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Ministry of Transport (China)"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-14T06:42:00Z",
+      "sources": [
+        {
+          "url": "https://www.mot.gov.cn/gongkai/zcjd/202610/t20261013_4225771.html",
+          "outlet": "Ministry of Transport",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "《水运领域人工智能应用场景指引》解读"
+        },
+        {
+          "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714404.shtml",
+          "outlet": "China News Service",
+          "lang": "zh",
+          "tier": "press",
+          "title": "《水运领域人工智能应用场景指引》解读"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. The ministry interpretation URL is dated Oct 13, so the document may predate the window by hours.",
+      "original_title": "交通运输部办公厅印发《水运领域人工智能应用场景指引》",
+      "score": {
+        "total": 45.7,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.78,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "bank-of-america-1000-contractors-mythos-remediation",
+      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+      "summary": "BofA CEO Brian Moynihan said the bank brought in about 1,000 outside contractors in Q2 to patch flaws surfaced by Anthropic's Mythos model, on top of 3,000 in-house staff, and that they remain on the job. CNBC says remediation plus AML compliance cost a 'couple hundred million plus' in Q3. Moynihan expects costs to decline.",
+      "why_it_matters": "One of the first concrete headcount and dollar figures for defending legacy software against frontier-model vulnerability discovery.",
+      "key_numbers": [
+        "~1,000 contractors",
+        "3,000 existing staff"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Bank of America",
+        "Anthropic"
+      ],
+      "tickers": [
+        "BAC"
+      ],
+      "published_at": "2026-10-14T18:47:38Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Single source (CNBC), seen via feed summary and a search snippet; the dollar figure combines patching with AML costs and is unconfirmed.",
+      "score": {
+        "total": 43.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "minimax-tmall-flagship-store-hk-ai-stocks-slump",
+      "title": "MiniMax opens Tmall store selling M Plan subscriptions as HK AI-model stocks stay far below peaks",
+      "summary": "On Oct 13 MiniMax opened a Tmall store listing its M Plan subscription tiers (Go, Explore, Build) with limited-time discounts, following Zhipu's Sept 2 Tmall flagship store. A Sina Finance piece put MiniMax's market value at about HK$74.7 billion, more than 80% below its high.",
+      "why_it_matters": "Chinese model labs are moving to consumer-style retail channels for token subscriptions while listed ones trade far below highs.",
+      "key_numbers": [
+        "About HK$74.7B market cap, >80% below peak"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "Zhipu AI",
+        "Alibaba"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-10-14T02:55:00Z",
+      "sources": [
+        {
+          "url": "https://finance.jrj.com.cn/2026/10/14105558711015.shtml",
+          "outlet": "JRJ Finance",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "追随智谱！MiniMax入驻天猫开设首家旗舰店，商业化提速，二级市场承压"
+        },
+        {
+          "url": "https://www.chaincatcher.com/article/2295834",
+          "outlet": "ChainCatcher",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "大模型厂商 MiniMax 入驻天猫，上架订阅套餐"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only; market-cap figure approximate. Weak item.",
+      "original_title": "追随智谱！MiniMax入驻天猫开设首家旗舰店，商业化提速，二级市场承压",
+      "score": {
+        "total": 39.5,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.438,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "ai-mass-decompiling-games-willison-popcar",
+      "title": "AI-powered decompilation is driving game mashups and preservation ports, and piracy worries",
+      "summary": "Simon Willison links an essay by indie developer Popcar on a recent wave of AI-powered decompilation of existing games. It has enabled mashups and a boom in preservation projects porting old games to new hardware or the browser. The essay warns that if AI can decompile games, anyone can decompile any software.",
+      "why_it_matters": "Coding agents make binary-to-source recovery cheap, helping preservation while undermining closed-source protection.",
+      "key_numbers": [],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Simon Willison"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-14T14:47:44Z",
+      "sources": [
+        {
+          "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+          "outlet": "Simon Willison",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AI is mass decompiling games. That's both awesome and scary."
+        },
+        {
+          "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+          "outlet": "Popcar (bearblog)",
+          "lang": "en",
+          "tier": "social",
+          "title": "AI is mass decompiling games. That's both awesome and scary"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Only the Willison excerpt was seen; commentary, not a release.",
+      "score": {
+        "total": 37.6,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.325,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 20
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-19",
+      "title": "Detention hearing for OpenAI engineer Abdulrahman Alfozan (N.D. Cal.)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Sachin Katti's last day in OpenAI's infrastructure role; Uday Ruddarraju leads compute",
+      "kind": "other",
+      "confidence": "confirmed",
+      "url": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html"
+    },
+    {
+      "date": "2026-12",
+      "title": "Apple Intelligence (without new Siri AI) reportedly launches in mainland China with iOS 27.3",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-prepares-to-debut-first-ai-features-in-china-in-december"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "StepFun STEPX Neo early-access phone first sales (3,999 yuan, 10:13 Beijing time)",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://pingce.ifeng.com/c/8xCMTm7oACu"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "US midterm elections; data-center backlash and AI regulation are live campaign issues",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html"
+    }
+  ],
+  "notes": "WebSearch/WebFetch mostly could not reach Oct 13-14 pages; many facts rest on harvest feed summaries and search snippets, flagged per item. Dropped for unverifiable/truncated URLs or thin sourcing: Wired extremist-modification story, Liquid AI LFM2.5, Epic launcher, Google Play private apps, Winverse seed round (outside window). Anthropic midterms voting-info post was seen only via redirects."
+}
