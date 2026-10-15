@@ -1,0 +1,1300 @@
+{
+  "date": "2026-10-15",
+  "window": {
+    "start": "2026-10-14T21:48:00Z",
+    "end": "2026-10-15T21:49:00Z"
+  },
+  "tldr": [
+    "Anthropic reportedly told investors Q3 revenue hit $16.8B (from $11.6B in Q2) with an 85% adjusted gross margin, ahead of an IPO targeting up to $2T; the same day the FTC served civil subpoenas on Anthropic and OpenAI over AI safety incidents and NYC's comptroller urged Anthropic to pause its listing.",
+    "Meta released Muse Spark Open, an 816B-parameter (42B active) open-weight model with 1M context that Apple says runs locally on two 512GB M5 Ultra Mac Studios.",
+    "In China, DeepSeek suffered a roughly five-hour API outage (08:11-13:04 Beijing time) and will refund 7 days of API spend as credits; StepFun open-sourced its 600B-parameter Step 5 Preview with day-0 Huawei Ascend, MetaX and Biren support."
+  ],
+  "items": [
+    {
+      "id": "anthropic-q3-revenue-16-8b-ahead-of-ipo",
+      "title": "Anthropic tells investors Q3 revenue hit $16.8B, adjusted profitable, as IPO nears",
+      "original_title": null,
+      "summary": "Anthropic reportedly told prospective investors that third-quarter revenue reached $16.8 billion, up from $11.6 billion in Q2 and about $4.7 billion in Q1, and that it was profitable on an adjusted basis. Bloomberg cites an adjusted gross margin of 85% and notes the quarter's growth was under 50% from June, a marked deceleration. Anthropic is expected to begin marketing its IPO in early November at a valuation of up to $2 trillion, with a debut no later than year-end.",
+      "why_it_matters": "The numbers anchor what would be the largest IPO ever and are being read as a test for the whole AI trade. Slowing sequential growth and a stalled IPO calendar frame the risk.",
+      "key_numbers": [
+        "Q3 revenue $16.8B",
+        "Q2 revenue $11.6B",
+        "Q1 revenue ~$4.7B",
+        "adjusted gross margin 85%",
+        "IPO valuation up to $2T"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-14T22:14:49Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Revenue Hits $16.8 Billion in Quarter Before IPO"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-stands-alone-as-rest-of-us-ipo-market-slows-to-a-crawl",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Stands Alone as Rest of US IPO Market Slows to a Crawl"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.9,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Figures come from people familiar with the matter and an investor presentation, not an Anthropic release or S-1. Only search-result snippets of Bloomberg and CNBC were seen; the harvest shows 8 outlets. The 85% margin and deceleration remark are Bloomberg-attributed; CNBC notes the revenue accounting basis (partner revenue) is unclear.",
+      "score": {
+        "total": 76.5,
+        "components": {
+          "impact": 0.9,
+          "novelty": 0.6,
+          "credibility": 0.698,
+          "breadth": 0.736,
+          "momentum": 0.796
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "meta-muse-spark-open-816b-open-weights",
+      "title": "Meta releases Muse Spark Open, an 816B-parameter open-weight model, and runs it on Macs with Apple",
+      "original_title": null,
+      "summary": "Meta released Muse Spark Open, an open-weight multimodal mixture-of-experts model with 816B total and 42B active parameters and a 1M-token context window, aimed at coding and agentic work. Weights are on Hugging Face, Amazon SageMaker, Google Cloud Model Garden and Microsoft Foundry. Meta and Apple said it can run locally on two 512GB M5 Ultra Mac Studios using MLX, and NVIDIA published a guide to serving it on GB300 NVL72.",
+      "why_it_matters": "It is Meta's first open-weight Muse model at frontier scale and is pitched as the strongest US open-weight model, pressuring Chinese open-weight leaders. The Apple tie-up makes local use of a model this size plausible.",
+      "key_numbers": [
+        "816B total / 42B active parameters",
+        "1M-token context",
+        "2x 512GB M5 Ultra Mac Studio via MLX (per MacRumors)"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Meta",
+        "Apple",
+        "Amazon Web Services",
+        "NVIDIA"
+      ],
+      "tickers": [
+        "META",
+        "AAPL"
+      ],
+      "published_at": "2026-10-15T17:43:00Z",
+      "sources": [
+        {
+          "url": "https://research.meta.ai/blog/muse-spark-open",
+          "outlet": "Meta AI Research",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Muse Spark Open, The Most Capable US Open-Weight Model to Date"
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Meta's Muse Spark Open now available in Amazon SageMaker JumpStart"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Apple and Meta team up to make Muse AI model run on Mac computers"
+        },
+        {
+          "url": "https://www.macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio/",
+          "outlet": "MacRumors",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta and Apple Bring Muse Spark Open AI Model to Mac Studio"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.85,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Specs from search-result snippets of Meta's blog, the Hugging Face blog and MacRumors; the pages could not be opened. License terms are disputed in snippets and not stated here. Published time is the AWS post's harvest timestamp; Meta's own post time was not seen. No independent benchmarks seen.",
+      "score": {
+        "total": 75.5,
+        "components": {
+          "impact": 0.85,
+          "novelty": 0.7,
+          "credibility": 0.912,
+          "breadth": 0.565,
+          "momentum": 0.503
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "ftc-subpoenas-anthropic-openai-ai-safety-probe",
+      "title": "FTC sends civil subpoenas to Anthropic and OpenAI in AI safety-incident probe",
+      "original_title": null,
+      "summary": "The FTC sent civil investigative demands to Anthropic and OpenAI on Oct 14, an agency spokesperson confirmed to The Hill. Axios, citing a person familiar, says each runs 50+ pages covering security incidents, safeguarding practices, marketing materials and privacy policies. The probe, first reported Sept 30 as industry-wide and including evaluator METR, is expected to extend to executive testimony and third-party AI organizations.",
+      "why_it_matters": "It moves the first federal consumer-protection probe of frontier-lab safety from reported inquiry to compulsory process, days before Anthropic's planned IPO marketing.",
+      "key_numbers": [
+        "demands sent Oct 14",
+        "50+ pages each (Axios, anonymous source)",
+        "probe first reported Sept 30"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "FTC",
+        "Anthropic",
+        "OpenAI",
+        "METR"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T07:47:27Z",
+      "sources": [
+        {
+          "url": "https://thehill.com/policy/technology/6150621-ftc-subpoena-openai-anthropic-safety-incidents-probe/",
+          "outlet": "The Hill",
+          "lang": "en",
+          "tier": "press",
+          "title": "FTC subpoenas top AI firms Anthropic, OpenAI in federal probe of safety risks"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/ftc-subpoenas-anthropic-openai-consumer-protection/",
+          "outlet": "CBS News",
+          "lang": "en",
+          "tier": "press",
+          "title": "FTC issues subpoenas to Anthropic and OpenAI over safety incidents"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Scoop: FTC subpoenas OpenAI, Anthropic over consumer harms"
+        },
+        {
+          "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413",
+          "outlet": "Gizmodo",
+          "lang": "en",
+          "tier": "press",
+          "title": "FTC Subpoenas OpenAI and Anthropic Over AI Safety Concerns"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Search snippets only. The underlying probe was reported Sept 30; the new element is the Oct 14 subpoenas. Page count is from one anonymous source via Axios.",
+      "score": {
+        "total": 74.0,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.632
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "deepseek-5h-outage-apology-7day-api-refund",
+      "title": "DeepSeek apologises for ~5-hour outage, refunds 7 days of API spend as credits",
+      "original_title": "DeepSeek致歉服务故障并补偿：7日内API消耗金额将全额返还",
+      "summary": "DeepSeek's open platform said its service system failed from 08:11 to 13:04 Beijing time on Oct 15, making the API unusable. It apologised and will return each account's API spend over the prior 7 days (Oct 8-14) in full as credits, applied automatically. Some users posted credits above 1,000 yuan, and DeepSeek has not explained the cause (per The Paper). SCMP called it another major outage.",
+      "why_it_matters": "DeepSeek rarely offers formal compensation, and a second major outage in months tests its reliability as developers build on its API.",
+      "key_numbers": [
+        "08:11-13:04 Beijing time (~5h)",
+        "7-day API spend refunded in full",
+        "Some credits >1,000 yuan"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T10:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34257131",
+          "outlet": "The Paper",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek致歉服务故障并补偿：7日内API消耗金额将全额返还"
+        },
+        {
+          "url": "https://www.ithome.com/1/013/533.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek 服务故障近 5 小时，官方补偿所有 API 用户 7 天内的消耗金额"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261015/herald/dd7d9479e41e51a10348e5955feaf4d7.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek故障近5小时，补偿方案公布"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15195182.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek就服务系统出现故障致歉，补偿方案公布"
+        },
+        {
+          "url": "https://www.scmp.com/tech/big-tech/article/3371047/deepseek-offers-user-refunds-after-suffering-another-major-outage",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "DeepSeek offers user refunds after suffering another major outage"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Search-result snippets only (pages not fetched); consistent across The Paper, IT之家, 21财经, 界面 and SCMP.",
+      "score": {
+        "total": 67.9,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.503
+        },
+        "coverage": 9,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "nyc-comptroller-levine-urges-anthropic-pause-ipo",
+      "title": "NYC Comptroller Levine urges Anthropic to pause IPO over AI safety and governance",
+      "original_title": null,
+      "summary": "New York City Comptroller Mark Levine sent Anthropic a letter dated Oct 14 asking it to put AI safety and governance ahead of going public, arguing IPO preparation diverts resources from safety work. The letter cites Dario Amodei's Sept 12 essay calling for slower capability development and the draft S-1's reported catastrophic-risk warning, and asks for a written response with a timeline for audits and controls. The comptroller's office has no direct power over the offering.",
+      "why_it_matters": "A major public-pension steward publicly pressing a pause adds institutional pressure just as the largest-ever IPO is being marketed.",
+      "key_numbers": [
+        "letter dated Oct 14",
+        "IPO valuation up to $2T"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "NYC Comptroller Mark Levine"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T13:13:33Z",
+      "sources": [
+        {
+          "url": "https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/",
+          "outlet": "NYC Comptroller",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Letter to Anthropic Re: Planned Initial Public Offering"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "NYC Comptroller Calls for Anthropic to Pause IPO for AI Safety"
+        },
+        {
+          "url": "https://www.crainsnewyork.com/politics-policy/cny-anthropic-ai-mark-levine-ipo-20261015/",
+          "outlet": "Crain's New York Business",
+          "lang": "en",
+          "tier": "press",
+          "title": "Comptroller urges Anthropic to delay IPO in light of 'myriad safety concerns'"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Only search-result snippets seen, including the comptroller.nyc.gov page title; letter contents summarized from search synthesis. No Anthropic reply found.",
+      "score": {
+        "total": 64.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.879,
+          "breadth": 0.487,
+          "momentum": 0.796
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "stepfun-step-5-preview-open-weights",
+      "title": "StepFun open-sources Step 5 Preview, a 600B MoE with 1M context; Huawei Ascend, MetaX, Biren give day-0 support",
+      "original_title": "阶跃星辰开源Step 5 Preview权重，华为昇腾、沐曦、壁仞首发支持",
+      "summary": "StepFun released BF16 and FP8 weights of Step 5 Preview, a sparse MoE with about 600B total and 27B active parameters, 1M-token context and text and vision input, on Hugging Face and ModelScope. Huawei Ascend, MetaX and Biren announced day-0 adaptation, and Moore Threads said its MTT S5000 supports it. At its Sept 20 launch the model scored 44 on the Artificial Analysis index, top three among open models.",
+      "why_it_matters": "A near-frontier open-weight model launching with domestic-accelerator support shows China's open-model and non-Nvidia compute stacks moving together.",
+      "key_numbers": [
+        "~600B total / 27B active",
+        "1M-token context",
+        "AA Intelligence Index 44 (Sept 20)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "StepFun",
+        "Huawei Ascend",
+        "MetaX",
+        "Biren"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T14:07:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/013/663.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "阶跃星辰开源 Step 5 Preview 权重，华为昇腾、沐曦、壁仞首发支持"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xFfQhghsAG",
+          "outlet": "凤凰网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "阶跃星辰开源Step 5 Preview权重，华为昇腾、沐曦、壁仞首发支持"
+        },
+        {
+          "url": "https://ai.cnmo.com/news/820326.html",
+          "outlet": "CNMO",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "阶跃星辰Step 5 Preview正式开源模型权重 面向AI编程"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.7,
+      "novelty": 0.55,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-level from Chinese outlets; vendor claims relayed by media. The Hugging Face repo and technical report were not opened. Benchmark score dates from the Sept 20 launch.",
+      "score": {
+        "total": 61.0,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.55,
+          "credibility": 0.691,
+          "breadth": 0.393,
+          "momentum": 0.583
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "huang-coreweave-improving-no-backstop-needed",
+      "title": "Nvidia's Huang says CoreWeave's cost of capital is falling and no backstop is needed",
+      "original_title": null,
+      "summary": "Speaking to Bloomberg in Stockholm, Jensen Huang said CoreWeave is improving and needs no backstop from Nvidia: 'Their cost of capital is actually decreasing.' Investing.com reports CoreWeave closed 5.94% higher. Context from coverage: CoreWeave's five-year CDS hit a record intraday high of about 1,194.5 bps, and Nvidia owns about 10% and has agreed to buy unsold CoreWeave capacity through April 2032.",
+      "why_it_matters": "Nvidia's CEO stepping in to calm credit fears shows how exposed the AI trade is to neocloud financing stress.",
+      "key_numbers": [
+        "CRWV closed +5.94%",
+        "5-yr CDS record ~1,194.5 bps",
+        "Nvidia stake ~10%"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "CoreWeave"
+      ],
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "published_at": "2026-10-15T15:27:52Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/nvidia-ceo-huang-says-coreweave-improving-no-backstop-needed",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia CEO Downplays CoreWeave Concerns, Bolstering Stock"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-coreweave-needs-no-backstop-as-shares-extend-slide-4952315",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia CEO says CoreWeave needs no backstop as shares extend slide"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.55,
+      "novelty": 0.5,
+      "follow_up_of": "coreweave-plunges-15pct-bond-yields-near-15pct",
+      "confidence_note": "Search snippets only. CDS and share-move figures come from search summaries and may reflect different timestamps.",
+      "score": {
+        "total": 60.2,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.97
+        },
+        "coverage": 4,
+        "mentions": 8,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "nvidia-nemotron-3-5-super-vl-and-bolt",
+      "title": "NVIDIA releases Nemotron 3.5 Super VL (120B-A12B) and Bolt 74B-A9B open models for agents",
+      "original_title": null,
+      "summary": "NVIDIA released two open Nemotron 3.5 models. Super VL is a 120B-parameter MoE with 12B active, built for multimodal agent work, on Hugging Face, OpenRouter, ModelScope and NIM. Bolt 74B-A9B is a 2-bit-quantized model sized for 24GB of memory to run local agents on RTX and DGX Spark. A smaller Bolt E4B (4GB) is listed for October 23.",
+      "why_it_matters": "It extends NVIDIA's open-model push from data centers to local hardware, timed with the RTX Spark laptop launch.",
+      "key_numbers": [
+        "Super VL: 120B total / 12B active",
+        "Bolt: 74B total / 9B active, fits 24GB",
+        "Bolt E4B due Oct 23"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "NVIDIA"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-15T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "outlet": "NVIDIA Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models"
+        },
+        {
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "outlet": "NVIDIA Technical Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.55,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Seen only as search snippets of NVIDIA pages; benchmark claims are NVIDIA's own. Sources disagree on whether Bolt 74B was available at announcement.",
+      "score": {
+        "total": 60.0,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.5,
+          "credibility": 0.84,
+          "breadth": 0.283,
+          "momentum": 0.97
+        },
+        "coverage": 2,
+        "mentions": 8,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "anthropic-metr-employee-level-access",
+      "title": "Anthropic gives METR employee-level access and waives veto over publication of its findings",
+      "original_title": null,
+      "summary": "Anthropic has given six METR researchers employee-level access (company laptops, office space, internal tools) to evaluate its models, incidents and practices. TechCrunch reports Anthropic waived its right to block METR publications, with removal requests limited to narrow categories such as customer data and model architecture details. Reuters adds Anthropic is also working with SecureBio and Accenture's Faculty in a three-tier evaluator scheme.",
+      "why_it_matters": "It is the most concrete step yet toward embedded third-party evaluation of a frontier lab, after weeks of agent-incident disclosures.",
+      "key_numbers": [
+        "6 METR researchers",
+        "3-tier evaluator system"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "METR"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T17:20:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic is letting METR researchers look under the hood with employee-level access"
+        },
+        {
+          "url": "https://lufkindailynews.com/news_reuters/business/anthropic-grants-outside-evaluator-metr-employee-level-access-in-ai-safety-push/article_11be4097-b39c-56b7-8742-2b47ab3a3c4f.html",
+          "outlet": "Reuters (via Lufkin Daily News)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.55,
+      "novelty": 0.5,
+      "follow_up_of": "anthropic-discloses-unintended-model-actions-evals-internet-cutoff",
+      "confidence_note": "Snippet-level. Anthropic's own post ('An update on independent evaluators') was not opened, so no primary URL is cited. The 'six researchers' count is from one snippet source.",
+      "score": {
+        "total": 58.5,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.796
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "tsmc-q3-record-profit-capacity-battle",
+      "title": "TSMC posts sixth straight record quarterly profit; chip capacity a 'fierce' battleground",
+      "original_title": null,
+      "summary": "TSMC reported Q3 net profit of NT$763.1B, up 68.7% year on year and above the NT$746.3B expected, on revenue of NT$1.49T (about $46.4B). Operating margin was 58.7%, above the top of guidance, and the company raised its full-year revenue outlook. A companion CNBC report says Nvidia, Apple, AMD and Broadcom are in an 'extremely fierce' fight for TSMC capacity; TSMC is also assessing whether customers have the financing to deploy AI systems.",
+      "why_it_matters": "TSMC remains the binding supply constraint for AI silicon, and its demand read-through lands during an AI funding scare.",
+      "key_numbers": [
+        "net profit NT$763.1B (+68.7% YoY)",
+        "revenue NT$1.49T",
+        "operating margin 58.7%",
+        "6th consecutive record quarter"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "TSMC",
+        "Nvidia",
+        "Apple",
+        "Broadcom",
+        "AMD"
+      ],
+      "tickers": [
+        "2330.TW"
+      ],
+      "published_at": "2026-10-14T23:02:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "TSMC chip capacity is 'fierce' battleground for AI customers, amid record quarter"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.8,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Only CNBC search summaries seen; the harvest lists Reuters as a third outlet. published_at uses the harvest first-seen time; the release was Oct 15 Taiwan time.",
+      "score": {
+        "total": 56.7,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.393,
+          "momentum": 0.583
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "mistral-timestral-time-series-models",
+      "title": "Mistral releases Timestral, its first time-series foundation models, in four sizes up to 209M",
+      "original_title": null,
+      "summary": "Mistral released Timestral, zero-shot probabilistic forecasting models at 5M, 28M, 123M and 209M parameters. Mistral says the 209M model ranks first on GIFT-Eval, TIME and fev-bench, and the 28M model beats the roughly 4x larger Chronos-2 on GIFT-Eval and TIME. The models run on CPU, support up to 32K-step context, and ship as open weights under a Modified MIT license.",
+      "why_it_matters": "It takes Mistral beyond language models into forecasting, where small CPU-friendly models are the draw.",
+      "key_numbers": [
+        "4 sizes: 5M / 28M / 123M / 209M",
+        "Claimed #1 on GIFT-Eval, TIME, fev-bench",
+        "32,768-step context"
+      ],
+      "topic": "models",
+      "region": "eu",
+      "entities": [
+        "Mistral AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T15:08:00Z",
+      "sources": [
+        {
+          "url": "https://mistral.ai/news/timestral/",
+          "outlet": "Mistral AI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Timestral: Mistral's time-series foundation models"
+        },
+        {
+          "url": "https://huggingface.co/mistralai/Timestral-209M",
+          "outlet": "Hugging Face",
+          "lang": "en",
+          "tier": "primary",
+          "title": "mistralai/Timestral-209M"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-level only. Benchmark rankings are Mistral's own; docs label it Public Preview.",
+      "score": {
+        "total": 55.4,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.7,
+          "credibility": 0.84,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "huang-nvidia-must-work-with-chinese-ai-firms-on-safety",
+      "title": "Nvidia's Huang: 'absolutely must' work with Chinese AI firms on AI risks, urges US-China dialogue",
+      "original_title": "黄仁勋：绝对必须与中国AI企业合作",
+      "summary": "Speaking at a London media briefing on Oct 14, Jensen Huang called AI 'potentially dangerous' and said Nvidia 'absolutely must' work with Chinese AI companies to monitor and respond to risks, starting with dialogue. He said he talks with several Chinese AI researchers and wants the US and UK to do likewise.",
+      "why_it_matters": "The head of the largest AI chip supplier is framing China engagement as a safety necessity as export controls and a US-China truce deadline approach.",
+      "key_numbers": [
+        "London briefing, Oct 14"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T11:12:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI"
+        },
+        {
+          "url": "https://www.ithome.com/1/013/661.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "黄仁勋：英伟达在 AI 安全领域必须与中国企业合作"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8xFVzqyTVNv",
+          "outlet": "凤凰网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "黄仁勋：绝对必须与中国AI企业合作"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.45,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "CNBC details from search summary; Chinese-language snippets relay CNBC.",
+      "score": {
+        "total": 54.8,
+        "components": {
+          "impact": 0.45,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.97
+        },
+        "coverage": 3,
+        "mentions": 8,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "google-universal-cart-us-launch",
+      "title": "Google launches Universal Cart in Search and the Gemini app for US shoppers",
+      "original_title": null,
+      "summary": "Google's Universal Cart, previewed at I/O in May, went live in the US in Search and the Gemini app. It collects products from across the web, tracks price drops and restocks, can surface promo codes, and completes purchases through Google Pay or hands off to the merchant, tied to Google's Universal Commerce Protocol. The summer rollout target slipped to October.",
+      "why_it_matters": "It is Google's main consumer test of agentic checkout across retailers, ahead of the holidays.",
+      "key_numbers": [
+        "Live in US Search and Gemini app",
+        "Checkout via Google Pay or merchant handoff"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-15T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+          "outlet": "Google Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Google's new Universal Cart launches today in the U.S."
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google's Universal Cart shopping tool launches in the US"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-level; The Verge also covered it.",
+      "score": {
+        "total": 52.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.78,
+          "breadth": 0.393,
+          "momentum": 0.503
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "germany-nvidia-industrial-ai-initiative-handelsblatt",
+      "title": "Germany reportedly preparing industrial AI partnership with Nvidia, with about a dozen German firms",
+      "original_title": null,
+      "summary": "Investing.com, citing Handelsblatt, reports the German government is preparing a physical-AI and industrial-model initiative with Nvidia, with Berlin contributing several hundred million euros for compute and training. About a dozen German companies, including Siemens, Audi and Black Forest Labs, are expected to join, building on the Soofi open-source model consortium. An announcement is expected at the 'Invest in Germany' summit, where Huang is expected to meet Chancellor Merz.",
+      "why_it_matters": "It would deepen Nvidia's role in European sovereign-AI buildout and Germany's industrial AI strategy.",
+      "key_numbers": [
+        "several hundred million euros (reported)",
+        "~12 German companies expected"
+      ],
+      "topic": "policy",
+      "region": "eu",
+      "entities": [
+        "Nvidia",
+        "German government",
+        "Siemens",
+        "Audi",
+        "Black Forest Labs"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-15T15:28:46Z",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/germany-to-partner-with-nvidia-on-ai-development-initiative--report-4952233",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Germany to partner with Nvidia on AI development initiative - report"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Unconfirmed report relayed from Handelsblatt via Investing.com; only that snippet seen. Summit date not verified.",
+      "score": {
+        "total": 50.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.97
+        },
+        "coverage": 2,
+        "mentions": 8,
+        "baseline": 1.286,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "simons-foundation-15m-ai-math-initiative",
+      "title": "Simons Foundation launches $15M AI-for-math effort with OpenAI and Anthropic backing",
+      "original_title": null,
+      "summary": "The Simons Foundation announced a $15M initiative to help mathematicians assess and build on AI-assisted results, run through an open call for proposals covering workshops, verification of AI results, learning tools and shared standards. OpenAI says it is contributing $5M plus model and compute access; Anthropic is also reported as a participant, with its share not seen.",
+      "why_it_matters": "It follows weeks of disputed AI math claims and puts a major private math funder in charge of how results are vetted.",
+      "key_numbers": [
+        "$15M total",
+        "OpenAI contributes $5M"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Simons Foundation",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+          "outlet": "Simons Foundation",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era"
+        },
+        {
+          "url": "https://www.citybiz.co/article/919471/simons-foundation-partners-with-anthropic-and-openai-on-15-million-ai-initiative-for-mathematics/",
+          "outlet": "CityBiz",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Simons Foundation Partners With Anthropic and OpenAI on $15 Million AI Initiative for Mathematics"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": "openai-math-results-flood-withdrawals-mathematicians-react",
+      "confidence_note": "Snippet-level; publication time approximate.",
+      "score": {
+        "total": 48.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.7,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "zhipu-hires-security-researcher-gu-he-yuki-chen",
+      "title": "Zhipu hires prominent white-hat researcher Gu He (Yuki Chen); GLM-assisted finds earn 23 Microsoft acknowledgements",
+      "original_title": "古河加盟智谱，GLM辅助发现的23项漏洞获微软致谢",
+      "summary": "Well-known security researcher Gu He (Yuki Chen), formerly head of 360's vulnerability research institute, has joined Zhipu, which confirmed it without disclosing a role. Zhipu said 23 Windows vulnerabilities found with GLM assistance were acknowledged by MSRC, and that since GLM-5.2 its work on real codebases found 2,436 vulnerabilities across 269 projects after expert review.",
+      "why_it_matters": "It signals Zhipu pushing GLM into AI-driven vulnerability discovery as a commercial line while AI cyber capability is a policy flashpoint.",
+      "key_numbers": [
+        "23 Windows vulnerabilities acknowledged by MSRC",
+        "2,436 vulnerabilities in 269 projects"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu",
+        "Gu He (Yuki Chen)"
+      ],
+      "tickers": [
+        "2513.HK"
+      ],
+      "published_at": "2026-10-15T02:03:00Z",
+      "sources": [
+        {
+          "url": "https://stock.stockstar.com/SS2026101500018687.shtml",
+          "outlet": "证券之星",
+          "lang": "zh",
+          "tier": "press",
+          "title": "古河加盟智谱，GLM辅助发现的23项漏洞获微软致谢"
+        },
+        {
+          "url": "https://guba.eastmoney.com/news,hk02513,1782887017.html",
+          "outlet": "东方财富",
+          "lang": "zh",
+          "tier": "press",
+          "title": "知名白帽安全研究员古河加入智谱"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. Vulnerability figures are Zhipu's own claims.",
+      "score": {
+        "total": 47.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.503
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "shanghai-ai-lab-intern-s2-ghys-conjecture-3d",
+      "title": "Chinese team proves 3D Ghys conjecture with Shanghai AI Lab's Intern-S2 model, formally verified",
+      "original_title": "中国科学家首次用中国大模型攻克世界级数学难题，曾困扰学界30余年",
+      "summary": "IT之家 reports that a team led by Xu Disheng (Great Bay University, visiting scholar at Shanghai AI Laboratory) used the lab's Intern-S2 science multimodal model, working with humans, to prove the three-dimensional Ghys conjecture, an open dynamical-systems problem posed in 1995. A Peking University team formally verified the proof with its SHEAF framework. The paper is on arXiv and the formalisation code is on GitHub.",
+      "why_it_matters": "A headline claim of a Chinese LLM contributing to a long-open maths problem, with formal verification behind it, which is rarer than informal AI proofs.",
+      "key_numbers": [
+        "Conjecture posed 1995",
+        "Formal verification by PKU SHEAF"
+      ],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "Shanghai AI Laboratory",
+        "Peking University"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T02:19:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/013/269.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "中国科学家首次用中国大模型攻克世界级数学难题，曾困扰学界 30 余年"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Only one outlet URL seen (IT之家 snippet); the harvest shows 东方财富 and 电子工程专辑 also carried it. 'First' is the institution's framing; the arXiv paper was not checked.",
+      "score": {
+        "total": 47.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.25,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "global-tech-rout-nvidia-sk-hynix-softbank-ai-funding-worries",
+      "title": "Global tech rout: SK hynix falls 10%+, Samsung and SoftBank slide on AI funding fears",
+      "original_title": null,
+      "summary": "CNBC reports a sell-off across US, Asian and European AI and chip stocks, with SK hynix down more than 10%, Samsung Electronics down roughly 7-9% and SoftBank down 7.9%. In the US, Nvidia fell 1.84%, AMD 1.5% and Dell 6.8%, after Dell's 11% drop the day before. CNBC says 20 of the most valuable AI and chip stocks lost over $1 trillion this week on rate-hike fears, AI financing worries and memory-oversupply concerns.",
+      "why_it_matters": "Funding and rates, not demand, are now the stated worry driving the AI hardware complex, hitting memory names hardest.",
+      "key_numbers": [
+        "SK hynix -10%+",
+        "Samsung -7.1% to -8.7%",
+        "SoftBank -7.9%",
+        "$1T+ lost in 20 AI/chip stocks this week"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "SK hynix",
+        "Samsung Electronics",
+        "SoftBank",
+        "Nvidia",
+        "Dell",
+        "AMD"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T00:42:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": "memory-stocks-slide-cxmt-server-dram-sox-rout",
+      "confidence_note": "Single outlet (CNBC) seen via search summary. Percentages moved through the session. Incremental continuation of the Oct 13-14 rout.",
+      "score": {
+        "total": 45.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.471
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "amazon-bee-frontier-eclipse-devices",
+      "title": "Amazon's Bee launches Frontier ($74.99) and Eclipse ($99.99) personal AI devices",
+      "original_title": null,
+      "summary": "Amazon's Bee unit launched Bee Frontier, a $74.99 wrist or clip wearable with up to seven days of battery, available now. Bee Eclipse, a credit-card-sized magnetic phone attachment at $99.99, ships soon. The free tier gives summaries and 14 days of memory; Bee Pro is $11.99 a month with Alexa+ and third-party integrations. Amazon says audio is processed in real time and deleted.",
+      "why_it_matters": "It shows Amazon betting on always-listening ambient AI hardware with a subscription upsell tied to Alexa+.",
+      "key_numbers": [
+        "Frontier $74.99",
+        "Eclipse $99.99",
+        "Bee Pro $11.99/month"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Amazon",
+        "Bee"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-10-15T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon's Bee launches two new personal AI devices, starting at $75"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/15/amazon-bee-frontier-eclipse-ai-devices.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon launches new Bee 'personal AI' devices that listen to conversations"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-level from search summaries.",
+      "score": {
+        "total": 43.9,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.541
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "nvidia-cisco-confirm-trump-ballroom-donations",
+      "title": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
+      "original_title": null,
+      "summary": "CNBC reports Nvidia and Cisco confirmed multimillion-dollar gifts to the White House ballroom project. Nvidia's spokesperson said its support is independent of business interests and went to a nonpartisan trust. Lawmakers and experts have raised concerns about influence on policy or contracts.",
+      "why_it_matters": "Donations from firms with export-control and federal-contract exposure keep fueling scrutiny of tech-White House ties.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Cisco",
+        "White House"
+      ],
+      "tickers": [
+        "NVDA",
+        "CSCO"
+      ],
+      "published_at": "2026-10-15T19:42:36Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet seen via search summary; dollar amounts reported in that summary ($25M Nvidia, $5M Cisco) are unverified and omitted.",
+      "score": {
+        "total": 43.5,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.97
+        },
+        "coverage": 2,
+        "mentions": 8,
+        "baseline": 1.286,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "ex-huawei-xiaoyi-lead-guanxing-proactive-physical-ai",
+      "title": "Ex-Huawei Xiaoyi multimodal lead launches Guanxing Shuzhi to build 'proactive physical AI'",
+      "original_title": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
+      "summary": "Qbitai reports that Tang Duyu, formerly R&D lead for Huawei's Xiaoyi assistant multimodal model, has founded Guanxing Shuzhi, which targets AI that monitors event streams and decides when to intervene rather than only following commands. Its ProAgent architecture pairs a lightweight monitoring model with a larger response model, and it proposed a ProactiveXBench benchmark, first validated on a Reachy Mini robot across 60 cases.",
+      "why_it_matters": "It adds to the stream of Huawei AI leads leaving to found physical-AI startups, with a distinct pitch around proactivity.",
+      "key_numbers": [
+        "60 test cases on Reachy Mini"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Guanxing Shuzhi",
+        "Tang Duyu"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T06:35:00Z",
+      "sources": [
+        {
+          "url": "https://www.qbitai.com/2026/10/503446.html",
+          "outlet": "量子位",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "前华为小艺大模型负责人创业，押注“主动式物理AI”"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only; claims are the team's own and funding status was not seen.",
+      "score": {
+        "total": 36.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.25,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 21
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-16",
+      "title": "NVIDIA RTX Spark laptops arrive; launch event",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "NVIDIA Nemotron 3.5 Bolt E4B (4GB) availability",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+    },
+    {
+      "date": "2026-11",
+      "title": "Anthropic expected to begin marketing its IPO (valuation up to $2T; debut no later than year-end)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-stands-alone-as-rest-of-us-ipo-market-slows-to-a-crawl"
+    }
+  ],
+  "notes": "Desk reports were snippet-level (WebFetch unavailable); see per-item confidence notes. Dropped: Tencent-Amap agent probe (35k vs 2,600 figures unreconciled), Apertus 1.5 and Liquid LFM2.5 (not verified as inside window)."
+}
