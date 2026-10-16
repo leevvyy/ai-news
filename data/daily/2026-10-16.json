@@ -1,0 +1,1692 @@
+{
+  "date": "2026-10-16",
+  "window": {
+    "start": "2026-10-15T21:49:00Z",
+    "end": "2026-10-16T21:48:00Z"
+  },
+  "tldr": [
+    "China's commerce and science ministries proposed adding 40 technologies, 23 of them in AI (large models, agents, compute clusters), to the export-control catalogue, with 14 banned and 26 restricted; temporary registration applies from 16 Oct and comments run to 15 Nov.",
+    "Reflection AI released Beam, a 501B-parameter (about 23B active) Apache 2.0 open-weight coding model that self-reports 80.9 on SWE-bench Verified. Separately, some investors now discuss about $1.5T for Anthropic's November IPO, down from about $2T, after Q3 revenue growth slowed to 45% quarter on quarter.",
+    "Taiwan plans a Texas industrial park costing up to $4B for Nvidia's suppliers, while Anthropic says Claude Mythos 5 cut gate counts up to 17x in quantum-circuit designs (resource estimates, not hardware runs)."
+  ],
+  "items": [
+    {
+      "id": "china-mofcom-draft-export-control-40-ai-biotech-solar-technologies",
+      "title": "China proposes adding 40 AI, biotech and solar technologies to its export-control catalogue",
+      "original_title": "商务部、科技部就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
+      "summary": "MOFCOM and the Ministry of Science and Technology (Announcement No. 48) opened consultation on revising the Catalogue of Technologies Prohibited and Restricted from Export, adding 40 technologies: 23 in AI (large models, agents, compute clusters, information processing), 12 in photovoltaics and 5 in biomedicine. Xinhua reports 14 would be banned outright and 26 restricted. Pre-export temporary registration applies from 16 Oct. A ministry spokesperson called the AI scope 'precise and limited': technology already public via open source or papers is excluded, and serving models through API, app or SaaS is not treated as technology export.",
+      "why_it_matters": "First time model, agent and compute-cluster know-how appears in China's export-control catalogue, which could shape overseas licensing and joint ventures by Chinese AI and solar firms.",
+      "key_numbers": [
+        "40 technologies",
+        "23 AI / 12 solar / 5 biomedicine",
+        "14 prohibited, 26 restricted",
+        "Comments 16 Oct to 15 Nov"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "MOFCOM",
+        "Ministry of Science and Technology"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html",
+          "outlet": "MOFCOM",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理"
+        },
+        {
+          "url": "https://www.news.cn/fortune/20261017/1f4b116e36124e2bb9c3c15e26bc86cb/c.html",
+          "outlet": "Xinhua",
+          "lang": "zh",
+          "tier": "press",
+          "title": "商务部详解修订《中国禁止出口限制出口技术目录》"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/345689/China-proposes-adding-40-AI-biotech-solar-technologies-to-export-control-list",
+          "outlet": "The Standard (HK)",
+          "lang": "en",
+          "tier": "press",
+          "title": "China proposes adding 40 AI, biotech, solar technologies to export control list"
+        },
+        {
+          "url": "https://www.globaltimes.cn/page/202610/1372418.shtml",
+          "outlet": "Global Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15199951.html",
+          "outlet": "Jiemian",
+          "lang": "zh",
+          "tier": "press",
+          "title": "商务部、科技部就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.8,
+      "novelty": 0.9,
+      "follow_up_of": null,
+      "confidence_note": "Timestamp estimated from harvest first-seen (Nikkei/Yahoo 08:42Z) and the notice dated 16 Oct. Splits come from MOFCOM/Xinhua via search snippets; full notice not opened.",
+      "score": {
+        "total": 80.9,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.9,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.632
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "reflection-beam-501b-open-weights",
+      "title": "Reflection AI releases Beam, a 501B-parameter Apache 2.0 open-weight MoE for agentic coding",
+      "summary": "Reflection AI released Beam, a mixture-of-experts model with 501B total and about 23B active parameters and a 1M-token context window. Weights are on Hugging Face under Apache 2.0 in BF16, FP8 and NVFP4, and AWS published a launch post for running it. Reflection self-reports 80.9 on SWE-bench Verified and 77.2 on SWE-bench Pro v2-Hard, behind Kimi K3 (88.2) and GLM 5.3 (84.3) on the latter. No independent evaluations or per-token prices were found.",
+      "why_it_matters": "A large US-built open-weight model with a permissive licence aimed at agentic coding, a segment dominated by Chinese open models. It follows reported Nvidia interest in Reflection.",
+      "key_numbers": [
+        "501B total / ~23B active params",
+        "1M-token context",
+        "Apache 2.0",
+        "SWE-bench Verified 80.9 (self-reported)",
+        "SWE-bench Pro v2-Hard 77.2"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Reflection AI",
+        "Amazon Web Services",
+        "Hugging Face"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/reflection-beam",
+          "outlet": "Hugging Face Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Welcome Beam: a 501B open model you can own, customize, and scale"
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS"
+        },
+        {
+          "url": "https://www.datacamp.com/blog/reflection-ai-beam",
+          "outlet": "DataCamp",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Beam: Reflection AI's 501B Open-Weight Model"
+        },
+        {
+          "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+          "outlet": "Latent Space (AINews)",
+          "lang": "en",
+          "tier": "trade",
+          "title": "[AINews] Reflection Beam - 501B-A23B American Open Model"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Specs and benchmark numbers come from search-result summaries; HF and AWS pages could not be opened. Timestamp is the harvest value (00:00Z, likely a date-only estimate). Benchmarks are self-reported.",
+      "score": {
+        "total": 69.0,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.88,
+          "breadth": 0.632,
+          "momentum": 0.541
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "anthropic-ipo-valuation-talk-cut-to-1-5t",
+      "title": "Some Anthropic investors now eye a $1.5T IPO valuation, down from $2T, as Q3 growth cools",
+      "summary": "Reuters-sourced reports say some current and prospective investors discussed roughly $1.5 trillion for Anthropic's planned November IPO, about $500B below the ~$2T previously floated. Q3 revenue of $16.8B was up about 45% quarter on quarter versus nearly 150% in Q2. Coverage notes at least $518B of 10-year cloud and compute commitments in a prospectus reviewed by Reuters in September. The final price is still under negotiation.",
+      "why_it_matters": "The biggest AI IPO ever is being repriced on growth deceleration and compute-commitment risk, shaping how the market values frontier labs and their chip suppliers.",
+      "key_numbers": [
+        "~$1.5T vs ~$2T earlier",
+        "Q3 revenue $16.8B, +45% QoQ",
+        "Q2 growth ~150%",
+        "$518B 10-year compute commitments"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-investors-now-see-1-122407498.html",
+          "outlet": "Yahoo Finance (24/7 Wall St.)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Some Anthropic Investors Now See a $1.5 Trillion IPO, Not $2 Trillion"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-investors-consider-lower-1-101100832.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Investors Consider Lower $1.5 Trillion IPO Valuation as Revenue Growth Slows"
+        },
+        {
+          "url": "https://cryptobriefing.com/anthropic-ipo-valuation-drops-1-5-trillion/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic's IPO valuation expectations reportedly slide to $1.5 trillion"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": "anthropic-q3-revenue-16-8b-ahead-of-ipo",
+      "confidence_note": "Reuters original not directly seen; relies on syndications and snippets. Valuation figures are investor discussion, not company guidance.",
+      "score": {
+        "total": 65.9,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.487,
+          "momentum": 0.689
+        },
+        "coverage": 4,
+        "mentions": 4,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "taiwan-4b-texas-industrial-park-nvidia-suppliers",
+      "title": "Taiwan plans up to $4B Texas industrial park for Nvidia's supply chain, minister tells Bloomberg",
+      "summary": "Taiwan's economy minister Kung Ming-hsin said the government wants US industrial parks for smaller suppliers to TSMC, Foxconn and other AI-hardware makers, starting with a Texas complex costing as much as $4B. Each site is estimated at $2B-$4B; an industry association is expected to raise funds with government loan guarantees, visas and land access. Nvidia, TSMC and Foxconn have made no commitment and no suppliers or schedule were named.",
+      "why_it_matters": "Taiwan is moving to anchor the AI server supply chain inside the US, reinforcing the US-Taiwan trade deal.",
+      "key_numbers": [
+        "Up to $4B for the Texas complex",
+        "$2B-$4B per site"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Taiwan Ministry of Economic Affairs",
+        "Nvidia",
+        "TSMC",
+        "Foxconn"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T01:32:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-fund-4-billion-texas-complex-for-ai-nvidia-partners",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Taiwan to Fund $4 Billion Texas Complex for AI, Nvidia Partners"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/10/16/taiwan-is-planning-4-billion-industrial-parks-in-texas-for-nvidias-suppliers/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "press",
+          "title": "Taiwan Is Planning $4 Billion Industrial Parks in Texas for Nvidia's Suppliers"
+        },
+        {
+          "url": "https://www.gurufocus.com/news/9127401/taiwan-plans-4-billion-texas-ai-hub-for-nvidia-supply-chain",
+          "outlet": "GuruFocus",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Taiwan Plans 4 Billion Texas AI Hub for Nvidia Supply Chain"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Bloomberg read via search snippets only. $4B is an upper per-site estimate, not a confirmed budget.",
+      "score": {
+        "total": 62.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "anthropic-mythos-5-quantum-circuits",
+      "title": "Anthropic: Claude Mythos 5 designs quantum circuits beating published ones, up to 17x fewer gates",
+      "summary": "In an Anthropic STEM Fellows project with Harvard and QuEra collaborators (arXiv 2610.22367), Claude Mythos 5 improved on the best published circuits on all eight tasks given. A 53-hour autonomous run produced an elliptic-curve point-addition design using 12% more qubits than the smallest prior design but 17x fewer gates; for Decoded Quantum Interferometry it swapped in Berlekamp-Massey decoding, cutting decoder gates about 12x versus Google's prior construction. These are resource-estimate gains, not hardware runs.",
+      "why_it_matters": "It points to AI agents finding algorithmic improvements relevant to the cost of attacking elliptic-curve cryptography, though only in circuit estimates.",
+      "key_numbers": [
+        "8 circuit tasks improved",
+        "17x fewer gates (+12% qubits)",
+        "~12x fewer decoder gates",
+        "53-hour autonomous run"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Harvard",
+        "QuEra"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T17:29:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Designing more efficient quantum circuits with Claude"
+        },
+        {
+          "url": "https://interestingengineering.com/ai-robotics/claude-quantum-circuit-design",
+          "outlet": "Interesting Engineering",
+          "lang": "en",
+          "tier": "press",
+          "title": "Claude solves quantum memory bottleneck with 17x leaner circuit"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.55,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Primary post fetched in full. Timestamp from harvest.",
+      "score": {
+        "total": 61.6,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.7,
+          "credibility": 0.78,
+          "breadth": 0.393,
+          "momentum": 0.689
+        },
+        "coverage": 3,
+        "mentions": 4,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "microsoft-mai-base-2-beats-openai-quarter-compute",
+      "title": "Microsoft AI chief claims MAI-Base-2 beats an OpenAI model using a quarter of the training compute",
+      "summary": "At an employee town hall, Microsoft AI CEO Mustafa Suleyman said the in-house MAI-Base-2 (reportedly 2.8T parameters, 80B active) outperformed the base model behind GPT-5.6 on internal tests using about a quarter of OpenAI's training compute, and about 12x less than DeepSeek. Microsoft said it trained on 16k GB200 GPUs over 38 days in Aug-Sep; the model is in post-training, to be licensed via Foundry, with no release date or public benchmarks.",
+      "why_it_matters": "Microsoft is signalling it can compete with its own partner at lower compute cost, a pointed claim as AI capex returns are questioned.",
+      "key_numbers": [
+        "~1/4 of OpenAI training compute (claimed)",
+        "12x less than DeepSeek (claimed)",
+        "16k GB200 GPUs, 38 days",
+        "2.8T total / 80B active params"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "OpenAI",
+        "Mustafa Suleyman"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-10-15T23:31:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-ai-chief-says-built-125729863.html",
+          "outlet": "Yahoo Finance (Business Insider)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Microsoft's AI Chief Says It Built a Better Model Than OpenAI's With a Quarter of the Computing Power"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/10/16/microsofts-ai-chief-says-it-built-a-better-model-than-openais-with-a-quarter-of-the-computing-power/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "press",
+          "title": "Microsoft's AI Chief Says It Built a Better Model Than OpenAI's With a Quarter of the Computing Power"
+        },
+        {
+          "url": "https://startupfortune.com/microsoft-ai-chief-says-his-model-beat-openais-using-a-quarter-the-compute/",
+          "outlet": "Startup Fortune",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft AI chief says his model beat OpenAI's using a quarter the compute"
+        },
+        {
+          "url": "https://www.digitaltoday.co.kr/en/view/115636/microsoft-ai-chief-says-company-built-model-stronger-than-gpt-56-with-quarter-of-computing-power",
+          "outlet": "Digital Today",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft AI chief says company built model stronger than GPT-5.6 with quarter of computing power"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Claims are internal remarks relayed by press; Business Insider original not opened; unverified, OpenAI has not commented.",
+      "score": {
+        "total": 61.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.541
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "deepseek-merges-harness-web-app-platform-into-product-department",
+      "title": "DeepSeek merges Harness, Web, App and Platform teams into a single product department",
+      "original_title": "DeepSeek整合成立“产品部”，崔添翼担任负责人",
+      "summary": "DeepSeek has combined its Agent Harness team with the Web, App and Platform teams into a new product department covering product, design and engineering, led by Cui Tianyi. Cui, a former Jane Street quant who joined in March and built the Harness team, confirmed the report to The Paper on 16 Oct. The department is recruiting product designers.",
+      "why_it_matters": "It signals DeepSeek moving from a research-first lab toward productised agents.",
+      "key_numbers": [
+        "4 teams merged",
+        "Cui Tianyi leads",
+        "Harness team formed in March"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Cui Tianyi"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T07:55:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34262324",
+          "outlet": "The Paper",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek整合成立“产品部”，崔添翼担任负责人"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xGsFILec2Y",
+          "outlet": "Phoenix (ifeng)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "消息称DeepSeek将Harness、Web、App、Platform团队整合成立“产品部”"
+        },
+        {
+          "url": "https://news.china.com/socialgd/10000169/20261016/49798675.html",
+          "outlet": "China.com",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek整合成立“产品部” 加速AGI创新步伐"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Timestamp from harvest first-seen. Confirmation by Cui as reported by The Paper; no DeepSeek official announcement seen.",
+      "score": {
+        "total": 60.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.72
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "micron-taichung-hbm-plant-sold-out-2027-strike-risk",
+      "title": "Micron opens second Taichung packaging plant, says 2027 HBM capacity sold out, as Taiwan strike risk looms",
+      "summary": "Micron opened its second Taiwan advanced packaging and test plant in Taichung on Oct 15; President and COO Manish Bhatia said all planned 2027 capacity is already sold. Taoyuan union members authorised a strike (99% of 1,994 votes) over pay; unions want 15% of operating profit while Micron offered up to 68 months of pay. Taiwan's President Lai urged good-faith talks, and the union plans an Oct 19 Taipei rally.",
+      "why_it_matters": "HBM supply for Nvidia-class accelerators is sold out through 2027, so a Taiwan walkout would threaten contracted AI memory deliveries.",
+      "key_numbers": [
+        "2027 HBM capacity sold out",
+        "99% of 1,994 voted to authorise strike",
+        "15% profit-share demand"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Micron"
+      ],
+      "tickers": [
+        "MU"
+      ],
+      "published_at": "2026-10-16T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-taiwan-plant-sold-2027-171749311.html",
+          "outlet": "Yahoo Finance (TIKR)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Micron's New Taiwan Plant Is Sold Out for 2027. Its Workers Want 15% of Profits"
+        },
+        {
+          "url": "https://www.techtimes.com/articles/329105/20261016/micron-opens-hbm-plant-2027-output-fully-contracted-strike-vote-looms.htm",
+          "outlet": "Tech Times",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Micron Opens HBM Plant With 2027 Output Fully Contracted; Strike Vote Looms"
+        },
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/07/micron039s-taoyuan-union-in-taiwan-secures-authorisation-to-strike",
+          "outlet": "The Star (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Micron's Taoyuan union in Taiwan secures authorisation to strike"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Not in tonight's harvest; published_at estimated from Oct 16 article date; plant opening was Oct 15; strike authorisation dates from Oct 7.",
+      "score": {
+        "total": 60.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.826
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "anthropic-claude-ecdsa-curve-origins",
+      "title": "Anthropic says Claude traced NIST ECDSA curve seeds to a 1990s C random generator in under 30 minutes",
+      "summary": "Anthropic reports Claude worked out that the seeds for NIST P-192, P-224, P-256, P-384 and P-521 were not hash outputs but lrand48 output seeded with a Unix timestamp (P-256: 1997-08-16 01:52:34). It recovered hidden state by brute force for four seeds and used LLL lattice reduction for the truncated-output prime-curve seeds, and explained six base points as coming from the FreeLIP generator; other base points and the B-163 seed remain unexplained. Anthropic says this is not a cryptographic break but makes a deliberate backdoor far less plausible, and will donate the $36,864 bounty to the Internet Security Research Group.",
+      "why_it_matters": "It speaks to a 25-year suspicion about the NIST curve seeds and is a concrete example of an AI model doing open-ended cryptographic archaeology.",
+      "key_numbers": [
+        "Under 30 minutes",
+        "5 NIST prime-curve seeds explained",
+        "P-256 timestamp 1997-08-16 01:52:34",
+        "$36,864 bounty donated to ISRG"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "NIST",
+        "Internet Security Research Group"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T18:55:59Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Claude reveals ECDSA curve origins"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.55,
+      "novelty": 0.9,
+      "follow_up_of": null,
+      "confidence_note": "Single primary source (fetched in full); 229 points on Hacker News. Timestamp is first-seen in harvest.",
+      "score": {
+        "total": 58.4,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.9,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.689
+        },
+        "coverage": 1,
+        "mentions": 4,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "kuaishou-kling-4-0-30-second-video-full-release",
+      "title": "Kuaishou rolls out Kling 4.0 to all users, with native 30-second video generation",
+      "original_title": "可灵4.0深夜上线，支持30秒一镜到底",
+      "summary": "Kuaishou's Kling AI moved Kling 4.0 to full release overnight on 15-16 Oct, after a Flash preview for top-tier subscribers in late September. A single generation can run up to 30 seconds, keyframe inputs rise from two to as many as 10, and continuations can reach about 2 minutes. Reports cite 4K and 10-bit HDR output, though some specs were earlier marked 'coming soon'. Early reviews were lukewarm and focused on pricing.",
+      "why_it_matters": "Longer coherent single-shot video narrows the gap with ByteDance's Seedance for professional users.",
+      "key_numbers": [
+        "30 s per generation",
+        "Up to 10 keyframes",
+        "About 2 min via continuation"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Kuaishou",
+        "Kling AI"
+      ],
+      "tickers": [
+        "1024.HK"
+      ],
+      "published_at": "2026-10-15T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://tech.ifeng.com/c/8xFKPeEZDFq",
+          "outlet": "Phoenix (ifeng)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "可灵4.0深夜上线，支持30秒一镜到底，熟悉的可灵回来了"
+        },
+        {
+          "url": "https://k.sina.cn/article_1826017320_6cd6d02804001xq3m.html",
+          "outlet": "Sina (via ITHome)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "快手可灵AI模型Kling 4.0全量上线，单次生成视频最长30秒"
+        },
+        {
+          "url": "https://finance.sina.cn/cj/2026-10-16/detail-inivkncw1473860.d.html",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "刚刚，可灵4.0深夜上线，支持30秒一镜到底，熟悉的可灵回来了。"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Timestamp ESTIMATED from 'late night 15 Oct, Beijing' reports (~6h before window; story kept developing). No official Kuaishou post seen; pricing and specs from third-party reviews.",
+      "score": {
+        "total": 57.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "anthropic-kbra-bb-plus-junk-rating-ft",
+      "title": "FT: Kroll rated Anthropic BB+ in June, top junk tier, ahead of $35B chip financing",
+      "summary": "The Financial Times reported that Kroll Bond Rating Agency assigned Anthropic a BB+ issuer rating with stable outlook in June 2026, one notch below investment grade, which only became public this week. KBRA reportedly used a risk score because Anthropic withheld metrics such as free cash flow. About $4.4B of junior debt in a $35B chip financing carries direct Anthropic credit exposure (reported ~8.5% yield) while Broadcom-guaranteed senior debt priced near 5.75%.",
+      "why_it_matters": "The first outside read on Anthropic's credit quality, showing how AI chip purchases are being debt-financed ahead of the IPO.",
+      "key_numbers": [
+        "BB+ (KBRA), stable outlook",
+        "$35B chip financing",
+        "$4.4B junior tranche ~8.5%",
+        "Senior debt ~5.75%"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Kroll Bond Rating Agency",
+        "Apollo"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T04:00:18Z",
+      "sources": [
+        {
+          "url": "https://dealroom.co/news/163182-anthropic-rated-junk-at-bb-as-it-chases-2t-ipo/",
+          "outlet": "Dealroom",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic rated junk at BB+ as it chases $2T IPO"
+        },
+        {
+          "url": "https://www.tradingview.com/news/seekingalpha:a61868fa0094b:0-anthropic-achieved-highest-junk-rating-in-june-on-track-to-hit-investment-grade-report/",
+          "outlet": "TradingView (Seeking Alpha)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic achieved highest junk rating in June, on track to hit investment grade: report"
+        },
+        {
+          "url": "https://cryptobriefing.com/anthropic-bb-plus-credit-rating-kbra/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic lands BB+ credit rating from KBRA, one notch below investment grade"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "FT article paywalled and not read; details from secondary summaries.",
+      "score": {
+        "total": 57.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.487,
+          "momentum": 0.689
+        },
+        "coverage": 4,
+        "mentions": 4,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "google-research-verid-autonomous-wet-labs",
+      "title": "Google Research details VERID framework for grounding AI agents in autonomous wet labs",
+      "summary": "Google Research describes building blocks for agent-run wet labs, including VERID, a semantic digital twin of the lab that agents use to inspect state, simulate and execute protocols on robots. It says frontier models still reason poorly about 3D geometry and physical state in liquid handling. In an aptamer campaign against alpha-thrombin, round 1 gave no hits and round 3 reached a 42.1% hit rate (131 of 311 tested), per a press write-up.",
+      "why_it_matters": "A concrete design for closed-loop AI-driven experimentation with a measurable improvement across design rounds.",
+      "key_numbers": [
+        "42.1% hit rate in round 3 (131/311)",
+        "0 hits in round 1",
+        "~1,000 candidates per round"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Google Research",
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-16T18:11:34Z",
+      "sources": [
+        {
+          "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+          "outlet": "Google Research",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
+        },
+        {
+          "url": "https://cryptobriefing.com/google-verid-ai-autonomous-wet-labs/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google explores biologically grounded AI for autonomous wet labs"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Google post could not be opened; numbers come from a search-result summary of a press write-up.",
+      "score": {
+        "total": 55.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "workbuddy-deepseek-outage-credit-refund-500-bonus",
+      "title": "Tencent's WorkBuddy refunds a week of DeepSeek credits and adds 500 bonus credits after outage",
+      "original_title": "WorkBuddy致歉DeepSeek异常：返还积分，全员赠500分",
+      "summary": "Tencent's WorkBuddy said DeepSeek models were unusable inside its app from 08:11 to 13:04 (Beijing time) on 15 Oct. Affected China-edition users get full refunds of credits spent on DeepSeek models between 8 and 14 Oct within 7 working days, and every China-edition user can claim 500 extra credits (valid one month) until 22 Oct. Some outlets also list CodeBuddy, but the original reports name only WorkBuddy.",
+      "why_it_matters": "Downstream platforms are now bearing and passing on the cost of DeepSeek reliability failures, showing how widely DeepSeek is embedded in Chinese agent tools.",
+      "key_numbers": [
+        "08:11-13:04 outage on 15 Oct",
+        "Credits refunded for 8-14 Oct usage",
+        "500 bonus credits per user",
+        "Claim by 22 Oct"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Tencent WorkBuddy",
+        "DeepSeek"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-10-16T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.21jingji.com/article/20261016/herald/11cd6b9e46e8ddb2c01a422504a28429.html",
+          "outlet": "21jingji",
+          "lang": "zh",
+          "tier": "press",
+          "title": "WorkBuddy，发布DeepSeek异常补偿方案"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xGe7bQOsVF",
+          "outlet": "Phoenix (ifeng)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "WorkBuddy致歉DeepSeek异常：返还积分，全员赠500分"
+        },
+        {
+          "url": "https://news.qq.com/rain/a/20261016A06STY00",
+          "outlet": "Tencent News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "WorkBuddy致歉DeepSeek异常：返还积分，全员赠500分"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "deepseek-5h-outage-apology-7day-api-refund",
+      "confidence_note": "Timestamp from harvest first-seen (06:00Z). Details from search snippets, not the official notice.",
+      "score": {
+        "total": 54.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "spacex-nyc-council-ai-safety-hearing",
+      "title": "SpaceX's AI unit testifies to NYC Council technology committee after subpoena",
+      "summary": "SpaceXAI committed to testify Oct 16 before the Council's Committee on Technology after skipping the Oct 5 hearing, where Anthropic, OpenAI, Google and Meta appeared. The Council issued a subpoena Sept 28 and had warned it would seek court enforcement before SpaceX agreed. The inquiry asks whether AI risks to safety, cybersecurity, economic stability and privacy warrant immediate legislation.",
+      "why_it_matters": "A city legislature compelled a Musk-controlled AI developer to appear, showing local governments becoming a venue for frontier-AI oversight.",
+      "key_numbers": [
+        "Hearing Oct 16, 10 a.m.",
+        "Subpoena issued Sept 28"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "New York City Council"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T15:33:11Z",
+      "sources": [
+        {
+          "url": "https://council.nyc.gov/press/?p=3295",
+          "outlet": "NYC Council",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NYC Council press release on SpaceXAI testimony"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/elon-musks-spacex-finally-agrees-testify-after-nyc-council-brands-their-absence-unacceptable-1825337",
+          "outlet": "IBTimes UK",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elon Musk's SpaceX Finally Agrees To Testify After NYC Council Brands Their Absence 'Unacceptable'"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Content of the testimony not seen; ABC7 New York and teleSUR report it occurred. Ticker omitted.",
+      "score": {
+        "total": 52.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.78,
+          "breadth": 0.487,
+          "momentum": 0.583
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "doubao-phone-banks-icbc-cmb-refuse-automation-155-apps",
+      "title": "ICBC, CMB and other banks refuse Doubao phone assistant; bankers see no full opening of cross-app automation",
+      "original_title": "工行招行等拒绝授权豆包手机助手，风控成核心顾虑",
+      "summary": "After the 30-day SAEP notice period ended, the Doubao phone assistant's refusal list covers 150-plus apps (151 at last count), including ICBC, China Merchants Bank and a Chongqing rural bank. Bank sources cite misrecognition, hijacking by fraud rings, privacy leaks and unclear liability for simulated-click transactions. SAEP offers identity checks, page whitelists and full operation logs, yet many financial institutions still opted out.",
+      "why_it_matters": "Finance apps staying closed shows the main barrier to agentic phones is liability and risk control, not model capability.",
+      "key_numbers": [
+        "151 apps on the list on 14 Oct",
+        "30-day notice period"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance Doubao",
+        "ICBC",
+        "China Merchants Bank"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T22:08:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261015/herald/64696e26d37d0a47d37a3f4d4593994d.html",
+          "outlet": "21jingji",
+          "lang": "zh",
+          "tier": "press",
+          "title": "工行招行等银行拒绝授权豆包手机助手，顾虑何在？"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261015/c680748077.shtml",
+          "outlet": "10jqka",
+          "lang": "zh",
+          "tier": "press",
+          "title": "工行招行等拒绝授权豆包手机助手，风控成核心顾虑，银行人士称行业大概率不会全面放开跨App自动化操作"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610153897134969.html",
+          "outlet": "Eastmoney",
+          "lang": "zh",
+          "tier": "press",
+          "title": "工行招行等拒绝授权豆包手机助手，风控成核心顾虑，银行人士称行业大概率不会全面放开跨App自动化操作"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.35,
+      "follow_up_of": "doubao-phone-saep-151-apps-refuse-screen-automation",
+      "confidence_note": "Timestamp from harvest first-seen. Counts differ across outlets (151 vs a later 155).",
+      "score": {
+        "total": 52.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.35,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "miit-ai-industrialization-1000-scenario-map-jinan-ai-conference",
+      "title": "MIIT unveils 1,000+ scenario 'AI for industrialization' map as Jinan AI industry conference opens",
+      "original_title": "覆盖1000余个场景 工信部发布人工智能“产业导航图”",
+      "summary": "At the 2026 AI Industry Conference in Jinan, MIIT published a high-value-scenario library covering 20 sub-sectors such as petrochemicals, steel, autos and consumer electronics, with over 1,000 scenarios. Vice minister Yu Xiaohui said China's core AI industry exceeds 1.2 trillion yuan with 6,600-plus AI firms, that a 60 billion yuan national AI industry fund exists, and that a 2026 national AI standards-system guideline is coming. CAICT noted nearly half of 'AI+' scenarios are still pilots.",
+      "why_it_matters": "Beijing is steering AI spend toward manufacturing and standardisation, with scale-up of pilots the stated bottleneck.",
+      "key_numbers": [
+        "1,000+ scenarios across 20 sub-sectors",
+        "Core AI industry above 1.2 trillion yuan",
+        "6,600+ AI firms",
+        "60 billion yuan national AI fund"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "MIIT",
+        "CAICT"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T07:47:00Z",
+      "sources": [
+        {
+          "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715252.shtml",
+          "outlet": "China News Service",
+          "lang": "zh",
+          "tier": "press",
+          "title": "覆盖1000余个场景 工信部发布人工智能“产业导航图”"
+        },
+        {
+          "url": "https://news.cnr.cn/native/gd/20261016/t20261016_527843320.shtml",
+          "outlet": "CNR",
+          "lang": "zh",
+          "tier": "press",
+          "title": "工信部：推动“人工智能+制造”赋能新型工业化"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15194842.html",
+          "outlet": "Jiemian",
+          "lang": "zh",
+          "tier": "press",
+          "title": "2026人工智能产业大会在济南开幕"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Conference opened 15 Oct; timestamp from harvest first-seen of MIIT remarks on 16 Oct. Figures from search snippets.",
+      "score": {
+        "total": 52.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "minimax-a-share-ipo-tutoring-second-progress-report",
+      "title": "MiniMax files second STAR Market IPO tutoring report, says acceptance prep next",
+      "original_title": "MiniMax更新IPO辅导备案进展",
+      "summary": "CITIC Securities' second tutoring progress report on MiniMax covers 10 Jul to 13 Oct 2026. Intermediaries completed due diligence and training and are now preparing for tutoring acceptance; the report notes governance structures exist but execution has room to improve. Tutoring was filed on 29 May for a STAR Market listing and must run at least six months, so a formal application cannot come before it ends; issue size, price and timetable remain undecided.",
+      "why_it_matters": "It places MiniMax's A+H dual-listing plan in its second half, with a STAR filing unlikely before late 2026.",
+      "key_numbers": [
+        "Tutoring period 10 Jul-13 Oct",
+        "Filed 29 May",
+        "At least 6 months of tutoring"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "CITIC Securities"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-10-16T04:40:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261016/herald/4329183dbc3bfd4314d4b7309ecd26d1.html",
+          "outlet": "21jingji",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MiniMax更新IPO辅导备案进展"
+        },
+        {
+          "url": "https://k.sina.cn/article_5953190046_162d6789e06703uk24.html",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MiniMax更新A股IPO进展"
+        },
+        {
+          "url": "https://www.fx168news.com/article/1103844",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "press",
+          "title": "回A最新动态！MiniMax辅导或将进入验收准备"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Timestamp from harvest first-seen. CSRC filing itself not opened.",
+      "score": {
+        "total": 51.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.583
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "dni-clayton-openai-bugging-national-security",
+      "title": "DNI Clayton cites OpenAI bugging case as proof the AI race is a national-security matter",
+      "summary": "Director of National Intelligence Jay Clayton said the case of a Saudi OpenAI engineer charged with planting a recording device in an executive conference room underscores that winning the global 'super intelligence' race is a national-security prerogative. DOJ alleges Abdulrahman Alfozan hid a USB device in a TV; DOJ did not accuse him or Saudi Arabia of espionage and no motive is public. FBI Director Patel called protecting US AI innovation a top counterintelligence priority; a federal hearing is expected Oct 19.",
+      "why_it_matters": "US intelligence leadership is publicly framing frontier-lab security as counterintelligence, which may harden vetting and foreign-staff rules at AI labs.",
+      "key_numbers": [
+        "Up to 5 years prison, $250,000 fine",
+        "Arrested Oct 9",
+        "Hearing expected Oct 19"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Jay Clayton",
+        "FBI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T13:55:56Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton"
+        },
+        {
+          "url": "https://www.coloradopolitics.com/2026/10/14/fbi-arrests-saudi-openai-employee-accused-of-bugging-office/",
+          "outlet": "Colorado Politics",
+          "lang": "en",
+          "tier": "press",
+          "title": "FBI arrests Saudi OpenAI employee accused of bugging office"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "openai-engineer-alfozan-arrested-recording-device",
+      "confidence_note": "CNBC article seen as harvest headline only; Clayton quote verified via other outlets. Allegations unproven.",
+      "score": {
+        "total": 49.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.599
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "guangdong-195-registered-llms-23x-in-three-years",
+      "title": "Guangdong has 195 registered generative-AI services, up 23-fold in three years",
+      "original_title": "三年增长23倍！广东已备案195款大模型，位居全国前列",
+      "summary": "A 2026 Guangdong filed-LLM observation report released 16 Oct says registrations rose from 8 in 2023 to 195 by September 2026, roughly one-fifth of the national total. About 90% target specific industries; Guangzhou and Shenzhen account for over 90% and about 80% of filers are SMEs. Another 51 are said to be applying to the CAC.",
+      "why_it_matters": "It quantifies how licensing is scaling across China's AI sector, concentrated in two Pearl River Delta cities.",
+      "key_numbers": [
+        "195 filings (8 in 2023)",
+        "~20% of national total",
+        "51 pending"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Guangdong Provincial Cyberspace Administration"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T08:33:00Z",
+      "sources": [
+        {
+          "url": "http://news.10jqka.com.cn/20261016/c680769548.shtml",
+          "outlet": "10jqka",
+          "lang": "zh",
+          "tier": "press",
+          "title": "三年增长23倍！一图看懂广东备案大模型“加速度”"
+        },
+        {
+          "url": "https://news.southcn.com/node_d75048eff3/5fa4dc6b9e.shtml",
+          "outlet": "Southcn",
+          "lang": "zh",
+          "tier": "press",
+          "title": "广东已备案195款大模型，位居全国前列"
+        },
+        {
+          "url": "https://www.sznews.com/news/content/2026-10/16/content_32193911.htm",
+          "outlet": "Shenzhen News Network",
+          "lang": "zh",
+          "tier": "press",
+          "title": "195款备案大模型，藏着广东“AI生态雨林密码”"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Timestamp from harvest first-seen. The 195 count dates from a 24 Sep provincial notice; report compiled by a Greater Bay Area lab and industry association.",
+      "score": {
+        "total": 48.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "memory-chip-rout-goldman-buy-samsung-hynix",
+      "title": "Memory stocks have shed over $700B since Oct 10; Goldman flags Samsung and SK hynix as buys",
+      "summary": "Goldman Sachs counts Samsung, SK hynix, Micron, SanDisk, Kioxia and CXMT as down 11% to 26% since Oct 10, wiping well over $700B from the sector, and named Samsung and SK hynix as buys. On Oct 15 Samsung fell 10.67% and SK hynix 10.36% while the KOSPI dropped 7.53%, with reports citing a hot US CPI print and possible HBM4 back-end equipment slippage. SK hynix says there is no evidence of mass-production problems.",
+      "why_it_matters": "The memory supercycle trade has broken sharply on funding and execution worries, setting up SK hynix's late-October earnings as a test.",
+      "key_numbers": [
+        "$700B+ market value lost",
+        "-11% to -26% since Oct 10",
+        "Samsung -10.67%, SK hynix -10.36% (Oct 15)",
+        "KOSPI -7.53%"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "SK hynix",
+        "Samsung Electronics",
+        "Micron",
+        "Goldman Sachs"
+      ],
+      "tickers": [
+        "000660.KS",
+        "005930.KS"
+      ],
+      "published_at": "2026-10-16T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/goldman-flags-2-memory-stocks-to-buy-amid-deeper-sector-pullback-4953952",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Goldman flags 2 memory stocks to buy amid deeper sector pullback"
+        },
+        {
+          "url": "https://tradingkey.com/analysis/stocks/us-stocks/262217561-kospi-skhy-skhynix-dram-hbm-tradingkey",
+          "outlet": "TradingKey",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SK Hynix Slumps Over 11% as HBM4 Equipment Delays, ChangXin DRAM Progress Spark Market Concerns"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": "global-tech-rout-nvidia-sk-hynix-softbank-ai-funding-worries",
+      "confidence_note": "Figures from search-result summaries, not opened articles; published_at estimated. The Oct 15 rout was covered earlier; new are Goldman's tally and buy call.",
+      "score": {
+        "total": 48.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.503
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "google-wood-haven-roanoke-county-data-center",
+      "title": "Google confirmed as parent of Wood Haven data center project in Roanoke County, Virginia",
+      "summary": "The Western Virginia Regional Industrial Facility Authority confirmed Google as corporate parent of Clearview Dynamics, buyer of 94 acres at Wood Haven Technology Park, about 14 miles from Google's Botetourt campus. Google due diligence runs through March 2027 and the site would draw from Spring Hollow Reservoir. The authority recently withdrew from its NDA with Clearview amid FOIA requests from local opponents.",
+      "why_it_matters": "Another hyperscaler site emerges from NDA secrecy under local pressure, a recurring friction point for US data center buildout.",
+      "key_numbers": [
+        "94 acres",
+        "Due diligence through March 2027"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Clearview Dynamics"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-16T13:45:40Z",
+      "sources": [
+        {
+          "url": "https://cardinalnews.org/2026/10/16/google-confirmed-as-parent-company-for-a-data-center-project-in-roanoke-county/",
+          "outlet": "Cardinal News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google confirmed as parent company for a data center project in Roanoke County"
+        },
+        {
+          "url": "https://virginiabusiness.com/google-data-center-roanoke-county-wood-haven/",
+          "outlet": "Virginia Business",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google revealed as company considering Roanoke County site for data center"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Search snippets only; no investment figure or power capacity disclosed.",
+      "score": {
+        "total": 46.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.753
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "goodfire-neural-networks-are-clean",
+      "title": "Goodfire publishes 'Neural networks are clean' interpretability essay, tops Hacker News",
+      "summary": "Interpretability company Goodfire posted 'Neural networks are clean', which reached 792 points and 316 comments on Hacker News. The page content could not be retrieved, so its specific claims are not summarised.",
+      "why_it_matters": "Goodfire is a leading mechanistic-interpretability startup, and the strong community response suggests a notable argument.",
+      "key_numbers": [
+        "HN 792 points / 316 comments"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Goodfire"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T16:04:07Z",
+      "sources": [
+        {
+          "url": "https://already-clean.goodfire.com/",
+          "outlet": "Goodfire",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Neural networks are clean"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only: content not retrieved, no independent coverage. Timestamp is HN first-seen (~5.7h before window start).",
+      "score": {
+        "total": 42.9,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.5,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "mercor-labor-index-benchmark-map",
+      "title": "Mercor labor index: about 90% of US working hours are tasks poorly covered by AI benchmarks",
+      "summary": "Mercor published a Labor Index 'benchmark map' arguing roughly 90% of US working hours are spent on tasks not covered well by existing AI benchmarks. It reached 250 points on Hacker News. Methodology was not retrievable.",
+      "why_it_matters": "It frames a gap between benchmark progress and real economic work.",
+      "key_numbers": [
+        "~90% of US working hours poorly covered"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Mercor"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T17:08:38Z",
+      "sources": [
+        {
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+          "outlet": "Mercor",
+          "lang": "en",
+          "tier": "primary",
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only from title; page not opened.",
+      "score": {
+        "total": 42.9,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.5,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 23
+    },
+    {
+      "id": "moonshot-17-year-old-researcher-chen-guangyu-leaves",
+      "title": "17-year-old Attention Residuals co-author Chen Guangyu leaves Moonshot AI",
+      "original_title": "17岁天才少年官宣离职月之暗面：论文曾获马斯克点赞",
+      "summary": "Chen Guangyu, a 17-year-old Shenzhen researcher who joined Moonshot AI (Kimi) in November 2025 at 16, announced he is leaving. He was a co-first author of Moonshot's Attention Residuals paper, which drew praise from Elon Musk. He did not say why; reports say he is heading to the US Bay Area. DoNews says Anthropic hired him, while Phoenix reports he denied joining Anthropic, so his destination is unconfirmed.",
+      "why_it_matters": "A small but visible talent-flow signal as US and Chinese labs compete for young researchers.",
+      "key_numbers": [
+        "Age 17",
+        "Joined Nov 2025"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Moonshot AI",
+        "Chen Guangyu"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T08:43:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/discovery/2026-10-16/doc-inivmiif7672477.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "17岁天才少年官宣离职月之暗面：论文曾获马斯克点赞"
+        },
+        {
+          "url": "https://i.ifeng.com/c/8xGw38vaiaQ",
+          "outlet": "Phoenix (ifeng)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "17岁天才少年官宣离职月之暗面：论文曾获马斯克点赞"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1158/1158115.htm",
+          "outlet": "MyDrivers",
+          "lang": "zh",
+          "tier": "press",
+          "title": "17岁天才少年官宣离职月之暗面：论文曾获马斯克点赞"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Timestamp from harvest first-seen. Next employer conflicts across outlets; his own announcement not seen.",
+      "score": {
+        "total": 42.4,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.541
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 24
+    },
+    {
+      "id": "openai-gpt-rosalind-academic-plan",
+      "title": "OpenAI brings GPT-Rosalind life-sciences model to academic research labs with new academic plan",
+      "summary": "OpenAI published 'Bringing GPT-Rosalind to academic research labs', introducing a Rosalind academic plan. GPT-Rosalind launched in April 2026 as a trusted-access research preview for qualified users. Eligibility, pricing and credit details of the academic plan were not retrievable.",
+      "why_it_matters": "It widens access to a gated life-sciences model beyond industry partners to university labs.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-15T19:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Bringing GPT-Rosalind to academic research labs"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only: OpenAI page could not be opened; plan terms unknown. Published ~2.8h before window start.",
+      "score": {
+        "total": 42.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.599
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 25
+    },
+    {
+      "id": "ibm-granite-switch-4-1",
+      "title": "IBM releases Granite Switch 4.1 to serve chat, decisions and speech from one endpoint",
+      "summary": "IBM published 'Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint' on the Hugging Face blog, building on the Granite 4.1 family. Technical details of the Switch mechanism were not retrievable.",
+      "why_it_matters": "Consolidating chat, decision and speech models behind one endpoint targets simpler enterprise deployment of small open models.",
+      "key_numbers": [],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "IBM"
+      ],
+      "tickers": [
+        "IBM"
+      ],
+      "published_at": "2026-10-15T20:34:01Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+          "outlet": "Hugging Face Blog (IBM Granite)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only (title); no coverage found.",
+      "score": {
+        "total": 40.9,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 26
+    },
+    {
+      "id": "postgres-19-delayed-ai-reviewers",
+      "title": "Postgres 19 delayed as AI reviewers reportedly find more bugs than humans can fix",
+      "summary": "The Register reports PostgreSQL 19 is delayed after AI-assisted review turned up more bugs than maintainers can fix. A Snowflake engineering post says the release will slip by weeks or months and that some features were reverted over bugs; mailing-list threads treated AI's role as an open question.",
+      "why_it_matters": "An early example of AI code review changing the schedule of a major open-source project.",
+      "key_numbers": [
+        "Delay of weeks to months (Snowflake post)"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "PostgreSQL"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-16T15:55:40Z",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+          "outlet": "The Register",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Register article not opened (headline only); AI-reviewer cause not independently confirmed.",
+      "score": {
+        "total": 35.9,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.5,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 27
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-28",
+      "title": "SK hynix Q3 2026 results (Seoul date per 6-K)",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002120882/000119312526420934/d413172d6k.htm"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Intel Q3 2026 results after close, call 2 p.m. PDT",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Meta Q3 earnings (calendar sites; not formally confirmed)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://days.to/meta-earnings"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Microsoft and Alphabet Q3 earnings (single investing article, not company-confirmed)",
+      "kind": "earnings",
+      "confidence": "rumored",
+      "url": "https://www.rankia.cl/blog/analisis-ipsa/7486928-3-acciones-para-invertir-octubre-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Public-comment deadline on China's draft export-control catalogue additions (40 technologies)",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html"
+    },
+    {
+      "date": "2026-11",
+      "title": "Anthropic IPO targeted for November (exact date unset)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-investors-now-see-1-122407498.html"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Gemini 4 Argon $2/$10 per million-token introductory pricing ends",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://computingforgeeks.com/gemini-4-argon-released-features-benchmarks/"
+    }
+  ],
+  "notes": "Harvest (20:02Z) covers most of the window; its last ~1.8h and anything later come only from WebSearch. Search was weak on same-day items and many pages (HF, AWS, Google, OpenAI, FT, Bloomberg) could not be opened, so several facts rest on search snippets (see confidence_note). Not included: CERN+Mistral Flare and Cook/Apple-Qwen (before the window), AWS+Anthropic engineers (CNBC headline only, 7.6h before window)."
+}
