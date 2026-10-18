@@ -1,0 +1,784 @@
+{
+  "date": "2026-10-18",
+  "window": {
+    "start": "2026-10-17T21:49:00Z",
+    "end": "2026-10-18T21:48:00Z"
+  },
+  "tldr": [
+    "Anthropic will commit 5% of its shares (about 20% counting earlier pledges) to a new public benefit fund, subject to stockholder approval, weeks before its expected IPO.",
+    "Microsoft has reportedly pulled out of Nscale's Loughton, UK data centre because grid power isn't expected until the 2030s, and Samsung will reportedly use TSMC 3nm base dies for Nvidia's custom HBM.",
+    "China's AI-compute chain is under pressure: the chairmen of Hygon (500-800M yuan), Sugon (300-500M yuan) and Shengyi (200-300M yuan) proposed buybacks, with Sugon about 40% off its high."
+  ],
+  "items": [
+    {
+      "id": "anthropic-5pct-public-benefit-fund",
+      "title": "Anthropic to commit 5% of its shares to new public benefit fund ahead of IPO, pending stockholder approval",
+      "summary": "Anthropic announced it will set aside 5% of its shares for a new public benefit fund structured as a wholly owned LLC, subject to stockholder approval. The stake could grow by an extra 2% at the board's discretion for each 50% rise in company value above an undisclosed baseline. Reuters reports that, counting earlier pledges, roughly 20% of shares would be dedicated to public-purpose uses; Bloomberg frames the fund as a vehicle for donations including mitigating AI's labour-market effects. Anthropic has not named recipients or said how stock would be converted to cash.",
+      "why_it_matters": "An unusually large equity pledge by an AI lab weeks before an expected IPO could shape governance, dilution and public scrutiny of the listing.",
+      "key_numbers": [
+        "5% of shares",
+        "+2% per 50% value rise above baseline",
+        "~20% of shares for public good incl. earlier pledges"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T18:03:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Investing in the public benefit"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-to-commit-5-stake-to-new-public-benefit-fund-4956031",
+          "outlet": "Reuters via Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic to commit 5% stake to new public benefit fund"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Plans to Shift Some Shares Into New 'Public Good' Fund"
+        }
+      ],
+      "coverage": 13,
+      "impact": 0.8,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Anthropic's page was seen only as a search-result listing (title/URL), not opened. Details come from Reuters/Bloomberg search summaries.",
+      "score": {
+        "total": 81.2,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.8,
+          "credibility": 0.879,
+          "breadth": 0.885,
+          "momentum": 0.632
+        },
+        "coverage": 13,
+        "mentions": 4,
+        "baseline": 3.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "microsoft-exits-nscale-loughton-data-centre",
+      "title": "Microsoft pulls out of Nscale's Loughton UK data centre deal, Telegraph reports; grid power not expected until 2030s",
+      "summary": "The Telegraph reported, and Reuters and Bloomberg relayed, that Microsoft has withdrawn from its planned anchor-tenant deal for Nscale's data centre in Loughton, Essex. Grid officials had reportedly told Nscale not to expect power until the 2030s. Nscale said its Microsoft relationship 'remains strong' and that it is exploring alternative power for the site. Microsoft declined to comment. Nscale's IPO filing reportedly shows Microsoft and Anthropic make up about 85% of its contracts, and it is seeking up to $3B in a US listing as soon as this month.",
+      "why_it_matters": "A concrete case of grid constraints killing a hyperscale deal, hitting a neocloud just ahead of its IPO.",
+      "key_numbers": [
+        "Grid power not expected until 2030s",
+        "Microsoft + Anthropic ~85% of Nscale contracts",
+        "IPO raise up to $3B"
+      ],
+      "topic": "compute",
+      "region": "eu",
+      "entities": [
+        "Nscale",
+        "Microsoft"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-10-18T08:31:00Z",
+      "sources": [
+        {
+          "url": "https://money.usnews.com/investing/news/articles/2026-10-18/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports",
+          "outlet": "Reuters via US News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Microsoft Pulls Out of UK Data Center Deal With Nscale, Telegraph Reports"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-scraps-uk-data-center-083110363.html",
+          "outlet": "Bloomberg via Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
+        },
+        {
+          "url": "https://thenextweb.com/news/microsoft-pulls-out-nscale-loughton-data-centre-ipo",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft reportedly quits Nscale's UK data centre weeks before its IPO"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Based on search-result summaries; articles not opened. Reuters copies say Microsoft 'terminated' the agreement, Bloomberg-derived ones say it pulled out, so legal status is unclear. The original Telegraph report was not seen directly.",
+      "score": {
+        "total": 66.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "china-ai-compute-chain-chairmen-propose-buybacks-hygon-sugon",
+      "title": "Hygon, Sugon, Montage and Shengyi chairmen propose share buybacks as China AI-compute stocks slide",
+      "original_title": "科技股密集回购来袭！生益科技、海光信息、中科曙光、澜起科技出手",
+      "summary": "Chinese media report that chairmen of four AI-compute and hardware names proposed buybacks in after-close announcements, with Sugon's chairman proposing 300-500M yuan and Hygon's proposing 500-800M yuan, both for employee stock plans. Shengyi Technology's chairman reportedly proposed 200-300M yuan. Sugon's shares were reported to be down nearly 40% from this year's high. CXMT's chairman had separately proposed a 1-2B yuan buyback on Oct 16.",
+      "why_it_matters": "Insiders backing prices signals the AI-compute sell-off is hitting China's domestic chip and server chain, not just US names.",
+      "key_numbers": [
+        "Sugon: 300-500M yuan proposed",
+        "Hygon: 500-800M yuan proposed",
+        "Shengyi: 200-300M yuan proposed",
+        "Sugon ~40% below year high"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Hygon Information",
+        "Sugon",
+        "Montage Technology",
+        "Shengyi Technology"
+      ],
+      "tickers": [
+        "688041.SS",
+        "603019.SS",
+        "688008.SS",
+        "600183.SS"
+      ],
+      "published_at": "2026-10-18T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261018/herald/3713e3633392941bc780e6dad9376bc6.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "市值千亿元算力龙头中科曙光，董事长提议3亿至5亿元回购股份，股价已从年内高点回撤近四成"
+        },
+        {
+          "url": "https://www.stcn.com/article/detail/4224198.html",
+          "outlet": "证券时报",
+          "lang": "zh",
+          "tier": "press",
+          "title": "利好！A股科技巨头，密集出手回购！603019，最高5亿元"
+        },
+        {
+          "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-18/doc-inivrvpm7809888.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "周末利好！A股公司，密集回购！"
+        },
+        {
+          "url": "https://m.cls.cn/detail/2507628",
+          "outlet": "财联社",
+          "lang": "zh",
+          "tier": "press",
+          "title": "科技股密集回购来袭！生益科技、海光信息、中科曙光、澜起科技出手"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Amounts come from search-result summaries, not full articles. Montage's amount was not seen. These are chairman proposals, not approved plans. published_at is approximate.",
+      "score": {
+        "total": 59.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "samsung-tsmc-3nm-base-die-nvidia-custom-hbm",
+      "title": "Samsung to use TSMC 3nm for base dies in Nvidia's next-gen custom HBM, Seoul Economic Daily reports",
+      "summary": "Per Seoul Economic Daily via Reuters, Samsung will make base dies for Nvidia's next-generation custom HBM on TSMC's 3nm process, reportedly the first time Samsung has worked with TSMC at the HBM manufacturing stage. Nvidia reportedly asked Samsung, SK hynix and Micron to use TSMC's process for base dies and sixth-generation DRAM for the core dies. Samsung reportedly accepted but will keep in-house base dies for standard HBM and other customers' custom parts, and is weighing its own foundry as overflow if TSMC capacity is short.",
+      "why_it_matters": "Signals TSMC's growing grip on the HBM stack and a pragmatic Samsung-Nvidia accommodation in memory.",
+      "key_numbers": [
+        "TSMC 3nm base die",
+        "6th-gen DRAM core dies"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Samsung Electronics",
+        "TSMC",
+        "Nvidia"
+      ],
+      "tickers": [
+        "005930.KS",
+        "2330.TW",
+        "NVDA"
+      ],
+      "published_at": "2026-10-18T11:48:00Z",
+      "sources": [
+        {
+          "url": "https://www.933thedrive.com/2026/10/18/samsung-to-use-tsmc-technology-for-nvidias-next-generation-memory-chips-seoul-newspaper-reports/",
+          "outlet": "Reuters via 933thedrive.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports"
+        },
+        {
+          "url": "https://www.business-standard.com/technology/tech-news/samsung-to-tap-tsmc-technology-for-nvidia-s-custom-memory-chips-report-126101800775_1.html",
+          "outlet": "Business Standard",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung to tap TSMC technology for Nvidia's custom memory chips: Report"
+        },
+        {
+          "url": "https://www.thenews.com.pk/latest/1420410-samsung-to-use-tsmcs-3nm-process-for-nvidias-next-gen-ai-memory-chips",
+          "outlet": "The News International",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung to use TSMC's 3nm process for Nvidia's next-gen AI memory chips"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Press report of a Seoul newspaper relayed by Reuters; no company confirmation. Details seen only in search-result summaries. TrendForce (Oct 9) had already said Samsung and Micron may use TSMC base dies.",
+      "score": {
+        "total": 58.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.471
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "anthropic-employment-report-juniors-agents-hours",
+      "title": "Anthropic report: junior share of technical staff fell from 21% to 14%; agents now outwork humans",
+      "summary": "Anthropic's economics team published a study of its own workforce. Junior employees fell from 21% to 14% of technical staff, and juniors' share of technical hires fell from 27% to 9%. By March 2026 combined agent work hours passed human hours, and by August interactive agents logged about six times their handlers' hours. Commits per engineer were about 5x their level six months earlier, with no difference in later reverts among 192 adopters vs 74 non-adopters.",
+      "why_it_matters": "A rare first-party dataset on how agentic coding reshapes a frontier lab's hiring and output, with human attention (about 80% of interactive session time spent waiting on people) as the main constraint.",
+      "key_numbers": [
+        "Junior share of technical staff 21% to 14%",
+        "Junior share of technical hires 27% to 9%",
+        "Interactive agent hours ~6x human hours (Aug)",
+        "Commits per engineer ~5x in six months",
+        "Median meeting time +20% YoY"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-17T20:21:19Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/employment-at-anthropic",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "How employment is changing at Anthropic"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic says its workforce has become less junior and is spending more time in meetings"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Numbers from the Anthropic page, which the desk fetched and read. The page may be dated Oct 16; TechCrunch (Oct 17 20:21Z, ~1.5h before the window) and the HN surge on Oct 18 put it in range. TechCrunch seen only as a harvest headline. The report notes adoption was not random, so productivity estimates may be biased.",
+      "score": {
+        "total": 57.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.78,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 4,
+        "baseline": 3.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "deepseek-search-fetch-billing-rules-rate-limits",
+      "title": "DeepSeek details Search/Fetch API billing: 5 yuan per 1,000 successful calls, 5 requests/s cap",
+      "original_title": "DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元",
+      "summary": "DeepSeek's API docs now carry a guide for web search and fetch, priced at 5 yuan (about $0.75) per 1,000 successful requests. Chinese outlets report a call is billed only if Search returns non-empty results or Fetch returns body text with HTTP 200, so failures and timeouts are free. Each account is limited to 5 queries per second per endpoint. Server-side tool calls from DeepSeek Harness, Claude Code or Codex are reportedly free until Beijing time Nov 1 00:00. The docs page drew 471 points on Hacker News.",
+      "why_it_matters": "DeepSeek is moving from models into the agent tool stack, pricing search for coding agents including rival tools.",
+      "key_numbers": [
+        "5 yuan (~$0.75) per 1,000 successful requests",
+        "5 QPS per endpoint",
+        "Billing from Nov 1 00:00 Beijing"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T03:59:00Z",
+      "sources": [
+        {
+          "url": "https://api-docs.deepseek.com/guides/search/",
+          "outlet": "DeepSeek API Docs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "DeepSeek search and fetch"
+        },
+        {
+          "url": "https://www.ithome.com/1/014/587.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261018/herald/019ade3a3bf07d18065b907a3340bf67.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "Deepseek公布API网页搜索与抓取费用"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34271084",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "deepseek-search-fetch-api-charges-from-nov-1",
+      "confidence_note": "Billing conditions and rate limit come from search summaries of the docs and press; the docs page itself was not opened. Media differ slightly on the free-period wording. Largely a follow-up to the Oct 17 charges story.",
+      "score": {
+        "total": 53.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.879,
+          "breadth": 0.632,
+          "momentum": 0.607
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 1.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "anthropic-safety-bill-50-deaths-1b-threshold",
+      "title": "Anthropic's proposed federal AI safety bill reportedly only triggers at 50 deaths or $1B in damage",
+      "summary": "Tom's Hardware, PC Gamer, Mother Jones and others highlight that the federal frontier-AI safety bill Anthropic pitched to Congress would reportedly give government power to act only at a threshold of 50 deaths or $1 billion in damages. Tom's Hardware's headline says this would effectively make the Commerce Department the only agency able to stop a model. The desk found the same 50-deaths/$1B line in California's SB 53, which Anthropic backed.",
+      "why_it_matters": "Critics read the draft's trigger as too late to be preventive, shaping the congressional debate over federal AI preemption.",
+      "key_numbers": [
+        "50 deaths",
+        "$1B damages"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "US Commerce Department"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T11:25:00Z",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-draft-federal-frontier-ai-safety-bill",
+      "confidence_note": "Headline and harvest snippet only (Tom's Hardware, PC Gamer, Mother Jones, PYMNTS clustered); article text not opened and the Commerce framing is unconfirmed. Single citable URL.",
+      "score": {
+        "total": 48.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 4,
+        "baseline": 3.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "anthropic-lawyers-agent-negotiation-norms-ft",
+      "title": "Anthropic consults lawyers on negotiation norms for AI agents that bargain with other agents, FT reports",
+      "summary": "The FT reports Anthropic is consulting law firms on negotiation tactics as it builds agents that haggle over prices, resolve complaints and make contract offers against counterparties' AI agents. It is studying how human lawyers negotiate for clients and how much latitude agents should have, including when to seek guidance. Secondary summaries cite its internal Project Deal test, where 69 employees' Claude agents closed 186 deals worth just over $4,000 without human approval.",
+      "why_it_matters": "Agent-to-agent commerce raises liability and fairness questions that will land in contract law and regulation.",
+      "key_numbers": [
+        "69 employees' agents",
+        "186 deals",
+        "~$4,000 total (Project Deal, per secondary summaries)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.threads.com/@financialtimes/post/Den1sPPDvH3/anthropic-turns-to-lawyers-to-help-ai-agents-strike-deals/",
+          "outlet": "Financial Times (Threads)",
+          "lang": "en",
+          "tier": "social",
+          "title": "Anthropic turns to lawyers to help AI agents strike deals"
+        },
+        {
+          "url": "https://www.newsbytesapp.com/news/science/anthropic-explores-letting-ai-agents-negotiate-deals-on-users-behalf/story",
+          "outlet": "NewsBytes",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic wants to teach AI to negotiate like humans"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "FT article not opened; relies on FT's own social post plus a secondary summary. Project Deal figures come from a secondary summary, and the experiment itself dates to April; the lawyer-consultation angle is the new part.",
+      "score": {
+        "total": 44.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.505,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 4,
+        "baseline": 3.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "nvidia-rtx-spark-windows-pcs-arrive",
+      "title": "Nvidia says first RTX Spark Windows laptops are arriving, with a Grace CPU and Blackwell GPU",
+      "summary": "Nvidia's blog marked the arrival of the first RTX Spark Windows PCs. RTX Spark was unveiled May 31 at GTC Taipei and pairs a 20-core Grace Arm CPU (co-designed with MediaTek) with a Blackwell GPU of 6,144 CUDA cores and up to 128GB unified memory. Nvidia claims it can run models up to 120B parameters locally. Partners include ASUS, Dell, HP, Lenovo, Surface and MSI.",
+      "why_it_matters": "Nvidia's entry into Windows PC silicon targets local AI and agent workloads and competes with Intel and AMD.",
+      "key_numbers": [
+        "20-core Grace CPU",
+        "6,144 CUDA cores",
+        "Up to 128GB unified memory",
+        "Up to 120B parameters locally (Nvidia claim)"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-17T21:00:13Z",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+          "outlet": "NVIDIA Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only the Nvidia post title was seen. Specs come from search snippets of May launch coverage; no independent benchmarks or pricing. Published ~49 minutes before the window.",
+      "score": {
+        "total": 44.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.283,
+          "momentum": 0.487
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "hedge-funds-dump-ai-stocks-goldman-prime-data-21jingji",
+      "title": "Hedge funds net-sold global AI stocks five straight days, erasing gains since early 2025, per Goldman Prime data cited by 21st Century",
+      "original_title": "猛烈逆转！AI交易风向为何大变",
+      "summary": "21财经 reports Goldman Prime data showing hedge funds net-sold global AI stocks for five straight sessions from Oct 8 to 14, wiping out net buying since early 2025. The top-20 AI and chip stocks lost over $1T in market value by Thursday. Seoul reportedly hit a circuit breaker and Korea slid into bear territory. The piece cites an FT report that OpenAI told investors annualised revenue was near $50B versus roughly $70B in circulating expectations.",
+      "why_it_matters": "Frames the global AI de-risking that Chinese AI and chip names are now trading against.",
+      "key_numbers": [
+        "5 straight sessions of net selling, Oct 8-14",
+        "Over $1T lost by top-20 AI/chip stocks",
+        "OpenAI annualised revenue ~$50B vs ~$70B rumoured (per FT, as cited)"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Goldman Sachs"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261018/herald/a1c550b301adc28606e677dc43c973a8.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "猛烈逆转！AI交易风向为何大变"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet, figures from a search summary; Goldman data and the FT/OpenAI revenue figure not verified at origin. published_at approximate.",
+      "score": {
+        "total": 39.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.583
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "kimi-ai-credit-card-scmp-reporters-notebook",
+      "title": "SCMP hands-on: Kimi's AI credit card trades spending for computing quotas, but hits limits",
+      "original_title": "Reporter's notebook: Kimi's AI credit card turns spending into computing quotas – with limits",
+      "summary": "An SCMP reporter tested the Moonshot AI / Agricultural Bank of China / American Express card. The premium card was refused at an ABC Beijing branch, so the reporter applied online for the standard card. While coding, the quota ran out after about six rounds of adjustments. Bundled Kimi memberships last only a few months. Moonshot, ABC and Amex did not respond to comment requests; China had 677M credit and combo cards at end-June, down from 2022 (PBoC).",
+      "why_it_matters": "A concrete test of tying consumer finance to AI compute credits while Moonshot's compute is tight.",
+      "key_numbers": [
+        "677M cards at end-June, down since 2022",
+        "Quota exhausted after ~6 coding rounds"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Moonshot AI",
+        "Agricultural Bank of China",
+        "American Express"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-17T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/tech-trends/article/3371226/reporters-notebook-kimis-ai-credit-card-turns-spending-computing-quotas-limits",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Reporter's notebook: Kimi's AI credit card turns spending into computing quotas – with limits"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Harvest first-seen 2026-10-17T08:00Z, before the window; published_at here is an estimate for the SCMP piece's surfacing, may be earlier. Details from a search summary.",
+      "score": {
+        "total": 37.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.541
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "machine-scientist-2-2-hefei-release",
+      "title": "Machine Scientist 2.2 system released at Hefei intelligent-scientist alliance annual meeting",
+      "original_title": "机器科学家2.2系统在合肥发布 “AI造物”按下加速键",
+      "summary": "Per a 21经济网 piece (credited to 中新社 in a search summary), the 4th annual meeting of the Intelligent Scientist Ecosystem Alliance took place Oct 18 in Hefei, Anhui, where the Machine Scientist 2.2 system was formally released. Earlier versions were released at prior annual meetings.",
+      "why_it_matters": "Autonomous-lab 'AI scientist' infrastructure is a government-backed track in China separate from the LLM labs.",
+      "key_numbers": [
+        "Version 2.2",
+        "4th annual meeting"
+      ],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "Intelligent Scientist Ecosystem Alliance"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.21jingji.com/article/20261018/herald/67af201375ec4daec63262eefecdfa94.html",
+          "outlet": "21经济网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "机器科学家2.2系统在合肥发布 “AI造物”按下加速键"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.25,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Headline and one-line summary only; capabilities and issuing institution not seen.",
+      "score": {
+        "total": 34.4,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "deepseek-v4-1-flash-1017-first-feedback",
+      "title": "First user feedback on DeepSeek V4.1-Flash-1017: developers say it is back to normal",
+      "original_title": "便宜六成、能“许愿”建项目？DeepSeek新模型第一波反馈来了",
+      "summary": "Sina Tech's Oct 18 roundup collects early reactions to DeepSeek V4.1-Flash-1017. A V2EX developer said the previous version felt 'dumbed down' and the new one is back to normal. Coverage notes the weights are open on Hugging Face and ModelScope and that DeepSeek recommends Harness 0.2.1-rc.1 or later. Media comparisons with Kimi K3 and GLM 5.3 come from official materials and have not been independently evaluated.",
+      "why_it_matters": "Early field reports are the first check on the 'wish-style coding' claims in DeepSeek's release.",
+      "key_numbers": [],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-10-18/doc-inivrerm6766357.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "便宜六成、能“许愿”建项目？DeepSeek新模型第一波反馈来了"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": "deepseek-v4-1-flash-1017-wishful-coding-release",
+      "confidence_note": "Headline and search summary only. The headline's 'cheaper by 60%' claim is unsubstantiated. Feedback is anecdotal. published_at approximate.",
+      "score": {
+        "total": 33.9,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.607
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 1.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 13
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-21",
+      "title": "Germany expected to announce industrial-AI partnership with Nvidia (week of Oct 19, per Bloomberg/Handelsblatt)",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.roic.ai/news/germany-set-to-announce-nvidia-ai-partnership-next-week-focusing-on-industrial-ai-10-16-2026"
+    },
+    {
+      "date": "2026-10",
+      "title": "Nscale US IPO (NYSE) targeting up to ~$3B raise, possibly as soon as this month",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://datacenterdynamics.com/en/news/nscale-targets-3bn-raise-in-us-ipo-report"
+    },
+    {
+      "date": "2026-11",
+      "title": "Alibaba next-gen video generation model due in November (announced with Qwen4 training, Sept 22)",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://stock.10jqka.com.cn/20260922/c680160201.shtml"
+    }
+  ],
+  "notes": "Search tooling returned little window-dated text and WebFetch was blocked for most news domains, so many facts are from search summaries (flagged in confidence_note). Unverified and omitted: Chinese-media claim of a US AI-stock selloff triggered by DeepSeek V4.1 Flash; '1/26 of Opus 5.5 price' claim; Citi note on China AI IPOs; Tsinghua agent-OS release (before window)."
+}

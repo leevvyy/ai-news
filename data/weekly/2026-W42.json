@@ -1,0 +1,48 @@
+{
+  "week": "2026-W42",
+  "headline": "Anthropic's pre-IPO scrutiny (revenue, valuation, regulators, now a share pledge) dominated a week in which AI-chip stocks sold off and DeepSeek's outage and V4.1 Flash recovery played out.",
+  "themes": [
+    {
+      "title": "Anthropic runs the IPO gauntlet",
+      "summary": "Anthropic reported Q3 revenue of $16.8B while the FTC subpoenaed it and OpenAI in a safety probe and NYC's comptroller urged it to pause its IPO. IPO valuation talk was reportedly cut to $1.5T, and on Sunday the company pledged 5% of its shares to a public benefit fund.",
+      "item_ids": [
+        "anthropic-q3-revenue-16-8b-ahead-of-ipo",
+        "ftc-subpoenas-anthropic-openai-ai-safety-probe",
+        "nyc-comptroller-levine-urges-anthropic-pause-ipo",
+        "anthropic-ipo-valuation-talk-cut-to-1-5t",
+        "anthropic-5pct-public-benefit-fund"
+      ]
+    },
+    {
+      "title": "DeepSeek: outage, funding, new Flash",
+      "summary": "DeepSeek's funding round was reported to have doubled to 100B yuan before a five-hour outage and API refund, followed by the V4.1-Flash-1017 release and a paid Search/Fetch API from Nov 1.",
+      "item_ids": [
+        "deepseek-funding-round-doubles-to-100b-yuan-catl",
+        "deepseek-5h-outage-apology-7day-api-refund",
+        "deepseek-v4-1-flash-1017-wishful-coding-release",
+        "deepseek-search-fetch-billing-rules-rate-limits"
+      ]
+    },
+    {
+      "title": "Open weights from Meta and Reflection",
+      "summary": "Meta released Muse Spark as 816B open weights and Reflection unveiled its 501B Beam model with an open-weights release promised for later in October.",
+      "item_ids": [
+        "meta-muse-spark-open-816b-open-weights",
+        "reflection-beam-501b-open-weights"
+      ]
+    },
+    {
+      "title": "Chips, memory and power under pressure",
+      "summary": "Asian chip stocks sold off, ASML raised its floor on China sales, and Taiwan moved to criminalise AI-chip smuggling. By the weekend Samsung was reported to be using TSMC 3nm base dies for Nvidia's custom HBM and Microsoft had reportedly exited an Nscale UK data centre over grid limits.",
+      "item_ids": [
+        "asia-chip-stocks-plunge-sk-hynix-softbank-oct13",
+        "asml-q3-2026-raises-floor-china-sales-surge",
+        "taiwan-criminalise-ai-chip-smuggling-china-foreign-trade-act",
+        "samsung-tsmc-3nm-base-die-nvidia-custom-hbm",
+        "microsoft-exits-nscale-loughton-data-centre"
+      ]
+    }
+  ],
+  "upcoming": [],
+  "notes": ""
+}
