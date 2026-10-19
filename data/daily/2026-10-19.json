@@ -1,0 +1,866 @@
+{
+  "date": "2026-10-19",
+  "window": {
+    "start": "2026-10-18T21:48:00Z",
+    "end": "2026-10-19T21:48:00Z"
+  },
+  "tldr": [
+    "MiniMax launched M3.1 Flash, claiming roughly 3x faster inference and 70% lower usage cost, opening a price-and-speed fight with DeepSeek in the cheap agent-model tier; Amazon's TorchNeuron makes Trainium a native PyTorch and Hugging Face device, aimed at Nvidia's CUDA moat.",
+    "Inception's Mercury 3 diffusion LLM claims 1,000+ tokens per second with a 1M-token context, and Merz and Huang backed a German industrial-AI push as Nvidia published its plan.",
+    "The ex-OpenAI engineer accused of planting a recording device was ordered held, with the FBI citing a 'Saudi Gov Docs' folder; Bloomberg also reports Nscale and Anthropic in talks on a $45B cloud deal (single-source)."
+  ],
+  "items": [
+    {
+      "id": "minimax-m3-1-flash-launch-70pct-cheaper",
+      "title": "MiniMax launches M3.1 Flash: about 3x faster inference and 70% lower cost, claims frontier-level agentic coding",
+      "original_title": "MiniMax M3.1 Flash 上线：速度提升3倍，价格降低70%",
+      "summary": "MiniMax (稀宇科技) announced M3.1 Flash on Oct 19 and said the stealth model 'Space Bunny', which had handled more than 200T tokens anonymously, was an early version of it. The company says online inference is nearly 3x faster and usage cost is down 70%, with gains in agentic tasks, coding, computer use and cyber capability. Reported scores include 73.7% on DeepSWE v1.1 and 76.2 on BankerToolBench, plus a top-tier placing on AutomationBench-AA.",
+      "why_it_matters": "It opens a price-and-speed fight with DeepSeek's V4.1 Flash in the cheap agent-model tier, and it lands as MiniMax sells token plans through Tmall and prepares its STAR Market listing.",
+      "key_numbers": [
+        "~3x faster online inference",
+        "-70% usage cost",
+        "73.7% DeepSWE v1.1",
+        "76.2 BankerToolBench",
+        "200T+ tokens served as 'Space Bunny'"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "DeepSeek"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-10-19T11:48:00Z",
+      "sources": [
+        {
+          "url": "https://www.minimax.io/blog/minimax-m31f",
+          "outlet": "MiniMax",
+          "lang": "en",
+          "tier": "primary",
+          "title": "MiniMax M3.1 Flash"
+        },
+        {
+          "url": "https://www.ithome.com/1/015/013.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "MiniMax M3.1 Flash 上线：速度提升 3 倍，价格降低 70%"
+        },
+        {
+          "url": "https://investing.com/news/stock-market-news/chinas-minimax-launches-updated-ai-model-m31-flash-claims-major-improvements-4957342",
+          "outlet": "Reuters via Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "China's MiniMax launches updated AI model M3.1 Flash, claims major improvements"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.65,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Numbers come from the IT之家 feed text (truncated in the harvest) as relayed from MiniMax; I could not open the official blog (fetch blocked), only saw its URL as a Hacker News listing (298 pts). Harvest also shows Reuters, Sina Finance, Xinhua-style finance portals and 新京报 covering it (cluster of 8+ outlets), but only via Google News redirects, so not cited. Headline claims of 200+ TPS and price at half DeepSeek's (搜狐) were seen as titles only. A 'M3.1-Flash-Preview' was reportedly limited to MiniMax Code on Sep 27 per search snippets (datanorth.ai, eesel.ai); this Oct 19 release is the full launch. published_at is the MiniMax research post time in the feed.",
+      "score": {
+        "total": 67.0,
+        "components": {
+          "impact": 0.65,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.811,
+          "momentum": 0.541
+        },
+        "coverage": 10,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "amazon-torchneuron-pytorch-trainium",
+      "title": "Amazon launches TorchNeuron to run PyTorch and Hugging Face models natively on Trainium",
+      "summary": "Amazon unveiled TorchNeuron, a native PyTorch backend for its Trainium chips, with eager mode and torch.compile support and Hugging Face libraries (Transformers, Diffusers, Accelerate, PEFT, TRL) running with the same classes and scripts as on other accelerators. Reports say it is set to be open-sourced at the PyTorch Conference on Oct 20, was tested nightly against 100,000+ Hugging Face models, and that text-generation coverage of the top-100 architectures rises to 89% from 46% with Optimum Neuron 0.4.5. More than 30 companies and internal Amazon teams used the private beta; Deepgram cites 60-70% more audio per dollar (figure varies by outlet).",
+      "why_it_matters": "Nvidia's moat is CUDA software, not just silicon; making Trainium a drop-in PyTorch device lowers switching cost for inference-heavy buyers and strengthens Amazon's bargaining position.",
+      "key_numbers": [
+        "89% of top-100 text-generation architectures (vs 46%)",
+        "100,000+ HF models tested nightly",
+        "30+ private-beta users",
+        "Deepgram 60-70% more audio per dollar (outlets differ)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Amazon",
+        "AWS",
+        "Hugging Face",
+        "Nvidia"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-10-19T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool"
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+          "outlet": "Amazon",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Amazon's TorchNeuron runs PyTorch on AWS Trainium chips"
+        },
+        {
+          "url": "https://huggingface.co/blog/hf-torchneuron",
+          "outlet": "Hugging Face",
+          "lang": "en",
+          "tier": "primary",
+          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever"
+        },
+        {
+          "url": "https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-ai-chips/",
+          "outlet": "GeekWire",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon challenges Nvidia's software advantage with new tool for its own AI chips"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Details come from search snippets (pages not opened). published_at is an estimate: TechCrunch first seen 20:09Z, Amazon/HF posts earlier on Oct 19 (HF blog dated 2026-10-19). Open-source vs beta framing differs by outlet (one says beta from Oct 20 via pip install torch-neuronx); Neuron docs earlier described TorchNeuron as closed beta. Deepgram saving is 60% in one report, 70% in the TechCrunch quote.",
+      "score": {
+        "total": 63.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.912,
+          "breadth": 0.565,
+          "momentum": 0.541
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "inception-mercury-3-diffusion-llm",
+      "title": "Inception launches Mercury 3, a diffusion LLM claiming 1,000+ tokens per second and a 1M context window",
+      "summary": "Inception Labs released Mercury 3, its flagship diffusion language model, available through its own API, Baseten, OpenRouter and Vercel and OpenAI-API compatible. Inception says it generates over 1,000 tokens per second (1,068 tok/s on Nvidia GPUs), carries a 1M-token context (up from 260K in Mercury 2.5) and beats GPT-6 Luna and Claude Haiku 5.5 on IFBench, GPQA Diamond and SWE-Bench Atlas while running 4-8x faster. Launch pricing is 50% off; OpenRouter lists $0.10/M input and $0.35/M output.",
+      "why_it_matters": "It is the largest test yet of whether parallel-decoding diffusion models can match small autoregressive frontier models on quality, which would shift latency-sensitive agent and voice workloads onto a different serving stack.",
+      "key_numbers": [
+        "1,000+ tokens/s (1,068 on Nvidia GPUs)",
+        "1M-token context",
+        "$0.10/M in, $0.35/M out (50% launch discount, OpenRouter)",
+        "4-8x faster than GPT-6 Luna / Haiku 5.5 (vendor claim)",
+        "40x+ larger than Mercury 1"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Inception",
+        "Baseten",
+        "OpenRouter",
+        "Vercel"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-19T09:04:00Z",
+      "sources": [
+        {
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+          "outlet": "Inception Labs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Diffusion at Scale: Introducing Mercury 3"
+        },
+        {
+          "url": "https://www.morningstar.com/news/business-wire/20261019090400/inception-launches-mercury-3-setting-a-new-pareto-frontier-in-speed-and-intelligence",
+          "outlet": "Business Wire via Morningstar",
+          "lang": "en",
+          "tier": "press",
+          "title": "Inception Launches Mercury 3, Setting a New Pareto Frontier in Speed and Intelligence"
+        },
+        {
+          "url": "https://www.unite.ai/inception-releases-mercury-3-its-flagship-diffusion-llm/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Inception Releases Mercury 3, Its Flagship Diffusion LLM"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Seen only in web-search snippets (I could not open the pages); all benchmark and speed figures are Inception's own claims, not independently verified. Press-release timestamp (09:04) is read from the Morningstar URL and treated as UTC. Sources disagree on standard pricing ($0.20/$0.70 in one report); OpenRouter's $0.10/$0.35 is the 50%-off launch rate. Harvest shows HN 194 points.",
+      "score": {
+        "total": 59.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.835,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "germany-nvidia-industrial-ai-merz-huang-berlin",
+      "title": "Merz and Huang back German industrial AI push in Berlin; Nvidia publishes its plan",
+      "summary": "Nvidia CEO Jensen Huang was in Germany on Oct 19, urging German manufacturers to adopt AI and saying digital technology will not replace heavy industry. Reuters reported Chancellor Merz urged AI investment ahead of the Nvidia deal, and Nvidia posted 'Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help'. Handelsblatt had reported on Oct 15 that Germany was preparing a partnership with funding in the hundreds of millions of euros, with about a dozen companies including Siemens and Audi.",
+      "why_it_matters": "A state-backed industrial AI partnership with Nvidia ties German manufacturing to Nvidia's stack and adds to the sovereign-compute demand story in Europe.",
+      "key_numbers": [
+        "Hundreds of millions of euros (Handelsblatt, pre-announcement)",
+        "About 12 German firms (Handelsblatt)"
+      ],
+      "topic": "business",
+      "region": "eu",
+      "entities": [
+        "Nvidia",
+        "Germany",
+        "Friedrich Merz",
+        "Jensen Huang"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-19T19:27:00Z",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+          "outlet": "NVIDIA Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "germany-nvidia-industrial-ai-initiative-handelsblatt",
+      "confidence_note": "Only the Nvidia blog URL and headlines of Reuters/Washington Post/Audacy coverage were seen; the final signed terms and funding amounts were not verified. Funding and company figures are from Handelsblatt's Oct 15 pre-report as relayed by secondary sites.",
+      "score": {
+        "total": 55.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.565,
+          "momentum": 0.615
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "alfozan-custody-saudi-gov-docs-fbi",
+      "title": "Accused ex-OpenAI engineer ordered held; FBI says he had a 'Saudi Gov Docs' folder",
+      "summary": "Wired reported that the OpenAI engineer accused of bugging an executive conference room was ordered to remain in custody. Ars Technica reported the FBI says he had a folder called 'Saudi Gov Docs', and Reuters and Al Jazeera reported prosecutors say he appeared to receive support from the Saudi government. AP reported he planned to fly to Saudi Arabia.",
+      "why_it_matters": "The case moves from an office-security incident toward alleged foreign-state involvement at a frontier lab, which feeds the national-security framing of the AI race and lab insider-risk controls.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Abdulrahman Alfozan",
+        "FBI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-19T18:23:00Z",
+      "sources": [
+        {
+          "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+          "outlet": "WIRED",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody"
+        },
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+          "outlet": "Ars Technica",
+          "lang": "en",
+          "tier": "press",
+          "title": "Accused OpenAI spy had folder called \"Saudi Gov Docs,\" FBI says"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "openai-engineer-alfozan-arrested-recording-device",
+      "confidence_note": "Based on headlines and outlet clusters (AP, Reuters, Al Jazeera, Business Insider, Wired, Ars); article bodies were not reachable. Earlier reporting (Al Jazeera, Oct 15) said the DOJ had not alleged he acted for a foreign government, so the Saudi-support framing is prosecutors' characterisation per Reuters' headline. Wired title says 'OpenAI Engineer' while AP/Reuters say 'ex-OpenAI'.",
+      "score": {
+        "total": 55.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.736,
+          "momentum": 0.283
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "nscale-anthropic-45b-cloud-deal-talks",
+      "title": "Nscale and Anthropic in talks on a $45B cloud computing deal, Bloomberg reports",
+      "summary": "Bloomberg reported on Oct 19 that Nscale, the London-based AI infrastructure company, and Anthropic are in talks on a roughly $45 billion cloud computing agreement. Reuters and Investing.com carried the story. The harvest shows only the headline and outlet list, not the article body.",
+      "why_it_matters": "A deal of this size would add to Anthropic's compute commitments ahead of its IPO and would make Nscale one of the largest neocloud counterparties, at a time when neocloud credit risk is in focus.",
+      "key_numbers": [
+        "$45B (reported, in talks)"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Nscale",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-19T19:24:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Only the Bloomberg headline and the outlet cluster (Bloomberg, Reuters, Investing.com, WTVB) were seen; the article body was not reachable (WebFetch blocked). A web search also surfaced trade pieces (e.g. ITPro, The Decoder) reporting a $45B, six-year Nscale-Anthropic deal around late August 2026, so this may be a re-report or update of earlier reporting; check against recent issues before leading with it. Related: Microsoft exiting Nscale's Loughton site (earlier item).",
+      "score": {
+        "total": 56.8,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "microsoft-securing-the-agentic-insider",
+      "title": "Microsoft frames AI agents as 'agentic insiders' and ties Project Perception to Agent 365 controls",
+      "summary": "In an Oct 19 post, Microsoft Security EVP Hayete Gallot argues that overprivileged, always-on agents act as insiders and that monitoring must become continuous. Microsoft proposes agents start with zero authority and receive only what an approved task needs, for only as long as needed, using deterministic controls around non-deterministic models. The post links Project Perception and Agent 365 through shared signals, context and a unified agent registry.",
+      "why_it_matters": "It signals how the largest enterprise vendor will sell agent governance (least privilege, registry, continuous monitoring), which will shape buyer checklists for agent deployments.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "Agent 365",
+        "Project Perception"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-10-19T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+          "outlet": "Microsoft",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Securing the agentic insider"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+          "outlet": "Microsoft Security Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Agents are your newest insiders. Security must move at their speed."
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Vision/positioning post, not a product release. Based on search snippets; one third-party analysis says 'Guardian Agents' is a concept, not a shipping feature, and Project Perception was reported (July/Aug coverage) as preview. No concrete numbers published. Both Microsoft URLs are the same date's pieces; confirm they are separate before keeping two.",
+      "score": {
+        "total": 43.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.84,
+          "breadth": 0.283,
+          "momentum": 0.541
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "nvidia-julich-fault-tolerant-quantum-simulation",
+      "title": "Nvidia runs record fault-tolerant quantum computing simulation at Jülich",
+      "summary": "Nvidia announced a record simulation of fault-tolerant quantum computing run at the Jülich Supercomputing Centre in Germany, published the same day as the Berlin industrial AI push. The Quantum Insider also covered it. Specific qubit counts and system details were not captured.",
+      "why_it_matters": "It extends Nvidia's role from GPUs to the simulation layer for quantum error-correction research, supporting its European supercomputing footprint.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "eu",
+      "entities": [
+        "Nvidia",
+        "Jülich Supercomputing Centre"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-19T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Only the headline and outlet list were seen; the record's size and metrics are not stated here. Treat 'record' as Nvidia's own claim.",
+      "score": {
+        "total": 42.9,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.6,
+          "breadth": 0.283,
+          "momentum": 0.615
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "cxmt-shares-fall-7-8pct-despite-profit-forecast-buyback",
+      "title": "CXMT shares fall 7.8% despite blockbuster profit forecast and buyback plan",
+      "original_title": "长鑫科技预告前三季度业绩并提议回购，股价下跌",
+      "summary": "SCMP reports that China's DRAM maker ChangXin Memory Technologies fell more than 8% in early Monday trading and closed 7.8% lower at 41.52 yuan, even after forecasting strong profits and a share buyback, amid a sector-wide memory-stock rout. The stock peaked at 61.8 yuan in August, up as much as 614% from its 8.66-yuan IPO price in July.",
+      "why_it_matters": "It shows how fragile the China AI-memory trade is: a strong earnings preview and a buyback proposal did not stop a fall, which echoes the SK hynix and SOX weakness covered earlier this month.",
+      "key_numbers": [
+        "-7.8% to 41.52 yuan",
+        "peak 61.8 yuan in August",
+        "IPO price 8.66 yuan"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "CXMT"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-18T23:30:08Z",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/big-tech/article/3371314/cxmt-forecasts-us198-billion-3-quarters-net-income-pledges-share-buy-back",
+          "outlet": "SCMP",
+          "lang": "en",
+          "tier": "press",
+          "title": "CXMT shares fall 7.8% despite blockbuster earnings figures"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "memory-stocks-slide-cxmt-server-dram-sox-rout",
+      "confidence_note": "Only the SCMP feed excerpt was seen (URL slug indicates a US$198 billion 3-quarter net-income forecast; I did not see that figure in the excerpt and do not state it). Search snippets (not opened) say the forecast and a 1-2B yuan chairman buyback proposal were announced Oct 16 and need board approval. No Yahoo ticker verified for CXMT, so tickers left empty. The Monday price move is the in-window event.",
+      "score": {
+        "total": 37.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.583
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "hygon-q3-2026-revenue-up-45pct-profit-up-38pct",
+      "title": "Hygon Q3 revenue rises 45% to 5.86B yuan, net profit 1.05B yuan, as China AI-chip demand holds",
+      "original_title": "海光信息2026年第三季度归母净利润10.48亿元，同比增长37.9%",
+      "summary": "Hygon Information, which makes x86-compatible CPUs and DCU AI accelerators, reported Q3 2026 revenue of 5.856B yuan (+45.46% y/y) and net profit attributable to shareholders of 1.048B yuan (+37.9%); deducted net profit was 953M yuan (+31.12%). For the first nine months revenue was about 14.95B yuan (+57.58%) and net profit about 2.85B yuan (+45.12%). Basic EPS was 0.45 yuan.",
+      "why_it_matters": "Domestic AI-accelerator makers are still growing fast as Chinese labs shift inference to local silicon; Hygon had already pre-announced a range on Oct 15, so the print is in line and mainly confirms the trend.",
+      "key_numbers": [
+        "Q3 revenue 5.856B yuan (+45.46%)",
+        "Q3 net profit 1.048B yuan (+37.9%)",
+        "9M revenue ~14.95B yuan (+57.58%)",
+        "9M net profit ~2.85B yuan (+45.12%)"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Hygon Information"
+      ],
+      "tickers": [
+        "688041.SS"
+      ],
+      "published_at": "2026-10-19T10:36:45Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/014/992.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "海光信息 2026 年第三季度归母净利润 10.48 亿元，同比增长 37.9%"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.45,
+      "novelty": 0.3,
+      "follow_up_of": "china-ai-compute-chain-chairmen-propose-buybacks-hygon-sugon",
+      "confidence_note": "Figures from the IT之家 feed text (it summarises the company's filing; nine-month totals were printed there as raw yuan values). I could not open the filing. A search snippet shows Hygon pre-announced 9M net profit of 2.71-2.98B yuan on Oct 15, which the reported 2.85B falls within. Only one outlet seen; other coverage not verified.",
+      "score": {
+        "total": 34.9,
+        "components": {
+          "impact": 0.45,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.583
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "eric-schmidt-anthropic-stake-ipo-windfall",
+      "title": "Eric Schmidt's roughly 1% Anthropic stake set to pay a large windfall, Bloomberg says",
+      "summary": "Bloomberg reported on Oct 19 that former Google CEO Eric Schmidt's 1% stake in Anthropic is set to pay a massive windfall as the company heads to an IPO. Dollar figures were not captured. A web search linked Schmidt to Anthropic's 2021 Series A only via an unreliable page.",
+      "why_it_matters": "Early-investor payouts illustrate the scale of value at stake in an Anthropic listing, reported earlier at a $965B private valuation.",
+      "key_numbers": [
+        "About 1% stake (Bloomberg headline)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Eric Schmidt"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-19T21:18:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/eric-schmidt-s-1-anthropic-stake-set-to-pay-massive-windfall",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Eric Schmidt's 1% Anthropic Stake Set to Pay Massive Windfall"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Headline only; the stake value and basis were not seen. Single outlet (Bloomberg and Bloomberg Technology). Published at the very end of the window.",
+      "score": {
+        "total": 33.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.363
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 3.429,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "alibaba-damo-xuantie-e908a-risc-v-automotive-roadmap",
+      "title": "Alibaba's DAMO Academy unveils Xuantie E908A automotive-grade RISC-V processor and an autonomous-driving and embodied-AI roadmap",
+      "original_title": "阿里达摩院发布车规增强处理器玄铁E908A，首发车规产品路线图",
+      "summary": "At the RISC-V China Summit in Shenzhen on Oct 19, DAMO Academy launched the automotive-enhanced Xuantie E908A processor and a first roadmap for chips aimed at autonomous driving and embodied AI. It said Xuantie C950, released in March, beats mainstream conventional-architecture processors by more than 10% on four Agentic workloads, and cited an industry forecast of 50% annual RISC-V shipment growth and about 25% market share by 2030.",
+      "why_it_matters": "It extends China's RISC-V push from servers into cars and robots, a route that avoids x86 and Arm licensing exposure.",
+      "key_numbers": [
+        "C950 >10% faster on four Agentic workloads",
+        "RISC-V shipments +50%/yr",
+        "~25% share by 2030 (forecast)"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Alibaba",
+        "DAMO Academy"
+      ],
+      "tickers": [
+        "9988.HK"
+      ],
+      "published_at": "2026-10-19T09:45:11Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/014/960.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "阿里达摩院发布车规增强处理器玄铁 E908A，首发车规产品路线图"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Based on the IT之家 feed text (truncated); no E908A details beyond the headline were seen and search found no second source. The 50% growth and 25% share figures are attributed by IT之家 to an unnamed industry institute.",
+      "score": {
+        "total": 31.7,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.416
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "mofcom-sci-tech-commerce-opinion-smart-glasses-sales-up-110pct",
+      "title": "China issues its first 'sci-tech for commerce' guideline; smart-glasses sales on key platforms up 110% in Jan-Sep",
+      "original_title": "商务部：今年1-9月，重点平台智能眼镜销售额增长1.1倍",
+      "summary": "At the same Oct 19 State Council Information Office briefing, an assistant minister of commerce introduced the Opinions on Accelerating Sci-Tech-Enabled Commerce, the first comprehensive document on that theme. It covers technology across the commerce chain from product development and manufacturing to wholesale, logistics, e-commerce and consumption, and promotes new formats such as commercial AI agents. Ministry data show smart-glasses sales on key platforms grew 1.1x year on year in January-September.",
+      "why_it_matters": "It gives AI agents and AI hardware an explicit place in national commerce policy, a tailwind for Chinese consumer-AI products such as glasses and shopping agents.",
+      "key_numbers": [
+        "smart-glasses sales +1.1x (Jan-Sep)"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Ministry of Commerce",
+        "State Council Information Office"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-19T13:57:37Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/015/038.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "商务部：今年 1-9 月，重点平台智能眼镜销售额增长 1.1 倍"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.35,
+      "follow_up_of": null,
+      "confidence_note": "From IT之家 feed text (truncated); the Opinions document itself and its release date were not seen. 'Grew 1.1x' is reported as 增长1.1倍, which means +110%; I used the outlet's wording.",
+      "score": {
+        "total": 31.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.35,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "intel-tan-china-chip-manufacturing-gap-not-large-nikkei",
+      "title": "Intel CEO Lip-Bu Tan says China's chip-manufacturing gap with the US is 'not that large' for now",
+      "original_title": "英特尔CEO陈立武称中国芯片制造“目前并未落后太多”",
+      "summary": "In a Nikkei Asia interview reported by IT之家 on Oct 19, Intel CEO Lip-Bu Tan said that on chip-manufacturing technology the gap between China and the US is not large at present, and that Chinese and US firms each have strengths and weaknesses. Asked whether China can catch up with advanced US chips in 5-10 years, he answered that for now the gap is not that big. The report contrasts this with Elon Musk's view that China could break current limits in two to three years and a Zeiss executive's estimate that China is 15 years behind in EUV.",
+      "why_it_matters": "A US chipmaker CEO downplaying the gap feeds the export-control debate and the investor read-through on China's SMIC, Huawei and CXMT progress.",
+      "key_numbers": [
+        "Musk: 2-3 years to break limits",
+        "Zeiss: ~15 years behind in EUV"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Intel",
+        "Lip-Bu Tan"
+      ],
+      "tickers": [
+        "INTC"
+      ],
+      "published_at": "2026-10-19T14:00:40Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/015/039.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "英特尔 CEO 陈立武称中国芯片制造“目前并未落后太多”"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Secondhand: IT之家 summarising a Nikkei Asia interview I could not locate; the quote is the outlet's translation, and the Musk and Zeiss comparisons are from IT之家, not the interview. Search did not find the Nikkei piece. published_at is the IT之家 timestamp; the interview may be earlier.",
+      "score": {
+        "total": 30.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "miit-humanoid-robots-40k-h1-100k-2026-scio",
+      "title": "MIIT: China built over 40,000 humanoid robots in H1, expects more than 100,000 for 2026",
+      "original_title": "今年上半年我国人形机器人产量超4万台，预计全年将突破10万台",
+      "summary": "At a State Council Information Office briefing on Oct 19, the Ministry of Industry and Information Technology said China had more than 400 humanoid robot models and produced over 40,000 units in the first half, with full-year output expected above 100,000. MIIT is running a real-scene training programme with deployment trials in more than 300 key scenarios such as warehousing, catering and retail, and home services.",
+      "why_it_matters": "It signals continued state backing for embodied AI as a demand source for Chinese foundation and control models, though the output figure counts units built, not delivered.",
+      "key_numbers": [
+        ">400 humanoid models",
+        "40,000+ units in H1",
+        "100,000+ expected for 2026",
+        "300+ pilot scenarios"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "MIIT",
+        "State Council Information Office"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-19T11:25:24Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/015/002.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "From IT之家 feed text. Search snippets show MIIT officials gave the same 40,000/100,000 figures in July, so this is a restatement at the Oct 19 briefing, not new data. Units are production counts, which one outlet notes differ from deliveries. The harvest also lists a 工信部 'AI+制造' item (新华网) and 商务部 'AI+文化旅游' pilots, seen only as Google News redirects, so not cited.",
+      "score": {
+        "total": 29.4,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.2,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.583
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 15
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-20",
+      "title": "PyTorch Conference San Jose (Oct 20-21); Amazon TorchNeuron reportedly open-sourced there",
+      "kind": "conference",
+      "confidence": "expected",
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "MiniMax M3.1 Flash open weights (one secondary source gives this date; MiniMax says 'soon')",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://finance.biggo.com/news/4dc43d4f-0802-44a0-9a67-459a98cc892f"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Texas Instruments Q3 2026 earnings (analog chip read-through)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://therighttrader.com/earnings-calendar/txn"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Tesla Q3 2026 earnings",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.tipranks.com/stocks/mx:tsla/earnings"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Tmall Double 11 sale includes AI 'Token' products; MiniMax and Zhipu sell subscription plans there",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.bbtnews.com.cn/2026/1015/608104.shtml"
+    }
+  ],
+  "notes": "Quiet window; search index returned little dated inside it, so several items rest on feed text or snippets (see confidence_note). Desk-dropped: Moonshot equity claim (first reported Oct 12), Doubao compute rebuttal and DeepSeek-Huawei chip stories (no citable outlet URL)."
+}
