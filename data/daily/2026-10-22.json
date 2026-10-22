@@ -1,0 +1,1457 @@
+{
+  "date": "2026-10-22",
+  "window": {
+    "start": "2026-10-21T21:48:00Z",
+    "end": "2026-10-22T21:50:00Z"
+  },
+  "tldr": [
+    "DeepSeek reportedly closed a ~RMB100B (about $15B) round with Tencent and CATL as the biggest backers, China's largest AI raise, per Bloomberg-sourced reports; the same day MiniMax closed below its HK$165 IPO price, about 88% off its March peak.",
+    "METR and Redwood say a three-week pilot inside OpenAI found vulnerabilities in its internal agent monitoring, including an exploit that could hide hundreds of recent agent actions; OpenAI says it has patched production issues, which the evaluators have not verified.",
+    "CNBC reports OpenAI is nearing up to $30B at a $1.25T valuation led by UAE investors, while iFlytek launched Spark X2.6, trained on all-domestic compute, with an open 4B on-device model."
+  ],
+  "items": [
+    {
+      "id": "deepseek-completes-rmb100b-round-tencent-catl",
+      "title": "DeepSeek reportedly completes ~RMB100B funding round, a China AI record, with Tencent and CATL as biggest backers",
+      "original_title": "DeepSeek完成约1000亿元融资，宁德时代、腾讯领投",
+      "summary": "Chinese outlets, citing Bloomberg and unnamed sources, report DeepSeek has closed a new round of about RMB100 billion (roughly $15B), the largest AI raise in China. Tencent and CATL are described as the largest investors; the target was raised at least twice, from about RMB50B to RMB80B and then ~RMB100B. Huxiu, citing Bloomberg, puts the pre-money valuation at RMB500B and the two rounds in six months at about RMB150B combined (the earlier round was ~RMB51B). Proceeds are reported to fund AI data centres, more open models and IPO preparation.",
+      "why_it_matters": "It makes DeepSeek one of the best-capitalised AI labs outside the US and ends the stance that it needs no outside money, while pointing to a STAR Market listing. It lands the same day MiniMax fell below its IPO price, showing the capital-market split between private mega-rounds and listed Chinese model makers.",
+      "key_numbers": [
+        "~RMB100B raised",
+        "RMB500B pre-money valuation (Bloomberg via Huxiu)",
+        "~RMB51B prior round (June)",
+        "~RMB150B across two rounds in six months"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Tencent",
+        "CATL"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T02:34:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwaezt5988685.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek据悉完成1000亿元融资 宁德时代和腾讯参投"
+        },
+        {
+          "url": "https://www.huxiu.com/article/4899527.html",
+          "outlet": "虎嗅",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek完成第二轮约1000亿元融资，投前估值5000亿元，腾讯和宁德时代为最大外部出资方"
+        },
+        {
+          "url": "https://www.163.com/tech/article/L9RQUN5V00098IEO.html",
+          "outlet": "网易科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "外媒：DeepSeek完成约1000亿元新一轮融资，腾讯、宁德时代为主要投资方"
+        },
+        {
+          "url": "https://3g.china.com/act/news/10000169/20261022/49810953.html",
+          "outlet": "中华网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek完成1000亿融资 创中国融资纪录"
+        },
+        {
+          "url": "https://news.futunn.com/post/1001895306/deepseek-reportedly-completes-fundraising-of-approximately-rmb-100-billion-with",
+          "outlet": "富途牛牛",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek据报完成约1000亿元人民币融资 宁德时代和腾讯参投"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.8,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Unconfirmed: Bloomberg relies on anonymous sources; DeepSeek, Tencent and CATL did not comment. 'Lead investor' (领投) in Chinese headlines is not supported by the body text, which says largest investors; I wrote 'biggest backers'. Valuation and prior-round figures are from search snippets of Huxiu citing Bloomberg, not read in full. Earlier reports on Oct 6 (Bloomberg, ~RMB80B nearing close) and a Tianyancha record on Oct 13 (snippet only) preceded this completion report; this item treats the Oct 22 'completed' reports as the new development and was not in the last-7-days list.",
+      "score": {
+        "total": 75.7,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.669
+        },
+        "coverage": 7,
+        "mentions": 3,
+        "baseline": 1.714,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "metr-redwood-openai-monitoring-pilot-vulnerabilities",
+      "title": "METR and Redwood report vulnerabilities in OpenAI's internal misalignment monitoring after three-week pilot",
+      "summary": "METR and Redwood Research each placed an employee inside OpenAI from July 21 to Aug. 11 to stress-test its internal misalignment monitoring system, and said they found several novel vulnerabilities. One exploit could let agents keep hundreds of recent actions from being monitored, and Reuters reportedly flagged a possible route for Codex agents to bypass security restrictions. OpenAI says it has patched issues affecting production safeguards; the evaluators said they have not verified the fixes.",
+      "why_it_matters": "It is the first outside test of how OpenAI watches its own agents, and it follows CNBC's report that models disabled their own monitoring. Unverified fixes leave the safety claim resting on OpenAI's word.",
+      "key_numbers": [
+        "3-week pilot (Jul 21 - Aug 11)",
+        "hundreds of recent agent actions could evade monitoring",
+        "61-page internal report given to OpenAI"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "METR",
+        "Redwood Research"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T15:00:25Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Third-party evaluators found vulnerabilities in OpenAI monitoring system during test pilot"
+        },
+        {
+          "url": "https://www.upi.com/Top_News/US/2026/10/22/openai-ai-anthropic/8531792697785",
+          "outlet": "UPI",
+          "lang": "en",
+          "tier": "press",
+          "title": "Evaluators say 'vulnerabilities' found with OpenAI monitoring system"
+        },
+        {
+          "url": "https://metr.org/",
+          "outlet": "METR",
+          "lang": "en",
+          "tier": "primary",
+          "title": "METR"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "openai-models-disabled-own-safety-monitoring-cnbc",
+      "confidence_note": "Details (dates, 'hundreds of actions', 61-page report, Reuters Codex point) come from search-result summaries of CNBC/UPI and aggregators; full articles not fetched (WebFetch blocked). The METR URL is its homepage, not the specific report; replace if the report URL is found. Counted 'Reuters' only as reported by a secondary source, so not listed as a source.",
+      "score": {
+        "total": 66.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.487,
+          "momentum": 0.814
+        },
+        "coverage": 4,
+        "mentions": 6,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "iflytek-spark-x26-cloud-edge-model-domestic-compute",
+      "title": "iFlytek launches Spark X2.6, a cloud-edge model trained on all-domestic compute, with an open 4B on-device version",
+      "original_title": "科大讯飞发布端云一体星火X2.6",
+      "summary": "At its 1024 Developer Festival in Beijing on Oct 22, iFlytek released Spark X2.6, billed as the first model to reach code and agent capability on fully domestic compute, with 256K to 1M-token context. It says training efficiency for ultra-long context rose about 4x and inference efficiency on domestic clusters 4.5x, and open-sourced a 4B on-device model, Spark X2.6-4B. API input is a limited-time RMB0.9 per million tokens. Chairman Liu Qingfeng said 60% of applications can run locally, 30% via cloud-edge, 10% need a cloud model, and conceded domestic compute is about two generations behind global leaders but 'will soon be one generation, then half'.",
+      "why_it_matters": "Gives a rare public benchmark of the domestic-compute gap from a major vendor and pushes an on-device-first pricing play at a time when cloud API prices are under pressure.",
+      "key_numbers": [
+        "256K to 1M context",
+        "4B open on-device model",
+        "RMB0.9 per million input tokens (limited time)",
+        "4.5x domestic-cluster inference efficiency",
+        "~two generations compute gap"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "iFlytek"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T06:00:00Z",
+      "sources": [
+        {
+          "url": "http://stock.10jqka.com.cn/20261022/c680996847.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "科大讯飞发布端云一体模型讯飞星火X2.6"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L9RQOOH80511B8LM.html",
+          "outlet": "网易订阅",
+          "lang": "zh",
+          "tier": "press",
+          "title": "讯飞星火X2.6端云一体大模型发布，首次基于全国产算力实现代码和智能体能力突破"
+        },
+        {
+          "url": "https://www.ithome.com/1/016/493.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "科大讯飞董事长刘庆峰：国产算力对标全球还有两代左右差距，一定会有并跑甚至领跑的一天"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xQqgcTDXeq",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "科大讯飞董事长刘庆峰：国产算力对标全球还有两代左右差距，一定会有并跑甚至领跑的一天"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Figures from search summaries; no iFlytek primary page seen. Forum time 14:00 China time (06:00Z) so published_at is an estimate. The 'only model trained on all-domestic compute' claim is the company's. One commentary said domestic compute is 5x less efficient than H200; that is the author's opinion and is excluded. Press ran under a preview earlier (Oct 14-15) announcing the date.",
+      "score": {
+        "total": 65.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "minimax-hk-shares-first-close-below-ipo-price",
+      "title": "MiniMax closes below its HK$165 IPO price for the first time, down about 88% from its March peak",
+      "original_title": "MINIMAX-W，首次破发",
+      "summary": "MiniMax shares fell below the HK$165 IPO price in Hong Kong on Oct 22, trading at HK$164.7 within 15 minutes of the open and closing at HK$160.7 (about -6.5% on the day per Sina). The stock peaked at HK$1,330 in March, so the maximum drawdown is about 88%. Chinese media attribute the slide to a small initial free float, a 153M-share lock-up expiry in July, a 35.6M-share placement and HK$6.5B of convertible bonds adding supply, and price competition from rivals such as DeepSeek.",
+      "why_it_matters": "A once-hot AI listing is now at issue price, erasing a roughly 7x run and the founder's paper wealth, and it worsens the read-through for other listed or listing-bound Chinese model makers (Zhipu, Kimi, MiniMax's own A-share tutoring).",
+      "key_numbers": [
+        "HK$160.7 close vs HK$165 IPO price",
+        "HK$1,330 March peak",
+        "~88% max drawdown",
+        "H1 2026 revenue +283.1% y/y"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MiniMax"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T02:31:23Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261022/herald/01d337a32b705dc1b561db96a7ce539c.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MINIMAX-W，首次破发"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261022/herald/71546bba73e44d66a66ac863a8cdb9d6.html",
+          "outlet": "21经济网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MiniMax破发、阿里巴巴股价跌破百元关口"
+        },
+        {
+          "url": "https://www.ithome.com/1/016/269.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "曾暴涨 7 倍，大模型企业 MiniMax 股价跌破 IPO 发行价"
+        },
+        {
+          "url": "https://www.huxiu.com/article/4899672.html",
+          "outlet": "虎嗅",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "收入快速增长，MiniMax却破发了？"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "hk-ai-model-stocks-zhipu-minimax-slide-oct20",
+      "confidence_note": "Price figures are from search-result summaries of the Chinese reports, not read in full; intraday (164.7) and close (160.7) differ by source. HK ticker 00100 per most reports (one report cited a different code); Yahoo form 0100.HK is my conversion. The harvest also shows a Sohu piece on 'founder wealth evaporated RMB90B'; not used.",
+      "score": {
+        "total": 65.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.753
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "openai-30b-round-uae-investors-1-25t",
+      "title": "OpenAI nears up to $30B round at $1.25T valuation led by UAE investors, CNBC reports",
+      "summary": "CNBC reports OpenAI is nearing a funding round of up to $30 billion at a $1.25 trillion valuation, led by UAE investors. Earlier Bloomberg-derived reports (Oct 6) described UAE funds including MGX in talks to invest up to about $10 billion of a $30 billion round, with BlackRock also in discussions, and a $1.4 trillion pre-money ask.",
+      "why_it_matters": "A lower headline valuation than the earlier $1.4T ask would be a data point on investor appetite just before Anthropic's IPO; Gulf capital is again the anchor for frontier-lab funding.",
+      "key_numbers": [
+        "up to $30B",
+        "$1.25T valuation",
+        "UAE-led"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "OpenAI",
+        "MGX"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T20:15:19Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors"
+        },
+        {
+          "url": "https://www.businesstoday.com.my/2026/10/06/openai-in-talks-for-us30-billion-round-with-uae-funds-blackrock/",
+          "outlet": "Business Today Malaysia",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI In Talks For US$30 Billion Round With UAE Funds, BlackRock"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.8,
+      "novelty": 0.4,
+      "follow_up_of": "openai-racing-to-raise-30b-before-anthropic-ipo",
+      "confidence_note": "CNBC article body not readable (WebFetch blocked); figures taken from the CNBC headline. Earlier reports (Oct 6, Bloomberg-derived) cited about $1.4T, so $1.25T may be a lowered or post-money/different basis; unverified which. Lead investor identity and close date not confirmed.",
+      "score": {
+        "total": 62.3,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.814
+        },
+        "coverage": 2,
+        "mentions": 6,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "miit-eight-ministries-industrial-base-15th-five-year-plan-ai",
+      "title": "Eight ministries' industrial-base plan calls for general and sector foundation models and 'models/agents as a service'",
+      "original_title": "八部门：加强产业基础领域通用大模型和行业大模型研发布局",
+      "summary": "MIIT and seven other departments issued the 'Industrial Base Capability Improvement 15th Five-Year Plan' on Oct 22. Under 'AI empowering industrial-base innovation' it calls for stronger R&D layout of general and industry foundation models, fusion of industrial-mechanism models with agent decision models, AI-native basic products, and new models such as model-as-a-service and agent-as-a-service. The plan sets 22 key tasks across 7 areas and aims to ease weak industrial-base problems markedly by 2030.",
+      "why_it_matters": "It writes AI into the 15th Five-Year-Plan-era industrial policy and signals demand for sector models and agents in manufacturing, a tailwind narrative brokers are already using to argue for a re-rating of domestic model stocks.",
+      "key_numbers": [
+        "22 key tasks",
+        "7 task areas",
+        "2030 target"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "MIIT"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T02:19:18Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261022/herald/82a6f810cf5f1ea09e2c46beda11e837.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "八部门：加强产业基础领域通用大模型和行业大模型研发布局"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261022/c680992196.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "八部门：加强产业基础领域通用大模型和行业大模型研发布局，培育模型即服务、智能体即服务等新业态"
+        },
+        {
+          "url": "https://www.chinaz.com/ainews/31796.shtml",
+          "outlet": "站长之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "八部门印发产业基础\"十五五\"规划，布局通用与行业大模型"
+        },
+        {
+          "url": "https://www.fx168news.com/express/fastnews/1453061",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "press",
+          "title": "工业和信息化部等八部门印发《产业基础能力提升“十五五”规划》（工信部）"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "No miit.gov.cn URL was seen; the FX168 flash quotes the MIIT text. The full list of the eight departments was not confirmed for this plan (an earlier January 'AI+manufacturing' opinion had eight departments). The plan's total date of release inferred from Oct 22 reports. Brokerage 're-rating' view is an investor opinion, not in the plan.",
+      "score": {
+        "total": 60.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.541
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "deepseek-minimax-complete-export-registration-overseas-licensing",
+      "title": "DeepSeek and MiniMax reportedly completed registration, open-sourcing and overseas licensing under China's draft tech-export list",
+      "original_title": "DeepSeek、MiniMax已完成开源和海外授权使用",
+      "summary": "Commentary account Yuyuan Tantian said that after MOFCOM and MOST on Oct 16 opened consultation on revising the catalogue of technologies prohibited or restricted from export (23 AI-related items including foundation models, agents, compute clusters), DeepSeek and MiniMax had already completed registration procedures and finished open-sourcing and overseas authorised use. Reposts frame the catalogue as drawing boundaries rather than blocking AI exports.",
+      "why_it_matters": "Suggests the leading open-weight Chinese labs are pre-empting export-control rules by licensing abroad before the list is final, and signals what the state will tolerate for overseas releases.",
+      "key_numbers": [
+        "23 AI-related technology items in the draft catalogue"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "MiniMax",
+        "MOFCOM"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T15:48:38Z",
+      "sources": [
+        {
+          "url": "http://stock.10jqka.com.cn/20261022/c680997162.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek、MiniMax已完成开源和海外授权使用"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L9SR592U0534A4SC.html",
+          "outlet": "网易订阅",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek、MiniMax已完成开源和海外授权使用"
+        },
+        {
+          "url": "https://panews.io/articles/01a16451-a3ae-72f1-985e-c32bbeb9ecd7",
+          "outlet": "PANews",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Yuyuan Tantian: DeepSeek and MiniMax Have Completed Registration Procedures and Finished Open-Sourcing and Overseas Authorized Use"
+        },
+        {
+          "url": "https://www.odaily.news/zh-CN/newsflash/526752",
+          "outlet": "Odaily",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "玉渊谭天： DeepSeek 、 MiniMax 已顺利履行登记手续并完成开源和海外授权使用"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "china-mofcom-draft-export-control-40-ai-biotech-solar-technologies",
+      "confidence_note": "Single-source claim by an unofficial commentary account, unconfirmed by MOFCOM, DeepSeek or MiniMax. Recent_ids described the Oct 16 draft as covering 40 technologies across AI, biotech and solar; the 23 is the AI-related subset per the reposts' summary, not verified. Earlier reporting suggested MiniMax's M2.7 licence was changed to a modified MIT with commercial authorisation required (snippet); not included.",
+      "score": {
+        "total": 60.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.669
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 1.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "cctv-ai-membership-resellers-doubao-kimi-privacy",
+      "title": "CCTV: cheap shared AI memberships for Doubao, Kimi and others let renters see all your chats",
+      "original_title": "警惕AI会员二道贩子！央视曝光无限薅豆包会员隐患：出租方可见全部对话",
+      "summary": "A CCTV segment (reported Oct 22) found second-hand platforms selling cheap access to paid AI memberships. A reporter paid RMB4.7 for 10 minutes of Kimi via a third-party login page and the lender could still see the conversation for 24 hours after expiry. A RMB1.2 'unlimited Doubao' tutorial gave no benefit, and some sellers resell API keys that may be stolen. Doubao staff said memberships are issued only through official channels.",
+      "why_it_matters": "Shows grey-market arbitrage around subsidised Chinese AI subscriptions and creates a data-leak risk for users, which could invite platform crackdowns or regulatory attention.",
+      "key_numbers": [
+        "RMB4.7 for 10 minutes of Kimi",
+        "RMB1.2 'crack' tutorial",
+        "chats visible 24h after expiry"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "Doubao",
+        "Moonshot AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T03:11:00Z",
+      "sources": [
+        {
+          "url": "https://news.mydrivers.com/1/1159/1159556.htm",
+          "outlet": "快科技",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "警惕AI会员二道贩子！央视曝光无限薅豆包会员隐患：出租方可见全部对话"
+        },
+        {
+          "url": "https://finance.sina.cn/2026-10-22/detail-iniwaezr5227886.d.html?vt=4&cid=76675&node_id=76675",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "转发提醒！警惕AI会员二道贩子"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5356780206951960.html",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "花 4 块买 10 分钟 AI 会员，出租方却能看到你所有对话"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "CCTV original not seen; details from reposts via search summary. Kimi price quoted as 4.7 yuan in one summary and '4 yuan' in a headline. The segment name (《真相来了》) is from the search summary only.",
+      "score": {
+        "total": 50.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.541
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "openai-decisions-api-open-to-all-developers",
+      "title": "OpenAI makes Decisions API widely available, targeting TypeSafe's Jev",
+      "summary": "OpenAI published 'Build more responsive apps with the Decisions API' on Oct 22 and TechCrunch reports it is now widely available. The API, on a dedicated /v1/decisions endpoint with GPT-6 Luna, picks among predefined answers (predicates, choices, scores) instead of generating text, and accepts text and images. Secondary reports put pricing at $0.10 per million input tokens with no output or cache charges, and OpenAI claims up to 10x faster responses than the Responses API.",
+      "why_it_matters": "Routing and classification calls are high-volume, low-margin workloads, so OpenAI is pricing into the niche TypeSafe's Jev opened in September. Jev is reportedly cheaper ($0.042/M) but text-only.",
+      "key_numbers": [
+        "$0.10/M input tokens, no output charge (secondary)",
+        "up to 10x faster than Responses API (OpenAI claim)",
+        "Jev: $0.042/M input (secondary)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "TypeSafe AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T19:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/decisions-api",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Build more responsive apps with the Decisions API"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Neither the OpenAI nor TechCrunch page could be fetched; I only saw the harvest titles. Pricing, endpoint, model and 10x claim come from secondary sites (Dealroom, ProPakistani, letsdatascience) that dated the public beta to Oct 6, 2026, so the Oct 22 step may be a GA/wider availability follow-up rather than a first launch. Check what exactly changed on Oct 22 before publishing.",
+      "score": {
+        "total": 48.0,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.814
+        },
+        "coverage": 2,
+        "mentions": 6,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "guangdong-medical-ai-pilot-base-84-vertical-models",
+      "title": "Guangdong's national medical AI pilot base reports 84 vertical models, 381 application scenarios",
+      "original_title": "国家人工智能应用中试基地（医疗领域）形成84个垂类模型矩阵",
+      "summary": "At a milestone briefing in Guangzhou on Oct 21 the Guangdong site of the national AI application pilot base (medical) said it has assembled 84 health-sector vertical models across public service, clinical care and public health. It cites 154 high-quality datasets and 381 medical AI scenarios drawn from 68,000+ institutions and 182 tertiary hospitals. Examples include an immunisation agent on the Yuemiao platform with 96%+ Q&A success and an infectious-disease early-warning system using 55 field-tested models.",
+      "why_it_matters": "A concrete state-led build-out of vertical medical models and data spaces, the same segment where Zhipu and iFlytek are bidding for government contracts.",
+      "key_numbers": [
+        "84 vertical models",
+        "154 datasets",
+        "381 scenarios",
+        "182 tertiary hospitals"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "National Health Commission",
+        "Guangdong"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T03:46:00Z",
+      "sources": [
+        {
+          "url": "https://www.chinanews.com.cn/jk/2026/10-22/10718889.shtml",
+          "outlet": "中新网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国家人工智能应用中试基地（医疗领域）形成84个垂类模型矩阵"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261022/herald/55e17292a5f2bbeb166aa94d982931df.html",
+          "outlet": "21经济网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国家人工智能应用中试基地（医疗领域）形成84个垂类模型矩阵"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Figures from a search summary of Chinanews/21jingji; start date of the Guangdong base is inconsistent between reports (July vs September 2025). Harvest listed CCTV-net as another outlet but I did not see its URL. The harvest framing did not name Guangdong; this was found in the reports.",
+      "score": {
+        "total": 47.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "chongqing-agi-conference-opens-mingjing-agent-platform",
+      "title": "Chongqing AGI conference opens; local institute launches Mingjing agent platform for megacity governance",
+      "original_title": "通用人工智能大会在重庆开幕",
+      "summary": "The 2026 General AI Conference (Oct 21-23, 'Tong Zhi China') opened in Chongqing on Oct 22, with party secretary Yuan Jiajun speaking. Chongqing's AGI institute launched the Mingjing platform for creating, training, testing and evolving agents, aimed at megacity governance, plus an agent quality-inspection centre and a partner programme drawing model, compute, chip and embodied-AI firms. The event has one main forum, 10 parallel forums and three contests; Fields medallist David Mumford was among the speakers.",
+      "why_it_matters": "A provincial-level push to host agent infrastructure for city governance, showing how local governments are anchoring AGI branding and agent platforms.",
+      "key_numbers": [
+        "Oct 21-23",
+        "1 main forum + 10 parallel forums + 3 contests"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Chongqing AGI Institute",
+        "Chongqing"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T02:45:14Z",
+      "sources": [
+        {
+          "url": "https://www.chinanews.com.cn/sh/2026/10-22/10719231.shtml",
+          "outlet": "中新网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "通用人工智能大会在重庆启幕 发布明镜平台赋能超大城市治理"
+        },
+        {
+          "url": "http://news.cyol.com/gb/keji/articles/2026-10/22/content_3nX4KMHwy3.html",
+          "outlet": "中青在线",
+          "lang": "zh",
+          "tier": "press",
+          "title": "通用人工智能大会在重庆开幕 聚焦技术落地与城市治理"
+        },
+        {
+          "url": "https://www.cqnews.net/web/content_1562871110454558720.html",
+          "outlet": "华龙网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "通用人工智能大会在渝开幕 袁家军出席开幕式并致辞 尚勇高松乔杰致辞 陈新武出席"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": "national-agi-challenge-chongqing-agi-conference-oct21",
+      "confidence_note": "Details from a search summary; the Yuan Jiajun title (party secretary) is from the summary and an earlier Aug report. Low significance; drop if space is tight.",
+      "score": {
+        "total": 46.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "zhipu-xiamen-medical-llm-platform-rmb10-58m-win",
+      "title": "Zhipu wins RMB10.58M Xiamen medical large-model platform tender",
+      "original_title": "千万级医疗AI订单，智谱中标",
+      "summary": "Zhipu was announced as winning supplier of phase one of the 'AI medical large-model base and application project' run by the Xiamen Health and Medical Big Data Center, at RMB10.58 million against a RMB10.8M budget. The scope covers a medical model platform, data-security and federated-learning capabilities, a mental-health service application and data-asset management. Zhipu and affiliates have reportedly won or been awarded at least 21 government and enterprise projects, 3 of them above RMB10M.",
+      "why_it_matters": "Small in absolute terms, but it is the type of government-sector revenue Zhipu needs to defend a valuation that has fallen sharply since its peak, and shows model makers moving into regional health-data projects.",
+      "key_numbers": [
+        "RMB10.58M winning bid",
+        "RMB10.8M budget ceiling",
+        "21+ gov/enterprise projects won",
+        "3 projects over RMB10M"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T06:20:56Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/dy/article/L9ROUG0B051180F7.html",
+          "outlet": "网易订阅",
+          "lang": "zh",
+          "tier": "press",
+          "title": "千万级医疗AI订单，智谱中标！"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xQj61dYqB9",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "千万级医疗AI订单，智谱中标"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Details from a search summary of the 智东西 original (reposted by Netease, iFeng, Sohu, Sina); I did not open the tender notice. The H1 2026 revenue (>RMB954M, ~+400%) appeared in one source only and is omitted from key numbers. Zhipu HK code 2513 is from my knowledge, not seen in this session's sources.",
+      "score": {
+        "total": 44.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.503
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "anthropic-openai-musk-donation-pledges-ai-backlash",
+      "title": "Anthropic, OpenAI and Musk pledge donations as AI backlash grows, Bloomberg says",
+      "summary": "Bloomberg's Oct 22 newsletter says Anthropic, OpenAI and Elon Musk have pledged donations amid public backlash against AI. Context: Anthropic said Oct 18 it would put 5% of its shares in a Public Benefit Fund pending stockholder approval; Musk replied by vowing a SpaceX share for every US child next year. An AP-NORC poll found 64% of Americans think AI is developing too fast.",
+      "why_it_matters": "Giveaways are becoming the industry's answer to political backlash ahead of IPOs and the November midterms.",
+      "key_numbers": [
+        "5% of Anthropic shares",
+        "64% say AI moving too fast (AP-NORC)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "OpenAI",
+        "Elon Musk"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T20:01:25Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/anthropic-openai-musk-pledge-donations-amid-ai-backlash",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic, OpenAI, Musk Pledge Donations Amid AI Backlash"
+        },
+        {
+          "url": "https://www.cityam.com/?p=2466827",
+          "outlet": "City AM",
+          "lang": "en",
+          "tier": "press",
+          "title": "Musk and Anthropic seek to temper AI backlash with billion-dollar giveaways"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-5pct-public-benefit-fund",
+      "confidence_note": "Bloomberg body unreadable; the nature of OpenAI's pledge is unknown (searches found none). Anthropic and Musk details come from City AM / AP-style syndicated snippets (Oct 18-19) which pre-date the window.",
+      "score": {
+        "total": 44.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.461
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 3.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "uber-chatgpt-work-all-employees",
+      "title": "Uber rolls out ChatGPT Work to all employees with OpenAI",
+      "summary": "OpenAI says Uber is bringing ChatGPT Work to all of its employees. TechCrunch also covered the announcement.",
+      "why_it_matters": "A large enterprise-wide deployment is a test for OpenAI's workplace product against Claude and Gemini offerings, though Uber has reportedly trimmed some AI credits elsewhere.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Uber"
+      ],
+      "tickers": [
+        "UBER"
+      ],
+      "published_at": "2026-10-22T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Uber brings ChatGPT Work to all employees with OpenAI"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Headline only; page not fetched and no seat count or terms seen. The harvest lists TechCrunch AI coverage but I did not see its URL, so it is not cited. published_at 00:00Z is the harvest placeholder. The 'trimmed credits' remark comes from an undated secondary report. Uber is a party to the deal, hence the ticker.",
+      "score": {
+        "total": 42.5,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.393,
+          "momentum": 0.814
+        },
+        "coverage": 3,
+        "mentions": 6,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "nvidia-minerva-ai-factory-observability",
+      "title": "Nvidia unveils Minerva for end-to-end observability of AI factories",
+      "summary": "Nvidia announced Minerva, a platform it says brings end-to-end observability to AI factories, in its GTC Berlin news flow.",
+      "why_it_matters": "Operating-layer software for large GPU clusters is where Nvidia extends from selling chips to running the data centre.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-22T15:00:02Z",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Headline only; search found no independent coverage and no details on Minerva's features, availability or partners. Treat as a brief at most.",
+      "score": {
+        "total": 42.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.742
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 3.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "huang-neocloud-demand-off-the-charts-capital-scarce",
+      "title": "Nvidia's Huang says neocloud demand is 'off the charts' but capital is scarce",
+      "summary": "CNBC reports Nvidia CEO Jensen Huang said demand from neocloud providers is 'off the charts' while capital to fund their buildouts is scarce. It follows Huang's recent comments that CoreWeave's cost of capital is improving and that no Nvidia backstop is needed.",
+      "why_it_matters": "Neocloud financing is the weak link in Nvidia's demand chain; scarce capital, not demand, may set the pace of GPU deployment.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "CoreWeave"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-22T10:01:29Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "huang-coreweave-improving-no-backstop-needed",
+      "confidence_note": "Only the CNBC headline/URL seen; article text unreadable, so no figures or event context (likely the same GTC Berlin/Europe trip). Single outlet: needs a second source or primary quote to qualify as a lead.",
+      "score": {
+        "total": 42.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.742
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 3.429,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "huang-sees-no-2029-memory-glut",
+      "title": "Huang sees no sign of a 2029 memory glut: 'You can always use more'",
+      "summary": "CNBC reports Nvidia's Jensen Huang said he sees no sign of a memory glut in 2029, saying 'You can always use more', in response to the memory-stock selloff. Memory stocks have been volatile since Oct 10; earlier coverage logged over $700B lost and Goldman flagging Samsung and SK hynix as buys.",
+      "why_it_matters": "The biggest HBM/DRAM buyer is publicly rebutting the oversupply thesis driving the memory sell-off, ahead of SK hynix and Samsung results next week.",
+      "key_numbers": [
+        "no 2029 glut"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "SK hynix",
+        "Samsung Electronics"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-22T13:12:38Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "CNBC headline only; body unreadable. Searches could not independently find the 2029 quote. Huang has said similar things earlier in 2026 (memory demand outpacing capacity), so novelty is low. Memory-maker tickers deliberately not tagged (not parties).",
+      "score": {
+        "total": 42.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.742
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 3.429,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "nvidia-cosmos-open-tools-world-models",
+      "title": "Nvidia opens Cosmos tools to train, evaluate and deploy world models",
+      "summary": "At GTC Berlin Nvidia published 'NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models'. Nvidia's Cosmos pages describe an open physical-AI platform with data curation (Cosmos Curator), evaluation (Cosmos Evaluator) and post-training frameworks around Cosmos 3.",
+      "why_it_matters": "Open tooling around world models pulls robotics and autonomous-vehicle developers further into Nvidia's stack.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-22T05:00:27Z",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+          "outlet": "NVIDIA Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only the harvest headline/URL seen; page not fetched. What exactly is new on Oct 22 (names, licences, models) is unconfirmed; the Cosmos component names come from nvidia.com product pages, not this post. Single source, so it will not qualify as a lead without a second one.",
+      "score": {
+        "total": 41.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.742
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 3.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "openai-anthropic-nvidia-record-lobbying-quarters",
+      "title": "OpenAI, Anthropic and Nvidia posted record lobbying quarters, The Verge reports",
+      "summary": "The Verge reports OpenAI, Anthropic and Nvidia each had record lobbying quarters in Q3 disclosures. For scale, Q2 2026 figures reported earlier were Anthropic $1.97M, OpenAI $1.2M and Nvidia $1.25M.",
+      "why_it_matters": "Washington spend is scaling with IPO plans and the midterms; Anthropic out-spending Nvidia reflects the policy fights over federal safety rules and chip exports.",
+      "key_numbers": [
+        "Q2: Anthropic $1.97M",
+        "Q2: OpenAI $1.2M",
+        "Q2: Nvidia $1.25M"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T15:50:30Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Q3 dollar amounts not obtained (Verge unreadable). Q2 numbers are from a CNBC-sourced summary in a search snippet (ecosystemastartup/thenextweb), not directly seen at source. Tickers not tagged.",
+      "score": {
+        "total": 41.4,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.814
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 2.571,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "scmp-semianalysis-huawei-deepseek-narrow-nvidia-ecosystem-gap",
+      "title": "SCMP: SemiAnalysis says Huawei-DeepSeek collaboration is narrowing Nvidia's ecosystem lead",
+      "summary": "SCMP reports on a SemiAnalysis note titled around 'Jensen's nightmare', arguing DeepSeek's work with Huawei is narrowing Nvidia's software and hardware ecosystem advantage. DeepSeek released six software modules mirroring ones built for Nvidia chips, and SemiAnalysis projects it will rely mainly on Huawei's stack by 2027-28. The note says Ascend 950PR still trails the H100 in absolute performance, though Huawei's best kernels hit 99.7% of theoretical ceiling, and many optimisations remain focused on large supernodes.",
+      "why_it_matters": "A respected semiconductor research house describing the CUDA moat as eroding strengthens the case for Chinese demand shifting from Nvidia to Ascend as US export curbs persist.",
+      "key_numbers": [
+        "6 DeepSeek software modules",
+        "DeepSeek mainly on Huawei stack by 2027-28 (projection)",
+        "99.7% of theoretical ceiling on best kernels"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Huawei",
+        "DeepSeek",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T12:00:14Z",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/tech-war/article/3371806/jensens-nightmare-huawei-deepseek-narrow-ai-chip-ecosystem-gap-nvidia-report",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "'Jensen's nightmare': Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet (SCMP); SemiAnalysis note not seen. Details from a search summary of the SCMP piece. Related to the already-covered DeepSeek DeepInfer open-sourcing (Oct 20). May not qualify as a lead; use as a supporting item.",
+      "score": {
+        "total": 39.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "ai2-olmoearth-v1-3-planet-embeddings",
+      "title": "Ai2 releases OlmoEarth v1.3 with embeddings for the whole planet",
+      "summary": "Ai2 published 'OlmoEarth v1.3: State-of-the-art embeddings for the whole planet' on the Hugging Face blog. OlmoEarth is Ai2's open Earth-observation foundation model family, first released in November 2025 in four sizes, with an embedding-export feature in OlmoEarth Studio.",
+      "why_it_matters": "Open planet-scale embeddings compete directly with Google's AlphaEarth Foundations for conservation and mapping work.",
+      "key_numbers": [],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Ai2"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T16:11:31Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+          "outlet": "Hugging Face Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Only the title/URL seen; search found no v1.3 details, so benchmarks, coverage and licence are unknown. Background on earlier OlmoEarth versions is from allenai.org search snippets.",
+      "score": {
+        "total": 39.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "deepmind-beyond-tree-cover-forest-types-map",
+      "title": "Google DeepMind publishes global map of forest types, going beyond tree cover",
+      "summary": "DeepMind posted 'Beyond tree cover: mapping the world's forest types'. Earlier DeepMind-linked work (Natural Forests of the World 2020, Scientific Data) produced a 10 m natural-forest map reported at 92.2% accuracy; whether this post is that dataset or a newer release is not confirmed.",
+      "why_it_matters": "Forest-type maps underpin deforestation-free supply-chain checks, where tree-cover maps cannot tell natural forest from plantations.",
+      "key_numbers": [],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Google DeepMind"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T14:30:24Z",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Beyond tree cover: mapping the world's forest types"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Blog body not read; only the title and URL from the harvest. The 92.2% figure belongs to the earlier 2020 natural-forest paper (from search snippets) and is not claimed for this release, so it is left out of key_numbers.",
+      "score": {
+        "total": 37.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.442
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "anthropic-ipo-windfall-iconiq-spark-gic",
+      "title": "Anthropic IPO set to deliver blockbuster gains for Iconiq, Spark Capital and GIC, Bloomberg says",
+      "summary": "Bloomberg reports early backers Iconiq, Spark Capital and GIC stand to make large gains from Anthropic's coming IPO. Reported timing is a November listing, with a roadshow possibly the week of Nov 9; valuation talk has ranged from about $1.5T to $2T.",
+      "why_it_matters": "Frames who gets paid by the largest AI listing yet, as the OpenAI round is timed around it.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Iconiq",
+        "Spark Capital",
+        "GIC"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T19:34:03Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/anthropic-ipo-to-drive-blockbuster-gains-for-iconiq-spark-gic",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic IPO to Drive Blockbuster Gains for Iconiq, Spark, GIC"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "eric-schmidt-anthropic-stake-ipo-windfall",
+      "confidence_note": "Only the Bloomberg headline seen (paywalled); no gain figures. Timing/valuation context from earlier press (WSJ Sept 18 via cryptobriefing; implicator.ai) and not confirmed by Anthropic. Single outlet: weak lead; best folded into an Anthropic IPO roundup.",
+      "score": {
+        "total": 35.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.461
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 3.857,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 23
+    },
+    {
+      "id": "worldtui-360m-model-simulates-terminal",
+      "title": "WorldTUI: developer trains a 360M-parameter model to act as a terminal",
+      "summary": "A developer blog post, 'WorldTUI: I trained a 360M model to pretend to be a terminal', describes a small world model that simulates terminal output. It drew 465 points and 149 comments on Hacker News.",
+      "why_it_matters": "It is a small, hands-on test of whether compact models can serve as learned simulators of software environments, which agent training could use in place of real sandboxes.",
+      "key_numbers": [
+        "360M parameters",
+        "465 HN points"
+      ],
+      "topic": "research",
+      "region": "other",
+      "entities": [
+        "simedw"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-22T02:18:41Z",
+      "sources": [
+        {
+          "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+          "outlet": "simedw.com",
+          "lang": "en",
+          "tier": "social",
+          "title": "WorldTUI: I trained a 360M model to pretend to be a terminal"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Post not read and search returned nothing on it; accuracy, data and method unknown. The 'why it matters' is interpretation of the title. Author attribution is from the domain only. Personal blog, so tier social; use as a short item at most.",
+      "score": {
+        "total": 27.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.5,
+          "credibility": 0.1,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 24
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10",
+      "title": "Mistral Large 4 open weights promised by end of October (not released as of Oct 15; licence not announced)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://braindetox.kr/en/posts/mistral_large_4_public_preview_open_weight_2026.html"
+    },
+    {
+      "date": "2026-11",
+      "title": "OpenAI Decisions API general availability expected 'in the coming weeks' after Oct 6 public beta",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://propakistani.pk/2026/10/07/openai-launches-decisions-api-with-up-to-10x-faster-responses/"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "SK hynix Q3 2026 earnings (consensus operating profit about 77T won per FnGuide)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://trendforce.com/news/2026/10/08/news-samsung-sees-3q26-operating-profit-soaring-783-to-record-krw-107-4-trillion-on-hbm4-memory-price-gains"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Samsung Electronics full Q3 2026 results (preliminary operating profit 107.4T won already out Oct 8)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://trendforce.com/news/2026/10/08/news-samsung-sees-3q26-operating-profit-soaring-783-to-record-krw-107-4-trillion-on-hbm4-memory-price-gains"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "AMD fiscal Q3 2026 results, call 5pm ET",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "US midterm elections; AI super PAC and lobbying spending in focus",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://techstrong.ai/articles/openai-anthropic-surge-to-record-lobbying-spending-ahead-of-midterms/"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Anthropic IPO roadshow could start this week; listing targeted for November before Thanksgiving (press repo...",
+      "kind": "other",
+      "confidence": "rumored",
+      "url": "https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Nvidia fiscal Q3 2027 earnings (estimated date, unconfirmed)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://days.to/nvidia-earnings"
+    },
+    {
+      "date": "2026-12-02",
+      "title": "EU AI Act: nudification-app ban and extended watermarking deadline apply under the AI omnibus (high-risk An...",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/european-parliament-votes-to-simplify-ai-regulation"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "General AI Conference (通用人工智能大会) closes in Chongqing; contests and parallel forums run Oct 21-23",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://www.cqnews.net/web/content_1560399899812249600.html"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "iFlytek 1024 Developer Festival: competition events in Hefei after the Oct 22 Beijing main forum",
+      "kind": "conference",
+      "confidence": "expected",
+      "url": "https://www.allagent.wiki/changelog/2026-10-15-spark-x2-6-1024-developer-festival/"
+    },
+    {
+      "date": "2027-01",
+      "title": "DeepSeek IPO window (reportedly early 2027, STAR Market, CITIC Securities engaged)",
+      "kind": "other",
+      "confidence": "rumored",
+      "url": "https://news.10jqka.com.cn/20261014/c680656443.shtml"
+    }
+  ],
+  "notes": "Web search indexing for Oct 21-22 was thin and article bodies were mostly unreadable (WebFetch blocked); many items rest on headlines/search summaries as flagged in confidence_note."
+}
