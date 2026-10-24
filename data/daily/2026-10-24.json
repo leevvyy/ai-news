@@ -1,0 +1,664 @@
+{
+  "date": "2026-10-24",
+  "window": {
+    "start": "2026-10-23T21:48:00Z",
+    "end": "2026-10-24T21:48:00Z"
+  },
+  "tldr": [
+    "The UK committed £100M to a new AI Biosecurity Lab backed by OpenAI, Anthropic and Google DeepMind, whose contributions are reported to be mostly compute and model credits.",
+    "AI infrastructure credit stress deepened: neocloud shares are down over 30% in October, CoreWeave's credit default swaps passed 11%, and SK hynix scrapped its Solidigm IPO, putting Nvidia's role as financier under test.",
+    "Google faces two trust questions: a privacy-policy exception that could let personal-AI data inform ad targeting, and a Finnish order to halt data-centre site work after about 250,000 trees were cleared. In China, a think-tank study projects US-designed chips will still be about 65% of China's AI compute in 2027."
+  ],
+  "items": [
+    {
+      "id": "uk-100m-ai-biosecurity-lab-openai-anthropic",
+      "title": "UK commits £100M to an AI Biosecurity Lab backed by OpenAI, Anthropic and Google DeepMind",
+      "summary": "The UK government announced £100M for a new AI Biosecurity Lab, which Bloomberg says will be supported by OpenAI, Anthropic and Google DeepMind as part of measures to improve the government's ability to understand and tackle AI risks. Trade outlets describe it as an independent non-profit modelled on the AI Security Institute, with the labs' contributions largely in compute and model credits (about £100M each from OpenAI and up to £100M from Anthropic, per TECHi). No director, site or start date was reported.",
+      "why_it_matters": "Frontier labs are being folded into state-backed biosecurity infrastructure, and most of the labs' share is in-kind credits rather than cash.",
+      "key_numbers": [
+        "£100M government funding ($134M)",
+        "~£100M OpenAI credits (reported)",
+        "Up to £100M Anthropic credits (reported)"
+      ],
+      "topic": "policy",
+      "region": "eu",
+      "entities": [
+        "UK Government",
+        "OpenAI",
+        "Anthropic",
+        "Google DeepMind"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-23T23:01:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/uk-vows-100-million-for-biosecurity-lab-with-openai-anthropic",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "UK Vows £100 Million for Biosecurity Lab With OpenAI, Anthropic"
+        },
+        {
+          "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "UK funds £100m AI biosecurity lab with OpenAI and Anthropic"
+        },
+        {
+          "url": "https://www.techi.com/uk-ai-biosecurity-lab-100m-openai-anthropic-credits/",
+          "outlet": "TECHi",
+          "lang": "en",
+          "tier": "trade",
+          "title": "UK Commits £100M to AI Biosecurity Lab, £200M in OpenAI/Anthropic Credits"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Bloomberg detail seen via feed summary only. The credit amounts, the non-profit structure and the 'more than £600M AI security package' come from search-result summaries of TNW/TECHi, not the full articles.",
+      "score": {
+        "total": 65.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "google-privacy-policy-ads-exception-personal-intelligence",
+      "title": "Google's privacy policy adds an exception that could let personal-AI data inform ad targeting",
+      "summary": "The Verge reports that Google's updated privacy policy adds an exception to its long-standing promise not to use Drive, Gmail or Google Photos for personalised ads, applying to people who use personalised AI features. Techlicious says the policy, updated Oct 16, still states ads are not personalised directly from Gmail or Photos but that Search may process data users allow it to access to personalise content, including ads. Google says Personal Intelligence is opt-in and that Photos data is not used for ads; Fast Company argues the wording does not rule out future ads informed by Gmail data.",
+      "why_it_matters": "It tests how far consumers' trust in opt-in AI assistants holds once ad targeting is on the table, and may draw regulator attention.",
+      "key_numbers": [
+        "Policy updated Oct 16",
+        "Personal Intelligence is opt-in"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-23T16:52:55Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Now Google says it might use your Gmail and Google Photos data to target ads"
+        },
+        {
+          "url": "https://www.techlicious.com/blog/google-gmail-photos-insights-ads/",
+          "outlet": "Techlicious",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Gmail Photos insights ads"
+        },
+        {
+          "url": "https://fastcompanyme.com/technology/google-promised-not-to-show-ads-based-on-your-emails-ai-could-undo-that/",
+          "outlet": "Fast Company",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google promised not to show ads based on your emails. AI could undo that"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Published about 5 hours before the window opened (HN submission 372 points kept it developing). The Verge text is the feed excerpt; Techlicious and Fast Company details are from search summaries. The policy text itself was not read.",
+      "score": {
+        "total": 57.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.878
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "nvidia-financier-role-neocloud-selloff-solidigm-ipo-scrapped",
+      "title": "Neocloud stocks slump and IPOs are pulled, testing Nvidia's role as AI financier; SK hynix scraps Solidigm listing",
+      "summary": "CNBC reports that CoreWeave, Nebius and IREN fell sharply this week, taking October losses to well over 30% each, and that CoreWeave's credit default swap spreads widened past 11%, generally read as distress. SK hynix dropped its plan to list its Solidigm unit, citing market volatility; CNBC cites Reuters saying a Korean regulator had also questioned a US listing. A companion CNBC piece says Nvidia, now a financier to the neoclouds, faces its first big test, with $36B of off-balance-sheet cloud agreements as of its July filing. Nvidia-backed Firmus and Lambda are reported to have pulled or delayed IPOs.",
+      "why_it_matters": "Nvidia's guarantees and equity stakes tie its balance sheet to the credit health of leveraged GPU clouds just before hyperscaler earnings.",
+      "key_numbers": [
+        "CoreWeave CDS above 11%",
+        "Neocloud October losses >30%",
+        "Nvidia $36B off-balance-sheet agreements (July filing)",
+        "Oracle CDS 343bp"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "CoreWeave",
+        "Nebius",
+        "SK hynix",
+        "Solidigm"
+      ],
+      "tickers": [
+        "NVDA",
+        "CRWV",
+        "NBIS",
+        "000660.KS"
+      ],
+      "published_at": "2026-10-24T06:41:14Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans"
+        },
+        {
+          "url": "https://investinglive.com/stocks/nvidia-in-talks-to-invest-hundreds-of-millions-in-firmus-after-ai-cloud-firm-s-ipo-flop/",
+          "outlet": "investinglive",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia in talks to invest hundreds of millions in Firmus after AI cloud firm's IPO flop"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.7,
+      "novelty": 0.4,
+      "follow_up_of": "huang-neocloud-demand-off-the-charts-capital-scarce",
+      "confidence_note": "CNBC article bodies were not fetched; figures come from search-result summaries and feed text. The Firmus/Lambda IPO and Firmus investment talks are from the investinglive headline and search snippets only. SK hynix's own filing date was not seen.",
+      "score": {
+        "total": 55.1,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.492
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 3.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "google-finland-data-center-site-clearing-halted",
+      "title": "Google ordered to halt Finnish data-center site work after clearing an estimated 250,000 trees before environmental review",
+      "summary": "Fortune reports that Finland's Licensing and Supervision Agency ordered Google subsidiary Tuike Finland to suspend preparatory work at its Muhos and Kajaani sites until environmental impact assessments are finished. About 330 ha was cleared at Muhos and about 200 ha at Kajaani, with Fortune estimating 250,000 trees felled. The New York Post (Oct 24) adds that residents say wolves have entered villages. Google denies illegal logging and says the work met the Forestry Act.",
+      "why_it_matters": "A permitting and ESG setback for Google's largest European data-centre investment, adding to the siting backlash against AI infrastructure.",
+      "key_numbers": [
+        "~250,000 trees (Fortune estimate)",
+        "~330 ha Muhos, ~200 ha Kajaani",
+        "€13B Finnish investment"
+      ],
+      "topic": "compute",
+      "region": "eu",
+      "entities": [
+        "Google",
+        "Tuike Finland"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-24T07:01:00Z",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/10/23/google-finland-data-center-250-000-trees-environment/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google told to halt work on Finnish data centers after clearing an estimated 250,000 trees before environmental review was done"
+        },
+        {
+          "url": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/",
+          "outlet": "New York Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google illegally tore down 250K trees for Finland data center, infuriating locals: report"
+        },
+        {
+          "url": "https://cybernews.com/news/google-finland-data-center-trees/",
+          "outlet": "Cybernews",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google data centers in Finland face backlash over 400,000 felled trees"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Fortune ran on Oct 23, before the window; published_at is the New York Post time from the harvest. Tree counts conflict (Fortune ~250,000, Cybernews headline 400,000 across two sites); the hectare figures are more consistent. Article bodies were not fetched; details are from search summaries. 'Illegal' is the NY Post framing and Google disputes it.",
+      "score": {
+        "total": 54.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.878
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "block-dessa-speech-only-conversation-model",
+      "title": "Block unveils Dessa, a conversation model trained only on speech that can run locally on a MacBook",
+      "summary": "Block published a page titled 'Dessa: Conversation Model trained only on speech', which reached 483 points on Hacker News. TechCrunch, headlining that Block's new voice model 'sounds eerily human', reports that Block said the voice model can run locally on a MacBook M4 Max.",
+      "why_it_matters": "A speech-native conversational model from outside the big labs, small enough for a laptop, points to cheaper full-duplex voice assistants.",
+      "key_numbers": [
+        "Runs locally on MacBook M4 Max (per Block)",
+        "HN: 483 points"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Block",
+        "Dessa"
+      ],
+      "tickers": [
+        "XYZ"
+      ],
+      "published_at": "2026-10-23T19:09:54Z",
+      "sources": [
+        {
+          "url": "https://block.xyz/dessa",
+          "outlet": "Block",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Dessa: Conversation Model trained only on speech"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Block's new voice model sounds eerily human"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Block's page and the TechCrunch article were not opened; only titles, the feed excerpt and HN metrics were seen. Model size, data and availability are unverified. XYZ is Block's Yahoo symbol, assumed.",
+      "score": {
+        "total": 52.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "texas-suspends-17-data-center-permits-disables-portal",
+      "title": "Texas suspends 17 data-center construction permits and disables the portal that auto-approved them",
+      "summary": "Tom's Hardware, citing 404 Media, reports Texas has suspended the construction permits of 17 data-centre projects and taken down a web portal that automated new permit filings, after it emerged permits were still being issued a month after Gov. Greg Abbott asked in September for approvals to be paused. Watchdogs FracTracker Alliance and Public Citizen had documented more than two dozen permits issued. Earlier reporting found at least 35 data-centre-related applications advanced at the state environmental regulator by Oct 16, which the governor's office disputed.",
+      "why_it_matters": "It shows the data-centre permitting freeze in the largest US build-out state was leaky, feeding the political backlash ahead of the Nov 3 midterms.",
+      "key_numbers": [
+        "17 permits suspended",
+        "More than two dozen permits issued after the pause call"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Texas",
+        "Greg Abbott",
+        "TCEQ"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-24T11:35:00Z",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/texas-has-suspended-17-data-center-construction-permits-and-shut-down-automated-portal-used-to-approve-them-site-was-left-running-for-a-month-after-greg-abbott-called-for-a-pause-on-approvals",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "press",
+          "title": "Texas has suspended 17 data center construction permits and shut down automated portal that rubber-stamped projects"
+        },
+        {
+          "url": "https://communityimpact.com/bastrop-cedar-creek/texas-legislature/texas-continued-processing-some-data-center-permits-after-gov-abbott-s-pause-records-show/",
+          "outlet": "Community Impact",
+          "lang": "en",
+          "tier": "press",
+          "title": "Texas continued processing some data center permits after Gov. Abbott's pause, records show"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The '17 permits' figure and portal shutdown come from the Tom's Hardware feed text (which cites 404 Media); a separate search could not find them in other outlets. Community Impact covers the earlier leak of permits, not the suspension.",
+      "score": {
+        "total": 48.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "ifp-china-ai-compute-65pct-us-chips-scmp",
+      "title": "Study: US-designed chips to stay about 65% of China's AI compute in 2027 as offshore cloud access grows",
+      "summary": "SCMP reports that China's access to AI computing power will double next year, with US-designed chips still about 65% of capacity, according to a report by a Washington-based think tank. Total compute available to Chinese entities is projected to grow from about 4.6 million to 8.8 million H100-equivalents in 2027. A search summary adds that offshore cloud access is projected to rise from about 1 million to 2.8 million H100-equivalents by end-2027.",
+      "why_it_matters": "It quantifies the cloud-rental route around export controls just ahead of the Nov 9 US-China truce expiry, and undercuts the narrative of fast domestic substitution.",
+      "key_numbers": [
+        "4.6M → 8.8M H100-equivalents (2027)",
+        "~65% US-designed chips",
+        "Offshore cloud ~1M → 2.8M H100e by end-2027"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Institute for Progress",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-24T01:00:11Z",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/tech-war/article/3371929/chinas-ai-compute-surge-heavily-reliant-us-chips-offshore-cloud-access-report",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "China's AI compute surge heavily reliant on US chips, offshore cloud access: report"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet. The feed excerpt names a Washington-based report; attribution to the Institute for Progress and the offshore-cloud figures come from a search summary. The report itself was not located.",
+      "score": {
+        "total": 45.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "pennsylvania-ai-deceptive-advertising-act-signed",
+      "title": "Pennsylvania governor signs law requiring labels on AI-generated ads",
+      "summary": "The Verge reports that Gov. Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act on Thursday. It requires any ad, whether still image, video, audio or text, that has been significantly modified or generated by AI to carry a label. Search results indicate it passed the Senate 48-2 and the House 163-40 and is enforced by the attorney general and district attorneys, with civil fines reported up to $3,000 per violation.",
+      "why_it_matters": "Another US state AI-disclosure rule is landing while federal preemption fights continue, adding to the patchwork advertisers must follow.",
+      "key_numbers": [
+        "Senate 48-2, House 163-40",
+        "Fines up to $3,000 per violation (reported)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Pennsylvania",
+        "Josh Shapiro"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-24T18:32:21Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Pennsylvania will require labels on AI-generated ads"
+        },
+        {
+          "url": "https://www.mediapost.com/publications/article/418601/pennsylvania-passes-bill-requiring-disclosure-of-m.html",
+          "outlet": "MediaPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Pennsylvania Passes Bill Requiring Disclosure Of Misleading AI In Ads"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Signing is from the Verge feed excerpt; vote counts, enforcement and the fine come from search snippets of MediaPost and others and may blur SB 806 with a separate bill. The effective date was not confirmed.",
+      "score": {
+        "total": 42.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "chinese-factories-dismantle-rtx-5090-for-ai-servers",
+      "title": "Leaked video shows Chinese workshops stripping RTX 5090 cards to repurpose GPUs for AI servers, Tom's Hardware reports",
+      "summary": "Tom's Hardware says a newly surfaced video shows industrial workshops in China dismantling brand-new GeForce RTX 5090 cards to reuse the GPU die and memory in AI servers, which it offers as an explanation for the card vanishing from retail shelves. IT之家 separately ran a piece on rumours of Nvidia halting production pushing RTX 5090 prices in Huaqiangbei to around ¥60,000.",
+      "why_it_matters": "Grey-market conversion of consumer GPUs shows how tight AI compute is in China under export controls.",
+      "key_numbers": [
+        "RTX 5090 reportedly ~¥60,000 in Huaqiangbei (IT之家)"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-24T11:15:00Z",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "press",
+          "title": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI"
+        },
+        {
+          "url": "https://www.ithome.com/1/017/440.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "显卡一日一价：英伟达停产传闻搅动华强北，RTX 5090 被炒至 6 万元"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Based on a leaked video as described by Tom's Hardware; not independently verified. The IT之家 price figure is from its headline only.",
+      "original_title": "英伟达停产传闻搅动华强北，RTX 5090 被炒至 6 万元",
+      "score": {
+        "total": 39.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.492
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 3.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "study-grok-recommends-republicans-gpt-democrats",
+      "title": "Study: Grok recommends Republican candidates and OpenAI's GPT favours Democrats, disagreeing in over 90% of races",
+      "summary": "TechCrunch reports a new study finding that xAI's Grok overwhelmingly recommends Republican candidates while OpenAI's GPT favours Democrats, with the two models disagreeing in more than 90% of nearly 500 election races. The article body, method and authors were not seen.",
+      "why_it_matters": "It feeds the debate over chatbots' political lean days before the Nov 3 midterms.",
+      "key_numbers": [
+        "Models disagree in >90% of ~500 races"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "xAI",
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-24T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats."
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Feed excerpt only; study authors and methodology unknown.",
+      "score": {
+        "total": 38.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "bytedance-xiaoyunque-merged-into-jimeng",
+      "title": "ByteDance folds its AI short-drama tool Xiaoyunque into the Jimeng creation platform",
+      "original_title": "字节跳动AI短剧产品小云雀并入即梦,仍保留独立入口",
+      "summary": "IT之家, citing a 36Kr report, says ByteDance has merged Xiaoyunque, its AI short-drama creation platform, into the Jimeng AI creation platform while keeping a separate entry point. Jimeng has absorbed Xiaoyunque's short-drama features, and the product team is unchanged. Xiaoyunque launched a short-drama agent in March built on ByteDance's Seedance 2.0 model; the two products overlap in generating finished video from scripts.",
+      "why_it_matters": "A sign of ByteDance consolidating its AI video tools around Jimeng as the category crowds.",
+      "key_numbers": [
+        "Xiaoyunque short-drama agent: launched March",
+        "Supports scripts up to 100,000 characters"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "Jimeng",
+        "Xiaoyunque"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-24T10:59:27Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/017/480.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "消息称字节跳动 AI 短剧产品内部整合：小云雀并入即梦，仍保留独立入口"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Read via IT之家's summary of 36Kr's report; 36Kr's own article was not seen and ByteDance has not confirmed it.",
+      "score": {
+        "total": 25.0,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.471
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-20",
+      "title": "Meta's new business terms (delayed over publisher scraping concerns) take effect",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+    }
+  ],
+  "notes": "Quiet day: the search index held little from the window and WebFetch was unavailable, so most details are from search snippets and feed excerpts (see each confidence_note). Stories already in the last 7 days were dropped."
+}
