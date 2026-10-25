@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-25",
+  "window": {
+    "start": "2026-10-24T21:48:00Z",
+    "end": "2026-10-25T21:48:00Z"
+  },
+  "tldr": [
+    "Elvis Presley's rightsholders sued Anthropic over alleged training on 274 songs, seeking up to $150,000 per song.",
+    "Musk says SpaceX closed $40B of GPU debt and predicts a shakeout among 200+ neoclouds; Huang floated about $2,000 per GPU per year for Nvidia's agent software.",
+    "In China, Moonshot says Kimi K3.1 Pro had cyber-offense data removed, cutting an internal exploit benchmark from 90.5% to 81.0%, with full weights due by Nov 4."
+  ],
+  "items": [
+    {
+      "id": "elvis-presley-rightsholders-sue-anthropic-274-songs",
+      "title": "Elvis Presley rightsholders sue Anthropic over alleged training on 274 songs",
+      "summary": "A subsidiary of Authentic Brands Group, with other Presley rights owners, sued Anthropic on Oct 23 in the US District Court for the Northern District of California. The complaint alleges Claude was trained on 274 songs without a licence and can still produce infringing derivative versions when asked to update songs for a modern audience. Reports put statutory damages at up to $150,000 per song. Counsel is Richard Busch, who won the Marvin Gaye estate's 'Blurred Lines' case. Anthropic had not commented in the coverage seen.",
+      "why_it_matters": "It is another music-copyright suit against Anthropic, on top of the publishers' case, and it lands as the company heads toward an IPO where litigation exposure must be disclosed.",
+      "key_numbers": [
+        "274 songs",
+        "Up to $150,000 per song",
+        "Filed Oct 23, 2026"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Authentic Brands Group"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-24T18:28:00Z",
+      "sources": [
+        {
+          "url": "https://www.nme.com/news/music/elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs-3974178",
+          "outlet": "NME",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elvis Presley rightsholders sue AI company Anthropic over alleged copyright infringement of 274 songs"
+        },
+        {
+          "url": "https://www.hollywoodreporter.com/music/music-industry-news/anthropic-elvis-presley-lawsuit-ai-1236739617/",
+          "outlet": "The Hollywood Reporter",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Sued for Using Elvis Presley Music to Train AI Models"
+        },
+        {
+          "url": "https://au.rollingstone.com/music/music-news/elvis-presley-rightsholders-anthropic-lawsuit-infringement-102646",
+          "outlet": "Rolling Stone Australia",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elvis Presley Rightsholders Sue Anthropic for Training on 274 Songs Without Permission"
+        },
+        {
+          "url": "https://www.pastemagazine.com/music/elvis-presley/elvis-presleys-ip-owners-sue-anthropic-for-training-ai-with-his-songs",
+          "outlet": "Paste Magazine",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elvis Presley's IP owners sue Anthropic for training models using his songs"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Search snippets only, not full articles. Harvest shows NYT, Billboard and Guardian also covering it but those URLs were not seen. Damages totals differ between outlets, so none is given. Coverage began about 7h before the window opened (Oct 24 ~14:36Z); the suit was filed Oct 23.",
+      "score": {
+        "total": 57.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.214
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 3.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "musk-spacex-closes-40b-gpu-debt-neocloud-shakeout",
+      "title": "Musk says SpaceX closed $40B of debt for GPUs, predicts neocloud shakeout",
+      "summary": "On Oct 25 Elon Musk posted on X that SpaceX had closed $40B of debt to buy GPUs, mostly callable debt for chips arriving in Q1 and Q2, and 'not a major factor this quarter'. He credited SpaceX's investment-grade status and Starlink and launch revenue. He also said debt markets have nearly shut off financing for firms without substantial revenue outside AI data centres, and that more than 200 neoclouds face consolidation. Earlier reports described an Apollo-led package of bank loans and investment-grade debt tied to an Nvidia chip purchase.",
+      "why_it_matters": "Capital for GPU purchases is concentrating in large rated borrowers while neocloud credit tightens, a theme running through this month's neocloud selloff.",
+      "key_numbers": [
+        "$40B debt",
+        "GPUs arriving Q1-Q2 2027",
+        "200+ neoclouds said to face consolidation"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "Apollo",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-25T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://money.usnews.com/investing/news/articles/2026-10-25/musk-says-spacex-raised-40-billion-in-debt-for-gpus",
+          "outlet": "U.S. News (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Musk Says SpaceX Raised $40 Billion in Debt for GPUs"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Musk Says SpaceX Closed $40 Billion Debt Deal, Blasts Neoclouds"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Search snippets only. The close rests on Musk's own X post; no statement from SpaceX, Apollo or the banks was seen. An earlier FT report said the deal would close in 2027, which conflicts. SpaceX listing status/ticker unconfirmed, so no ticker is tagged.",
+      "score": {
+        "total": 53.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.583
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "kimi-k3-1-pro-strips-cyber-data-xdev-bench",
+      "title": "Moonshot says Kimi K3.1 Pro had cyber-offense data removed in training; internal exploit benchmark falls from 90.5% to 81.0%",
+      "original_title": "中国最强开源模型杀到！Kimi K3.1 Pro剥离网络攻击数据：编程仍反超GPT-6",
+      "summary": "Moonshot AI says Kimi K3.1 Pro, a post-training upgrade of K3, had cyber-offense and defense data identified and removed during mid-training and reinforcement learning. Chinese media report an internal benchmark, xdev-bench-hard, scoring 90.5% for the unfiltered variant versus 81.0% for the released model. The company reportedly says it will not open-weight a model at the absolute cyber frontier, and full weights are due by Nov 4. Reports also cite a 1M-token context and Terminal-Bench 4.0 at 65.7%.",
+      "why_it_matters": "It is a rare public case of a Chinese open-weight lab describing data filtering to cap offensive cyber capability.",
+      "key_numbers": [
+        "xdev-bench-hard 90.5% unfiltered vs 81.0% released",
+        "Terminal-Bench 4.0: 65.7%",
+        "1M-token context",
+        "Weights due by Nov 4"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Moonshot AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-25T03:47:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-10-24/doc-iniwiqmq1906528.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中国最强开源模型杀到！Kimi K3.1 Pro剥离网络攻击数据：编程仍反超GPT-6"
+        },
+        {
+          "url": "https://www.sohu.com/a/1092279884_121850794",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "月之暗面发布最强模型Kimi K3.1 Pro：3万亿级参数、100万Token上下文"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "kimi-k3-1-pro-highspeed-release",
+      "confidence_note": "Snippet-only; benchmark figures are media paraphrase of company statements and Moonshot's own post was not found. Model launched Oct 23-24; this covers the cyber-safety angle. Parameter counts are inconsistent across reports, so omitted. published_at is the Zaobao cluster first-seen time.",
+      "score": {
+        "total": 52.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.689,
+          "momentum": 0.503
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "nvidia-2000-per-gpu-annual-agent-software-fee",
+      "title": "Nvidia's Huang floats about $2,000 per GPU per year for agent-running software",
+      "summary": "At GTC Berlin on Oct 22, Jensen Huang pegged the cost of Nvidia software that 'runs agents on AI factories' at about $2,000 per GPU per year; Tom's Hardware, Notebookcheck and TechPowerUp wrote it up on Oct 25. It appears to be an illustrative figure rather than a final price. Nvidia has not said which products it would cover or when it would start, and it already sells AI Enterprise at a higher per-GPU price.",
+      "why_it_matters": "It signals Nvidia pushing toward recurring software revenue on top of hardware.",
+      "key_numbers": [
+        "~$2,000 per GPU per year"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-25T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'"
+        },
+        {
+          "url": "https://www.notebookcheck.net/Nvidia-discusses-2-000-per-GPU-annual-fee-for-running-AI-agents.1433623.0.html",
+          "outlet": "Notebookcheck",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia discusses $2,000-per-GPU annual fee for running AI agents"
+        },
+        {
+          "url": "https://www.techpowerup.com/354113/nvidia-eyes-software-revenue-with-a-usd-2-000-per-gpu-yearly-figure-from-huang",
+          "outlet": "TechPowerUp",
+          "lang": "en",
+          "tier": "trade",
+          "title": "NVIDIA Eyes Software Revenue With a $2,000 per GPU Yearly Figure From Huang"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "huang-gtc-berlin-dsx-pod-ai-factory-14-days",
+      "confidence_note": "Search snippets only. The remark was made Oct 22; only the trade write-ups are new (Oct 25). Whether the figure is a plan or an illustration is unconfirmed.",
+      "score": {
+        "total": 44.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.578,
+          "breadth": 0.487,
+          "momentum": 0.363
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 3.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "shanghai-first-ai-consumption-innovation-contest",
+      "title": "Shanghai holds first 'AI+Consumption' innovation contest with nearly 800 projects",
+      "original_title": "上海举办首届“人工智能+消费”创新大赛",
+      "summary": "Shanghai held the awards ceremony of its first 'AI+Consumption' innovation contest on Oct 25 at Xuhui West Bund, organised by the Shanghai Modern Service Industry Federation and West Bund Development Group. About 800 valid projects entered across three 'AI new consumption' tracks and one 'AI new force' track. A 'Qwen AI glasses' retail project won a first prize, as did an AI eye-analysis device.",
+      "why_it_matters": "A local signal of the push to bring Chinese AI hardware such as smart glasses into retail.",
+      "key_numbers": [
+        "Nearly 800 valid projects"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Shanghai Modern Service Industry Federation"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-25T06:23:00Z",
+      "sources": [
+        {
+          "url": "https://www.chinanews.com.cn/cj/2026/10-25/10720663.shtml",
+          "outlet": "China News Service",
+          "lang": "zh",
+          "tier": "press",
+          "title": "上海举办首届“人工智能+消费”创新大赛"
+        },
+        {
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-25/doc-iniwmxsn2934452.shtml",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "近800个项目参加，这场大赛让“人工智能+消费”从理念走向实践"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. Low-stakes local event.",
+      "score": {
+        "total": 37.5,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "wuwen-xinqiong-three-body-zhizi-agent-1-0",
+      "title": "Infinigence AI and Three-Body Universe launch 'Zhizi Agent 1.0', a Three-Body character agent",
+      "original_title": "国产AI底座赋能国产原创IP智能化升级，无问芯穹与三体宇宙联合发布智子Agent 1.0",
+      "summary": "At the '2026 Three-Body Day' event in Beijing on Oct 25, Infinigence AI and Three-Body Universe announced a strategic partnership and a first product, Zhizi Agent 1.0, a dialogue agent modelled on the Three-Body character Zhizi with cross-session memory and a multi-agent set-up separating persona, knowledge retrieval and content verification. It runs on Infinigence's AgentWorks platform. The company claims its inference architecture cuts time-to-first-token by 51.5% and per-token cost by 37.5%.",
+      "why_it_matters": "A niche but concrete example of a Chinese AI-infrastructure startup tying its agent stack to an IP owner's consumer product.",
+      "key_numbers": [
+        "TTFT -51.5% (company claim)",
+        "Per-token cost -37.5% (company claim)"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Infinigence AI",
+        "Three-Body Universe"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-25T13:59:00Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/tech/article/LA47MNGT00099F4I.html",
+          "outlet": "NetEase Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "无问芯穹与三体宇宙达成战略合作，联合发布“智子Agent 1.0”"
+        },
+        {
+          "url": "https://www.sohu.com/a/1092560551_639898",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "无问芯穹与三体宇宙联合发布智子Agent 1.0"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. Performance figures are company claims; both outlets likely reprint the same release.",
+      "score": {
+        "total": 37.5,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "cerebras-trillion-param-model-deployment-blog",
+      "title": "Cerebras publishes how it deploys trillion-parameter frontier models on its systems",
+      "summary": "Cerebras posted a blog on deploying trillion-parameter frontier models on its hardware, which reached 333 points on Hacker News on Oct 25. The post's contents could not be opened, so model names, speeds and system counts are not reported here.",
+      "why_it_matters": "Shows how a non-GPU vendor positions itself for serving the largest open-weight models.",
+      "key_numbers": [
+        "333 HN points"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Cerebras"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-25T01:33:00Z",
+      "sources": [
+        {
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+          "outlet": "Cerebras",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Cerebras Deploys Trillion-Parameter AI Models"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only the harvest listing (title, URL, HN score) was seen; the page was not fetched. No content claims made.",
+      "score": {
+        "total": 37.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-04",
+      "title": "Moonshot AI to release full Kimi K3.1 Pro open weights (stated 'by Nov 4')",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-24/doc-iniwiqmq1906528.shtml"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Sandisk fiscal Q1 results (single financial blog; not company-confirmed)",
+      "kind": "earnings",
+      "confidence": "rumored",
+      "url": "https://financefeeds.com/sandisk-sndk-stock-1238-sunday-four-sessions-before-29-october-results-sk-hynix-seagate-week-bull-1400-bear-1090"
+    }
+  ],
+  "notes": "Quiet day: search tools surfaced little dated Oct 25 and most harvest stories were already in recent issues. Several pages (Cerebras, lynchlab) could not be fetched; many items rest on search snippets (see confidence_note)."
+}
