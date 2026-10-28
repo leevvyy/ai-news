@@ -1,0 +1,270 @@
+{
+  "date": "2026-10-28",
+  "window": {
+    "start": "2026-10-27T21:49:00Z",
+    "end": "2026-10-28T21:49:00Z"
+  },
+  "tldr": [
+    "SK hynix's Q3 profit rose about seven-fold and beat forecasts, and Bloomberg reports an additional 100 trillion won (~$75B) shareholder-return programme, a strong read-through for AI memory demand (headline-level sourcing).",
+    "A family sued OpenAI over ChatGPT allegedly coaching their daughter to taper off seizure medication before she died, adding to chatbot product-liability exposure (allegations, single outlet).",
+    "Thin day by verifiability: the stale harvest and empty Oct 28 search index mean big-tech earnings and Oct 28 launches are not covered; Tencent's Hy4 preview reportedly ranks 5th on OpenRouter at 9T tokens (36Kr, single source)."
+  ],
+  "items": [
+    {
+      "id": "sk-hynix-q3-2026-profit-sevenfold-100t-won-return",
+      "title": "SK hynix Q3 profit jumps about seven-fold and beats forecasts; Bloomberg says a 100 trillion won shareholder-return programme was unveiled",
+      "summary": "SK hynix reported third-quarter 2026 results on Oct 28 (Seoul). Bloomberg describes a stronger-than-expected seven-fold surge in quarterly profit and an additional 2026 shareholder-return programme worth 100 trillion won (about $75 billion). Reuters headlines the profit as up more than seven-fold and above forecasts, and CNBC says it sharply beat estimates on the AI memory boost.",
+      "why_it_matters": "SK hynix is the leading HBM supplier to Nvidia, so a large beat plus a very large payout reads as evidence that AI memory demand and pricing are holding up despite worries about an AI spending slowdown.",
+      "key_numbers": [
+        "Profit up about 7x year on year",
+        "100T won (~$75B) additional shareholder return (Bloomberg)"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "SK hynix",
+        "Nvidia"
+      ],
+      "tickers": [
+        "000660.KS"
+      ],
+      "published_at": "2026-10-27T23:34:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/sk-hynix-profit-jumps-seven-fold-to-soothe-doubts-over-ai-rush",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "SK Hynix Profit Jumps Seven-Fold to Soothe Doubts Over AI Rush"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "SK Hynix third-quarter profit sharply beats estimates on AI memory boost"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.75,
+      "novelty": 0.7,
+      "follow_up_of": "sk-hynix-weighs-12b-special-dividend-memory-stocks-rebound",
+      "confidence_note": "Seen only as feed summaries and headlines (Bloomberg lead sentence, CNBC one-liner, Reuters headline); article bodies and the company release were not opened, so operating profit, revenue and HBM details are not stated. The 100T won figure is Bloomberg's alone; a search for it found no second source. Which profit line rose seven-fold is not specified.",
+      "score": {
+        "total": 64.6,
+        "components": {
+          "impact": 0.75,
+          "novelty": 0.7,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.451
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.667,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "parents-sue-openai-gpt-4o-seizure-medication",
+      "title": "Parents sue OpenAI, alleging ChatGPT coached their daughter off her seizure medication before she died",
+      "summary": "A family is suing OpenAI, saying ChatGPT (GPT-4o per the headline) coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February, according to TechCrunch.",
+      "why_it_matters": "Product-liability claims over chatbot medical advice add to OpenAI's litigation exposure and could shape safety-design and disclosure rules.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-27T23:34:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet, feed summary only; court, filing date and the plaintiffs' allegations beyond the summary were not seen. Allegations are unproven.",
+      "score": {
+        "total": 39.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.187
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 3.833,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 2
+    },
+    {
+      "id": "github-universe-2026-copilot-agent-orchestration",
+      "title": "GitHub Universe: Nadella presents Copilot as an agent orchestrator, with Fusion, Projects and a Foundry harness",
+      "summary": "A single report says Microsoft CEO Satya Nadella used GitHub Universe on Oct 28 to present GitHub Copilot as an agent-orchestration system across projects and models, naming Copilot Fusion, Copilot Projects and availability of the Copilot harness in Microsoft Foundry.",
+      "why_it_matters": "If confirmed, GitHub is positioning Copilot as the multi-agent, multi-model control layer for developers rather than a single assistant.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "GitHub",
+        "Microsoft"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-10-28T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://runtimewire.com/article/github-copilot-agent-orchestration-universe-2026",
+          "outlet": "RuntimeWire",
+          "lang": "en",
+          "tier": "trade",
+          "title": "GitHub turns Copilot into an agent orchestrator across projects and models"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Search-snippet only from one secondary outlet; page not opened and no GitHub or Microsoft post seen. Product names and date come from the snippet; published_at time of day is a placeholder.",
+      "score": {
+        "total": 37.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 3
+    },
+    {
+      "id": "tencent-hy4-preview-openrouter-top5-hy-simulmt",
+      "title": "36Kr: Tencent's Hy4 preview ranks 5th on OpenRouter weekly usage; Hy-SimulMT simultaneous-translation model open-sourced",
+      "original_title": "腾讯AI压力来到微信小微",
+      "summary": "A 36Kr analysis of Tencent's AI position says Tencent recently open-sourced its Hunyuan simultaneous-interpretation model Hy-SimulMT, with an official average response time of about 3 seconds. It also says Hunyuan Hy4 preview ranked 5th by usage on OpenRouter for the week of Oct 27 at 9T tokens, behind DeepSeek V4.1 Flash 1017, DeepSeek V4.1 Flash, Zhipu GLM-5.3 Flash and MiniMax M3.1 Flash. The piece frames the WeChat 'Xiaowei' assistant as a defensive move.",
+      "why_it_matters": "A usage signal for Tencent's Hunyuan line ahead of a full Hy4, in an OpenRouter top five otherwise held by DeepSeek, Zhipu and MiniMax.",
+      "key_numbers": [
+        "9T tokens (Hy4 preview, OpenRouter week of Oct 27)",
+        "5th place weekly",
+        "~3 s average response (Hy-SimulMT)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent",
+        "DeepSeek",
+        "Zhipu",
+        "MiniMax"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-10-28T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.36kr.com/p/4045226644444806",
+          "outlet": "36氪",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯AI压力来到微信小微"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Single source, seen only as a search snippet. Publish time inferred from the cited OpenRouter week. Ranking and token figures are not independently verified.",
+      "score": {
+        "total": 35.6,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.576
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 4
+    },
+    {
+      "id": "techcrunch-data-center-boom-grid-innovation",
+      "title": "TechCrunch: the data-center power crunch is opening opportunities in US grid modernisation",
+      "summary": "TechCrunch reports that as the AI boom stresses the existing power grid, industry insiders see new opportunities for grid modernisation.",
+      "why_it_matters": "Power, not chips, is increasingly the binding constraint on AI build-outs, which pulls utilities and grid-tech suppliers into the AI trade.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "TechCrunch"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-27T22:55:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "The data center boom has an upside: innovation for the US grid"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "Feed one-line summary only; the article body was not read.",
+      "score": {
+        "total": 28.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.2,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 5
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-09",
+      "title": "Tencent Yuanqi team reportedly plans to stop public services",
+      "kind": "deadline",
+      "confidence": "rumored",
+      "url": "https://finance.biggo.com/news/735c196e-a134-4d8f-b7e3-c0e4187d727a"
+    }
+  ],
+  "notes": "DEGRADED RUN. The nightly harvest is stale (ends 2026-10-27T23:56Z) and WebSearch returned almost nothing dated Oct 28 for all three desks (Alphabet, Microsoft and Meta Q3 results, model releases, Chinese labs: none verifiable), so this issue holds only items seen in the harvest tail or single search snippets. Not covered for lack of verifiable sources: Oct 28 big-tech earnings, any new model releases. Also seen but not used: Anthropic-GSA partnership expansion (only a Google News redirect URL available). Desk B flagged that the 60,000 figure in the Oct 27 Microsoft buyout item may be wrong (a search snippet suggests about 8,750 US staff in a spring programme); unverified, worth a check."
+}
