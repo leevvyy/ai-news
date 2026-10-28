@@ -5,15 +5,87 @@
     "end": "2026-10-28T21:49:00Z"
   },
   "tldr": [
-    "SK hynix's Q3 profit rose about seven-fold and beat forecasts, and Bloomberg reports an additional 100 trillion won (~$75B) shareholder-return programme, a strong read-through for AI memory demand (headline-level sourcing).",
-    "A family sued OpenAI over ChatGPT allegedly coaching their daughter to taper off seizure medication before she died, adding to chatbot product-liability exposure (allegations, single outlet).",
-    "Thin day by verifiability: the stale harvest and empty Oct 28 search index mean big-tech earnings and Oct 28 launches are not covered; Tencent's Hy4 preview reportedly ranks 5th on OpenRouter at 9T tokens (36Kr, single source)."
+    "Google launched Gemini 4 Carbon, which it says tops Artificial Analysis Index v5 (score 59) at $2/$10 per million tokens introductory pricing, while Alphabet's Q3 (revenue $127.6B, +25%) missed on EPS ($2.12 vs ~$3.02 expected) and the shares fell over 7% after hours (IT之家, single source).",
+    "Microsoft's fiscal Q1 revenue was $92.3B (+19%) including $10B from OpenAI arrangements, and it adopted GitHub's multi-model harness company-wide; SK hynix's Q3 profit rose about seven-fold with a reported 100 trillion won (~$75B) shareholder-return programme.",
+    "Anthropic's IPO drew more scrutiny (public-benefit structure, a Warren letter on existential risk) and the DOJ is reportedly asking about Nvidia's ~$13B Hugging Face deal; China-side, Ant open-sourced Ling-3.1-flash-1019 and Tencent's Hy4 preview reportedly ranks 5th on OpenRouter (36Kr)."
   ],
   "items": [
     {
+      "id": "google-gemini-4-carbon-launch",
+      "title": "Google launches Gemini 4 Carbon, topping Artificial Analysis Index v5 and pitched at cybersecurity and long-horizon agents",
+      "summary": "Two weeks after Gemini 4 Argon, Google DeepMind announced Gemini 4 Carbon as its most capable model, with 'significant gains' in coding, agentic tasks and cybersecurity. Google says it ranks first on Artificial Analysis Intelligence Index v5.0 (score 59, per IT之家), ahead of Claude Opus 5.5 and GPT-6 Astra (The Verge). IT之家 reports introductory API pricing of $2 per million input and $10 per million output tokens, rising to $4/$20 after the introductory period, with a 95% discount on cached input, and a 1,769 score (4th) on WebDev Arena, up 89 Elo. Ars Technica notes that, like Argon, Carbon is on a staged release that could take a while.",
+      "why_it_matters": "A new top-of-index frontier model at the same entry price as Argon pressures OpenAI and Anthropic on price-performance, and Google is leaning on cyber-defence capability as the differentiator. Access is staged, so developers may not be able to use it yet.",
+      "key_numbers": [
+        "AA Intelligence Index v5.0: 59, #1",
+        "$2 / $10 per M tokens intro; $4 / $20 after",
+        "95% cached-input discount",
+        "WebDev Arena 1,769 (#4), +89 Elo"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Google DeepMind",
+        "Gemini 4 Carbon"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Carbon: Our next frontier model"
+        },
+        {
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google launches Gemini 4 Carbon with a 'significant leap' in cybersecurity"
+        },
+        {
+          "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+          "outlet": "Ars Technica",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use"
+        },
+        {
+          "url": "https://www.ithome.com/1/019/240.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "谷歌最强 AI 模型：Gemini 4 Carbon 登顶全球智能指数榜首，“专职”做网络安全"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.85,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Google's own pages (DeepMind blog) were not opened; figures come from feed summaries of The Verge, Ars Technica (partial) and IT之家 (partial; pricing, 59 score and Arena Elo are IT之家's). Availability details beyond 'staged release' were not seen.",
+      "score": {
+        "total": 76.4,
+        "components": {
+          "impact": 0.85,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.603
+        },
+        "coverage": 8,
+        "mentions": 2,
+        "baseline": 1.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
       "id": "sk-hynix-q3-2026-profit-sevenfold-100t-won-return",
       "title": "SK hynix Q3 profit jumps about seven-fold and beats forecasts; Bloomberg says a 100 trillion won shareholder-return programme was unveiled",
-      "summary": "SK hynix reported third-quarter 2026 results on Oct 28 (Seoul). Bloomberg describes a stronger-than-expected seven-fold surge in quarterly profit and an additional 2026 shareholder-return programme worth 100 trillion won (about $75 billion). Reuters headlines the profit as up more than seven-fold and above forecasts, and CNBC says it sharply beat estimates on the AI memory boost.",
+      "summary": "SK hynix reported third-quarter 2026 results on Oct 28 (Seoul). Bloomberg describes a stronger-than-expected seven-fold surge in quarterly profit and an additional 2026 shareholder-return programme worth 100 trillion won (about $75 billion). Reuters headlines the profit as up more than seven-fold and above forecasts, and CNBC says it sharply beat estimates on the AI memory boost. Follow-on headlines (Yahoo Finance, The Motley Fool) say the company told investors its memory is sold out through 2029.",
       "why_it_matters": "SK hynix is the leading HBM supplier to Nvidia, so a large beat plus a very large payout reads as evidence that AI memory demand and pricing are holding up despite worries about an AI spending slowdown.",
       "key_numbers": [
         "Profit up about 7x year on year",
@@ -45,27 +117,496 @@
           "title": "SK Hynix third-quarter profit sharply beats estimates on AI memory boost"
         }
       ],
-      "coverage": 3,
+      "coverage": 4,
       "impact": 0.75,
       "novelty": 0.7,
       "follow_up_of": "sk-hynix-weighs-12b-special-dividend-memory-stocks-rebound",
-      "confidence_note": "Seen only as feed summaries and headlines (Bloomberg lead sentence, CNBC one-liner, Reuters headline); article bodies and the company release were not opened, so operating profit, revenue and HBM details are not stated. The 100T won figure is Bloomberg's alone; a search for it found no second source. Which profit line rose seven-fold is not specified.",
+      "confidence_note": "Seen only as feed summaries and headlines (Bloomberg lead sentence, CNBC one-liner, Reuters headline); article bodies and the company release were not opened, so operating profit, revenue and HBM details are not stated. The 100T won figure is Bloomberg's alone; a search for it found no second source. Which profit line rose seven-fold is not specified. 'Sold out through 2029' is from two follow-on headlines only.",
       "score": {
-        "total": 64.6,
+        "total": 66.0,
         "components": {
           "impact": 0.75,
           "novelty": 0.7,
           "credibility": 0.698,
-          "breadth": 0.393,
+          "breadth": 0.487,
           "momentum": 0.451
         },
-        "coverage": 3,
+        "coverage": 4,
         "mentions": 1,
         "baseline": 0.667,
         "verified": true
       },
       "placement": "lead",
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "id": "anthropic-ipo-pbc-structure-warren-scrutiny",
+      "title": "Anthropic IPO scrutiny builds: public-benefit structure, four open questions, and a Warren letter on existential risk",
+      "summary": "CNBC reports Anthropic's public benefit corporation structure could put its AI mission ahead of shareholder returns, an unusual risk for IPO investors. Bloomberg's newsletter lists four unanswered questions from the 300-plus-page prospectus. Headlines from WSJ (exclusive), Spectrum News and CFO Dive say Sen. Elizabeth Warren has asked CEO Dario Amodei to address existential risks before the IPO, and The Next Web's headline adds that Anthropic weighs up to 20% of the IPO for retail investors.",
+      "why_it_matters": "The two largest unknowns for the biggest AI IPO so far are governance (mission versus returns) and political scrutiny, both of which can move timing and valuation.",
+      "key_numbers": [
+        "Up to 20% of IPO for retail (TNW headline)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Elizabeth Warren"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T21:48:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/28/anthropic-pbc-what-its-structure-means-for-investors-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's public benefit structure creates unusual risks for IPO investors"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-28/four-unanswered-questions-from-anthropic-s-ipo-filing",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Four Unanswered Questions From Anthropic's IPO Filing"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.7,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-s1-made-public-ant-nasdaq",
+      "confidence_note": "CNBC and Bloomberg seen as one-line feed summaries. The Warren letter and 20% retail figure are from headlines only (WSJ, Spectrum, CFO Dive, Next Web as Google News redirects), so details are unverified.",
+      "score": {
+        "total": 62.5,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.736,
+          "momentum": 0.5
+        },
+        "coverage": 8,
+        "mentions": 3,
+        "baseline": 3.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "microsoft-fq1-2027-revenue-92b-openai-10b",
+      "title": "Microsoft FQ1 revenue $92.3B (+19%); it booked $10B of revenue from OpenAI arrangements in the quarter",
+      "summary": "Microsoft reported fiscal Q1 2027 (to Sept 30) revenue of $92.28 billion, up 19%, net income of $36.63 billion, up 32%, and operating cash flow of $58 billion, with diluted EPS of $4.92, per IT之家. TechCrunch reports Microsoft said it recorded $10 billion of revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter.",
+      "why_it_matters": "The $10B OpenAI line quantifies how dependent Microsoft's growth and OpenAI's economics still are on each other, as OpenAI also widens to Oracle and Google capacity.",
+      "key_numbers": [
+        "Revenue $92.28B, +19%",
+        "Net income $36.63B, +32%",
+        "Operating cash flow $58B",
+        "$10B revenue from OpenAI arrangements",
+        "Diluted EPS $4.92"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "OpenAI"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-10-28T20:08:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/019/257.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "微软 2027 财年第一财季营收 922.79 亿美元、同比增 19%，归母净利润 366.29 亿美元、同比增长 32%"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Microsoft recorded $10 billion in revenue from OpenAI"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.7,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Feed summaries only (IT之家 truncated, TechCrunch one-liner). Azure growth, capex and guidance were not seen; IT之家's embedded automated commentary says results beat consensus, but that is not verified here.",
+      "score": {
+        "total": 57.4,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.895
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "microsoft-copilot-harness-multi-model",
+      "title": "Microsoft adopts GitHub's multi-model 'Copilot harness' company-wide across Copilot Code, Studio, the GitHub app and CLI",
+      "summary": "In a Microsoft blog post on Oct 28, timed with GitHub Universe, Microsoft says the GitHub engineering team built a multi-model agent harness that Microsoft has now adopted company-wide as the Microsoft Copilot harness. It powers Copilot Code, Copilot Studio, the GitHub Copilot app, the CLI and VS Code, among others (the feed summary is truncated).",
+      "why_it_matters": "Microsoft is standardising its agent products on one model-agnostic harness, a bet that the orchestration layer rather than any single model is where differentiation sits.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "GitHub"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T16:51:00Z",
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+          "outlet": "Microsoft",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.55,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Only the first ~600 characters of Microsoft's post were seen (feed summary); the models supported, availability and any pricing are unknown. A search-snippet claim about 'Copilot Fusion' and 'Copilot Projects' from an unverified outlet was left out.",
+      "score": {
+        "total": 52.5,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.5,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.895
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "doj-inquiry-nvidia-hugging-face-deal",
+      "title": "US DOJ is making inquiries about Nvidia's roughly $13B Hugging Face acquisition, Reuters reports",
+      "summary": "The US Justice Department is making inquiries about Nvidia's agreement to acquire AI model company Hugging Face for about $13 billion, part of broader regulatory scrutiny of the chipmaker, Reuters reported in an exclusive on Oct 28. Headlines from CNBC, Investing.com and marketscreener put the deal at $12.9B and describe it as drawing DOJ antitrust scrutiny.",
+      "why_it_matters": "Hugging Face is the main distribution hub for open models; antitrust scrutiny of Nvidia owning it could delay or reshape the deal and signals regulators are weighing Nvidia's reach beyond chips.",
+      "key_numbers": [
+        "~$13B (Reuters/Bloomberg); $12.9B (CNBC, Investing.com headlines)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Hugging Face",
+        "US Department of Justice"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-28T19:14:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/doj-inquires-about-nvidia-s-hugging-face-deal-reuters-says",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "DOJ Inquires About Nvidia's Hugging Face Deal, Reuters Says"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.7,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Cited only via Bloomberg's relay of the Reuters exclusive (one-sentence feed summary); Reuters and CNBC items were seen only as Google News redirects with headlines, so they are not cited. Nature of the inquiry (formal investigation or informal) is not stated.",
+      "score": {
+        "total": 63.1,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.7,
+          "credibility": 0.45,
+          "breadth": 0.689,
+          "momentum": 0.528
+        },
+        "coverage": 7,
+        "mentions": 3,
+        "baseline": 3.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "alphabet-q3-2026-eps-miss-shares-fall-7pct",
+      "title": "Alphabet Q3: revenue $127.6B (+25%) and Cloud doubles, but EPS $2.12 misses and shares fall over 7% after hours",
+      "summary": "Per IT之家, Alphabet reported Q3 2026 revenue of $127.6 billion, up 25%, with Google Cloud revenue doubling, but EPS of $2.12 was far below the roughly $3.02 expected and advertising revenue of $82.01B missed expectations of about $83.5B. An $8.7 billion equity-investment loss cut after-tax profit by about $6.7B, or $0.55 a share. The shares fell more than 7% in after-hours trading as investors worried that heavy AI spending is not converting to profit at the same pace.",
+      "why_it_matters": "The first of the big-tech AI earnings to read negatively: revenue and Cloud growth were strong, yet the market punished the earnings miss and the ad shortfall, feeding the 'AI capex vs returns' debate.",
+      "key_numbers": [
+        "Revenue $127.6B, +25%",
+        "EPS $2.12 vs ~$3.02 expected",
+        "Ad revenue $82.01B vs ~$83.5B",
+        "$8.7B equity-investment loss (-$0.55/share)",
+        "Shares -7%+ after hours"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Alphabet",
+        "Google Cloud"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-28T20:38:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/019/261.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "谷歌 2026Q3 财报暴露 AI 变现焦虑，股价盘后暴跌逾 7%"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.8,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet (IT之家) via feed summary, truncated; Alphabet's release and English coverage were not seen, and a search found no second source. Capex and Cloud dollar figures are not stated. 'Cloud revenue doubled' is IT之家's wording.",
+      "score": {
+        "total": 51.6,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.5,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "artificial-analysis-intelligence-index-v5",
+      "title": "Artificial Analysis Index v5 adds 60% private test sets and FrontierCode 2.0; DeepSeek V4.1 Flash leads open models",
+      "summary": "Artificial Analysis released Intelligence Index v5, its biggest rebuild since v4 in January, per IT之家: 60% of weighting now rests on private or hidden-answer test sets to limit training-data contamination. Coding carries 25%, of which Cognition's FrontierCode 2.0 (132 real open-source tasks scored by maintainers on whether they would merge the PR) takes 15% and Terminal-Bench 4.0 10%. IT之家's headline says DeepSeek V4.1 Flash 1017 posts the best open-model score on FrontierCode 2.0. Nathan Lambert's Interconnects post discusses the 'benchmarker's dilemma' of choosing what to hill-climb.",
+      "why_it_matters": "The index is the scoreboard labs now cite at launch (Google leads with it today), so a shift towards merge-ability and hidden test sets changes what 'best model' means.",
+      "key_numbers": [
+        "60% weight on private/hidden sets",
+        "FrontierCode 2.0: 132 tasks, 15% weight"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Artificial Analysis",
+        "Cognition",
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T12:58:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/019/237.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "Artificial Analysis Intelligence Index v5 基准上线，DeepSeek V4.1 Flash 1017 为 FrontierCode 2.0 开源模型最高成绩"
+        },
+        {
+          "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+          "outlet": "Interconnects",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Artificial Analysis v5 and the benchmarker's dilemma"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Feed summaries only (IT之家 truncated before the DeepSeek score). The DeepSeek claim rests on the headline; no scores for DeepSeek were seen.",
+      "original_title": "Artificial Analysis Intelligence Index v5 基准上线，DeepSeek V4.1 Flash 1017 为 FrontierCode 2.0 开源模型最高成绩",
+      "score": {
+        "total": 48.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.438,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "xai-southaven-home-buyouts-no-lawsuit",
+      "title": "xAI subsidiary offers to buy Mississippi homes if owners drop claims over data-centre power-plant noise",
+      "summary": "The Guardian reports that xAI subsidiary MZX Tech is offering to buy homes in Southaven, Mississippi, on condition that owners waive claims over noise from the gas-fired power plant serving xAI's data centre, including joining a class action filed in June. IT之家's account of the Guardian report says the target is 418 homes and at least 18 owners have agreed; the letters give no price and MZX denies the allegations.",
+      "why_it_matters": "Shows the local-opposition cost of AI power build-outs and a legal tactic that may draw regulatory attention as data-centre backlash grows into the Nov 3 elections.",
+      "key_numbers": [
+        "418 target homes",
+        "At least 18 owners agreed"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "xAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T14:44:00Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "xAI is buying out homeowners who promise not to sue over data center noise"
+        },
+        {
+          "url": "https://www.ithome.com/1/019/222.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "马斯克动用钞能力：美国居民起诉数据中心噪声后，xAI 准备直接收购其房产"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Second-hand from the Guardian (not opened); feed summaries only.",
+      "score": {
+        "total": 47.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.576
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "delaware-ai-company-entity-comer-letter",
+      "title": "House Oversight chair Comer challenges Delaware plan to let AI agents run companies",
+      "summary": "Ars Technica reports that House Oversight Committee chairman James Comer wrote to Delaware Governor Matt Meyer that a proposal for a new corporate form, an 'Artificial Intelligence Company', could let owners evade legal responsibility for harmful actions taken by AI, and asked for documents on the state's effort.",
+      "why_it_matters": "An early collision between corporate law and autonomous agents: who is liable when software runs the firm.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Delaware",
+        "James Comer"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-27T21:50:00Z",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+          "outlet": "Ars Technica",
+          "lang": "en",
+          "tier": "press",
+          "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Feed summary only; letter not seen; published a minute inside the window.",
+      "score": {
+        "total": 45.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.7,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "nvidia-nemotron-3-5-transcribe-open-model",
+      "title": "Nvidia releases open Nemotron 3.5 Transcribe speech model and Granary v2 multilingual data",
+      "summary": "Nvidia published Nemotron 3.5 Transcribe and the Granary v2 dataset on the Hugging Face blog, and TechCrunch covers the release as a new open transcription model amid a wave of voice-AI products.",
+      "why_it_matters": "Another open speech model from Nvidia widens options for developers building voice agents without relying on closed APIs.",
+      "key_numbers": [],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T14:58:00Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+          "outlet": "Hugging Face Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Titles only; the blog's contents, licence and accuracy figures were not seen.",
+      "score": {
+        "total": 45.4,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.528
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 3.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
     },
     {
       "id": "parents-sue-openai-gpt-4o-seizure-medication",
@@ -95,68 +636,67 @@
       "follow_up_of": null,
       "confidence_note": "Single outlet, feed summary only; court, filing date and the plaintiffs' allegations beyond the summary were not seen. Allegations are unproven.",
       "score": {
-        "total": 39.2,
+        "total": 41.9,
         "components": {
           "impact": 0.4,
           "novelty": 0.6,
           "credibility": 0.45,
           "breadth": 0.154,
-          "momentum": 0.187
+          "momentum": 0.462
         },
         "coverage": 1,
-        "mentions": 1,
+        "mentions": 3,
         "baseline": 3.833,
         "verified": false
       },
       "placement": "brief",
-      "rank": 2
+      "rank": 12
     },
     {
-      "id": "github-universe-2026-copilot-agent-orchestration",
-      "title": "GitHub Universe: Nadella presents Copilot as an agent orchestrator, with Fusion, Projects and a Foundry harness",
-      "summary": "A single report says Microsoft CEO Satya Nadella used GitHub Universe on Oct 28 to present GitHub Copilot as an agent-orchestration system across projects and models, naming Copilot Fusion, Copilot Projects and availability of the Copilot harness in Microsoft Foundry.",
-      "why_it_matters": "If confirmed, GitHub is positioning Copilot as the multi-agent, multi-model control layer for developers rather than a single assistant.",
+      "id": "servicenow-falls-after-outlook-ai-fears",
+      "title": "ServiceNow shares plunge after an in-line outlook fails to calm AI-disruption fears",
+      "summary": "Bloomberg reports ServiceNow shares plunged after the company gave a quarterly subscription-sales outlook that met analysts' estimates but did not ease Wall Street's anxiety that AI will disrupt the software maker.",
+      "why_it_matters": "Even in-line guidance is not enough for application-software vendors the market sees as exposed to AI agents.",
       "key_numbers": [],
-      "topic": "products",
+      "topic": "business",
       "region": "us",
       "entities": [
-        "GitHub",
-        "Microsoft"
+        "ServiceNow"
       ],
       "tickers": [
-        "MSFT"
+        "NOW"
       ],
-      "published_at": "2026-10-28T18:00:00Z",
+      "published_at": "2026-10-28T20:17:00Z",
       "sources": [
         {
-          "url": "https://runtimewire.com/article/github-copilot-agent-orchestration-universe-2026",
-          "outlet": "RuntimeWire",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/servicenow-falls-after-quarterly-sales-outlook-revives-ai-fears",
+          "outlet": "Bloomberg",
           "lang": "en",
-          "tier": "trade",
-          "title": "GitHub turns Copilot into an agent orchestrator across projects and models"
+          "tier": "press",
+          "title": "ServiceNow Falls After Quarterly Sales Outlook Revives AI Fears"
         }
       ],
       "coverage": 1,
-      "impact": 0.4,
-      "novelty": 0.5,
+      "impact": 0.45,
+      "novelty": 0.3,
       "follow_up_of": null,
-      "confidence_note": "Search-snippet only from one secondary outlet; page not opened and no GitHub or Microsoft post seen. Product names and date come from the snippet; published_at time of day is a placeholder.",
+      "confidence_note": "One-sentence feed summary; size of the fall not stated.",
       "score": {
-        "total": 37.6,
+        "total": 41.7,
         "components": {
-          "impact": 0.4,
-          "novelty": 0.5,
-          "credibility": 0.25,
+          "impact": 0.45,
+          "novelty": 0.3,
+          "credibility": 0.45,
           "breadth": 0.154,
-          "momentum": 0.632
+          "momentum": 0.865
         },
         "coverage": 1,
-        "mentions": 1,
+        "mentions": 2,
         "baseline": 0.0,
         "verified": false
       },
       "placement": "brief",
-      "rank": 3
+      "rank": 13
     },
     {
       "id": "tencent-hy4-preview-openrouter-top5-hy-simulmt",
@@ -210,7 +750,396 @@
         "verified": false
       },
       "placement": "brief",
-      "rank": 4
+      "rank": 14,
+      "quota": "cn"
+    },
+    {
+      "id": "ant-ling-3-1-flash-1019-open-source",
+      "title": "Ant Group open-sources Ling-3.1-flash-1019 for personal-agent tasks",
+      "summary": "Ant Group's Bailing (百灵) large-model team open-sourced Ling-3.1-flash-1019 on Oct 28, per 量子位, whose headline says the model targets real personal-agent tasks.",
+      "why_it_matters": "Another Chinese open-weight release aimed at agents, adding to the DeepSeek, Zhipu, MiniMax and Tencent models competing on OpenRouter-style usage.",
+      "key_numbers": [],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Ant Group"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T04:04:00Z",
+      "sources": [
+        {
+          "url": "https://www.qbitai.com/2026/10/505928.html",
+          "outlet": "量子位",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "One-sentence feed summary; parameter count, licence and benchmarks not seen.",
+      "original_title": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019",
+      "score": {
+        "total": 33.9,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 15,
+      "quota": "cn"
+    },
+    {
+      "id": "github-octoverse-2026-agentic-growth",
+      "title": "GitHub Octoverse 2026: merged pull requests triple to 220M a month, commits to 7.38B a month",
+      "summary": "At GitHub Universe, EVP Jay Parikh announced the 2026 Octoverse report. Simon Willison, who attended, relays the headline figures: merged pull requests tripled in under a year to 220 million per month, commits more than tripled to 7.38 billion per month (mostly in the second half of 2026), and the new-repository rate doubled to 30.3 million per month.",
+      "why_it_matters": "The numbers are the clearest platform-level measure so far of agentic coding's effect on software output, and of the review and CI load it creates.",
+      "key_numbers": [
+        "220M merged PRs/month (3x)",
+        "7.38B commits/month (>3x)",
+        "30.3M new repos/month (2x)"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "GitHub",
+        "Microsoft"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T16:45:00Z",
+      "sources": [
+        {
+          "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+          "outlet": "Simon Willison",
+          "lang": "en",
+          "tier": "trade",
+          "title": "GitHub Octoverse 2026"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.45,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Second-hand from Simon Willison's live post (feed summary, truncated); GitHub's report itself was not seen.",
+      "score": {
+        "total": 41.7,
+        "components": {
+          "impact": 0.45,
+          "novelty": 0.5,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.865
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "openai-servicenow-expanded-partnership",
+      "title": "OpenAI and ServiceNow expand partnership: OpenAI models in ServiceNow, ServiceNow workflows in ChatGPT and Codex",
+      "summary": "OpenAI says it and ServiceNow are expanding their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "why_it_matters": "Another enterprise-software incumbent is wiring itself to OpenAI's agent surfaces; the same day ServiceNow's shares fell on AI-disruption worries.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "ServiceNow"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T13:15:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "One-sentence feed summary of OpenAI's post; terms and dates unknown.",
+      "score": {
+        "total": 40.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.283,
+          "momentum": 0.462
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 3.833,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "chrome-autofill-gmail-gemini-personal-intelligence",
+      "title": "Chrome's enhanced autofill can now pull flight, order and tracking details from Gmail via Gemini",
+      "summary": "Starting Oct 28, Chrome's enhanced autofill uses Gemini with Personal Intelligence to suggest information sourced from the user's Gmail, such as flight confirmations, tracking info and order details, with permission, per The Verge and TechCrunch.",
+      "why_it_matters": "Moves Gemini personalisation into a mass-market browser flow, with the privacy trade-off resting on opt-in permission.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Chrome"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Chrome's enhanced autofill can now pull info from Gmail to help you fill out forms"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Chrome's AI-powered Autofill can now dig through your Gmail to fill out forms"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Feed summaries only.",
+      "score": {
+        "total": 40.7,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.603
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 1.167,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "amazon-anthropic-stake-note-conversions",
+      "title": "Anthropic's note conversions reveal Amazon's ownership, TechCrunch says VCs earn billions but Amazon far more",
+      "summary": "TechCrunch reports that large note conversions disclosed in Anthropic's IPO filing reveal the true extent of Amazon's ownership of Anthropic, with Amazon set to make much more than venture investors.",
+      "why_it_matters": "Shows how concentrated Anthropic's cap table is in its cloud suppliers, relevant to the circular-financing debate.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Amazon"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T01:15:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-s1-made-public-ant-nasdaq",
+      "confidence_note": "One-sentence feed summary; ownership figures not seen. Published 01:15Z Oct 28 per feed (URL dated Oct 27).",
+      "score": {
+        "total": 38.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.5
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 3.333,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "anthropic-launches-ai-spend-visibility-tools",
+      "title": "Anthropic launches tools showing companies what their AI spending buys, ahead of its IPO",
+      "summary": "TechCrunch reports Anthropic launched tools that lift the curtain on how customers spend money on its models, ahead of a planned IPO.",
+      "why_it_matters": "Cost transparency tooling is a retention and revenue-quality signal investors will look for in the prospectus period.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T19:19:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic just launched tools to show companies what their AI spending is buying"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "One-sentence feed summary; product name and features not seen.",
+      "score": {
+        "total": 36.5,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.5
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 3.333,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "gartner-only-3pct-enterprises-ai-cost-savings",
+      "title": "Gartner: only 3% of enterprises have met AI cost-saving or productivity goals, yet 85% plan higher AI spend in 2027",
+      "summary": "IT之家, citing TechRadar, reports a Gartner survey in which only 3% of enterprises achieved cost-saving or productivity goals through AI; 38% have already exceeded their AI budget, and 85% plan to raise AI spending in 2027. Gartner's Viverito says the larger opportunity is doing things that were not previously possible.",
+      "why_it_matters": "A counterweight to AI-capex optimism that matches the Alphabet reaction and SaaS-vendor jitters.",
+      "key_numbers": [
+        "3% met goals",
+        "38% over budget",
+        "85% plan more AI spend in 2027"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Gartner"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T14:46:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/019/207.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "Gartner 调研：仅 3% 企业通过 AI 实现节约成本、提高生产力目标"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Second-hand (IT之家 citing TechRadar); Gartner's report not seen.",
+      "original_title": "Gartner 调研：仅 3% 企业通过 AI 实现节约成本、提高生产力目标",
+      "score": {
+        "total": 33.9,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "apple-touch-macbook-pro-m5-max-128gb-local-llm",
+      "title": "Apple launches first touch-screen MacBook Pro with M5 Max and up to 128GB, pitched for running hundreds-of-billions-parameter LLMs locally",
+      "summary": "At a special event on Oct 28 (US time), Apple introduced a MacBook Pro with a touch OLED 'PROLED XDR' display, M5 Pro or M5 Max chips with a neural accelerator in each GPU core, and up to 128GB unified memory. Apple says the M5 Max can run large language models with hundreds of billions of parameters on-device. Pre-orders open Oct 30 and sales start Nov 6, from 22,999 yuan in China.",
+      "why_it_matters": "A mainstream laptop marketed around local large-model inference supports the on-device AI push, and its memory capacity ties into the memory-price story.",
+      "key_numbers": [
+        "Up to 128GB unified memory",
+        "Pre-order Oct 30, on sale Nov 6",
+        "22,999 yuan from (China)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Apple"
+      ],
+      "tickers": [
+        "AAPL"
+      ],
+      "published_at": "2026-10-28T17:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/019/251.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "最高 128GB 统一内存：苹果首款触控 MacBook Pro 可本地运行数千亿参数 AI 模型"
+        },
+        {
+          "url": "https://www.ithome.com/1/019/238.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "苹果首款触控屏 MacBook Pro 正式发布：双层串联 OLED、低至 1.38 千克重量，22,999 元起"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "IT之家 summaries only (it quotes Apple's announcement); no US pricing seen.",
+      "original_title": "苹果首款触控 MacBook Pro 可本地运行数千亿参数 AI 模型",
+      "score": {
+        "total": 33.3,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.576
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 22
     },
     {
       "id": "techcrunch-data-center-boom-grid-innovation",
@@ -253,18 +1182,32 @@
         "baseline": 0.0,
         "verified": false
       },
-      "placement": "brief",
-      "rank": 5
+      "placement": "noted",
+      "rank": 23
     }
   ],
   "upcoming": [
+    {
+      "date": "2026-11-17",
+      "title": "Nvidia fiscal Q3 FY2027 results; call 2pm PT (quarter ended Oct 25), CFO written commentary posted first",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+    },
     {
       "date": "2026-11-09",
       "title": "Tencent Yuanqi team reportedly plans to stop public services",
       "kind": "deadline",
       "confidence": "rumored",
       "url": "https://finance.biggo.com/news/735c196e-a134-4d8f-b7e3-c0e4187d727a"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Apple touch-screen MacBook Pro (M5 Pro/Max) goes on sale; pre-orders Oct 30",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://www.ithome.com/1/019/251.htm"
     }
   ],
-  "notes": "DEGRADED RUN. The nightly harvest is stale (ends 2026-10-27T23:56Z) and WebSearch returned almost nothing dated Oct 28 for all three desks (Alphabet, Microsoft and Meta Q3 results, model releases, Chinese labs: none verifiable), so this issue holds only items seen in the harvest tail or single search snippets. Not covered for lack of verifiable sources: Oct 28 big-tech earnings, any new model releases. Also seen but not used: Anthropic-GSA partnership expansion (only a Google News redirect URL available). Desk B flagged that the 60,000 figure in the Oct 27 Microsoft buyout item may be wrong (a search snippet suggests about 8,750 US staff in a spring programme); unverified, worth a check."
+  "notes": "Run note: the nightly harvest at 01:37 UTC+8 did not land; a harvest from 21:52Z Oct 28 arrived while this issue was being written and was used for the window. WebSearch returned almost nothing dated Oct 28 for all desks, and blog.google, blogs.microsoft.com and simonwillison.net did not resolve in the sandbox, so most items rest on feed summaries (flagged per item). Seen only as Google News redirects or headlines and therefore not cited: OpenAI planning to buy Google AI chips (The Information, Reuters, Bloomberg), Trump's 'super intelligence' rebrand follow-ups, Doubao denial of the 150,000 film-extras data rumour, a DeepSeek-V5 placeholder spotted in a code repository, Beijing's six new filed gen-AI services, and the Anthropic-GSA expansion. Desk B flagged that the 60,000 figure in the Oct 27 Microsoft buyout item may be wrong (a search snippet suggested about 8,750 US staff in a spring programme); unverified."
 }
