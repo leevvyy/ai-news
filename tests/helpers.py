@@ -28,11 +28,11 @@ def make_issue(day: str, items: list[dict], *, start: str | None = None, end: st
 
 
 class TempRepo:
-    """Copies config.toml + sources.toml into a temp dir with an empty archive."""
+    """Copies config.toml, sources.toml and learning.toml into a temp dir with an empty archive."""
 
     def __init__(self) -> None:
         self.dir = Path(tempfile.mkdtemp(prefix="ainews-test-"))
-        for name in ("config.toml", "sources.toml"):
+        for name in ("config.toml", "sources.toml", "learning.toml"):
             shutil.copy(ROOT / name, self.dir / name)
         (self.dir / "data" / "daily").mkdir(parents=True)
         (self.dir / "data" / "weekly").mkdir(parents=True)

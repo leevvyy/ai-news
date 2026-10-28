@@ -153,3 +153,29 @@ character bigrams) with $J \ge 0.4$. A cluster's `n_outlets` is an objective bre
   $J \ge 0.6$. Later mentions update earlier ones.
 * **Weekly recap** (Mondays): ISO week, Monday to Sunday UTC+8, with themes written by the researcher and statistics
   computed from the dailies.
+
+## 8. Learning track
+
+Each issue can carry 1–3 `learn` entries: a concept, an explanation and a runnable Python snippet, hooked on that
+day's stories and aimed at a capability gap in [`learning.toml`](learning.toml). `python3 -m ainews learn` ranks the
+gaps ([`ainews/learn.py`](ainews/learn.py)):
+
+$$
+P_d = (\text{target}_d - \text{now}_d)\, w_d, \qquad
+h_d = 1 - \exp\Bigl(-\sum_{i \in H_d} I_i/100\Bigr), \qquad
+\rho_d = 1 - e^{-\Delta_d/\tau}, \qquad
+S_d = P_d\,(1 + h_d)\,\rho_d
+$$
+
+| Symbol | Meaning |
+|---|---|
+| $P_d$ | priority: gap on the 1–5 scale times relevance weight $w_d$ |
+| $H_d$ | today's items whose title, summary or why-it-matters match one of the gap's keywords (word-start match) |
+| $h_d$ | news hook in $[0, 1)$: saturating in the summed importance of those items, so news can at most double a gap's rank |
+| $\Delta_d$ | days since the gap was last taught ($\rho_d = 1$ if never); $\tau = 4$ days makes the track rotate |
+
+The researcher picks from the top of the list and writes the entries; the build validates them (known gap, hook ids
+exist in the issue, `python` parses, 1–120 minutes, at most 3) and renders a tracker: per-gap counts and minutes over
+30 days and the streak of consecutive issues with at least one entry. Scores in `learning.toml` are estimates;
+re-score them monthly from evidence (timed probes, finished projects).
+

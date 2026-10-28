@@ -29,6 +29,7 @@ a{color:inherit;text-decoration-color:var(--accent)}.meta,.src{font:13px/1.5 ui-
 article{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0}
 .i{font:600 13px ui-monospace,Menlo,monospace;color:var(--accent)}table{border-collapse:collapse;width:100%;font-size:15px}
 td,th{border-bottom:1px solid var(--line);padding:6px 8px 6px 0;text-align:left;vertical-align:top}nav{font:14px system-ui,sans-serif;margin-bottom:24px}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;overflow-x:auto;font:13px/1.45 ui-monospace,Menlo,monospace}
 """
 
 
@@ -66,6 +67,17 @@ def daily_page(cfg: Config, archive: Archive, d: date) -> str:
         body.append("<h2>Briefs</h2><table>" + "".join(
             f"<tr><td class=\"i\">{it['score']['total']:.1f}</td><td><a href=\"{e(it['sources'][0]['url'])}\">"
             f"{e(it['title'])}</a></td><td class=\"meta\">{TOPICS[it['topic']]}</td></tr>" for it in briefs) + "</table>")
+    if iss.get("learn"):
+        by_id = {it["id"]: it for it in iss["items"]}
+        body.append("<h2>Learn this</h2>")
+        for le in iss["learn"]:
+            g = cfg.gaps[le["gap"]]
+            hooks = " · ".join(f"<a href=\"{e(by_id[i]['sources'][0]['url'])}\">{e(by_id[i]['title'])}</a>"
+                               for i in le["item_ids"])
+            math = f"<pre class=\"src\">{e(le['math'])}</pre>" if le.get("math") else ""
+            body.append(f"<article><p class=\"meta\">{e(g.label)} · now {g.now:.1f} → target {g.target:.1f} · "
+                        f"~{le['minutes']} min</p><h3>{e(le['title'])}</h3><p><b>Why today.</b> {e(le['why_today'])} "
+                        f"({hooks})</p><p>{e(le['explanation'])}</p>{math}<pre><code>{e(le['python'])}</code></pre></article>")
     cal = calendar_as_of(cfg, archive, d)
     if cal:
         body.append("<h2>Upcoming</h2><table>" + "".join(

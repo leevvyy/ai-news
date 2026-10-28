@@ -12,7 +12,8 @@ explicit importance model, archived here, and published as a living dashboard.
 |---|---|
 | Schedule | daily, cron `48 21 * * *` UTC = 05:48 UTC+8; issue ready ≈ 06:15 |
 | Window | previous run → now (rolling, gap-free), deduplicated against the last 7 days |
-| Per issue | TL;DR · 5 lead stories · ~10 briefs · upcoming calendar · "this week so far" (minor) · also noted |
+| Per issue | TL;DR · 5 lead stories · ~10 briefs · learn this · upcoming calendar · "this week so far" (minor) · also noted |
+| Learn this | 1–3 concepts per issue hooked on the day's news, each with an explanation, formula and runnable Python, aimed at the gaps in `learning.toml`, with a 30-day tracker ([METHODOLOGY.md §8](METHODOLOGY.md#8-learning-track)) |
 | Weekly | Monday issue adds a Mon–Sun recap: 3–4 themes, top 10, topic mix, entity leaderboard |
 | Beats | models, labs & open weights · research · products & agents · business & funding · compute & chips · policy & safety |
 | Sources | primary-first; Chinese-language sources translated to English (original headline kept) |
@@ -47,12 +48,13 @@ rebuild every generated file and fail on any drift or hand edit.
 
 ```
 config.toml            tunables: schedule, weights, tier reliabilities, lead count, artifact URL, publish flag
+learning.toml          learning-track gaps (now/target/weight/keywords) behind the "Learn this" section
 sources.toml           research checklist + domain → tier map (EN + 中文)
 feeds.toml             harvester sources (RSS/Atom, Google News queries, HF papers, HN)
 RUNBOOK.md             the routine's step-by-step instructions
 METHODOLOGY.md         scoring, placement, window and dedupe maths
 ainews/                pipeline package (python3 -m ainews …)
-  config.py archive.py timewin.py validate.py dedupe.py scoring.py aggregate.py market.py harvest.py
+  config.py archive.py timewin.py validate.py dedupe.py scoring.py aggregate.py market.py harvest.py learn.py
   render_md.py dashboard.py site.py cli.py templates/dashboard.html
 data/daily/DATE.json   research + scores (source of truth)
 data/weekly/WEEK.json  weekly themes (+ back-fill items for weeks without dailies)
@@ -71,6 +73,7 @@ python3 -m ainews window                 # next window, recent items to avoid, o
 python3 -m ainews new                    # create today's research JSON skeleton
 python3 -m ainews build [DATE]           # validate → dedupe → score → Markdown + dashboard
 python3 -m ainews weekly 2026-W40        # weekly recap (Mondays)
+python3 -m ainews learn                  # rank learning-track gaps by today's news hooks
 python3 -m ainews summary                # push-notification text
 python3 -m ainews check                  # CI: validate all + verify generated files are reproducible
 python3 -m ainews site --out site        # static site + Atom feed

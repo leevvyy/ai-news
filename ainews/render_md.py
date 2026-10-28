@@ -9,6 +9,7 @@ from typing import Any
 from .aggregate import calendar_as_of, china_desk, lang_split, market_for, rolling_week, weekly_view
 from .archive import Archive, Issue, parse_ts
 from .config import COMPONENTS, REGIONS, TOPICS, Config
+from .learn import tracker
 
 _SENT = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"'“(])")
 
@@ -84,6 +85,37 @@ def _score_table(cfg: Config, it: dict) -> list[str]:
     return rows
 
 
+def _learn_section(cfg: Config, archive: Archive, d: date, iss: Issue) -> list[str]:
+    learn = iss.get("learn") or []
+    if not learn:
+        return []
+    by_id = {it["id"]: it for it in iss["items"]}
+    out = ["## Learn this", "",
+           "<sub>Today's news as a hook for the learning track · priority $(\\text{target}-\\text{now})\\cdot w$ "
+           "from [learning.toml](../../learning.toml)</sub>", ""]
+    for n, le in enumerate(learn, 1):
+        g = cfg.gaps[le["gap"]]
+        hooks = " · ".join(link(by_id[i]["title"], by_id[i]["sources"][0]["url"]) for i in le["item_ids"])
+        out += [f"### L{n} · {le['title']}", "",
+                f"`{g.label}` · now {g.now:.1f} → target {g.target:.1f} · priority {g.priority:.2f} · ~{le['minutes']} min",
+                "", f"**Why today.** {le['why_today']} ({hooks})", "", le["explanation"], ""]
+        if le.get("math"):
+            out += ["$$", le["math"], "$$", ""]
+        out += ["```python", le["python"].rstrip("\n"), "```", ""]
+        if le.get("refs"):
+            out += ["**Go deeper.** " + " · ".join(link(r["title"], r["url"]) for r in le["refs"]), ""]
+    tr = tracker(cfg, archive, d)
+    top = max((r["n"] for r in tr["gaps"]), default=0) or 1
+    out += ["<details><summary>Learning tracker</summary>", "",
+            f"{tr['total']} item(s) and ~{tr['minutes']} min over the last {tr['days']} days · "
+            f"streak {tr['streak']} issue(s) in a row", "",
+            "| Gap | Now → target | Priority | Taught (30d) | Last |", "|---|---|--:|---|---|"]
+    out += [f"| {esc(r['label'])} | {r['now']:.1f} → {r['target']:.1f} | {r['priority']:.2f} | "
+            f"{bar_cell(r['n'] / top, 10)}{r['n']} | {r['last'] or '–'} |" for r in tr["gaps"]]
+    out += ["", "</details>", ""]
+    return out
+
+
 def render_daily(cfg: Config, archive: Archive, d: date) -> str:
     iss = archive.daily(d)
     assert iss is not None
@@ -138,6 +170,8 @@ def render_daily(cfg: Config, archive: Archive, d: date) -> str:
                        f"**{esc(it['title'])}**{zh}{flag}: {esc(first_sentence(it['summary']))} | "
                        f"{link(esc(it['sources'][0]['outlet']), it['sources'][0]['url'])} |")
         out.append("")
+
+    out += _learn_section(cfg, archive, d, iss)
 
     desk = [it for it in china_desk(items) if it["placement"] != "lead"]
     if desk:

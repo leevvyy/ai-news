@@ -5,6 +5,7 @@
     build    [DATE]                         validate → dedupe → score → place → Markdown + dashboard (+ weekly on Sundays)
     weekly   WEEK                           score back-fill items, validate themes, render the weekly recap
     summary  [DATE]                         text for the routine's push notification
+    learn    [DATE]                         rank learning-track gaps by today's news hooks (for the `learn` entries)
     raw      [--file PATH] [--top N]        digest of the nightly harvest (clusters, primary items, papers, HN)
     harvest  [--now TS] [--no-news|--no-prices]   network: feeds → data/raw, prices → data/market (GitHub Actions)
     render                                  re-render every generated file (after a price update)
@@ -29,6 +30,7 @@ from .scoring import item_local_date, score_and_place, score_item
 from .site import build_site
 from .timewin import compute_window
 from . import harvest as harvest_mod
+from .learn import suggest, tracker
 from .validate import Report, validate_daily, validate_weekly
 
 
@@ -210,6 +212,22 @@ def cmd_summary(cfg: Config, args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_learn(cfg: Config, args: argparse.Namespace) -> int:
+    archive = Archive(cfg)
+    d = _latest(archive, args.date)
+    iss = archive.daily(d)
+    assert iss is not None
+    if not cfg.gaps:
+        print("no learning.toml gaps; nothing to suggest", file=sys.stderr)
+        return 1
+    tr = tracker(cfg, archive, d)
+    out = {"date": d.isoformat(), "max_items": int(cfg.learn.get("max_items", 3)),
+           "already": [le["id"] for le in iss.get("learn", [])],
+           "streak": tr["streak"], "suggestions": suggest(cfg, archive, d, iss["items"])}
+    print(json.dumps(out, ensure_ascii=False, indent=2))
+    return 0
+
+
 def cmd_check(cfg: Config, args: argparse.Namespace) -> int:
     """Rebuild everything in memory from the research JSON and diff against the repo."""
     archive = Archive(cfg)
@@ -308,6 +326,7 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("build"); p.add_argument("date", nargs="?")
     p = sub.add_parser("weekly"); p.add_argument("week")
     p = sub.add_parser("summary"); p.add_argument("date", nargs="?")
+    p = sub.add_parser("learn"); p.add_argument("date", nargs="?")
     sub.add_parser("check")
     p = sub.add_parser("raw"); p.add_argument("--file"); p.add_argument("--top", type=int, default=40)
     p.add_argument("--now")
@@ -319,4 +338,4 @@ def main(argv: list[str] | None = None) -> int:
     cfg = load_config(args.root) if args.root else load_config()
     return {"window": cmd_window, "new": cmd_new, "build": cmd_build, "weekly": cmd_weekly,
             "summary": cmd_summary, "check": cmd_check, "site": cmd_site, "raw": cmd_raw,
-            "harvest": cmd_harvest, "render": cmd_render}[args.cmd](cfg, args)
+            "harvest": cmd_harvest, "render": cmd_render, "learn": cmd_learn}[args.cmd](cfg, args)

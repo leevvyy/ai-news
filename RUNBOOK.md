@@ -129,7 +129,40 @@ Rebuild, then:
 python3 -m ainews check          # must end with "OK"
 ```
 
-## 5 · Mondays only (`weekly_due` is set): weekly recap
+## 4b · Learn this (≈10 min)
+
+Each issue teaches 1–3 things towards the owner's learning track (`learning.toml`: capability gaps with
+now/target scores). After the build:
+
+```bash
+python3 -m ainews learn          # gaps ranked by S = priority · (1 + hook) · recency damping, with today's hook stories
+```
+
+Take the top 2–3 suggestions (skip one when its hooks are weak or far-fetched; a gap with no hook can still be
+taught when its priority is high). For each, add an entry to `learn` in today's JSON:
+
+```jsonc
+{
+  "id": "kv-cache-sizing",                       // kebab-case, unique in the issue
+  "gap": "llm-internals",                        // a learning.toml gap id
+  "title": "Size a KV cache, and reject what does not fit",   // ≤ 90 chars, names the skill, not the news
+  "item_ids": ["cloudflare-glm-5-3-kv-cache-exposure"],       // ≥ 1 of today's item ids: the hook
+  "why_today": "One sentence linking the story to the concept, using only facts from that item.",
+  "explanation": "3–6 sentences: the idea, why it works, where it breaks. Precise; aimed at someone strong in maths.",
+  "math": "M_{KV} = 2 L n_{kv} d_{head} T b",   // optional LaTeX, no $ delimiters
+  "python": "…",                                 // ≤ 40 lines, stdlib or numpy/torch, runs as-is, prints a result
+  "minutes": 15,                                 // time to read, run and tweak it
+  "refs": [{"title": "Paper or docs (Author, year)", "url": "https://arxiv.org/abs/…"}]   // optional, primary sources
+}
+```
+
+* **Run every snippet** (`python3 -I snippet.py`) before writing it in; the build only checks that it parses.
+  Use illustrative numbers and say so; never attribute an unconfirmed config or figure to a real model.
+* No news facts beyond what the hook item already says; the no-invention rule applies here too.
+* Rebuild and `check`. The issue then shows a "Learn this" section and the learning tracker (30-day counts per gap,
+  issue streak). To re-score a gap, the owner edits `learning.toml`; the routine never changes it.
+
+ (`weekly_due` is set): weekly recap
 
 Write `data/weekly/<week>.json`:
 
