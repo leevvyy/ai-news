@@ -1,0 +1,108 @@
+# Learning track: the gaps each issue's "Learn this" items teach towards (read by ainews/learn.py).
+#
+# `short` is the dashboard rail label (defaults to `label`).
+# Scale: 1 aware · 2 guided · 3 independent · 4 rigorous / hireable at a strong shop · 5 top practitioner.
+# Scores are the owner's capability-audit estimates (2026-10-26). Re-score monthly; nothing else needs editing.
+#
+#   priority_d = (target_d - now_d) * weight_d
+#
+# `weight` is relevance to the goal (model-level depth and evaluation highest). `keywords` are matched,
+# case-insensitively, against each story's title, summary and why_it_matters to find today's hooks.
+
+[learn]
+max_items = 3          # learn items per issue (RUNBOOK asks for 1-3)
+recency_tau_days = 4.0 # a gap taught Δ days ago is damped by 1 - exp(-Δ / τ), so the track rotates
+tracker_days = 30      # look-back of the tracker table
+
+[[gap]]
+id = "ai-off-fluency"
+label = "AI-off fluency"
+now = 2.5              # unmeasured: the audit's P0 probes replace this placeholder
+target = 4.0
+weight = 1.0
+keywords = ["pytorch", "transformer", "attention", "backprop", "gradient", "softmax", "layernorm", "from scratch"]
+
+[[gap]]
+id = "llm-internals"
+label = "LLM internals & post-training"
+short = "LLM internals"
+now = 2.5
+target = 4.5
+weight = 1.0
+keywords = ["kv cache", "kv-cache", "quantiz", "tokeni", "fine-tun", "lora", "sft", "rlhf", "dpo", "grpo",
+            "reinforcement", "distill", "mixture-of-experts", "moe", "context window", "inference", "forgetting",
+            "continual learning", "open-weight", "parameters", "flash"]
+
+[[gap]]
+id = "llm-eval"
+label = "LLM / agent evaluation"
+short = "LLM eval"
+now = 2.5
+target = 4.5
+weight = 1.0
+keywords = ["benchmark", "eval", "swe-bench", "leaderboard", "verified", "verif", "pass@", "contamination",
+            "judge", "red team", "red-team", "safety test", "proof", "score", "ranking", "agent"]
+
+[[gap]]
+id = "dl-training"
+label = "DL model training"
+short = "DL training"
+now = 3.0
+target = 4.5
+weight = 0.9
+keywords = ["training run", "pretrain", "pre-train", "scaling law", "compute", "gpu", "tpu", "diffusion",
+            "world model", "video model", "flops", "data center", "datacenter"]
+
+[[gap]]
+id = "agent-engineering"
+label = "Agent / harness engineering"
+short = "Agent engineering"
+now = 4.0
+target = 5.0
+weight = 0.7
+keywords = ["agent", "tool use", "mcp", "sandbox", "coding assistant", "codex", "claude code", "computer use",
+            "workflow", "upload"]
+
+[[gap]]
+id = "domain-ai"
+label = "Domain AI (finance, health)"
+short = "Domain AI"
+now = 3.5
+target = 4.5
+weight = 0.7
+keywords = ["stock", "shares", "ipo", "s-1", "revenue", "earnings", "drug", "biolog", "medical", "trading",
+            "market", "dividend", "forecast"]
+
+[[gap]]
+id = "public-output"
+label = "Public output"
+now = 1.5
+target = 4.0
+weight = 0.4           # a daily snippet cannot ship a write-up; kept low so it surfaces only on strong hooks
+keywords = ["open source", "open-source", "paper", "arxiv", "github", "blog", "reproduc"]
+
+[[gap]]
+id = "math-stats"
+label = "Math & statistical foundations"
+short = "Math & stats"
+now = 4.5
+target = 5.0
+weight = 0.5
+keywords = ["statistic", "probability", "bayes", "regression", "variance", "confidence interval", "proof", "theorem"]
+
+[[gap]]
+id = "experimental-rigor"
+label = "Experimental rigor"
+now = 4.5
+target = 5.0
+weight = 0.5
+keywords = ["unverified", "not independently", "replicat", "claims", "study", "trial", "a/b"]
+
+[[gap]]
+id = "ai-workflow"
+label = "AI-augmented workflow"
+short = "AI workflow"
+now = 4.5
+target = 5.0
+weight = 0.3
+keywords = ["copilot", "assistant", "chatgpt", "productivity", "prompt"]

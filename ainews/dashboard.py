@@ -15,6 +15,7 @@ from typing import Any
 from .aggregate import calendar_as_of, lang_split, market_for, rolling_week, trend, weekly_view
 from .archive import Archive, week_bounds
 from .config import COMPONENTS, REGIONS, TOPICS, Config
+from .learn import tracker
 
 TEMPLATE = Path(__file__).parent / "templates" / "dashboard.html"
 _MARK = "<!--BODY-->"
@@ -30,6 +31,8 @@ def payload(cfg: Config, archive: Archive, latest: date) -> dict[str, Any]:
             "window": iss["window"],
             "tldr": iss["tldr"],
             "notes": iss.get("notes", ""),
+            "learn": iss.get("learn", []),
+            "learning": tracker(cfg, archive, d),
             "items": [{**it, "market": events.get(it["id"], [])} for it in iss["items"]],
             "calendar": calendar_as_of(cfg, archive, d),
             "week": rolling_week(cfg, archive, d),
@@ -64,6 +67,8 @@ def payload(cfg: Config, archive: Archive, latest: date) -> dict[str, Any]:
             "car_days": int(cfg.market.get("car_days", 3)),
             "baseline_days": cfg.momentum_baseline_days,
             "repo": cfg.repo_url,
+            "gaps": {g.id: {"label": g.label, "now": g.now, "target": g.target, "weight": g.weight,
+                            "priority": round(g.priority, 3)} for g in cfg.gaps.values()},
         },
         "issues": issues,
         "trend": trend(archive, latest, cfg.dashboard_days + 29),

@@ -200,6 +200,18 @@ table.data tfoot td { font-weight: 700; border-bottom: 0; }
 .brief-src { margin: 0; font-size: 0.75rem; color: var(--muted); }
 .empty { padding: 16px; color: var(--muted); font-size: var(--step--1); }
 
+/* ---- learn this ---- */
+.learn { border-left: 3px solid var(--accent); }
+.gapbar { position: relative; width: 96px; height: 6px; border-radius: 3px; background: var(--surface-2); margin-left: auto; }
+.gapbar i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; background: var(--accent); }
+.gapbar b { position: absolute; top: -3px; width: 2px; height: 12px; background: var(--ink); }
+.math, .code pre { margin: 0; font-family: var(--f-mono); font-size: 0.8rem; line-height: 1.5; background: var(--surface-2); border-radius: 8px; padding: 10px 12px; overflow-x: auto; }
+p.math { font-family: var(--f-body); font-size: var(--step-1); font-style: italic; color: var(--ink); background: none; padding: 2px 0; white-space: pre-wrap; }
+.code { position: relative; min-width: 0; }
+.code .copy { position: absolute; top: 6px; right: 6px; font: inherit; font-size: 0.7rem; font-weight: 600; color: var(--ink-2); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; cursor: pointer; }
+.lstats { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.78rem; color: var(--ink-2); margin: 0; }
+.lstats b { font-family: var(--f-mono); color: var(--ink); }
+
 /* ---- calendar ---- */
 .cal { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .cal li { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr); gap: 4px 14px; padding: 10px 16px; border-bottom: 1px solid var(--line); }
@@ -694,6 +706,70 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
     return [svg, table];
   }
 
+  // Readable LaTeX without a maths library: common commands → Unicode, _{…}/^{…} → sub/sup.
+  // The Markdown issue keeps the real LaTeX (GitHub renders it); this is the dashboard's fallback.
+  function texLite(tex) {
+    const SYM = { cdot: "·", approx: "≈", times: "×", star: "*", Rightarrow: "⇒", rightarrow: "→", le: "≤", ge: "≥",
+      sum: "Σ", prod: "Π", alpha: "α", beta: "β", sigma: "σ", mu: "μ", tau: "τ", epsilon: "ε", theta: "θ", lambda: "λ",
+      Delta: "Δ", infty: "∞", partial: "∂", nabla: "∇", in: "∈", quad: "  ", qquad: "    ", ";": " ", ",": " " };
+    let t = tex;
+    for (let i = 0; i < 3; i++) {
+      t = t.replace(/\\binom\{([^{}]*)\}\{([^{}]*)\}/g, "C($1, $2)").replace(/\\frac\{([^{}]*)\}\{([^{}]*)\}/g, "($1)/($2)")
+        .replace(/\\sqrt\{([^{}]*)\}/g, "√($1)").replace(/\\(?:text|mathrm|mathcal|operatorname)\{([^{}]*)\}/g, "$1");
+    }
+    t = t.replace(/\\(Big|big|left|right)/g, "").replace(/\\([A-Za-z]+|[;,])/g, (m, k) => SYM[k] ?? k);
+    const out = [];
+    const re = /([_^])(\{([^{}]*)\}|(.))/g;
+    let last = 0, m;
+    while ((m = re.exec(t))) {
+      out.push(t.slice(last, m.index), h(m[1] === "_" ? "sub" : "sup", {}, m[3] ?? m[4]));
+      last = re.lastIndex;
+    }
+    out.push(t.slice(last));
+    return out;
+  }
+
+  function gapBar(g) {
+    return h("span", { class: "gapbar", "data-tip": `now ${g.now.toFixed(1)} → target ${g.target.toFixed(1)} on a 1–5 scale\npriority (target − now)·w = ${g.priority.toFixed(2)}` },
+      h("i", { style: `width:${(100 * g.now) / 5}%` }), h("b", { style: `left:${(100 * g.target) / 5}%` }));
+  }
+
+  function learnBlock(iss) {
+    const learn = iss.learn || [];
+    if (!learn.length) return null;
+    const byId = Object.fromEntries(iss.items.map((it) => [it.id, it]));
+    const mins = learn.reduce((a, le) => a + le.minutes, 0);
+    const copy = (code) => (e) => {
+      try { navigator.clipboard.writeText(code).then(() => { e.target.textContent = "Copied"; }, () => { e.target.textContent = "Select ↓"; }); }
+      catch (_) { e.target.textContent = "Select ↓"; }
+    };
+    return h("section", {}, h("h2", { class: "sec-title" }, "Learn this", h("small", {}, `${learn.length} item${learn.length === 1 ? "" : "s"} · ~${mins} min`)),
+      h("div", { class: "leads" }, learn.map((le, i) => {
+        const g = M.gaps[le.gap];
+        return h("article", { class: "lead learn" },
+          h("div", { class: "lead-top" }, h("span", { class: "lead-n" }, `L${i + 1}`), h("span", { class: "pill q" }, g.label),
+            h("span", { class: "meta" }, `~${le.minutes} min`), gapBar(g)),
+          h("h3", { class: "lead-title" }, le.title),
+          h("p", { class: "prose why" }, h("strong", {}, "Why today. "), le.why_today, " ",
+            le.item_ids.filter((x) => byId[x]).map((x, j) => [j ? " · " : "", ext(byId[x].sources[0].url, `↗ ${byId[x].title}`)])),
+          h("p", { class: "prose" }, le.explanation),
+          le.math ? h("p", { class: "math", title: le.math }, texLite(le.math)) : null,
+          h("div", { class: "code" }, h("button", { type: "button", class: "copy", onclick: copy(le.python) }, "Copy"),
+            h("pre", {}, h("code", {}, le.python))),
+          le.refs && le.refs.length ? h("ul", { class: "srcs" }, le.refs.map((r) => h("li", {}, ext(r.url, r.title)))) : null);
+      })));
+  }
+
+  function learningPanel(tr) {
+    if (!tr || !tr.gaps.length) return null;
+    return h("section", { class: "panel" }, h("h2", {}, "Learning track", h("small", {}, `${tr.days} days`)),
+      h("p", { class: "lstats" }, h("span", {}, h("b", {}, tr.streak), " issue streak"), h("span", {}, h("b", {}, tr.total), " items"),
+        h("span", {}, h("b", {}, `~${tr.minutes}`), " min")),
+      hbars(tr.gaps.map((r) => ({ label: r.short, value: r.priority,
+        tip: `${r.label}: now ${r.now.toFixed(1)} → ${r.target.toFixed(1)}\npriority ${r.priority.toFixed(2)} · taught ${r.n}× in ${tr.days}d${r.last ? ` · last ${r.last}` : ""}` })),
+        { fmt: (v) => v.toFixed(1) }));
+  }
+
   function calendarBlock(cal) {
     const sec = h("section", {}, h("h2", { class: "sec-title" }, "Upcoming", h("small", {}, `${cal.length} dated events`)));
     if (!cal.length) { sec.append(h("p", { class: "empty" }, "No dated events on the calendar yet.")); return sec; }
@@ -731,6 +807,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
       h("section", {}, h("h2", { class: "sec-title" }, "Lead stories", h("small", {}, "ranked by I, verified only")),
         h("div", { class: "leads" }, leads.map((it, i) => leadCard(it, i + 1)))),
       briefs.length ? briefsBlock(briefs) : null,
+      learnBlock(iss),
       chinaDesk(items),
       calendarBlock(iss.calendar),
       noted.length ? h("section", {}, h("h2", { class: "sec-title" }, "Also noted", h("small", {}, "kept for the weekly pool")),
@@ -751,6 +828,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 18px 32px; font-
         stackedColumns(trendDays, { selected: state.date, labelEvery: trendDays.length > 14 ? 7 : trendDays.length > 6 ? 3 : 1 })),
       wk.entities.length ? h("section", { class: "panel" }, h("h2", {}, "Entities in play", h("small", {}, "Σ I · 7 days")),
         hbars(wk.entities.map((e) => ({ label: e.entity, value: e.weight, tip: `${e.entity}: Σ I = ${e.weight} across ${e.mentions} stor${e.mentions === 1 ? "y" : "ies"}` })), { fmt: (v) => Math.round(v) })) : null,
+      learningPanel(iss.learning),
       tickersPanel(items),
       h("section", { class: "panel" }, h("h2", {}, "Source languages", h("small", {}, "today")), langSplit(L)));
     root.replaceChildren(head, h("div", { class: "grid" }, main, rail));

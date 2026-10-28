@@ -45,6 +45,22 @@ class KnownDomain:
 
 
 @dataclass(frozen=True, slots=True)
+class Gap:
+    """One capability on the learning track (learning.toml); priority = (target - now) * weight."""
+    id: str
+    label: str
+    now: float
+    target: float
+    weight: float
+    keywords: tuple[str, ...]
+    short: str
+
+    @property
+    def priority(self) -> float:
+        return max(0.0, self.target - self.now) * self.weight
+
+
+@dataclass(frozen=True, slots=True)
 class Config:
     root: Path
     utc_offset_hours: int
@@ -75,6 +91,8 @@ class Config:
     known_domains: Mapping[str, KnownDomain]
     market: Mapping[str, Any]
     harvest: Mapping[str, Any]
+    gaps: Mapping[str, Gap]
+    learn: Mapping[str, Any]
 
     # ---- derived -------------------------------------------------------
     @property
@@ -139,6 +157,19 @@ def _load_domains(path: Path) -> dict[str, KnownDomain]:
     return out
 
 
+def _load_gaps(path: Path) -> tuple[dict[str, Gap], dict[str, Any]]:
+    if not path.exists():
+        return {}, {}
+    table = tomllib.loads(path.read_text("utf-8"))
+    gaps: dict[str, Gap] = {}
+    for g in table.get("gap", []):
+        if g["id"] in gaps:
+            raise ValueError(f"learning.toml: duplicate gap id {g['id']!r}")
+        gaps[g["id"]] = Gap(g["id"], g["label"], float(g["now"]), float(g["target"]), float(g.get("weight", 1.0)),
+                            tuple(k.casefold() for k in g.get("keywords", [])), g.get("short", g["label"]))
+    return gaps, table.get("learn", {})
+
+
 def load_config(root: Path | str = ROOT) -> Config:
     root = Path(root)
     raw = tomllib.loads((root / "config.toml").read_text("utf-8"))
@@ -149,6 +180,7 @@ def load_config(root: Path | str = ROOT) -> Config:
     tiers = {k: float(sc["tiers"][k]) for k in TIERS}
     if not all(0.0 <= r < 1.0 for r in tiers.values()):
         raise ValueError("score.tiers reliabilities must lie in [0, 1)")
+    gaps, learn = _load_gaps(root / "learning.toml")
     aliases = {k.casefold(): v for k, v in raw.get("entities", {}).get("aliases", {}).items()}
     pub = raw.get("publish", {})
     art = raw.get("artifact", {})
@@ -182,4 +214,6 @@ def load_config(root: Path | str = ROOT) -> Config:
         known_domains=MappingProxyType(_load_domains(root / "sources.toml")),
         market=MappingProxyType(raw.get("market", {})),
         harvest=MappingProxyType(raw.get("harvest", {})),
+        gaps=MappingProxyType(gaps),
+        learn=MappingProxyType(learn),
     )

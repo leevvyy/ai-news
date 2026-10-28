@@ -1517,5 +1517,69 @@
       "url": "https://natlawreview.com/article/uk-regulator-launches-call-evidence-agentic-ai"
     }
   ],
-  "notes": "Desks could not fetch most news and lab domains from the sandbox, so details rest on search-result summaries (flagged per item). The Chinese desk found few in-window Chinese-language stories; a few harvest candidates (MiniMax M3.1 Flash contamination doubts, Songyan Dynamics HK IPO, SCMP-adjacent items) could not be verified and were left out."
+  "notes": "Desks could not fetch most news and lab domains from the sandbox, so details rest on search-result summaries (flagged per item). The Chinese desk found few in-window Chinese-language stories; a few harvest candidates (MiniMax M3.1 Flash contamination doubts, Songyan Dynamics HK IPO, SCMP-adjacent items) could not be verified and were left out.",
+  "learn": [
+    {
+      "id": "kv-cache-sizing",
+      "gap": "llm-internals",
+      "title": "Size a KV cache, and reject what does not fit",
+      "item_ids": [
+        "cloudflare-glm-5-3-kv-cache-exposure"
+      ],
+      "why_today": "Cloudflare's GLM-5.3 leak started with a 1,048,576-token context window served from a KV pool that held 681,280 tokens.",
+      "explanation": "During decoding a transformer caches the key and value vectors of every past token in every layer, so attention does not recompute them. That cache, not the weights, is what limits context length and batch size in serving. Its size is linear in layers, KV heads, head dimension, tokens and batch. Grouped-query attention (GQA) shrinks it by sharing each KV head across several query heads. A server must admit a request only if prompt plus generation fits in the pool; anything else has to be rejected, never silently rewritten.",
+      "math": "M_{KV} = 2 \\cdot L \\cdot n_{kv} \\cdot d_{head} \\cdot T \\cdot b \\cdot \\text{bytes}",
+      "python": "def kv_cache_bytes(layers, n_kv_heads, head_dim, tokens, batch=1, bytes_per=2):\n    \"\"\"K and V for every layer: 2 * n_kv_heads * head_dim values per token (bf16 = 2 bytes).\"\"\"\n    return 2 * layers * n_kv_heads * head_dim * tokens * batch * bytes_per\n\n# Illustrative GQA config, not GLM-5.3's: 60 layers, 8 KV heads, head_dim 128, bf16\ncfg = dict(layers=60, n_kv_heads=8, head_dim=128)\nper_token = kv_cache_bytes(**cfg, tokens=1)\npool_tokens = 160 * 2**30 // per_token          # a 160 GiB KV pool\nprint(f\"{per_token / 2**10:.0f} KiB/token -> pool holds {pool_tokens:,} tokens\")\n\ndef admit(prompt_tokens, max_new_tokens, pool_tokens):\n    need = prompt_tokens + max_new_tokens\n    if need > pool_tokens:  # the Cloudflare bug: this case was swapped for a placeholder instead\n        raise ValueError(f\"needs {need:,} KV slots > pool {pool_tokens:,}: reject the request\")\n    return need\n\nfor T in (200_000, 1_048_576):\n    try:\n        print(f\"{T:>9,} admitted, {admit(T, 4_096, pool_tokens):,} slots\")\n    except ValueError as err:\n        print(f\"{T:>9,} {err}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "GQA: Training Generalized Multi-Query Transformer Models (Ainslie et al., 2023)",
+          "url": "https://arxiv.org/abs/2305.13245"
+        }
+      ]
+    },
+    {
+      "id": "pass-at-k-vs-pass-hat-k",
+      "gap": "llm-eval",
+      "title": "pass@k, pass^k and why one claimed success is not a rate",
+      "item_ids": [
+        "openai-claims-math-cs-physics-proofs"
+      ],
+      "why_today": "OpenAI claims three major proofs, and none has been independently verified yet.",
+      "explanation": "Agent and reasoning benchmarks report pass@k: the chance that at least one of k attempts passes a verifier. It rewards breadth and grows quickly with k. pass^k asks that all k attempts pass, which measures reliability and falls quickly. Both need a deterministic verifier and n > k attempts; the unbiased estimators below use combinations rather than plugging c/n into a power. A Wilson interval shows how little 10 attempts pin down. A single unverified claim gives you n = 1 and an unknown c.",
+      "math": "\\text{pass@}k = 1 - \\binom{n-c}{k}\\Big/\\binom{n}{k}, \\qquad \\text{pass}^k = \\binom{c}{k}\\Big/\\binom{n}{k}",
+      "python": "from math import comb, sqrt\n\ndef pass_at_k(n, c, k):\n    \"\"\"P(at least one of k draws passes), unbiased from n attempts with c passes (Chen et al., 2021).\"\"\"\n    return 1.0 if n - c < k else 1 - comb(n - c, k) / comb(n, k)\n\ndef pass_hat_k(n, c, k):\n    \"\"\"P(all k draws pass): consistency, the metric that punishes lucky single successes.\"\"\"\n    return comb(c, k) / comb(n, k)\n\ndef wilson(c, n, z=1.96):\n    p = c / n\n    centre, half = p + z * z / (2 * n), z * sqrt(p * (1 - p) / n + z * z / (4 * n * n))\n    return (centre - half) / (1 + z * z / n), (centre + half) / (1 + z * z / n)\n\n# A model attempts a task family 10 times; independent checkers verify 3 of them\nn, c = 10, 3\nfor k in (1, 3, 5):\n    print(f\"k={k}: pass@k={pass_at_k(n, c, k):.3f}  pass^k={pass_hat_k(n, c, k):.3f}\")\nlo, hi = wilson(c, n)\nprint(f\"success rate 95% Wilson CI: [{lo:.2f}, {hi:.2f}]\")\nprint(\"one unverified claim: n=1, c unknown -> no estimate at all\")\n",
+      "minutes": 20,
+      "refs": [
+        {
+          "title": "Evaluating Large Language Models Trained on Code (Chen et al., 2021)",
+          "url": "https://arxiv.org/abs/2107.03374"
+        },
+        {
+          "title": "τ-bench, which introduced pass^k (Yao et al., 2024)",
+          "url": "https://arxiv.org/abs/2406.12045"
+        }
+      ]
+    },
+    {
+      "id": "compute-budget-to-model-size",
+      "gap": "dl-training",
+      "title": "Turn a compute budget into a model size with C ≈ 6ND",
+      "item_ids": [
+        "anthropic-s1-compute-commitments-hyperscaler-risk",
+        "oracle-adds-google-tpu-cerebras-sambanova-nvidia-vera-rubin-multi-gw"
+      ],
+      "why_today": "Anthropic's S-1 shows hundreds of billions of dollars of compute commitments, and Oracle is scaling to multi-gigawatt clusters.",
+      "explanation": "Training a dense transformer costs about 6 FLOPs per parameter per token: 2 for the forward pass and 4 for the backward pass. Hoffmann et al. (Chinchilla) found that, for a fixed budget, loss is minimised with roughly 20 training tokens per parameter, so the optimal N and D both grow as the square root of C. Turning GPUs into FLOPs needs utilisation (MFU), which is usually 30-50% of peak. The numbers below are illustrative and are not any lab's actual cluster.",
+      "math": "C \\approx 6ND, \\quad D^\\star \\approx 20N^\\star \\;\\Rightarrow\\; N^\\star \\approx \\sqrt{C/120}",
+      "python": "# Illustrative numbers, not any lab's actual cluster\ngpus, days = 10_000, 30\npeak_flops = 989e12       # H100 dense BF16 peak, FLOP/s\nmfu = 0.40                # model FLOPs utilisation actually achieved\n\nC = gpus * days * 86_400 * peak_flops * mfu       # training compute, FLOPs\n# Chinchilla rule of thumb: C ≈ 6 N D and compute-optimal D ≈ 20 N  =>  N = sqrt(C / 120)\nN = (C / 120) ** 0.5\nD = 20 * N\nprint(f\"C = {C:.2e} FLOPs -> N ≈ {N / 1e9:.0f}B params, D ≈ {D / 1e12:.1f}T tokens\")\n\nfor mult in (0.1, 1, 10):  # how the optimum moves with budget: N, D ∝ C^0.5\n    n = (mult * C / 120) ** 0.5\n    print(f\"{mult:>4}x budget: N ≈ {n / 1e9:6.0f}B, D ≈ {20 * n / 1e12:5.1f}T\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Training Compute-Optimal Large Language Models (Hoffmann et al., 2022)",
+          "url": "https://arxiv.org/abs/2203.15556"
+        }
+      ]
+    }
+  ]
 }

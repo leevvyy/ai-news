@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import ast
 import re
 from dataclasses import dataclass, field
 from datetime import date, timedelta
@@ -149,6 +150,63 @@ def validate_upcoming(ev: Any, where: str, today: date | None) -> Report:
     return r
 
 
+def validate_learn(cfg: Config, learn: Any, item_ids: set[str]) -> Report:
+    """`learn`: 0..max_items entries teaching towards a learning.toml gap, each hooked on today's stories."""
+    r = Report()
+    if not isinstance(learn, list):
+        r.err("issue", "'learn' must be a list")
+        return r
+    cap = int(cfg.learn.get("max_items", 3))
+    if len(learn) > cap:
+        r.err("issue", f"'learn' has {len(learn)} entries; at most {cap}")
+    seen: set[str] = set()
+    for i, le in enumerate(learn):
+        where = f"learn[{i}]"
+        if not isinstance(le, dict):
+            r.err(where, "entry must be an object")
+            continue
+        lid = le.get("id", "")
+        where = f"learn[{lid or i}]"
+        if not isinstance(lid, str) or not _ID.match(lid):
+            r.err(where, "'id' must be kebab-case [a-z0-9-]")
+        elif lid in seen:
+            r.err(where, "duplicate id")
+        seen.add(lid if isinstance(lid, str) else "")
+        if le.get("gap") not in cfg.gaps:
+            r.err(where, f"'gap' must be one of {list(cfg.gaps)} (learning.toml)")
+        _str(r, where, le, "title", max_len=90)
+        _str(r, where, le, "why_today", max_len=320)
+        _str(r, where, le, "explanation", max_len=1200)
+        _str(r, where, le, "math", required=False)
+        hooks = le.get("item_ids")
+        if not isinstance(hooks, list) or not hooks or not all(isinstance(x, str) for x in hooks):
+            r.err(where, "'item_ids' must list at least one of today's item ids")
+        else:
+            for ref in hooks:
+                if ref not in item_ids:
+                    r.err(where, f"item_id {ref!r} is not an item of this issue")
+        mins = le.get("minutes")
+        if not isinstance(mins, int) or isinstance(mins, bool) or not 1 <= mins <= 120:
+            r.err(where, "'minutes' must be an integer in [1, 120] (time to work through it)")
+        code = le.get("python")
+        if not isinstance(code, str) or not code.strip():
+            r.err(where, "missing 'python' snippet")
+        else:
+            try:
+                ast.parse(code)
+            except SyntaxError as e:
+                r.err(where, f"'python' does not parse: {e.msg} (line {e.lineno})")
+            n = code.count("\n") + 1
+            if n > 40:
+                r.warn(where, f"'python' is {n} lines; keep snippets under 40")
+        for j, ref in enumerate(le.get("refs", [])):
+            if not isinstance(ref, dict) or not isinstance(ref.get("url"), str) or not _URL.match(ref["url"]):
+                r.err(f"{where}.refs[{j}]", "needs an http(s) 'url'")
+            else:
+                _str(r, f"{where}.refs[{j}]", ref, "title")
+    return r
+
+
 def validate_daily(cfg: Config, issue: Any, expected_date: date | None = None) -> Report:
     r = Report()
     if not isinstance(issue, dict):
@@ -182,6 +240,8 @@ def validate_daily(cfg: Config, issue: Any, expected_date: date | None = None) -
         r.extend(validate_item(cfg, it, f"items[{i}]", win))
     for i, ev in enumerate(issue.get("upcoming", [])):
         r.extend(validate_upcoming(ev, f"upcoming[{i}]", d))
+    if "learn" in issue:
+        r.extend(validate_learn(cfg, issue["learn"], {it.get("id") for it in items if isinstance(it, dict)}))
     n_ok = sum(1 for it in items if isinstance(it, dict) and it.get("sources"))
     if n_ok and n_ok < cfg.leads + 3:
         r.warn("issue", f"only {n_ok} items; aim for >= {cfg.leads + cfg.briefs}")
