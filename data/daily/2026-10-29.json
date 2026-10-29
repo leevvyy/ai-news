@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-29",
+  "window": {
+    "start": "2026-10-28T21:49:00Z",
+    "end": "2026-10-29T21:48:00Z"
+  },
+  "tldr": [
+    "AWS grew 39% to $46.0B, its fastest in nearly five years, but Amazon missed on EPS and shares fell roughly 5-11% after hours as the ~$220B 2026 capex plan pushed free cash flow sharply lower.",
+    "Intel's Q3 revenue rose 21% to $16.5B, but a Q4 guide of $15-16B sent shares down about 17% after hours; Sandisk beat with $11.0B revenue, guided Q2 to $12.2-12.6B and announced an 8-for-1 split.",
+    "Banks shelved a $5-7B bond sale for an Anthropic-tied Texas data center as the state's grid review freezes new projects, while Korean chip startup FuriosaAI raised $620M at a $2.9B valuation."
+  ],
+  "items": [
+    {
+      "id": "amazon-q3-2026-aws-39pct-fcf-negative-shares-fall",
+      "title": "AWS grows 39% to $46B, fastest in nearly five years, but Amazon misses on EPS and revenue and shares fall after hours",
+      "summary": "Amazon's Q3 net sales rose 12% to $201.9B and operating income was $28.1B. AWS sales grew 39% to $46.0B with $17.8B operating income. EPS of $1.89 missed the roughly $1.97 consensus, and trailing free cash flow turned deeply negative. Amazon held its 2026 capex plan near $220B, and shares fell roughly 5-11% in extended trading depending on the time of measurement.",
+      "why_it_matters": "The strongest cloud acceleration in years, with capacity still tight, validates the AI infrastructure spend. The cash burn and the market's reaction show how little tolerance investors have for capex that outruns free cash flow.",
+      "key_numbers": [
+        "AWS +39% to $46.0B",
+        "AWS operating income $17.8B",
+        "Net sales $201.9B, +12%",
+        "2026 capex plan about $220B",
+        "Shares about -5% to -11% after hours"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Amazon",
+        "AWS"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-10-29T20:05:00Z",
+      "sources": [
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+          "outlet": "Amazon IR",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Amazon.com Announces Third Quarter Results"
+        },
+        {
+          "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/",
+          "outlet": "GeekWire",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AWS growth hits 39%, its fastest in nearly five years, as Amazon misses on earnings"
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/10/29/aws-jumps-39-as-amazons-cash-flow-sinks-rapid-earn/",
+          "outlet": "Motley Fool",
+          "lang": "en",
+          "tier": "press",
+          "title": "AWS Jumps 39% as Amazon's Cash Flow Sinks: Rapid Earnings Reaction"
+        },
+        {
+          "url": "https://qz.com/amazon-aws-cloud-growth-fastest-earnings-102926",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon Q3 2026 earnings: cloud unit grew 39%, beating forecasts"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "AWS and company totals are from the Amazon release as quoted in search snippets (full page not opened). Free cash flow outflow is reported as $42.4B (attributed to CNBC) by one source and about $33.5B by another, so not stated in numbers. Jassy's 'AWS above 40% in 2027 and 2028' comment appears only in a Quartz snippet. The after-hours drop varies by source (4%, 5.4%, more than 7%, 11% at one point). Anthropic-related gain and backlog for Q3 not seen. Published time estimated at the ~4pm ET release.",
+      "score": {
+        "total": 70.2,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.487,
+          "momentum": 0.528
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "intel-q3-2026-weak-q4-guide-stock-plunges",
+      "title": "Intel beats Q3 on AI data-center strength but guides Q4 well below consensus; shares drop about 17% after hours",
+      "summary": "Intel reported Q3 2026 revenue of $16.5B (up 21% YoY), non-GAAP EPS of $0.52 and GAAP EPS of $0.60, with GAAP gross margin 43.0%. It guided Q4 revenue to $15.0-16.0B and non-GAAP EPS to $0.25, well under Street expectations. Management pointed to PC weakness and supply constraints; coverage also cites an Israel plant incident.",
+      "why_it_matters": "A guide-down from the main US foundry bet, driven by PC demand hit by memory prices, shows the AI memory squeeze spilling into client compute. It also puts pressure on the 14A and 18A funding story.",
+      "key_numbers": [
+        "Q3 revenue $16.5B, +21% YoY",
+        "Q4 revenue guide $15.0-16.0B vs ~$17B consensus",
+        "Q4 non-GAAP EPS guide $0.25",
+        "Shares about -17% after hours"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Intel"
+      ],
+      "tickers": [
+        "INTC"
+      ],
+      "published_at": "2026-10-29T20:05:00Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+          "outlet": "Intel (SEC 8-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "INTEL CORP - Form 8-K - FY2026 (Q3 2026 earnings release)"
+        },
+        {
+          "url": "https://invezz.com/news/2026/10/29/intel-stock-plunges-17-after-weak-q4-forecast-overshadows-ai-growth/",
+          "outlet": "Invezz",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Intel stock plunges 17% after weak Q4 forecast overshadows AI growth"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62718733/intel-stock-crashes-after-q3-earnings-what-you-need-to-know",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Intel Stock Crashes After Q3 Earnings: What You Need to Know"
+        },
+        {
+          "url": "https://stocktwits.com/news-articles/markets/equity/intc-stock-tumbles-after-hours-after-q3-pc-slump-and-supply-bottlenecks-cloud-fourth-quarter-guidance/cZUQyleR9Rf",
+          "outlet": "Stocktwits",
+          "lang": "en",
+          "tier": "trade",
+          "title": "INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Headline figures (revenue, EPS, gross margin, Q4 guide) are from the SEC release as shown in search snippets; I could not open the full release. Data center and AI revenue $7.3B (+78%), Q4 gross margin ~38%, the ~$17B consensus, the Israel plant incident (~$300M revenue effect) and the -16.5% to -20% after-hours move come from secondary snippets only and differ by outlet. Q3 foundry segment loss not seen. Published time estimated at the ~4pm ET release.",
+      "score": {
+        "total": 62.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "sandisk-fq1-2027-revenue-11b-guide-12-6b-8-for-1-split",
+      "title": "Sandisk posts $11.0B quarter above guidance, guides next quarter to $12.2-12.6B and announces 8-for-1 split",
+      "summary": "Sandisk's fiscal Q1 2027 revenue was $11.0B, up 23% sequentially and above its $10.3-10.8B guide, with non-GAAP EPS of $49.51 versus a $44-46 guide. It guided fiscal Q2 revenue to $12.2-12.6B and non-GAAP EPS (pre-split) to $55-57. It repurchased about $5.0B of stock in the quarter and announced an eight-for-one forward split effective Nov 19, 2026.",
+      "why_it_matters": "NAND pricing is following DRAM into a data-center-driven upcycle, with margins around 85% on the company's figures. The guide still implies sequential growth slowing to low teens.",
+      "key_numbers": [
+        "Revenue $11.0B, +23% QoQ",
+        "Non-GAAP EPS $49.51",
+        "Q2 revenue guide $12.2-12.6B",
+        "8-for-1 split effective Nov 19",
+        "$5.0B buybacks in quarter"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Sandisk"
+      ],
+      "tickers": [
+        "SNDK"
+      ],
+      "published_at": "2026-10-29T20:05:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-reports-fiscal-first-quarter-200500680.html",
+          "outlet": "Sandisk (via Yahoo Finance)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Sandisk Reports Fiscal First Quarter 2027 Financial Results"
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/10/29/sandisk-revenue-up-378-on-datacenter-edge-rapid-earnings-reaction/",
+          "outlet": "Motley Fool",
+          "lang": "en",
+          "tier": "press",
+          "title": "Sandisk Revenue Up 378% on Datacenter, Edge: Rapid Earnings Reaction"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4627102-sandisk-forecasts-q1-fy2027-revenue-of-10_3b-10_8b-and-non-gaap-eps-of-44-46-while-expanding",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Sandisk forecasts Q1 FY2027 revenue of $10.3B-$10.8B and non-GAAP EPS of $44-$46 while expanding $15.5B buyback authorization"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Figures are from search-result summaries of the Yahoo-hosted press release and Motley Fool; full pages not opened. The Seeking Alpha title shown is the earlier guidance item (it did not show the new results). Gross margin 'about 85%' and the after-hours move (reported about +3% in one early snippet, -5.3% in the regular session) are unverified. Published time estimated at the ~4pm ET release.",
+      "score": {
+        "total": 56.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "banks-shelve-anthropic-texas-data-center-bond-abbott-freeze",
+      "title": "Banks shelve bond sale for Anthropic-tied Texas data center as state grid review freezes new projects",
+      "summary": "Bloomberg reports that banks have shelved a planned high-yield bond sale, reportedly $5-7B, meant to refinance part of a roughly $15B loan for the Nexus Data Centers campus in Hubbard, Texas, leased to Anthropic and backed by Google. Secondary coverage ties the delay to Gov. Greg Abbott's hold on new data-center approvals while ERCOT and state agencies audit grid risk. Sales may be staggered over the next year, leaving lenders holding the debt.",
+      "why_it_matters": "It is a concrete case of data-center policy risk reaching project finance for a frontier lab's compute, days after Anthropic's S-1 flagged moratoriums as a top risk. Banks holding the loan longer also tests appetite for AI-linked junk debt.",
+      "key_numbers": [
+        "About $15B loan",
+        "$5-7B bond sale shelved",
+        "Texas review reportedly runs to mid-December"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Nexus Data Centers",
+        "Google"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T21:50:15Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Banks Shelve Bond Sale for Anthropic-Tied Texas Data Center"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/banks-delay-anthropic-tied-data-center-bond-sale-ce785cd3db8ff321",
+          "outlet": "MarketScreener",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Banks Delay Anthropic-Tied Data Center Bond Sale"
+        },
+        {
+          "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/",
+          "outlet": "Texas Tribune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Texas pauses environmental permit approval for data centers"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": "anthropic-s1-risk-factors-catastrophic-ai-moratoriums",
+      "confidence_note": "Bloomberg article body not opened; details ($5-7B, staggering, Abbott/ERCOT cause, no comment from Anthropic/Google/banks) come from search snippets of secondary summaries. The Texas Tribune link is background on the permit pause (Sept 21), not on the bond sale. ERCOT report due Dec 10 per Forbes snippet, not cited as a source.",
+      "score": {
+        "total": 53.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.213
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 3.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "furiosaai-620m-series-d-2-9b-valuation",
+      "title": "Korean AI-chip startup FuriosaAI raises $620M Series D at $2.9B valuation, about four times its last",
+      "summary": "FuriosaAI says it closed a $620M Series D at a $2.9B post-money valuation, roughly 4x its prior $735M valuation. Reports name Korea's National Growth Fund (about $280M with Infinitum Partners, per one account) and Cisco Investments among backers. It makes the RNGD inference chip, built by TSMC, and is reportedly eyeing a listing as early as 2027.",
+      "why_it_matters": "State-backed capital is funding a non-Nvidia inference alternative in Korea. The valuation jump is a sign that investor interest in inference silicon is widening beyond the US.",
+      "key_numbers": [
+        "$620M Series D",
+        "$2.9B post-money valuation",
+        "~4x prior valuation ($735M)",
+        "20,000 RNGD chips planned from TSMC in 2026"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "FuriosaAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-28T23:00:00Z",
+      "sources": [
+        {
+          "url": "https://furiosa.ai/blog/furiosaai-620-million-series-d",
+          "outlet": "FuriosaAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "FuriosaAI closes $620 million Series D to scale efficient, production-ready AI inference"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/furiosaai-quadruples-valuation-to-2-9-billion-in-nvidia-chase",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "FuriosaAI Quadruples Valuation to $2.9 Billion in Nvidia Chase"
+        },
+        {
+          "url": "https://theedgemalaysia.com/node/823806&gsessionid=ycrlrXkJsRPsoQsg74xbVfCaUVTtUH8D0wkN3GLDmyNzra8VarJmgA",
+          "outlet": "The Edge Malaysia",
+          "lang": "en",
+          "tier": "press",
+          "title": "South Korea's FuriosaAI quadruples value to US$2.9 bil in Nvidia chase"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Only titles and search snippets seen; the company blog and Bloomberg were not opened. Lead-investor accounts conflict, and one Korean report gives 820B won ($592M) at $2.75B. The 20,000-chip TSMC plan and 2027 IPO aim are from a snippet and not independently confirmed. Published time uses the Bloomberg harvest timestamp.",
+      "score": {
+        "total": 51.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.879,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "samsung-q3-2026-final-results-net-profit-75t-hbm4-share",
+      "title": "Samsung's final Q3 confirms KRW 107.4T operating profit, discloses KRW 75.1T net profit as HBM share nears 40%",
+      "summary": "Samsung Electronics' full Q3 results confirmed revenue of KRW 195.3T and operating profit of KRW 107.4T, in line with the Oct 8 preliminary figure, and disclosed net profit of KRW 75.1T for the first time. The chip division produced about KRW 106.5T of operating profit. Samsung said it expects long-term supply agreements to expand, and Korean press put its HBM share near 40%.",
+      "why_it_matters": "Samsung is closing the HBM gap with SK hynix, which reported a day earlier, and the two together show memory makers capturing most of the AI profit pool. Long-term contracts covering 60-70% of output would reduce the cyclicality risk.",
+      "key_numbers": [
+        "Operating profit KRW 107.4T",
+        "Revenue KRW 195.3T",
+        "Net profit KRW 75.1T",
+        "HBM share nearing 40% (Seoul Economic Daily)",
+        "Long-term deals could cover 60-70% of memory output through 2030"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Samsung Electronics",
+        "SK hynix"
+      ],
+      "tickers": [
+        "005930.KS"
+      ],
+      "published_at": "2026-10-29T01:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.vlsi.kr/en/samsung-q3-2026-earnings-11-facts-en/",
+          "outlet": "VLSI.kr",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Samsung Q3 2026 Final Results: HBM4, Dividend - 11 Facts"
+        },
+        {
+          "url": "https://en.sedaily.com/finance/2026/10/29/samsung-nears-40-percent-hbm-share-doubles-long-term-supply",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung Nears 40% HBM Share, Doubles Long-Term Supply Deals"
+        },
+        {
+          "url": "https://www.sammyfans.com/2026/10/29/samsungs-hbm4-sales-triple-as-it-closes-gap-with-sk-hynix/",
+          "outlet": "SamMobile / Sammy Fans",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Samsung's HBM4 sales triple as it closes gap with SK Hynix"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Operating profit and revenue were already pre-announced on Oct 8, so novelty is low. Net profit, division split and the long-term-deal share come from search snippets of trade sites; the Samsung release itself was not opened. HBM share estimates conflict (about 40% per Seoul Economic Daily vs 33% per Counterpoint cited elsewhere); Bernstein HBM revenue estimate not used. Publication time is an estimate (Korean morning release).",
+      "score": {
+        "total": 48.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.393,
+          "momentum": 0.528
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-29",
+      "title": "GitHub Universe 2026 (Fort Mason, San Francisco) runs Oct 28-29; keynote announcements not verified by Desk A",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Apple fiscal Q4 2026 results after US close (memory-cost margin focus)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://pepperstone.com/en/insights/market-analysis/equities/apple-q4-2026-earnings-preview-rising-memory-costs-test-margins-can-premium-products-support-the-share-price"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Sandisk 8-for-1 forward stock split effective",
+      "kind": "other",
+      "confidence": "confirmed",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-reports-fiscal-first-quarter-200500680.html"
+    },
+    {
+      "date": "2026-12-10",
+      "title": "ERCOT to file data-center eligibility and community-impact audit reports with Texas PUC (Forbes snippet;…",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://www.forbes.com/sites/daraabasiita/2026/10/13/texas-orders-data-center-audit-as-grid-requests-reach-474-gigawatts/"
+    },
+    {
+      "date": "2026-12-17",
+      "title": "Hearing on Anthropic motions to dismiss in Carreyrou and Chicken Soup for the Soul copyright cases",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://ailawsuittracker.com/copyright/"
+    },
+    {
+      "date": "2026-10",
+      "title": "Apple Intelligence beta for China-model iPhones (with Alibaba Qwen) promised for 'late October'; iOS 27.2…",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.ifanr.com/1684431"
+    }
+  ],
+  "notes": "Harvest was stale (22 h old, ends 2026-10-29T00:17Z) and the search index thinned after the evening of Oct 28; coverage of Oct 29 is limited to what WebSearch surfaced (mostly Oct 29 after-hours earnings). Desk A found no verifiable in-window lab/research stories. China coverage is thin and WebFetch on Chinese outlets is blocked by network policy; all facts are from search snippets (see confidence_note on each item).",
+  "learn": [
+    {
+      "id": "capex-fcf-runway",
+      "gap": "domain-ai",
+      "title": "Read free cash flow as OCF minus capex, and size the funding runway",
+      "item_ids": [
+        "amazon-q3-2026-aws-39pct-fcf-negative-shares-fall"
+      ],
+      "why_today": "The item reports AWS growth of 39% alongside a ~$220B capex plan and sharply lower trailing free cash flow, which is the OCF-versus-capex squeeze in practice.",
+      "explanation": "Free cash flow is operating cash flow minus capital expenditure; it is what remains to repay debt, buy back stock or pay dividends. When capex outgrows operating cash flow, FCF turns negative and the gap must be funded by cash on hand, debt or equity. Trailing-twelve-month FCF lags capex ramps because spending hits immediately while the revenue it enables arrives later, so a growth segment can look strong while FCF falls. A simple runway model compounds debt at an interest rate and adds the annual shortfall. It breaks when OCF grows, capex is leased or off-balance-sheet, or timing of payables distorts a single year. The numbers below are illustrative, not Amazon's.",
+      "math": "D_{t+1} = D_t (1+r) - \\mathrm{FCF},\\quad \\mathrm{FCF} = \\mathrm{OCF} - \\mathrm{CapEx}",
+      "python": "# Illustrative numbers only (not Amazon's actual figures), in $B per year.\nocf = 140.0          # operating cash flow\ncapex = 220.0        # capital expenditure\nfcf = ocf - capex\nprint(\"FCF:\", fcf)\n# Capex funded by debt: how many years of negative FCF before net debt reaches a limit?\ndebt, limit, rate = 0.0, 300.0, 0.05\nfor year in range(1, 11):\n    debt = debt * (1 + rate) - fcf\n    print(year, round(debt, 1))\n    if debt > limit:\n        print(\"limit hit in year\", year); break",
+      "minutes": 10
+    }
+  ]
+}
