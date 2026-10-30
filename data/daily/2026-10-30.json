@@ -1,0 +1,909 @@
+{
+  "date": "2026-10-30",
+  "window": {
+    "start": "2026-10-29T21:48:00Z",
+    "end": "2026-10-30T21:48:00Z"
+  },
+  "tldr": [
+    "DeepSeek's second funding round is reported at about RMB105.5B (~$15.8B) at a ~RMB615.5B valuation, with ~30 investors and 27% state-linked capital; DeepSeek has not confirmed.",
+    "A trojanized Claude Code extension (v2.1.313) served through Cursor's marketplace planted a persistent SSH backdoor for nearly 12 hours; Cursor says at most 5,000 users were affected. Separately, OpenAI is limiting weapons information for teens and will honor a shared IETF AI-training opt-out signal.",
+    "ModelBest's ForgeKernel agent reportedly wrote a prefill kernel 9.8% faster than DeepSeek's FlashMLA on a B200 (472 us vs 518 us), and Nvidia/MIT researchers open-sourced a 4K add-on for MiniMax H3."
+  ],
+  "items": [
+    {
+      "id": "deepseek-second-round-105-5b-yuan-615-5b-valuation",
+      "title": "DeepSeek second funding round reported at RMB105.5B and a RMB615.5B valuation, with about 30 investors",
+      "original_title": "曝DeepSeek第二轮融资1055亿元：估值6155亿元，腾讯、宁德时代、长鑫存储、中芯国际、美团、vivo等参与",
+      "summary": "Chinese outlets on 30 Oct, citing an investor list (some attribute it to The Information), say DeepSeek's second external round is about RMB105.5B (~$15.8B) at about RMB615.5B valuation. Roughly 30 institutions took part, with Tencent and CATL reported among the leaders; CXMT, SMIC, Meituan and vivo are also named. State-linked capital is said to be 27% of the round versus 2% in the first. DeepSeek has not confirmed any figure.",
+      "why_it_matters": "It would be the largest private raise by a Chinese AI lab and shows state and chip-supply-chain capital moving into DeepSeek. It also resets the valuation benchmark for Moonshot, Zhipu and MiniMax.",
+      "key_numbers": [
+        "RMB105.5B raised (~$15.8B)",
+        "~RMB615.5B valuation",
+        "~30 investors",
+        "27% state capital (2% in round one)"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Tencent",
+        "CATL"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T04:39:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/020/121.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "曝 DeepSeek 第二轮融资 1055 亿元：估值 6155 亿元，腾讯、宁德时代、长鑫存储、中芯国际、美团、vivo 等参与"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261030/herald/f1f3146963f1de19418d797341443e46.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek千亿元融资细节曝光，近30家机构参投"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xe46FUF1ck",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek第二轮融资1055亿元：估值6155亿元"
+        },
+        {
+          "url": "https://panews.io/articles/01a18bb5-6a9a-7684-979c-d78026298ba4",
+          "outlet": "PANews",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Details of DeepSeek's 105.5 Billion Yuan Funding Round Revealed"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.85,
+      "novelty": 0.55,
+      "follow_up_of": null,
+      "confidence_note": "Unconfirmed by DeepSeek; leaked investor-list details. Articles were not opened; amounts and the 27% state share come from search-result summaries. Reports disagree on pre- vs post-money, and on CATL's amount. Original Chinese headline: 曝DeepSeek第二轮融资1055亿元。",
+      "score": {
+        "total": 73.2,
+        "components": {
+          "impact": 0.85,
+          "novelty": 0.55,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.664
+        },
+        "coverage": 7,
+        "mentions": 2,
+        "baseline": 0.833,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "claude-code-extension-cursor-trojanized-ssh-backdoor",
+      "title": "Trojanized 'Claude Code' extension 2.1.313 on Cursor's marketplace planted a persistent SSH backdoor",
+      "summary": "A tampered build of the Claude Code extension (version 2.1.313) was served through Cursor's extension marketplace under the legitimate publisher name until removed on 30 Oct. Researchers say it added an attacker's SSH key and opened a reverse tunnel to an attacker-controlled server. Cursor says at most 5,000 users were affected and that the build was not developed by Anthropic. Ars Technica's headline puts the exposure at nearly 12 hours.",
+      "why_it_matters": "AI coding-agent extensions run on machines holding credentials and repo access, making them a high-value supply-chain target. Uninstalling the extension reportedly does not remove the backdoor, so affected users must check for the key and rotate credentials.",
+      "key_numbers": [
+        "extension version 2.1.313",
+        "<=5,000 users affected (Cursor)",
+        "~12 hours exposure (Ars headline)"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Anthropic",
+        "Cursor"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T07:09:12Z",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "outlet": "Ars Technica",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours"
+        },
+        {
+          "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+          "outlet": "StepSecurity",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+        },
+        {
+          "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+          "outlet": "DoublePulsar",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace"
+        },
+        {
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+          "outlet": "Phorion",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.65,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Article bodies and Cursor's notice were not opened (fetch blocked); details come from search-result text. Whether Open VSX also carried the build is disputed (StepSecurity says yes, Cursor says no). DoublePulsar blames an Anthropic compromise; Cursor says Anthropic did not develop the build. No Anthropic statement seen. The 5,000 figure is Cursor's; 12 hours is from the Ars headline only. published_at is the harvest first-seen time.",
+      "score": {
+        "total": 66.1,
+        "components": {
+          "impact": 0.65,
+          "novelty": 0.8,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.407
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 2.833,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "openai-teen-weapons-limits-community-safety-report",
+      "title": "OpenAI limits weapons information for teens in ChatGPT and promises a recurring Community Safety Report",
+      "summary": "OpenAI said on 30 Oct it will restrict practical information on weapons and security systems for users it estimates are under 18, strengthen age prediction, and notify parents when a teen account is paused for repeatedly discussing violence. Detail about past mass attacks will be limited for all users. OpenAI committed to a recurring public report on violence prevention, first edition expected early 2027.",
+      "why_it_matters": "It extends teen safety from self-harm to violence; the account-pause and parent-alert mechanics raise privacy and false-positive questions, and the report may become a template for lab transparency.",
+      "key_numbers": [
+        "first report early 2027",
+        "rollout over the next few weeks"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T09:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Community safety report and new protections for teens"
+        },
+        {
+          "url": "https://www.unite.ai/openai-announces-community-safety-report-and-new-teen-weapons-limits/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Announces Community Safety Report and New Teen Weapons Limits"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "OpenAI post not opened; details are from search summaries of the Reuters story and trade coverage. Report name varies between 'Community Safety Report' and 'Community Safeguards Report'.",
+      "score": {
+        "total": 56.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.7,
+          "breadth": 0.487,
+          "momentum": 0.717
+        },
+        "coverage": 4,
+        "mentions": 4,
+        "baseline": 2.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "modelbest-forgekernel-beats-flashmla-prefill-9-8pct",
+      "title": "ModelBest's ForgeKernel agent writes an attention kernel 9.8% faster than DeepSeek's FlashMLA Prefill on B200",
+      "original_title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
+      "summary": "Quantum Bit reports that ModelBest (面壁智能)'s unattended ForgeKernel agent, in a livestream on one Nvidia B200, produced a prefill kernel of 472 microseconds against 518 for DeepSeek's open-source FlashMLA Prefill, a 9.8% gain. The run took 42 iterations and about 22 GPU-hours, and reportedly did not use DeepSeek's implementation as a reference.",
+      "why_it_matters": "If it holds up, AI-written kernels are matching hand-tuned work published by a top Chinese lab, adding pressure on specialist kernel engineering.",
+      "key_numbers": [
+        "472 us vs 518 us",
+        "+9.8%",
+        "42 iterations",
+        "~22 GPU-hours on 1 B200"
+      ],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "ModelBest",
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T10:25:00Z",
+      "sources": [
+        {
+          "url": "https://www.qbitai.com/2026/10/506785.html",
+          "outlet": "量子位",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-10-22/doc-iniwcaff5131324.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek 开源看家算子的同一周，AI 超过了它"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.45,
+      "novelty": 0.65,
+      "follow_up_of": null,
+      "confidence_note": "Figures are ModelBest's own via its livestream; no independent reproduction. Articles not opened (search-result text). 'ModelBest' is my translation of 面壁智能.",
+      "score": {
+        "total": 52.7,
+        "components": {
+          "impact": 0.45,
+          "novelty": 0.65,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "openai-honor-shared-ai-preferences-signal",
+      "title": "OpenAI will honor a shared IETF AI-preferences signal for training opt-outs",
+      "summary": "OpenAI said on 30 Oct it will honor a shared website signal for AI-training preferences from the IETF AI Preferences working group, so a site can state its preference once for several providers. OpenAI plans to implement it in the coming months, calls the effort voluntary and urges other providers to adopt it. It covers foundational generative-AI training only; existing crawler controls stay in effect.",
+      "why_it_matters": "A common machine-readable opt-out would cut publisher overhead; adoption by other labs is the open question amid ongoing copyright suits.",
+      "key_numbers": [
+        "implementation 'in the coming months'"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "OpenAI",
+        "IETF"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T09:30:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Making it easier for websites to express AI training preferences"
+        },
+        {
+          "url": "https://superpowerdaily.com/posts/openai-commits-to-shared-website-signal-for-ai-training-preferences",
+          "outlet": "Superpower Daily",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI commits to shared website signal for AI-training preferences"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "OpenAI post not opened; details are from search summaries. The signal's exact syntax was not seen.",
+      "score": {
+        "total": 51.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.7,
+          "breadth": 0.393,
+          "momentum": 0.717
+        },
+        "coverage": 3,
+        "mentions": 4,
+        "baseline": 2.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "google-suncatcher-first-orbital-tpu-online-gemma",
+      "title": "Google's first data-center satellite is online and running a Gemma model in orbit",
+      "summary": "TechCrunch reports Google's Project Suncatcher prototype is communicating with the ground after launching this month on a SpaceX Falcon 9 rideshare. The Planet Labs-built satellite carries four TPUs but can run only one at a time, for about 20 minutes, and runs a Gemma 4 model that writes poetry. The mission aims to last a year; Google is not building a working orbital data center yet.",
+      "why_it_matters": "It is the first public data point on TPUs in space, relevant to the orbital-compute race, and its severe power limits show how far the idea is from competing with ground capacity.",
+      "key_numbers": [
+        "4 TPUs, 1 active at a time",
+        "~20 minutes per run",
+        "1-year mission goal"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Planet Labs"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-10-30T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google's first data center satellite is online and writing poetry"
+        },
+        {
+          "url": "https://www.scientificamerican.com/article/google-tests-plan-for-ai-data-centers-in-space-project-suncatcher/",
+          "outlet": "Scientific American",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google tests its plan for AI data centers in space with Project Suncatcher"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.35,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "TechCrunch not opened; details from search-result text. The one-TPU-at-a-time and 20-minute details were not verified on the page; launch coverage by SciAm predates tonight.",
+      "score": {
+        "total": 49.4,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.7,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.33
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 1.5,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "openai-model-spec-update-five-values",
+      "title": "OpenAI reorganizes its Model Spec around five values and drops most style rules",
+      "summary": "OpenAI published an updated Model Spec on 29 Oct, reorganized around five values: serving human purposes, truthfulness, minimizing harm, respecting freedom to form views, and taking circumstances seriously. It updates the chain-of-command explanation, retires most detailed style guidance, and refers to the model as 'GPT'. OpenAI says the Spec describes intended behaviour that models do not yet fully reflect.",
+      "why_it_matters": "The Spec is OpenAI's public statement of how models resolve conflicts between users, developers and policy; a shift from detailed rules to judgement-based values matters to builders relying on predictable behaviour.",
+      "key_numbers": [
+        "5 organizing values"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-29T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/updated-model-spec",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "An updated Model Spec for more capable and beneficial AI"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "openai.com not opened; content from search-result text and secondary summaries. Published 29 Oct 17:00Z, inside the grace allowance.",
+      "score": {
+        "total": 47.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.393,
+          "momentum": 0.717
+        },
+        "coverage": 3,
+        "mentions": 4,
+        "baseline": 2.167,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "house-democrats-resolution-opposing-ai-bubble-bailout",
+      "title": "House Democrats Casar and Waters lead resolution opposing an AI-bubble bailout for Big Tech",
+      "summary": "The Congressional Progressive Caucus site posted a Democratic resolution led by Reps. Casar and Waters opposing any bailout of AI companies. Search snippets describe a nonbinding measure that recalls the 2008 crisis and says Congress should refuse extra funds or special regulatory support for AI firms.",
+      "why_it_matters": "It is a political marker on AI-bubble risk days before the midterms and frames the debate over large AI financings.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "House Democrats",
+        "Greg Casar",
+        "Maxine Waters"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T12:08:00Z",
+      "sources": [
+        {
+          "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+          "outlet": "Congressional Progressive Caucus",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Reps. Casar, Waters Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Primary page not opened; details are from search snippets (American Prospect, Common Dreams). Operative language unverified. HN 610 points.",
+      "score": {
+        "total": 44.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "nvidia-mit-open-h3-regenerate-2k-minimax-h3-4k",
+      "title": "Nvidia and MIT researchers open-source a 2K-to-4K video-regeneration add-on built on MiniMax H3",
+      "original_title": "英伟达团队基于MiniMax H3开源视频增强方案，最高支持4K重生成",
+      "summary": "Quantum Bit and The Paper report an Nvidia/MIT team released Open-H3-Regenerate-2K weights on Hugging Face, with inference code in the NVlabs/Sana repo. It regenerates low-resolution H3 drafts at 2560x1440 and up to native 3840x2160. On one B200, a ~5s clip's latent upscaling, refinement and 2K decode reportedly fell from 87.26s to 22.45s (about 3.9x). MiniMax's own H3-Regenerate-2K stays API-only.",
+      "why_it_matters": "It gives MiniMax's open weights a higher-resolution path built by Nvidia researchers, extending H3's ecosystem beyond MiniMax's paid API.",
+      "key_numbers": [
+        "up to 3840x2160",
+        "87.26s to 22.45s (3.9x)"
+      ],
+      "topic": "models",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "MiniMax"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-30T07:06:00Z",
+      "sources": [
+        {
+          "url": "https://www.qbitai.com/2026/10/506743.html",
+          "outlet": "量子位",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34369302",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "英伟达团队基于MiniMaxH3开源视频增强方案，最高支持4K重生成"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.35,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Details from search-result summaries; Hugging Face/GitHub pages not opened, so repo names and timings (the team's own) are unverified.",
+      "score": {
+        "total": 44.0,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.487,
+          "momentum": 0.271
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 2.167,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "big-tech-3-trillion-ai-spending-commitments-bloomberg",
+      "title": "Bloomberg: Big Tech holds $3 trillion in spending commitments for the AI boom",
+      "summary": "A Bloomberg Technology piece of 30 Oct puts Big Tech's AI-related spending commitments at about $3 trillion. The figure is in the headline; the breakdown could not be read.",
+      "why_it_matters": "It feeds the debate over off-balance-sheet AI obligations as Amazon and Alphabet report weak free cash flow and share-price reactions to capex.",
+      "key_numbers": [
+        "$3 trillion in AI spending commitments"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Big Tech"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T19:25:31Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-holds-3-trillion-in-spending-commitments-for-ai-boom",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Big Tech Holds $3 Trillion in Spending Commitments for AI Boom"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only. Earlier $3T figures (WSJ, Morgan Stanley via Axios) appeared in search; it is unconfirmed which firms Bloomberg counts.",
+      "score": {
+        "total": 43.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "anthropic-ipo-big-questions-after-prospectus-cnbc",
+      "title": "CNBC lists the big open questions on Anthropic's revenue and compute after its S-1",
+      "summary": "CNBC published an analysis on 30 Oct of the questions left open by Anthropic's IPO prospectus, covering revenue and compute. The article body could not be read. Separate 30 Oct coverage seen only as headlines includes an FT report that Blackstone told investors Anthropic may not secure an investment-grade rating after the IPO.",
+      "why_it_matters": "Debt financing and compute dependence are becoming the central debate around the listing, which is reportedly targeted for pricing as early as 19 Nov.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T12:26:03Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "The big questions remaining after Anthropic's blockbuster IPO prospectus"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.55,
+      "novelty": 0.3,
+      "follow_up_of": "anthropic-s1-compute-commitments-hyperscaler-risk",
+      "confidence_note": "Headline-only for CNBC. The FT/Blackstone rating story and Semafor's 'Anthropic is now SpaceX's biggest customer' were seen only as Google News headlines and are unverified; the 'biggest customer' claim is contested in other snippets. IPO pricing date is from earlier reporting.",
+      "score": {
+        "total": 42.6,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.407
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 2.833,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "chevron-keeps-microsoft-texas-data-center-timeline",
+      "title": "Chevron keeps its Microsoft data-center timeline despite Texas permit pause",
+      "summary": "Bloomberg reports Chevron is keeping the timeline for its Microsoft-linked Texas data-center plan despite the state's pause on data-center permits. Earlier snippets describe a gas-powered project near Pecos with first power planned for 2028.",
+      "why_it_matters": "The Texas freeze is reaching self-powered gas projects, not only grid-connected ones.",
+      "key_numbers": [
+        "first power targeted 2028"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Chevron",
+        "Microsoft"
+      ],
+      "tickers": [
+        "CVX"
+      ],
+      "published_at": "2026-10-30T10:41:10Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/chevron-keeps-microsoft-data-center-timeline-despite-texas-pause",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Chevron Keeps Microsoft Data Center Plan Despite Texas Pause"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "texas-suspends-17-data-center-permits-disables-portal",
+      "confidence_note": "Headline-only for the 30 Oct article; the 2028 first-power date comes from earlier snippets (about 1 Oct).",
+      "score": {
+        "total": 41.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "doubao-checkin-8800-credits-free-month",
+      "title": "ByteDance's Doubao launches a 30-day check-in giveaway worth up to 8,800 credits and a free month for new desktop users",
+      "original_title": "豆包再次面向用户推出免费额度活动：累计签到30天可得8800额度、新用户免费领一个月订阅",
+      "summary": "Doubao started a new free-credit round on 30 Oct for desktop users. Daily check-in gives 200 credits (doubled on Mondays) with milestone bonuses, totalling 8,800 credits over 30 days. Credits last 30 days and exclude video generation and Pro models. New users get a 30-day free plan.",
+      "why_it_matters": "It is the third round of free Doubao subscriptions since late August, showing how heavily ByteDance subsidises its desktop and agent products.",
+      "key_numbers": [
+        "8,800 credits over 30 days",
+        "30-day free plan for new users"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T05:40:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/020/224.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "豆包再次面向用户推出免费额度活动：累计签到 30 天可得 8800 额度、新用户免费领一个月订阅"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-10-30/doc-iniwzazt8139235.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豆包再次面向用户推出免费额度活动"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.25,
+      "novelty": 0.25,
+      "follow_up_of": null,
+      "confidence_note": "Search-result summaries; pages not opened. Credit-to-token conversion not stated by ByteDance. Earlier rounds come from other search results.",
+      "score": {
+        "total": 39.8,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.25,
+          "credibility": 0.587,
+          "breadth": 0.632,
+          "momentum": 0.487
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.5,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "tencent-tai-cockpit-agent-yuanbao-in-cars",
+      "title": "Tencent's TAI cockpit agent brings Yuanbao voice and search into cars, with WeChat vehicle control",
+      "original_title": "元宝上车，座舱AI竞争开始拼“手脚”",
+      "summary": "Chinese auto and tech media report Tencent released a TAI intelligent-cockpit agent that plugs in Yuanbao and Xiaowei consumer-agent entry points, combining Yuanbao full-duplex voice, Yuanbao search and the Hunyuan model. Users can query and control the car from WeChat and send addresses to it. Tencent reportedly does not require carmakers to use Hunyuan and exposes payment, search and map as standard components.",
+      "why_it_matters": "Cockpit AI competition is shifting from model quality to actions such as payments and vehicle control, with Tencent leaning on its WeChat ecosystem.",
+      "key_numbers": [
+        "157 sources across 13 verticals (Yuanbao search)"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-10-30T14:42:00Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/dy/article/LAH8NQ0Q0527EIDC.html",
+          "outlet": "车东西 (via 网易)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "元宝上车，座舱AI竞争开始拼“手脚”"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LAG07S6J0553DXPD.html",
+          "outlet": "闪电快讯 (via 网易)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "闪电快讯 ｜ 腾讯发布智能座舱TAI智能体：接入元宝、小微等C端Agent服务入口"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.35,
+      "novelty": 0.35,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only; pages not opened and both URLs are 163.com reposts. No Tencent primary post, car model or launch date seen.",
+      "score": {
+        "total": 36.7,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.35,
+          "credibility": 0.25,
+          "breadth": 0.283,
+          "momentum": 0.82
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "altman-ram-better-in-data-center-than-on-desk",
+      "title": "Altman says it is better for RAM to sit in a data center than on your desk",
+      "summary": "The Verge reports Sam Altman saying, amid the memory shortage, that RAM is better placed in cloud servers than on users' desks.",
+      "why_it_matters": "It puts OpenAI's account of the memory squeeze next to the PC and phone makers absorbing the cost and next to memory-maker earnings.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Sam Altman"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T20:48:43Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Sam Altman says it's better for RAM to be in a data center than on your desk"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.25,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only; the article could not be fetched and the exact quote is unknown.",
+      "score": {
+        "total": 35.2,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.717
+        },
+        "coverage": 2,
+        "mentions": 4,
+        "baseline": 2.167,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "musk-zuckerberg-super-intelligence-rebrand-earnings-calls",
+      "title": "Musk and Zuckerberg echo Trump's 'super intelligence' rebrand on earnings calls; others do not",
+      "summary": "CNBC reports that Musk and Zuckerberg used 'super intelligence' in place of 'AI' on earnings calls, echoing Trump's push to rebrand, while other executives did not.",
+      "why_it_matters": "Corporate language is following the administration's; a federal definition of the term is reportedly due 28 Nov.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Elon Musk",
+        "Mark Zuckerberg"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-30T11:30:01Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.25,
+      "novelty": 0.3,
+      "follow_up_of": "trump-says-he-will-ban-term-artificial-intelligence",
+      "confidence_note": "Headline-only. The 28 Nov deadline and the SpaceX rename come from search snippets; one snippet conflicts on whether Meta changed its wording.",
+      "score": {
+        "total": 34.3,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 16
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2027-01",
+      "title": "OpenAI first Community Safety Report on violence prevention (stated 'early 2027')",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.unite.ai/openai-announces-community-safety-report-and-new-teen-weapons-limits/"
+    }
+  ],
+  "notes": "Desks could not open most article bodies (fetch blocked); many items rest on headlines and search snippets, flagged per item. Skipped as outside the window: Nvidia/Huang spy-plot report (29 Oct 13:04Z), Doubao Work third-party models (29 Oct 11:37Z), STEPX Neo upgrade (29 Oct 09:58Z). Mistral Large 4 open weights (29 Oct 14:13Z, ~1T-parameter MoE, modified-MIT licence; mistral.ai plus Tao Media and TokenPost) shipped before the window and are only noted here; the end-of-October calendar entry is resolved.",
+  "learn": [
+    {
+      "id": "speedup-vs-latency-cut-with-ci",
+      "gap": "llm-eval",
+      "title": "Report a kernel speedup honestly: ratio, latency cut and a bootstrap interval",
+      "item_ids": [
+        "modelbest-forgekernel-beats-flashmla-prefill-9-8pct"
+      ],
+      "why_today": "The story quotes 472 us against 518 us as a 9.8% gain, from a single livestream run.",
+      "explanation": "A speedup and a latency reduction are different numbers: 518/472 - 1 is about 9.7% faster, while 1 - 472/518 is about 8.9% less time. Quote which one you mean. A single timing also hides run-to-run noise from clocks, caches and scheduling, so repeat the measurement and bootstrap the ratio of mean latencies to get an interval. If the interval for 'B is faster than A' includes zero, the claim is not established. The snippet uses simulated, illustrative latencies centred on the reported figures; it is not ModelBest's data.",
+      "math": "s = \\frac{\\bar t_A}{\\bar t_B} - 1,\\quad c = 1 - \\frac{\\bar t_B}{\\bar t_A}",
+      "python": "import random, statistics as st\nrandom.seed(0)\n# Illustrative latencies in microseconds (NOT ModelBest's data): kernel A ~518 us, kernel B ~472 us\na = [random.gauss(518, 12) for _ in range(30)]\nb = [random.gauss(472, 12) for _ in range(30)]\nprint(\"latency cut: %.1f%%\" % (100 * (1 - st.mean(b) / st.mean(a))))\nprint(\"speedup (a/b - 1): %.1f%%\" % (100 * (st.mean(a) / st.mean(b) - 1)))\ndef boot():\n    ra = [random.choice(a) for _ in a]; rb = [random.choice(b) for _ in b]\n    return st.mean(ra) / st.mean(rb) - 1\nxs = sorted(boot() for _ in range(2000))\nprint(\"95%% CI speedup: %.1f%% .. %.1f%%\" % (100 * xs[50], 100 * xs[1949]))",
+      "minutes": 10
+    },
+    {
+      "id": "causal-attention-by-hand",
+      "gap": "ai-off-fluency",
+      "title": "Write causal softmax attention from scratch, and check a one-line invariant",
+      "item_ids": [
+        "modelbest-forgekernel-beats-flashmla-prefill-9-8pct"
+      ],
+      "why_today": "The reported kernel targets a prefill attention path, the computation below in its plainest form.",
+      "explanation": "Attention for query i is a softmax over scaled dot products with keys 0..i, then a weighted sum of values. Subtracting the row maximum before exponentiating keeps exp from overflowing without changing the result. Causality means the first token can only attend to itself, so its output must equal V[0] exactly, a cheap invariant to test any optimised kernel against a slow reference. Real kernels fuse these steps and tile them through on-chip memory; the maths is unchanged. Sizes here are illustrative.",
+      "math": "o_i = \\sum_{j\\le i} \\mathrm{softmax}_j\\!\\left(\\frac{q_i\\cdot k_j}{\\sqrt d}\\right) v_j",
+      "python": "import math, random\nrandom.seed(1)\nT, d = 4, 8\nQ = [[random.gauss(0, 1) for _ in range(d)] for _ in range(T)]\nK = [[random.gauss(0, 1) for _ in range(d)] for _ in range(T)]\nV = [[random.gauss(0, 1) for _ in range(d)] for _ in range(T)]\ndef attn(Q, K, V):\n    out = []\n    for i, q in enumerate(Q):\n        s = [sum(x * y for x, y in zip(q, K[j])) / math.sqrt(d) for j in range(i + 1)]  # causal\n        m = max(s); e = [math.exp(x - m) for x in s]; z = sum(e)\n        out.append([sum(e[j] / z * V[j][c] for j in range(i + 1)) for c in range(d)])\n    return out\no = attn(Q, K, V)\nprint(\"row0 equals V[0]:\", all(abs(a - b) < 1e-12 for a, b in zip(o[0], V[0])))\nprint(\"out[3][:3] =\", [round(x, 3) for x in o[3][:3]])",
+      "minutes": 15
+    }
+  ]
+}
