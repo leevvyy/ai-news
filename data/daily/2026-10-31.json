@@ -1,0 +1,611 @@
+{
+  "date": "2026-10-31",
+  "window": {
+    "start": "2026-10-30T21:48:00Z",
+    "end": "2026-10-31T21:49:00Z"
+  },
+  "tldr": [
+    "OpenAI's pre-IPO round target was cut by about $10B to as much as $20B, per the FT, and one report put the amount raised so far near $11B of the original $30B, a sign that private appetite for AI mega-rounds is cooling.",
+    "Anthropic is expected to receive high-yield 'junk' credit ratings after its IPO, per the FT, which could raise borrowing costs against $540-570B of compute commitments; analysts also derive an ~85% H1 gross margin from the S-1.",
+    "China: DeepSeek open-sourced a Router-and-Worker 'Super-agent' prototype, with 14 router tools and 6 worker tools, as a design for autonomous multi-session coding agents."
+  ],
+  "items": [
+    {
+      "id": "openai-funding-round-cut-20b-demand-weak",
+      "title": "OpenAI pares pre-IPO round: target cut by about $10B as investor appetite fades, per FT",
+      "summary": "The FT reported that OpenAI cut the target for its new pre-IPO round by $10B, from $30B to up to $20B. Bloomberg, CNBC and TechCrunch relayed the report. Headlines from The Decoder and IBD say only about $11B of the $30B had been raised, and the round's valuation target was earlier trimmed from $1.4T to $1.25T. OpenAI has not confirmed the figures.",
+      "why_it_matters": "A second cut in about five weeks to the round raised ahead of its IPO suggests private-market appetite for AI mega-rounds is cooling just as Anthropic heads to a public listing.",
+      "key_numbers": [
+        "$30B original target",
+        "up to $20B new target",
+        "~$11B reportedly raised",
+        "$1.25T valuation target (earlier, from $1.4T)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "published_at": "2026-10-31T00:06:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-funding-goal-cut-by-10-billion-as-ai-stocks-dip-ft-says",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Funding Target Cut by $10 Billion as AI Slumps, FT Says"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI reportedly lowers funding target for new round"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.8,
+      "novelty": 0.8,
+      "confidence_note": "Article bodies not fetched; figures come from harvest headlines and search snippets. The ~$11B raised figure is from uncited Google News links (The Decoder/IBD). Sources disagree on whether the cut is to round size or only valuation. FT-sourced; OpenAI has not confirmed.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 77.2,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.8,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.487
+        },
+        "coverage": 9,
+        "mentions": 2,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "deepseek-super-agent-router-worker-prototype",
+      "title": "DeepSeek open-sources Super-agent prototype: a Router and Worker design for autonomous coding agents",
+      "original_title": "刚刚，DeepSeek重磅发布全新Agent架构：AI开始指挥AI干活",
+      "summary": "DeepSeek's Harness team published 'Exploring Super-agent Design: Towards a More Autonomous Agent System' and put an MIT-licensed reference prototype, dsh-superagent-prototype, on GitHub. A main router session handles human interaction, keeps global context and dispatches tickets; isolated worker sessions, each in its own directory, do the work in parallel and report back. Per the architecture doc the router has 14 application tools and workers 6, and workers cannot ask humans questions. The agent listens to GitHub, opens work items and replies with PRs. The README calls it a research prototype, not an official product.",
+      "why_it_matters": "It shows how DeepSeek thinks about proactive multi-session coding agents on its open Harness, a design competing agent products will be compared against. It is an engineering exploration, not a model launch.",
+      "key_numbers": [
+        "Router: 14 app tools; Worker: 6",
+        "~2.0k GitHub stars at fetch"
+      ],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "published_at": "2026-10-31T12:52:00Z",
+      "sources": [
+        {
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "outlet": "GitHub (deepseek-ai)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "dsh-superagent-prototype"
+        },
+        {
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/007-architecture.md",
+          "outlet": "GitHub (deepseek-ai)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "docs/007-architecture.md"
+        },
+        {
+          "url": "https://www.ithome.com/1/020/615.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek 提出 Super-agent 架构设计：Router 与 Worker 双层架构"
+        },
+        {
+          "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixcsqk4750219.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "刚刚，DeepSeek重磅发布全新Agent架构：AI开始指挥AI干活"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "confidence_note": "GitHub README and architecture doc were read directly; the original article text was not fetched. Press-reported figures (e.g. ~37% more tokens) disagree between outlets and are omitted.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 66.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.835,
+          "breadth": 0.565,
+          "momentum": 0.393
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "anthropic-expected-junk-credit-rating-post-ipo",
+      "title": "Anthropic expected to get high-yield 'junk' credit ratings after IPO, FT reports",
+      "summary": "The FT reported Anthropic is expected to receive a high junk rating from credit agencies after its IPO, and Blackstone told investors it may not secure investment grade. Earlier FT reporting said Morgan Stanley and Goldman Sachs were lobbying agencies for investment-grade ratings. A roughly $35B Apollo/Blackstone chip-financing deal reportedly releases guarantees and security interests if at least two of three major agencies assign investment grade.",
+      "why_it_matters": "A sub-investment-grade rating would raise Anthropic's borrowing costs and trigger collateral terms as it funds $540-570B of disclosed compute commitments.",
+      "key_numbers": [
+        "~$35B Apollo/Blackstone financing",
+        "2 of 3 agencies needed to release guarantees"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "published_at": "2026-10-30T21:52:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic expected to receive high 'junk' rating from credit agencies following IPO, FT report says"
+        },
+        {
+          "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+          "outlet": "Financial Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says"
+        },
+        {
+          "url": "https://dealroom.co/news/163182-anthropic-rated-junk-at-bb-as-it-chases-2t-ipo/",
+          "outlet": "Dealroom",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic rated junk at BB as it chases $2T IPO"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.7,
+      "novelty": 0.7,
+      "follow_up_of": "anthropic-ipo-pbc-structure-warren-scrutiny",
+      "confidence_note": "TechCrunch and FT bodies not fetched. The Apollo/Blackstone terms and bank lobbying come from search snippets of secondary outlets. Moody's, S&P and Fitch had not published ratings as of those snippets.",
+      "tickers": [],
+      "score": {
+        "total": 64.4,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.7,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.451
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 2.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "spacex-xai-loses-bid-to-toss-naacp-memphis-clean-air-suit",
+      "title": "SpaceX/xAI loses bid to toss NAACP Clean Air Act suit over data center turbines",
+      "summary": "CNBC reports SpaceX lost its bid to dismiss the NAACP's Clean Air Act lawsuit over air pollution from xAI's Memphis-area data center; xAI is now a SpaceX subsidiary. Earthjustice separately reports a judge threw out a Justice Department attempt to block communities' day in court in the case.",
+      "why_it_matters": "The case tests how far gas-turbine power for AI data centers can sidestep air-pollution law as local pushback spreads.",
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "xAI"
+      ],
+      "published_at": "2026-10-31T18:56:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution"
+        },
+        {
+          "url": "https://earthjustice.org/press/2026/judge-throws-out-u-s-doj-attempt-to-deny-communities-day-in-court-against-musks-company-xai",
+          "outlet": "Earthjustice",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Judge throws out U.S. DOJ attempt to deny communities' day in court against Musk's company, xAI"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": "xai-southaven-home-buyouts-no-lawsuit",
+      "confidence_note": "CNBC body not fetched. The Earthjustice ruling (reported by search snippet as 19 Oct) may be a separate, earlier ruling from the one CNBC reports; the two are not confirmed to be the same decision.",
+      "tickers": [],
+      "key_numbers": [],
+      "score": {
+        "total": 57.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.576
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "anthropic-s1-derived-gross-margin-85pct",
+      "title": "Anthropic S-1 implies H1 gross margin near 85% vs 12% a year ago, but filing warns it won't last",
+      "summary": "Analyses of Anthropic's S-1 derive a gross margin of about 85.4% in H1 2026 versus about 12.4% in H1 2025, on $16.3B of H1 revenue (+1,300% YoY). Anthropic does not report gross margin itself. Motley Fool pieces flagged the S-1's warning that the margin may not persist.",
+      "why_it_matters": "Margin trajectory is the central valuation question for the ANT listing, given an $80.7B net loss and heavy compute commitments.",
+      "key_numbers": [
+        "$16.3B H1 2026 revenue",
+        "+1,300% YoY",
+        "~85.4% derived H1 gross margin",
+        "$80.7B net loss"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "published_at": "2026-10-31T11:05:00Z",
+      "sources": [
+        {
+          "url": "https://tomtunguz.com/anthropics-s1-grew-eleven-fold/",
+          "outlet": "Tomasz Tunguz",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic's S-1 grew eleven-fold"
+        },
+        {
+          "url": "https://www.alpha-sense.com/api/html-embed/file-4c88b5685d7120f5cdcdc99545773cca679d25fd-html/",
+          "outlet": "AlphaSense",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic (ANT) - company primer on the public S-1"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-s1-made-public-ant-nasdaq",
+      "confidence_note": "85% is a derived figure, not reported by Anthropic; methods differ by source. Figures from search snippets.",
+      "tickers": [],
+      "score": {
+        "total": 44.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.438,
+          "breadth": 0.393,
+          "momentum": 0.451
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 2.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "altman-meets-samsung-memory-crunch-deepens",
+      "title": "Altman meets Samsung executives as memory chip crunch deepens, Bloomberg says",
+      "summary": "Bloomberg reported that OpenAI CEO Sam Altman met Samsung executives as the memory shortage worsens. It follows his remark that RAM is better placed in data centers than on desks. Details of any supply deal were not available.",
+      "why_it_matters": "OpenAI appears to be seeking DRAM/HBM supply directly as AI demand squeezes memory for PCs and servers alike.",
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "OpenAI",
+        "Samsung Electronics"
+      ],
+      "tickers": [
+        "005930.KS"
+      ],
+      "published_at": "2026-10-31T06:40:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-sam-altman-samsung-executives-memory-crunch-deepens",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI's Altman Meets Samsung Executives as Chip Crunch Deepens"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "confidence_note": "Only the Bloomberg headline/summary from the harvest was seen; no venue, date or volumes known.",
+      "follow_up_of": null,
+      "key_numbers": [],
+      "score": {
+        "total": 53.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.487
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 2.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "nvidia-weighs-cosigning-nscale-west-virginia-data-center",
+      "title": "Nvidia weighs cosigning Nscale's West Virginia AI data center",
+      "summary": "TechCrunch reports Nvidia is weighing acting as cosigner for Nscale's AI data center in West Virginia. Other outlets describe the project as the Monarch Compute Campus with a goal of up to 8 GW and a Microsoft letter of intent for up to 1.35 GW; Nvidia holds roughly 10% of Nscale.",
+      "why_it_matters": "A chipmaker backstopping a neocloud's lease extends Nvidia's role as AI financier while neocloud financing is under strain.",
+      "key_numbers": [
+        "up to 8 GW site goal",
+        "up to 1.35 GW Microsoft LOI",
+        "~10% Nvidia stake in Nscale"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Nscale"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-10-31T01:20:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia weighs playing the cosigner for Nscale's AI data center in West Virginia"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": "nvidia-financier-role-neocloud-selloff-solidigm-ipo-scrapped",
+      "confidence_note": "TechCrunch body not fetched; cosigner terms unknown. Site, Microsoft LOI and stake details come from search snippets of other outlets.",
+      "score": {
+        "total": 47.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.297
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 1.833,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "us-tech-stocks-fall-ai-cost-fears-october-selloff",
+      "title": "US tech stocks fall sharply on AI cost fears, the backdrop to OpenAI's smaller raise",
+      "summary": "BBC reported sharp falls in US tech stocks over AI cost fears (263 points on Hacker News). Alphabet, Amazon and Intel all fell after October earnings, and the sell-off is the backdrop to OpenAI's trimmed round and Anthropic's imminent IPO.",
+      "why_it_matters": "Weak public AI valuations feed back into private funding and IPO pricing.",
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nasdaq 100"
+      ],
+      "published_at": "2026-10-30T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "outlet": "BBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "US tech stocks see sharp falls over AI cost fears"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "confidence_note": "BBC article not read; publication time estimated from HN ranking. A 'worst month since March 2025' claim could not be verified and is omitted.",
+      "follow_up_of": null,
+      "tickers": [],
+      "key_numbers": [],
+      "score": {
+        "total": 45.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "nesformer-nes-cpu-in-qwen35-weights",
+      "title": "Nesformer compiles an NES CPU into the weights of a stock Qwen3.5 model",
+      "summary": "A Show HN project compiles the NES 6502 CPU, its RAM and a cartridge ROM into a 466.6M-parameter Qwen3.5-architecture checkpoint with only 9.3M nonzero weights. The model predicts the CPU execution log token by token; the CPU matches the nestest golden log for 3,348 instructions and a 2,645,885-token full-game run matched exactly. It runs about 1,650 tokens/s on one core, 150-290x slower than a real NES, and supports only mapper-0 cartridges.",
+      "why_it_matters": "A vivid demonstration that transformer weights can be compiled to emulate deterministic computation exactly, relevant to what LLM architectures can represent.",
+      "key_numbers": [
+        "466.6M params, 9.3M nonzero",
+        "1,650 tokens/s"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "dbreunig"
+      ],
+      "published_at": "2026-10-30T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://github.com/dbreunig/nesformer",
+          "outlet": "GitHub",
+          "lang": "en",
+          "tier": "primary",
+          "title": "nesformer: An NES CPU compiled into the weights of a stock Qwen3.5 model"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.8,
+      "confidence_note": "Repo read directly; published_at approximate, from the Show HN listing.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 43.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.8,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "roewe-jiayue-07-doubao-cockpit-deliveries",
+      "title": "SAIC Roewe Jiayue 07, first car with ByteDance's Doubao cockpit assistant, starts deliveries on 1 Nov",
+      "original_title": "上汽荣威家越07明日开启全国交付：首搭豆包座舱助手，限时权益价11.98万元起",
+      "summary": "IT之家 reported on 31 Oct that SAIC's Roewe Jiayue 07 begins nationwide deliveries on 1 Nov, billed as the first model with the Doubao cockpit assistant and Momenta R7 driver assistance. Four trims carry a limited-time price of 119,800 to 144,800 yuan; reports say orders passed 10,000 within 1 min 53 s of the 23 Oct launch.",
+      "why_it_matters": "It is a first volume test of a foundation-model assistant as the in-car layer on a mass-market Chinese car.",
+      "key_numbers": [
+        "From 119,800 yuan limited-time price",
+        "10,000+ orders in 1 min 53 s"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "SAIC Roewe"
+      ],
+      "published_at": "2026-10-31T13:55:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/020/618.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "上汽荣威家越 07 明日开启全国交付：首搭豆包座舱助手，限时权益价 11.98 万元起"
+        },
+        {
+          "url": "https://auto.ifeng.com/c/8xT4XGmWV6p",
+          "outlet": "凤凰网汽车",
+          "lang": "zh",
+          "tier": "press",
+          "title": "荣威家越07正式上市 限时权益价11.98万元起"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "confidence_note": "Launch was 23 Oct; only the delivery start is new. Trim price range from a search summary; third-party tables differ.",
+      "follow_up_of": null,
+      "tickers": [],
+      "score": {
+        "total": 41.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.487
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.5,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-10",
+      "title": "CoreWeave Q3 2026 results and conference call, 5pm ET",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "SoftBank Group Q2 FY2026 earnings briefing (OpenAI stake in focus)",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://group.softbank/en/news/info/20261002"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "DeepSeek search/fetch API billing begins for some coding-tool calls",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://tech.ifeng.com/c/8xKSUGoCB84"
+    }
+  ],
+  "notes": "Thin day for primary sources: many news hosts were unreachable by fetch, so most facts are search-snippet level and flagged in confidence_note. Apple-overtakes-Nvidia and Nvidia spy-plot denial were seen only as uncitable Google News links and are omitted. Baidu's 4.9-yuan search API, Shenzhen's AI trade-secret guideline, MiniMax's mcode-stack and Cisco's token story were first reported 11-13 h before the window and were dropped.",
+  "learn": [
+    {
+      "id": "router-worker-queue-sizing",
+      "gap": "agent-engineering",
+      "title": "Size a worker pool for a router: why latency explodes past utilisation 1",
+      "item_ids": [
+        "deepseek-super-agent-router-worker-prototype"
+      ],
+      "why_today": "DeepSeek's prototype has a router that dispatches tickets to isolated worker sessions, which makes the worker count a queueing-capacity question.",
+      "explanation": "Treat the router as a dispatcher feeding c workers, with triggers arriving at rate lambda and each task taking mean time s. Utilisation is rho = lambda*s/c. While rho < 1 the queue is stable and waits stay small; as rho approaches 1 waits blow up, and above 1 they grow without bound. The simulation below uses illustrative numbers only (3-minute tasks, Poisson arrivals): 4 workers cope with 1 trigger/min (rho 0.75) but collapse at 5/min, while 16 workers cope with 5/min (rho 0.94, p95 wait about 5 minutes) but not 10/min. Batching or deduplicating triggers lowers lambda; adding workers raises c. It breaks when tasks are not exchangeable, e.g. long tasks blocking a worker or tasks with dependencies.",
+      "math": "\\rho = \\frac{\\lambda s}{c}, \\qquad \\rho < 1 \\Rightarrow \\text{stable queue}",
+      "python": "import random, heapq\ndef sim(rate_per_min, workers, svc_min=3.0, n=20000, seed=1):\n    random.seed(seed); t=0; free=[0.0]*workers; heapq.heapify(free); waits=[]\n    for _ in range(n):\n        t += random.expovariate(rate_per_min)\n        start = max(t, heapq.heappop(free))\n        heapq.heappush(free, start + random.expovariate(1/svc_min))\n        waits.append(start - t)\n    waits.sort(); return sum(waits)/n, waits[int(.95*n)]\nfor lam in (1, 5, 10):\n    for w in (4, 16):\n        m, p95 = sim(lam, w)\n        print(f\"lambda={lam:>2}/min workers={w:>2}  mean wait={m:7.2f} min  p95={p95:7.2f} min\")\n",
+      "minutes": 15
+    },
+    {
+      "id": "compile-a-cpu-into-a-lookup-table",
+      "gap": "ai-off-fluency",
+      "title": "Emulate a CPU as a next-state table, and see what memorising misses",
+      "item_ids": [
+        "nesformer-nes-cpu-in-qwen35-weights"
+      ],
+      "why_today": "Nesformer has a model predict a CPU's execution log one token at a time; this exercise writes the same idea by hand at toy scale.",
+      "explanation": "A deterministic machine is a function from state to next state, so its execution log is a sequence a next-token predictor can reproduce exactly. Below, a four-instruction accumulator CPU generates a golden log, and a dictionary 'model' memorises state to next-state pairs from it. Replay matches exactly, which is the nestest-style check. But a different program (LDI 6) visits states the table never saw, so it fails: exact emulation requires encoding the transition rule, not just the observed transitions. Toy CPU and table are illustrative and say nothing about how nesformer's weights are constructed.",
+      "python": "# Tiny accumulator CPU whose execution log is a token stream.\nPROG = [(\"LDI\",5),(\"ADD\",3),(\"SUB\",1),(\"JNZ\",1),(\"HLT\",0)]\ndef step(s):\n    pc,a,z = s; op,x = PROG[pc]\n    if op==\"LDI\": a=x\n    elif op==\"ADD\": a=(a+x)&255\n    elif op==\"SUB\": a=(a-x)&255\n    pc = x if (op==\"JNZ\" and a!=0) else pc+1\n    z = int(a==0)\n    return (pc,a,z)\ndef run(n):\n    s=(0,0,0); log=[s]\n    while PROG[s[0]][0]!=\"HLT\" and len(log)<n:\n        s=step(s); log.append(s)\n    return log\ngolden = run(40)\n# \"Model\" = a lookup table learned from the golden log: state -> next state\ntable = {a:b for a,b in zip(golden, golden[1:])}\nstate, out = golden[0], [golden[0]]\nwhile state in table and len(out)<len(golden):\n    state = table[state]; out.append(state)\nprint(len(golden), \"steps; replay matches golden:\", out==golden)\nprint(\"distinct transitions:\", len(table))\nPROG[0] = (\"LDI\", 6)   # new program: the memorised table has never seen these states\nnew = run(40)\nprint(\"unseen transitions in new run:\", sum(1 for a in new[:-1] if a not in table))\n",
+      "minutes": 15
+    }
+  ]
+}
