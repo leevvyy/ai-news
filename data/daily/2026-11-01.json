@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-01",
+  "window": {
+    "start": "2026-10-31T21:49:00Z",
+    "end": "2026-11-01T21:48:00Z"
+  },
+  "tldr": [
+    "Quiet Sunday: no major model, funding or policy story was first reported inside the window (the overnight harvest was thin and several feeds were down), so this is a short issue.",
+    "China: MIIT's CCID institute says AI inference data volume has passed training data for the first time, citing over 175 trillion daily token calls as of June (headline-level, conflicting with other reported figures); Tsinghua's Yao team has a new 'algebraic world model' paper.",
+    "Europe: French lawmakers reportedly added a per-gigabyte traffic levy aimed at US platforms to the budget (figures conflict between sources and it is not law until the full budget passes)."
+  ],
+  "items": [
+    {
+      "id": "france-per-gigabyte-internet-traffic-levy-budget",
+      "title": "French lawmakers reportedly add per-gigabyte traffic levy on content platforms to budget",
+      "summary": "Tom's Hardware reports French lawmakers approved an internet levy based on traffic usage, put at about $11.2 billion, charged per gigabyte of content delivered to French subscribers, with US tech firms such as Google and Meta named as targets. A French outlet earlier described a Socialist Party amendment to the 2027 budget at 5.5 centimes per GB. Budget amendments are not law until the full budget passes.",
+      "why_it_matters": "A traffic-volume charge would hit data-heavy streaming and AI-content delivery and revives US-EU digital-tax friction. Net-neutrality objections and a possible US trade response are the next things to watch.",
+      "key_numbers": [
+        "$11.2 billion (Tom's Hardware figure)",
+        "About 5.5 centimes per GB (French outlet, Socialist amendment)"
+      ],
+      "topic": "policy",
+      "region": "eu",
+      "entities": [
+        "France",
+        "Google",
+        "Meta"
+      ],
+      "tickers": [],
+      "published_at": "2026-10-31T16:11:40Z",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/software/social-media/french-lawmakers-approve-usd11-2-billion-internet-tax-based-on-traffic-usage-costs-usd0-65-per-gigabyte-of-content-accessed-us-tech-giants-like-google-and-meta-face-new-levies-on-content-delivered-to-french-subscribers",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "press",
+          "title": "French lawmakers add $11.2 billion internet tax based on traffic usage to budget"
+        },
+        {
+          "url": "https://www.universfreebox.com/?p=598089",
+          "outlet": "UniversFreebox",
+          "lang": "other",
+          "tier": "trade",
+          "title": "Une taxe sur le trafic internet ? Un texte veut faire payer 5,5 centimes le Go"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Weakly AI-relevant. Only headlines seen. The harvest URL slug says $0.65/GB while the headline says $0.06/GB; the French outlet says 5.5 centimes (snippet-only, undated, possibly an earlier amendment). Whether the full Assembly adopted it or only a committee did is unverified. No tickers tagged because impact on named companies is unconfirmed.",
+      "score": {
+        "total": 42.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "tsinghua-yao-algebraic-world-model",
+      "title": "Tsinghua's Andrew Yao team proposes an 'algebraic world model'",
+      "summary": "QbitAI reports a new paper from Yao Qizhi's Tsinghua team introducing an algebraic world model aimed at letting AI reason in a Newton-like way.",
+      "why_it_matters": "A research direction on structured world models as an alternative to pure scaling.",
+      "key_numbers": [],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "Tsinghua University"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-01T08:02:37Z",
+      "sources": [
+        {
+          "url": "https://www.qbitai.com/2026/11/507031.html",
+          "outlet": "QbitAI",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Headline only; no paper link or results seen.",
+      "original_title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "score": {
+        "total": 34.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 2
+    },
+    {
+      "id": "ccid-ai-inference-data-exceeds-training-175t-tokens",
+      "title": "China's MIIT think tank CCID says AI inference data now exceeds training data; reports 175T+ daily tokens",
+      "original_title": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至6月日均词元调用量超175万亿",
+      "summary": "IT之家 reports that CCID, the research institute under China's MIIT, says AI inference data volume has for the first time exceeded training data, with average daily token calls above 175 trillion as of June.",
+      "why_it_matters": "A sign that Chinese AI demand is shifting from training to serving, which favours inference chips and token-priced API businesses.",
+      "key_numbers": [
+        "Daily tokens >175 trillion (as of June, per CCID)"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "CCID",
+        "MIIT"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-01T10:46:02Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/020/809.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only (article body not fetched; ithome.com blocked in sandbox). Search found the National Data Administration reporting inference data (101.34 EB) above training data for 2025 and a different daily token figure (CCTV via 10jqka: >500 trillion as of June), so the 175 trillion figure and the 'first' claim conflict with other reports; treat as unverified and low priority.",
+      "score": {
+        "total": 33.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 3
+    },
+    {
+      "id": "qwen-ai-glasses-ota-call-media-translation",
+      "title": "Alibaba Qwen AI glasses get OTA update adding call translation and media translation",
+      "original_title": "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等",
+      "summary": "IT之家 reports an OTA update for Alibaba's Qwen AI glasses that adds call translation, media translation and other features.",
+      "why_it_matters": "Incremental feature work on Alibaba's consumer hardware push for Qwen.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Alibaba",
+        "Qwen"
+      ],
+      "tickers": [
+        "BABA"
+      ],
+      "published_at": "2026-11-01T09:03:59Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/020/768.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only; article not fetched and a Chinese web search did not confirm the specific features. Minor item; BABA tag is for the product owner.",
+      "score": {
+        "total": 24.1,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.2,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.576
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 4
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2027-03",
+      "title": "Super Micro-linked AI-chip smuggling trial (Liaw, Chang, Sun, SDNY) reportedly moved from 2 Nov 2026 to Mar...",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://fortune.com/2026/08/20/supermicro-investigation-ceo-nvidia-smuggling/"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Palantir Q3 2026 results after the close (date provisional per calendar sites)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://stockti.com/earnings-calendar/nov-2-6-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Super Micro Computer fiscal Q1 2027 results after the close (calendar-site estimate, unconfirmed by company)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://stockti.com/earnings-calendar/nov-2-6-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Qualcomm fiscal Q4 2026 results after the close (calendar-site estimate, unconfirmed by company)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://stockti.com/earnings-calendar/nov-2-6-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "24th China semiconductor packaging and testing conference (封测年会) opens, Nanjing, Nov 4-6",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://www.ithome.com/1/020/803.htm"
+    }
+  ],
+  "notes": "Quiet Sunday: the harvest was thin (5 Google News feeds returned 503) and desk searches surfaced few dated stories. Most items are headline-level and flagged in confidence_note.",
+  "learn": [
+    {
+      "id": "decode-throughput-roofline",
+      "gap": "llm-internals",
+      "title": "Estimate decode throughput from memory bandwidth, then size a fleet",
+      "item_ids": [
+        "ccid-ai-inference-data-exceeds-training-175t-tokens"
+      ],
+      "why_today": "The CCID item cites 175 trillion daily token calls, a volume you can turn into a rough accelerator count once you know what limits decoding.",
+      "explanation": "Autoregressive decoding reads every weight once per step, so each step costs about (parameter bytes)/(memory bandwidth) regardless of how many sequences share it. Batching B sequences therefore multiplies throughput by B until compute or KV-cache traffic becomes the bottleneck. Dividing a daily token volume by 86,400 gives tokens per second, and dividing by per-accelerator throughput gives a fleet size. It breaks for long contexts (KV reads grow with length), MoE models (only active experts are read, but batching touches more of them) and speculative decoding. All figures below are illustrative, not any real model or chip.",
+      "math": "t_{step} \\approx \\frac{P\\, b_w}{BW},\\quad \\text{tok/s} \\approx \\frac{B}{t_{step}}",
+      "python": "# Illustrative numbers only: decode is memory-bandwidth bound.\nparams = 70e9          # parameters\nbytes_per = 1          # 8-bit weights\nbw = 3.35e12           # bytes/s HBM bandwidth (illustrative accelerator)\nbatch = 64             # sequences decoded together; weights are read once per step\nstep_s = params*bytes_per/bw\ntok_s = batch/step_s\nprint(f\"step {step_s*1e3:.1f} ms, {tok_s:.0f} tokens/s per accelerator\")\ntarget = 175e12/86400  # tokens/s implied by 175T tokens/day\nprint(f\"accelerators for 175T/day at this rate: {target/tok_s:,.0f}\")",
+      "minutes": 15,
+      "refs": []
+    }
+  ]
+}

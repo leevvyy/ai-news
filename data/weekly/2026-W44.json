@@ -1,0 +1,47 @@
+{
+  "week": "2026-W44",
+  "headline": "Anthropic's public S-1 and the financing questions around it ran alongside Big Tech earnings, a memory-chip boom and a smaller OpenAI raise.",
+  "themes": [
+    {
+      "title": "Anthropic's IPO under scrutiny",
+      "summary": "Anthropic made its S-1 public with a Nasdaq ticker of ANT, and the following days brought scrutiny of its public-benefit structure, a reported high-yield credit rating expectation, and filing-derived gross margin figures.",
+      "item_ids": [
+        "anthropic-s1-made-public-ant-nasdaq",
+        "anthropic-ipo-pbc-structure-warren-scrutiny",
+        "anthropic-expected-junk-credit-rating-post-ipo",
+        "anthropic-s1-derived-gross-margin-85pct"
+      ]
+    },
+    {
+      "title": "Big Tech earnings and the AI bill",
+      "summary": "Microsoft, Amazon and Intel reported quarters in which AI demand lifted cloud and data-center revenue, while Meta launched a large equity raise to fund AI infrastructure.",
+      "item_ids": [
+        "microsoft-fq1-2027-revenue-92b-openai-10b",
+        "amazon-q3-2026-aws-39pct-fcf-negative-shares-fall",
+        "intel-q3-2026-weak-q4-guide-stock-plunges",
+        "meta-95b-equity-raise-nvidia-3b-amd-1b-muse"
+      ]
+    },
+    {
+      "title": "Memory and chip supply boom",
+      "summary": "SK hynix, Sandisk and Samsung reported strong results tied to AI memory demand, and FuriosaAI raised a Series D.",
+      "item_ids": [
+        "sk-hynix-q3-2026-profit-sevenfold-100t-won-return",
+        "sandisk-fq1-2027-revenue-11b-guide-12-6b-8-for-1-split",
+        "samsung-q3-2026-final-results-net-profit-75t-hbm4-share",
+        "furiosaai-620m-series-d-2-9b-valuation"
+      ]
+    },
+    {
+      "title": "Funding and data-center friction",
+      "summary": "OpenAI cut its pre-IPO round target, DeepSeek's second round was reported at a RMB615.5B valuation, and banks shelved a bond for an Anthropic-tied Texas data center as state grid review froze new projects.",
+      "item_ids": [
+        "openai-funding-round-cut-20b-demand-weak",
+        "deepseek-second-round-105-5b-yuan-615-5b-valuation",
+        "banks-shelve-anthropic-texas-data-center-bond-abbott-freeze"
+      ]
+    }
+  ],
+  "upcoming": [],
+  "notes": "Built from titles of the week's daily items; see each item for caveats."
+}
