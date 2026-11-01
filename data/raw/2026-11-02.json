@@ -1,0 +1,2838 @@
+{
+  "harvested_at": "2026-11-01T21:21:38Z",
+  "since": "2026-10-31T09:21:38Z",
+  "feeds": [
+    {
+      "name": "OpenAI News",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Google AI (The Keyword)",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Google Research",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Microsoft",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "NVIDIA Newsroom",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "NVIDIA Blog",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "AWS Machine Learning",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Hugging Face Daily Papers",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "ok": true,
+      "n": 5
+    },
+    {
+      "name": "The Verge AI",
+      "ok": true,
+      "n": 1
+    },
+    {
+      "name": "Ars Technica AI",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Wired AI",
+      "ok": true,
+      "n": 4
+    },
+    {
+      "name": "CNBC Technology",
+      "ok": true,
+      "n": 7
+    },
+    {
+      "name": "Bloomberg Technology",
+      "ok": true,
+      "n": 2
+    },
+    {
+      "name": "The Register AI/ML",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "Tom's Hardware",
+      "ok": true,
+      "n": 28
+    },
+    {
+      "name": "SCMP Tech",
+      "ok": true,
+      "n": 5
+    },
+    {
+      "name": "Simon Willison",
+      "ok": true,
+      "n": 3
+    },
+    {
+      "name": "Interconnects",
+      "ok": true,
+      "n": 0
+    },
+    {
+      "name": "量子位",
+      "ok": true,
+      "n": 6
+    },
+    {
+      "name": "IT之家",
+      "ok": true,
+      "n": 21
+    },
+    {
+      "name": "Google News · AI",
+      "ok": false,
+      "n": 0,
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "Google News · labs",
+      "ok": false,
+      "n": 0,
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "Google News · AI chips",
+      "ok": false,
+      "n": 0,
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "Google News · 人工智能",
+      "ok": false,
+      "n": 0,
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "Google News · 中国AI公司",
+      "ok": false,
+      "n": 0,
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "Hacker News",
+      "ok": true,
+      "n": 16
+    }
+  ],
+  "n_items": 96,
+  "clusters": [
+    {
+      "title": "Serbia just elected the world's brainiest parliament",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "a87c5b9700e3"
+      ],
+      "first_seen": "2026-10-31T10:21:30Z",
+      "hn_points": 892,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "e07ec5d69c95"
+      ],
+      "first_seen": "2026-10-31T19:39:19Z",
+      "hn_points": 441,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "761e5e0baaa4"
+      ],
+      "first_seen": "2026-11-01T06:06:19Z",
+      "hn_points": 258,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "5b0ac3b976a1"
+      ],
+      "first_seen": "2026-10-31T14:29:03Z",
+      "hn_points": 253,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "82785ab4f152"
+      ],
+      "first_seen": "2026-10-31T18:50:34Z",
+      "hn_points": 176,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "71145972f162"
+      ],
+      "first_seen": "2026-10-31T21:07:58Z",
+      "hn_points": 176,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "d7e241d7cf24"
+      ],
+      "first_seen": "2026-11-01T01:46:29Z",
+      "hn_points": 172,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Frontier Airlines Likely Breached",
+      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "530cf738c9d3"
+      ],
+      "first_seen": "2026-11-01T16:46:33Z",
+      "hn_points": 137,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "AI agent swarms unleashed in Minecraft to ‘build a thriving civilization’",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "e17eb6c5fcac"
+      ],
+      "first_seen": "2026-11-01T12:33:52Z",
+      "hn_points": 130,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "4b795773d113"
+      ],
+      "first_seen": "2026-11-01T18:53:55Z",
+      "hn_points": 112,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Retired professor arrested for blocking delivery robot. Will do it again",
+      "url": "https://www.cnn.com/2026/10/31/us/philadelphia-woman-delivery-robots-cec",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "d3faca943d8b"
+      ],
+      "first_seen": "2026-10-31T13:39:57Z",
+      "hn_points": 90,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "aa4997f9eba1"
+      ],
+      "first_seen": "2026-10-31T18:02:29Z",
+      "hn_points": 79,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "77e4ed1a15be"
+      ],
+      "first_seen": "2026-10-31T13:25:10Z",
+      "hn_points": 74,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "2b51d8c5bce7"
+      ],
+      "first_seen": "2026-10-31T12:20:00Z",
+      "hn_points": 72,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Smear Campaign Towards GrapheneOS",
+      "url": "https://grapheneos.social/@GrapheneOS/117537776055163844",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "6a7db417d0bc"
+      ],
+      "first_seen": "2026-10-31T23:59:17Z",
+      "hn_points": 67,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "AI text watermarking and quality loss",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Hacker News"
+      ],
+      "item_ids": [
+        "567c750dad41"
+      ],
+      "first_seen": "2026-10-31T21:50:13Z",
+      "hn_points": 65,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Wired AI"
+      ],
+      "item_ids": [
+        "edd821e09ba3"
+      ],
+      "first_seen": "2026-10-31T10:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Tech sleuth claims to have found the oldest GUI application that still works with Windows 11",
+      "url": "https://www.tomshardware.com/software/windows/tech-sleuth-claims-to-have-found-the-oldest-gui-application-that-still-works-with-windows-11-cdplayer-exe-from-windows-nt-in-november-1992-wins-the-prize",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "8bfc0a10cdd6"
+      ],
+      "first_seen": "2026-10-31T10:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Apple Intelligence to roll out on iPhones in China in December with Alibaba backing",
+      "url": "https://www.scmp.com/tech/big-tech/article/3372831/apple-intelligence-roll-out-iphones-china-december-alibaba-backing",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "SCMP Tech"
+      ],
+      "item_ids": [
+        "d097bcf01b45"
+      ],
+      "first_seen": "2026-10-31T10:02:17Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Wired AI"
+      ],
+      "item_ids": [
+        "d5bb41b6ba04"
+      ],
+      "first_seen": "2026-10-31T10:30:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Modder uses a trash 4-kW air conditioner radiator for his test bench to see how well it can cool a PC",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/trashbench-repurposes-a-trash-4-kw-air-conditioner-radiator-for-his-test-bench-to-see-how-well-it-can-cool-a-pc-achieves-a-shocking-28c-on-an-nvidia-rtx-3080",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "982b664eb1b7"
+      ],
+      "first_seen": "2026-10-31T11:20:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Veteran Microsoft engineer makes his own RAM from scratch using AI",
+      "url": "https://www.tomshardware.com/pc-components/ram/veteran-microsoft-engineer-makes-his-own-ram-from-scratch-using-ai-attempts-to-build-4mb-of-1970s-pdp-11-ram-from-scratch",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "fdb1503c8c2b"
+      ],
+      "first_seen": "2026-10-31T11:40:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "AI agent used to perform controversial brain surgery on a mouse, Anthropic Sonnet controlled motorized surgery rig",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/startup-uses-ai-agent-to-perform-controversial-brain-surgery-on-a-mouse-anthropic-sonnet-controlled-motorized-surgery-rig-ai-given-free-reign-to-treat-epilepsy-with-a-range-of-gene-therapy-vectors-after-opus-5-5-refused-to-conduct-biological-experiment",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "7c30baaa04ab"
+      ],
+      "first_seen": "2026-10-31T12:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Wired AI"
+      ],
+      "item_ids": [
+        "1d78de13bdea"
+      ],
+      "first_seen": "2026-10-31T12:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Humans are still doing the work behind some AI agents",
+      "url": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "CNBC Technology"
+      ],
+      "item_ids": [
+        "b0efea28755f"
+      ],
+      "first_seen": "2026-10-31T12:00:01Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "SI is the future of AI – just not in the way Trump thinks",
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3372415/si-future-ai-just-not-way-trump-thinks",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "SCMP Tech"
+      ],
+      "item_ids": [
+        "bdd2a78373ff"
+      ],
+      "first_seen": "2026-10-31T12:30:06Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Developer builds a complete Intel 486 PC emulator in a browser",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/developer-builds-a-complete-intel-486-pc-emulator-in-a-browser-100-percent-pure-javascript-retro486-includes-modular-tabs-for-screen-motherboard-storage-expansion-cards-and-more",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "f626e837b3e6"
+      ],
+      "first_seen": "2026-10-31T12:40:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Intel shifts production capacity from consumer to server CPUs in face of 'unprecedented' AI demand",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "83c8f9df7044"
+      ],
+      "first_seen": "2026-10-31T13:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "This week in Tom's Hardware Premium: October 31, 2026",
+      "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-october-31-2026-vera-cpus-available-on-oracle-clusters-building-an-agentic-cpu-benchmark-and-a-primer-to-llms",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "763093c8fd5d"
+      ],
+      "first_seen": "2026-10-31T13:30:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Firm that lets you rent out your idle Mac for AI inference workloads warns of plummeting token costs",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "b4f2015e61ee"
+      ],
+      "first_seen": "2026-10-31T13:49:09Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "url": "https://www.qbitai.com/2026/10/506904.html",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "量子位"
+      ],
+      "item_ids": [
+        "0ef69d0d8837"
+      ],
+      "first_seen": "2026-10-31T13:49:44Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "ASRock B860 Challenger Wifi Motherboard Review: Entry-level ATX at a great price, with drawbacks",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/asrock-b860-challenger-wifi-motherboard-review",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "d0da60eba6b2"
+      ],
+      "first_seen": "2026-10-31T14:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "CNBC Technology"
+      ],
+      "item_ids": [
+        "2d7117a920e0"
+      ],
+      "first_seen": "2026-10-31T15:37:11Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "'Ghost Students' using AI to apply for student loans with stolen identities, DOJ's Operation Ghostbusters busts $200 million ring",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/ghost-students-using-ai-to-apply-for-student-loans-with-stolen-identities-dojs-operation-ghostbusters-busts-usd200-million-ring-faking-online-college-attendance-unsuspecting-victims-saddled-with-student-debt-they-didnt-sign-up-for",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "abbcaf417185"
+      ],
+      "first_seen": "2026-10-31T15:37:41Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "The Verge AI"
+      ],
+      "item_ids": [
+        "ee9f8f39beac"
+      ],
+      "first_seen": "2026-10-31T16:05:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "French lawmakers add $11.2 billion internet tax based on traffic usage to budget, costs $0.06 per gigabyte of content accessed",
+      "url": "https://www.tomshardware.com/software/social-media/french-lawmakers-approve-usd11-2-billion-internet-tax-based-on-traffic-usage-costs-usd0-65-per-gigabyte-of-content-accessed-us-tech-giants-like-google-and-meta-face-new-levies-on-content-delivered-to-french-subscribers",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "438b10f2d18f"
+      ],
+      "first_seen": "2026-10-31T16:11:40Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "TechCrunch AI"
+      ],
+      "item_ids": [
+        "c10fef6ec816"
+      ],
+      "first_seen": "2026-10-31T16:12:55Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Grab the award-winning Bambu Lab P1S 3D printer with AMS for $70 off",
+      "url": "https://www.tomshardware.com/pc-components/grab-the-award-winning-bambu-lab-p1s-3d-printer-with-ams-for-usd70-off-save-usd70-on-one-of-the-best-3d-printers-for-beginners",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "117b16b75cae"
+      ],
+      "first_seen": "2026-10-31T19:19:50Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "CNBC Technology"
+      ],
+      "item_ids": [
+        "56b873bfe674"
+      ],
+      "first_seen": "2026-10-31T19:56:23Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "CNBC Technology"
+      ],
+      "item_ids": [
+        "13659a39d997"
+      ],
+      "first_seen": "2026-10-31T20:12:37Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "TechCrunch AI"
+      ],
+      "item_ids": [
+        "e07dacdb45dc"
+      ],
+      "first_seen": "2026-10-31T21:17:03Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "TechCrunch AI"
+      ],
+      "item_ids": [
+        "5a4bff0c2db2"
+      ],
+      "first_seen": "2026-10-31T21:36:07Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "TechCrunch AI"
+      ],
+      "item_ids": [
+        "9f56e268b05e"
+      ],
+      "first_seen": "2026-10-31T21:41:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "FBI Blames North Korea for $6 Billion Binance Crypto Hack",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/fbi-blames-north-korea-for-6-billion-binance-crypto-hack",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Bloomberg Technology"
+      ],
+      "item_ids": [
+        "eee7e85f9084"
+      ],
+      "first_seen": "2026-10-31T21:59:09Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Simon Willison"
+      ],
+      "item_ids": [
+        "4c77a0dfd633"
+      ],
+      "first_seen": "2026-10-31T22:10:01Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Simon Willison"
+      ],
+      "item_ids": [
+        "dd35d009aad6"
+      ],
+      "first_seen": "2026-10-31T23:15:22Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Bloomberg Technology"
+      ],
+      "item_ids": [
+        "34ae49c90daf"
+      ],
+      "first_seen": "2026-11-01T03:48:18Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Jev新成果，再次引爆开源",
+      "url": "https://www.qbitai.com/2026/11/506922.html",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "量子位"
+      ],
+      "item_ids": [
+        "a364bf369942"
+      ],
+      "first_seen": "2026-11-01T04:18:37Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "US or China? Why Kazakhstan refuses to pick sides as it eyes AI revolution",
+      "url": "https://www.scmp.com/tech/big-tech/article/3372785/us-or-china-why-kazakhstan-refuses-pick-sides-it-eyes-ai-revolution",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "SCMP Tech"
+      ],
+      "item_ids": [
+        "9130516ef6fd"
+      ],
+      "first_seen": "2026-11-01T06:00:13Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "url": "https://www.qbitai.com/2026/11/506990.html",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "量子位"
+      ],
+      "item_ids": [
+        "637c9aeaf702"
+      ],
+      "first_seen": "2026-11-01T07:50:57Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "量子位"
+      ],
+      "item_ids": [
+        "c2ed16959052"
+      ],
+      "first_seen": "2026-11-01T08:02:37Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "上下水版 4599 → 1108 元：科沃斯 T50 PRO 扫拖机器人国补 2 折清仓，81mm 纤薄机身",
+      "url": "https://www.ithome.com/1/020/760.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "b4c694055e28"
+      ],
+      "first_seen": "2026-11-01T08:33:07Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "华为新机影像超前瞻：200Mp 1/1.3\" 超大底主摄 + 200Mp 1/1.4\" 大底潜望长焦，预计明年落地",
+      "url": "https://www.ithome.com/1/020/765.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "eb3dbad10fdf"
+      ],
+      "first_seen": "2026-11-01T08:55:04Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "奥海推出 PD3.2 智显屏充电器：2C+1A，支持 200W 超频输出，369 元",
+      "url": "https://www.ithome.com/1/020/767.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "0444fb2e9a41"
+      ],
+      "first_seen": "2026-11-01T09:03:29Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等",
+      "url": "https://www.ithome.com/1/020/768.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "f0e1448a77f1"
+      ],
+      "first_seen": "2026-11-01T09:03:59Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Twelve South 推出 PowerClip“超便携应急充电宝”：苹果 AirPods Pro 尺寸、2000mAh 电芯、2C 设计",
+      "url": "https://www.ithome.com/1/020/771.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "3b0a4dfd96a7"
+      ],
+      "first_seen": "2026-11-01T09:20:45Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "“潜入精神世界挖出猛料”点击式冒险游戏《BUZZ or DIE》Steam 发售，国区 ¥22.40",
+      "url": "https://www.ithome.com/1/020/772.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "cb1be58259ba"
+      ],
+      "first_seen": "2026-11-01T09:23:26Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "首届 CMG 世界机器人登泰山大赛明日进行，央视揭秘机器人如何认路、探路、见招拆招",
+      "url": "https://www.ithome.com/1/020/773.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "271c37423996"
+      ],
+      "first_seen": "2026-11-01T09:23:41Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "小米推出 REDMI M100 Pro 手机：天玑 7300-Ultra 处理器，12G + 256G 售 2499 元",
+      "url": "https://www.ithome.com/1/020/778.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "cee798e9699c"
+      ],
+      "first_seen": "2026-11-01T09:41:40Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "覆盖监测预报预警服务全链条，我国“妈祖”斯里兰卡智能一体机交付",
+      "url": "https://www.ithome.com/1/020/783.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "20384097394d"
+      ],
+      "first_seen": "2026-11-01T09:57:31Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "北汽新能源：极狐汽车 10 月销量 26325 台，同比增长 12.56%",
+      "url": "https://www.ithome.com/1/020/784.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "a334eb6757a3"
+      ],
+      "first_seen": "2026-11-01T09:57:54Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+      "url": "https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "SCMP Tech"
+      ],
+      "item_ids": [
+        "d8c9442a21ba"
+      ],
+      "first_seen": "2026-11-01T10:00:26Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "加速落地高海拔地区！我国高原新能源装机比重达 52.9%，高于全国平均水平 4.4 个百分点",
+      "url": "https://www.ithome.com/1/020/787.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "a22d02bf09c7"
+      ],
+      "first_seen": "2026-11-01T10:03:59Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "第二十四届半导体封测年会定档 11 月 4 日至 6 日举办，华为、龙芯中科、小米汽车等确认参会",
+      "url": "https://www.ithome.com/1/020/803.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "0ade6e813e4c"
+      ],
+      "first_seen": "2026-11-01T10:21:26Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Wired AI"
+      ],
+      "item_ids": [
+        "e3c2e19ab9b4"
+      ],
+      "first_seen": "2026-11-01T10:30:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "酷态科 30 号笔记本适配器发售：自带主动风冷、可为游戏本提供 360W 输出，499 元",
+      "url": "https://www.ithome.com/1/020/807.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "2b555b46b777"
+      ],
+      "first_seen": "2026-11-01T10:33:57Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿",
+      "url": "https://www.ithome.com/1/020/809.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "b03bc775dc4a"
+      ],
+      "first_seen": "2026-11-01T10:46:02Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "College student unofficially breaks world record for fastest jet-powered drone with 491 mph aircraft built in his dorm",
+      "url": "https://www.tomshardware.com/tech-industry/drones/college-student-unofficially-breaks-world-record-for-fastest-jet-powered-drone-with-491-mph-aircraft-built-in-his-dorm-reaper-aims-to-grab-the-usd800-000-boom-prize",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "5bf14d992a16"
+      ],
+      "first_seen": "2026-11-01T11:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "USAF successfully tests dropping SpaceX Starfall cargo drop pods from space",
+      "url": "https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "3ebc8373e068"
+      ],
+      "first_seen": "2026-11-01T11:30:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "市场监管总局发布钢铁智能制造相关国家标准：破设计口径不一、数据互通难题",
+      "url": "https://www.ithome.com/1/020/820.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "71233e4e4e60"
+      ],
+      "first_seen": "2026-11-01T11:57:57Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Self-improving AI the key step towards AGI but safety is key: Z.ai founder",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3372834/self-improving-ai-key-step-towards-agi-safety-key-zai-founder",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "SCMP Tech"
+      ],
+      "item_ids": [
+        "e83d41c58d47"
+      ],
+      "first_seen": "2026-11-01T12:00:19Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Qt 推出零代码嵌入式界面设计工具 Clate，设计成果可直接导出 QML 代码",
+      "url": "https://www.ithome.com/1/020/821.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "37d5b34116a9"
+      ],
+      "first_seen": "2026-11-01T12:00:37Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Companies promised AI gains — here's how the payoff showed up in earnings",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "CNBC Technology"
+      ],
+      "item_ids": [
+        "c08bd7a08d19"
+      ],
+      "first_seen": "2026-11-01T12:34:06Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Lenovo's 'encrypted' fingerprint USB drive is just an unencrypted SD card in a fancy case",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "6ecab4b5e730"
+      ],
+      "first_seen": "2026-11-01T13:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "url": "https://www.qbitai.com/2026/11/507038.html",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "量子位"
+      ],
+      "item_ids": [
+        "4dea2b027768"
+      ],
+      "first_seen": "2026-11-01T13:09:55Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "长鑫科技：2026 年 LPDDR 系列产品实现 781.91 亿元收入，占营业收入比例 52.02%",
+      "url": "https://www.ithome.com/1/020/832.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "5fbde23ed176"
+      ],
+      "first_seen": "2026-11-01T13:19:50Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+      "url": "https://www.qbitai.com/2026/11/507076.html",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "量子位"
+      ],
+      "item_ids": [
+        "93a19b1bb027"
+      ],
+      "first_seen": "2026-11-01T13:28:10Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Elon Musk says Neuralink's 'BlindSight' is ready to cure blindness",
+      "url": "https://www.tomshardware.com/peripherals/wearable-tech/elon-musk-says-neuralink-is-ready-to-cure-blindness-says-blindsight-will-enable-even-those-who-are-completely-blind-or-have-never-seen-to-see",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "b7595aabb09a"
+      ],
+      "first_seen": "2026-11-01T13:30:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "HMD 诺基亚 2360 Flip 翻盖功能机曝光：紫光展锐 T127 芯片，1.8 英寸外屏",
+      "url": "https://www.ithome.com/1/020/834.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "7991cb113530"
+      ],
+      "first_seen": "2026-11-01T13:45:05Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Police Chief physically unplugs Flock cameras after the company ignores contract cancellation",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "94f6332c8620"
+      ],
+      "first_seen": "2026-11-01T13:55:26Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows",
+      "url": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "cf9bc6bf94fc"
+      ],
+      "first_seen": "2026-11-01T14:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "海贝推出 HiBy R6III SE 便携 Hi-Fi 播放器：4 颗 CS43198 DAC 芯片，1798 元",
+      "url": "https://www.ithome.com/1/020/836.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "ff4c7dd70735"
+      ],
+      "first_seen": "2026-11-01T14:01:22Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准",
+      "url": "https://www.ithome.com/1/020/837.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "f5e9142b72f9"
+      ],
+      "first_seen": "2026-11-01T14:19:52Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "72e90052d963"
+      ],
+      "first_seen": "2026-11-01T14:21:23Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Bambu Lab's Black Friday sale cuts up to $300 on the flagship H2C printer and more",
+      "url": "https://www.tomshardware.com/3d-printing/bambu-labs-black-friday-sale-cuts-up-to-usd300-on-the-flagship-h2c-printer-and-more-deep-cuts-across-companys-3d-printer-and-filament-lineup",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "e2f771a9731e"
+      ],
+      "first_seen": "2026-11-01T14:30:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Why AI is boosting Meta's ad business while hurting Google search",
+      "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "CNBC Technology"
+      ],
+      "item_ids": [
+        "45dd64793fde"
+      ],
+      "first_seen": "2026-11-01T14:31:29Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "赛力斯：问界将全面进入欧洲市场，公司不参与价格战和规模内卷",
+      "url": "https://www.ithome.com/1/020/839.htm",
+      "lang": "zh",
+      "n_outlets": 1,
+      "outlets": [
+        "IT之家"
+      ],
+      "item_ids": [
+        "71552be83cce"
+      ],
+      "first_seen": "2026-11-01T14:47:24Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Anycubic and Thingiverse announce exclusive 3D printing partnership",
+      "url": "https://www.tomshardware.com/3d-printing/anycubic-and-thingiverse-announce-exclusive-3d-printing-partnership-makeronline-platform-to-offer-1-click-multicolor-3mf-models",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "49cd8119dafa"
+      ],
+      "first_seen": "2026-11-01T15:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Biwin M560 2TB SSD Review: The DRAM-less drive to beat",
+      "url": "https://www.tomshardware.com/pc-components/ssds/biwin-m560-2tb-ssd-review",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "0ffd53031d28"
+      ],
+      "first_seen": "2026-11-01T15:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "f0fef7d7d5c2"
+      ],
+      "first_seen": "2026-11-01T15:05:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Walmart honors massive shelf price mistake, lucky buyer gets two $2,299 CyberPowerPC gaming rigs for $1,099 each",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/lucky-pc-buyer-gets-usd1-200-discount-on-9900x3d-gaming-pc-walmart-honors-usd1-099-shelf-price-on-usd2-299-unit",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "4190e948caaa"
+      ],
+      "first_seen": "2026-11-01T15:53:45Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
+      "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "CNBC Technology"
+      ],
+      "item_ids": [
+        "3b825a97569e"
+      ],
+      "first_seen": "2026-11-01T16:34:43Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Simon Willison"
+      ],
+      "item_ids": [
+        "7a06514023fd"
+      ],
+      "first_seen": "2026-11-01T16:49:04Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "GOG explores reviving physical PC game releases — digital storefront needs publisher approvals, has to figure out the logistics and legal challenges",
+      "url": "https://www.tomshardware.com/video-games/gog-explores-reviving-physical-pc-game-releases-digital-storefront-needs-publisher-approvals-has-to-figure-out-the-logistics-and-legal-challenges",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "b0c620526a88"
+      ],
+      "first_seen": "2026-11-01T18:45:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "TechCrunch AI"
+      ],
+      "item_ids": [
+        "bb2642061f37"
+      ],
+      "first_seen": "2026-11-01T20:57:58Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    },
+    {
+      "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself — payload builds custom target assessment, can switch models if one refuses, or skip the AI step entirely",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
+      "lang": "en",
+      "n_outlets": 1,
+      "outlets": [
+        "Tom's Hardware"
+      ],
+      "item_ids": [
+        "12a45e60d73d"
+      ],
+      "first_seen": "2026-11-01T21:00:00Z",
+      "hn_points": 0,
+      "hf_upvotes": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "12a45e60d73d",
+      "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself — payload builds custom target assessment, can switch models if one refuses, or skip the AI step entirely",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T21:00:00Z",
+      "summary": "A self-deleting Windows infostealer that calls itself VOLTA-AUTODOXER steals everything it can from a victim’s PC, then asks an AI model, Anthropic’s Claude by default, to turn the haul into a target assessment, Cisco’s Talos research organization reports . The malware builds a structured “evidence bundle” on the person and asks the model for a list of their valuables ranked by how much they could be cashed out for, to see what’s worth the effort. VOLTA operates with a prompt to act as “a forensic intelligence analyst” and to be “blunt, specific, accurate,” and can switch models if one refuse…",
+      "via": "rss"
+    },
+    {
+      "id": "bb2642061f37",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "outlet": "TechCrunch AI",
+      "feed": "TechCrunch AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T20:57:58Z",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "via": "rss"
+    },
+    {
+      "id": "4b795773d113",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-11-01T18:53:55Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 112,
+        "hn_comments": 67,
+        "hn_url": "https://news.ycombinator.com/item?id=50328488"
+      }
+    },
+    {
+      "id": "b0c620526a88",
+      "title": "GOG explores reviving physical PC game releases — digital storefront needs publisher approvals, has to figure out the logistics and legal challenges",
+      "url": "https://www.tomshardware.com/video-games/gog-explores-reviving-physical-pc-game-releases-digital-storefront-needs-publisher-approvals-has-to-figure-out-the-logistics-and-legal-challenges",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T18:45:00Z",
+      "summary": "The popular DRM-free game storefront GOG’s business development and partnerships manager, Marcin Paczynski, said in an interview with GamesRadar+ that he wants to bring back physical media to PC gaming. GOG still has to deal with logistics and additional publisher permissions to store and sell physical games, but Paczynski hopes to give gamers more consumer freedom through actual real-world tangible physical media. The PC was effectively the first platform to ditch physical games, but since Sony and Microsoft ’s recent unpopular plans to stop producing physical games on their consoles, GOG wa…",
+      "via": "rss"
+    },
+    {
+      "id": "7a06514023fd",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "outlet": "Simon Willison",
+      "feed": "Simon Willison",
+      "tier": "trade",
+      "lang": "en",
+      "published_at": "2026-11-01T16:49:04Z",
+      "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users? — Kyle Kingsbury , Jepsen results for ParticleDB 1.1.4 Tags: kyle-kingsbury , llms , ai , generative-ai , ai-misuse",
+      "via": "rss"
+    },
+    {
+      "id": "530cf738c9d3",
+      "title": "Frontier Airlines Likely Breached",
+      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-11-01T16:46:33Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 137,
+        "hn_comments": 38,
+        "hn_url": "https://news.ycombinator.com/item?id=50327266"
+      }
+    },
+    {
+      "id": "3b825a97569e",
+      "title": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
+      "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+      "outlet": "CNBC Technology",
+      "feed": "CNBC Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T16:34:43Z",
+      "summary": "As companies from Amazon to JPMorgan block AI personal agents like Meta's Muse, retail experts warn that technology that removes customer friction usually wins.",
+      "via": "rss"
+    },
+    {
+      "id": "4190e948caaa",
+      "title": "Walmart honors massive shelf price mistake, lucky buyer gets two $2,299 CyberPowerPC gaming rigs for $1,099 each",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/lucky-pc-buyer-gets-usd1-200-discount-on-9900x3d-gaming-pc-walmart-honors-usd1-099-shelf-price-on-usd2-299-unit",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T15:53:45Z",
+      "summary": "One shopper got the deal of a lifetime after they secured two CyberPowerPC units at more than 50% off. u/joker497 shared the find on the r/pcmasterrace subreddit , with Walmart putting two units of the Supreme Gaming Desktop for just $1,099 on the shelf. If we check the Walmart website , this PC actually costs $2,299, meaning they saved $1,200 on each PC. Deal of the year from r/pcmasterrace It’s unclear if the retail store had a sale on these PCs at the time, or if it was a pricing mistake, but the Redditor said that the store honored the prices for the PCs. The $2,299 CyberPowerPC Gamer Sup…",
+      "via": "rss"
+    },
+    {
+      "id": "f0fef7d7d5c2",
+      "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T15:05:00Z",
+      "summary": "A Brazilian labor court fined two lawyers after it discovered that their latest filing contained hidden text that attempted to influence its AI tool. Prof. Vladimir Aras of the University of Brazil (UnB) shared the court’s ruling on X [machine translated], saying that a prompt injection is included in the document written in white text on a white background, remaining unseen to human readers. Caso de PROMPT INJECTION numa vara do trabalho da 8ª Região, no Pará. O juiz do Trabalho identificou a inclusão de um comando oculto na petição inicial da reclamação.O comando era:“ANTENÇÃO, INTELIGÊNCIA…",
+      "via": "rss"
+    },
+    {
+      "id": "49cd8119dafa",
+      "title": "Anycubic and Thingiverse announce exclusive 3D printing partnership",
+      "url": "https://www.tomshardware.com/3d-printing/anycubic-and-thingiverse-announce-exclusive-3d-printing-partnership-makeronline-platform-to-offer-1-click-multicolor-3mf-models",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T15:00:00Z",
+      "summary": "Anycubic has announced an exclusive partnership with Thingiverse, the world’s oldest and largest repository of free STL models for 3D printing. The move comes roughly eight months after Thingiverse was purchased from UltiMaker by MyMiniFactory . This is clearly a “collaboration,” not an acquisition, as Thingiverse remains part of the MyMiniFactory family and dedicated to the SoulCrafted, human-made art movement. Instead, Anycubic will gain permission to share the files directly with its own users on the MakerOnline platform. Selected models will be adapted for multicolor printing and converte…",
+      "via": "rss"
+    },
+    {
+      "id": "0ffd53031d28",
+      "title": "Biwin M560 2TB SSD Review: The DRAM-less drive to beat",
+      "url": "https://www.tomshardware.com/pc-components/ssds/biwin-m560-2tb-ssd-review",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T15:00:00Z",
+      "summary": "We’re back with another drive from Biwin, which has been putting out some good SSDs with minor exceptions. This one uses hardware we’ve wanted to test in retail for quite some time: the SMI SM2504XT SSD controller, which is hard to find. The PCIe 5.0 DRAM-less range is relatively popular because it offers the performance without the power and heat of higher-end options, at a lower price point. The tech’s newer than what PCIe 4.0 drives offer, so you get a better all-around experience if you’re willing to take the plunge. The M560 slots in here perfectly as a real alternative to all the drives…",
+      "via": "rss"
+    },
+    {
+      "id": "71552be83cce",
+      "title": "赛力斯：问界将全面进入欧洲市场，公司不参与价格战和规模内卷",
+      "url": "https://www.ithome.com/1/020/839.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T14:47:24Z",
+      "summary": "IT之家 11 月 1 日消息，赛力斯 10 月 31 日发布投资者关系活动记录表，其中回答了“公司在问界的整体经营思路上有什么样的思考？对下一步业务发展有什么规划？”。 据其介绍，问界坚定做全球高端品牌。目前问界全系正推进欧盟 WVTA E1 整车型式认证，验证周期长、环节多，是高端车进入欧洲市场的必经门槛。公司坚持按最高标准走完全程，确保产品以合规、可靠的状态出海。10 月中旬 AITO 6、AITO 7、AITO 8、AITO 9 亮相巴黎车展并广受好评，为接受全球最高标准检验、进入欧洲市场积累了品牌与市场基础。随着认证与渠道建设推进， 问界将全面进入欧洲市场 ，稳步迈向海外销量占比三分之一的目标。 IT之家注意到，该公司还提到坚持以盈利质量为核心导向。 公司不参与价格战和规模内卷，不追求无盈利支撑的销量规模，坚持走高端化经营路线 。具体而言：一是问界坚持大单品战略，对每一款产品坚持长期经营；二是坚守“五高”标准，以产品长期主义保障二手车价值，进一步提升品牌价值，在此基础上以合理的利润水平保障研发与产品投入，形成投入产出的良性循环。后续公司将通过产品升级和新产品上市，进一步扩大用户规模，持续改善经营质量。 该公司透露，问界已累计交付 120 万辆高端智能电动汽车， 拥有超过 120 万的问界用户 ，公司经营重心正从单次交易转向全生命周期经营。今年公司已入股逸安启，与宝马、梅…",
+      "via": "rss"
+    },
+    {
+      "id": "45dd64793fde",
+      "title": "Why AI is boosting Meta's ad business while hurting Google search",
+      "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+      "outlet": "CNBC Technology",
+      "feed": "CNBC Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T14:31:29Z",
+      "summary": "The gap between Meta's ad revenue growth and Google's search expansion was the widest it's been since 2021 in the latest quarter.",
+      "via": "rss"
+    },
+    {
+      "id": "e2f771a9731e",
+      "title": "Bambu Lab's Black Friday sale cuts up to $300 on the flagship H2C printer and more",
+      "url": "https://www.tomshardware.com/3d-printing/bambu-labs-black-friday-sale-cuts-up-to-usd300-on-the-flagship-h2c-printer-and-more-deep-cuts-across-companys-3d-printer-and-filament-lineup",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T14:30:00Z",
+      "summary": "Bambu Lab has arrived early for the Black Friday sales extravaganza. The big sales event doesn't hit retailers until late next month during the Thanksgiving Holidays, but Bambu Lab is striking out in front of the chaos by starting its Black Friday sales right now. You can already grab big savings on 3D printers and filaments ahead of the main event. Bambu Lab's sale is running from October 16 to December 1, 2026. So you don't have to wait to find out what kind of discounts are going to arrive during Black Friday, as they're already here. ● Check out Bambu Lab's Black Friday deals Already, we…",
+      "via": "rss"
+    },
+    {
+      "id": "72e90052d963",
+      "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T14:21:23Z",
+      "summary": "OpenAI CEO Sam Altman has met with about 50 senior Samsung executives in South Korea, as the company seeks to expand its Artificial Intelligence and memory capacity, Bloomberg reports. Altman’s visit to South Korea follows his recent comments about how the world's limited memory supply should be allocated. In an interview on the Chick Pink podcast this week, the OpenAI chief argued that DRAM sitting inside personal computers is often underused , describing it as “quite terrible”. He suggested that data centers could make more intensive use of memory by sharing computer resources across AI wor…",
+      "via": "rss"
+    },
+    {
+      "id": "f5e9142b72f9",
+      "title": "OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准",
+      "url": "https://www.ithome.com/1/020/837.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T14:19:52Z",
+      "summary": "IT之家 11 月 1 日消息，OpenAI、谷歌、微软以及 Anthropic 近日宣布将采用一项新标准，内容发布方可以借助该标准选择拒绝 AI 抓取自家网站内容。借助这项管控机制，内容发布方可以一次性向多家 AI 企业统一申明自身针对 AI 模型训练的内容使用偏好，而不必为每家企业单独设置规则。 该标准由 Anthropic 技术负责人 Kevin Kelley 向互联网工程任务组（IETF）提出，并将集成在网站的 robots.txt 文件中。 长期以来， robots.txt 文件用于告知网络爬虫哪些网站内容允许抓取、哪些禁止抓取，适用场景包含搜索索引、网页归档以及 AI 模型训练。目前，网站必须向每一家 AI 企业分别单独声明自己的 AI 训练相关内容使用偏好。在此背景下， 各类 AI 爬虫持续抓取网站内容、将网页素材输入 AI 模型训练 ，内容发布方正为此焦头烂额。 IT之家注意到，目前，网站需向每家公司单独声明训练偏好，新标准旨在简化这一流程。Anthropic 已率先采纳，OpenAI 计划在未来几个月内落实，谷歌和微软则预计于明年支持。Meta 发言人 Andy Stone 也表示支持建立此类通用信号，但未明确具体落地计划。",
+      "via": "rss"
+    },
+    {
+      "id": "ff4c7dd70735",
+      "title": "海贝推出 HiBy R6III SE 便携 Hi-Fi 播放器：4 颗 CS43198 DAC 芯片，1798 元",
+      "url": "https://www.ithome.com/1/020/836.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T14:01:22Z",
+      "summary": "IT之家 11 月 1 日消息，海贝宣布推出一款 HiBy R6III SE 便携 Hi-Fi 播放器，定价为 1798 元。 该机整体尺寸为 129.4 x 73.1 x 15.6 mm，重量为 250 g。提供黑色和海军蓝两种颜色选择，正面配备了一块 5 英寸 1280x720 分辨率 IPS 面板，背部搭配了钻石切割纹理的玻璃背板。 该机采用 4 颗 CS43198 DAC 芯片，支持 8 路独立输出。耳放部分支持 A 类和 AB 类模式切换，其中 A 类耳放由 OPA1652 运放、晶体管及 ELNA 音频电容组成。硬件搭载 45.158MHz 和 49.152MHz 两颗专用音频晶振。 该机搭载骁龙 665 处理器，配备 3GB RAM 与 32GB 存储空间，机身底部配备 3.5mm PO、4.4mm BAL、3.5mm LO 和 4.4mm BAL.LO 模拟音频接口，以及支持同轴输出的 USB-C 数字接口。系统内置全局 DTA 技术可绕开安卓 SRC，并支持 HiByCast 全局遥控。无线端支持 2.4G 与 5.0G 双频 WiFi 及双向 Bluetooth 5.0，兼容 UAT、LDAC 等蓝牙协议。 该播放器内置 4500mAh 容量电池。在 AB 类模式下，3.5mm 单端输出续航约为 13 小时，4.4mm 平衡输出续航约为 11 小时；切换至 A…",
+      "via": "rss"
+    },
+    {
+      "id": "cf9bc6bf94fc",
+      "title": "Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows",
+      "url": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T14:00:00Z",
+      "summary": "A new open-source UEFI tool boots from USB and unlocks significant extra tensor performance on RTX 20, 30, and 40-series desktop and laptop GPUs, making the half-speed AI throttle hack a whole lot easier to try on Windows. No VBIOS flash or patched driver needed: the tool runs from a FAT32 stick before the Nvidia driver loads at every boot, and then voila, the developer’s own laptop RTX 4060 hit 65% higher FP16 math. The “UEFI pre-driver NVIDIA GPU unlocker,” or nv-uefi-unlocker project, removes Nvidia’s tensor limiter using the community V67 payload with read-back verification. This tricks N…",
+      "via": "rss"
+    },
+    {
+      "id": "94f6332c8620",
+      "title": "Police Chief physically unplugs Flock cameras after the company ignores contract cancellation",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T13:55:26Z",
+      "summary": "Plymouth City Council unanimously voted to end its Flock contract in September 2026, but the company failed to respond to demands to remove its cameras installed around the city. According to The Drive , the city informed Flock immediately about the cancelation, but it failed to respond even after a week. Because of this, Plymouth Police Chief Eric Fadden was forced to take matters into the city’s hands and physically disconnected the cameras’ power cords to ensure that they are non-functional. “As you’re well aware, the City Council voted to discontinue the use of Flock ALPRs at the Sept. 22…",
+      "via": "rss"
+    },
+    {
+      "id": "7991cb113530",
+      "title": "HMD 诺基亚 2360 Flip 翻盖功能机曝光：紫光展锐 T127 芯片，1.8 英寸外屏",
+      "url": "https://www.ithome.com/1/020/834.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T13:45:05Z",
+      "summary": "IT之家 11 月 1 日消息，消息源 smashx_60 现已曝光了 HMD 旗下诺基亚 2360 Flip 翻盖功能机，该机据称为 ODM 产品。 该机提供深灰色、酒红色、蓝绿色三种配色可选，配备 1.8 英寸外屏和 2.8 英寸 LCD 内屏，搭载 1Mp 摄像头。 该机搭载紫光展锐 T127 芯片，搭载 4MB RAM，内置 4MB 存储空间，同时支持 32GB microSD 卡扩展。手机内置 1450mAh 电池，使用 USB-C 接口。",
+      "via": "rss"
+    },
+    {
+      "id": "b7595aabb09a",
+      "title": "Elon Musk says Neuralink's 'BlindSight' is ready to cure blindness",
+      "url": "https://www.tomshardware.com/peripherals/wearable-tech/elon-musk-says-neuralink-is-ready-to-cure-blindness-says-blindsight-will-enable-even-those-who-are-completely-blind-or-have-never-seen-to-see",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T13:30:00Z",
+      "summary": "Elon Musk’s Neuralink has been pushing advancements in the brain-computer interface (BCI) space, with patients now able to play World of Warcraft through a Neuralink brain implant . However, the billionaire founder gave a recent update on its second product, which will be Blindsight. Musk claims that it will “enable even those who are completely blind or have never seen to see,” and that it’s already “ready from an engineering standpoint” and “just waiting on regulatory approval.” Neuralink was founded in 2016, but it didn 't begin human trials until 2024. The progress also started small, wit…",
+      "via": "rss"
+    },
+    {
+      "id": "93a19b1bb027",
+      "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+      "url": "https://www.qbitai.com/2026/11/507076.html",
+      "outlet": "量子位",
+      "feed": "量子位",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T13:28:10Z",
+      "summary": "西湖世界模型研究中心成立",
+      "via": "rss"
+    },
+    {
+      "id": "5fbde23ed176",
+      "title": "长鑫科技：2026 年 LPDDR 系列产品实现 781.91 亿元收入，占营业收入比例 52.02%",
+      "url": "https://www.ithome.com/1/020/832.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T13:19:50Z",
+      "summary": "IT之家 11 月 1 日消息，长鑫科技公布 2026 年三季报业绩交流会记录，介绍了公司前三季度收入结构的变化情况。 公告显示，该公司产品主要分为 DDR 系列以及 LPDDR 系列，2026 年上半年，DDR 系列产品实现 694.72 亿元收入，占营业收入比例为 46.22%； LPDDR 系列产品实现 781.91 亿元收入 ，占营业收入比例为 52.02%。相较于 2026 年上半年，2026 年前三季度 DDR 系列产品在营业收入中的占比持续上升，主要是因为公司 DDR5 产品自 2024 年底量产后，销量持续增长，带动 DDR 系列产品的收入占比提升。 IT之家从公告获悉， 第五代工艺技术平台是长鑫目前量产的最先进平台 ，目前已经推出的主要是 245Ball 和 496Ball 封装的 LPDDR5X 产品。未来公司会基于该平台逐步升级现有的产品线， 比如 DDR5、LPDDR6 等 ，持续提升产品性能，丰富产品组合。与此同时，在 4F² 垂直沟道 DRAM 架构取得关键突破的基础之上，第六代工艺技术平台已完成工程样片的验证。 该公司提到，受 AI 应用快速发展带来的需求驱动，四季度公司依然收到服务器客户对产品的强劲需求，DRAM 供不应求的态势仍将延续，预计公司四季度营收继续保持增长趋势。",
+      "via": "rss"
+    },
+    {
+      "id": "4dea2b027768",
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "url": "https://www.qbitai.com/2026/11/507038.html",
+      "outlet": "量子位",
+      "feed": "量子位",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T13:09:55Z",
+      "summary": "",
+      "via": "rss"
+    },
+    {
+      "id": "6ecab4b5e730",
+      "title": "Lenovo's 'encrypted' fingerprint USB drive is just an unencrypted SD card in a fancy case",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T13:00:00Z",
+      "summary": "Security researcher Xusheng Li found that a Lenovo ThinkPlus FU100 fingerprint USB stick, sold as an AES-256-encrypted device for data security, ended up being just a plain SD card internally, HackingPassion reports. The fingerprint reader only enabled the USB connection, and nothing on the card was actually encrypted. An AI-assisted follow-up last week discovered what Li calls backdoor accounts on another maker’s drive, as well as hardcoded keys in other supposedly secure USB storage products. Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling st…",
+      "via": "rss"
+    },
+    {
+      "id": "c08bd7a08d19",
+      "title": "Companies promised AI gains — here's how the payoff showed up in earnings",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "outlet": "CNBC Technology",
+      "feed": "CNBC Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T12:34:06Z",
+      "summary": "Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.",
+      "via": "rss"
+    },
+    {
+      "id": "e17eb6c5fcac",
+      "title": "AI agent swarms unleashed in Minecraft to ‘build a thriving civilization’",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T12:33:52Z",
+      "summary": "AI researchers at ycombinator and Olam Labs recently tested AI agent swarms in gaming scenarios. Minecraft and its various game modes were the sandboxes where 100s of agents were unleashed to work together or as adversaries. The idea seems to be that the in-game collaborations and conflicts would provide insight into real-world headline-grabbing cases with AI agents involved. This study might help us see what happened, good and bad, in recent AI swarm cases, and thus developers of this technology can improve it. The blog mentions two contrasting cases, which were the thousand-agent swarms tha…",
+      "via": "rss",
+      "signals": {
+        "hn_points": 130,
+        "hn_comments": 60,
+        "hn_url": "https://news.ycombinator.com/item?id=50325662"
+      }
+    },
+    {
+      "id": "37d5b34116a9",
+      "title": "Qt 推出零代码嵌入式界面设计工具 Clate，设计成果可直接导出 QML 代码",
+      "url": "https://www.ithome.com/1/020/821.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T12:00:37Z",
+      "summary": "IT之家 11 月 1 日消息，Qt 宣布推出一款嵌入式设备界面设计工具 Clate，设计师无需编写代码，即可通过可视化编辑器或 AI 生成操作界面，并将设计成果导出为 QML 代码，供工程师集成至 Qt 应用程序。官方现已开放首个 Beta 测试版本 0.6 供用户免费下载使用，IT之家附项目地址（ https://doc.qt.io/clate/docs/release-notes/clate-0-6/ ）。 IT之家获悉，Clate 基于 Qt Quick 构建，主要面向工业设备、医疗仪器及消费电子产品的人机交互界面（HMI）设计。设计师可以调整各个对象的位置、大小、颜色及渐变效果，并通过独立窗口预览设计成果，其在画布上创建的任何图形、文字和图片等元素，都会在后台映射为 Qt 的声明式界面语言 QML，工程师随后可以将这些文件导入 Qt 6.12 并进一步添加交互逻辑和数据处理功能。 此外，Clate 还内置了聊天式 AI 助手，设计师可以通过自然语言指令要求 AI 新建界面或修改设计元素。首个 Beta 版本通过 ACP（Agent Client Protocol，智能体客户端协议）接入 Anthropic 的 Claude Agent，用户需要使用自己的 Claude 账号登录。 目前，Clate 0.6 仍处于测试阶段，暂不支持可重复使用的设计组件和数据绑定功能。Qt…",
+      "via": "rss"
+    },
+    {
+      "id": "e83d41c58d47",
+      "title": "Self-improving AI the key step towards AGI but safety is key: Z.ai founder",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3372834/self-improving-ai-key-step-towards-agi-safety-key-zai-founder",
+      "outlet": "SCMP Tech",
+      "feed": "SCMP Tech",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T12:00:19Z",
+      "summary": "Using artificial intelligence to build even smarter systems will make artificial general intelligence (AGI) more achievable, though it would need to be done safely, leading Chinese computer scientist Tang Jie said at an event in Shanghai on Saturday. The remarks underscore how AI companies in the US and China are both chasing the holy grail of recursive self-improvement (RSI), where increasingly powerful AI systems also become better at improving themselves in an ever-accelerating...",
+      "via": "rss"
+    },
+    {
+      "id": "71233e4e4e60",
+      "title": "市场监管总局发布钢铁智能制造相关国家标准：破设计口径不一、数据互通难题",
+      "url": "https://www.ithome.com/1/020/820.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T11:57:57Z",
+      "summary": "IT之家 11 月 1 日消息，据市场监管总局，为持续提升钢铁行业先进制造水平，市场监管总局日前发布《智能制 造 废 钢智能工厂设计要求》《智能制 造 钢 铁智能工厂数字孪生系统技术要求》《智能制 造 钢 铁工业多基地制造资源协同管控系统技术要求》系列国家标准。该 3 项标准分别锚定 废钢工厂、数字孪生、多基地协同 等关键环节，支撑构建钢铁先进制造技术要求体系。 IT之家从公告获悉，该 3 项标准针对钢铁行业流程长、工序多、界面复杂，以及工厂之间、工序与工序之间长期存在 设计口径不一、系统重复开发、数据难以互通、跨基地资源难以统筹 等问题，提供清晰的解决方案，统一采用分层解耦的架构设计要求，逐层明确相应功能定位与技术边界，让智能体系建设有章可循。 《智能制 造 废 钢智能工厂设计要求》标准提出“工厂装备＋基础设施层、平台层、应用层”的总体架构，规范智能设计、智能生产、智能物流、智能管理及集成优化。《智能制 造 钢 铁智能工厂数字孪生系统技术要求》标准建立“目标实体 — 数字实体 — 孪生应用”三层架构，将孪生模型细分为数字模型、知识模型、智能模型三类并分别提出构建要求。《智能制 造 钢 铁工业多基地制造资源协同管控系统技术要求》标准采用“应用层＋平台层”分层分布式架构，明确质量、生产、物流、备件、绩效五大协同功能与系统集成策略，使企业在规划、设计、选型、集成各环节有据可依，有效减…",
+      "via": "rss"
+    },
+    {
+      "id": "3ebc8373e068",
+      "title": "USAF successfully tests dropping SpaceX Starfall cargo drop pods from space",
+      "url": "https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T11:30:00Z",
+      "summary": "The Air Force Research Lab (AFRL), the research and development arm of the US Air Force, has successfully tested Rocket Cargo capabilities, which would allow military units to resupply via cargo pods dropped from space. According to the AFRL’s X post, the cargo pods, which were onboard a SpaceX Starfall capsule, launched from the Cape Canaveral Space Force Station as part of the Bandwagon-5 “rideshare” mission carried by a Falcon 9 rocket. The capsule splashed down in the Pacific Ocean for this test, with the unit containing mission equipment like MREs, bottled water, a SATCOM-enabled tracker…",
+      "via": "rss"
+    },
+    {
+      "id": "5bf14d992a16",
+      "title": "College student unofficially breaks world record for fastest jet-powered drone with 491 mph aircraft built in his dorm",
+      "url": "https://www.tomshardware.com/tech-industry/drones/college-student-unofficially-breaks-world-record-for-fastest-jet-powered-drone-with-491-mph-aircraft-built-in-his-dorm-reaper-aims-to-grab-the-usd800-000-boom-prize",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T11:00:00Z",
+      "summary": "A new 'Reaper' jet-powered drone project just unofficially broke the previous drone speed world record of 465 mph by hitting 491 mph. Tomas Salvo is an aerospace engineering student at Georgia Tech, and his project was assembled in his dorm room. The drone is comprised of a custom-molded carbon fiber shell, laser-cut internal structure, and a 250N jet engine with a titanium 3D-printed nozzle, costing $13,000 to build. Tomas Salvo aims to win the $800,000 Boom Prize posted by Boom Supersonic CEO Blake Scholl. My college dorm project just broke the world speed record.Reaper hit 790 km/h (491 mp…",
+      "via": "rss"
+    },
+    {
+      "id": "b03bc775dc4a",
+      "title": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿",
+      "url": "https://www.ithome.com/1/020/809.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T10:46:02Z",
+      "summary": "IT之家 11 月 1 日消息，据央视新闻今日报道，中国电子信息产业发展研究院（简称“赛迪研究院”，英文缩写 CCID）昨日发布的《新域新质创新发展十大趋势》显示， 我国人工智能推理数据量首次超过训练数据量 ，标志着我国人工智能从模型训练研发阶段迈入规模化产业应用阶段。 数据显示，截至 2026 年 6 月， 日均词元调用量超过 175 万亿 ，相比 2024 年年初增长 1000 多倍。顶尖大模型的迭代周期也从过去的几个月压缩到几周甚至几天，人工智能正从“喂模型”的实验室阶段， 全面转入“用模型”的产业落地阶段 。 报道提到，随着“人工智能 + 制造”行动深入实施， 我国已累计建成 500 多家卓越级智能工厂 ，覆盖 31 个省（区、市），涵盖超过 80% 的制造业行业大类。国产算力、大模型已在钢铁、汽车等 20 个行业落地 1000 多个应用场景，推动个性化定制、全生命周期服务等新模式不断拓展。 据IT之家此前报道，在今年 9 月的 2026（第七届）中国互联网基础资源大会上，中国互联网络信息中心政策与国际合作所发布《生成式人工智能应用发展报告（2026）》。报告显示， 截至 2026 年上半年，我国生成式人工智能用户规模已超过 7 亿人 ，普及率突破 50% 。",
+      "via": "rss"
+    },
+    {
+      "id": "2b555b46b777",
+      "title": "酷态科 30 号笔记本适配器发售：自带主动风冷、可为游戏本提供 360W 输出，499 元",
+      "url": "https://www.ithome.com/1/020/807.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T10:33:57Z",
+      "summary": "IT之家 11 月 1 日消息，酷态科旗下 30 号笔记本适配器现已在京东发售，该产品带有主动风冷，可为游戏本提供 360W 输出， 定价为 499 元 。 京东 酷态科 30 号笔记本适配器 499 元 直达链接 该适配器尺寸为 84.5 x 85.5 x 36.6 mm，匹配三脚新国标半包胶插脚，产品包装内附赠收纳袋，方便日常存放与携带。适配器采用 5525 标准 DC 接口，附赠 20 余款转接头以及约 0.5m 和 1.5m 长度的编织 DC 线，适用多种机型场景。 官方强调，该适配器使用 GaN 芯片，首发 MPS 图腾柱无桥 PFC 架构。通过去除传统 PFC 电路的二极管整流桥，有效降低了导通损耗。该设计使整机满载效率达到约 96%，整机功率密度提升约 109%。同时适配器采用主动风冷散热系统，内部风扇最高转速可达 13300 RPM。 IT之家附产品参数： 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次： 点此抽红包 。 淘宝 11.11 无门槛红包 面额至高 26888 元，每天抽 1 次： 点此抽红包 。",
+      "via": "rss"
+    },
+    {
+      "id": "e3c2e19ab9b4",
+      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "outlet": "Wired AI",
+      "feed": "Wired AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T10:30:00Z",
+      "summary": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
+      "via": "rss"
+    },
+    {
+      "id": "0ade6e813e4c",
+      "title": "第二十四届半导体封测年会定档 11 月 4 日至 6 日举办，华为、龙芯中科、小米汽车等确认参会",
+      "url": "https://www.ithome.com/1/020/803.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T10:21:26Z",
+      "summary": "IT之家 11 月 1 日消息，2026 年半导体封装测试技术与市场年会 (第二十四届) 将于 2026 年 11 月 4-6 日 在中国南京丰大国际大酒店举行。会议由中国半导体行业协会指导，中国半导体行业协会封测分会主办。 据介绍，在为期两天的会议中，来自华天科技、长电科技、通富微电、壁仞科技、京东方、云天半导体等封测领域、芯片设计领域、玻璃基板领域、TGV 领域的龙头企业的重磅嘉宾将通过主论坛、专题报告、供需对接等形式，交流先进封装的最新发展方向。 IT之家附大会主要信息如下： 1. 会议时间 ： 2026 年 11 月 4-6 日 2. 会议地点： 南京丰大国际大酒店 3. 组织机构： 指导单位：中国半导体行业协会 主办单位：中国半导体行业协会封测分会 承办单位：天水华天科技股份有限公司、未来半导体 协办单位：江苏长电科技股份有限公司、通富微电子股份有限公司、中科芯集成电路有限公司 支持媒体：未来半导体、电子与封装、电子工业专用设备、中国电子报、地方媒体 4. 会议规模： 2000 人 5.会议主题： AI 启新程，封测铸“芯”基 半导体封测联会公众号也给出了参会单位名单，大家所熟知的单位包括：紫光展锐、华为技术有限公司、国科微、摩尔线程智能科技（北京）股份有限公司、寒武纪、字节、龙芯中科技术股份有限公司、长江存储、海光信息技术股份有限公司、南京大学、清华大学、小米汽车有限…",
+      "via": "rss"
+    },
+    {
+      "id": "a22d02bf09c7",
+      "title": "加速落地高海拔地区！我国高原新能源装机比重达 52.9%，高于全国平均水平 4.4 个百分点",
+      "url": "https://www.ithome.com/1/020/787.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T10:03:59Z",
+      "summary": "IT之家 11 月 1 日消息，据央视新闻今日报道，近年来我国正加大高海拔地区新能源建设力度，正加速落地。 高原新能源装机比重由过去 5 年的平均 28.5% 上升到 52.9% ，高于全国平均水平 4.4 个百分点。 据介绍，截至 2026 年 9 月底， 我国高海拔地区新能源发电装机为 5.28 亿千瓦，占全国新能源的比重为 25.6% ，其中，风电 1.97 亿千瓦，占全国风电装机的比重为 28.1%，太阳能发电装机 3.27 亿千瓦，占全国太阳能发电装机的比重为 24.9%； 光热发电装机容量为 212 万千瓦 。 从装机规模看，高海拔省区新能源正在加速发展，风电光伏已成为装机主体。过去五年，平均海拔 1500 米以上的七个省区新能源装机， 由 1.44 亿千瓦增加到 4.76 亿千瓦，年均增长 34.8% 。 专家表示，高海拔地区发展新能源优势显著：尤其是日照资源充足，年太阳总辐射量高，有利于提升光伏发电；风电方面，高原风功率密度较高，有效风速持续稳定，风能可开发潜力大；加上常年平均气温较低，可天然减少算力中心冷却能耗， 有利于“东数西算”工程落地，发展算电协同新模式 ，支撑绿电就地转化与新业态发展。 据IT之家此前报道，国家能源局相关负责人 10 月 30 日在发布会上介绍，今年以来，我国可再生能源装机规模稳步扩大。 前三季度，全国可再生能源新增装机 1.8 亿千瓦…",
+      "via": "rss"
+    },
+    {
+      "id": "d8c9442a21ba",
+      "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+      "url": "https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic",
+      "outlet": "SCMP Tech",
+      "feed": "SCMP Tech",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T10:00:26Z",
+      "summary": "Chinese artificial intelligence start-up DeepSeek has previewed a plan for a more autonomous AI agent that can handle multiple tasks with minimal human intervention, as it steps up competition with US rivals OpenAI and Anthropic in developing coding assistants. The proposed system, dubbed super agent, aimed to reduce the need for humans to coordinate multiple AI agents and monitor their progress, addressing a key bottleneck in managing today’s increasingly complex workflows, according to a...",
+      "via": "rss"
+    },
+    {
+      "id": "a334eb6757a3",
+      "title": "北汽新能源：极狐汽车 10 月销量 26325 台，同比增长 12.56%",
+      "url": "https://www.ithome.com/1/020/784.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:57:54Z",
+      "summary": "IT之家 11 月 1 日消息，北汽新能源今日公布了最新销量数据，10 月销量 32502 辆，同比增长 6.42%，环比增长 34.98%。1-10 月销量 195878 辆，同比增长 37.90%。 IT之家从官方海报获悉，极狐汽车 2026 年 10 月销量 26325 台， 同比增长 12.56% ；1-10 月累计销量 161800 台， 同比增长 45.51% 。 极狐汽车今日宣布旗下中大型 SUV 极狐阿尔法 T7 现已开启交付，目前该车提供 9 款配置，售价区间为 13.68-17.28 万元；上市补贴权益价 13.28-16.88 万元。新车搭载全球首款 5G 4nm 车规级芯片，以及 1.1 米超宽全景 P-HUD，支持导航、驾驶、娱乐个性化组合；全系采用宁德时代品牌电芯，纯电版搭载 84.8kWh 电池包，增程版标配 43.9kWh 高集成磷酸铁锂电池包。 相关阅读： 《 2026 年 10 月汽车销量 / 交付汇总（持续更新） 》",
+      "via": "rss"
+    },
+    {
+      "id": "20384097394d",
+      "title": "覆盖监测预报预警服务全链条，我国“妈祖”斯里兰卡智能一体机交付",
+      "url": "https://www.ithome.com/1/020/783.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:57:31Z",
+      "summary": "IT之家 11 月 1 日消息，据中国气象局官方消息，在第十一届世界妈祖文化论坛举办期间， 中国气象智能预警方案“妈祖”斯里兰卡智能一体机今日正式交付 。这是推动“妈祖”方案落地应用的重要务实举措，为斯里兰卡补齐多灾种气象预警短板提供有力支撑。 据介绍，受气候变化影响，斯里兰卡短时强对流、暴雨等灾害天气多发，部分区域存在网络不稳、算力资源有限等难题。 “妈祖”斯里兰卡定制方案由云端早期预警系统与智能一体机组成 ，覆盖监测、预报、预警与服务全链条，可针对暴雨、高温、大风和气旋等灾害天气提供分级预警，服务海洋、农业和航空等领域。 该项目于 2025 年底启动，在中国气象局和世界气象组织（WMO）的共同推动下，结合斯里兰卡实际，重点打造航空气象应用等场景。目前，配套一体机硬件已到位，定制化系统开发有序推进， 预计 2026 年底投入业务运行 。一体机交付之后，我国气象部门将持续推进技术对接优化，助力斯里兰卡提升气象防灾减灾能力，让早期预警服务惠及防灾减灾一线，共同提升区域气候韧性，守护四海安澜。 IT之家从中国气象局官方了解到，截至 2026 年 10 月， “妈祖”方案已在巴基斯坦、埃塞俄比亚、斯里兰卡等 8 个国家落地 ，在 50 多个国家开展云端试用，成为面向全球的防灾减灾公共服务产品。",
+      "via": "rss"
+    },
+    {
+      "id": "cee798e9699c",
+      "title": "小米推出 REDMI M100 Pro 手机：天玑 7300-Ultra 处理器，12G + 256G 售 2499 元",
+      "url": "https://www.ithome.com/1/020/778.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:41:40Z",
+      "summary": "IT之家 11 月 1 日消息，小米现已在其商城上架 REDMI M100 Pro 手机，该机搭载天玑 7300-Ultra 处理器，配备 12GB RAM 和 256GB 存储空间， 定价为 2499 元 。 该机提供 IP68 认证，可选黑 / 白 / 青 / 紫合计四种配色，厚度低至 6.24mm，其正面配备一块 6.67 英寸 2712x1220 分辨率面板（局部峰值亮度 3000 尼特），匹配 20Mp 自拍摄像头；手机背面配备 50Mp 主摄 + 8Mp 超广角 + 2Mp 微距。 该机搭载联发科天玑 7300-Ultra 芯片，配备 12GB LPDDR4X RAM 和 256GB UFS 2.2 存储空间，内置 5500mAh 电池（支持 45W 有线充电）。 IT之家附产品参数：",
+      "via": "rss"
+    },
+    {
+      "id": "271c37423996",
+      "title": "首届 CMG 世界机器人登泰山大赛明日进行，央视揭秘机器人如何认路、探路、见招拆招",
+      "url": "https://www.ithome.com/1/020/773.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:23:41Z",
+      "summary": "IT之家 11 月 1 日消息，首届 CMG 世界机器人登泰山大赛将于明天（11 月 2 日）在山东泰安正式开赛，各类机器人齐聚泰山脚下，在红门至中天门（3100 级台阶、600 米高差）千年盘道开启实景山地竞技比拼。 央视新闻今日发布视频，揭秘了机器人如何认路、探路、见招拆招。据介绍，赛事跳出传统实验室仿真环境，依托泰山独一无二的山岳实景赛道， 为山地特种机器人技术迭代、场景落地提供了高规格实战试炼平台 。 首届 CMG 世界机器人登泰山大赛总裁判长苏庆伟表示，最大的挑战还是机器人怎么样适应泰山的路。这个台阶有的高，有的低，有的宽，有的窄，还有鹅卵石路。报道提到，不管是四足的还是双足的机器人， 它们在爬山之前都会进行建图，把整条古道跑上一遍，了解路况 。 不过，四条腿的机器狗，下盘稳、步态灵活，认准大方向就能撒开腿往上跑；但两条腿的人形机器人不一样，身高更高、重心更难把控。想要精准感知脚下的每一级台阶，还得额外“加练”。据介绍，部分人形机器人干脆换一个思路， 将“眼睛”直接移到了胸前，视线放低，专守下盘 。 除了路面感知外，人形机器人还得练“脚感”—— 脚在接触地面的时候，通过关节的受力、运动姿态来调整下一步的步距和保持身体平稳 ，且动作是连续实时的，就相当于拥有一个类似于人类的反应本能。 IT之家注意到，在此前的排位赛中， 曾出现“裁判追不上机器人”的窘况 。针对这一情形，赛…",
+      "via": "rss"
+    },
+    {
+      "id": "cb1be58259ba",
+      "title": "“潜入精神世界挖出猛料”点击式冒险游戏《BUZZ or DIE》Steam 发售，国区 ¥22.40",
+      "url": "https://www.ithome.com/1/020/772.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:23:26Z",
+      "summary": "IT之家 11 月 1 日消息，由独立开发者 BON 制作、讲谈社（Kodansha）发行的点击式冒险游戏 《BUZZ or DIE》已正式登陆 Steam 平台，国区开放购买且不锁区。游戏以死刑犯参加的死亡真人秀为舞台，主打「潜入精神世界挖出猛料、制作短视频比拼点赞数」的猎奇玩法。IT之家附游戏商品页（ https://store.steampowered.com/app/2899240/BUZZ_or_DIE/ ）。 价格方面，《BUZZ or DIE》标准版原价 ¥28，首发特惠期间（截至 11 月 13 日）享 8 折，折后国区售价 ¥22.40；同时上架「豪华版」捆绑包，折后价 ¥35.84，内含游戏本体、数字原声带（折后 ¥12）与数字美术集（折后 ¥10.40）。 IT之家注意到，《BUZZ or DIE》是一款以死刑犯参加的死亡真人秀为背景的点击式 ADV（冒险游戏）。玩家将与一名名叫「佐木岛」的男性组队，共同参演这档直播节目，其核心规则如下： 潜入对手的精神世界，挖出他们不为人知的秘密与猛料； 将收集到的素材制作成短视频，比拼观众收获的「点赞」数量； 胜者可获得赦免，并有机会实现一个愿望；败者不仅面临死亡，还将沦为供人羞辱的奴隶机器人模型。 配音阵容方面，官方已公布由野水伊织、川村玲奈、饭田利信等声优参与配音。需要注意的是，本作含有部分暴力、血腥及猎奇内容，包括…",
+      "via": "rss"
+    },
+    {
+      "id": "3b0a4dfd96a7",
+      "title": "Twelve South 推出 PowerClip“超便携应急充电宝”：苹果 AirPods Pro 尺寸、2000mAh 电芯、2C 设计",
+      "url": "https://www.ithome.com/1/020/771.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:20:45Z",
+      "summary": "IT之家 11 月 1 日消息，Twelve South 现已在苹果海外官网上架一款 PowerClip 挂扣式移动电源，其采用 2C 设计，配备 2000mAh 电芯，定价为 39.95 美元 （IT之家注：现汇率约合 266.5 元人民币） 。 该产品主要面向户外用户，号称是“超便携应急充电宝”，标配一枚可拆卸的锌合金材质圆形登山扣，用户可根据使用需求自由拆装。 该产品仅有 AirPods Pro 耳机充电盒大小，整体为圆角矩形造型，线条圆润柔和。顶部预留一体化挂扣孔位，正面配备 LED 电量指示灯与电源按键。产品配备双 USB-C 充电线缆，其中 USB-C1 为输入输出二合一线缆（支持 5W 输出，直通模式支持 10W 输出），USB-C2 线缆仅支持输出（支持 5W 输出）。",
+      "via": "rss"
+    },
+    {
+      "id": "f0e1448a77f1",
+      "title": "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等",
+      "url": "https://www.ithome.com/1/020/768.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:03:59Z",
+      "summary": "IT之家 11 月 1 日消息，阿里旗下千问 AI 眼镜今日迎来 OTA 升级，新增通话翻译、媒体翻译等，抗噪能力再升级。 IT之家整理如下： 新增通话翻译，打电话、线上会议跨国无障碍实时翻译。 新增媒体翻译，听海外播客、上外语网课、看外语大片，支持实时翻译，千问 AI 穿戴 App 同步显示译文。 抗噪能力再升级，优化嘈杂环境下的语音识别，让同声传译更准确、更及时。 千问 AI 眼镜 G1 于今年 3 月开售，后续又推出了第二款 AI 眼镜 S1。作为旗舰机型，千问 AI 眼镜 S1 相比之前的千问 AI 眼镜 G1 在交互、显示、续航及硬件配置方面均有升级。 今年 10 月，阿里再次发布千问 N1 系列 AI 眼镜，支持更换电池、Pro 版支持眼动交互 / 全天候健康监测，售 2899 元起。",
+      "via": "rss"
+    },
+    {
+      "id": "0444fb2e9a41",
+      "title": "奥海推出 PD3.2 智显屏充电器：2C+1A，支持 200W 超频输出，369 元",
+      "url": "https://www.ithome.com/1/020/767.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T09:03:29Z",
+      "summary": "IT之家 11 月 1 日消息，奥海宣布推出一款 170W PD3.2 智显屏 AI 充电器，该产品采用 2C+1A 设计，支持超频至 200W 输出， 定价为 369 元 。 京东 Aohi 奥海 170W 智显屏 AI 充电器 369 元 直达链接 该产品机身尺寸约为 80×74.5×36mm，重量约 360g，正面带有彩屏，底部接口区域采用黄色装饰边框，配备两个 USB-C 140W 接口和一个 USB-A 30W 接口，匹配可折叠插脚。 该产品搭载升级版 AI 动态功率分配技术，支持 PD 3.2 AVS 协议，支持 USB-C 单口持续 140W 输出，提供智能、狂暴和自定义三种充电模式，用户可根据设备需求调整供电策略。其中，还支持 200W 超频狂暴模式（100W+100W/140W+60W），在常规 170W 整机输出之外提供更高功率的超频模式选择。 该产品支持通过蓝牙连接专属 App，灵活控制各接口供电开关，并以 1W 为步进调节各接口输出功率，支持充电协议 OTA 在线升级及 UI 界面更新。 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次： 点此抽红包 。 淘宝 11.11 无门槛红包 面额至高 26888 元，每天抽 1 次： 点此抽红包 。",
+      "via": "rss"
+    },
+    {
+      "id": "eb3dbad10fdf",
+      "title": "华为新机影像超前瞻：200Mp 1/1.3\" 超大底主摄 + 200Mp 1/1.4\" 大底潜望长焦，预计明年落地",
+      "url": "https://www.ithome.com/1/020/765.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T08:55:04Z",
+      "summary": "IT之家 11 月 1 日消息，博主 @数码闲聊站 昨日发文超前爆料了某厂神秘新机的影像配置， 预计明年落地 。从评论区讨论和博主的暗示符号来看， 预计新机归属华为品牌 ，不过具体型号、系列未公布。 ① 200Mp 1/1.3\" 超大底主摄 +200Mp 1/1.4\" 大底潜望长焦 ，中高端线的双 2 亿积极评估中 ②外挂增距镜方案没有放弃， 甚至有普及计划 有网友询问畅享系列手机能否吃上增距镜？博主表示：“ nova 可以展望一下。 ”还有网友询问小米是否有计划推出搭载玄戒 O3 芯片的直板机？博主回复称：“ 我希望会有。 ” 据IT之家此前报道，该博主曾爆料，称华为新机影像实验室出现了双潜望长焦方案， 一颗 50Mp RYYB 小底，一颗 200Mp 1/1.3″ RYYB 超大底 ，焦段配置上新。另外，2027H1 的影像旗舰在评估阔屏，据工程机信息，标准版继续用 6.6 英寸中屏，Pro / Pro Max 换阔屏，尺寸还是 6.39 英寸左右，定义全能阔屏影像旗舰。 ▲ IT之家图赏：华为 nova 14 Ultra 实拍",
+      "via": "rss"
+    },
+    {
+      "id": "b4c694055e28",
+      "title": "上下水版 4599 → 1108 元：科沃斯 T50 PRO 扫拖机器人国补 2 折清仓，81mm 纤薄机身",
+      "url": "https://www.ithome.com/1/020/760.htm",
+      "outlet": "IT之家",
+      "feed": "IT之家",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T08:33:07Z",
+      "summary": "【京东活动可能随时变更，需以实付款为准】 科沃斯 T50 PRO 扫拖机器人发布于 2024 年 9 月，该款扫拖机器人拥有 81mm 机身，支持 15800Pa 吸力（1.58 万 Pa 吸力），“上下水版”首发价 4599 元。 京东 11.11 大促期间，按下方步骤下单，叠加 15% 国补后仅需 1108.8 元： 领 1500-100 元券：系统自动发放。 下单时选择“以旧换新 → 个护健康 → 电动牙刷（无需回收）”补贴 100 元。 晒单再返 20 元京豆。 京东 科沃斯 T50 PRO 上下水版 扫拖洗一体 以旧换新后 1128 元 直达链接 订单截图 京东 11.11 无门槛红包至高 26888 元，支持即领即用，下单直接当钱花： 点此抽取 。 据介绍，科沃斯 T50 PRO 扫拖机器人采用“ 3D 结构光 + dTOF + Al 摄像头 ”视觉模组，支持低矮障碍物贴边清扫；机器人主机 高度 81mm ，可进入沙发底、床底等区域进行清扫。 该款扫拖机器人拥有 15800Pa 吸力 ，内置“TruEdge 灵隙 2.0 技术”，官方宣称该技术可提升边角清扫能力，实现“100% 扫拖覆盖率”；机器人还搭载“ZeroTangle 灵缠 2.0 技术”，配备“45° V 形斜直毛 + 18cm V 型螺旋胶条”，支持 毛发防缠特性 。 该扫拖一体机还支持“70° 热水洗布…",
+      "via": "rss"
+    },
+    {
+      "id": "c2ed16959052",
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "outlet": "量子位",
+      "feed": "量子位",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T08:02:37Z",
+      "summary": "让AI像牛顿一样思考",
+      "via": "rss"
+    },
+    {
+      "id": "637c9aeaf702",
+      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "url": "https://www.qbitai.com/2026/11/506990.html",
+      "outlet": "量子位",
+      "feed": "量子位",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T07:50:57Z",
+      "summary": "这事还是想得太简单了",
+      "via": "rss"
+    },
+    {
+      "id": "761e5e0baaa4",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-11-01T06:06:19Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 258,
+        "hn_comments": 184,
+        "hn_url": "https://news.ycombinator.com/item?id=50323088"
+      }
+    },
+    {
+      "id": "9130516ef6fd",
+      "title": "US or China? Why Kazakhstan refuses to pick sides as it eyes AI revolution",
+      "url": "https://www.scmp.com/tech/big-tech/article/3372785/us-or-china-why-kazakhstan-refuses-pick-sides-it-eyes-ai-revolution",
+      "outlet": "SCMP Tech",
+      "feed": "SCMP Tech",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T06:00:13Z",
+      "summary": "Driving along the wide boulevards of Astana during a recent trip to the Kazakh capital, signs of China’s growing commercial footprint were everywhere. Chinese cars were becoming a common sight on the streets here, as brands from BYD to Changan made aggressive inroads in a market once dominated by South Korea’s Hyundai and Kia, said the driver who picked me up from the airport in a gleaming Changan electric vehicle. But it was not the rise of Chinese tech that had brought me to this energy-rich...",
+      "via": "rss"
+    },
+    {
+      "id": "a364bf369942",
+      "title": "Jev新成果，再次引爆开源",
+      "url": "https://www.qbitai.com/2026/11/506922.html",
+      "outlet": "量子位",
+      "feed": "量子位",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-11-01T04:18:37Z",
+      "summary": "再次“性价比屠夫”",
+      "via": "rss"
+    },
+    {
+      "id": "34ae49c90daf",
+      "title": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+      "outlet": "Bloomberg Technology",
+      "feed": "Bloomberg Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-11-01T03:48:18Z",
+      "summary": "DeepSeek has released a prototype of a more autonomous coding agent as it seeks to challenge Anthropic PBC’s popular Claude Code.",
+      "via": "rss"
+    },
+    {
+      "id": "d7e241d7cf24",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-11-01T01:46:29Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 172,
+        "hn_comments": 90,
+        "hn_url": "https://news.ycombinator.com/item?id=50322022"
+      }
+    },
+    {
+      "id": "6a7db417d0bc",
+      "title": "Smear Campaign Towards GrapheneOS",
+      "url": "https://grapheneos.social/@GrapheneOS/117537776055163844",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T23:59:17Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 67,
+        "hn_comments": 16,
+        "hn_url": "https://news.ycombinator.com/item?id=50321462"
+      }
+    },
+    {
+      "id": "dd35d009aad6",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "outlet": "Simon Willison",
+      "feed": "Simon Willison",
+      "tier": "trade",
+      "lang": "en",
+      "published_at": "2026-10-31T23:15:22Z",
+      "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its…",
+      "via": "rss"
+    },
+    {
+      "id": "4c77a0dfd633",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "outlet": "Simon Willison",
+      "feed": "Simon Willison",
+      "tier": "trade",
+      "lang": "en",
+      "published_at": "2026-10-31T22:10:01Z",
+      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent",
+      "via": "rss"
+    },
+    {
+      "id": "eee7e85f9084",
+      "title": "FBI Blames North Korea for $6 Billion Binance Crypto Hack",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/fbi-blames-north-korea-for-6-billion-binance-crypto-hack",
+      "outlet": "Bloomberg Technology",
+      "feed": "Bloomberg Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T21:59:09Z",
+      "summary": "The FBI said that North Korea was responsible for stealing more than $6 billion in cryptocurrencies in a brazen hacking attack on Binance.",
+      "via": "rss"
+    },
+    {
+      "id": "567c750dad41",
+      "title": "AI text watermarking and quality loss",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T21:50:13Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 65,
+        "hn_comments": 15,
+        "hn_url": "https://news.ycombinator.com/item?id=50320599"
+      }
+    },
+    {
+      "id": "9f56e268b05e",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "outlet": "TechCrunch AI",
+      "feed": "TechCrunch AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T21:41:00Z",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "via": "rss"
+    },
+    {
+      "id": "5a4bff0c2db2",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "outlet": "TechCrunch AI",
+      "feed": "TechCrunch AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T21:36:07Z",
+      "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "via": "rss"
+    },
+    {
+      "id": "e07dacdb45dc",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "outlet": "TechCrunch AI",
+      "feed": "TechCrunch AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T21:17:03Z",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "via": "rss"
+    },
+    {
+      "id": "71145972f162",
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T21:07:58Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 176,
+        "hn_comments": 111,
+        "hn_url": "https://news.ycombinator.com/item?id=50320255"
+      }
+    },
+    {
+      "id": "13659a39d997",
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "outlet": "CNBC Technology",
+      "feed": "CNBC Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T20:12:37Z",
+      "summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
+      "via": "rss"
+    },
+    {
+      "id": "56b873bfe674",
+      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "outlet": "CNBC Technology",
+      "feed": "CNBC Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T19:56:23Z",
+      "summary": "The funding round is still in progress and has not closed, so the figures are subject to change, a person directly familiar with the deal told CNBC.",
+      "via": "rss"
+    },
+    {
+      "id": "e07ec5d69c95",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T19:39:19Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 441,
+        "hn_comments": 247,
+        "hn_url": "https://news.ycombinator.com/item?id=50319358"
+      }
+    },
+    {
+      "id": "117b16b75cae",
+      "title": "Grab the award-winning Bambu Lab P1S 3D printer with AMS for $70 off",
+      "url": "https://www.tomshardware.com/pc-components/grab-the-award-winning-bambu-lab-p1s-3d-printer-with-ams-for-usd70-off-save-usd70-on-one-of-the-best-3d-printers-for-beginners",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T19:19:50Z",
+      "summary": "If you have been considering getting into 3D printing, now might just be a good time to take the plunge. The Editor's Choice Award-winning Bambu Lab P1S, bundled with the AMS color printing module, is currently on sale and is available at Best Buy for just $479.99 . That's $70 off its listed price of $549.99, making this a solid deal for beginners looking to get a capable 3D printer with multicolor printing support right out of the box. Check out the deal at Best Buy The Bambu Lab P1S is a high-speed 3D printer, while the bundled Automatic Material System (AMS) takes things a step further by…",
+      "via": "rss"
+    },
+    {
+      "id": "82785ab4f152",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T18:50:34Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 176,
+        "hn_comments": 187,
+        "hn_url": "https://news.ycombinator.com/item?id=50318871"
+      }
+    },
+    {
+      "id": "aa4997f9eba1",
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T18:02:29Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 79,
+        "hn_comments": 54,
+        "hn_url": "https://news.ycombinator.com/item?id=50318401"
+      }
+    },
+    {
+      "id": "c10fef6ec816",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "outlet": "TechCrunch AI",
+      "feed": "TechCrunch AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T16:12:55Z",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "via": "rss"
+    },
+    {
+      "id": "438b10f2d18f",
+      "title": "French lawmakers add $11.2 billion internet tax based on traffic usage to budget, costs $0.06 per gigabyte of content accessed",
+      "url": "https://www.tomshardware.com/software/social-media/french-lawmakers-approve-usd11-2-billion-internet-tax-based-on-traffic-usage-costs-usd0-65-per-gigabyte-of-content-accessed-us-tech-giants-like-google-and-meta-face-new-levies-on-content-delivered-to-french-subscribers",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T16:11:40Z",
+      "summary": "Edit 11/1/2026 4:25am PT: Clarified title to state the bill still has to pass the Senate after being added to the budget. France has approved a proposed tax that aims to tax the amount of internet data per gigabyte sent to French users in the country, with major companies like Google, Netflix, TikTok, and Meta now in the crosshairs. According to minutes released by the National Assembly, members voted 11-10 in support of the motion on October 30 — which now means the new law has been added to the country’s next budget, despite major opposition from the government side and the finance committe…",
+      "via": "rss"
+    },
+    {
+      "id": "ee9f8f39beac",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "outlet": "The Verge AI",
+      "feed": "The Verge AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T16:05:00Z",
+      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+      "via": "rss"
+    },
+    {
+      "id": "abbcaf417185",
+      "title": "'Ghost Students' using AI to apply for student loans with stolen identities, DOJ's Operation Ghostbusters busts $200 million ring",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/ghost-students-using-ai-to-apply-for-student-loans-with-stolen-identities-dojs-operation-ghostbusters-busts-usd200-million-ring-faking-online-college-attendance-unsuspecting-victims-saddled-with-student-debt-they-didnt-sign-up-for",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T15:37:41Z",
+      "summary": "The U.S. Department of Justice (DOJ) just announced indictments resulting from Operation Ghostbusters, which investigated widespread student loan fraud. According to the agency , bad actors used stolen identities to sign up for student loans and used AI to complete the application, making it appear that the fake student was attending online classes. While the schools receive the majority of the proceeds of the fraudulent student loan, the remaining amount is funneled into the bank accounts of the fraudsters, who then use mules to move the money from U.S. bank accounts to overseas conspirators…",
+      "via": "rss"
+    },
+    {
+      "id": "2d7117a920e0",
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "outlet": "CNBC Technology",
+      "feed": "CNBC Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T15:37:11Z",
+      "summary": "Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
+      "via": "rss"
+    },
+    {
+      "id": "5b0ac3b976a1",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T14:29:03Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 253,
+        "hn_comments": 135,
+        "hn_url": "https://news.ycombinator.com/item?id=50316531"
+      }
+    },
+    {
+      "id": "d0da60eba6b2",
+      "title": "ASRock B860 Challenger Wifi Motherboard Review: Entry-level ATX at a great price, with drawbacks",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/asrock-b860-challenger-wifi-motherboard-review",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T14:00:00Z",
+      "summary": "Based on the mainstream B860 chipset, the ASRock B860 Challenger Wifi sits on the budget side of Intel's motherboard lineup, and costs a reasonable $149.99 . You get a full-sized motherboard with full support for Intel’s Core Ultra and Core Ultra Series 2 (Arrow Lake and Arrow Lake refresh) processors. Still, some sacrifices in specs and features are inevitable at this price point. The all-black B860 Challenger (there is a white version, too) includes all the basics. You get eight rear USB ports, three M.2 sockets (one PCIe 5.0), four SATA ports, 2.5 GbE, Wi-Fi 7, and a basic audio solution.…",
+      "via": "rss"
+    },
+    {
+      "id": "0ef69d0d8837",
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "url": "https://www.qbitai.com/2026/10/506904.html",
+      "outlet": "量子位",
+      "feed": "量子位",
+      "tier": "trade",
+      "lang": "zh",
+      "published_at": "2026-10-31T13:49:44Z",
+      "summary": "AI已经自己找到Bug并提交PR",
+      "via": "rss"
+    },
+    {
+      "id": "b4f2015e61ee",
+      "title": "Firm that lets you rent out your idle Mac for AI inference workloads warns of plummeting token costs",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T13:49:09Z",
+      "summary": "Darkbloom, a decentralized AI inference network that aggregates and sells spare compute capacity from Macs, told its members to expect revenues to fall as token prices continue to drop. According to The Register , the price per million tokens for Anthropic dropped by 77% in under five months, falling to $0.62 in October 2026 from $2.65 in May. Go deeper with TH Premium: AI shortages (Image credit: Nvidia) AI data centers are swallowing the world's memory and storage supply Demand for data center CPUs has surged, and AI agents are responsible Chip scarcity assaults auto industry amid the worse…",
+      "via": "rss"
+    },
+    {
+      "id": "d3faca943d8b",
+      "title": "Retired professor arrested for blocking delivery robot. Will do it again",
+      "url": "https://www.cnn.com/2026/10/31/us/philadelphia-woman-delivery-robots-cec",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T13:39:57Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 90,
+        "hn_comments": 135,
+        "hn_url": "https://news.ycombinator.com/item?id=50316103"
+      }
+    },
+    {
+      "id": "763093c8fd5d",
+      "title": "This week in Tom's Hardware Premium: October 31, 2026",
+      "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-october-31-2026-vera-cpus-available-on-oracle-clusters-building-an-agentic-cpu-benchmark-and-a-primer-to-llms",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T13:30:00Z",
+      "summary": "In case you're not yet subscribed to our Tom's Hardware Premium subscription service, here's what you've been missing out on this week. We detail our thoughts on Anthropic's filings pre-IPO, Cadence's new suite of LLMs to power its EDA tools, how Nvidia is securing its entire supply chain to serve AI data center demand, how Vera CPUs are landing in the cloud, an update to the ongoing TP-Link saga, and more. Remember, to access any of the articles listed here, you'll need to arm yourself with a subscription . We've been hard at work behind the scenes to determine exactly how locally-run AI mod…",
+      "via": "rss"
+    },
+    {
+      "id": "77e4ed1a15be",
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T13:25:10Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 74,
+        "hn_comments": 18,
+        "hn_url": "https://news.ycombinator.com/item?id=50315990"
+      }
+    },
+    {
+      "id": "83c8f9df7044",
+      "title": "Intel shifts production capacity from consumer to server CPUs in face of 'unprecedented' AI demand",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T13:00:00Z",
+      "summary": "Although the consumer PC market is shrinking and will continue to shrink in the coming quarters, Intel is confident that the overwhelming demand from the AI industry for everything that can compute or store data will offset declines in the client space. To that end, the company is reallocating some of its capacity from client to data center CPUs, expanding its Fab 24 in Ireland to make more Xeons, has begun equipment installation into Fab 62 in Arizona ahead of schedule and vows to make 18A chips there, and is expanding its advanced packaging capacity in New Mexico and Malaysia. Go deeper wit…",
+      "via": "rss"
+    },
+    {
+      "id": "f626e837b3e6",
+      "title": "Developer builds a complete Intel 486 PC emulator in a browser",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/developer-builds-a-complete-intel-486-pc-emulator-in-a-browser-100-percent-pure-javascript-retro486-includes-modular-tabs-for-screen-motherboard-storage-expansion-cards-and-more",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T12:40:00Z",
+      "summary": "Developer Jan de Jager has created a full Intel 486 PC system in a browser. On the e486-web GitHub page , de Jager boasts that the emulator is coded in 100% pure JavaScript. The project’s fuller title is the Retro486 Modular Browser PC . Claude gets a development credit, so we guess you could say e486-web was (partially) vibe-coded . The live demo you can boot with a single click is impressive, with tabs to interact with and configure your browser-based, dependency-free Intel 80486DX2-66 PC in a browser. The first tab is dubbed the CRT monitor , and this is where you will spend the most time…",
+      "via": "rss"
+    },
+    {
+      "id": "bdd2a78373ff",
+      "title": "SI is the future of AI – just not in the way Trump thinks",
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3372415/si-future-ai-just-not-way-trump-thinks",
+      "outlet": "SCMP Tech",
+      "feed": "SCMP Tech",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T12:30:06Z",
+      "summary": "With US President Donald Trump recently pushing the use of “superintelligence” (SI) instead of artificial intelligence (AI) in national discourse, the acronym has gained unprecedented attention. It is the right acronym but the wrong meaning. In my opinion, SI should stand for “self-intelligence”. It probably explains why academics, critics and even major AI companies are calling for a temporary pause in AI development. They must have realised the technology’s current trajectory is headed down...",
+      "via": "rss"
+    },
+    {
+      "id": "2b51d8c5bce7",
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T12:20:00Z",
+      "summary": "Reverse-engineering games for converting them between systems is currently a hot topic , and it's getting messier by the day. According to multiple user claims, Anthropic's Claude Code and/or Opus 5.5 model are blocking attempts at innocuous reverse-engineering, including but not limited to those using the popular Reverse Engineer Anything (REA) tool. That issue may be linked to a text rule that's now in force, which allegedly instructs the model to avoid \"[recreating] a specific existing game.\" The updated rule appears to be a move to limit a flood of AI-cracked and cloned titles, with some…",
+      "via": "rss",
+      "signals": {
+        "hn_points": 72,
+        "hn_comments": 43,
+        "hn_url": "https://news.ycombinator.com/item?id=50315987"
+      }
+    },
+    {
+      "id": "b0efea28755f",
+      "title": "Humans are still doing the work behind some AI agents",
+      "url": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
+      "outlet": "CNBC Technology",
+      "feed": "CNBC Technology",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T12:00:01Z",
+      "summary": "AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.",
+      "via": "rss"
+    },
+    {
+      "id": "7c30baaa04ab",
+      "title": "AI agent used to perform controversial brain surgery on a mouse, Anthropic Sonnet controlled motorized surgery rig",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/startup-uses-ai-agent-to-perform-controversial-brain-surgery-on-a-mouse-anthropic-sonnet-controlled-motorized-surgery-rig-ai-given-free-reign-to-treat-epilepsy-with-a-range-of-gene-therapy-vectors-after-opus-5-5-refused-to-conduct-biological-experiment",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T12:00:00Z",
+      "summary": "Exin Therapeutics, a biotech startup focusing on next-generation neurotherapeutics, claims it has successfully conducted brain surgery on a mouse using an AI agent. Its co-founder and CEO, Gabriel Ocana-Santero, shared the entire procedure on X, showing how the AI agent chose the gene therapy vector and dosage and the brain region where it would be applied. The AI agent also drove the robotic arms that injected the medication into the mouse’s brain. Thankfully, the operation seems to have been a success, with the mouse recovering well and recorded moving around in its enclosure. Last night an…",
+      "via": "rss"
+    },
+    {
+      "id": "1d78de13bdea",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "outlet": "Wired AI",
+      "feed": "Wired AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T12:00:00Z",
+      "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "via": "rss"
+    },
+    {
+      "id": "fdb1503c8c2b",
+      "title": "Veteran Microsoft engineer makes his own RAM from scratch using AI",
+      "url": "https://www.tomshardware.com/pc-components/ram/veteran-microsoft-engineer-makes-his-own-ram-from-scratch-using-ai-attempts-to-build-4mb-of-1970s-pdp-11-ram-from-scratch",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T11:40:00Z",
+      "summary": "Dave Plummer, former Microsoft engineer and wizard of Task Manager, Windows Pinball, and now TMOG, has an interesting project in his hands once again. After seeing exactly how many zeros were in the price tag for a megabyte of memory for his vintage PDP-11, he decided to take matters into his own hands and conjure up a new RAM board. The PDP-11 is from 1970, and later models could fit in as much as four megabytes of memory. Plummer enlisted the help of ChatGPT and the EasyEDA online circuit simulator , though he notes that he hadn't done complicated projects like this before. As several PDP-1…",
+      "via": "rss"
+    },
+    {
+      "id": "982b664eb1b7",
+      "title": "Modder uses a trash 4-kW air conditioner radiator for his test bench to see how well it can cool a PC",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/trashbench-repurposes-a-trash-4-kw-air-conditioner-radiator-for-his-test-bench-to-see-how-well-it-can-cool-a-pc-achieves-a-shocking-28c-on-an-nvidia-rtx-3080",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T11:20:00Z",
+      "summary": "Just like we suspected, our fellow Australian hardware examiner TrashBench is up to shenanigans again. Not too long ago, after putting a graphics card in the \"wrong\" place for much better cooling results, he's ... thinking bigger, let's put it that way. He took an old 4-kW outdoor radiator-fan unit from a split air-conditioning setup (sans gas) and hooked it up to a water-cooling loop to assess its performance. He kicked off the video with his best impression of Crocodile Dundee , and set out to rearrange the unit for the task at hand, as he only needed the actual radiator, fan, and pump. Mos…",
+      "via": "rss"
+    },
+    {
+      "id": "d5bb41b6ba04",
+      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "outlet": "Wired AI",
+      "feed": "Wired AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T10:30:00Z",
+      "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+      "via": "rss"
+    },
+    {
+      "id": "a87c5b9700e3",
+      "title": "Serbia just elected the world's brainiest parliament",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "outlet": "Hacker News",
+      "feed": "Hacker News",
+      "tier": "social",
+      "lang": "en",
+      "published_at": "2026-10-31T10:21:30Z",
+      "summary": "",
+      "via": "hn",
+      "signals": {
+        "hn_points": 892,
+        "hn_comments": 497,
+        "hn_url": "https://news.ycombinator.com/item?id=50314654"
+      }
+    },
+    {
+      "id": "d097bcf01b45",
+      "title": "Apple Intelligence to roll out on iPhones in China in December with Alibaba backing",
+      "url": "https://www.scmp.com/tech/big-tech/article/3372831/apple-intelligence-roll-out-iphones-china-december-alibaba-backing",
+      "outlet": "SCMP Tech",
+      "feed": "SCMP Tech",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T10:02:17Z",
+      "summary": "Apple’s long-awaited artificial intelligence features will be officially launched in China in December, ending two years of regulatory uncertainty as the US tech giant seeks to bring advanced technologies to its second-largest market with the help of Alibaba Group Holding. The first batch of Apple Intelligence services will roll out to Chinese iPhone users alongside the iOS 27.3 update in December, following an open beta test with developers starting November 4, the US company said in a...",
+      "via": "rss"
+    },
+    {
+      "id": "edd821e09ba3",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "outlet": "Wired AI",
+      "feed": "Wired AI",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T10:00:00Z",
+      "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "via": "rss"
+    },
+    {
+      "id": "8bfc0a10cdd6",
+      "title": "Tech sleuth claims to have found the oldest GUI application that still works with Windows 11",
+      "url": "https://www.tomshardware.com/software/windows/tech-sleuth-claims-to-have-found-the-oldest-gui-application-that-still-works-with-windows-11-cdplayer-exe-from-windows-nt-in-november-1992-wins-the-prize",
+      "outlet": "Tom's Hardware",
+      "feed": "Tom's Hardware",
+      "tier": "press",
+      "lang": "en",
+      "published_at": "2026-10-31T10:00:00Z",
+      "summary": "A technology enthusiast claims that the oldest GUI application that still runs on Windows 11 is CDPLAYER.EXE from November 1992. The app had to run on Microsoft’s newest consumer OS without modifications or emulation involved to be chosen as the ‘winner’ of their experiment. Blogger Enlyth expected something from the early NT era, as Windows 11 doesn’t support 16-bit apps , despite its strong backward compatibility. Finding an app that is almost 34 years old that still works with a simple double-click is a remarkable result. At the beginning of their journey to find the oldest Windows UI app…",
+      "via": "rss"
+    }
+  ]
+}
