@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-02",
+  "window": {
+    "start": "2026-11-01T21:48:00Z",
+    "end": "2026-11-02T21:48:00Z"
+  },
+  "tldr": [
+    "Anthropic is reported to have steered Claude Code away from recreating specific existing video games via a server-side change; outlets disagree on whether Anthropic has officially confirmed the policy.",
+    "OpenAI is reportedly weighing a rebrand of its data centers as 'AI compute campuses', with a promotional push after the US midterms on Nov 3 amid spreading local data-center moratoriums.",
+    "In China, the World Internet Conference Wuzhen Summit runs Nov 2-5 with an open-source AI theme, and AgiBot is livestreaming six Genie G2 robots on a 24-hour convenience-store shift."
+  ],
+  "items": [
+    {
+      "id": "anthropic-claude-code-blocks-recreating-existing-games",
+      "title": "Anthropic steers Claude Code away from recreating specific existing video games; official status disputed",
+      "summary": "Several outlets report that Claude Code now refuses to rebuild or clone a specific existing video game, even with changed mechanics or a new name. Kotaku reports the rule arrived around Oct 27 via a server-side flag with no user setting to turn it off. Game Developer says Anthropic confirmed an update to steer Claude Code away from recreating someone else's specific game, while Tech Insider says Anthropic has not publicly confirmed it as official policy.",
+      "why_it_matters": "A visible case of a lab restricting a coding agent's use case server-side, which hits the game-preservation and decompilation community. Whether Anthropic formally owns the policy is unsettled.",
+      "key_numbers": [
+        "Rule reportedly arrived around Oct 27"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Claude Code"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-01T17:42:20Z",
+      "sources": [
+        {
+          "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+          "outlet": "Game Developer",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic orders AI tool Claude to stop remaking video games"
+        },
+        {
+          "url": "https://kotaku.com/anthropic-nerfs-claude-again-to-stop-users-from-making-ai-slop-out-of-any-specific-existing-game-2000751665",
+          "outlet": "Kotaku",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic nerfs Claude again to stop users from making AI slop out of any specific existing game"
+        },
+        {
+          "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+          "outlet": "Mashable",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic takes steps to block Claude from reverse-engineering video games"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.35,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Search snippets and harvest headlines only, not full articles. First report (harvest cluster) is about 4h before the window opens; the story kept developing. The Oct 27 start date comes from a Kotaku snippet. Anthropic's official confirmation is disputed between Game Developer and Tech Insider.",
+      "score": {
+        "total": 47.6,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.259
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 2.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "wic-wuzhen-2026-opens-open-source-ai-theme",
+      "title": "World Internet Conference Wuzhen Summit opens Nov 2-5 with open-source AI theme and a first 'AI Wuzhen Dialogue'",
+      "original_title": "2026年世界互联网大会乌镇峰会11月2日至5日举行，聚焦人工智能开源开放",
+      "summary": "The summit runs Nov 2-5 in Wuzhen, Zhejiang, under an open-source and openness theme. Previews describe 27 sub-forums and a first main-forum 'AI Wuzhen Dialogue' bringing together tech executives and open-source model developers. The Internet Light Expo lists 670+ exhibitors showing 1,000+ technology results, with 20+ products to debut. Only pre-event previews were seen.",
+      "why_it_matters": "A likely venue this week for Chinese open-source AI governance messaging and product debuts.",
+      "key_numbers": [
+        "Nov 2-5",
+        "27 sub-forums",
+        "670+ exhibitors",
+        "1,000+ technology results"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "World Internet Conference",
+        "Cyberspace Administration of China"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-02T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cac.gov.cn/2026-10/21/c_1794335237063244.htm",
+          "outlet": "CAC",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "2026年世界互联网大会乌镇峰会将于11月2日至5日在浙江乌镇举行"
+        },
+        {
+          "url": "https://news.cgtn.com/news/2026-09-30/China-s-World-Internet-Conference-summit-to-focus-on-open-source-AI-1QQPSohYhjO/p.html",
+          "outlet": "CGTN",
+          "lang": "en",
+          "tier": "press",
+          "title": "China's World Internet Conference summit to focus on open-source AI"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Preview-only: both sources predate the window (CAC Oct 21, CGTN Sep 30) and no opening-day report was seen. published_at is the event start, not an article time.",
+      "score": {
+        "total": 42.7,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "agibot-g2-24h-convenience-store-livestream",
+      "title": "AgiBot puts six Genie G2 robots on a 24-hour convenience-store shift livestream from Nov 2",
+      "original_title": "智元精灵G2便利店24小时上岗直播",
+      "summary": "AgiBot (智元) scheduled six Genie G2 robots to run a continuous 24-hour real-store shift from 10:00 UTC+8 on Nov 2, the last stop of its 'AI WAVE' series. They run its Genie Master embodied-agent framework, released Oct 27. AgiBot says task success rose from 28.6% on day one to a stable 85.7% after day five in an earlier store trial; this is AgiBot's own unverified figure.",
+      "why_it_matters": "A public real-world stress test of a Chinese embodied-agent stack, with a result likely to be reported Nov 3.",
+      "key_numbers": [
+        "6 G2 robots",
+        "24 hours",
+        "28.6% to 85.7% success (AgiBot figure)"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "AgiBot",
+        "Genie Master"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-02T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://tech.ifeng.com/c/8xYkg1r1tJG",
+          "outlet": "ifeng Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "智元发布具身Agent框架Genie Master:机器人能边工作边进化"
+        },
+        {
+          "url": "https://www.caiwennews.com/article/1670072.shtml",
+          "outlet": "Caiwen News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "智元发布具身Agent框架Genie Master"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.25,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Both sources are from the Oct 27 launch and describe the livestream as upcoming; no outcome report was seen. 10:00 UTC+8 converted to 02:00Z, which is the scheduled start rather than a first-report time.",
+      "score": {
+        "total": 39.3,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "openai-compute-campuses-rebrand-post-midterm",
+      "title": "OpenAI reportedly weighs rebranding its data centers as 'AI compute campuses', with a push after the midterms",
+      "summary": "TechCrunch, citing Business Insider, reports OpenAI might rename its data centers 'AI compute campuses'. Axios's Behind the Curtain column and Mezha/TokenPost describe a post-midterm push to promote the campuses, and IT之家 and Phoenix carried it in Chinese. Only headlines and outlet lists were seen, not article bodies.",
+      "why_it_matters": "Data-center backlash is a live midterm issue, with local moratoriums spreading. The reported move is about messaging, not capacity.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-01T21:55:23Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI might rebrand its data centers as 'AI compute campuses'"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": "data-center-backlash-midterms-local-moratoriums",
+      "confidence_note": "Headline-level only: WebFetch was blocked, so no article body was read. The story began Nov 1 (Axios 13:43Z), before the window; TechCrunch is 7 minutes inside it. Only TechCrunch is cited because the other URLs were Google News redirects.",
+      "score": {
+        "total": 45.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.487,
+          "momentum": 0.283
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 2.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 4
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-04",
+      "title": "Apple's first iOS 27.3 developer beta, enabling some Apple Intelligence features in China (day unconfirmed)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/"
+    }
+  ],
+  "notes": "Quiet, thin day. The nightly harvest was stale (22 h old, ends 2026-11-01T23:49Z) and WebFetch could not reach news, SEC or Chinese outlets, so the window was covered by WebSearch only, which returned little dated inside it. Apple FQ4 and Palantir Q3 results (Nov 2) could not be verified and are left out; a Palantir figure seen in a search snippet conflicted with other data. Items the desks could not date or corroborate were dropped.",
+  "learn": [
+    {
+      "id": "wilson-interval-small-sample-success-rates",
+      "gap": "llm-eval",
+      "title": "Put an error bar on a success rate before comparing agents",
+      "item_ids": [
+        "agibot-g2-24h-convenience-store-livestream"
+      ],
+      "why_today": "AgiBot's own figure of task success rising from 28.6% to 85.7% is a before/after comparison of two rates, and the item gives no trial counts.",
+      "explanation": "A success rate k/n is an estimate of a true rate p, and its uncertainty depends on n far more than on k. The Wilson score interval inverts the normal approximation to a binomial test and, unlike the naive p ± z·sqrt(p(1-p)/n), stays inside [0,1] and behaves at small n or extreme p. With few trials the intervals for two rates can overlap heavily, so a before/after jump is weak evidence; the same percentages from ten times as many trials are far tighter. It still assumes independent trials of equal difficulty, which an agent run in one store over several days violates. The numbers below are illustrative (2/7 and 6/7 happen to give the quoted percentages), not AgiBot's actual counts.",
+      "math": "\\hat p = k/n,\\quad \\text{CI} = \\frac{\\hat p + \\frac{z^2}{2n} \\pm z\\sqrt{\\frac{\\hat p(1-\\hat p)}{n} + \\frac{z^2}{4n^2}}}{1 + z^2/n}",
+      "python": "from math import sqrt\ndef wilson(k, n, z=1.96):\n    p = k / n\n    d = 1 + z * z / n\n    c = (p + z * z / (2 * n)) / d\n    h = z * sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d\n    return c - h, c + h\nfor k, n in [(2, 7), (6, 7), (60, 70)]:\n    lo, hi = wilson(k, n)\n    print(f\"{k}/{n} = {k/n:.1%}  95% CI [{lo:.1%}, {hi:.1%}]\")",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Wilson, Probable inference, the law of succession, and statistical inference (JASA, 1927)",
+          "url": "https://doi.org/10.1080/01621459.1927.10502953"
+        }
+      ]
+    }
+  ]
+}
