@@ -1,0 +1,652 @@
+{
+  "date": "2026-11-03",
+  "window": {
+    "start": "2026-11-02T21:48:00Z",
+    "end": "2026-11-03T21:49:00Z"
+  },
+  "tldr": [
+    "Oracle filed to sell $20B of new stock and bonds (about $10B each) to fund its AI buildout, and its shares fell about 7% on the day.",
+    "Baidu unveiled Apollo World, a physical-AI world model, at its Shenzhen event, with Apollo Go reported in 28 cities and over 350M km of autonomous mileage; DeepSeek also added a prompt-to-plugin 'Creator Mode' to its Harness.",
+    "Election day put data-center backlash on the ballot: counts differ by outlet (21 proposals to 30+ jurisdictions, Ohio alone about 20 measures). Anthropic's revised S-1 says it may soon cross its RSP acceleration threshold, and OpenAI hired ex-Army Secretary Dan Driscoll."
+  ],
+  "items": [
+    {
+      "id": "oracle-files-20b-stock-and-bond-sale-ai-buildout",
+      "title": "Oracle files to sell $20B of new stock and bonds to fund AI buildout",
+      "summary": "Oracle filed an automatic shelf registration on Nov 2 covering roughly $10B of common stock and $10B of senior notes for its AI data-center buildout. One report says the sale uses up a $20B cap on new outside funding through fiscal 2030, and proceeds are for general corporate purposes including capex and debt repayment. Oracle shares were reported down about 7% on the news and are down about a third in 2026.",
+      "why_it_matters": "It shows the funding strain behind OpenAI-linked data-center commitments and adds to investor wariness about debt-financed AI infrastructure.",
+      "key_numbers": [
+        "$20B total",
+        "~$10B stock + ~$10B senior notes",
+        "Shares down ~33% in 2026",
+        "~7% drop on the filing day (headline)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Oracle"
+      ],
+      "tickers": [
+        "ORCL"
+      ],
+      "published_at": "2026-11-02T19:27:28Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-sinks-7-20-billion-183103918.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Oracle Sinks 7% on $20 Billion Stock and Bond Sale to Fund AI Buildout"
+        },
+        {
+          "url": "https://qz.com/oracle-10-billion-bond-sale-debt-cap-110226",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Oracle is raising $20 billion in bonds and stock for AI buildout"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Details (split, cap, 7% move) come from search snippets; pricing terms not seen and one source claimed pricing while another said the shelf sets none.",
+      "score": {
+        "total": 69.4,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.541
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "baidu-apollo-world-physical-ai-world-model-robotaxi",
+      "title": "Baidu unveils Apollo World, an agent-driven multimodal world model for physical AI, already used in Apollo Go testing",
+      "original_title": "百度首次披露Apollo World具身世界模型：用AI教AI开车",
+      "summary": "At Baidu AI Day (Apollo session) in Shenzhen on Nov 3, Baidu Apollo first disclosed Apollo World, an agent-driven, all-modality world model for physical AI. Traffic participants in its virtual city are modelled as decision-making AI agents, and it generates camera images and lidar point clouds in real time so a driving system can act and feed back in a closed loop. Baidu proposed a '2+3' test for world models (causality and interactivity as thresholds; physical accuracy, persistence and real-time as advanced metrics) and says the model is already used in Apollo Go (Luobo Kuaipao) global testing and validation, with the stack extensible to robotics.",
+      "why_it_matters": "A simulator that trains and tests driving stacks could cut real-road mileage needs for Baidu's robotaxi expansion, and positions Baidu in the world-model race for physical AI.",
+      "key_numbers": [
+        "Apollo Go in 28 cities globally (Sina Tech)",
+        "More than 350M km cumulative autonomous mileage (Sina Tech)",
+        "'2+3' world-model criteria"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Baidu",
+        "Apollo Go"
+      ],
+      "tickers": [
+        "9888.HK"
+      ],
+      "published_at": "2026-11-03T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/021/808.htm",
+          "outlet": "IT Home",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "用 AI 教 AI 开车，百度 Apollo World 世界模型亮相"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261103/herald/26d9379f9299d841c2175fe44b40297b.html",
+          "outlet": "21st Century Business Herald",
+          "lang": "zh",
+          "tier": "press",
+          "title": "百度首次披露Apollo World具身世界模型"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/discovery/2026-11-03/doc-inixnpzs2120491.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "用AI教AI开车！百度Apollo World世界模型亮相"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Vendor-presented at a launch event; no independent validation. Coverage count includes jrj.com and MyDrivers results seen in the same search. Publish time approximate. A 28 Oct TechNode/STAR Market Daily report had said Baidu was developing a world model.",
+      "score": {
+        "total": 63.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.8,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "data-center-ballot-measures-election-day-2026",
+      "title": "Voters in dozens of US jurisdictions decide data-center ballot measures on midterm election day",
+      "summary": "Election day features local ballot questions on limiting or permitting data centers, with reports counting 21 proposals in a dozen-plus jurisdictions or more than 30 jurisdictions, most of them in Ohio. Not all restrict development; some Illinois measures ask whether to support projects. Four earlier local measures this year in Wisconsin, Michigan and California all went toward limiting development, and New York has a statewide moratorium by executive order (July).",
+      "why_it_matters": "Results are the first broad electoral test of the data-center backlash that is delaying US AI capacity projects.",
+      "key_numbers": [
+        "21 proposals (one count)",
+        "30+ jurisdictions (another count)",
+        "Ohio: 20 measures across 17 jurisdictions",
+        "4 of 4 earlier local measures limited development"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US data-center ballot measures"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-03T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.newsweek.com/map-shows-states-where-data-centers-are-on-the-ballot-12528253",
+          "outlet": "Newsweek",
+          "lang": "en",
+          "tier": "press",
+          "title": "Map shows states where data centers are on the ballot"
+        },
+        {
+          "url": "https://scmp.com/news/world/united-states-canada/article/3372600/10-us-states-vote-data-centre-development-election-day-amid-opposition",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "10 US states vote on data centre development on election day amid opposition"
+        },
+        {
+          "url": "https://theweek.com/politics/data-center-backlash-decide-midterms",
+          "outlet": "The Week",
+          "lang": "en",
+          "tier": "press",
+          "title": "Will data center backlash decide the midterms?"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "data-center-backlash-midterms-local-moratoriums",
+      "confidence_note": "Counts differ by outlet and come from search snippets; exact publication times not seen so published_at is approximate. Results not yet available.",
+      "score": {
+        "total": 59.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "deepseek-harness-creator-mode-plugins-from-prompts",
+      "title": "DeepSeek Harness adds 'Creator Mode' that builds plugins from a plain-language description, with 7 public prompts",
+      "original_title": "DeepSeek上新模式强化智能体能力：一句话定制AI插件，公开提示词搞定3D可视化到视频编辑",
+      "summary": "DeepSeek added a Creator Mode to its open-source agent framework DeepSeek Harness, letting users describe a tool in natural language and have it built as an installable plugin, including custom UI. Chinese reports say the team demonstrated a design workbench, sandbox game, 3D visualisation and a video-editing workbench (multi-video import, timeline, preview, export), and published seven Chinese/English demo prompts. DeepSeek cautions that some demos needed several rounds of conversation, so single-shot results may differ from the promo videos.",
+      "why_it_matters": "It extends DeepSeek's 'everything is a plugin' agent harness from a coding tool toward user-built apps, and the public prompt library invites quick community replication.",
+      "key_numbers": [
+        "7 demo prompts published",
+        "Scenarios: 3D architecture display, Transformer visualisation, poster design, video editing"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "DeepSeek Harness"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-02T21:57:00Z",
+      "sources": [
+        {
+          "url": "https://news.futunn.com/post/1003156826/deepseek-introduces-a-new-model-to-enhance-agent-capabilities-customize",
+          "outlet": "Futu News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek上新模式强化智能体能力：一句话定制AI插件，公开提示词搞定3D可视化到视频编辑"
+        },
+        {
+          "url": "https://news.qq.com/rain/a/20261103A00I3J00?adChannelId=tech",
+          "outlet": "Tencent News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "刚刚，DeepSeek突然放出7个插件玩法，提示词一并公开"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5361289133036639.html",
+          "outlet": "Sina News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek Harness 加入创作者模式，可用对话制作插件"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Details come from media reports and Weibo summaries seen via search snippets; the official DeepSeek post/GitHub page was not opened. Publish time is the harvest's first-seen time (Sina hourly digest lists it at 10:00 Beijing on Nov 3). Related to the earlier Harness/Super-agent open-sourcing but treated as a new feature.",
+      "score": {
+        "total": 56.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "openai-hires-dan-driscoll-national-security-modernization",
+      "title": "OpenAI appoints former Army Secretary Dan Driscoll as Senior Counselor for National Security Modernization",
+      "summary": "OpenAI said former Army Secretary Dan Driscoll will join as Senior Counselor for National Security Modernization. Driscoll resigned as Army Secretary on Aug 31 after about 18 months, amid reported tensions with Defense Secretary Pete Hegseth. Bloomberg and CNBC were among seven outlets covering the hire.",
+      "why_it_matters": "It signals OpenAI deepening ties to the defense establishment as AI labs compete for government work.",
+      "key_numbers": [
+        "~18 months as Army Secretary",
+        "Resigned Aug 31, 2026"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Dan Driscoll"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-03T00:07:25Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/dan-driscoll-joins-openai",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/openai-says-former-army-secretary-dan-driscoll-to-join-company",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Says Former Army Secretary Dan Driscoll to Join Company"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Role title and coverage count from harvest; resignation background from separate August reports; role responsibilities not seen.",
+      "score": {
+        "total": 52.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.78,
+          "breadth": 0.689,
+          "momentum": 0.295
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "wuzhen-ai-dialogue-deepseek-qwen-minimax-open-source-risk",
+      "title": "At Wuzhen AI dialogue, DeepSeek, Alibaba Qwen and MiniMax leads debate open-source model risk",
+      "original_title": "国内三大顶尖大模型负责人乌镇同台对话：开源后如何防范风险",
+      "summary": "On Nov 3 the World Internet Conference Wuzhen Summit's main forum held its first 'AI Wuzhen Dialogue', moderated by Zhejiang Lab director Wang Jian, with representatives of DeepSeek, Alibaba's Qwen and MiniMax. DeepSeek research engineer Gao Xi said open-sourcing can amplify AI safety risks and DeepSeek is studying remedies. Qwen LLM project lead Liu Dayiheng said the main open-source risks are irrevocability and lack of external safeguards, argued restricting openness alone will not fix this, and criticised capability-tiered controls as possibly underestimating models. MiniMax's Feng Wen stressed that open models give enterprises with private data control over post-training and fine-tuning.",
+      "why_it_matters": "It shows how China's leading open-model labs publicly frame safety and openness at a state-backed forum, as Beijing's draft AI export controls take aim at model weights.",
+      "key_numbers": [
+        "Summit runs Nov 2-5",
+        "27 sub-forums"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "World Internet Conference",
+        "DeepSeek",
+        "Alibaba Qwen",
+        "MiniMax"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-11-03T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34398138",
+          "outlet": "The Paper",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国内三大顶尖大模型负责人乌镇同台对话：开源后如何防范风险"
+        },
+        {
+          "url": "https://politics.gmw.cn/2026-11/03/content_39083821.htm",
+          "outlet": "Guangming Online",
+          "lang": "zh",
+          "tier": "press",
+          "title": "聚焦开源开放，MiniMax冯雯分享AI实践思考"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-03/doc-inixnitq9840544.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "让AGI更快到来！DeepSeek工程师乌镇谈开源"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": "wic-wuzhen-2026-opens-open-source-ai-theme",
+      "confidence_note": "Speaker details taken from search-result summaries of The Paper/Sina/Guangming reports; articles not opened in full. Publish time approximate (afternoon Beijing, Nov 3). Alibaba's Qwen is a subsidiary of BABA (9988.HK) but not a listed party here; MiniMax is listed as 0100.HK.",
+      "score": {
+        "total": 52.4,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.583
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "anthropic-s1a-near-rsi-threshold-warning",
+      "title": "Anthropic's revised S-1 says it may soon meet its RSP 'dramatically accelerated progress' threshold",
+      "summary": "TechCrunch reports that Anthropic's revised S-1/A suggests the company may be close to recursive self-improvement: internal estimates and expectations for future models indicate it may imminently meet the Responsible Scaling Policy's definition of 'dramatically accelerated progress attributable to AI'. The filing says no current model has been designated as exceeding the threshold and that it continues to assess the data, and admits it may not recognise an acceleration until after it happens. Anthropic says it does not expect to safely let Claude autonomously design successive frontier generations without human supervision and is weighing RSP updates; TechCrunch notes skeptics may read it partly as marketing.",
+      "why_it_matters": "A pre-IPO filing from a leading lab formally flagging a possible RSI threshold is a notable disclosure for safety policy and for investors weighing capability claims.",
+      "key_numbers": [
+        "Revised S-1/A, filed Nov 2 2026",
+        "No current model designated above threshold"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-02T22:14:50Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic warns that it's very close to RSI capability, aka self-building AI"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Only TechCrunch seen (search snippet and harvest); the S-1/A URL was not seen and the page could not be fetched (host blocked). Does not meet the 2-outlet/primary bar for a lead until the SEC filing or a second outlet is confirmed. Earlier June 2026 Anthropic RSI essay is background, not this story. Overlaps the Anthropic IPO items other desks may carry.",
+      "score": {
+        "total": 49.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.471
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 2.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "nyt-sues-brave-ai-scraping-paywalls",
+      "title": "New York Times sues Brave over AI scraping and bypassing paywalls",
+      "summary": "The New York Times filed suit against Brave, the privacy-focused browser and search company, alleging it scraped Times content and bypassed paywalls for its AI features, per The Verge and TechCrunch. It follows News Corp's July suit against Brave over AI scraping and the Times' earlier suit against Perplexity.",
+      "why_it_matters": "Publishers are widening copyright litigation from model developers to AI search and browser products.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "The New York Times",
+        "Brave"
+      ],
+      "tickers": [
+        "NYT"
+      ],
+      "published_at": "2026-11-02T17:51:19Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Only the headline and Verge URL were seen via the harvest (cluster lists The Verge and TechCrunch); my searches did not surface the filing, court or damages, so no details beyond the headline are asserted.",
+      "score": {
+        "total": 43.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "intel-stock-collapse-worsens-chip-rout-spreads",
+      "title": "Intel stock slide worsens as multi-trillion-dollar chip rout spreads, Yahoo Finance reports",
+      "summary": "Yahoo Finance said on Nov 3 that Intel's stock collapse is getting worse and that a chip-sector rout of roughly $3.5-3.7 trillion is spreading. This follows Intel's Q3 report with a weak Q4 guide (shares down about 17% after hours Oct 29) and a reported one-day tech loss above $1 trillion on Oct 30.",
+      "why_it_matters": "Chip weakness into AMD, Super Micro and Nvidia reports raises the bar for AI-hardware guidance.",
+      "key_numbers": [
+        "Chip-sector rout ~$3.5T (harvest title) / $3.7T (URL slug)",
+        "Intel Q4 guide below consensus"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Intel"
+      ],
+      "tickers": [
+        "INTC"
+      ],
+      "published_at": "2026-11-03T00:08:53Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "The Intel stock collapse is getting worse, and the $3.7 trillion chip rout is spreading"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "intel-q3-2026-weak-q4-guide-stock-plunges",
+      "confidence_note": "Single article seen via headline; could not confirm the figure or Nov 2 closing moves in other outlets, and the harvest title and URL slug disagree on $3.5T vs $3.7T. Treat as a market-color item, not a lead.",
+      "score": {
+        "total": 40.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.583
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "anthropic-australia-ipo-retail-offer-macquarie-commsec",
+      "title": "Anthropic taps Macquarie and CommSec for Australian IPO retail offer, Bloomberg says",
+      "summary": "Bloomberg reported on Nov 2 that Anthropic has picked Macquarie and CommSec for the Australian retail portion of its Nasdaq IPO. Earlier reports said Macquarie's capital-raising arm would lead the Australian tranche with CommSec running retail marketing, and that Anthropic weighs giving 15-20% of the offering to retail investors.",
+      "why_it_matters": "Retail allocation across multiple countries points to a very large, broadly distributed offering heading into the November pricing window.",
+      "key_numbers": [
+        "Retail share under consideration 15-20% (earlier Bloomberg-sourced report)",
+        "CommSec handled SpaceX's Australian retail tranche: 28,000+ applications"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "Anthropic",
+        "Macquarie",
+        "CommSec"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-02T22:23:53Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-taps-macquarie-commsec-for-australia-ipo-retail-offer",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Taps Macquarie, CommSec for Australia IPO Retail Offer"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Bloomberg article itself not opened; roles and retail share from search summaries of earlier reports. Single outlet, so not suited as a lead.",
+      "score": {
+        "total": 36.0,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.471
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 2.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-30",
+      "title": "Claude Sonnet 4.5 retirement on the Claude API scheduled",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Anthropic 'The Briefing' event, San Francisco",
+      "kind": "conference",
+      "confidence": "expected",
+      "url": "https://www.anthropic.com/events"
+    },
+    {
+      "date": "2027-01-30",
+      "title": "OpenAI retires the ChatGPT Classic app",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://9to5mac.com/2026/11/02/openai-is-retiring-chatgpt-classic-app-will-soon-combine-chat-and-work-tabs-in-new-app/"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Super Micro fiscal Q1 2027 results and call, 5pm ET; preliminary Oct 20 update put revenue at $18.5-19.5B v...",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Results of local data-center ballot measures across US jurisdictions (Ohio has the most) on midterm electio...",
+      "kind": "result",
+      "confidence": "expected",
+      "url": "https://www.newsweek.com/map-shows-states-where-data-centers-are-on-the-ballot-12528253"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "World Internet Conference Wuzhen Summit closes (Nov 2-5); open-source AI theme",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://www.bjnews.com.cn/detail/1792481178189081.html"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Baidu Q3 2026 results before US market open; call 7:30am ET (8:30pm Beijing)",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://finviz.com/news/408464/baidu-to-report-third-quarter-2026-financial-results-on-november-16-2026"
+    }
+  ],
+  "notes": "Harvest was stale (19 h old, ends 2026-11-03T02:34Z); the later part of the window was covered by WebSearch only and returned little. Desk coverage is thin, so the issue has fewer items than usual. Several facts rest on search snippets (see confidence_note). Dropped as first reported before the window's 6 h grace: Anthropic's amended S-1 (Q3 revenue $17B, $895.4B commitments; first seen 14:32Z Nov 2), OpenAI's Grid Protectors program, Anthropic's FlashProve research post and the MOFCOM Announcement 48 explainer.",
+  "learn": [
+    {
+      "id": "world-model-rollout-error",
+      "gap": "dl-training",
+      "title": "Why a world model's rollout error compounds, and how to measure it",
+      "item_ids": [
+        "baidu-apollo-world-physical-ai-world-model-robotaxi"
+      ],
+      "why_today": "Baidu's Apollo World is described as a world model for physical AI, and a world model is only useful if its multi-step predictions stay accurate.",
+      "explanation": "A world model is trained to predict the next state from the current one, usually with teacher forcing: it always sees the true previous state. At use time it must feed on its own predictions, so a small one-step error is re-applied at every step. With an unstable or marginally stable system the error grows roughly geometrically; in this toy, stable dynamics make it saturate instead. The numbers are illustrative and say nothing about Baidu's model. Evaluate with open-loop rollouts at several horizons, not only one-step loss, and consider training on the model's own rollouts to close the gap.",
+      "math": "e_h = |x_h - \\hat{x}_h|, \\quad \\hat{x}_{h+1} = f_\\theta(\\hat{x}_h)",
+      "python": "import random\nrandom.seed(0)\n# Toy 1-D world model: true dynamics x' = 0.95x + noise; learned model has 3% slope error.\na_true, a_hat = 0.95, 0.98\ndef rollout(h, trials=2000):\n    err = 0.0\n    for _ in range(trials):\n        x = xh = 1.0\n        for _ in range(h):\n            x = a_true * x + random.gauss(0, 0.02)\n            xh = a_hat * xh           # model feeds on its own predictions\n        err += abs(x - xh)\n    return err / trials\nfor h in (1, 5, 20, 50):\n    print(h, round(rollout(h), 4))",
+      "minutes": 15
+    }
+  ]
+}
