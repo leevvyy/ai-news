@@ -1,0 +1,689 @@
+{
+  "date": "2026-11-04",
+  "window": {
+    "start": "2026-11-03T21:49:00Z",
+    "end": "2026-11-04T21:49:00Z"
+  },
+  "tldr": [
+    "AMD guided Q4 revenue to about $17B after Q3 data center sales nearly doubled to $8.5B (+97%), sending shares up 7-8% after hours; Qualcomm beat fiscal Q4 but guided December EPS below consensus.",
+    "Voters rejected data centers in 37 of 38 counted local ballot measures on election night, while Florida regulators voted 5-0 to reject Duke Energy's data center tariff and Nikkei put big tech's off-balance-sheet AI obligations near $3.2T (+90% in six months).",
+    "China: Tencent released the final Hy4 (770B, now with vision and computer use) with open weights promised soon, and CXMT lifted its buyback to RMB 2.5-5B as CXMT rose 13.6% and Cambricon 10.4% in a STAR 50 surge."
+  ],
+  "items": [
+    {
+      "id": "amd-q3-2026-q4-guide-17b-data-center-97pct",
+      "title": "AMD guides Q4 revenue to about $17B as data center nearly doubles to $8.5B; shares jump after hours",
+      "summary": "AMD reported Q3 revenue of $13.4B (+45%), above the high end of its guidance, with non-GAAP EPS of $2.09. Data Center revenue was $8.5B, up 97% year over year, on record Instinct GPU and EPYC sales. It guided Q4 revenue to about $17B plus or minus 3%, with data center up about 50% sequentially as Helios racks and Venice ramp. Shares rose roughly 7-8% in extended trading.",
+      "why_it_matters": "The Q4 guide is the clearest sign yet that Helios and MI450 are ramping at scale after a month-long chip sell-off, and it sets the bar for Nvidia's results later this month.",
+      "key_numbers": [
+        "Q3 revenue $13.4B (+45%)",
+        "Data Center $8.5B (+97%)",
+        "Q4 guide ~$17B ±3%",
+        "Non-GAAP EPS $2.09",
+        "After-hours +7-8%"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "AMD",
+        "Lisa Su",
+        "Instinct",
+        "Helios"
+      ],
+      "tickers": [
+        "AMD"
+      ],
+      "published_at": "2026-11-03T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://newsroom.amd.com/news/amd-reports-third-quarter-2026-earnings/",
+          "outlet": "AMD Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "AMD Reports Third Quarter 2026 Financial Results"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "AMD (AMD) Q3 earnings report 2026"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/amd-sales-forecast-tops-estimates-on-soaring-ai-chip-demand",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Figures come from search-result summaries of AMD's release, not the full document. After-hours move varies by source (5-8%) and was reportedly pared later. Published time is the usual release slot, not a verified timestamp.",
+      "score": {
+        "total": 74.2,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "data-center-ballot-results-37-of-38-against-industry",
+      "title": "Voters reject data centers in 37 of 38 counted local ballot measures on election night",
+      "summary": "Unofficial election-night returns show voters sided against data-center development in 37 of 38 counted local measures, out of about 41 on ballots in 10 states, 21 of them in Ohio. Wilmington, Ohio rejected four rezonings about 80-20, and El Dorado, Kansas approved a 10-year ban 71-29. The one reported exception was a small North Dakota city.",
+      "why_it_matters": "Grassroots resistance to AI data centers is winning at the ballot box, adding siting and permitting risk for hyperscalers.",
+      "key_numbers": [
+        "37 of 38 counted measures against",
+        "~41 measures in 10 states",
+        "Ohio: 21 measures",
+        "El Dorado KS 71-29"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Ohio voters",
+        "El Dorado, Kansas"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-04T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.nbc4i.com/news/your-local-election-hq/columbus-area-communities-vote-on-data-center-issues-live-results/",
+          "outlet": "NBC4 Columbus",
+          "lang": "en",
+          "tier": "press",
+          "title": "Columbus-area communities reject data centers across ballot issues"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/voters-across-10-states-just-192251507.html",
+          "outlet": "Yahoo News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Voters Across 10 States Just Sent a Message About AI Data Centers"
+        },
+        {
+          "url": "https://thegridsight.com/data-center-votes-2026",
+          "outlet": "GridSight",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Data center vote results 2026: what 41 local votes decided"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.7,
+      "novelty": 0.7,
+      "follow_up_of": "data-center-ballot-measures-election-day-2026",
+      "confidence_note": "Published time approximate (morning after the election). Counts are unofficial and differ by source (38 vs 40 vs 41 measures). The 37-of-38 tally comes from a low-quality aggregator; other outlets are consistent but less specific.",
+      "score": {
+        "total": 67.6,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.7,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "tencent-hy4-official-release-770b-vision-computer-use",
+      "title": "Tencent releases Hy4 final: 770B model adds vision and computer use, price unchanged, weights 'soon'",
+      "original_title": "腾讯混元Hy4正式版发布，首次支持视觉理解与电脑操作",
+      "summary": "Tencent Hunyuan released the official Hy4 on Nov 4, following the Aug 28 preview. It scales up pre- and post-training, adds vision and computer operation for the first time, and improves instruction following, long-document understanding, long-horizon tasks and deep research. Tencent says weights and a system card will be published 'in the near term' and concedes a large gap to top closed models remains. Pricing equals the preview, and a cheaper Hy4 flash is planned.",
+      "why_it_matters": "It is a China-based open-weight model aimed at agent and coding work, but weights are still pending, so the 'open' claim is not yet testable.",
+      "key_numbers": [
+        "770B total parameters",
+        "RMB 6 per M input tokens",
+        "RMB 18 per M output tokens",
+        "RMB 0.3 per M cached input tokens",
+        "Preview released Aug 28"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent",
+        "Hunyuan",
+        "Yuanbao"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-04T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/022/035.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯混元 Hy4 正式版发布，号称首次跻身最强开源模型之列、为真实生产力而生"
+        },
+        {
+          "url": "https://www.cls.cn/detail/2525324",
+          "outlet": "财联社",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯史上最强开源模型来了：混元Hy4正式版发布，首次支持视觉理解与电脑操作"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34403814",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国产大模型再上新：混元Hy4正式发布，腾讯称首次进入最强开源模型梯队"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": "tencent-hy4-preview-openrouter-top5-hy-simulmt",
+      "confidence_note": "Date is Nov 4 from search snippets only; the UTC time is a placeholder. 770B comes from a snippet citing 科创板日报. Capability claims are Tencent's own and unverified. Weights were not yet released as far as seen.",
+      "score": {
+        "total": 66.4,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.503
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "qualcomm-fq4-2026-beat-dec-guide-light-data-center-5b",
+      "title": "Qualcomm beats fiscal Q4 but December-quarter EPS guide trails consensus; reiterates $5B data center target",
+      "summary": "Qualcomm reported fiscal Q4 revenue of about $10.3B (down 8%) and non-GAAP EPS of $2.17, both above consensus. Handset revenue fell 26% to $5.14B while automotive posted its first $2B quarter. It guided the December quarter to $10.4-11.2B revenue and EPS of $2.15-2.35, with the midpoint below the roughly $2.32 consensus. CEO Cristiano Amon reiterated $5B of data center revenue in fiscal 2027.",
+      "why_it_matters": "Memory-supply limits are capping handset volumes even as Qualcomm leans on data center and auto to offset the decline, a read-across for the memory-crunch narrative.",
+      "key_numbers": [
+        "Revenue ~$10.32B (-8%)",
+        "Non-GAAP EPS $2.17",
+        "Handsets $5.14B (-26%)",
+        "Dec-qtr guide $10.4-11.2B",
+        "FY27 data center target $5B"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Qualcomm",
+        "Cristiano Amon"
+      ],
+      "tickers": [
+        "QCOM"
+      ],
+      "published_at": "2026-11-04T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000804328/000080432826000127/qcom092726erex991.htm",
+          "outlet": "SEC EDGAR",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Qualcomm Form 8-K, fiscal Q4 2026 earnings release"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Qualcomm (QCOM) earnings report Q4 2026"
+        },
+        {
+          "url": "https://investinglive.com/stocks/qualcomm-beats-q4-forecasts-shares-slip-2-as-profit-guidance-comes-in-light/",
+          "outlet": "investingLive",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Qualcomm beats Q4 forecasts, shares slip 2% as profit guidance comes in light"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Figures are from search snippets. After-hours move conflicts across sources, so no price move is given. Published time is the standard release slot, not a verified timestamp.",
+      "score": {
+        "total": 62.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "cxmt-buyback-raised-25-50b-yuan-star-rally-cambricon",
+      "title": "CXMT chairman lifts buyback to 2.5-5B yuan; CXMT +13.6% and Cambricon +10.4% as STAR 50 surges",
+      "original_title": "长鑫科技：董事长提议将回购金额增至25亿-50亿元；多只AI基础设施股大涨",
+      "summary": "On Nov 4 CXMT (688825) said its chairman proposed raising the buyback from RMB 1-2B to RMB 2.5-5B, less than a week after the board approved the original plan. CXMT closed up 13.63% at about RMB 2.99T market cap and Cambricon (688256) closed up 10.38%. Yicai reported the STAR 50 up 9.92% with turnover above RMB 2T. Before the rebound CXMT had fallen 31.79% and Cambricon 30.99% between Sep 22 and Nov 3.",
+      "why_it_matters": "China's two biggest AI-hardware names on the STAR board reversed a month-long 30% drawdown, and a large buyback shows how sharply China's AI-compute equities swing.",
+      "key_numbers": [
+        "Buyback raised from RMB 1-2B to 2.5-5B",
+        "CXMT +13.63%, cap ~RMB 2.99T",
+        "Cambricon +10.38%",
+        "STAR 50 +9.92%",
+        "Sep 22-Nov 3: CXMT -31.79%, Cambricon -30.99%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "CXMT",
+        "Cambricon"
+      ],
+      "tickers": [
+        "688825.SS",
+        "688256.SS"
+      ],
+      "published_at": "2026-11-04T09:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.yicai.com/news/103425672.html",
+          "outlet": "第一财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "多只AI基础设施股大涨！长鑫科技市值逼近3万亿元关口"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34401508",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "长鑫科技：董事长提议增加回购股份金额，最高50亿元"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15289799.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "长鑫科技：董事长提议将回购金额增加至25亿元-50亿元"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Figures are from search snippets of Yicai and Jiemian; publication time is a placeholder. Index-move figures differ between outlets (some intraday); Yicai's closing figures are used. The cause of Cambricon's rally is not stated in what was seen.",
+      "score": {
+        "total": 61.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "florida-psc-rejects-duke-energy-data-center-tariff-sb484",
+      "title": "Florida regulators vote 5-0 to reject Duke Energy's data center tariff under the new SB 484 law",
+      "summary": "The Florida Public Service Commission voted 5-0 on Nov 3 to reject Duke Energy Florida's proposed 50 MW large-load tariff. It found the plan failed to show compliance with SB 484, which requires large-load customers to bear their full cost of service. Staff had recommended denial with leave to refile. Tampa Electric's own large-load tariff is next in line.",
+      "why_it_matters": "It is the first test of Florida's data-center cost-shifting law and a template for utilities elsewhere as ratepayer backlash grows.",
+      "key_numbers": [
+        "5-0 vote",
+        "50 MW threshold",
+        "Law: SB 484"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Florida Public Service Commission",
+        "Duke Energy Florida"
+      ],
+      "tickers": [
+        "DUK"
+      ],
+      "published_at": "2026-11-03T18:39:00Z",
+      "sources": [
+        {
+          "url": "https://floridaphoenix.com/2026/11/03/florida-public-service-commission-rejects-duke-energys-data-center-plan/",
+          "outlet": "Florida Phoenix",
+          "lang": "en",
+          "tier": "press",
+          "title": "Florida Public Service Commission rejects Duke Energy's data center plan"
+        },
+        {
+          "url": "https://www.wusf.org/politics-issues/2026-11-04/regulators-reject-dukes-data-center-rate-structure",
+          "outlet": "WUSF",
+          "lang": "en",
+          "tier": "press",
+          "title": "Regulators reject Duke's data center rate structure"
+        },
+        {
+          "url": "https://www.rtoinsider.com/150581-florida-regulators-deal-setback-duke-energy-large-load-tariff/",
+          "outlet": "RTO Insider",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Florida Regulators Deal Setback to Duke Energy on Large Load Tariff"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Details are from search snippets; the written order was not seen.",
+      "score": {
+        "total": 57.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "nikkei-big-tech-off-balance-sheet-ai-obligations-3-2tn",
+      "title": "Nikkei: five US tech giants' off-balance-sheet AI obligations nearly double to about $3.2T in six months",
+      "summary": "Nikkei Asia's compilation says Alphabet, Microsoft, Amazon, Meta and Oracle had roughly $3.2T of AI-related obligations not on their balance sheets at end-September, up about 90% in six months. Telecompaper reports about 60% is purchase commitments and 40% leases not yet started. Nikkei's earlier estimate for the group was about $1.65T.",
+      "why_it_matters": "It quantifies how much AI capex is financed through contracts outside reported debt, the core worry behind the recent chip and AI stock sell-off.",
+      "key_numbers": [
+        "~$3.2T obligations",
+        "+90% in 6 months",
+        "Prior Nikkei estimate ~$1.65T",
+        "~60% purchase commitments, ~40% unstarted leases"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Nikkei Asia",
+        "Alphabet",
+        "Microsoft",
+        "Amazon",
+        "Meta",
+        "Oracle"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-03T20:02:00Z",
+      "sources": [
+        {
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+          "outlet": "Nikkei Asia",
+          "lang": "en",
+          "tier": "press",
+          "title": "US tech giants' hidden AI debt swells 90% to $3.2tn in 6 months"
+        },
+        {
+          "url": "https://www.telecompaper.com/news/us-tech-giants-ai-related-obligations-surge-to-usd-32-trn-report--1587755",
+          "outlet": "Telecompaper",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US tech giants' AI-related obligations surge to USD 3.2 trn - report"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The Nikkei article was not opened; details come from search snippets and secondary summaries. Per-company splits are inconsistent across summaries, so none is given.",
+      "score": {
+        "total": 55.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "anthropic-flashprove-provable-inference-zksnark",
+      "title": "Anthropic's FlashProve proves LLM outputs with a zkSNARK, at roughly 70-95x overhead on a 400B MoE",
+      "summary": "Anthropic's Frontier Red Team open-sourced FlashProve, which lets a verifier check that tokens came from a committed model without seeing the weights. On one H100 the prover reaches about 110 tokens/s on Llama 4 Maverick (400B MoE, 4-bit, ~17B active), roughly 72x overhead versus vLLM at a 24-request batch. Each proof is ~18.8 MB per 1,024-token window and the CPU-only verifier takes ~17-21 s. Limits: greedy decoding on an integer model, 1,024-token context. TechCrunch covered it on Nov 3.",
+      "why_it_matters": "It is a concrete step toward verifying which model produced an output, relevant to compute monitoring and tamper detection, though still costly.",
+      "key_numbers": [
+        "~110 tok/s prover on 1x H100",
+        "~70-95x overhead vs vLLM",
+        "~18.8 MB proof per 1,024 tokens",
+        "verifier ~17 s on 24 CPU threads"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "EPFL",
+        "MIT",
+        "StarkWare",
+        "Succinct"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-03T22:41:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/provable-inference",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Progress on provable inference for large language models"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic is working on a system to prove AI models' identity"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The Anthropic post is dated Nov 2; only the TechCrunch write-up (first seen 22:41Z Nov 3) is in-window. Technical numbers come from a fetch summary of the Anthropic post; the TechCrunch text was not read.",
+      "score": {
+        "total": 51.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.541
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 1.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "anthropic-claude-vault-particles-bacterial-structure",
+      "title": "Anthropic: Claude-assisted work yields first 3D structure of a bacterial/phage vault particle in under four months",
+      "summary": "Anthropic's life-sciences team says Claude searched about 15B predicted proteins for vault-protein relatives. Of 44 candidates tested, 15 of 24 expressed in E. coli gave soluble protein, seven formed vault-like particles and cryo-EM confirmed vault shape for four. The phage protein L05 forms a 96-copy, ~9.5 MDa vault versus 78 copies in mammalian vaults. Claude ran the cryo-EM pipeline in an internal multi-agent setup, and the post lists its errors, including a skipped step that produced a map blended with its mirror image.",
+      "why_it_matters": "A concrete, error-disclosing example of an AI agent running a wet-lab plus cryo-EM discovery loop; it cut a 3-day purification to about 90 minutes.",
+      "key_numbers": [
+        "~15B proteins searched",
+        "44 candidates; 15/24 soluble",
+        "4 confirmed by cryo-EM",
+        "L05: 96 copies, ~9.5 MDa",
+        "<4 months screening to structure"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-04T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Investigating vault particles with Claude"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Single primary source, read via a fetch summary; no independent coverage found. The post is dated Nov 4 with no time of day, so the hour is a placeholder. Preprint not found.",
+      "score": {
+        "total": 45.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.541
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 1.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "openai-hires-jill-hazelbaker-chief-corporate-affairs",
+      "title": "OpenAI appoints Uber president Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "summary": "OpenAI announced the appointment of Jill Hazelbaker as Chief Corporate Affairs Officer. Headlines from outlets including Axios and Bloomberg describe her as Uber's president joining as communications chief.",
+      "why_it_matters": "A senior communications and policy hire at a company preparing for heavier public and regulatory scrutiny.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Jill Hazelbaker",
+        "Uber"
+      ],
+      "tickers": [
+        "UBER"
+      ],
+      "published_at": "2026-11-03T20:17:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Seen only as harvest feed entries (OpenAI post; Axios, Bloomberg headlines); the article text was not read. Her prior Uber title is from outlet headlines. Timestamp is the first non-placeholder harvest time.",
+      "score": {
+        "total": 41.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.487,
+          "momentum": 0.322
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 1.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-09",
+      "title": "Tencent to open-source Hy4 weights and publish a system card 'in the near term' (no date given)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.ithome.com/1/022/035.htm"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Alibaba Qwen4 reportedly launching 'next week' (attendee remark Oct 29; not confirmed by Alibaba)",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34383539"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Earliest possible start of Anthropic IPO roadshow under the 15-day rule (price range still blank)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Claude Opus 4.8 fast mode removed (speed: fast requests will error); migrate to Opus 5.5",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    }
+  ],
+  "notes": "Harvest was stale (ends 2026-11-04T00:48Z) and WebSearch indexed little after Nov 1; many lab/news hosts were unreachable by fetch, so coverage of OpenAI, Google, Meta, xAI, Zhipu, MiniMax, Qwen and Baidu releases dated Nov 4 is a gap, not a quiet day. Dropped as first reported more than 6h before the window: Nvidia telling cloud clients to cap Chinese customers at 49% (FT, Nov 3 ~05:00Z), DeepSeek's next model reportedly to be pre-trained on Huawei Ascend 950 (Nov 3 06:26Z), DeepSeek outages (Nov 3), QuestMobile Hongguo-overtakes-Doubao (Nov 3), NDRC AI job-displacement monitoring (Nov 3), Anthropic S-1 Q3 figures (Nov 2-3). Dropped as unverified: Supermicro FQ1 ($19.9B from one summary), Kimi K3.1 Pro weights (HF page seen only in a search snippet), Claude watermark expansion (no timestamp), SK hynix Dalian licence (rehash).",
+  "learn": [
+    {
+      "id": "moe-active-vs-total-params",
+      "gap": "llm-internals",
+      "title": "MoE: why compute follows active parameters but memory follows total",
+      "item_ids": [
+        "anthropic-flashprove-provable-inference-zksnark"
+      ],
+      "why_today": "FlashProve's prover cost is described as scaling with the ~17B active parameters of a 400B mixture-of-experts model.",
+      "explanation": "A mixture-of-experts layer routes each token to a few experts, so per-token FLOPs are about 2 times the active parameters, not the total. Every expert must still be resident in memory because any token may route to it, so weight memory scales with total parameters times bytes per weight. Hence an MoE can be cheap per token yet need a large accelerator pool or heavy quantisation to hold. The saving is not free: routing creates load imbalance and all-to-all communication, and small batches touch many experts, erasing the arithmetic advantage. The numbers below use the 400B/17B/4-bit figures from the item for illustration only; they are not measurements of any system.",
+      "math": "\\text{FLOPs/token} \\approx 2 N_{active}, \\qquad M_{weights} = N_{total} b",
+      "python": "# Illustrative MoE arithmetic (numbers from the FlashProve item; the rest is toy).\ntotal, active = 400e9, 17e9\nbytes_per_param = 0.5            # 4-bit weights\nweights_gb = total * bytes_per_param / 1e9\nflops_per_token = 2 * active     # ~2 FLOPs per active parameter per token\ndense_flops = 2 * total\nprint(f\"weights in memory: {weights_gb:.0f} GB (set by TOTAL params)\")\nprint(f\"compute/token: {flops_per_token/1e9:.0f} GFLOP vs dense {dense_flops/1e9:.0f} GFLOP\")\nprint(f\"MoE compute saving: {dense_flops/flops_per_token:.1f}x\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer (2017)",
+          "url": "https://arxiv.org/abs/1701.06538"
+        }
+      ]
+    }
+  ]
+}
