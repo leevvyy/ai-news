@@ -1,0 +1,659 @@
+{
+  "date": "2026-11-05",
+  "window": {
+    "start": "2026-11-04T21:49:00Z",
+    "end": "2026-11-05T21:48:00Z"
+  },
+  "tldr": [
+    "US stocks sold off hard on Nov 5 in an AI-chip rout: the semiconductor index fell roughly 11% (its worst day since March 2020 by some reports) and Nvidia about 9%, as outlets tied it to fears that Democratic midterm wins slow the data-center buildout; closing figures vary by outlet.",
+    "The data-center backlash is now policy: Axios counts restrictive measures passing 43-1 across 10 states, Democrats are calling for a national moratorium, and OpenAI says it will avoid NDAs and keep residents from paying for power (snippet-sourced).",
+    "Moonshot put Kimi K3.1 Pro weights on Hugging Face (reportedly 2.8T-parameter MoE, 1M context, custom licence), while Reuters reports about 600,000 Nvidia H200 chips sit in Hong Kong awaiting Beijing's import approval."
+  ],
+  "items": [
+    {
+      "id": "ai-chip-rout-nov5-sox-worst-day-since-2020",
+      "title": "AI chip rout: Nvidia falls about 9%, semiconductor index roughly 11% lower, S&P 500 and Nasdaq sharply down",
+      "summary": "US stocks closed sharply lower on Nov 5, reversing Wednesday's post-election rally. The Philadelphia Semiconductor Index fell about 11%, its worst day since March 2020, Nvidia closed down 9.26%, and the Nasdaq Composite fell about 5.5% into correction territory. Outlets attribute it to fears that Democratic midterm wins slow the data-center buildout, plus AI debt-cost worries and a hot inflation print. South Korea's KOSPI fell 5.28% and Japan's Nikkei 1.79% in Asia.",
+      "why_it_matters": "The first broad market verdict on the post-election data-center backlash: chip, memory and neocloud valuations are repricing on buildout risk, which feeds directly into funding and IPO windows (Anthropic, OpenAI).",
+      "key_numbers": [
+        "SOX about -11% (worst since Mar 2020)",
+        "NVDA -9.26%",
+        "S&P 500 about -4.3%",
+        "Nasdaq about -5.5%",
+        "Dow about -1,800 pts",
+        "KOSPI -5.28%"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Broadcom",
+        "AMD",
+        "Micron",
+        "Intel"
+      ],
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MU"
+      ],
+      "published_at": "2026-11-05T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown"
+        },
+        {
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+          "outlet": "StockTitan",
+          "lang": "en",
+          "tier": "trade",
+          "title": "The Stock Market Today Live, November 5, 2026, Closes Sharply Lower on the AI Chip Selloff"
+        },
+        {
+          "url": "https://investrade.com/market-review-november-05-2026/",
+          "outlet": "Investrade",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Market Review: November 05, 2026"
+        },
+        {
+          "url": "https://spectrumlocalnews.com/us/snplus/business/2026/11/05/stock-market-ai-chip-selloff",
+          "outlet": "Spectrum News (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "S&P 500 drops 3% in worst day since 2025 as AI chips slide"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.85,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Closing figures differ across outlets (S&P 500 -3.2% to -4.4%, Nvidia -7.5% to -9.26%, SOX -8% to -12%); I saw search snippets only, not full articles, and used the closing-table values. Reported single-name moves (Micron about -15%, Sandisk about -20%, Broadcom about -9 to -10%, Intel -5 to -10%) are approximate and not in key_numbers. published_at is the close, an estimate. Tickers are tagged for the named movers only; drop the extras if the event study should count one move.",
+      "score": {
+        "total": 76.1,
+        "components": {
+          "impact": 0.85,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.736,
+          "momentum": 0.789
+        },
+        "coverage": 8,
+        "mentions": 2,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "moonshot-kimi-k3-1-pro-open-weights-released",
+      "title": "Moonshot releases Kimi K3.1 Pro weights on Hugging Face: 2.8T-parameter MoE, 1M context, custom licence",
+      "original_title": "月之暗面开源Kimi K3.1 Pro，登顶Agent Arena开放权重模型榜",
+      "summary": "Moonshot AI published the weights of Kimi K3.1 Pro to Hugging Face (moonshotai/Kimi-K3.1-Pro) on Nov 4, meeting the Nov 4 deadline it set when the model launched in its API on Oct 23. Secondary reports describe a 2.8T-parameter Mixture-of-Experts with about 104B active parameters per token, a roughly 1M-token context window, text and image input, and 96 safetensors shards totalling about 1.56 TB, in an ungated repo under a custom 'Kimi K3.1 Pro License'. Chinese outlets (IT之家, 凤凰网 and others) headlined it as topping the Agent Arena open-weight ranking.",
+      "why_it_matters": "It is the largest open-weight model released so far and, per Artificial Analysis's pre-release note, becomes the top-scoring open-weight model on its index once weights are public. At about 1.56 TB it is practical mainly for well-funded self-hosters, so the immediate effect is on hosting providers and on pricing pressure against closed frontier APIs.",
+      "key_numbers": [
+        "2.8T params (about 104B active)",
+        "~1M-token context",
+        "~1.56 TB, 96 shards",
+        "Artificial Analysis Intelligence Index 55 (4th overall, pre-release)",
+        "Terminal-Bench 4.0 65.7% (vendor-reported)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Moonshot AI",
+        "Kimi"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-04T23:34:00Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "outlet": "Hugging Face (Moonshot AI)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Kimi K3.1 Pro model weights are out"
+        },
+        {
+          "url": "https://dev.to/yong_yu_f98e15562e9b120a0/kimi-k31-pro-weights-are-out-20m-license-cliff-156-tb-reality-and-hosted-vs-self-host-2ie4",
+          "outlet": "DEV Community",
+          "lang": "en",
+          "tier": "social",
+          "title": "Kimi K3.1 Pro Weights Are Out: $20M License Cliff, ~1.56 TB Reality, and Hosted vs Self-Host"
+        },
+        {
+          "url": "https://www.stdaily.com/web/gdxw/2026-10/24/content_602239.html",
+          "outlet": "科技日报",
+          "lang": "zh",
+          "tier": "press",
+          "title": "月之暗面发布新一代大模型Kimi K3.1 Pro"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Weights go live on Nov 4 per the HF repo (seen in the harvest, HN 354 pts, first seen 2026-11-04T15:30Z, about 6h20m before the window opens) and Chinese coverage (cluster of 4 outlets, first 23:34Z) lands inside the window. Chinese-outlet URLs in the harvest are news.google.com links, so not cited; the zh source is the Oct 23 launch piece from 科技日报. Licence terms ($20M 12-month revenue threshold for hosted services, name-display clause) come from secondary blogs and were not checked against the LICENSE file. 'Tops Agent Arena open-weight ranking' is from the Chinese headline only and could not be independently confirmed; the spec figures and the AA index are secondary or vendor-reported. published_at is the first Chinese-outlet coverage (23:34Z); the Hugging Face repo itself appeared about 15:30Z on Nov 4, before the window.",
+      "score": {
+        "total": 69.7,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.802,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "nvidia-600k-h200-chips-stuck-hong-kong-china-approval",
+      "title": "About 600,000 Nvidia H200 chips sit in Hong Kong awaiting Beijing's import approval, Reuters reports",
+      "summary": "Reuters, citing people familiar, reports about 600,000 H200 chips are stored in Hong Kong for possible shipment to mainland China, and Beijing has not approved large-scale imports; some outlets say customs clearance has been halted. Several large Chinese internet companies have reportedly received about 10,000 H200s each in recent months, with small amounts moving via intermediaries. The US reviews H200 licences case by case.",
+      "why_it_matters": "Washington has loosened export rules, but Beijing's import gate now caps Nvidia's China upside, a swing factor for Nvidia's Nov 17 earnings guidance.",
+      "key_numbers": [
+        "About 600,000 H200 in Hong Kong",
+        "About 10,000 H200 per large Chinese firm so far"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Nvidia",
+        "China"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-05T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-chips-stockpile-in-hong-kong-awaits-china-import-approval--report-5003235",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia chips stockpile in Hong Kong awaits China import approval - report"
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/nvidia-chips-stockpile-hong-kong-120611362.html",
+          "outlet": "Yahoo Finance UK",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia chips stockpile in Hong Kong awaits China import approval - report"
+        },
+        {
+          "url": "https://www.zonebourse.com/actualite-bourse/600-000-puces-h200-de-nvidia-bloquees-a-hong-kong-face-aux-restrictions-de-pekin-ce785fdcd08ef226",
+          "outlet": "Zonebourse",
+          "lang": "other",
+          "tier": "press",
+          "title": "600 000 puces H200 de Nvidia bloquées à Hong Kong face aux restrictions de Pékin"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.55,
+      "follow_up_of": null,
+      "confidence_note": "I did not see the original Reuters article, only syndications; the exact publication time is unknown (estimated, likely early Nov 5 UTC; a TipRanks summary placed it alongside Nov 5 coverage). Verify it is not a Nov 4 or earlier story before use.",
+      "score": {
+        "total": 63.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.55,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.789
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "data-center-backlash-43-1-tech-concessions-openai-no-ndas",
+      "title": "After ballot measures went 43-1 against data centers, tech giants offer cash and concessions; OpenAI says it will avoid NDAs",
+      "summary": "Axios reports restrictive data-center measures in 10 states passed 43-1, with an average of 75% of voters favoring limits. Bloomberg reports OpenAI will change how it handles data-center projects, avoiding nondisclosure agreements in deals and ensuring residents do not pay for the electricity. Analysts quoted by Axios see the backlash slowing but not stopping construction; Nomura says Democratic governors could tighten permitting.",
+      "why_it_matters": "The industry is shifting from secrecy to community benefits to protect its permitting pipeline, a concession that raises the cost of every new campus.",
+      "key_numbers": [
+        "43-1 ballot measures",
+        "75% average voter support for limits",
+        "10 states"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-05T11:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2026/11/05/ai-data-center-election-backlash-concessions",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Tech giants turn to cash, concessions for AI rebrand after voters pummeled data centers 43-1"
+        },
+        {
+          "url": "https://bloomberg.com/news/articles/2026-11-05/openai-to-change-how-it-handles-data-center-efforts-after-outcry",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI to Change How It Handles Data Center Efforts After Outcry"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "U.S. midterms could widen AI data center divide"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.65,
+      "novelty": 0.5,
+      "follow_up_of": "data-center-ballot-results-37-of-38-against-industry",
+      "confidence_note": "Snippet-only: I could not open Axios or Bloomberg (fetch blocked). OpenAI's specifics (no NDAs, residents not paying for power) come from a search summary of the Bloomberg headline; the 43-1 count differs from the earlier 37-of-38 partial tally. published_at is an estimate.",
+      "score": {
+        "total": 62.6,
+        "components": {
+          "impact": 0.65,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.583
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "democrats-national-data-center-moratorium-call-texas-nov5",
+      "title": "Top Democrats call for a national data-center moratorium after midterm sweep; Texas governor-elect also backs a pause",
+      "summary": "CNBC reports top Democrats are calling to rein in the AI buildout after the midterm sweep, with a prominent post reading 'National data center moratorium now'. In Texas, home to 27% of planned data-center capacity per Wells Fargo, the governor-elect has repeatedly called for an immediate moratorium. Nomura says Democratic gubernatorial wins could slow new development through tighter permitting.",
+      "why_it_matters": "A federal or Texas pause would hit the largest pipeline of planned AI capacity; it explains the day's selloff in chips, neoclouds and power equipment (CoreWeave -8.9%, GE Vernova -6.9% per one outlet).",
+      "key_numbers": [
+        "27% of planned capacity in Texas (Wells Fargo)",
+        "CoreWeave -8.9%",
+        "GE Vernova -6.9%"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US Democrats",
+        "Texas"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-05T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'"
+        },
+        {
+          "url": "https://www.kiro7.com/news/local/ai-data-center-concerns-trigger-massive-selloff-us-stocks/C42GKCIRHZCRPC3NM5BN6G4Y6U/",
+          "outlet": "KIRO 7",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI sector stocks plunge amid data center concerns"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. Who exactly called for the moratorium and whether the Texas governor-elect is named in the CNBC piece is not verified; the search summary did not name individuals. Earlier reporting (not this window) shows Pallone, Sanders and Ocasio-Cortez backing a moratorium. published_at estimated.",
+      "score": {
+        "total": 60.7,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "metr-anthropic-rate-of-ai-improvement-roughly-doubled",
+      "title": "METR analysis: Anthropic's rate of improvement on well-specified tasks has roughly doubled in a year",
+      "summary": "The Washington Post reports an independent monitoring group (METR) estimates Anthropic's rate of AI improvement on well-specified tasks has roughly doubled over the past year. The analysis rules out increased training compute as the cause and sees AI-assisted development as a likely contributor. It is based on about 11 weeks of internal company data and employee interviews, and the authors say the estimates remain uncertain.",
+      "why_it_matters": "Fresh outside evidence for the 'accelerated progress' threshold in Anthropic's revised S-1, landing mid-IPO and in the safety-policy debate over slowdown calls.",
+      "key_numbers": [
+        "Rate of improvement about 2x in a year",
+        "About 11 weeks of internal data"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "METR"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-05T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/business/2026/11/05/anthropic-metr-ai-claude-acceleration/863c713e-d943-11f1-930a-e08f8086f5ac_story.html",
+          "outlet": "The Washington Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says"
+        },
+        {
+          "url": "https://techxplore.com/news/2026-11-anthropic-rapidly-ai-slowdown-group.html",
+          "outlet": "TechXplore",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. One separate search found a conflicting earlier METR report (May 2026) saying no 2x speed-up as of April; the new analysis's primary METR document was not seen. published_at is an estimate. Better placed with Desk A if they cover it.",
+      "score": {
+        "total": 52.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.338
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 1.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "arm-fq2-2027-beat-guide-in-line-shares-fall-12pct",
+      "title": "Arm beats fiscal Q2 with $1.44B revenue, guides in line; shares fall about 12% as smartphone royalties lag",
+      "summary": "Arm reported fiscal Q2 2027 revenue of $1.443B (+27%), adjusted EPS of 52 cents (vs 47 cents estimate), royalty revenue of $670M and licensing revenue of $773M. It guided Q3 revenue to $1.49-1.59B and EPS to 52-60 cents against a 56-cent estimate. Shares fell about 4.5% premarket and about 12% by early afternoon on Nov 5, with commentators citing weak smartphone royalties and AI-timing concerns.",
+      "why_it_matters": "Even a clean beat drew a double-digit drop, showing how little room AI-linked semis had before the day's wider rout.",
+      "key_numbers": [
+        "Revenue $1.443B, +27%",
+        "EPS $0.52 vs $0.47 est",
+        "Royalty $670M",
+        "Licensing $773M",
+        "Q3 rev guide $1.49-1.59B",
+        "Shares about -12% on Nov 5"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Arm"
+      ],
+      "tickers": [
+        "ARM"
+      ],
+      "published_at": "2026-11-04T20:05:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/arm-forecast-meets-estimates-after-data-center-push-pays-off",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Arm Fails to Impress Investors With AI-Fueled Sales Forecast"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/11/62891276/arm-shares-slip-despite-q2-double-beat-details",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Arm Shares Slip Despite Q2 Double-Beat: Details (CORRECTED)"
+        },
+        {
+          "url": "https://www.marketbeat.com/instant-alerts/price-arm-nasdaq-arm-shares-gap-down-should-you-sell-2026-11-05/",
+          "outlet": "MarketBeat",
+          "lang": "en",
+          "tier": "trade",
+          "title": "ARM (NASDAQ:ARM) Shares Gap Down - Should You Sell?"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.55,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Results published after the US close on Nov 4; harvest first-seen of the Bloomberg piece is 21:05Z, so published_at (about 20:05Z, ~1.7h before the window start) is an estimate. Figures from search snippets; the share move varies by outlet (-4.5% premarket, -12.2% at 1:24 PM ET).",
+      "score": {
+        "total": 51.3,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "goldman-apollo-in-talks-to-sell-spacex-40b-ai-chip-financing",
+      "title": "Goldman, Apollo in talks to sell down SpaceX's $40 billion AI chip financing, Bloomberg reports",
+      "summary": "Bloomberg, with Reuters also covering, reports Goldman Sachs and Apollo are in talks to sell SpaceX's $40B AI financing to investors. Background from the Oct 26 disclosure: an Apollo-managed entity buys chips and equipment and leases them to SpaceX, expected to close by year-end with leases starting in H1 2027; Musk called it closed, though only a binding commitment was disclosed.",
+      "why_it_matters": "Syndicating the largest GPU lease on record is a test of credit-market appetite for off-balance-sheet AI compute just as AI-debt worries drive the selloff.",
+      "key_numbers": [
+        "$40B financing",
+        "Leases start H1 2027"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "Apollo Global Management",
+        "Goldman Sachs"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-04T21:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/goldman-apollo-in-talks-to-sell-spacex-s-40-billion-ai-deal",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Goldman, Apollo in Talks to Sell SpaceX's $40 Billion AI Deal"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.55,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Only the headline and harvest outlet list (Bloomberg, Reuters, Investing.com, WMBD) were seen; sale terms, buyers and pricing are unknown. Background is from Oct 26 reporting. Published ~39 min before the window start (within the 6h allowance). Search could not confirm Goldman's exact role.",
+      "score": {
+        "total": 49.4,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.487,
+          "momentum": 0.583
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "openai-chatgpt-images-2-6-animated-gifs",
+      "title": "ChatGPT can now make animated GIFs with Images 2.6",
+      "summary": "OpenAI introduced Images 2.6, and The Verge reported on 4 Nov that ChatGPT will now produce animated GIFs. OpenAI's own post is titled 'Introducing Images 2.6'.",
+      "why_it_matters": "Moves ChatGPT's image tool from stills into short looping motion, a consumer feature that overlaps with video and sticker tools.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-04T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-images-2-6",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Images 2.6"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "ChatGPT will now make you animated GIFs"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Headline-level only: I saw titles and timestamps in the harvest digest, not article text. OpenAI page is stamped 2026-11-04T00:00:00Z (date-only, so it may predate the window); Verge 18:00Z is within the 6h allowance. Plan availability, limits and API access unknown; add them before publishing. My WebSearch could not corroborate (Verge domain blocked).",
+      "score": {
+        "total": 44.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.583
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "meta-warns-election-backlash-could-make-ai-expansion-harder",
+      "title": "Meta warns election backlash against data centers could make AI expansion harder",
+      "summary": "TechCrunch reports Meta is warning that the voter backlash against data centers could make its AI expansion harder, and that it could lose some investments after the midterms. Detail beyond the headline was not available to me.",
+      "why_it_matters": "A hyperscaler acknowledging buildout risk in its own words, the day chips and neoclouds sold off.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Meta"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-11-05T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta warns that election backlash against data centers could make AI expansion harder"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Headline and one-line search summary only; could not open the article. Not clear whether this is a filing, spokesperson statement or leak. Treat as a brief at most. published_at estimated.",
+      "score": {
+        "total": 41.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.789
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 0.286,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-06",
+      "title": "OpenAI may launch new Astra/Sol models plus a cyber-focused model as early as this date (The Information vi...",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://chaincatcher.com/en/article/2301899"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Kioxia fiscal Q2 earnings (NAND outlook); date per Investing.com and Boerse-Express",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.investing.com/equities/kioxia-holdings-earnings"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Final summary-judgment briefs due in In re OpenAI Copyright Litigation (one source says replies Nov 20; sou...",
+      "kind": "deadline",
+      "confidence": "rumored",
+      "url": "https://publishingperspectives.com/2026/11/copyright-infringement-lawsuit-against-openai-draws-more-than-50-very-illuminating-amicus-briefs"
+    },
+    {
+      "date": "2026-11",
+      "title": "DeepSeek V5 flagship (unannounced; deepseek-v5 identifiers appear in DeepSeek Harness test files since Sept...",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.ai345.info/ai-guide/deepseek-v5-release-status"
+    }
+  ],
+  "notes": "Harvest was stale (ends 2026-11-05T01:00Z) and WebSearch indexed little from 5 Nov, so most Nov 5 items rest on search snippets (see confidence_note). Desk A/C yielded few in-window stories; Cognition SWE-2 Flash, Wuzhen closing figures and the Anthropic IPO tracker item were left out as single-source or low value.",
+  "learn": [
+    {
+      "id": "drawdown-recovery-arithmetic",
+      "gap": "domain-ai",
+      "title": "Drawdown arithmetic: why an 11% drop needs a 12.4% gain to undo",
+      "item_ids": [
+        "ai-chip-rout-nov5-sox-worst-day-since-2020"
+      ],
+      "why_today": "The item reports the semiconductor index falling about 11% in one session, with closing figures varying by outlet.",
+      "explanation": "Percentage returns compound multiplicatively, so a loss of d needs a gain of 1/(1+d)-1 to return to the starting level, which is always larger than |d|. Log returns, ln(1+r), add across days, which makes them convenient for aggregating and for statistics, but they differ noticeably from simple returns for large moves like this one. Quoted figures also depend on whether an outlet uses a close, an intraday low or a snapshot, so compare like with like before drawing conclusions. The numbers below are illustrative, not market data.",
+      "math": "g_{rec} = \\frac{1}{1+d} - 1, \\qquad r_{log} = \\ln(1+r)",
+      "python": "import math\n# Illustrative drawdown arithmetic (the -11% is the figure in the item; the rest is toy).\ndrop = -0.11\nneed = 1 / (1 + drop) - 1          # gain needed to get back to the old level\nlogret = math.log(1 + drop)        # log return, additive across days\nprint(f\"simple {drop:.1%} -> recovery needs {need:.1%}; log return {logret:.4f}\")\n# toy: a -11% day followed by +4%, +3% days\nlevel = 1.0\nfor r in (-0.11, 0.04, 0.03):\n    level *= 1 + r\nprint(f\"after -11%, +4%, +3%: level {level:.3f} ({level-1:+.1%})\")",
+      "minutes": 10
+    }
+  ]
+}
