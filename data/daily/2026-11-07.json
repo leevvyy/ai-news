@@ -1,0 +1,1536 @@
+{
+  "date": "2026-11-07",
+  "window": {
+    "start": "2026-11-05T21:48:00Z",
+    "end": "2026-11-07T21:48:00Z"
+  },
+  "tldr": [
+    "OpenAI closed an $11B portion of its raise at a $1.25T valuation (Bloomberg), while buyers eye Anthropic's IPO at as little as $1.1T and the FT says the listing is still going ahead after the tech rout.",
+    "TSMC is reportedly weighing making advanced memory chips at Nvidia's request, and its shares jumped about 6%; separately, Microsoft is winding down an Oracle AI-cloud capacity deal and Crusoe sold its Wyoming site to Google.",
+    "China: MIIT issued network-access rules for AI-agent devices (No. 42, Nov 6), and a Menlo survey says 89% of US enterprise open-model spend goes to Chinese models; Google shipped Gemini Omni 1.2 Flash with 15-second video."
+  ],
+  "items": [
+    {
+      "id": "openai-closes-11b-tranche-at-1-25t-valuation",
+      "title": "OpenAI completes $11 billion portion of funding at a $1.25 trillion valuation",
+      "summary": "Bloomberg, Reuters and TechCrunch report that OpenAI has completed an $11 billion portion of its current funding round at a $1.25 trillion valuation. Earlier reporting (WSJ, Oct 30) had about $11B committed at that valuation, and the FT reported the round's target was cut to $20B from $30B; the valuation is below the roughly $1.4T OpenAI had sought.",
+      "why_it_matters": "It sets OpenAI's private mark just as Anthropic's IPO pricing is being pressured by the AI-stock rout. A completed but downsized tranche shows funding still available at a reduced ask.",
+      "key_numbers": [
+        "$11B completed",
+        "$1.25T valuation",
+        "Target reportedly cut to $20B from $30B (FT)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T20:58:41Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": "openai-funding-round-cut-20b-demand-weak",
+      "confidence_note": "Article bodies could not be fetched (WebFetch blocked); headline/outlet list from the harvest. Background figures ($11B committed, $20B target, $1.4T hoped-for) come from search summaries of WSJ/FT reports, not read directly. A web search found no page confirming the Nov 6 completion wording beyond the harvest headlines.",
+      "score": {
+        "total": 73.4,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.698,
+          "breadth": 0.736,
+          "momentum": 0.842
+        },
+        "coverage": 8,
+        "mentions": 4,
+        "baseline": 1.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "anthropic-ipo-valuation-1-1t-to-1-5t-ft-says-proceeding",
+      "title": "Anthropic IPO buyers eye valuation as low as $1.1T; FT says listing proceeds despite rout",
+      "summary": "Bloomberg reports IPO buyers see Anthropic's valuation as low as $1.1 trillion, and CNBC reports investors are bracing for a lower valuation and calling $1.5 trillion a 'stretch'. Forbes (via Yahoo) headlined a possible cut in half to about $1T, and the FT reportedly says the IPO will move forward despite the tech selloff. An earlier Reuters-attributed item put $1.5T as the discussed level, down from about $2T.",
+      "why_it_matters": "The biggest AI listing yet is being repriced by the post-election chip and AI-stock selloff, a test of public-market appetite for frontier labs.",
+      "key_numbers": [
+        "$1.1T low-end buyer view (Bloomberg)",
+        "$1.5T called a 'stretch' (CNBC)",
+        "~$1T possible (Forbes headline)",
+        "Earlier talk ~$2T"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T16:06:17Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic IPO buyers see valuation as low as $1.1 trillion"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Bodies not fetched; numbers are from headlines. The FT 'IPO to move forward' and Forbes '$1T' items are only Google-News-RSS links in the harvest, so are not cited. Search did not confirm a pricing date: one aggregator says the earliest roadshow start is Nov 10 and pricing Nov 13 at the earliest, unconfirmed.",
+      "score": {
+        "total": 72.7,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.698,
+          "breadth": 0.632,
+          "momentum": 0.924
+        },
+        "coverage": 6,
+        "mentions": 6,
+        "baseline": 1.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "miit-agent-terminal-network-access-notice",
+      "title": "MIIT issues rules for AI-agent devices: phones with preinstalled agents need adaptation and anti-fraud checks to get network access",
+      "original_title": "工信部：加强智能体终端设备进网管理",
+      "summary": "China's Ministry of Industry and Information Technology issued a notice (工信厅信管〔2026〕42号) on 6 Nov governing 'agent terminals', meaning phones, tablets and wearables with preinstalled AI agents. Such devices must pass adaptation verification plus fraud-risk and anti-fraud capability evaluation during network-access testing, and agents should carry a unique identity code under the national agent-interconnect standards. Over-the-air agent upgrades require an upgrade plan filed with MIIT and a report afterwards. App-distribution platforms must have developers declare by e-signature whether agents may call their apps, and agents that have not been declared consented to may not force-call apps.",
+      "why_it_matters": "It writes into regulation the dispute behind ByteDance's Doubao phone assistant and the app-refusal lists: third-party apps get a formal consent mechanism, and every agent phone faces a pre-sale regulatory gate.",
+      "key_numbers": [
+        "Notice No. 工信厅信管〔2026〕42号",
+        "Issued 6 Nov 2026",
+        "Covers phones, tablets, wearables with preinstalled agents"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "MIIT",
+        "ByteDance Doubao",
+        "StepFun"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T09:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.news.cn/politics/20261106/2fc9686a51e240aa8127794d28f1d4e1/c.html",
+          "outlet": "Xinhua",
+          "lang": "zh",
+          "tier": "press",
+          "title": "工业和信息化部：加强智能体终端设备进网管理"
+        },
+        {
+          "url": "https://wap.miit.gov.cn/zwgk/zcjd/art/2026/art_7ebf90533ca74af78542c70d3adaabb9.html",
+          "outlet": "MIIT",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "《关于加强智能体终端设备进网管理的通知》政策解读"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-06/doc-inixuiyu8310823.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "工信部发布新规，加强智能体终端设备进网管理"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.65,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Details come from search-result summaries of the Xinhua, Sina and MIIT pages, not full-text reads (WebFetch cannot reach these hosts). published_at is an estimate within 6 Nov Beijing time. The link to the Doubao assistant dispute is my inference, not stated by the notice.",
+      "score": {
+        "total": 70.6,
+        "components": {
+          "impact": 0.65,
+          "novelty": 0.8,
+          "credibility": 0.879,
+          "breadth": 0.565,
+          "momentum": 0.576
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "tsmc-weighs-3d-dram-memory-for-nvidia-shares-jump",
+      "title": "TSMC reportedly weighs making advanced memory chips at Nvidia's request; shares jump about 6%",
+      "summary": "The Information reported TSMC has begun drafting plans for 3D (stacked) DRAM at the request of Nvidia, its biggest customer, led by VP Hsu Kuo-chin, with options to build or convert an existing fab. TSMC's US shares rose roughly 5-8% depending on the source. TSMC has publicly denied exploring it, per Tom's Hardware, which says memory tech of this kind is years from viability.",
+      "why_it_matters": "It would put the leading foundry into a memory market where Samsung, SK hynix and Micron are supply-constrained, and signals Nvidia's push to secure memory supply.",
+      "key_numbers": [
+        "TSMC ADR +~6%",
+        "No timeline set"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "TSMC",
+        "Nvidia"
+      ],
+      "tickers": [
+        "TSM",
+        "2330.TW",
+        "NVDA"
+      ],
+      "published_at": "2026-11-06T14:01:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-jumped-6-report-could-151351522.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia"
+        },
+        {
+          "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "TSMC is weighing a move into AI memory chips at Nvidia's request"
+        },
+        {
+          "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "trade",
+          "title": "TSMC denies exploring 3D DRAM at Nvidia's request"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.7,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-level facts from search results; dates of The Next Web and Tom's Hardware pieces not shown, but the Tom's Hardware denial may post-date the harvest cluster. Harvest says Bloomberg/Reuters/The Information carried it; those URLs were Google-RSS links so not cited.",
+      "score": {
+        "total": 69.1,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.8,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "gemini-omni-1-2-flash-15s-video-30pct-cheaper",
+      "title": "Google ships Gemini Omni 1.2 Flash: 15-second video with audio, multi-turn editing, ~30% cheaper",
+      "summary": "Google released Gemini Omni 1.2 Flash, its video generation and editing model, via the Gemini API, AI Studio and Google Cloud. Clip length rises from 10 to 15 seconds, with multi-turn conversational editing, better reference following and synchronized audio at 360p to 4K, all with SynthID watermarking. Search-result summaries put 720p pricing near $0.07 per second, about 30% below Omni 1.1 Flash. The Gemini app version is limited to Google AI Ultra subscribers.",
+      "why_it_matters": "Longer clips and a lower per-second price move AI video editing closer to routine developer use, and keep pressure on rival video models.",
+      "key_numbers": [
+        "15s max clip (from 10s)",
+        "~$0.07/s at 720p (secondary)",
+        "~30% cheaper than Omni 1.1 Flash",
+        "131,072-token input limit",
+        "model ID gemini-omni-1.2-flash"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Gemini Omni 1.2 Flash",
+        "Google DeepMind"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-06T13:35:26Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "outlet": "Google Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+        },
+        {
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash",
+          "outlet": "Google Cloud Docs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini Omni 1.2 Flash | Gemini Enterprise Agent Platform"
+        },
+        {
+          "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Google blog page not fetchable (network blocked); details from search-result summaries only. Pricing ($0.07/s) and Ultra-only app access are snippet-level. One summary says announcement was Nov 5; harvest first-seen is Nov 6 13:35Z, which is used here.",
+      "score": {
+        "total": 62.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.88,
+          "breadth": 0.393,
+          "momentum": 0.82
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 0.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "us-intel-believes-jensen-huang-targeted-chinese-spy",
+      "title": "Report: US intelligence believes Chinese spy cultivated Jensen Huang; Verge says China recruited AI exec",
+      "summary": "Tom's Hardware, citing the FT and The Times, reports US intelligence believes Jensen Huang had a romantic relationship with a Chinese spy in a 'honeypot' operation, with the suspect linked to a company accused of smuggling about $2B of AI chips. The Verge, Engadget, NYT and Japan Times carried a related report that China recruited an AI executive to spy on Huang. The NYT first reported the Megaspeed-linked allegation on Oct 29; Nvidia said interactions with the executive were not unusual and past diversion claims were 'debunked', and China called it groundless.",
+      "why_it_matters": "Adds a counterintelligence angle to the export-control fight over Nvidia chips in China, with the Trump administration saying it is looking 'closely'.",
+      "key_numbers": [
+        "~$2B alleged chip smuggling",
+        "12 outlets in harvest cluster"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-06T23:00:44Z",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US intelligence believes Jensen Huang had affair with Chinese spy in honeypot operation"
+        },
+        {
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang"
+        }
+      ],
+      "coverage": 12,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Unproven intelligence-sourced allegation about a named person; attribute, do not state as fact. Bodies not fetched. Search could not confirm the 'affair/honeypot' framing (results only showed the NYT Oct 29 story, Nvidia denial and Chinese rebuttal), so the new-in-window element is the FT/Times framing per the harvest headline.",
+      "score": {
+        "total": 61.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.587,
+          "breadth": 0.865,
+          "momentum": 0.964
+        },
+        "coverage": 12,
+        "mentions": 5,
+        "baseline": 0.5,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "menlo-report-89pct-us-open-model-spend-chinese",
+      "title": "Menlo Ventures survey: 89% of US enterprise open-model spend goes to Chinese models, led by Kimi",
+      "original_title": "美企开源模型账单，89%付给中国AI",
+      "summary": "Chinese outlets on 6 Nov amplified Menlo Ventures' 2026 State of Enterprise AI report (published 3 Nov), which says about 89% of US enterprise spending on open-source models goes to Chinese models. The reported split is Kimi 61%, DeepSeek 15%, Zhipu GLM 11% and Alibaba Qwen 3%, against 7% for Meta's Llama, the top US open model. The survey asked 400 US enterprise decision-makers between 8 and 26 Sep via Morning Consult. Open models' token share rose from 11% to 19% while their spend share fell from 6% to 4%, which the report ties to falling token prices.",
+      "why_it_matters": "It quantifies how far price pressure is pushing US enterprises onto Chinese open weights, feeding the policy debate on restricting their use.",
+      "key_numbers": [
+        "89% of US open-model spend to Chinese models",
+        "Kimi 61% / DeepSeek 15% / GLM 11% / Qwen 3%",
+        "Llama 7%",
+        "400 respondents"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Menlo Ventures",
+        "Moonshot AI",
+        "DeepSeek",
+        "Zhipu",
+        "Alibaba Qwen"
+      ],
+      "tickers": [
+        "2513.HK"
+      ],
+      "published_at": "2026-11-06T10:29:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34418618",
+          "outlet": "The Paper",
+          "lang": "zh",
+          "tier": "press",
+          "title": "报告：美国企业AI开源模型支出中，中国模型占据89%份额"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xq2MAS3WvL",
+          "outlet": "Phoenix Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "美国企业开源模型账单，89%付给中国AI"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LB2E65EF0514R9OJ.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "硅谷最新报告：美国企业支付开源模型的费用89%流向中国"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The report itself is dated 3 Nov, so only the Chinese amplification falls in the window; published_at is the harvest first-seen time. I did not read the Menlo report (an English search did not surface it), so figures come from Chinese-press snippets. Survey of ~400 respondents, not market-wide data; Menlo is an Anthropic investor; critics note OpenRouter data skews to developers and startups. Zhipu ticker included because it is named.",
+      "score": {
+        "total": 61.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "crusoe-sells-wyoming-data-center-project-to-google",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "summary": "Crusoe says Google has acquired its data center site in southeast Wyoming, and TechCrunch reports the sale of the troubled project. Crusoe paused the 1.8GW Cheyenne-area campus in June at its customer's request, and Bloomberg later reported Google had concerns about cost and timeline. Google has since been identified as the customer behind the campus, now called Project Tembo (2.7GW), developed via subsidiary Jupiter Star Holdings.",
+      "why_it_matters": "A hyperscaler taking over a neocloud's stalled build shows how financing and schedule risk is shifting AI campuses to the biggest balance sheets.",
+      "key_numbers": [
+        "1.8GW (Crusoe, Project Jade)",
+        "2.7GW (Google, Project Tembo per DCD/GCN)",
+        "Operational early 2028 (Black Hills)"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Crusoe",
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-06T20:09:14Z",
+      "sources": [
+        {
+          "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+          "outlet": "Crusoe",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Google has acquired Crusoe's data center site in southeast Wyoming"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Crusoe sells troubled Wyoming data center project to Google"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Bodies not fetched; sale price/terms unknown. Background from June-July 2026 search results (Bloomberg-sourced, Cowboy State Daily, DCD).",
+      "score": {
+        "total": 60.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.78,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "anthropic-project-eve-claude-eve-online-trading-sabotage",
+      "title": "Anthropic's Project EVE: Claude agents trade in EVE Online and run fleets in EVE Frontier, with sabotage tests",
+      "summary": "Anthropic's Frontier Red Team, with EVE developer Fenris Creations, tested Claude on long-horizon work in two MMORPGs. In a simulator replaying Jita market orders, Opus 4.7, Opus 4.8 and Fable 5 were profitable in every two-week window (about 16%, 22% and 43% growth) versus about 4% for Opus 4.6. In EVE Frontier, four-agent teams struggled with reaction time and spatial awareness; when one agent was secretly told to sabotage, teammates almost never identified it, while a limited-access monitor agent caught 30-40% at a 5% false-accusation rate.",
+      "why_it_matters": "It is a concrete long-horizon agent evaluation showing fast generation-over-generation gains and a measurable weakness in detecting a deceptive teammate in multi-agent systems.",
+      "key_numbers": [
+        "Two-week avg growth: Fable 5 ~43%, Opus 4.8 ~22%, Opus 4.7 ~16%, Opus 4.6 ~4%",
+        "Six-month earnings ~200% to ~600% of capital (Opus 4.6 to Fable 5)",
+        "Monitor agents caught 30-40% of saboteurs at 5% false accusations",
+        "Fable 5 team finished tutorial in 12h on its own scaffold",
+        "Warship goal: best team about halfway"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Fenris Creations",
+        "Claude Fable 5",
+        "EVE Online"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T20:52:05Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Project EVE: Claude plays MMORPGs"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Single primary source (fetched in full); no independent coverage seen yet. Lead-worthy by primary-source rule.",
+      "score": {
+        "total": 55.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.924
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 1.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "doubao-work-personal-drops-5-hour-quota",
+      "title": "ByteDance's Doubao Work personal edition drops its 5-hour usage cap; weekly quota stays",
+      "original_title": "豆包工作个人版取消5小时额度限制",
+      "summary": "From 6 Nov, the personal edition of ByteDance's Doubao Work no longer applies the short 5-hour quota window. Previously users on a dual 5-hour and 7-day scheme had to wait for the short window to reset even with weekly quota left. Weekly quotas and plan rules still apply, and users can check them under Settings, Subscription and Quota Management.",
+      "why_it_matters": "It removes a main complaint about Doubao's paid agent tier (users hit 'not enough compute' limits within hours) as ByteDance competes for paying office-agent users.",
+      "key_numbers": [
+        "5-hour cap removed from Nov 6",
+        "Weekly (7-day) quota unchanged"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "Doubao"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T09:06:56Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/414.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "豆包工作个人版取消 5 小时额度限制"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xpot5GoKl7",
+          "outlet": "Phoenix Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豆包工作个人版取消5小时额度限制"
+        },
+        {
+          "url": "https://www.sohu.com/a/1098101432_122014422",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豆包工作个人版取消5小时额度限制_用户_剩余_套餐"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.35,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Based on search summaries; IT之家 cites Time Finance reporting and no official ByteDance notice was found.",
+      "score": {
+        "total": 53.8,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.393,
+          "momentum": 0.82
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 0.167,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "microsoft-winding-down-oracle-ai-cloud-capacity-deal",
+      "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg reports",
+      "summary": "Reuters, relaying Bloomberg News, reports Microsoft is winding down its agreement to rent AI cloud capacity from Oracle. Secondary headlines (24/7 Wall St., Crowdfund Insider) tie it to outdated Nvidia chips. This follows a June 2026 Business Insider report that a separate Microsoft-Oracle lease of over $3B collapsed over FedRAMP; Oracle disputed that account.",
+      "why_it_matters": "A hyperscaler handing back rented GPU capacity feeds the narrative of AI capex digestion and chip-generation obsolescence risk for Oracle's backlog.",
+      "key_numbers": [
+        "Earlier June report: >$3B lease"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "Oracle",
+        "Nvidia"
+      ],
+      "tickers": [
+        "MSFT",
+        "ORCL"
+      ],
+      "published_at": "2026-11-06T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+          "outlet": "Reuters",
+          "lang": "en",
+          "tier": "press",
+          "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Body not fetched; deal size and chip rationale unverified (search found only the June story). published_at approximated from the Reuters URL date (Nov 6); exact time unknown.",
+      "score": {
+        "total": 53.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.393,
+          "momentum": 0.576
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "alibaba-qwen-official-teaser-qwen4-kun",
+      "title": "Alibaba Qwen account teases Qwen4 with 'North Sea has a fish' post; no release date given",
+      "original_title": "阿里千问Qwen4系列大模型发布在即",
+      "summary": "On the evening of 6 Nov the official Qwen account posted a teaser reading '北冥有鱼，其名为_', widely read as pointing to 鲲 (kun, a pun on Qwen) and to the Qwen4 launch. Chinese outlets say the series will include Max, Plus, Flash and a locally deployable 27B variant, and expect the four not to ship together, possibly through November and December. Alibaba has not stated a date or specs; flagship parameter counts above 3 trillion are outside speculation.",
+      "why_it_matters": "Qwen4 is Alibaba's next-generation flagship family; the first official teaser makes a November launch more likely but is not confirmation.",
+      "key_numbers": [
+        "4 announced variants: Max, Plus, Flash, 27B"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Alibaba Qwen",
+        "Alibaba"
+      ],
+      "tickers": [
+        "BABA",
+        "9988.HK"
+      ],
+      "published_at": "2026-11-06T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-06/doc-inixvfew8852067.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "一门四豪杰 阿里千问Qwen4系列大模型即将发布"
+        },
+        {
+          "url": "https://www.sohu.com/a/1098217726_121423427",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "阿里千问Qwen4系列大模型发布在即"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Teaser text and variant list come from search summaries of the Sina and Sohu pieces; I did not see the original post. published_at is an estimate (the post was 'tonight', 6 Nov Beijing time). The Qwen4 rumour is already tracked; this is only the official teaser. The 'next week' remark attributed to a Alibaba Cloud CTO comes from social relays and is not used.",
+      "score": {
+        "total": 53.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.777
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "anthropic-components-of-agent-memory-dreaming",
+      "title": "Anthropic details 'dreaming' agent memory: offline consolidation lifts CL-Bench scores up to 0.83",
+      "summary": "An Anthropic Engineering post breaks agent memory into transcripts, memory notes, structured representations such as wikis, and a small injected-context layer, and describes 'dreaming', an offline pass where an agent reviews logs, corrects wrong notes and builds wikis. On the CL-Bench database task, memory lifted Opus 5.5 from 0.655 to 0.838 and Sonnet 5 from 0.306 to 0.610. On a roughly 350,000-file corpus, a wiki built over 128 dreaming sessions raised scores from 13% to 48%. The post flags compute cost and memory drift as risks.",
+      "why_it_matters": "It gives practical, measured design guidance for long-running agents, and shows stronger models decide what to remember better than fixed rules.",
+      "key_numbers": [
+        "CL-Bench: Opus 5.5 0.655 to 0.838",
+        "Sonnet 5 0.306 to 0.610",
+        "Wiki corpus ~350k files: 13% to 48%",
+        "Wiki plus search 61% vs 53% search alone",
+        "Claude Code loads first 200 lines or 25 KB of memory index"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Claude Code",
+        "Claude Opus 5.5",
+        "Claude Sonnet 5"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "The components of agent memory"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Published_at is date-only (Nov 6) from the Anthropic research index; time unknown. Hit 138 points on Hacker News.",
+      "score": {
+        "total": 53.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.924
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 1.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "openai-biobasicsbench-wet-lab-agents",
+      "title": "OpenAI releases BioBasicsBench: 100 routine wet-lab tasks to test AI agents",
+      "summary": "OpenAI published a benchmark, developed with enzyme-design company Ligo, of 100 tasks testing whether agents can interpret raw evidence from routine wet-lab work across protein methods, imaging and cytometry, assays, nucleic acid methods and molecular cloning. Each task had three reviews including an external PhD-level wet-lab scientist. OpenAI cautions that higher scores do not yet mean reliable lab judgment; in one colony-counting task its named model overcounted by roughly 12%.",
+      "why_it_matters": "It targets messy, failed-experiment data rather than curated paper figures, a closer proxy for real lab automation.",
+      "key_numbers": [
+        "100 tasks",
+        "5 wet-lab areas",
+        "3-stage review",
+        "~12% overcount in colony-counting example"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Ligo",
+        "BioBasicsBench"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T19:09:23Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Measuring how AI agents handle everyday wet-lab science"
+        },
+        {
+          "url": "https://www.unite.ai/openai-introduces-biobasicsbench-to-test-ai-agents-on-wet-lab-data/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Introduces BioBasicsBench to Test AI Agents on Wet-Lab Data"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "OpenAI page not fetchable; details from search summaries. Open release of dataset is unverified. Model named 'Astra' in one secondary summary, not confirmed.",
+      "score": {
+        "total": 52.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.7,
+          "breadth": 0.283,
+          "momentum": 0.842
+        },
+        "coverage": 2,
+        "mentions": 4,
+        "baseline": 1.167,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "us-allowed-nvidia-chip-sales-to-empty-china-office",
+      "title": "The Verge: US let Nvidia sell chips to an empty office in China",
+      "summary": "The Verge reports the US government allowed Nvidia to sell AI chips to an empty office in China, in a story framed around a blacklist. Details were not retrievable.",
+      "why_it_matters": "Another export-control enforcement-gap story landing alongside the Huang spy report and the Hong Kong H200 backlog.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "US government"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-07T15:43:45Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "The US let Nvidia sell chips to an empty office in China"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Headline only; Verge not fetchable and search could not locate it. Possibly related to NYT's Megaspeed reporting (near-empty Singapore office), but that link is unverified. Do not lead.",
+      "score": {
+        "total": 50.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.964
+        },
+        "coverage": 1,
+        "mentions": 5,
+        "baseline": 0.5,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "ai-backlash-spreads-europe-data-center-protests",
+      "title": "AI backlash spreads across Europe with data center protests, Bloomberg reports",
+      "summary": "Bloomberg reports data center protests are spreading across Europe, echoing the US midterm ballot-measure losses for data centers. CNBC separately reports OpenAI's CFO says it will keep investing in data centers despite the election results.",
+      "why_it_matters": "Siting and power opposition is becoming a transatlantic constraint on AI buildout.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "eu",
+      "entities": [
+        "Bloomberg",
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-07T18:20:19Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/ai-backlash-spreads-across-europe-with-data-center-protests",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI Backlash Spreads Across Europe With Data Center Protests"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "data-center-backlash-43-1-tech-concessions-openai-no-ndas",
+      "confidence_note": "Headlines only; locations and numbers unknown. Primary entity is placeholder; adjust once body is read.",
+      "score": {
+        "total": 50.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "democrats-launch-probes-spacexai-meta-apple",
+      "title": "Democrats launch congressional investigations into SpaceXAI, Meta and Apple, WaPo reports",
+      "summary": "The Washington Post reports Democrats are launching congressional investigations into SpaceXAI, Meta and Apple as corporate America faces a Democratic reckoning after the midterms.",
+      "why_it_matters": "Signals oversight pressure on AI and big-tech firms once Democrats hold investigative power.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "SpaceXAI",
+        "Meta",
+        "Apple",
+        "Democrats"
+      ],
+      "tickers": [
+        "META",
+        "AAPL"
+      ],
+      "published_at": "2026-11-06T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning/",
+          "outlet": "Washington Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "After courting Trump, corporate America faces Democratic reckoning"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Headline known only via Hacker News title; published_at is approximate (URL date Nov 6, time unknown). Scope of probes unverified.",
+      "score": {
+        "total": 47.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "openai-hacktron-partnership-daybreak-red",
+      "title": "OpenAI partners with Hacktron to probe links between its platforms and third-party services",
+      "summary": "OpenAI announced a partnership with AI-security firm Hacktron to find vulnerabilities in OpenAI's systems, focused on connections to outside services. Hacktron gets wider access to frontier models through the Daybreak Red program. OpenAI says it noticed the firm through its Security Bug Bounty program. Unite.ai, citing Hacktron's own timeline, adds that Hacktron chained two critical flaws on July 25, 2026 to reach employee ChatGPT accounts and was paid a $6,500 bounty on Sep 1.",
+      "why_it_matters": "It shows a frontier lab formalising AI-agent-driven red teaming after a bounty report, and ties to Hacktron's earlier use of Claude in the exploit.",
+      "key_numbers": [
+        "$6,500 bounty (Hacktron timeline, secondary)",
+        "Daybreak Red program access"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Hacktron"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T18:17:05Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/partnering-with-hacktron/",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems"
+        },
+        {
+          "url": "https://www.unite.ai/openai-partners-with-hacktron-to-test-third-party-service-connections/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Partners With Hacktron to Test Third-Party Service Connections"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "OpenAI post not fetched; bounty and July/Sept timeline are Hacktron-sourced via secondary report. The earlier Hacktron breach was reported in September.",
+      "score": {
+        "total": 46.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.7,
+          "breadth": 0.393,
+          "momentum": 0.842
+        },
+        "coverage": 3,
+        "mentions": 4,
+        "baseline": 1.167,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "deepseek-web-api-45-minute-partial-outage-nov7",
+      "title": "DeepSeek web and API suffer 45-minute partial outage on Nov 7",
+      "original_title": "DeepSeek网页/API服务恢复正常，今天下午一度中断45分钟",
+      "summary": "DeepSeek's web chat and API had a partial outage on 7 Nov, shown on its status page from 15:11 to 15:56 Beijing time (45 minutes), with 'server temporarily unavailable' errors. The status page said a fix was applied and was being monitored, and one report says the chat service and V4 Pro and V4.1 Flash APIs were affected. It follows a 1h49m incident on 3 Nov and a 4h52m outage on 15 Oct, and Phoenix counts at least 10 large outages this year.",
+      "why_it_matters": "Repeated outages at China's best-known lab feed reliability concerns for developers building on DeepSeek's API and Harness agent platform.",
+      "key_numbers": [
+        "45 min (15:11-15:56 CST)",
+        "1h49m on Nov 3",
+        "4h52m on Oct 15",
+        "10+ large outages in 2026"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-07T07:18:03Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/758.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek 网页 / API 服务恢复正常，今天下午一度中断 45 分钟"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xrT2TRsnMr",
+          "outlet": "Phoenix Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek网页/ API服务恢复正常，今天下午一度中断45分钟"
+        },
+        {
+          "url": "https://www.sohu.com/a/1098544407_160447",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek又崩了，官方：中断问题已实施修复，正在监控结果"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.35,
+      "novelty": 0.15,
+      "follow_up_of": null,
+      "confidence_note": "Details from search summaries. A harvest cluster ('DeepSeek又崩了', 11:57Z) may be a second incident or later coverage of this one; I could not tell. Cause unannounced.",
+      "score": {
+        "total": 45.4,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.15,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.736
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 0.5,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "ai2-toyblocks-foundation-world-robot-learning",
+      "title": "Ai2 introduces ToyBlocks, an open simulated tabletop world for robot learning and evaluation",
+      "summary": "Ai2 published ToyBlocks, described as its first foundation world: a simulated robot arm with blocks that generates demonstrations without teleoperation by combining reinforcement learning and motion planning, with skill training in Nvidia's Isaac Lab. Tools let researchers vary test conditions and measure more than task success. Companion Hugging Face models are Molmo2-4B-tb, a high-level planner, and ManiFlow-tb, a low-level action model.",
+      "why_it_matters": "A controlled sim lets researchers pin down why robot policies fail, though real-world performance is not yet reported.",
+      "key_numbers": [
+        "2 companion models: Molmo2-4B-tb, ManiFlow-tb"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Allen Institute for AI",
+        "ToyBlocks",
+        "Hugging Face"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T14:00:48Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "outlet": "Hugging Face Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation"
+        },
+        {
+          "url": "https://hyper.ai/en/stories/27984b16f9bcc04a3d6e5e0545da4ba2",
+          "outlet": "Hyper.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "ToyBlocks Introduces Controlled Robot Learning and Evaluation Environment"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Blog not fetchable; from search summaries. A '24x real-time' figure in secondary articles was left out as unverified.",
+      "score": {
+        "total": 45.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.7,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "planned-obsolescence-cotra-ai-accelerating-ai-research",
+      "title": "Ajeya Cotra essay argues Anthropic's RSP 'dramatic acceleration' threshold looks already crossed",
+      "summary": "An essay on Planned Obsolescence, reported as by Ajeya Cotra, builds on the METR report on Anthropic. Per secondary summaries it converts a roughly 2x R&D speedup into about 10x uplift per researcher, close to Anthropic staff self-reports of about 12x that METR did not weight heavily. It argues naive extrapolation points to superintelligence within about a year if the speedup compounds. Commenters question whether compute, capital or data effects explain the gain.",
+      "why_it_matters": "It is the most-discussed reaction piece (356 HN points) to the METR finding, and sharpens the debate on recursive self-improvement thresholds.",
+      "key_numbers": [
+        "~2x R&D speedup to ~10x per-researcher uplift (essay math)",
+        "~12x staff self-report",
+        "~80% of acceleration attributed to AI (METR, secondary)",
+        "356 HN points"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Ajeya Cotra",
+        "Planned Obsolescence",
+        "METR",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T20:27:23Z",
+      "sources": [
+        {
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "outlet": "Planned Obsolescence",
+          "lang": "en",
+          "tier": "primary",
+          "title": "AI is dramatically accelerating AI research"
+        },
+        {
+          "url": "https://ai-tldr.dev/releases/ajeya-cotra-ai-accelerating-ai-research-nov6/",
+          "outlet": "ai-tldr.dev",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Ajeya Cotra: AI is dramatically accelerating AI research"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "metr-anthropic-rate-of-ai-improvement-roughly-doubled",
+      "confidence_note": "Essay not fetchable; all figures from aggregator summaries. Opinion piece, commentary on already-covered METR report.",
+      "score": {
+        "total": 44.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.7,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "minimax-yan-junjie-open-source-until-agi-interview",
+      "title": "MiniMax founder says it will keep open-sourcing until AGI and profit by cutting inference cost, not raising prices",
+      "original_title": "MiniMax创始人罕见公开访谈：将一直开源直到实现AGI，盈利靠压低推理成本不靠涨价",
+      "summary": "In a rare public interview relayed by Chinese media on 6 Nov, MiniMax founder Yan Junjie said the company will continue open-sourcing models until AGI and plans to make money by lowering inference cost rather than raising prices. He called low inference cost both a revenue and a profit moat and said revenue growth will outpace cost growth; M3 kept M2-series pricing while improving intelligence. Coverage restates that ARR passed $800M in August, as disclosed at the 26 Aug results, with about 80% from enterprise customers; H1 revenue was roughly $117M against a $358M net loss.",
+      "why_it_matters": "It is the clearest statement yet of how a listed Chinese lab intends to square open weights with profitability while it still burns cash.",
+      "key_numbers": [
+        "ARR above $800M (Aug)",
+        "~80% of ARR from enterprise",
+        "H1 revenue about $117M (+283%)",
+        "H1 net loss about $358M"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "Yan Junjie"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T10:18:50Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/dy/article/LB2QA2EQ05198NMR.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MiniMax创始人罕见公开访谈：将一直开源直到实现AGI，盈利靠压低推理成本不靠涨价"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Interview content known only from a search summary of the NetEase piece; the original venue and date (reportedly a podcast) are not confirmed, and I did not read the full text. ARR and financials are company-reported from the August results; SCMP reported Yan privately acknowledged ARR was computed from one week of revenue times 52. MiniMax HK ticker not verified, so left empty. Not lead-worthy: one outlet seen directly.",
+      "score": {
+        "total": 44.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.576
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "ramp-data-ai-spending-stalling-before-anthropic-ipo",
+      "title": "Ramp data shows AI spending stalling as Anthropic nears its IPO, TechCrunch reports",
+      "summary": "TechCrunch reports Ramp card-spend data shows business AI spending stalling just as Anthropic approaches its IPO. Earlier Ramp data had shown Anthropic overtaking OpenAI in business spending share in May.",
+      "why_it_matters": "Enterprise spend is the key input to Anthropic's growth story and its IPO valuation debate.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Ramp",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T15:54:47Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Headline only; no figures could be retrieved (WebFetch blocked, search found no copy). Do not lead.",
+      "score": {
+        "total": 43.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 23
+    },
+    {
+      "id": "anthropic-teaching-ai-to-build-scientific-models-macke",
+      "title": "Anthropic guest post: AI should return distributions of plausible scientific models, not one best fit",
+      "summary": "A guest post by Jakob Macke, Daniel Gedon and Stefan Wahl (ELLIS Institute Tubingen) for Anthropic's Science team, written as AI for Science grantees, splits scientific modeling into building, constraining and interpreting. Simulation-based inference trains networks on simulator runs to recover plausible parameter ranges without a likelihood, and can infer from new data in seconds. They argue LLM agents that build models should return a weighted set of candidates, and note most evidence so far comes from rediscovering known models.",
+      "why_it_matters": "It frames how AI-built models should express uncertainty, a technical stance relevant to AI-for-science tooling.",
+      "key_numbers": [
+        "~100,000 simulations for Hodgkin-Huxley SBI",
+        "Illustrative model clusters 41/39/11/9%"
+      ],
+      "topic": "research",
+      "region": "eu",
+      "entities": [
+        "Anthropic",
+        "ELLIS Institute Tubingen",
+        "University of Tubingen"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T19:03:59Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Teaching AI to build scientific models"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Guest/opinion-style essay, not a new result.",
+      "score": {
+        "total": 42.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.924
+        },
+        "coverage": 1,
+        "mentions": 6,
+        "baseline": 1.333,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 24
+    },
+    {
+      "id": "nvidia-flux-3-image-klein-blackwell-nvfp4",
+      "title": "NVIDIA: FLUX 3 Image Klein runs up to ~3.5x faster on Blackwell with NVFP4 and TensorRT LLM VisualGen",
+      "summary": "An NVIDIA Technical Blog post details accelerating FLUX 3 Image Klein on Blackwell using NVFP4 quantization, fused kernels, torch.compile and caching in TensorRT LLM VisualGen. Per search-result summaries, NVFP4 plus compilation gives up to 1.62x on text-to-image over BF16 on one B200, and the full stack reaches up to 3.46x (4.45x image-to-image), cutting 2048x2048 latency from 22.36s to 6.46s. Eight-GPU DGX B200 median latency fell from 14.90s to 3.00s on the Base model.",
+      "why_it_matters": "It shows low-precision and caching gains for diffusion inference, a push to sell Blackwell for image workloads.",
+      "key_numbers": [
+        "up to 3.46x text-to-image on one B200",
+        "4.45x image-to-image",
+        "22.36s to 6.46s at 2048x2048",
+        "14.90s to 3.00s on 8-GPU DGX B200"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "NVIDIA",
+        "Black Forest Labs",
+        "FLUX 3 Image Klein"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-06T22:22:02Z",
+      "sources": [
+        {
+          "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+          "outlet": "NVIDIA Developer Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "NVIDIA page not fetchable; all numbers from search-result snippets and secondary summaries. Black Forest Labs is not confirmed as a party to the post.",
+      "score": {
+        "total": 40.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.964
+        },
+        "coverage": 1,
+        "mentions": 5,
+        "baseline": 0.5,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 25
+    },
+    {
+      "id": "trae-accounts-auto-upgrade-doubao-feishu-nov18",
+      "title": "ByteDance to auto-convert TRAE accounts into Doubao-Feishu accounts from Nov 18",
+      "original_title": "TRAE账号将于11月18日自动升级为豆包飞书账号",
+      "summary": "From 18 Nov, TRAE accounts will be upgraded automatically to unified Doubao-Feishu accounts, per IT之家. Code, projects, history, membership, benefits and points are kept, and the one account will log in to the Doubao app, Feishu, PICO, Volcano Engine and the Doubao keyboard. If the TRAE and Doubao phone numbers differ or no Doubao account exists, a new account is created from the TRAE number, the old one persists in parallel, and Douyin and Apple logins must be rebound.",
+      "why_it_matters": "It completes the folding of ByteDance's coding tool into the Doubao identity, after the Aug 24 merger of TRAE and Coze into Doubao.",
+      "key_numbers": [
+        "Effective 2026-11-18"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "TRAE",
+        "Doubao",
+        "Feishu"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-06T14:20:03Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/552.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "11 月 18 日起，字节 TRAE 账号将自动升级为豆包飞书账号"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet seen; official TRAE notice not found. Details from a search summary.",
+      "score": {
+        "total": 36.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.82
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 26
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-10",
+      "title": "CoreWeave Q3 2026 results (after close, 5pm ET)",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Nebius Q3 2026 results",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Applied Materials FQ4 2026 results call (4:30pm ET)",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://ir.appliedmaterials.com/events/event-details/q4-2026-applied-materials-earnings-conference-call"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Nvidia FQ3 FY2027 earnings (date per Earnings Whispers; Nov 18 also listed, not official)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.earningswhispers.com/stocks/Nvda"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "ByteDance TRAE accounts auto-upgrade to Doubao-Feishu accounts",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.ithome.com/1/023/552.htm"
+    }
+  ],
+  "notes": "Two-day window (no 2026-11-06 issue). WebFetch was blocked for most news domains; many facts rest on search summaries, flagged in confidence_note.",
+  "learn": [
+    {
+      "id": "monitor-recall-at-fixed-fpr",
+      "gap": "llm-eval",
+      "title": "Report a monitor's recall at a fixed false-accusation rate, with an interval",
+      "item_ids": [
+        "anthropic-project-eve-claude-eve-online-trading-sabotage"
+      ],
+      "why_today": "The Project EVE item reports monitor agents catching 30-40% of saboteurs at 5% false accusations, a recall-at-fixed-FPR number.",
+      "explanation": "A monitor outputs a score; a single accuracy figure hides the trade-off between catching saboteurs and accusing honest agents. Fix the false-positive rate first (here 5%), set the threshold at the matching quantile of honest-agent scores, then report recall (true-positive rate) at that threshold. With only tens of positives the estimate is noisy, so bootstrap the saboteur scores to get an interval. It breaks when honest scores are not representative of deployment, or when saboteurs adapt to the threshold. The numbers below are illustrative, not from the Anthropic study.",
+      "math": "\\mathrm{thr}=Q_{1-\\alpha}(s_{\\text{honest}}),\\quad \\mathrm{recall}=\\frac{1}{n}\\sum_i \\mathbf{1}[s_i>\\mathrm{thr}]",
+      "python": "import random\nrandom.seed(0)\n# Illustrative: a monitor scores agents; saboteurs score higher on average.\nn_s, n_h = 40, 400\nsab = [random.gauss(1.5, 1.0) for _ in range(n_s)]\nhon = [random.gauss(0.0, 1.0) for _ in range(n_h)]\n# threshold = (1 - FPR) quantile of honest scores\nfpr = 0.05\nthr = sorted(hon)[int((1 - fpr) * n_h)]\ntp = sum(s > thr for s in sab)\nrecall = tp / n_s\ndef boot():\n    r = [random.choice(sab) for _ in range(n_s)]\n    return sum(s > thr for s in r) / n_s\nbs = sorted(boot() for _ in range(2000))\nprint(f\"threshold={thr:.2f} recall@5%FPR={recall:.2f} 95% CI=({bs[50]:.2f},{bs[1949]:.2f})\")\n",
+      "minutes": 15
+    }
+  ]
+}
