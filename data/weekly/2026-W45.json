@@ -1,0 +1,43 @@
+{
+  "week": "2026-W45",
+  "headline": "Data-center backlash at the ballot box hit AI-chip stocks hard, while Anthropic's IPO pricing and OpenAI's downsized raise showed capital getting pickier.",
+  "themes": [
+    {
+      "title": "Voters turn on the data-center buildout",
+      "summary": "Local ballot measures went overwhelmingly against data-center development, and on Nov 5 the semiconductor index fell about 11% with Nvidia down 9.26%. Democrats called for tighter limits, and tech firms offered concessions such as OpenAI avoiding NDAs on projects.",
+      "item_ids": [
+        "data-center-ballot-results-37-of-38-against-industry",
+        "ai-chip-rout-nov5-sox-worst-day-since-2020",
+        "data-center-backlash-43-1-tech-concessions-openai-no-ndas",
+        "democrats-national-data-center-moratorium-call-texas-nov5"
+      ]
+    },
+    {
+      "title": "Mega-valuations meet a tougher market",
+      "summary": "OpenAI completed an $11B portion of its raise at $1.25T, below the roughly $1.4T it sought, while buyers eyed Anthropic's IPO at as low as $1.1T and the FT reported the listing was still proceeding.",
+      "item_ids": [
+        "openai-closes-11b-tranche-at-1-25t-valuation",
+        "anthropic-ipo-valuation-1-1t-to-1-5t-ft-says-proceeding"
+      ]
+    },
+    {
+      "title": "Chips, China and Nvidia",
+      "summary": "AMD guided Q4 revenue to about $17B on data-center growth of 97% year on year, while about 600,000 Nvidia H200s sat in Hong Kong awaiting Beijing's approval. Reports that US intelligence believes a Chinese spy targeted Jensen Huang added a governance and export-control storyline that continued into Nov 8.",
+      "item_ids": [
+        "amd-q3-2026-q4-guide-17b-data-center-97pct",
+        "nvidia-600k-h200-chips-stuck-hong-kong-china-approval",
+        "us-intel-believes-jensen-huang-targeted-chinese-spy"
+      ]
+    },
+    {
+      "title": "Chinese labs ship open and multimodal models",
+      "summary": "Moonshot published Kimi K3.1 Pro weights on Hugging Face as promised, and Tencent released its official Hy4 with vision and computer use, saying weights and a system card would follow.",
+      "item_ids": [
+        "moonshot-kimi-k3-1-pro-open-weights-released",
+        "tencent-hy4-official-release-770b-vision-computer-use"
+      ]
+    }
+  ],
+  "upcoming": [],
+  "notes": ""
+}

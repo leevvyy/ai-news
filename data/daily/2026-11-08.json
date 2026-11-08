@@ -1,0 +1,602 @@
+{
+  "date": "2026-11-08",
+  "window": {
+    "start": "2026-11-07T21:48:00Z",
+    "end": "2026-11-08T21:48:00Z"
+  },
+  "tldr": [
+    "Nvidia's board and Jensen Huang each published statements on Nov 8 after a US intelligence memo reported a Megaspeed executive was tasked to spy on Huang; Tom's Hardware says Huang has been called to Congress. We could not read the posts, so their contents are not summarised.",
+    "Quiet day for models: llama-modchip claims DeepSeek-V4-Flash (284B MoE) runs CPU-only in 64 GB at 9-15 tok/s using 1.71-bit weights (self-reported), and Video Rebirth shrank MiniMax-H3 video from ~31B to ~14B parameters.",
+    "China: China Mobile's cloud unit signed a compute and model-services deal with Zhipu, and the energy regulator says compute-led demand adds roughly three Shanghais of power use a year (both single-outlet, headline-level)."
+  ],
+  "items": [
+    {
+      "id": "nvidia-board-statement-and-huang-message-megaspeed",
+      "title": "Nvidia's board and CEO publish statements after reports that a Megaspeed executive was tasked to spy on Huang",
+      "summary": "Nvidia's newsroom posted 'Statement from NVIDIA Board of Directors' (about 20:00Z) and 'A Message to Our Company' (about 21:02Z) on Nov 8. They follow a US intelligence memo, reported Nov 7 by TechCrunch and Tom's Hardware, saying a Megaspeed executive was recruited to spy on CEO Jensen Huang. Tom's Hardware also reports Huang has been formally called to Congress over the matter, with four outlets covering that thread.",
+      "why_it_matters": "Governance questions at the leading AI-chip supplier land days before its earnings and add to export-control scrutiny of chip sales to China-linked buyers.",
+      "key_numbers": [
+        "2 Nvidia primary posts within about 1 hour",
+        "4 outlets on the Congress thread"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-08T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Statement from NVIDIA Board of Directors"
+        },
+        {
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "A Message to Our Company"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia's Jensen Huang officially called to Congress"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": "us-intel-believes-jensen-huang-targeted-chinese-spy",
+      "confidence_note": "The two Nvidia posts were seen only as titles, URLs and timestamps in the harvest; the pages could not be fetched (host not reachable here), so their contents are NOT summarised. Searches returned conflicting, non-primary summaries about what the board decided, so none is repeated. Read the posts before relying on specifics. 'Officially called' is Tom's Hardware's wording; it may be a request rather than a subpoena.",
+      "score": {
+        "total": 67.7,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.835,
+          "breadth": 0.487,
+          "momentum": 0.37
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 1.167,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "llama-modchip-deepseek-v4-flash-284b-cpu-64gb",
+      "title": "llama-modchip claims DeepSeek-V4-Flash (284B MoE) runs CPU-only in 64 GB RAM at about 9-15 tok/s",
+      "summary": "The open-source llama-modchip project (Apache-2.0) patches llama.cpp kernels and ships quantisation tools to run big MoE models from system RAM. Its README says DeepSeek-V4-Flash (284.33B total, 13.17B active) is quantised to 56.56 GiB at 1.71 bits per weight, peaking at 57.61 GiB RSS at 256K context. It reports 44.36 tok/s prefill and 9.06-14.7 tok/s decode on a Ryzen 9 9955HX with 64 GB DDR5.",
+      "why_it_matters": "If the claims hold, a frontier-scale open-weight MoE runs on a high-end laptop with no GPU. Quality at 1.71 bits is untested, and the custom tensor format does not load in stock llama.cpp.",
+      "key_numbers": [
+        "284.33B total / 13.17B active",
+        "56.56 GiB at 1.71 bpw",
+        "9.06-14.7 tok/s decode",
+        "44.36 tok/s prefill"
+      ],
+      "topic": "models",
+      "region": "global",
+      "entities": [
+        "llama-modchip",
+        "DeepSeek",
+        "llama.cpp"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T10:22:00Z",
+      "sources": [
+        {
+          "url": "https://github.com/synchopate/llama-modchip",
+          "outlet": "GitHub (synchopate)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "llama-modchip: CPU-First Inference for 284B & 30B MoE Models"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Self-reported README numbers only; no independent test. published_at is the Hacker News first-seen time (304 points), an estimate. The README is internally inconsistent on peak RSS (57.61 vs 58.9 GiB).",
+      "score": {
+        "total": 46.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "hyperflow-h3-flash-minimax-h3-compressed-6-step",
+      "title": "Video Rebirth's HyperFlow H3 Flash shrinks MiniMax-H3 video model from about 31B to about 14B parameters for 4-8 step generation",
+      "summary": "Video Rebirth published HyperFlow H3 Flash on GitHub, a pruned, low-rank-factorised and INT8-quantised derivative of MiniMax-H3 with 13.7-13.9B parameters versus about 31B. It runs in 4, 6 (default) or 8 steps without classifier-free guidance. Self-reported timings are 8.7 s for a 5.2 s clip on 4x B200, 36 s on one H200 and 92 s on one RTX 5090.",
+      "why_it_matters": "Third parties are turning an open-weight video model into one that fits consumer GPUs. The licence reportedly excludes the US, EU, UK and South Korea without MiniMax's authorisation.",
+      "key_numbers": [
+        "31B to about 14B params",
+        "6 default steps",
+        "92 s on RTX 5090",
+        "GGUF 7.2-14.9 GB"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Video Rebirth",
+        "MiniMax"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-07T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+          "outlet": "GitHub (Video-Rebirth)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "HyperFlow H3 Flash"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Single primary source (README); speeds are self-reported. published_at estimated from the Hacker News listing (75 points, first seen 2026-11-07T18:02Z). Licence reading is from the README via a subagent.",
+      "score": {
+        "total": 40.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "meta-cso-wehner-joins-fireworks-ai-as-cfo",
+      "title": "Meta chief strategy officer Dave Wehner leaves to become CFO of AI inference startup Fireworks",
+      "summary": "CNBC reports Dave Wehner, Meta's chief strategy officer and a former Meta CFO, is leaving to join AI infrastructure startup Fireworks as CFO.",
+      "why_it_matters": "A senior public-company finance hire suggests Fireworks is preparing for larger financings.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Fireworks AI",
+        "Meta",
+        "Dave Wehner"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-07T22:01:17Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Based on the CNBC headline in the harvest; the article was not opened and no second outlet was found. The Meta ticker is not tagged since Meta is not a party to a transaction.",
+      "score": {
+        "total": 40.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 4
+    },
+    {
+      "id": "china-mobile-cloud-zhipu-cooperation-agreement",
+      "title": "China Mobile's cloud unit signs cooperation agreement with Zhipu on domestic compute and model services",
+      "original_title": "中国移动云公司与智谱签署合作协议，围绕国产算力、大模型服务和 AI 商业化合作",
+      "summary": "China Mobile's cloud unit (移动云) and Zhipu signed a cooperation agreement covering domestic compute, large-model services and AI commercialisation, per the IT之家 headline. No terms, values or deployment scale were visible.",
+      "why_it_matters": "It ties Zhipu to a state-owned carrier's cloud channel and to domestic compute, in line with Beijing's push for a home-grown AI stack.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI",
+        "China Mobile Cloud"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T09:53:15Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/937.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "中国移动云公司与智谱签署合作协议，围绕国产算力、大模型服务和 AI 商业化合作"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only (single outlet, article unread, no corroboration found).",
+      "score": {
+        "total": 39.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.576
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 5
+    },
+    {
+      "id": "samsung-cash-assets-over-200tn-won-record",
+      "title": "Samsung Electronics reportedly holds over 200 trillion won in cash assets, a first for a Korean company",
+      "original_title": "同比几乎翻倍：消息称三星电子现金资产超 200 万亿韩元，为韩国企业首家",
+      "summary": "IT之家, citing reports, says Samsung's cash assets exceed 200 trillion won, almost double a year earlier and the first for a Korean company. The underlying report was not found.",
+      "why_it_matters": "A balance sheet that size shapes Samsung's capacity for HBM and foundry capex.",
+      "key_numbers": [
+        ">200 trillion won",
+        "~2x year on year"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "Samsung Electronics"
+      ],
+      "tickers": [
+        "005930.KS"
+      ],
+      "published_at": "2026-11-08T08:55:53Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/926.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "同比几乎翻倍：消息称三星电子现金资产超 200 万亿韩元，为韩国企业首家"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only secondary report; 'cash assets' definition unclear.",
+      "score": {
+        "total": 36.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.6,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "apiiro-claude-code-dont-ask-again-secrets-github",
+      "title": "Apiiro says Claude Code's 'Don't Ask Again' option exposed passwords in 1,122 public GitHub files",
+      "summary": "Security vendor Apiiro published a blog post claiming coding-agent permission shortcuts, specifically Claude Code's 'Don't Ask Again' option, led to credentials being committed in 1,122 public GitHub files. The post drew 546 points and 385 comments on Hacker News. The post itself could not be opened for this issue.",
+      "why_it_matters": "If the methodology holds, it names a concrete agent-permission failure mode that leaks secrets at scale. Anthropic's response is not known.",
+      "key_numbers": [
+        "1,122 public GitHub files",
+        "546 HN points"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Apiiro",
+        "Anthropic",
+        "Claude Code"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-07T20:45:00Z",
+      "sources": [
+        {
+          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+          "outlet": "Apiiro",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Claude Code's 'Don't Ask Again' exposes passwords in 1,122 public GitHub files"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Title and URL from the harvest only; the page did not resolve here and no second outlet corroborates. The figure and mechanism are unverified vendor claims. Time is the HN first-seen estimate.",
+      "score": {
+        "total": 33.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "nea-compute-driven-power-demand-three-shanghais-a-year",
+      "title": "China's energy regulator: compute-led demand adds power use equal to about three Shanghais a year",
+      "original_title": "国家能源局：在算力等新兴产业带动下，我国用电需求仍将刚性增长、预计相当于每年新增 3 个上海市的用电量",
+      "summary": "The National Energy Administration said electricity demand will keep growing rigidly, driven partly by computing power and other emerging industries, and put the annual growth at roughly three Shanghai-sized cities' consumption, per IT之家.",
+      "why_it_matters": "It is an official signal that AI compute is a material driver of national power planning.",
+      "key_numbers": [
+        "~3 Shanghais of demand added per year (headline)"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "National Energy Administration"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T07:34:37Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/911.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "国家能源局：在算力等新兴产业带动下，我国用电需求仍将刚性增长、预计相当于每年新增 3 个上海市的用电量"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only; the three-Shanghais comparison is unverified beyond the title and may restate earlier NEA remarks.",
+      "score": {
+        "total": 33.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "smee-next-gen-frontend-lithography-model-unveiled",
+      "title": "SMEE shows a model of its next-generation front-end lithography tool",
+      "original_title": "我国前道光刻装备自主化阶段性成果，上海微电子新一代光刻机模型亮相",
+      "summary": "Shanghai Micro Electronics Equipment (SMEE) displayed a model of a new-generation front-end lithography tool, presented as an interim result in localising front-end lithography equipment. The headline gives no specifications.",
+      "why_it_matters": "Lithography is China's key chip-equipment gap, but a display model says little about real capability.",
+      "key_numbers": [],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Shanghai Micro Electronics Equipment"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T08:36:34Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/924.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "我国前道光刻装备自主化阶段性成果，上海微电子新一代光刻机模型亮相"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Headline-only; no specs or venue confirmed. A model is not a shipped tool.",
+      "score": {
+        "total": 33.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "pudu-robotics-humanoid-push-80pct-overseas-sales",
+      "title": "Pudu Robotics, with about 80% of sales abroad, takes on Tesla in humanoids (SCMP)",
+      "summary": "SCMP profiles Pudu Robotics' move into humanoids, noting about 80% of its sales are overseas. The article body was not read.",
+      "why_it_matters": "A service-robot exporter moving into humanoids shows Chinese robotics firms competing with Tesla abroad.",
+      "key_numbers": [
+        "~80% of sales overseas"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Pudu Robotics"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T09:00:28Z",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/tech-trends/article/3373641/chinas-pudu-robotics-which-makes-80-its-sales-abroad-takes-tesla-humanoids",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "China's Pudu Robotics, which makes 80% of its sales abroad, takes on Tesla in humanoids"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Feature; headline-only, body unread.",
+      "score": {
+        "total": 30.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "hitch-open-physical-intelligence-platform-ciie-pingpong-record",
+      "title": "Hitch Open launches open-source physical-intelligence platform at CIIE, claiming a 142-rally robot table-tennis record",
+      "original_title": "物理智能开源平台 Hitch Open 在进博会发布，142 拍刷新 AI 机器人乒乓对打世界纪录",
+      "summary": "Hitch Open released an open-source platform for physical-intelligence robotics at the China International Import Expo. IT之家's headline claims a 142-rally human-robot table-tennis record.",
+      "why_it_matters": "Another public embodied-AI benchmark push in China, built on AgiBot-linked hardware per a search snippet.",
+      "key_numbers": [
+        "142 rallies (claimed)"
+      ],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "Hitch Open",
+        "AgiBot"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T08:21:42Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/023/920.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "物理智能开源平台 Hitch Open 在进博会发布，142 拍刷新 AI 机器人乒乓对打世界纪录"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Single outlet; the 142 record is the outlet's claim and was not corroborated. AgiBot link is snippet-only.",
+      "score": {
+        "total": 30.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-10",
+      "title": "China's temporary suspension of added rare-earth export controls expires (extension expected)",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://www.commbank.com.au/articles/newsroom/2026/09/trump-xi-summit-rare-earths-november-deadline.html"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Tencent Music Q3 2026 results, before the US open",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://technode.global/prnasia/tencent-music-entertainment-group-to-report-third-quarter-2026-financial-results-on-november-17-2026/"
+    }
+  ],
+  "notes": "Quiet day. WebFetch could not reach nvidianews.nvidia.com, ithome.com, qbitai.com or apiiro.com, and search returned little dated inside the window, so most items rest on a single harvest headline. Skipped as outside the window or already covered: Goldman/Claude Code (Bloomberg Nov 2), TSMC 3D DRAM denial (published 8.8h before window start), Gottheimer, OpenAI $11B.",
+  "learn": [
+    {
+      "id": "quantised-moe-memory-sizing",
+      "gap": "llm-internals",
+      "title": "Size a quantised MoE's memory, and test a 'fits in 64 GB' claim",
+      "item_ids": [
+        "llama-modchip-deepseek-v4-flash-284b-cpu-64gb"
+      ],
+      "why_today": "The llama-modchip README claims a 284.33B-parameter MoE at 1.71 bits per weight fits in 64 GB, which is a checkable arithmetic claim.",
+      "explanation": "Weight memory is parameters times bits per weight divided by 8, so 284.33B at 1.71 bpw is about 56.6 GiB, matching the README's 56.56 GiB. At 3 bits the same model needs about 99 GiB, so only extreme quantisation fits. In an MoE all experts must be resident, so memory scales with total parameters, but each decoded token reads only the active parameters. Decode is therefore memory-bandwidth-bound and tok/s is at most bandwidth divided by active-weight bytes. This ignores KV cache, dequantisation compute and routing cache misses, and says nothing about quality loss at 1.71 bits.",
+      "math": "M_{w} = \\frac{N_{total}\\, b}{8}, \\qquad \\text{tok/s} \\lesssim \\frac{BW}{N_{active}\\, b / 8}",
+      "python": "# Illustrative numbers: weight memory for a MoE at a given bits-per-weight (bpw).\ndef weight_gib(params_b, bpw):\n    return params_b * 1e9 * bpw / 8 / 2**30\n\ndef fits(total_b, bpw, ram_gib, kv_gib, os_gib=3.0):\n    need = weight_gib(total_b, bpw) + kv_gib + os_gib\n    return need, need <= ram_gib\n\nfor bpw in (16, 8, 4, 3, 1.71):\n    need, ok = fits(284.33, bpw, 64, kv_gib=1.0)\n    print(f\"{bpw:>5} bpw: weights {weight_gib(284.33,bpw):7.1f} GiB, total {need:7.1f} GiB, fits 64 GiB: {ok}\")\n# Decode is memory-bound: each token reads the ACTIVE weights once.\nactive_b, bpw, bw_gbs = 13.17, 1.71, 90.0   # assumed DDR5 bandwidth, GB/s\nbytes_tok = active_b * 1e9 * bpw / 8\nprint(f\"upper bound decode: {bw_gbs*1e9/bytes_tok:.1f} tok/s at {bw_gbs} GB/s\")",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "llama.cpp (ggml quantisation formats)",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        }
+      ]
+    }
+  ]
+}
