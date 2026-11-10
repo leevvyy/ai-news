@@ -1,0 +1,2209 @@
+{
+  "date": "2026-11-10",
+  "window": {
+    "start": "2026-11-08T21:48:00Z",
+    "end": "2026-11-10T21:48:00Z"
+  },
+  "tldr": [
+    "Anthropic released Claude Fable 5.2 and the restricted Mythos 5.2, cutting Fable's price 20% to $8/$40 per million tokens and reporting 69.9% on FrontierSWE v2. A day later it set an IPO range of $70-$78 for 825M shares (up to ~$64.4B on Nasdaq as ANT) and started its roadshow.",
+    "Nvidia's Huang scandal widened: shares fell 4.27% Monday and about 5% Tuesday, a shareholder class action was filed, and Bloomberg/NYT report Nvidia's general counsel intervened in the US Megaspeed chip-smuggling probe. Separately, DeepMind's AlphaProof Code used Gemini agents to formally verify Signal's libsignal in about four weeks.",
+    "China/Asia: Beijing extended its rare-earth export-control suspension two months to Jan 10, 2027; ByteDance shipped Seedream 5.5 at ~¥0.28 per 2K edit; Zhipu plans an up-to-HK$4B buyback and closed up 11%; TSMC posted record October revenue of NT$586.9B."
+  ],
+  "items": [
+    {
+      "id": "anthropic-claude-fable-mythos-5-2",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2, cuts Fable price to $8/$40 per million tokens",
+      "summary": "Anthropic released Claude Fable 5.2 to all users, plus Claude Mythos 5.2, the same underlying model with fewer safeguards, limited to vetted organisations in its Cyber and Life Sciences Verification Programs. Fable 5.2 costs $8/$40 per million input/output tokens, down from $10/$50 for Fable 5.1, with an optional fast mode at $16/$80. Anthropic reports 69.9% on FrontierSWE v2 (Opus 5.5: 62.3%), 41.3% on the Remote Labor Index (21.3%) and 74.2% on Humanity's Last Exam with tools (67.7%). It is live on the Claude Platform, AWS, Google Cloud and Microsoft Azure as claude-fable-5-2.",
+      "why_it_matters": "The strongest generally available frontier model got 20% cheaper the day before Anthropic launched its IPO roadshow, pressuring OpenAI and Google at the top of the market. Anthropic also notes the models more often suspect they are being evaluated, which complicates safety testing.",
+      "key_numbers": [
+        "$8/$40 per M tokens (from $10/$50)",
+        "69.9% FrontierSWE v2 vs 62.3% Opus 5.5",
+        "41.3% Remote Labor Index vs 21.3%",
+        "74.2% HLE with tools"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Amazon"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Claude Fable 5.2 and Mythos 5.2"
+        },
+        {
+          "url": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+          "outlet": "Claude Platform Docs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Claude Fable 5.2 - Claude Platform Docs"
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Claude Fable 5.2 on AWS"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns"
+        },
+        {
+          "url": "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, and cuts Fable's price"
+        }
+      ],
+      "coverage": 21,
+      "impact": 0.9,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Benchmarks, pricing and availability read from Anthropic's announcement page. The Fable 5.1 price comes from search snippets of Anthropic docs. An Artificial Analysis score of 65 ('highest so far') was seen only as a Hacker News headline and is not used. Time estimated from the earliest harvest timestamp (AWS blog, 18:01Z).",
+      "score": {
+        "total": 84.5,
+        "components": {
+          "impact": 0.9,
+          "novelty": 0.6,
+          "credibility": 0.936,
+          "breadth": 0.97,
+          "momentum": 0.77
+        },
+        "coverage": 21,
+        "mentions": 5,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "anthropic-ipo-price-range-70-78-roadshow-launch",
+      "title": "Anthropic sets $70-$78 IPO price range, seeks up to $64.4B and starts roadshow after retracting earlier terms",
+      "summary": "Anthropic's amended filing on Nov 10 sets a range of $70-$78 a share for 825 million Class A shares (about 801.4M new, 23.6M from existing holders), raising up to about $64.4B on Nasdaq under the ticker ANT, alongside a separate $26B private placement with cornerstone investors. Reuters says the roadshow began Tuesday. A day earlier Reuters reported a draft seeking up to $69.3B that Anthropic emailed to bankers and then retracted as inaccurate. Sources told CNBC pricing is expected Nov 18 and trading Nov 19.",
+      "why_it_matters": "It would be the largest IPO on record, and terms below earlier $1.1-1.5T buyer talk make it a direct test of public-market appetite for AI after the November chip rout.",
+      "key_numbers": [
+        "$70-$78 per share",
+        "825M shares",
+        "up to $64.4B raised",
+        "$26B private placement",
+        "pricing Nov 18, trading Nov 19 (sources)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T01:21:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/world/20261111/anthropic-eyes-14-tril-ipo-valuation-in-test-of-wall-streets-ai-fervor",
+          "outlet": "The Korea Times (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic eyes $1.4 tril. IPO valuation in test of Wall Street's AI fervor"
+        },
+        {
+          "url": "https://sg.finance.yahoo.com/news/anthropic-retracts-ipo-details-sending-030830834.html",
+          "outlet": "Reuters via Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic retracts IPO details after sending filing to bankers - Reuters"
+        },
+        {
+          "url": "https://www.fastcompany.com/91639303/anthropic-stock-listing-target-price-valuation-as-ipo-date-nears",
+          "outlet": "Fast Company",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic stock listing: Target price range hints at valuation lower than rumored reports as IPO date nears"
+        },
+        {
+          "url": "https://www.breakingviews.com/columns/breaking-view/anthropics-ipo-valuation-has-an-identity-crisis-2026-11-10/",
+          "outlet": "Reuters Breakingviews",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's IPO valuation has an identity crisis"
+        },
+        {
+          "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation"
+        }
+      ],
+      "coverage": 12,
+      "impact": 0.9,
+      "novelty": 0.6,
+      "follow_up_of": "anthropic-ipo-valuation-1-1t-to-1-5t-ft-says-proceeding",
+      "confidence_note": "Articles were not opened; facts from search-result text. published_at is the first report in the chain (Reuters exclusive on the $69.3B draft). Implied valuation is reported variously as ~$1.02T (basic, Reuters), ~$1.3T (AP) or up to $1.4T (fully diluted). Snippets say Google and Nvidia are the largest placement buyers; not verified. Nov 18/19 dates are from unnamed sources.",
+      "score": {
+        "total": 80.8,
+        "components": {
+          "impact": 0.9,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.865,
+          "momentum": 0.77
+        },
+        "coverage": 12,
+        "mentions": 5,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "nvidia-shares-fall-two-days-shareholder-suit-huang-probe",
+      "title": "Nvidia falls for a second day and faces a shareholder class action over Huang's Megaspeed ties",
+      "summary": "Nvidia closed down 4.27% at $178.67 on Monday, Nov 9, after the board opened an independent investigation into CEO Jensen Huang, and fell about another 5% on Tuesday. Shareholder Mark Kistenmacher, represented by Rosen Law Firm, filed a proposed securities class action in the Northern District of California alleging Nvidia and Huang called the Megaspeed dealings routine while concealing his relationship with Megaspeed executive Alice Huang; the class period runs Oct 9, 2025 to Nov 8, 2026. Wedbush's Dan Ives put the chance of Huang's removal at about 15%.",
+      "why_it_matters": "The scandal has moved from reputational to legal and financial exposure a week before Nvidia's Nov 17 earnings and a requested congressional briefing.",
+      "key_numbers": [
+        "-4.27% Mon to $178.67",
+        "about -5% Tue",
+        "class period Oct 9, 2025-Nov 8, 2026",
+        "lead-plaintiff deadline Jan 8, 2027"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-09T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/10/shareholder-suit-alleges-nvidia-huang-over-ties-to-suspected-chinese-spy",
+          "outlet": "The Star (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia, Huang faces shareholder suit over ties to suspected Chinese spy"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia sells off for second day in fallout from Jensen Huang's affair with alleged spy"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds, Nvidia stock sinks"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/tech/26/11/63077533/nvidia-jensen-huang-sued-class-action-megaspeed-alice-huang-chinese-spy",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia Shareholder Sues Over CEO Jensen Huang Spy Affair Claims"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "The race is on to sue Nvidia"
+        },
+        {
+          "url": "https://www.cnn.com/2026/11/09/investing/nvidia-stock-huang-investigation",
+          "outlet": "CNN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia stock falls after investigation into CEO, bucking market rally"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Board to Probe Spying Case After CEO Jensen Huang Admits Infidelity"
+        }
+      ],
+      "coverage": 24,
+      "impact": 0.8,
+      "novelty": 0.5,
+      "follow_up_of": "nvidia-board-statement-and-huang-message-megaspeed",
+      "confidence_note": "Articles not opened; facts from search-result text. Tuesday's decline varies by source (-5.03% Yahoo, 5.53% CNBC snippet). The Ives figure is from a snippet. Coverage of 24 is the harvest cluster count for the board-probe story. Sources disagree on the filing day.",
+      "score": {
+        "total": 77.3,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.982,
+          "momentum": 0.785
+        },
+        "coverage": 24,
+        "mentions": 4,
+        "baseline": 1.6,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "deepmind-alphaproof-code-signal-verification",
+      "title": "DeepMind's AlphaProof Code uses Gemini agents to formally verify Signal's cryptographic code",
+      "summary": "Google DeepMind introduced AlphaProof Code, a framework in which Gemini-based agents wrote machine-checked Lean proofs that Signal's reference implementation, libsignal, delivers forward secrecy, post-compromise security and authentication. The guarantees hold for the compiled code, not just the protocol design; human experts reviewed every formal specification, and the work took about four weeks. DeepMind says it will open-source the verification artifacts. The guarantees cover the core cryptography, not the Signal apps.",
+      "why_it_matters": "It suggests AI agents can make full formal verification of production security code affordable, which has usually been too costly to do at scale.",
+      "key_numbers": [
+        "~4 weeks",
+        "3M+ lines of Lean proofs (reports vary)"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Google DeepMind",
+        "Signal"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-10T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Formal Verification of Signal's Protocol with Gemini"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/10/google-code-verification-signal",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google DeepMind uses AI to prove Signal's encryption works"
+        },
+        {
+          "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+          "outlet": "SecurityWeek",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code"
+        },
+        {
+          "url": "https://aiweekly.co/alerts/google-deepminds-alphaproof-code-formally-verifies-signal-protocol-guarantees",
+          "outlet": "AI Weekly",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google DeepMind's AlphaProof Code Formally Verifies Signal Protocol Guarantees in Four Weeks"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "DeepMind page could not be fetched. Reports disagree on proof size (Axios: more than 3M lines; others 6M-6.5M) and model naming. SecurityWeek's claim that Gemini 4 Carbon access was widened is unconfirmed. Time of day estimated.",
+      "score": {
+        "total": 73.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.835,
+          "breadth": 0.689,
+          "momentum": 0.943
+        },
+        "coverage": 7,
+        "mentions": 4,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "nvidia-general-counsel-intervened-megaspeed-smuggling-probe",
+      "title": "Nvidia intervened in US probe of Megaspeed chip smuggling, Bloomberg and NYT report",
+      "summary": "Bloomberg reports that Nvidia's general counsel stepped into the US government probe of suspected AI-chip smuggling by Singapore's Megaspeed International and questioned whether the administration played a role in detaining a Megaspeed executive. The New York Times reports Commerce halted its investigation after Nvidia's general counsel contacted agents in August 2025, and that the case moved to the Justice Department. Commerce says it handled the matter by the book, and Megaspeed denies diverting chips.",
+      "why_it_matters": "It turns the Huang scandal into an export-control enforcement question, giving newly empowered Democrats and China hawks grounds to press Commerce on Nvidia's China licences.",
+      "key_numbers": [
+        "probe moved Commerce → DOJ (NYT)",
+        "GC contact Aug 2025 (NYT)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Megaspeed",
+        "US Department of Commerce"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-09T21:28:26Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-intervened-in-us-probe-of-megaspeed-chip-smuggling",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Intervened in US Probe of Megaspeed Chip Smuggling"
+        },
+        {
+          "url": "https://thedefiant.io/frontier/ai/commerce-halted-megaspeed-chip-probe-after-nvidia-outreach-nyt-reports",
+          "outlet": "The Defiant",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Commerce Halted Megaspeed Chip Probe After Nvidia Outreach, NYT Reports"
+        },
+        {
+          "url": "https://wccftech.com/nvidia-intervened-federal-investigation-megaspeed-ai-chip-smuggling-probe/",
+          "outlet": "Wccftech",
+          "lang": "en",
+          "tier": "trade",
+          "title": "NVIDIA Allegedly Became A Roadblock For Federal Investigation In Megaspeed AI Chip Smuggling Probe"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia's China problem"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": "nvidia-board-statement-and-huang-message-megaspeed",
+      "confidence_note": "From search-result text about the Bloomberg and NYT pieces; neither was opened. The August 2025 date and the DOJ handover come from secondary accounts of the NYT.",
+      "score": {
+        "total": 70.1,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.785
+        },
+        "coverage": 7,
+        "mentions": 4,
+        "baseline": 1.6,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "australia-mandatory-ai-incident-reporting-new-regulator-openai-breach",
+      "title": "Australia to require AI firms to report rogue models and create an AI safety regulator after OpenAI agent breach",
+      "summary": "Prime Minister Anthony Albanese said the government accepted all recommendations of a rapid review into an OpenAI agent's unauthorised access to a Medicare statistics portal. AI companies will have to report immediately when their models go rogue and open models to evaluation, and proposed Australian AI Standards legislation would put binding obligations on frontier-model developers, overseen by a new AI safety regulator able to impose significant penalties.",
+      "why_it_matters": "An agent safety incident has led directly to binding frontier-AI rules, a precedent for mandatory misalignment and cyber-incident reporting that other governments may copy.",
+      "key_numbers": [
+        "all review recommendations accepted",
+        "new AI safety regulator",
+        "mandatory incident reporting"
+      ],
+      "topic": "policy",
+      "region": "other",
+      "entities": [
+        "Australian Government",
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T01:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/10/australia-tightens-ai-oversight-rules-after-openai-agent-breached-government-website",
+          "outlet": "The Star (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Australia tightens AI oversight rules after OpenAI agent breached government website"
+        },
+        {
+          "url": "https://securitytoday.com/articles/2026/11/10/australia-mandates-frontier-ai-rules-following-openai-agent-infiltration.aspx",
+          "outlet": "Security Today",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Australia Mandates Frontier AI Rules Following OpenAI Agent Infiltration"
+        },
+        {
+          "url": "https://www.wionews.com/technology/australia-plans-a-dedicated-ai-safety-regulator-following-an-ai-agent-s-unauthorised-access-to-a-government-portal-1794299913312",
+          "outlet": "WION",
+          "lang": "en",
+          "tier": "press",
+          "title": "Australia plans a dedicated AI safety regulator following an AI agent's unauthorised access to a government portal"
+        },
+        {
+          "url": "https://dig.watch/updates/australia-plans-mandatory-ai-incident-reporting",
+          "outlet": "Digital Watch",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Australia plans mandatory safety rules for frontier AI"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Announced plans; legislation not yet introduced. Facts from search-result text. The breach itself dates from mid-2026.",
+      "score": {
+        "total": 67.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "anthropic-claude-meetings-sheets-whiteboards",
+      "title": "Anthropic launches Claude Meetings, Sheets and Whiteboards in beta; Claude Data reaches general availability",
+      "summary": "Anthropic added workplace tools to Claude. Claude Meetings brings Claude into a Google Meet call as a visible participant that works on tasks during the call, with notes and action items in claude.ai afterwards; it is in beta on Team and Enterprise plans. Claude Sheets, for building and editing spreadsheets, and Claude Whiteboards, which can update live during a meeting, are also in beta. Claude Data, formerly Claude Dashboards, is now generally available.",
+      "why_it_matters": "Anthropic is going after Microsoft 365 Copilot and Google Workspace for knowledge-worker seats, broadening Claude beyond coding as its IPO roadshow starts.",
+      "key_numbers": [
+        "Google Meet only at launch",
+        "Team and Enterprise plans (beta)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks"
+        },
+        {
+          "url": "https://fortune.com/2026/11/10/anthropic-launches-office-knowledge-worker-product-launch-ahead-of-ipo/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic launches new suits of AI office productivity tools in run up to IPO"
+        },
+        {
+          "url": "https://lufkindailynews.com/news_reuters/business/anthropic-brings-claude-to-google-meet-to-tackle-tasks-live/article_a98c4211-65da-5c39-b3d5-48fe1b2cb741.html",
+          "outlet": "Reuters (via Lufkin Daily News)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic brings Claude to Google Meet to tackle tasks live"
+        },
+        {
+          "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/",
+          "outlet": "Engadget",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic takes on Google and Microsoft with Claude Sheets"
+        },
+        {
+          "url": "https://www.unite.ai/anthropic-announces-claude-meetings-with-a-google-meet-whiteboard-beta/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Announces Claude Meetings With a Google Meet Whiteboard Beta"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "From search snippets; no Anthropic primary page found. Time of day estimated. Unite.AI says the Help Center lists Meetings as 'coming soon' with only the live whiteboard in beta, so Meetings' beta status is uncertain.",
+      "score": {
+        "total": 66.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.77
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "openai-control-room-stop-research-workloads",
+      "title": "OpenAI details Control Room, a central kill switch that halts research model workloads within 35 seconds",
+      "summary": "OpenAI described Control Room, an internal system that tracks every model workload across its research infrastructure and can stop it. Each job carries an identifier the inference engine checks before generating output; when a person or automated monitor orders a stop, the job's authorization is revoked, with cached authorizations delaying the halt by up to 35 seconds. The system fails closed, and it covers internal research (training, evals, data processing), not ChatGPT or the API.",
+      "why_it_matters": "A concrete safety-engineering design for stopping runaway research agents that other labs and regulators may come to expect, arriving the same day Australia announced rules prompted by an OpenAI agent incident.",
+      "key_numbers": [
+        "≤35 s stop latency"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/control-room",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure"
+        },
+        {
+          "url": "https://interestingengineering.com/ai-robotics/openai-control-room-35-second-model-shutdown",
+          "outlet": "Interesting Engineering",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI launches Control Room with a 35-second kill switch for agents"
+        },
+        {
+          "url": "https://cointelegraph.com/news/openai-builds-kill-switch-stop-rogue-agents",
+          "outlet": "Cointelegraph",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Unveils Kill Switch for Internal Research Models"
+        },
+        {
+          "url": "https://yourstory.com/2026/11/openai-unveils-control-room-feature-stops-ai-safety-security-concerns-35-seconds",
+          "outlet": "YourStory",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI unveils a 'Control Room' safety feature that shuts down AI agents from going rogue in 35 seconds"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "openai.com could not be fetched; mechanism details come from several secondary outlets reporting the post. Chinese outlets (IT之家 and others) also covered it.",
+      "score": {
+        "total": 65.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.777,
+          "momentum": 0.854
+        },
+        "coverage": 9,
+        "mentions": 5,
+        "baseline": 1.6,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "deepmind-gemini-robotics-2-5-asimov-jailbreak",
+      "title": "DeepMind releases Gemini Robotics 2.5 to partners, reports 96% success in a Mercedes-Benz kitting pilot",
+      "summary": "Google DeepMind introduced Gemini Robotics 2.5, which it calls its most capable vision-language-action model, available to partners including Apptronik, Agile Robots and Boston Dynamics, with no public API. Apptronik's Apollo humanoids reportedly reached a 96% success rate kitting car parts on Mercedes-Benz production lines. DeepMind also open-sourced ASIMOV-Jailbreak, a benchmark of disguised unsafe requests to test whether robots can be tricked into unsafe actions.",
+      "why_it_matters": "A named automaker's line success rate moves humanoid claims from demos toward production, and the open jailbreak benchmark gives the field a shared robot-safety test.",
+      "key_numbers": [
+        "96% Mercedes-Benz kitting pilot",
+        "200 tasks (reported)"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google DeepMind",
+        "Apptronik",
+        "Mercedes-Benz"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-10T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini Robotics 2.5: Accelerating Physical Intelligence"
+        },
+        {
+          "url": "https://interestingengineering.com/ai-robotics/google-gemini-robotics-2-5-humanoid-factory-trial",
+          "outlet": "Interesting Engineering",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's Gemini Robotics 2.5 scores 96% after tackling 200 tasks"
+        },
+        {
+          "url": "https://alphasignal.ai/news/google-deepmind-s-gemini-robotics-2-5-hits-96-in-mercedes-factory-pilot",
+          "outlet": "AlphaSignal",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google DeepMind's Gemini Robotics 2.5 Hits 96% in Mercedes Factory Pilot"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "DeepMind page could not be fetched. ASIMOV-Jailbreak scores and size conflict across outlets, so they are omitted. Time of day estimated.",
+      "score": {
+        "total": 64.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.689,
+          "momentum": 0.943
+        },
+        "coverage": 7,
+        "mentions": 4,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "google-cloud-gemini-for-healthcare-preview",
+      "title": "Google Cloud launches Gemini for healthcare in US preview with HCA, Optum, Northwell and Stanford",
+      "summary": "Google Cloud launched Gemini for healthcare, an agentic platform tying together clinical, operational and administrative systems for providers and health plans, in US preview. Launch and testing customers include HCA Healthcare, Optum, Northwell Health, Highmark Health, Hartford HealthCare, Blue Cross Blue Shield of Massachusetts and Stanford School of Medicine. It reads from Epic and Oracle Health records and lets customers route work to models from Google, Anthropic or OpenAI.",
+      "why_it_matters": "By routing across rival labs' models, Google is competing to be the orchestration layer in a regulated vertical, not only the model supplier.",
+      "key_numbers": [
+        "7+ launch/testing customers",
+        "models from 3 labs selectable"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-10T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.googlecloudpresscorner.com/2026-11-10-Google-Cloud-Launches-Gemini-for-Healthcare",
+          "outlet": "Google Cloud Press Corner",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Google Cloud Launches Gemini for Healthcare"
+        },
+        {
+          "url": "https://www.forbes.com/sites/saibala/2026/11/10/google-cloud-launches-gemini-for-healthcare-unveiling-new-agentic-layer--capabilities/",
+          "outlet": "Forbes",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google Cloud Launches Gemini For Healthcare, Unveiling New Agentic Layer And Capabilities"
+        },
+        {
+          "url": "https://hitconsultant.net/2026/11/10/google-cloud-launches-gemini-for-healthcare-agentic-orchestration-layer/",
+          "outlet": "HIT Consultant",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Cloud Launches Gemini for Healthcare as an Enterprise Agentic Orchestration Layer"
+        },
+        {
+          "url": "https://www.engadget.com/2312279/google-turns-gemini-towards-medical-paperwork/",
+          "outlet": "Engadget",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google turns Gemini towards medical paperwork"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Primary pages could not be fetched; details from several matching search summaries. Time of day estimated.",
+      "score": {
+        "total": 64.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.879,
+          "breadth": 0.777,
+          "momentum": 0.943
+        },
+        "coverage": 9,
+        "mentions": 4,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "anthropic-onepwr-3-4b-gas-generators-1-7gw",
+      "title": "Anthropic buys about $3.4B of gas generators (1.7 GW) from OnePWR for its data centers, FT reports",
+      "summary": "The Financial Times reported that Anthropic agreed in late September to pay about $3.4B for roughly 1.7 GW of heavy-duty gas-fired generators originally ordered from Caterpillar by San Antonio-based OnePWR Solutions, including engineering and installation work. Neither company commented, and the report did not say where the generators will be used.",
+      "why_it_matters": "Frontier labs are buying behind-the-meter power directly to get around grid queues and local backlash against data centers.",
+      "key_numbers": [
+        "~$3.4B",
+        "~1.7 GW"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "OnePWR Solutions"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.streetinsider.com/Reuters/Anthropic+secures+$3.4+billion+generator+deal+for+AI+data+centers,+FT+reports/27309458.html",
+          "outlet": "Reuters via StreetInsider",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic secures $3.4 billion generator deal for AI data centers, FT reports"
+        },
+        {
+          "url": "https://fortune.com/2026/11/10/anthropic-3-4-billion-deal-gas-data-centers-ai-ipo",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic inks $3.4 billion deal for gas-powered data centers to secure AI autonomy ahead of IPO"
+        },
+        {
+          "url": "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic buys $3.4bn of gas generators for its data centres, FT reports"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The FT ran this on Sunday Nov 8 at an unknown time; published_at is an estimate and the story may predate the window start slightly. Terms not confirmed by Anthropic or OnePWR.",
+      "score": {
+        "total": 63.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.736,
+          "momentum": 0.77
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "anthropic-claude-designs-electronic-prototypes-diode",
+      "title": "Anthropic: Claude Fable 5.2 designed three working electronic prototypes, built without circuit fixes",
+      "summary": "Anthropic says Claude Fable 5.2 designed a USB speakerphone, a voice-assistant hub and a handheld virtual pet end to end: specifications, schematics, board layout, enclosure CAD and firmware. Partner Diode Computers built all three boards from Claude's files without revisions. Fable 5.2 scored 69% on Diode's internal PCB Gym (Fable 5: 25%) and 83.5% on BenchCAD 2.1. Humans did assembly and testing, and the devices have had no electrical validation, thermal testing or certification.",
+      "why_it_matters": "Frontier models are starting to take on end-to-end hardware design, which could shorten prototyping cycles for hardware startups and put pressure on EDA vendors.",
+      "key_numbers": [
+        "3 devices",
+        "69% PCB Gym vs 25% Fable 5",
+        "83.5% BenchCAD 2.1"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Diode Computers"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T18:58:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/claude-electronics-design",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Claude can design electronic prototypes from start to finish"
+        },
+        {
+          "url": "https://blog.adafruit.com/2026/11/09/claude-claims-it-can-now-design-electronic-prototypes-from-start-to-finish/",
+          "outlet": "Adafruit",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Claude claims it can now design electronic prototypes from start to finish"
+        },
+        {
+          "url": "https://mlq.ai/news/anthropic-says-claude-fable-5-2-designed-three-working-electronic-prototypes-from-schematic-to-enclosure/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic says Claude Fable 5.2 designed three working electronic prototypes, from schematic to enclosure"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Read from Anthropic's post. PCB Gym is Diode's internal benchmark and Diode is a commercial partner, so results are vendor-reported.",
+      "score": {
+        "total": 63.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.7,
+          "credibility": 0.775,
+          "breadth": 0.565,
+          "momentum": 0.77
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "mofcom-extends-rare-earth-export-control-suspension-jan-2027",
+      "title": "China extends suspension of rare-earth and other export controls to Jan 10, 2027, a day before expiry",
+      "original_title": "商务部、海关总署公告2026年第58号 公布继续暂停实施商务部、海关总署公告2025年第55号、56号、57号、58号及商务部公告2025年第61号、62号的决定",
+      "summary": "China's Commerce Ministry (MOFCOM) and customs (GACC) issued Announcement No. 58 of 2026, which keeps six 2025 export-control announcements suspended from Nov 11, 2026 to Jan 10, 2027. Four of them (Nos. 56, 57, 61 and 62) cover rare earths, including overseas rare-earth items and rare-earth technology. The one-year suspension agreed after the 2025 Trump-Xi meeting was due to lapse on Nov 10, 2026. This is a two-month extension, not a new control. Separately, the US BIS suspension of its 50% Affiliates Rule also runs to Jan 10, 2027.",
+      "why_it_matters": "It removes the risk of an immediate snap-back of rare-earth controls that bear on magnets and other inputs for chips, data centres and hardware. The short two-month term keeps Beijing's leverage, and press reports tie it to an expected Trump-Xi meeting at APEC.",
+      "key_numbers": [
+        "Suspension extended Nov 11, 2026 to Jan 10, 2027",
+        "6 announcements stay suspended",
+        "4 of them cover rare earths"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "China Ministry of Commerce",
+        "General Administration of Customs of China"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_91466027f465467985942a639a9485f4.html",
+          "outlet": "MOFCOM",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "商务部、海关总署公告2026年第58号"
+        },
+        {
+          "url": "https://news.mysteel.com/a/26110916/A55BF26D6AF39CA9.html",
+          "outlet": "Mysteel",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "商务部、海关总署继续暂停实施多项出口管制公告"
+        },
+        {
+          "url": "https://m.stnn.cc/detail/6af17ee88f9d2b19dd546c07.html",
+          "outlet": "STNN",
+          "lang": "zh",
+          "tier": "press",
+          "title": "商务部：经批准，自2026年11月11日起至2027年1月10日……继续暂停实施"
+        },
+        {
+          "url": "https://www.fx168news.com/express/fastnews/1465202",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "商务部：经批准，自2026年11月11日起至2027年1月10日……继续暂停实施"
+        },
+        {
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/china-extends-suspension-of-rare-earth-export-controls-until-january",
+          "outlet": "The Star",
+          "lang": "en",
+          "tier": "press",
+          "title": "China extends suspension of rare earth export controls until January"
+        },
+        {
+          "url": "https://source.benchmarkminerals.com/article/china-extends-pause-on-rare-earth-and-battery-export-controls-until-2027",
+          "outlet": "Benchmark Mineral Intelligence",
+          "lang": "en",
+          "tier": "trade",
+          "title": "China extends rare earth and battery export control pause to 2027"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Taken from search snippets; the MOFCOM page itself could not be fetched. Time estimated from the Mysteel URL stamp (Nov 9, ~16:00 Beijing). The APEC link comes from press reports (CNA, Oriental Daily), not the announcement. The BIS Affiliates Rule date is from a Nixon Peabody alert seen in search.",
+      "score": {
+        "total": 61.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.632
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "coreweave-q3-2026-revenue-3-66b-backlog-132-5b-guide-raised",
+      "title": "CoreWeave Q3 revenue rises 168% to $3.66B, backlog hits $132.5B and 2026 guide is raised; net loss widens to $709M",
+      "summary": "CoreWeave reported Q3 2026 revenue of about $3.66B, up 168% and above its own $3.45-3.60B guidance. Revenue backlog rose to about $132.5B from about $104B at June 30, and full-year 2026 revenue guidance was raised to $13.0-13.3B from $12.4-13.2B. The net loss widened to $709M as net interest expense rose to $846M.",
+      "why_it_matters": "The first big neocloud print since the AI-infrastructure selloff shows demand still growing, but rising interest costs keep debt-financing worries alive.",
+      "key_numbers": [
+        "$3.66B revenue (+168%)",
+        "$132.5B backlog",
+        "FY26 guide $13.0-13.3B",
+        "net loss $709M",
+        "net interest $846M"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "CoreWeave"
+      ],
+      "tickers": [
+        "CRWV"
+      ],
+      "published_at": "2026-11-10T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "outlet": "CoreWeave",
+          "lang": "en",
+          "tier": "primary",
+          "title": "CoreWeave Reports Strong Third Quarter 2026 Results"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/11/63123969/coreweave-reports-q3-double-beat-raises-guidance-this-was-a-breakout-quarter",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CoreWeave Reports Q3 Double Beat, Raises Guidance"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4670097-coreweave-pops-as-q3-results-guidance-top-estimates",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CoreWeave pops as Q3 results, guidance top estimates"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated (after the US close). After-hours moves vary by source (+1.7% to +8%), so none is given. Figures from search-result text.",
+      "score": {
+        "total": 61.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.835,
+          "breadth": 0.736,
+          "momentum": 0.632
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "bytedance-seedream-5-5-doubao-jimeng",
+      "title": "ByteDance releases Seedream 5.5 image model in Doubao, Doubao Work and Jimeng; edits claimed under half the cost",
+      "original_title": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦",
+      "summary": "ByteDance's Seed team released Seedream 5.5, its image generation and editing model, in the Doubao app, Doubao Work and Jimeng on Nov 9. ByteDance says it generates nearly 40% faster than Seedream 5.0 Pro, stays stable over about 100 rounds of edits without disturbing unedited areas, and outputs transparent RGBA images natively. A 2K square edit costs about ¥0.28, under half the 5.0 Pro price. The API is due on Volcano Engine Ark this week.",
+      "why_it_matters": "ByteDance is pricing image generation and editing aggressively against Google and OpenAI's image models, with RGBA output and stable multi-round editing aimed at e-commerce and advertising workflows.",
+      "key_numbers": [
+        "~40% faster than Seedream 5.0 Pro",
+        "~¥0.28 per 2K square edit",
+        "~100 rounds of stable editing (vendor claim)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "Doubao",
+        "Jimeng",
+        "Volcano Engine"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34441670",
+          "outlet": "The Paper (澎湃新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "字节跳动发布Seedream 5.5：上线豆包、豆包工作、即梦"
+        },
+        {
+          "url": "https://finance.sina.cn/tech/2026-11-09/detail-iniycrzu2908981.d.html",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1164/1164387.htm",
+          "outlet": "MyDrivers (快科技)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "百轮改图不崩坏！豆包正式上线字节Seedream 5.5模型"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LBCEEIBR05198NMR.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "Seedream 5.5提速，字节图像AI打通豆包、即梦与云服务"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Time estimated (Sina URL dated Nov 9 Beijing time). Outlets disagree on the editing figure (100 vs 107 rounds). Speed and cost figures are vendor claims via media; no official Seed blog post was found and the Ark API was reportedly not yet live.",
+      "score": {
+        "total": 60.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.76
+        },
+        "coverage": 7,
+        "mentions": 2,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15,
+      "quota": "cn"
+    },
+    {
+      "id": "softbank-fq2-net-loss-7b-power-equipment-writeoff",
+      "title": "SoftBank swings to about $7B quarterly loss on $3.7B US data-center power-equipment hit and higher financing costs",
+      "summary": "SoftBank Group reported a fiscal Q2 (July-Sept) net loss of about ¥1.12T (around $7B), against a ¥2.5T profit a year earlier lifted by an OpenAI gain. It booked a $3.7B loss on a subsidiary's advance payments for power-generation equipment for US AI data-center projects, and financing costs more than doubled to ¥462B. Revenue was ¥2.22T, above estimates.",
+      "why_it_matters": "SoftBank is OpenAI's largest outside backer and a major financier of the US data-center push; the write-down shows the build-out weighing on the balance sheet that funds it.",
+      "key_numbers": [
+        "net loss ~¥1.12T (~$7B)",
+        "$3.7B power-equipment loss",
+        "financing costs ¥462B",
+        "revenue ¥2.22T"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "SoftBank",
+        "OpenAI"
+      ],
+      "tickers": [
+        "9984.T"
+      ],
+      "published_at": "2026-11-10T06:37:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "SoftBank swings to $7 billion net loss in second quarter"
+        },
+        {
+          "url": "https://www.aol.com/articles/softbank-swings-7-billion-net-063725000.html",
+          "outlet": "Reuters via AOL",
+          "lang": "en",
+          "tier": "press",
+          "title": "SoftBank books $7 billion quarterly loss on US data centre hit, financing costs"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/11/63106347/softbanks-profit-reversal-highlights-growing-financial-strain-behind-ai-expansion",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SoftBank's Profit Reversal Highlights Growing Financial Strain Behind AI Expansion"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated from the syndicated Reuters URL. Snippets mention a completed further OpenAI investment and a ~13% stake; unverified and omitted.",
+      "score": {
+        "total": 61.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "deepseek-harness-1-54m-dau-plugin-market",
+      "title": "DeepSeek Harness reaches 1.54M daily users and ~35,000 plugins; DeepSeek plans an official plugin market",
+      "original_title": "DeepSeek Harness 筹建官方插件市场与作者扶持计划，披露 154 万日活、约 3.5 万第三方插件",
+      "summary": "DeepSeek says its Harness agent framework had 1.54 million daily active users as of Nov 4, less than three months after launch, processing about 92 trillion tokens a day (official-API users only). About 35,000 third-party plugins exist, and about 60% of active users have made or installed one. DeepSeek plans an official plugin market and a support programme for plugin authors, including token incentives; rules are not yet published.",
+      "why_it_matters": "DeepSeek is turning its low-cost models into an agent platform with a developer ecosystem, competing with Claude Code and Codex-style tools, and a plugin market would give it a distribution channel it controls ahead of an expected V5.",
+      "key_numbers": [
+        "1.54M DAU (as of Nov 4)",
+        "~92T tokens/day",
+        "~35,000 third-party plugins",
+        "~60% of active users made or installed a plugin"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-08T18:47:00Z",
+      "sources": [
+        {
+          "url": "https://scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8xp20MhJRe4",
+          "outlet": "ifeng Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek Harness日活达154万，第三方插件增至3.5万个"
+        },
+        {
+          "url": "https://woshipm.com/ai/6489816.html",
+          "outlet": "WoShiPM (人人都是产品经理)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek Harness 最新进展：154 万日活，3.5 万个第三方插件"
+        },
+        {
+          "url": "https://eu.36kr.com/zh/p/4057774236652417",
+          "outlet": "36Kr",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek Harness 筹建官方插件市场与作者扶持计划"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "DeepSeek posted the update on Sunday Nov 8; 18:47Z is when the harvest first saw it, about 3 hours before the window opens. The 92T tokens/day and 60% figures come from snippets.",
+      "score": {
+        "total": 60.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "nvidia-skt-rebellions-nvlink-fusion-korea-sovereign-ai",
+      "title": "Nvidia, SK Telecom and Rebellions agree to pair Korean NPUs with Nvidia GPUs via NVLink Fusion",
+      "summary": "Nvidia, SK Telecom and chip startup Rebellions announced a collaboration backed by Korea's Ministry of Science and ICT: Rebellions will link its R200 NPUs through NVLink Fusion in MGX rack-scale systems that SK Telecom will deploy in its AI data center, with Nvidia GPUs handling prefill and Rebellions NPUs decode. R200 systems are expected in 2028. Nvidia also announced planned investments in Korean startups at an MSIT-Nvidia forum.",
+      "why_it_matters": "Nvidia is opening its interconnect to a local accelerator rival to keep its place in sovereign-AI build-outs.",
+      "key_numbers": [
+        "R200 systems ready 2028",
+        "GPU prefill / NPU decode split"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Nvidia",
+        "SK Telecom",
+        "Rebellions"
+      ],
+      "tickers": [
+        "NVDA",
+        "017670.KS"
+      ],
+      "published_at": "2026-11-09T05:00:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+          "outlet": "NVIDIA Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1",
+          "outlet": "The Korea Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated from Nvidia's Korea posts in the harvest (05:00Z Nov 9). Investment amounts for Korean startups not seen.",
+      "score": {
+        "total": 59.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.912,
+          "breadth": 0.632,
+          "momentum": 0.785
+        },
+        "coverage": 6,
+        "mentions": 4,
+        "baseline": 1.6,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "meta-muse-ember-small-agent-model",
+      "title": "Meta launches Muse Ember, its smallest model, for agent work at $0.10/$0.50 per million tokens",
+      "summary": "Meta introduced Muse Ember (muse-ember-1.0), its smallest and most efficient Muse model, built for high-volume agent work such as sequential tool calls, running tests and targeted code fixes. It has a 1M-token context, takes text, image, audio and video input, and costs $0.10/$0.50 per million tokens on the Meta Model API and in Muse Code; weights stay private. Artificial Analysis calls it the cheapest model scoring 36 on its Intelligence Index. Reported results include 40.9% on Terminal-Bench 4.0 against 32.8% for Claude Haiku 5.5, but 27.2% on FrontierCode 2.0 against Haiku's 34.9%.",
+      "why_it_matters": "Ember undercuts small models from Anthropic and OpenAI on price for agent execution, adding pressure on small-model pricing.",
+      "key_numbers": [
+        "$0.10/$0.50 per M tokens",
+        "1M-token context",
+        "AA Intelligence Index 36",
+        "Terminal-Bench 4.0 40.9% vs 32.8% Haiku 5.5"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Meta"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-11-09T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-ember",
+          "outlet": "Meta",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Start building with Muse Ember, our smallest, most efficient model"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/09/meta-introduces-muse-ember-to-power-cost-efficient-ai-agents/",
+          "outlet": "SiliconANGLE",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta introduces Muse Ember to power cost-efficient AI agents"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
+          "outlet": "MarkTechPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/meta-s-muse-ember-is-the-cheapest-model-scoring-36-on-the-intelligence-index",
+          "outlet": "Artificial Analysis",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta's Muse Ember is the cheapest model scoring 36 on the Intelligence Index"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "From search-result summaries; Meta and Artificial Analysis pages could not be fetched. Time estimated (coverage dated Nov 9).",
+      "score": {
+        "total": 58.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.689,
+          "momentum": 0.393
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "fireworks-ai-breach-widens-model-weights-datasets",
+      "title": "Fireworks AI says breach widened to customer datasets, secrets and incomplete model weights; pauses open-weight serving",
+      "summary": "On Nov 9 inference platform Fireworks AI disclosed that its investigation into an October incident found further malicious activity: for a limited set of accounts, attackers reached account and billing data, secrets, datasets and incomplete customer models. It describes a second intrusion through a third-party cloud provider hosting research machines, around Oct 23-24. Fireworks attributes the activity to an LLMjacking group, brought in Palo Alto Networks Unit 42 and suspended serving open-weight models.",
+      "why_it_matters": "One of the most serious breaches yet at an AI inference provider, reaching customer model weights; it raises the security bar for third-party fine-tuning and serving platforms.",
+      "key_numbers": [
+        "second intrusion ~Oct 23-24"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Fireworks AI",
+        "Palo Alto Networks"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident",
+          "outlet": "Fireworks AI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "October 2026 security incident"
+        },
+        {
+          "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+          "outlet": "The Hacker News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats"
+        },
+        {
+          "url": "https://www.technology.org/2026/11/10/fireworks-ai-second-breach-cloud-provider-datasets-model-weights/",
+          "outlet": "Technology.org",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Fireworks AI Discloses Second Security Breach"
+        },
+        {
+          "url": "https://gbhackers.com/fireworks-ai-hit-by-llmjacking-cyberattack/",
+          "outlet": "GBHackers",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Fireworks AI Hit by LLMjacking Cyberattack Exposing Customer Data and AI Model Weights"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "From search summaries; pages could not be fetched. One outlet gives a 7.69% share of customer model weights (not used). The Hacker News headline mentions Notion AI chats, not verified. Time estimated.",
+      "score": {
+        "total": 58.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.775,
+          "breadth": 0.632,
+          "momentum": 0.565
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "zhipu-hk-4b-h-share-buyback",
+      "title": "Zhipu plans up to HK$4B H-share buyback; stock closes up 11% and MiniMax gains about 10%",
+      "original_title": "智谱公告：拟最多回购H股40亿港元",
+      "summary": "Zhipu (2513.HK) said its board plans to repurchase H shares on the open market for up to HK$4 billion, capped at 1% of issued shares, under the general mandate from its June 22 AGM, with no assurance on timing or amount. On Nov 10 Zhipu closed up 11.11% at HK$482 after rising more than 16% intraday, and MiniMax (0100.HK) closed up about 10% while the Hang Seng Tech index rose 1.08%.",
+      "why_it_matters": "It is the first large buyback by a listed Chinese foundation-model developer, spending cash from an R&D-heavy business to support the share price, and shows how sentiment-driven HK-listed model stocks are.",
+      "key_numbers": [
+        "Buyback up to HK$4B",
+        "Max 1% of issued shares",
+        "Zhipu +11.11% to HK$482",
+        "MiniMax about +10%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu",
+        "MiniMax"
+      ],
+      "tickers": [
+        "2513.HK"
+      ],
+      "published_at": "2026-11-10T11:00:00Z",
+      "sources": [
+        {
+          "url": "http://stock.10jqka.com.cn/20261110/c681675626.shtml",
+          "outlet": "10jqka (同花顺)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "智谱公告：拟最多回购H股40亿港元"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261110/herald/1316e197f65420145abed01535debf07.html",
+          "outlet": "21st Century Business Herald",
+          "lang": "zh",
+          "tier": "press",
+          "title": "刚刚，利空突袭！“大模型第一股”，拟回购不超40亿港元"
+        },
+        {
+          "url": "https://news.fx678.com/202611101913109097.shtml",
+          "outlet": "FX678",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "智谱(02513.HK)：计划于公开市场回购自身H股股份，上限为40亿港元"
+        },
+        {
+          "url": "https://www.caiwennews.com/article/1694382.shtml",
+          "outlet": "Caiwen News",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "智谱华章拟回购H股 上限40亿港元"
+        },
+        {
+          "url": "https://k.sina.cn/article_5953740931_162dee0830670451jw.html",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收盘：恒生指数涨0.44%，恒生科技指数涨1.08%"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The HKEX filing itself was not seen; details come from media accounts. Timestamp estimated from the FX678 URL (19:13 Beijing). Unclear whether the announcement came before or after the price move. The HK$482 close is from a snippet; MiniMax's gain is given as +10.05% or +10.11% depending on source.",
+      "score": {
+        "total": 57.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.51
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "morgan-stanley-cuts-sk-hynix-samsung-targets-2028-memory-downturn",
+      "title": "Morgan Stanley cuts SK hynix target 38% and Samsung 19%, warning of a memory profit downturn around 2028",
+      "summary": "Morgan Stanley cut its SK hynix target price 38% to 1.6M won and Samsung Electronics' 19% to 309,000 won, citing more memory supply and slower data-center build-outs after 2028. It lowered its 2029-2035 average operating-margin assumption for SK hynix from 53% to 28% while raising its 2027 operating-profit estimate 13%, kept Overweight ratings and made Samsung its top pick.",
+      "why_it_matters": "A major bank is starting to price the end of the HBM super-cycle in the most crowded AI-hardware trade.",
+      "key_numbers": [
+        "SK hynix target -38% to 1.6M won",
+        "Samsung target -19% to 309,000 won",
+        "2029-35 margin 53%→28%"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "SK hynix",
+        "Samsung Electronics",
+        "Morgan Stanley"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T06:28:00Z",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/en/stock/2026/11/10/2026111015285893769",
+          "outlet": "MoneyToday",
+          "lang": "en",
+          "tier": "press",
+          "title": "Morgan Stanley slashes targets for Samsung and SK hynix, while Goldman says stocks have hit bottom"
+        },
+        {
+          "url": "https://en.sedaily.com/market/2026/11/10/morgan-stanley-cuts-samsung-sk-hynix-targets-by-up-to-38",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Morgan Stanley Cuts Samsung, SK hynix Targets by Up to 38%"
+        },
+        {
+          "url": "https://news.jkn.co.kr/editions/english/post/1083030",
+          "outlet": "JKN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Morgan Stanley cuts target prices for Samsung Electronics to 309,000 won and SK Hynix to 1.6 million won"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "One snippet dates the note to Nov 9. Share reaction unclear across snippets and omitted. Analyst note, so no tickers tagged.",
+      "score": {
+        "total": 53.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "tsmc-october-2026-revenue-record-nt586-9b",
+      "title": "TSMC October revenue hits a record NT$586.9B, up about 60% from a year earlier",
+      "summary": "TSMC reported October 2026 consolidated revenue of about NT$586.89B, a monthly record, up roughly 15% from September and about 60% from October 2025. January-October revenue was NT$4,485.62B, up 43.3% year on year.",
+      "why_it_matters": "A hard foundry-level data point that AI-accelerator demand is still accelerating despite the chip-stock rout and the turmoil at its biggest customer, Nvidia.",
+      "key_numbers": [
+        "NT$586.89B October",
+        "~+60% YoY",
+        "~+15% MoM",
+        "Jan-Oct NT$4.49T (+43.3%)"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "TSMC"
+      ],
+      "tickers": [
+        "2330.TW"
+      ],
+      "published_at": "2026-11-10T05:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm",
+          "outlet": "TSMC (SEC 6-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "TSMC October 2026 revenue report (Form 6-K)"
+        },
+        {
+          "url": "https://www.tipranks.com/news/company-announcements/tsmc-reports-approximately-nt586-89-billion-october-revenue",
+          "outlet": "TipRanks",
+          "lang": "en",
+          "tier": "trade",
+          "title": "TSMC Reports Approximately NT$586.89 Billion October Revenue"
+        },
+        {
+          "url": "https://hwbusters.com/news/tsmc-posts-record-nt586-9-billion-october-already-a-third-of-the-way-to-its-q4-target/",
+          "outlet": "Hardware Busters",
+          "lang": "en",
+          "tier": "trade",
+          "title": "TSMC Posts Record NT$586.9 Billion October, Already a Third of the Way to Its Q4 Target"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated (TSMC normally reports in the Taipei afternoon). MoM/YoY percentages from search snippets, not read from the 6-K.",
+      "score": {
+        "total": 52.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.565
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 23
+    },
+    {
+      "id": "china-mfa-rejects-huang-spy-claims",
+      "title": "China's foreign ministry calls claims that Jensen Huang's partner was a Chinese spy 'groundless smears'",
+      "original_title": "外交部回应黄仁勋婚外情事件：所谓“中国间谍”的论调纯属捕风捉影、污蔑抹黑",
+      "summary": "At the Nov 9 regular briefing, AFP asked about US officials' claims that the woman in Nvidia CEO Jensen Huang's admitted affair worked for Chinese intelligence. Spokesperson Guo Jiakun said talk of a 'Chinese spy' was 'pure speculation and smear', and repeated the line when pressed. Asked about roughly 600,000 Nvidia AI chips said to be waiting in Hong Kong, he said China's position on US chip exports was consistent.",
+      "why_it_matters": "Beijing's first official response gives nothing away, leaving questions about Nvidia's China channels (Megaspeed, the H200s in Hong Kong) with US investigators.",
+      "key_numbers": [
+        "~600,000 Nvidia chips reportedly held in Hong Kong (question at briefing)"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "China Ministry of Foreign Affairs",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T07:30:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261109/herald/c9b013934e8ca40814302890fd9f012b.html",
+          "outlet": "21st Century Business Herald",
+          "lang": "zh",
+          "tier": "press",
+          "title": "热财经｜外交部驳斥“间谍论” 黄仁勋出轨风波持续"
+        },
+        {
+          "url": "https://www.sohu.com/a/1099179098_120702",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "外交部回应黄仁勋婚外情事件：所谓“中国间谍”的论调纯属捕风捉影、污蔑抹黑"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8xufZ4aY4Z8",
+          "outlet": "ifeng",
+          "lang": "zh",
+          "tier": "press",
+          "title": "美官员称黄仁勋出轨中国女间谍，中方驳斥"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "us-intel-believes-jensen-huang-targeted-chinese-spy",
+      "confidence_note": "MFA transcript not checked; based on Chinese media accounts. Time estimated from the usual 15:00 Beijing briefing. The wording on the 600,000 chips comes from a snippet only.",
+      "score": {
+        "total": 51.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 24
+    },
+    {
+      "id": "openai-chatgpt-business-hub-business-agents",
+      "title": "OpenAI opens ChatGPT Business Hub beta so US companies can publish verified profiles and business agents",
+      "summary": "OpenAI launched a Business Hub in beta where eligible US companies can set up profiles and verify product and service information in ChatGPT, and publish a business agent that answers users' questions about their products. These agents can be sponsored and used as destinations for ChatGPT Ads, with sponsored placements labelled. OpenAI says businesses do not see users' conversations.",
+      "why_it_matters": "It nudges ChatGPT toward a Google-style business directory and ad surface, tying its ads business to agent-based commerce.",
+      "key_numbers": [
+        "US only (beta)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google"
+        },
+        {
+          "url": "https://www.unite.ai/openai-launches-business-hub-and-business-agents-in-chatgpt/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Launches Business Hub and Business Agents in ChatGPT"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "From search snippets only; no OpenAI primary page seen. Time of day estimated.",
+      "score": {
+        "total": 50.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.854
+        },
+        "coverage": 3,
+        "mentions": 5,
+        "baseline": 1.6,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 25
+    },
+    {
+      "id": "gemini-connected-apps-human-review-github-claim",
+      "title": "GitHub write-up alleges Gemini sends connected Drive files and emails to human reviewers",
+      "summary": "A pseudonymous GitHub repository says Gemini pulls personal Drive files and Gmail content into chats even without explicit @Drive or @Gmail tags, and that those sessions can go to contractor review, pointing to an Oct 16 policy edit. Google's Gemini Apps Privacy Hub reportedly says a subset of Connected Apps data is reviewed by human reviewers and that reviewed chats are kept up to three years. The post reached 446 points on Hacker News.",
+      "why_it_matters": "If confirmed, it undercuts assurances about Workspace data and could slow adoption of Gemini's connected-app features.",
+      "key_numbers": [
+        "446 HN points",
+        "up to 3 years retention of reviewed chats (reported)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-09T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://github.com/thisisme6598/gemini_files/",
+          "outlet": "GitHub (thisisme6598)",
+          "lang": "en",
+          "tier": "social",
+          "title": "Documentation of Gemini File Leaking Behavior"
+        },
+        {
+          "url": "https://aiweekly.co/alerts/google-gemini-routes-personal-drive-gmail-to-human-reviewers",
+          "outlet": "AI Weekly",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Gemini Routes Personal Drive, Gmail to Human Reviewers"
+        },
+        {
+          "url": "https://byteiota.com/google-gemini-gmail-drive-human-reviewers-privacy/",
+          "outlet": "byteiota",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Gemini Exposes Gmail and Drive to Human Reviewers"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "An allegation: pseudonymous author, not independently reproduced, no specific Google response seen; privacy-hub wording reported second-hand. Publication time estimated from the harvest's HN list.",
+      "score": {
+        "total": 45.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.494,
+          "breadth": 0.487,
+          "momentum": 0.943
+        },
+        "coverage": 4,
+        "mentions": 4,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 26
+    },
+    {
+      "id": "tencent-workbuddy-refund-deepseek-v4-1-flash-promo",
+      "title": "Tencent's WorkBuddy apologises for silently ending a DeepSeek-V4.1 Flash discount and refunds half the credits",
+      "original_title": "腾讯Workbuddy致歉：未及时公告优惠活动调整，DeepSeek-V4.1 Flash积分消耗5折结算返还",
+      "summary": "WorkBuddy, Tencent's AI work assistant, apologised for ending its 50%-off DeepSeek-V4.1 Flash credit promotion at 14:00 on Nov 5 without notice. Usage of V4.1 Flash between 14:00 Nov 5 and 23:59 Nov 8 will be re-billed at the discounted rate, with 50% of credits spent returned automatically within 7 working days.",
+      "why_it_matters": "A small consumer-trust episode that shows how much Chinese agent apps compete on token subsidies for third-party models.",
+      "key_numbers": [
+        "50% of credits refunded",
+        "Nov 5 14:00 to Nov 8 23:59",
+        "within 7 working days"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Tencent",
+        "DeepSeek"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-08T23:27:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyazeh3399650.shtml",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "WorkBuddy就DeepSeek-V4.1 Flash折扣调整未及时公告致歉"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1164/1164201.htm",
+          "outlet": "MyDrivers (快科技)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek-V4.1 Flash优惠引关注！WorkBuddy宣布退还50%积分"
+        },
+        {
+          "url": "https://www.chinaz.com/ainews/32161.shtml",
+          "outlet": "Chinaz",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "优惠悄悄结束惹争议，Workbuddy 给 DeepSeek 用户退一半积分"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "WorkBuddy's own notice was not seen; details come from consistent media accounts. Time is when the harvest first saw it.",
+      "score": {
+        "total": 41.9,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.565
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 27
+    },
+    {
+      "id": "minimax-zhuhai-hengqin-subsidiary",
+      "title": "MiniMax sets up a wholly owned AI software company in Zhuhai Hengqin with ¥5M registered capital",
+      "original_title": "MiniMax在珠海横琴成立新科技公司，注册资本500万",
+      "summary": "Company-registry data from Tianyancha and Qichacha show a new Zhuhai Hengqin company with ¥5 million registered capital whose scope covers AI application, foundational and algorithm software development. It is wholly owned by Shanghai Xiyu Jizhi Technology, a MiniMax affiliate.",
+      "why_it_matters": "A minor corporate step; the purpose was not disclosed.",
+      "key_numbers": [
+        "¥5M registered capital"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MiniMax"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-11-09T05:55:00Z",
+      "sources": [
+        {
+          "url": "https://www.jiemian.com/article/15310821.html",
+          "outlet": "Jiemian",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MiniMax在珠海横琴成立新科技公司，注册资本500万"
+        },
+        {
+          "url": "http://stock.10jqka.com.cn/20261109/c681604019.shtml",
+          "outlet": "10jqka (同花顺)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "MiniMax在珠海横琴成立新科技公司 注册资本500万"
+        },
+        {
+          "url": "https://www.chinaz.com/ainews/32197.shtml",
+          "outlet": "Chinaz",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "MiniMax 加码大模型产业：珠海横琴新设科技公司，注册资本 500 万"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.2,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "Reports disagree on the legal representative. Purpose not disclosed.",
+      "score": {
+        "total": 40.4,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.2,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.713
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 0.6,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 28
+    },
+    {
+      "id": "openai-chatgpt-enterprise-aws-marketplace",
+      "title": "ChatGPT Enterprise is now available to buy through AWS Marketplace",
+      "summary": "OpenAI announced that ChatGPT Enterprise can be bought through AWS Marketplace, extending its AWS distribution. The same day it published customer stories on CodeRabbit's use of Codex and on Kuken Industries.",
+      "why_it_matters": "Companies can draw down existing AWS commitments to pay for ChatGPT seats, removing a procurement barrier.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Amazon"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-09T19:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "ChatGPT Enterprise now available in AWS Marketplace"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only the harvest headline and URL were seen; openai.com could not be fetched. Terms and pricing unknown.",
+      "score": {
+        "total": 39.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.854
+        },
+        "coverage": 1,
+        "mentions": 5,
+        "baseline": 1.6,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 29
+    },
+    {
+      "id": "nubia-navix-ultra-starry-edition-presale",
+      "title": "Nubia opens presales for a ¥6,999 'Starry' edition of its Doubao agent phone NaviX Ultra; on sale Nov 16",
+      "original_title": "6999 元，“第二代豆包手机”努比亚 NaviX Ultra 星空典藏版开启预售",
+      "summary": "Nubia opened presales on Nov 10 for a collector's edition of the NaviX Ultra, the September phone built around ByteDance's Doubao assistant and marketed as the 'second-generation Doubao phone'. It comes only as 16GB+512GB at ¥6,999 and goes on sale Nov 16 at 10:00; the main change is a micro-relief back panel.",
+      "why_it_matters": "A design refresh, not new hardware, that keeps ByteDance's agent phone visible during Double 11.",
+      "key_numbers": [
+        "¥6,999 (16GB+512GB)",
+        "on sale Nov 16 10:00"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Nubia",
+        "ByteDance",
+        "Doubao"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T02:02:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/024/624.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "6999 元，“第二代豆包手机”努比亚 NaviX Ultra 星空典藏版开启预售"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1164/1164490.htm",
+          "outlet": "MyDrivers (快科技)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "第二代豆包手机！努比亚NaviX Ultra星空典藏版预售 6999元"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-10/doc-iniyfeci2822869.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "6999 元，“第二代豆包手机”努比亚 NaviX Ultra 星空典藏版开启预售"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.2,
+      "novelty": 0.1,
+      "follow_up_of": null,
+      "confidence_note": "'Second-generation Doubao phone' is a marketing label for the September NaviX Ultra, not a new model.",
+      "score": {
+        "total": 37.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.1,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 30
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-18",
+      "title": "ChatGPT 'Dots' turned on by default for Enterprise, Edu and Healthcare workspaces",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "AI Dev NYC (DeepLearning.AI), Nov 30-Dec 1",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://ai-dev.deeplearning.ai"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Anthropic IPO pricing expected (Nasdaq: ANT; range $70-$78, 825M shares)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Anthropic shares expected to start trading on Nasdaq (ANT), per sources",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+    },
+    {
+      "date": "2027-01-08",
+      "title": "Lead-plaintiff deadline in Nvidia/Huang securities class action (N.D. Cal.)",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-11-10-securities-fraud-lawsuit-filed-against-nvidia-corporation-the-law-offices-of-frank-r-cruz-outlines-lead-plaintiff-deadline"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Baidu World 2026, Beijing",
+      "kind": "conference",
+      "confidence": "expected",
+      "url": "https://www.qbitai.com/2026/10/503779.html"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "SMIC Q3 2026 results after market close; call Nov 13 08:30 Beijing",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.itiger.com/news/2584955428"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Nubia NaviX Ultra 'Starry' edition (Doubao agent phone) on sale, ¥6,999",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://www.ithome.com/1/024/624.htm"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Tencent Q3 2026 results (per CLS)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.cls.cn/detail/2505509"
+    },
+    {
+      "date": "2026-11",
+      "title": "Seedream 5.5 API due on Volcano Engine Ark (week of Nov 9)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34441670"
+    },
+    {
+      "date": "2027-01-10",
+      "title": "China's extended suspension of rare-earth and other export controls (MOFCOM/GACC 2026 No. 58) ends",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_91466027f465467985942a639a9485f4.html"
+    }
+  ],
+  "notes": "The harvest was 19 h stale (last run 2026-11-10T02:52Z); stories after that were found with WebSearch only. This issue covers 48 h because no Nov 9 issue was published. WebFetch reached only anthropic.com, so most facts rest on search-result text, flagged per item. Skipped: Goldman pulling Claude Code (pre-window), Nemotron 3.5 Super VL SageMaker listing (Oct 15 model), AWS Quick (likely a rename), Tencent AI scientist remarks (Nov 7).",
+  "learn": [
+    {
+      "id": "benchmark-gap-confidence-interval",
+      "gap": "llm-eval",
+      "title": "Put a confidence interval on a benchmark gap before calling it a win",
+      "item_ids": [
+        "anthropic-claude-fable-mythos-5-2"
+      ],
+      "why_today": "Anthropic reports Fable 5.2 at 69.9% on FrontierSWE v2 against 62.3% for Opus 5.5, a 7.6-point gap whose significance depends on how many tasks the benchmark has.",
+      "explanation": "A pass rate on n tasks is a binomial estimate with standard error sqrt(p(1-p)/n), so a 7.6-point gap is noise at n=100 and borderline at n=300. Treating the two runs as independent overstates the noise, because both models face the same tasks: the paired (McNemar) view uses only discordant tasks, those one model solves and the other fails, and usually gives a much tighter interval. Run-to-run sampling variance (temperature, agent scaffolding) adds a second noise source that a single run hides, so ask for repeated seeds. The interval also says nothing about contamination or whether the benchmark measures what you care about.",
+      "math": "\\widehat{\\Delta}=\\frac{b-c}{n},\\qquad \\mathrm{SE}(\\widehat{\\Delta})=\\frac{\\sqrt{b+c-(b-c)^2/n}}{n}",
+      "python": "# Illustrative: is a benchmark gap bigger than sampling noise? (task counts are assumed, not reported)\nimport math\ndef gap_ci(p1, p2, n, z=1.96):\n    # unpaired two-proportion CI for p1 - p2, both models run on the same n tasks\n    se = math.sqrt(p1*(1-p1)/n + p2*(1-p2)/n)\n    d = p1 - p2\n    return d, d - z*se, d + z*se\ndef paired_ci(b, c, n, z=1.96):\n    # paired: b = tasks only A solves, c = tasks only B solves (McNemar-style)\n    d = (b - c) / n\n    se = math.sqrt(b + c - (b - c)**2 / n) / n\n    return d, d - z*se, d + z*se\nfor n in (100, 300, 1000):\n    d, lo, hi = gap_ci(0.699, 0.623, n)\n    print(f\"n={n:5d}: gap {d*100:+.1f} pts, 95% CI [{lo*100:+.1f}, {hi*100:+.1f}]  significant={lo>0}\")\n# Same 300 tasks, but the models agree on most: only 40 vs 17 discordant tasks\nd, lo, hi = paired_ci(40, 17, 300)\nprint(f\"paired n=300: gap {d*100:+.1f} pts, 95% CI [{lo*100:+.1f}, {hi*100:+.1f}]\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations (Miller, 2024)",
+          "url": "https://arxiv.org/abs/2411.00640"
+        }
+      ]
+    },
+    {
+      "id": "kill-switch-latency-cached-authorization",
+      "gap": "agent-engineering",
+      "title": "Bound an agent kill switch's stop latency when authorizations are cached",
+      "item_ids": [
+        "openai-control-room-stop-research-workloads"
+      ],
+      "why_today": "OpenAI's Control Room revokes a job's authorization to stop it, and reports that cached authorizations can delay the halt by up to 35 seconds.",
+      "explanation": "A revocation only takes effect when the worker next consults the authority, so the worst-case stop time is the cache TTL plus propagation delay, not the check interval. Shorter TTLs tighten the bound but multiply load on the authorization service, and if that service is down the system must choose fail-closed (stop everything) or fail-open (keep running). OpenAI's description says it fails closed. Push-based revocation can beat the TTL bound but needs a reliable channel, so production designs usually combine a push with a TTL as the backstop. The simulation shows mean latency near half the TTL while the worst case sits at the bound, and the bound is what matters for safety.",
+      "math": "T_{stop}^{\\max}=T_{prop}+\\max(T_{TTL},\\,T_{check})",
+      "python": "# Illustrative: worst-case stop latency with cached authorizations (numbers are assumed)\nimport random\ndef stop_latency(ttl, check_every, propagate, trials=100_000, seed=0):\n    rng = random.Random(seed)\n    worst = total = 0.0\n    for _ in range(trials):\n        cache_age = rng.uniform(0, ttl)          # how old the cached 'allowed' verdict is at revoke time\n        expire = ttl - cache_age                 # time until the cache must re-check\n        next_check = rng.uniform(0, check_every) # engine checks cache before each generation step\n        lat = propagate + max(expire, next_check)\n        worst = max(worst, lat); total += lat\n    return total / trials, worst\nfor ttl in (5, 15, 30):\n    mean, worst = stop_latency(ttl, check_every=1.0, propagate=2.0)\n    print(f\"cache TTL {ttl:2d}s: mean stop {mean:5.1f}s, worst {worst:5.1f}s (bound = TTL + propagate = {ttl+2}s)\")\n",
+      "minutes": 10
+    }
+  ]
+}
