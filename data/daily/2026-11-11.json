@@ -1,0 +1,1535 @@
+{
+  "date": "2026-11-11",
+  "window": {
+    "start": "2026-11-10T21:48:00Z",
+    "end": "2026-11-11T21:48:00Z"
+  },
+  "tldr": [
+    "Google opened Gemini 4 Carbon to paying API users and AI Ultra subscribers at an introductory $2/$10 per million tokens (to $4/$20 from Dec 1) and added /swarm multi-agent coding to Antigravity; DeepMind also released AlphaGenome 2, which lifts cell-type-specific causal-variant recall to 30% from 16% at 90% precision.",
+    "OpenAI's Q3 revenue reportedly topped $10B (up ~50%) while its operating loss widened to about $10.9B, as Anthropic's IPO book is said to be several times oversubscribed, with bankers weighing pricing above the $70-$78 range ahead of Nov 18 pricing.",
+    "China: Alibaba opened a Qwen4-Max preview with a 1M-token context on its Token Plan and Baidu shipped ERNIE 5.5 Flash Preview (280B MoE, 14B active) with weights due Nov 25; in the US, Congress readied a subpoena for Nvidia's Jensen Huang as the SOX rebounded about 5.7%."
+  ],
+  "items": [
+    {
+      "id": "google-gemini-4-carbon-public-rollout-swarm",
+      "title": "Google opens Gemini 4 Carbon to paid API users and AI Ultra subscribers, adds /swarm agent teams in Antigravity",
+      "summary": "Gemini 4 Carbon, launched Oct 28 for cyber defenders only, is now open to paying developers, businesses and Google AI Ultra subscribers, who get it in the Gemini app, AI Mode in Search and Antigravity in select countries. Introductory API pricing is $2/$10 per million input/output tokens until Nov 30, then $4/$20. Antigravity also gets a /swarm preview in which a coordinator runs parallel worker agents in isolated git worktrees plus verifier agents that run tests and challenge diffs, each pinnable to a different model. Google still recommends Gemini 4 Argon for most coding and knowledge work and pitches Carbon at the hardest, longest tasks.",
+      "why_it_matters": "Google's top model is now broadly purchasable at introductory prices well below Claude Fable 5.2's $8/$40, and /swarm is a first-party multi-agent coding product from a frontier lab.",
+      "key_numbers": [
+        "$2/$10 per M tokens intro (to Nov 30)",
+        "$4/$20 per M tokens from Dec 1"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Google DeepMind"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-10T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "outlet": "Google Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Carbon is now available"
+        },
+        {
+          "url": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/",
+          "outlet": "Google Antigravity Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Carbon and /swarm"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google releases Gemini 4 Carbon with agent 'swarm' feature"
+        },
+        {
+          "url": "https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price",
+          "outlet": "VentureBeat",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google Gemini 4 Carbon is now publicly available — and it undercuts Claude Fable 5.2 and Opus 5.5 on API price"
+        },
+        {
+          "url": "https://www.androidauthority.com/google-gemini-4-carbon-rollout-3733702/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google rolls out Gemini 4 Carbon to AI Ultra subscribers"
+        },
+        {
+          "url": "https://www.ithome.com/1/025/203.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "谷歌迄今最强模型 Gemini 4 Carbon 登场：主打复杂编程、科学研究与网络安全"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": "google-gemini-4-carbon-launch",
+      "confidence_note": "Primary posts could not be fetched; facts from the Verge/IT之家 harvest text and agreeing search snippets. 16:00Z is the Verge timestamp, inside the grace period. A Google/Artificial Analysis 'MKA' benchmark (Carbon 2nd at ~1/6 the cost of #1) rests on IT之家 and one secondary source and is omitted from key numbers.",
+      "original_title": "谷歌迄今最强模型 Gemini 4 Carbon 登场：主打复杂编程、科学研究与网络安全",
+      "score": {
+        "total": 72.3,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.912,
+          "breadth": 0.811,
+          "momentum": 0.744
+        },
+        "coverage": 10,
+        "mentions": 3,
+        "baseline": 1.2,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "openai-q3-2026-revenue-10b-operating-loss-10-9b",
+      "title": "OpenAI's Q3 revenue reportedly tops $10B for the first time, up about 50%, as operating loss widens to $10.9B",
+      "summary": "Bloomberg and the WSJ, citing internal figures, report that OpenAI's third-quarter 2026 revenue reached about $10B, up roughly 50% from about $6.7B in Q2. The WSJ puts the operating loss at about $10.9B, up from $10.1B in Q2, while Bloomberg's figures imply the adjusted operating margin improved to about -109% from about -150%. Enterprise is now the largest revenue source and consumer subscriptions passed 100 million.",
+      "why_it_matters": "It is the clearest look yet at OpenAI's unit economics, landing a week before Anthropic's IPO prices; investors will compare the two labs' growth and losses directly.",
+      "key_numbers": [
+        "~$10B Q3 revenue",
+        "~+50% vs ~$6.7B in Q2",
+        "$10.9B operating loss (WSJ)",
+        "adj. operating margin ~-109% vs ~-150%",
+        ">100M consumer subscriptions"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T22:33:06Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/openai-third-quarter-revenue-soars-nearly-50-to-10-billion",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI's quarterly revenue reportedly crosses $10B for the first time"
+        },
+        {
+          "url": "https://www.forbes.com/sites/jonmarkman/2026/11/11/openai-revenue-hits-10-billion-in-q3-as-loss-per-dollar-falls-to-109/",
+          "outlet": "Forbes",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Revenue Hits $10 Billion In Q3 As Loss Per Dollar Falls To $1.09"
+        },
+        {
+          "url": "https://www.tipranks.com/news/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion",
+          "outlet": "TipRanks",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Posts Steep Losses Even as Quarterly Revenue Rises to $10 Billion"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Figures come from internal documents reported by Bloomberg and the WSJ; OpenAI has not published them. The WSJ 'operating loss' and Bloomberg 'adjusted operating loss' may be different measures. Bloomberg and WSJ articles seen via search snippets and secondary write-ups only.",
+      "score": {
+        "total": 69.6,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.692
+        },
+        "coverage": 6,
+        "mentions": 4,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "anthropic-ipo-oversubscribed-bankers-weigh-pricing-above-range",
+      "title": "Anthropic IPO book said to be several times oversubscribed; bankers weigh pricing above the $70-$78 range",
+      "summary": "Bloomberg reports that orders for Anthropic's IPO are several times the shares on offer, and some investors expecting large allocations are already selling slices to others at a 3-5% premium to the IPO price. The FT reports bankers expect to price above the filed $70-$78 range, which could lift the valuation to $1.5T or more; the range has not formally changed. TechCrunch reports each of Anthropic's seven co-founders will sell about $250M of stock in the offering. Pricing is expected Nov 18, with trading as soon as Nov 19.",
+      "why_it_matters": "Strong demand for the largest AI listing so far is helping revive the AI trade after this month's selloff, and the final price will set the first public-market valuation for a frontier lab.",
+      "key_numbers": [
+        "$70-$78 filed range",
+        "$1.5T+ possible valuation (FT)",
+        "3-5% grey-market premium",
+        "~$250M per co-founder x7",
+        "pricing expected Nov 18"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Goldman Sachs",
+        "Morgan Stanley"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T20:58:08Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-investors-shop-ipo-shares-early-and-at-a-big-premium",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Investors Shop IPO Shares Early, and at a Big Premium"
+        },
+        {
+          "url": "https://fortune.com/2026/11/11/anthropic-sets-a-1-4-trillion-ipo-target-but-bankers-may-already-be-aiming-higher-cfo/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic sets a $1.4 trillion IPO target, but bankers may already be aiming higher"
+        },
+        {
+          "url": "https://qz.com/anthropic-ipo-oversubscribed-roadshow-demand-111126",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's IPO is said to be multiple times oversubscribed as roadshow gets under way"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "All 7 Anthropic founders will each cash out about $250M in IPO"
+        },
+        {
+          "url": "https://mlq.ai/news/anthropics-bankers-weigh-pricing-its-ipo-above-the-70-to-78-range-lifting-its-valuation-to-15-trillion-or-more-ft-reports/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic's bankers weigh pricing its IPO above the $70 to $78 range, lifting its valuation to $1.5 trillion or more, FT reports"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": "anthropic-ipo-price-range-70-78-roadshow-launch",
+      "confidence_note": "Above-range pricing is a banker expectation reported by the FT (FT article itself not seen); nothing has been filed. The ~$250M-per-founder figure is from the TechCrunch headline and was not checked against the S-1. The Bloomberg story was first seen at 20:58Z, inside the grace period.",
+      "score": {
+        "total": 66.8,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.393
+        },
+        "coverage": 9,
+        "mentions": 2,
+        "baseline": 3.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "alibaba-qwen4-max-preview-token-plan",
+      "title": "Alibaba opens Qwen4-Max preview with a 1M-token context on its Token Plan ahead of the full Qwen4 launch",
+      "original_title": "阿里全新一代千问大模型 Qwen4 即将发布，预览版已首发上线",
+      "summary": "Alibaba's Qwen team said its next-generation Qwen4 is coming soon and opened a Qwen4-Max preview (qwen4-max-preview) through its Token Plan subscription only, with no pay-as-you-go access. Alibaba Cloud documentation describes a 1M-token context, up to 393,216 output tokens shared between reasoning and answer, and image and video input. The preview runs from 10:00 Nov 11 to 24:00 Nov 25 (UTC+8) and is then retired. Alibaba published no parameter count, benchmarks, license or per-token price.",
+      "why_it_matters": "It is the first usable model of the next generation from China's most widely used open-model family; that it is closed and subscription-only for now leaves open whether Qwen4 weights will follow.",
+      "key_numbers": [
+        "1M-token context",
+        "393,216 max output tokens",
+        "preview Nov 11-25 (UTC+8)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Alibaba",
+        "Qwen"
+      ],
+      "tickers": [
+        "BABA",
+        "9988.HK"
+      ],
+      "published_at": "2026-11-11T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+          "outlet": "Alibaba Cloud Model Studio docs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "qwen4-max-preview"
+        },
+        {
+          "url": "https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/",
+          "outlet": "TechNode",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alibaba opens Qwen4-Max preview with a million-token context window"
+        },
+        {
+          "url": "https://www.ithome.com/1/025/301.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "阿里全新一代千问大模型 Qwen4 即将发布，预览版已首发上线"
+        },
+        {
+          "url": "https://www.pai.com.cn/news/01m749d182avv7tys71fds88g7",
+          "outlet": "电商派",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "阿里新一代千问大模型Qwen4即将发布 预览版已上线"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": "alibaba-qwen-official-teaser-qwen4-kun",
+      "confidence_note": "published_at estimated from the 10:00 UTC+8 preview start; one aggregator dates it Nov 10. Specs from search snippets of the Alibaba Cloud docs and TechNode; pages not fetched.",
+      "score": {
+        "total": 66.6,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.632,
+          "momentum": 0.51
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "deepmind-alphagenome-2-cell-type-variant-effects",
+      "title": "DeepMind releases AlphaGenome 2, which predicts how DNA variants act in specific cell types",
+      "summary": "Google DeepMind released AlphaGenome 2, which conditions its predictions of DNA-variant effects on a chosen cell type or state and can take in new single-cell data without retraining. It was trained on bulk and single-cell human and mouse data covering more than 107 million cell profiles. On TenK10K, a single-cell immune dataset spanning 28 cell types, it recovered 30% of putatively causal expression-linked variants at 90% precision versus 16% for a fine-tuned AlphaGenome 1. It is available through the AlphaGenome API for non-commercial research and in private preview for commercial use.",
+      "why_it_matters": "It moves variant-effect prediction from tissue to cell level, which matters for locating the cell type where a disease starts; it is a research tool, not a clinical one.",
+      "key_numbers": [
+        ">107M cell profiles",
+        "30% vs 16% causal-variant recall at 90% precision",
+        "28 immune cell types"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Google DeepMind",
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-11T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "AlphaGenome 2: Predicting how DNA shapes cells and disease"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+          "outlet": "SiliconANGLE",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+          "outlet": "MarkTechPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects"
+        },
+        {
+          "url": "https://www.unite.ai/google-deepminds-alphagenome-2-predicts-cell-state-variant-effects/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google DeepMind's AlphaGenome 2 Predicts Cell-State Variant Effects"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Publication time estimated (Nov 11 per outlet URLs). Sources disagree on one comparison (a DeepMind-blog snippet says 30% vs 23%; MarkTechPost reports 43% at 90% sign accuracy vs 23%); 30% vs 16% is the most consistently reported figure. Primary post not fetched.",
+      "score": {
+        "total": 66.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.689,
+          "momentum": 0.744
+        },
+        "coverage": 7,
+        "mentions": 3,
+        "baseline": 1.2,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "congress-set-to-subpoena-jensen-huang-moolenaar-deadline",
+      "title": "House China panel prepares to subpoena Nvidia's Jensen Huang after setting a Nov 11 response deadline",
+      "summary": "House China committee chair John Moolenaar said Congress is prepared to subpoena Nvidia CEO Jensen Huang and gave him until the end of Wednesday, Nov 11, to respond to a request to appear. A Nov 5 letter from Moolenaar and Reps. Brian Mast and Rick Crawford asked Huang to attend a closed-door briefing on Nov 18. Senate Democratic leader Chuck Schumer accused Trump of defending Huang at the expense of national security, and lawmakers are pressing for tighter China chip-export rules in the defense bill.",
+      "why_it_matters": "The Huang affair is now feeding export-control legislation that could tighten Nvidia's China access, a week before its Nov 17 earnings.",
+      "key_numbers": [
+        "Nov 11 response deadline",
+        "Nov 18 requested closed-door briefing",
+        "3 House committee chairs signed the letter"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "House Select Committee on the CCP",
+        "John Moolenaar",
+        "Chuck Schumer"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-11T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Congress Set to Subpoena Nvidia's Jensen Huang, Republican Says"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security"
+        },
+        {
+          "url": "https://valawyersweekly.com/2026/11/11/us-lawmakers-push-china-chip-rules-after-nvidia-ceo-allegations/",
+          "outlet": "Virginia Lawyers Weekly (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "US lawmakers push China chip rules after Nvidia CEO allegations"
+        },
+        {
+          "url": "https://cryptobriefing.com/moolenaar-nvidia-ceo-huang-deadline",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "House China panel chair Moolenaar sets same-day deadline for Nvidia CEO Jensen Huang"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "nvidia-shares-fall-two-days-shareholder-suit-huang-probe",
+      "confidence_note": "Bloomberg publication time estimated (Nov 11, US daytime); article seen in search results only. No subpoena had been issued when searched. The original 'summoned to Congress' report ran Nov 9; the new elements are the subpoena threat and deadline.",
+      "score": {
+        "total": 63.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.692
+        },
+        "coverage": 5,
+        "mentions": 4,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "baidu-ernie-5-5-flash-preview-release",
+      "title": "Baidu releases ERNIE 5.5 Flash Preview (280B MoE, 14B active, 1M context), promises open weights by Nov 25",
+      "original_title": "百度文心发布 ERNIE 5.5 Flash Preview 模型，11 月 25 日前开源权重",
+      "summary": "The day before Baidu World, Baidu released ERNIE 5.5 Flash Preview, the first post-trained version of the ERNIE 5.5 Flash Base checkpoint it open-sourced on Nov 5. It is a 280B-parameter MoE with 14B parameters active per token and a 1M-token context; Baidu cites hybrid sparse attention, a multi-router MoE and multi-token prediction. The API is live on Baidu AI Cloud Qianfan at a limited-time 50% discount, and weights are due by Nov 25.",
+      "why_it_matters": "It is Baidu's first deployable 5.5-generation model, landing just before Baidu World and Q3 results, and adds another Chinese 1M-context open-weight contender.",
+      "key_numbers": [
+        "280B total / 14B active",
+        "1M-token context",
+        "API 50% off (limited time)",
+        "weights due Nov 25"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Baidu"
+      ],
+      "tickers": [
+        "BIDU",
+        "9888.HK"
+      ],
+      "published_at": "2026-11-11T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-11/doc-iniyixxz1868491.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "百度文心发布 ERNIE 5.5 Flash Preview 模型，11 月 25 日前开源权重"
+        },
+        {
+          "url": "https://www.163.com/tech/article/LBF9S4PE00098IEO.html",
+          "outlet": "网易科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "百度发布文心5.5 Flash Preview"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261111/herald/aaaca4e9c98adecf48393b5d80803df9.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "文心全新开源模型发布，游戏开发、3D建模能力出色"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Release time (Beijing daytime Nov 11) estimated. Discount and architecture details from search-result summaries of Sina/NetEase articles, which were not fetched.",
+      "score": {
+        "total": 62.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "nvidia-board-hires-wachtell-joon-kim-huang-probe",
+      "title": "Nvidia board hires Wachtell and ex-acting US attorney Joon Kim to investigate Huang's ties to an alleged spy",
+      "summary": "Nvidia's independent directors hired Wachtell, Lipton, Rosen & Katz and former acting Manhattan US Attorney Joon H. Kim to investigate CEO Jensen Huang's relationship with a woman US officials believe spied for China, including whether company secrets or national security were compromised. The board says it retains confidence in Huang, who returned to the office this week. Critics note Nvidia has no board chair and its lead independent director previously ran Cooley, Nvidia's longtime outside counsel.",
+      "why_it_matters": "An outside probe led by a former prosecutor raises the governance stakes ahead of Nvidia's Nov 17 earnings, and its findings could affect Huang's position.",
+      "key_numbers": [
+        "Wachtell Lipton hired",
+        "Joon Kim: ex-acting US Attorney, SDNY"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Wachtell, Lipton, Rosen & Katz",
+        "Joon Kim"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-10T19:07:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Statement From the Independent Members of the NVIDIA Board"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe"
+        },
+        {
+          "url": "https://thehill.com/policy/technology/6212083-nvidia-hired-former-us-attorney/",
+          "outlet": "The Hill",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia hires former acting US attorney to investigate Jensen Huang"
+        },
+        {
+          "url": "https://thenextweb.com/news/nvidia-board-jensen-huang-inquiry-directors-succession",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia board hires ex-prosecutor Joon Kim to investigate Jensen Huang"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "nvidia-board-statement-and-huang-message-megaspeed",
+      "confidence_note": "Assumes the 19:07Z board statement in the harvest (not fetched) is the one announcing the hire, based on press reports that the board announced it on Nov 10. Inside the grace period only.",
+      "score": {
+        "total": 62.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.689,
+          "momentum": 0.692
+        },
+        "coverage": 7,
+        "mentions": 4,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "fractile-720m-series-c-7b-uk-sovereign-ai-fund",
+      "title": "UK AI chip startup Fractile raises $720M at about $7B valuation, backed by Britain's Sovereign AI fund",
+      "summary": "London-based Fractile, which designs inference chips with memory stacked on logic to ease bandwidth limits, raised a $720M Series C led by Thrive Capital, Founders Fund, Lightspeed and Redpoint, with CapitalG, BlackRock, DST Global, Balderton, the UK Sovereign AI fund and the British Business Bank also investing. Reuters, citing a source, puts the valuation at about $7B (the UK government says over £5B), up from about $1B at its May Series B. Fractile plans to ship its first chips and systems next year.",
+      "why_it_matters": "It is one of Europe's largest AI-chip rounds and a notable UK government stake in an Nvidia challenger aimed at the inference memory bottleneck.",
+      "key_numbers": [
+        "$720M Series C",
+        "~$7B valuation (>£5B)",
+        "~$1B at May Series B",
+        "first chips due 2027"
+      ],
+      "topic": "compute",
+      "region": "eu",
+      "entities": [
+        "Fractile",
+        "Thrive Capital",
+        "Founders Fund",
+        "British Business Bank"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-11T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "With $720M round, Britain's Fractile gets a leg up in the race for AI chips"
+        },
+        {
+          "url": "https://www.yahoo.com/news/articles/uk-backed-ai-chip-startup-145142457.html",
+          "outlet": "Yahoo News (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "UK-backed AI chip startup Fractile hits $7 billion valuation in funding round"
+        },
+        {
+          "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "London's Fractile raises $720M for memory-first AI chips and hits $7B valuation"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated (morning of Nov 11, US time). Valuation from an unnamed Reuters source and the UK government's '>£5B'. UK tagged 'eu' because the schema has no UK region.",
+      "score": {
+        "total": 61.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "chip-stocks-rebound-nov11-coreweave-micron-sox",
+      "title": "Chip stocks rebound: SOX up about 5.7%, Micron about 12% and CoreWeave about 25% as the AI trade revives",
+      "summary": "Semiconductor stocks led Wall Street higher on Nov 11, with the Philadelphia Semiconductor Index up about 5.7% at the close after peaking near 7% intraday. CoreWeave rose about 25% after its Q3 beat and raised outlook, Micron gained about 12%, and Sandisk and SK hynix ADRs rose more than 10%. Nvidia rose about 3-4% despite a Baird downgrade to Neutral, ending two days of losses tied to the Huang affair. Preliminary closes: Nasdaq Composite +1.59% to 25,464.57, S&P 500 +1.29% to 7,617.84.",
+      "why_it_matters": "It is the sharpest bounce yet from the November AI-chip selloff, helped by CoreWeave's results and demand for Anthropic's IPO, just ahead of Nvidia's Nov 17 earnings.",
+      "key_numbers": [
+        "SOX ~+5.7%",
+        "Micron ~+12%",
+        "CoreWeave ~+25%",
+        "Nvidia ~+3-4%",
+        "Nasdaq +1.59% to 25,464.57"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "CoreWeave",
+        "Micron",
+        "Nvidia",
+        "SK hynix"
+      ],
+      "tickers": [
+        "CRWV",
+        "MU"
+      ],
+      "published_at": "2026-11-11T14:06:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise as chip stock rally rekindles AI trade"
+        },
+        {
+          "url": "https://www.detroitnews.com/story/business/2026/11/11/sp-500-nasdaq-rise-as-coreweave-results-ease-ai-spending-worries/92724217007/",
+          "outlet": "Detroit News (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "S&P 500, Nasdaq rise as CoreWeave results ease AI spending worries"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "CoreWeave soars 26% as CEO reaffirms AI compute demand after strong Q3 report"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-stocks-add-253b-coreweave-has-best-day-since-june-2025/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AI Stocks Add $253B; CoreWeave Has Best Day Since June 2025"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "coreweave-q3-2026-revenue-3-66b-backlog-132-5b-guide-raised",
+      "confidence_note": "Closing percentages differ across sources (SOX 5.7% close vs ~7% intraday; Nvidia +3.0% to +3.8%; CoreWeave +24.7% to +26%). Index closes are preliminary. Baird downgrade seen only in search summaries.",
+      "score": {
+        "total": 58.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.565
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "mercor-750m-series-d-20b-valuation",
+      "title": "Mercor raises $750M Series D at a $20B valuation to push into enterprise agent evaluation",
+      "summary": "Mercor, which supplies human experts to write and grade AI training and evaluation data, raised a $750M Series D at a $20B valuation, including an employee-share tender, double the $10B valuation of its October 2025 Series C. Investors include Benchmark, Felicis, General Catalyst, Nvidia, Salesforce and Zoom. Mercor says its annualized gross revenue run rate reached $2B in June 2026 and it will spend the money on AI evaluations, post-training research and simulated environments for enterprise agents.",
+      "why_it_matters": "It is the largest recent round in the AI data-and-evaluation layer and shows labs' post-training spending flowing through to suppliers.",
+      "key_numbers": [
+        "$750M Series D",
+        "$20B valuation",
+        "2x the $10B Series C valuation",
+        "$2B annualized gross run rate (June 2026)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Mercor",
+        "Benchmark",
+        "General Catalyst",
+        "Nvidia",
+        "Salesforce"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T16:27:01Z",
+      "sources": [
+        {
+          "url": "https://www.mercor.com/blog/series-d/",
+          "outlet": "Mercor",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Organizing human intelligence for the entire economy"
+        },
+        {
+          "url": "https://x.com/mercor/status/2120191509735821661",
+          "outlet": "Mercor on X",
+          "lang": "en",
+          "tier": "social",
+          "title": "Mercor has raised a $750 million Series D at a $20 billion valuation"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/10/mercor-raises-750m-at-20b-valuation-to-take-ai-agent-evaluation-to-enterprises/",
+          "outlet": "SiliconANGLE",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Mercor raises $750M at $20B valuation to take AI agent evaluation to enterprises"
+        },
+        {
+          "url": "https://techstartups.com/2026/11/11/mercor-raises-750m-at-20b-valuation-doubling-its-worth-in-just-over-a-year-with-backing-from-nvidia-salesforce/",
+          "outlet": "Tech Startups",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Mercor raises $750M at $20B valuation, doubling its worth in just over a year"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "published_at decoded from the X post's snowflake ID (16:27Z, inside the grace period). The split between primary capital and the employee tender was not disclosed.",
+      "score": {
+        "total": 58.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.775,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "new-york-raise-act-registration-opens-frontier-labs",
+      "title": "New York opens RAISE Act registration; frontier AI developers such as OpenAI and Anthropic must sign up by Jan 1",
+      "summary": "New York began implementing its frontier-AI safety law, the RAISE Act, by opening a registration portal run by its new Office of Digital Innovation, Governance, Integrity, and Trust (DIGIT). Large frontier developers such as OpenAI and Anthropic must register by Jan 1, 2027, publish safety frameworks and transparency reports, and report critical safety incidents within 72 hours. Fines run up to $1M for a first violation and $3M for later ones.",
+      "why_it_matters": "It is the first operational step of the second big US state frontier-AI law after California's SB 53, together forming a de facto bicoastal standard despite federal pressure to preempt state rules.",
+      "key_numbers": [
+        "register by Jan 1, 2027",
+        "72-hour incident reporting",
+        "$1M first-violation fine",
+        "$3M later fines"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "New York State",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T20:52:13Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI, Anthropic face new oversight as New York's AI safety law takes effect"
+        },
+        {
+          "url": "https://mlq.ai/news/new-york-opens-raise-act-registration-giving-openai-anthropic-and-other-frontier-labs-until-jan-1-to-sign-up/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "New York opens RAISE Act registration, giving OpenAI, Anthropic and other frontier labs until Jan. 1 to sign up"
+        },
+        {
+          "url": "https://www.ibtimes.sg/openai-anthropic-face-new-ai-rules-new-york-72-hour-deadline-public-disclosures-3-million-96116",
+          "outlet": "IBTimes Singapore",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI and Anthropic Face New AI Rules in New York: 72-Hour Deadline, Public Disclosures and $3 Million Fines"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Law firms give the law's effective date as Jan 1, 2027, so 'takes effect' refers to registration opening. One outlet cites June 2027 for some obligations. No official NY state page was seen.",
+      "score": {
+        "total": 58.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "bessent-us-china-ai-dialogue-apec-shenzhen",
+      "title": "Bessent: US and China should 'harbor no illusions' on AI as Trump and Xi prepare to advance an AI risk dialogue",
+      "summary": "Treasury Secretary Scott Bessent said the US and China should 'harbor no illusions' about their differences as they work to contain AI risks while competing. He said he expects Trump and Xi to advance a new bilateral dialogue on advanced AI when they meet on the sidelines of next week's APEC summit in Shenzhen. CNBC reports Jensen Huang's attendance at the summit is now in doubt.",
+      "why_it_matters": "A formal US-China AI-risk channel would be a first between the two AI superpowers, even as chip export policy stays contested.",
+      "key_numbers": [
+        "APEC leaders' meeting Nov 18-19, Shenzhen"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "US Treasury",
+        "Scott Bessent",
+        "Donald Trump",
+        "Xi Jinping"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-11T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "U.S., China should 'harbor no illusions' as they cooperate, compete on AI, Bessent says"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/china/article/348152/US-and-China-should-stay-clear-eyed-on-AI-cooperation-and-competition-Bessent-says",
+          "outlet": "The Standard (HK)",
+          "lang": "en",
+          "tier": "press",
+          "title": "US and China should stay clear-eyed on AI cooperation and competition, Bessent says"
+        },
+        {
+          "url": "https://www.foxnews.com/live-news/ai-news-china-super-intelligence-safety-11-11-26",
+          "outlet": "Fox News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump, Xi to discuss AI risks as US-China tech rivalry intensifies"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "published_at is an estimate; the remarks may date from late Nov 10 US time. Seen via search results only.",
+      "score": {
+        "total": 57.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "openai-acquires-odessia-ai-travel-agent",
+      "title": "OpenAI acquires Odessia, the AI travel-agent startup of Sonder co-founder Francis Davidson",
+      "summary": "Francis Davidson, co-founder of the collapsed lodging company Sonder, said OpenAI has acquired his AI travel-agent startup Odessia and that he is joining OpenAI to work on travel. Odessia launched in June with eight staff and about $6M of Sequoia-led seed funding; its standalone service shut down the same day. OpenAI did not announce the deal and terms were not disclosed. Online travel agency shares dipped on the news.",
+      "why_it_matters": "It signals OpenAI is building agentic travel booking in-house, a direct threat to online travel agencies.",
+      "key_numbers": [
+        "~$6M seed (Sequoia)",
+        "team of 8",
+        "launched June 2026"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Odessia",
+        "Francis Davidson"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T19:31:07Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder"
+        },
+        {
+          "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/",
+          "outlet": "Skift",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Acquires Odessia, the AI Travel Agent From Sonder's Co-Founder"
+        },
+        {
+          "url": "https://www.phocuswire.com/news/startups/openai-acquires-ai-travel-agent-odessia",
+          "outlet": "PhocusWire",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI acquires AI travel agent Odessia"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Announced by the founder; OpenAI declined to confirm to TechCrunch. A reported ~4% Airbnb drop appears only in low-tier outlets and is omitted. Inside the grace period only.",
+      "score": {
+        "total": 55.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.736,
+          "momentum": 0.692
+        },
+        "coverage": 8,
+        "mentions": 4,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "meta-infrastructure-chief-janardhan-to-leave-dave-brown-succeeds",
+      "title": "Meta infrastructure chief Santosh Janardhan to leave in early 2027; ex-AWS executive Dave Brown takes over",
+      "summary": "Santosh Janardhan, Meta's head of infrastructure, told staff in a Nov 11 memo that he will leave in early 2027 and stay through Q1 to help the transition; the memo gave no reason. Dave Brown, a former AWS SVP of compute and ML services who joined Meta in July, will lead Meta's infrastructure and data-center build-out.",
+      "why_it_matters": "One of the industry's largest AI capex budgets gets a new owner from AWS as local opposition to data centers grows.",
+      "key_numbers": [
+        "early 2027 departure",
+        "up to ~$145B 2026 capex (reported)"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Meta",
+        "Santosh Janardhan",
+        "Dave Brown"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-11-11T16:56:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-infrastructure-chief-santosh-janardhan-165630956.html",
+          "outlet": "Yahoo Finance (Bloomberg)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta infrastructure chief Santosh Janardhan to step down in early 2027 - Bloomberg"
+        },
+        {
+          "url": "https://thenextweb.com/news/meta-infrastructure-chief-santosh-janardhan-steps-down",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta's infrastructure chief Santosh Janardhan to step down in 2027"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated from the Yahoo article ID. The $145B capex figure comes from secondary coverage. Sources differ on the exact title Brown will hold.",
+      "score": {
+        "total": 54.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.736,
+          "momentum": 0.365
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 1.2,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "jd-double-11-50m-ai-products-token-packs-10x",
+      "title": "JD's Double 11 tally: over 50M AI products sold, 'Token' searches up 13x and LLM token-pack sales up 10x",
+      "original_title": "京东双11收官战报：服务订单超3亿，售出超5000万件AI产品",
+      "summary": "JD.com said that as of 23:59 on Nov 11 it had sold more than 50 million AI products and generated over 300 million service orders during Double 11. Searches for 'Token' rose more than 13-fold and sales of LLM token packs more than 10-fold, both against a prior base period rather than year on year; AI PCs, AI workstations and AI glasses more than doubled from a year earlier. Same-day reporting by 科创板日报 described thin discounts on token products and a grey market of resale 'relay stations'.",
+      "why_it_matters": "Double 11 is the first big test of selling model compute as a consumer product, and JD's numbers plus the grey-market warnings are early evidence on whether token retail is real demand.",
+      "key_numbers": [
+        ">50M AI products",
+        ">300M service orders",
+        "'Token' searches >13x",
+        "token-pack sales >10x"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "JD.com"
+      ],
+      "tickers": [
+        "JD",
+        "9618.HK"
+      ],
+      "published_at": "2026-11-11T16:30:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-12/doc-iniykvcw8971984.shtml",
+          "outlet": "新浪科技 (亿邦动力)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "京东双11收官战报：服务订单超3亿，售出超5000万件AI产品"
+        },
+        {
+          "url": "https://finance.sina.com.cn/stock/t/2026-11-11/doc-iniykvcr1618641.shtml",
+          "outlet": "新浪财经 (科创板日报)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "Token登上“双十一”货架：AI推理火了，灰色中转站也来了｜深度"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261111/herald/2ab8050f943135d5699d1890e410ed22.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "你囤Token了吗？“双十一”AI消费套路避坑指南"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "JD's self-reported figures; multiples are against a base period, not year on year. published_at estimated just after midnight Beijing on Nov 12. Seen via search snippets only.",
+      "score": {
+        "total": 51.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "google-gemini-intelligence-november-pixel-drop",
+      "title": "Google brings Gemini Intelligence to Pixel 10 and Motorola Signature 27, adds AI-built widgets and call-handling beta",
+      "summary": "Google's November feature drop brings Gemini Intelligence to the Pixel 10 series (not the 10a) and to Motorola's Signature 27, and expands Gemini's multi-step tasks such as ordering food and booking rides to India, Japan and the UK. It adds custom widgets Gemini builds from a plain-language description, dictation that strips filler words, and a US public beta in which Gemini makes routine phone calls for the user.",
+      "why_it_matters": "Google is pushing agentic phone features beyond its newest flagship and onto a third-party OEM.",
+      "key_numbers": [
+        "agentic tasks expand to India, Japan, UK"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Google",
+        "Motorola"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-10T19:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+          "outlet": "Google Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini Intelligence: New features, on more devices"
+        },
+        {
+          "url": "https://www.androidauthority.com/google-pixel-drop-november-2026-all-new-features-3733178/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's November Pixel Drop brings over 12 new features, and Pixel 10 owners are the big winners"
+        },
+        {
+          "url": "https://www.ghacks.net/2026/11/11/googles-november-pixel-drop-brings-gemini-intelligence-to-the-pixel-10-and-launches-the-29-99-pixel-tag/",
+          "outlet": "gHacks",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's November Pixel Drop Brings Gemini Intelligence to the Pixel 10 and Launches the $29.99 Pixel Tag"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "19:00Z from the harvest's primary feed entry (inside the grace period). Details from search snippets; primary post not fetched.",
+      "score": {
+        "total": 50.9,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.632,
+          "momentum": 0.744
+        },
+        "coverage": 6,
+        "mentions": 3,
+        "baseline": 1.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "openai-retires-chatgpt-advanced-standard-voice-dec11",
+      "title": "OpenAI will retire ChatGPT's Advanced and Standard voice modes on Dec 11 and move all users to GPT-Live",
+      "summary": "OpenAI began notifying users that ChatGPT's Advanced and Standard voice modes will be removed on Dec 11, 2026, with users switched to Live voice, powered by the GPT-Live model launched in July. OpenAI says voice usage has nearly doubled since GPT-Live launched. Live video and screen sharing stay on Advanced voice for now, with no date for moving them.",
+      "why_it_matters": "It consolidates ChatGPT voice on one model but leaves video and screen sharing without a migration date.",
+      "key_numbers": [
+        "retirement Dec 11, 2026",
+        "voice usage nearly doubled since GPT-Live"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-10T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/20001638-retiring-advanced-and-standard-voice-in-chatgpt",
+          "outlet": "OpenAI Help Center",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Retiring Advanced and Standard Voice in ChatGPT"
+        },
+        {
+          "url": "https://www.androidauthority.com/openai-retiring-chatgpt-advanced-standard-voice-3733978/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI is sunsetting ChatGPT Advanced and Standard voice next month"
+        },
+        {
+          "url": "https://www.tribuneindia.com/news/ai/openai-to-discontinue-old-chatgpt-voice-modes-from-dec-11-users-to-shift-to-live-voice-mode",
+          "outlet": "The Tribune",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI to discontinue old ChatGPT voice modes from Dec 11; users to shift to live voice mode"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Time estimated (notices went out Nov 10). Help article not fetched; details from agreeing search snippets.",
+      "score": {
+        "total": 50.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.835,
+          "breadth": 0.689,
+          "momentum": 0.692
+        },
+        "coverage": 7,
+        "mentions": 4,
+        "baseline": 2.4,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "metax-ubtech-jv-xixuan-500m-angel-embodied-chip",
+      "title": "MetaX-UBTech embodied-AI chip venture Xixuan Chuangzhi reportedly raises ¥500M angel round",
+      "original_title": "沐曦和优必选联姻造具身芯片，消息称合资公司曦选创智融资 5 亿元",
+      "summary": "Xixuan Chuangzhi, a joint venture GPU maker MetaX and robot maker UBTech set up in 2026, has completed a ¥500 million angel round co-led by GGV Capital and Matrix Partners China, 21st Century Business Herald reported; MetaX and UBTech each hold 35.01%. The company is building on-device chips for humanoid and embodied robots and plans tape-out in H2 2027 and mass production in 2028.",
+      "why_it_matters": "China is starting to fund a domestic alternative to Nvidia's Jetson/Thor robot computers as the humanoid sector scales.",
+      "key_numbers": [
+        "¥500M angel round",
+        "35.01% each (MetaX, UBTech)",
+        "tape-out H2 2027",
+        "mass production 2028"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "MetaX",
+        "UBTech",
+        "Xixuan Chuangzhi"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-11T08:00:00Z",
+      "sources": [
+        {
+          "url": "http://stock.10jqka.com.cn/20261111/c681722779.shtml",
+          "outlet": "同花顺财经 (21世纪经济报道)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "沐曦和优必选联姻造具身芯片 合资公司最新融资5亿元"
+        },
+        {
+          "url": "https://www.ithome.com/1/025/807.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "沐曦和优必选联姻造具身芯片，消息称合资公司曦选创智融资 5 亿元"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.35,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Reported ('消息称'); no official announcement found. Time on Nov 11 estimated. Seen via search snippets only.",
+      "score": {
+        "total": 46.2,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "china-ai-chip-stocks-rebound-nov11-cambricon",
+      "title": "China AI chip stocks rebound: Cambricon up over 5% and optical-module names surge as STAR 50 gains about 2.8%",
+      "original_title": "芯片设计领跑半导体反弹，寒武纪涨超7%",
+      "summary": "Chinese semiconductor and AI-hardware stocks rebounded on Nov 11: Cambricon rose 5-7% and VeriSilicon nearly 6%, the STAR 50 closed up about 2.8% and ChiNext gained 3.11%. Communications equipment led, with optical-module (CPO) stocks surging and the sector index up 8.75%. The STAR chip-design index had fallen as much as 51.7% from its June 30 high to Nov 3.",
+      "why_it_matters": "It is a relief rally after the early-November global chip rout and shows how closely China's AI-chip valuations track US AI sentiment.",
+      "key_numbers": [
+        "Cambricon +5-7%",
+        "STAR 50 ~+2.8%",
+        "comm-equipment index +8.75%",
+        "chip-design index -51.7% Jun 30-Nov 3"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Cambricon",
+        "VeriSilicon"
+      ],
+      "tickers": [
+        "688256.SS"
+      ],
+      "published_at": "2026-11-11T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.jiemian.com/article/15309954.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "芯片设计领跑半导体反弹，科创芯片设计ETF招商标的指数涨超1%，权重寒武纪涨逾5%"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261111/herald/dfbd8bb987db1f1ba1158f96682ee474.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "4只千亿龙头，涨停！通信ETF，暴力拉升！"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.3,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "Intraday and close figures differ across outlets (Cambricon +5% to +7%). Closing figures from search summaries.",
+      "score": {
+        "total": 41.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.2,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.565
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-18",
+      "title": "Requested closed-door House China committee briefing for Nvidia CEO Jensen Huang (subpoena threatened)",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://cryptobriefing.com/moolenaar-nvidia-ceo-huang-deadline"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "APEC CEO Summit, Shenzhen (Nov 17-18)",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://news.cgtn.com/news/2026-09-10/2026-APEC-CEO-Summit-to-be-held-on-Nov-17-18-in-China-s-Shenzhen-1QkpMIz9M2s/p.html"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "APEC leaders' meeting, Shenzhen (Nov 18-19); Trump-Xi talks expected to advance a US-China AI dialogue",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.lg.gov.cn/english/news/latestnews/content/post_12588327.html"
+    },
+    {
+      "date": "2027-01-01",
+      "title": "New York RAISE Act: frontier AI developers must register with DIGIT",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.jdsupra.com/legalnews/new-york-finalizes-raise-act-for-8270433/"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Qwen4-Max preview on Alibaba Token Plan ends (24:00 UTC+8)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Baidu to open-source ERNIE 5.5 Flash (post-trained) weights",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-11/doc-iniyixxz1868491.shtml"
+    },
+    {
+      "date": "2026-12-11",
+      "title": "ChatGPT Advanced and Standard voice modes retired; users moved to GPT-Live",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://help.openai.com/en/articles/20001638-retiring-advanced-and-standard-voice-in-chatgpt"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Gemini 4 Carbon introductory API pricing ($2/$10) ends; $4/$20 per M tokens from Dec 1",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.technology.org/2026/11/11/gemini-4-carbon-available-developers-ai-ultra-pricing/"
+    }
+  ],
+  "notes": "The nightly harvest was 21 h stale (last run 2026-11-11T00:50Z); stories after that were found with WebSearch only, and WebFetch reached few news or lab sites, so most facts rest on search-result text, flagged per item. Skipped as outside the window although missed by earlier issues: Alibaba's plan to spin off chip unit T-Head for a Hong Kong listing (announced evening of Nov 10 Beijing time), MiniMax's open-weight H3-Image model (first seen 2026-11-10T15:25Z) and Google's TPU 8tx/8i Max (Nov 9). Also skipped: IBM-Microsoft industry agent platform (Nov 10, time unclear), Alexa+ in the browser in Germany (thin sourcing), Zhipu's next-day share whipsaw after its buyback.",
+  "learn": [
+    {
+      "id": "moe-training-compute-6nd",
+      "gap": "dl-training",
+      "title": "Estimate training compute with C ≈ 6·N·D, and why MoE uses active N",
+      "item_ids": [
+        "baidu-ernie-5-5-flash-preview-release"
+      ],
+      "why_today": "Baidu's ERNIE 5.5 Flash is a 280B-parameter MoE with 14B parameters active per token, so its training compute scales with 14B while its memory footprint scales with 280B.",
+      "explanation": "Each training token costs about 2N FLOPs in the forward pass (one multiply-add per parameter) and about 4N in the backward pass (gradients with respect to activations and to weights), giving C ≈ 6·N·D for D tokens. In a mixture-of-experts model only the routed experts run per token, so N is the active count, which is why a 280B/14B MoE trains at roughly the cost of a dense 14B model. Memory does not shrink: all experts' weights, gradients and Adam moments must be stored, which here is several terabytes and forces expert parallelism. The rule ignores attention FLOPs (a 12·L·T·d term that matters at long context), router overhead and the communication cost of all-to-all expert dispatch, which is often the real bottleneck. Divide C by peak throughput times model FLOPs utilisation to get wall-clock accelerator time.",
+      "math": "C \\approx 6\\,N_{\\text{active}}\\,D, \\qquad t \\approx \\frac{C}{\\text{peak} \\cdot \\text{MFU}}",
+      "python": "# Training compute for dense vs MoE: C ~ 6 * N_active * D  (illustrative numbers)\ndef train_flops(n_active, tokens):\n    return 6 * n_active * tokens\n\ndef gpu_days(flops, peak=1e15, mfu=0.4):\n    # peak ~1 PFLOP/s dense BF16 per accelerator (illustrative), mfu = achieved fraction\n    return flops / (peak * mfu) / 86400\n\nD = 20e12                      # 20T training tokens (illustrative)\nconfigs = {\n    \"dense 280B\":            280e9,\n    \"MoE 280B / 14B active\":  14e9,\n    \"dense 14B\":              14e9,\n}\nfor name, n_act in configs.items():\n    c = train_flops(n_act, D)\n    print(f\"{name:24s} C = {c:.2e} FLOPs  ~ {gpu_days(c):,.0f} accelerator-days at 40% MFU\")\n# Memory is set by TOTAL params; compute by ACTIVE params.\nbytes_per_param = 2 + 4 + 4 + 4   # bf16 weights + fp32 master + Adam m, v\nprint(f\"optimizer+weights state for 280B total: {280e9*bytes_per_param/1e12:.1f} TB\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Scaling Laws for Neural Language Models (Kaplan et al., 2020)",
+          "url": "https://arxiv.org/abs/2001.08361"
+        },
+        {
+          "title": "Switch Transformers (Fedus et al., 2021)",
+          "url": "https://arxiv.org/abs/2101.03961"
+        }
+      ]
+    },
+    {
+      "id": "causal-and-sliding-window-attention-from-scratch",
+      "gap": "ai-off-fluency",
+      "title": "Write masked softmax attention from scratch, then sparsify it with a window",
+      "item_ids": [
+        "baidu-ernie-5-5-flash-preview-release"
+      ],
+      "why_today": "Baidu cites hybrid sparse attention as one of the ingredients behind ERNIE 5.5 Flash's 1M-token context.",
+      "explanation": "Attention computes scores S = QKᵀ/√d, sets disallowed positions to −∞, applies a row-wise softmax and mixes the value rows. A causal mask lets position i see j ≤ i, so cost grows as T²/2. A sliding window keeps only the last w positions, cutting cost to about T·w, at the price that information from further back must travel through several layers. Hybrid schemes mix windowed or sparse layers with a few full-attention layers to keep long-range recall. Subtracting each row's maximum before exponentiating leaves the softmax unchanged but prevents overflow; the snippet shows outputs agree exactly while the window covers the whole prefix and diverge after that.",
+      "math": "\\mathrm{Attn}(Q,K,V)=\\mathrm{softmax}\\!\\left(\\frac{QK^\\top}{\\sqrt{d}} + M\\right)V,\\quad M_{ij}\\in\\{0,-\\infty\\}",
+      "python": "import math, random\nrandom.seed(0)\nT, d = 8, 16\nX = [[random.gauss(0, 1) for _ in range(d)] for _ in range(T)]\nW = [[[random.gauss(0, 1) / math.sqrt(d) for _ in range(d)] for _ in range(d)] for _ in range(3)]\nmm = lambda A, B: [[sum(a * b for a, b in zip(r, c)) for c in zip(*B)] for r in A]\nQ, K, V = (mm(X, w) for w in W)\n\ndef attention(allowed):\n    out, rows = [], []\n    for i in range(T):\n        s = [sum(q * k for q, k in zip(Q[i], K[j])) / math.sqrt(d) if allowed(i, j) else -math.inf\n             for j in range(T)]\n        m = max(s)                                   # subtract max: stable softmax\n        e = [math.exp(x - m) for x in s]; z = sum(e)\n        p = [x / z for x in e]; rows.append(p)\n        out.append([sum(p[j] * V[j][c] for j in range(T)) for c in range(d)])\n    return out, rows\n\ncausal = lambda i, j: j <= i\nwindow = lambda i, j: j <= i and i - j < 3           # sliding window of 3: a sparse pattern\nfull, P = attention(causal)\nwin, _ = attention(window)\nprint(\"rows sum to 1:\", all(abs(sum(r) - 1) < 1e-12 for r in P))\nprint(\"scores computed: causal\", sum(causal(i, j) for i in range(T) for j in range(T)),\n      \"| window\", sum(window(i, j) for i in range(T) for j in range(T)))\nprint(\"max |full - window| per position:\",\n      [round(max(abs(a - b) for a, b in zip(full[i], win[i])), 3) for i in range(T)])\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Attention Is All You Need (Vaswani et al., 2017)",
+          "url": "https://arxiv.org/abs/1706.03762"
+        },
+        {
+          "title": "Longformer: The Long-Document Transformer (Beltagy et al., 2020)",
+          "url": "https://arxiv.org/abs/2004.05150"
+        }
+      ]
+    },
+    {
+      "id": "decode-memory-bandwidth-roofline",
+      "gap": "llm-internals",
+      "title": "Bound decode speed by memory bandwidth: tokens/s ≤ BW / bytes per token",
+      "item_ids": [
+        "fractile-720m-series-c-7b-uk-sovereign-ai-fund",
+        "baidu-ernie-5-5-flash-preview-release"
+      ],
+      "why_today": "Fractile raised $720M for inference chips that stack memory on logic to ease bandwidth limits, and MoE models such as ERNIE 5.5 Flash read only their active parameters per token.",
+      "explanation": "In autoregressive decoding at small batch, each new token requires reading every active weight from memory once, while doing only about 2 FLOPs per weight, far below the arithmetic intensity accelerators need to be compute-bound. Single-sequence speed is therefore bounded by bandwidth divided by bytes read per token (weights plus that sequence's KV cache). Lower precision and fewer active parameters (MoE) raise the bound proportionally, and so does more bandwidth, which is the case for on-die or stacked memory. Batching B sequences reuses each weight read B times, raising throughput until the FLOP limit is hit; the KV cache, which grows per sequence, does not amortise and eventually dominates.",
+      "math": "\\text{tok/s} \\le \\frac{\\mathrm{BW}}{N_{\\text{active}}\\, b + M_{KV}}",
+      "python": "# Decode is memory-bound: each generated token must stream the active weights (+ KV cache) from memory.\n# tokens/s per sequence <= bandwidth / bytes_read_per_token   (illustrative numbers)\ndef max_tok_s(active_params, bytes_per_param, bandwidth_Bps, kv_bytes=0):\n    return bandwidth_Bps / (active_params * bytes_per_param + kv_bytes)\n\nhbm = 8e12           # 8 TB/s, an HBM-class accelerator (illustrative)\nsram = 80e12         # 10x more bandwidth, e.g. on-die / stacked memory (illustrative)\nfor name, n in [(\"dense 70B\", 70e9), (\"MoE 14B active\", 14e9)]:\n    for mem, bw in [(\"HBM 8 TB/s\", hbm), (\"stacked 80 TB/s\", sram)]:\n        print(f\"{name:15s} {mem:16s} fp8: {max_tok_s(n, 1, bw):7.0f} tok/s   bf16: {max_tok_s(n, 2, bw):7.0f} tok/s\")\n# Batching amortises the weight reads across B sequences until compute (FLOPs) becomes the limit.\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Roofline: An Insightful Visual Performance Model (Williams, Waterman, Patterson, 2009)",
+          "url": "https://doi.org/10.1145/1498765.1498785"
+        }
+      ]
+    }
+  ]
+}
