@@ -1,0 +1,1127 @@
+{
+  "date": "2026-11-12",
+  "window": {
+    "start": "2026-11-11T21:48:00Z",
+    "end": "2026-11-12T21:49:00Z"
+  },
+  "tldr": [
+    "Jensen Huang resigned as Nvidia CEO after 33 years; CFO Colette Kress is interim CEO and Harvey Jones becomes chair. Nvidia closed about 4.3% lower after an intraday drop of up to 14%, while AMD (+5.86%) and Broadcom (+5.54%) led the S&P 500.",
+    "Cisco raised its hyperscaler AI-infrastructure revenue target to $9B from $7.5B after an $18.5B quarter (+24%), and Google opened pre-orders for Gemini-powered Intelligent Eyewear from $395, shipping Dec 10.",
+    "Google launched Gemini 4 Hydrogen at $1.50/$7.50 per M tokens (57% on Terminal-Bench 4.1) as the default model in AI Mode. In China, SMIC posted record revenue of $3.19B at a 29.9% gross margin, and Baidu World pitched 'intelligent organisations' with two new ERNIE application models."
+  ],
+  "items": [
+    {
+      "id": "nvidia-huang-resigns-kress-interim-ceo-jones-chair",
+      "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim CEO, Harvey Jones becomes board chair",
+      "summary": "Nvidia disclosed in an SEC 8-K that its board accepted Jensen Huang's resignation as president, CEO and director on Wednesday, Nov 11, effective immediately. CFO Colette Kress will serve as interim CEO while remaining CFO, and long-time director Harvey C. Jones becomes the board's first chair; the board will consider internal and external candidates for a permanent CEO. Nvidia gave no reason, but the exit follows reports of Huang's affair with a woman US officials believe is a Chinese spy, and on Nov 12 Reuters reported he had an 'intimate relationship' with a second Nvidia employee. Nvidia shares closed down about 4.3% on Thursday after falling as much as 13-14% intraday.",
+      "why_it_matters": "The founder-CEO of the dominant AI-chip supplier is gone after 33 years, five days before Nvidia's Q3 results and a week before Anthropic's IPO prices, adding leadership risk across the AI supply chain.",
+      "key_numbers": [
+        "Huang CEO for 33 years",
+        "NVDA close about -4.3% on Nov 12",
+        "As much as -13% to -14% intraday",
+        "Q3 results Nov 17 under interim CEO"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Colette Kress",
+        "Harvey C. Jones"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-12T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+          "outlet": "Nvidia (SEC Form 8-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA CORP - Form 8-K (CEO transition)"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/12/nvidia-jensen-huang-out",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang, an architect of the AI boom, resigns as Nvidia CEO"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns",
+          "outlet": "CNN",
+          "lang": "en",
+          "tier": "press",
+          "title": "CFO Colette Kress to serve as interim leader after Nvidia CEO Jensen Huang resignation"
+        },
+        {
+          "url": "https://fortune.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-jensen-huang-fallout/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia taps CFO Colette Kress as interim CEO after Jensen Huang resignation"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang was having a third affair, Reuters reports"
+        }
+      ],
+      "coverage": 8,
+      "impact": 1.0,
+      "novelty": 1.0,
+      "follow_up_of": "nvidia-board-hires-wachtell-joon-kim-huang-probe",
+      "confidence_note": "sec.gov and techcrunch.com could not be fetched; 8-K terms (resignation accepted Nov 11, Kress interim CEO and still CFO, Jones as first chair, open search) come from search excerpts. Announcement was Thursday morning US time; exact UTC time unconfirmed, 12:00Z is an estimate. Intraday low differs by outlet (Axios 13%, CNBC 14%). The Reuters second-employee report is known only via CNBC/TechCrunch/CNN excerpts and is unconfirmed by Nvidia.",
+      "score": {
+        "total": 90.6,
+        "components": {
+          "impact": 1.0,
+          "novelty": 1.0,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.696
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 3.2,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "google-gemini-4-hydrogen-launch",
+      "title": "Google launches Gemini 4 Hydrogen, a fast agentic model at $1.50/$7.50 per million tokens, default in AI Mode",
+      "summary": "Google released Gemini 4 Hydrogen, which replaces the Flash tier and targets fast agentic workflows, leaving deep reasoning to Gemini 4 Carbon and Argon. Google says it completes tasks 2.5x faster than Gemini 3.8 Flash and scores 57% on Terminal-Bench 4.1 versus 18.2% for 3.8 Flash; The Decoder reports Artificial Analysis Intelligence Index scores of 51 (high) and 54 (xhigh), above Gemini 4 Argon's 50. It is available in AI Studio, the Gemini API and Antigravity, is the default model for AI Mode in Search globally and reaches free Gemini app users via auto model selection.",
+      "why_it_matters": "Google's cheap, fast tier now beats its own Argon on a composite index at a fraction of the price and becomes the default for every AI Mode user, though independent tests still put it behind Claude Sonnet 5.5 on agentic coding.",
+      "key_numbers": [
+        "$1.50/$7.50 per M tokens",
+        "1M-token context",
+        "Terminal-Bench 4.1: 57% vs 18.2%",
+        "AA Index 54 (xhigh) vs 50 for Argon"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Google DeepMind"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-12T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "outlet": "Google (The Keyword)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows"
+        },
+        {
+          "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Hydrogen - Model Card"
+        },
+        {
+          "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/",
+          "outlet": "9to5Google",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google announces Gemini 4 Hydrogen with 'significant leaps'"
+        },
+        {
+          "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google's latest Search upgrade promises better answers to your most complicated questions"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "All facts from search snippets (Google, TechCrunch hosts blocked for WebFetch). Nov 12 date from 9to5Google/TechCrunch URL paths; 16:00Z is an estimate. Benchmarks are Google's own except the Artificial Analysis figures relayed by The Decoder, which also has AA Terminal-Bench 4.0 at 54% vs Sonnet 5.5's 64%.",
+      "score": {
+        "total": 75.0,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.912,
+          "breadth": 0.565,
+          "momentum": 0.832
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 1.8,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "amd-broadcom-jump-nvidia-leadership-vacuum-coreweave-falls",
+      "title": "AMD and Broadcom jump about 6% on Nvidia turmoil; William Blair upgrades AMD, CoreWeave falls about 7%",
+      "summary": "AMD rose 5.86% and Broadcom 5.54% on Thursday, the best performers in the S&P 500, as investors bet rivals gain from Nvidia's leadership crisis; William Blair upgraded AMD to outperform, citing a 'leadership vacuum' at Nvidia. GPU cloud CoreWeave fell roughly 7% after jumping about 25% the day before. Fortune reports lenders are now more cautious about Nvidia backstops of neocloud borrowing.",
+      "why_it_matters": "The market is repricing the AI-chip pecking order and the credit of Nvidia-backed GPU clouds around Huang's exit.",
+      "key_numbers": [
+        "AMD +5.86%",
+        "AVGO +5.54%",
+        "CoreWeave about -7%"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "AMD",
+        "Broadcom",
+        "CoreWeave",
+        "Nvidia"
+      ],
+      "tickers": [
+        "AMD",
+        "AVGO",
+        "CRWV"
+      ],
+      "published_at": "2026-11-12T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-turmoil-lifts-amd-broadcom-on-bets-for-business-gains",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "AMD, Broadcom Poised to Gain From Scandal Roiling Nvidia"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/12/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "AMD upgraded because it will benefit from Nvidia's 'leadership vacuum'"
+        },
+        {
+          "url": "https://fortune.com/2026/11/12/nvidia-neoclouds-jensen-huang-resignation/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "'That Nvidia guarantee is not worth what it was worth a week ago': What Jensen Huang's exit means for neoclouds"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Percentages from search excerpts attributed to CNBC/CNN; CoreWeave's close seen as -6.86% (CNN) and about -7.5% (CNBC intraday), so the final figure is approximate.",
+      "score": {
+        "total": 60.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.565
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "google-intelligent-eyewear-preorder-395-ships-dec10",
+      "title": "Google opens pre-orders for Gemini-powered Intelligent Eyewear from $395; glasses ship Dec 10",
+      "summary": "Google opened pre-orders for its first Android XR 'Intelligent Eyewear', audio-only Gemini glasses built by Samsung and designed by Warby Parker (from $395) and Gentle Monster (from $449). They have a 12MP camera, about nine hours of battery, a 'Hey Gemini' hotword, and work with iPhone 13 Pro or newer as well as Android. Retail availability starts Dec 10; Google says display-equipped glasses will not ship this year.",
+      "why_it_matters": "Google's first consumer AI glasses since Glass take on Ray-Ban Meta at a similar price, with cross-platform support.",
+      "key_numbers": [
+        "From $395 / $449",
+        "Ships Dec 10",
+        "12MP camera",
+        "~9 h battery"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Samsung",
+        "Warby Parker",
+        "Gentle Monster"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-12T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+          "outlet": "Google (The Keyword)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "See our intelligent eyewear lineup and pre-order your pair"
+        },
+        {
+          "url": "https://9to5google.com/2026/11/12/google-intelligent-eyewear-glasses/",
+          "outlet": "9to5Google",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google launches Intelligent Eyewear glasses: $395+, pre-order today, ships Dec. 10"
+        },
+        {
+          "url": "https://www.androidauthority.com/google-intelligent-eyewear-hands-on-3734091/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "I tested Google's $395 Intelligent Eyewear smart glasses"
+        },
+        {
+          "url": "https://www.engadget.com/2314258/android-xr-smartglasses-hands-on/",
+          "outlet": "Engadget",
+          "lang": "en",
+          "tier": "press",
+          "title": "The first batch of Android XR smartglasses made me rethink my stance on specs without displays"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Specs and prices from search snippets. Date from 9to5Google URL; 15:00Z is an estimate.",
+      "score": {
+        "total": 59.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.487,
+          "momentum": 0.832
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 1.8,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "cisco-fq1-2027-beat-ai-infra-revenue-9b",
+      "title": "Cisco beats fiscal Q1 with $18.5B revenue, lifts hyperscaler AI infrastructure revenue target to $9B",
+      "summary": "Cisco reported fiscal Q1 2027 revenue of $18.5 billion, up 24% from $14.88 billion a year earlier and above the roughly $18.1 billion expected, with adjusted EPS of $1.40 versus $1.33 expected and net income of $4.6 billion. It now expects about $9 billion of AI infrastructure revenue from hyperscalers this fiscal year, up from a $7.5 billion target given in August and more than double fiscal 2026.",
+      "why_it_matters": "Networking is the next AI capex bottleneck after GPUs; Cisco's raised AI target signals data-center build-outs are holding up despite the chip-stock turmoil.",
+      "key_numbers": [
+        "Revenue $18.5B (+24% y/y)",
+        "Adj. EPS $1.40 vs $1.33 est.",
+        "Hyperscaler AI infra revenue target $9B (was $7.5B)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Cisco"
+      ],
+      "tickers": [
+        "CSCO"
+      ],
+      "published_at": "2026-11-12T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year"
+        },
+        {
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+          "outlet": "Cisco Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Cisco Schedules Conference Call for Q1 Fiscal Year 2027 Financial Results"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Figures come only from a CNBC snippet; Cisco's own release was not found (the newsroom item only confirms the Nov 12 after-close timing). published_at assumes a ~4:05pm ET release.",
+      "score": {
+        "total": 57.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "google-gemini-decisions-api-decision-1",
+      "title": "Google launches Gemini Decisions API with Gemini Decision 1 for fast, calibrated multimodal judgments",
+      "summary": "Google released the Gemini Decisions API, powered by a Gemini Decision 1 model built for many quick, calibrated judgments such as classification, yes/no answers and rubric scoring over multimodal inputs, rather than free-form generation. VentureBeat says it can score up to 1,000 questions in one API call and that Artificial Analysis's Decision Index v2.1 ranks it 9th of 18 at launch.",
+      "why_it_matters": "Calibrated decisions as a dedicated API product targets LLM-as-judge, moderation and routing workloads that now spend tokens on generation.",
+      "key_numbers": [
+        "Up to 1,000 questions per call",
+        "AA Decision Index v2.1: 9th of 18"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-11T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "outlet": "Google (The Keyword)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions"
+        },
+        {
+          "url": "https://venturebeat.com/technology/googles-gemini-decision-1-model-scores-up-to-1-000-questions-in-one-api-call",
+          "outlet": "VentureBeat",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google's Gemini Decision 1 model scores up to 1,000 questions in one API call"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Published 2026-11-11T18:00Z, about 4 h before the window; missed by the previous issue, included as a late catch-up. Details from VentureBeat snippet and the harvest title.",
+      "score": {
+        "total": 57.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.7,
+          "credibility": 0.78,
+          "breadth": 0.393,
+          "momentum": 0.832
+        },
+        "coverage": 3,
+        "mentions": 5,
+        "baseline": 1.8,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "baidu-world-2026-ernie-apps-intelligent-organization",
+      "title": "Baidu World 2026: Robin Li pitches 'intelligent organisation', launches two ERNIE application models",
+      "original_title": "百度世界2026发布多项AI成果，李彦宏：AI下一幕是“智能组织”",
+      "summary": "At Baidu World 2026 in Beijing on Nov 12, Robin Li argued that AI's next act is the 'intelligent organisation' and laid out three principles: break down job boundaries, capture tacit knowledge and close process loops. Baidu showcased the ERNIE 5.5 Flash preview (280B-parameter MoE, 14B active, 1M-token context) released the day before, and launched two ERNIE application models, a 'Shandian' (Lightning) deep-thinking model and the 'Yijing' micro-expression model, both offered as APIs on its Qianfan platform. Baidu also promoted Ciyuansuo, its multi-vendor model and token marketplace.",
+      "why_it_matters": "Baidu is pivoting its pitch from bigger base models to enterprise agents and token distribution, the same direction Alibaba and ByteDance are taking with token plans and agent platforms.",
+      "key_numbers": [
+        "ERNIE 5.5 Flash: 280B MoE, 14B active",
+        "1M-token context",
+        "2 new ERNIE application models"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Baidu",
+        "Robin Li"
+      ],
+      "tickers": [
+        "9888.HK",
+        "BIDU"
+      ],
+      "published_at": "2026-11-12T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.sohu.com/a/1100613517_120720358",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "百度世界2026发布多项AI成果，李彦宏：AI下一幕是“智能组织”"
+        },
+        {
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-12/doc-iniyntux1687530.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "十年之后，李彦宏把“下一幕”从人工智能改写为智能组织"
+        },
+        {
+          "url": "https://ai.cnmo.com/news/822357.html",
+          "outlet": "CNMO科技",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "百度世界2026发布多项AI成果，李彦宏：AI下一幕是“智能组织”"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LBHI0IPR0519DFFO.html",
+          "outlet": "网易",
+          "lang": "zh",
+          "tier": "press",
+          "title": "百度发布两款文心应用模型"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "baidu-ernie-5-5-flash-preview-release",
+      "confidence_note": "From search-result text only; no official Baidu release opened. English names of the two application models (文心闪电深度思考模型, 文心一镜微表情大模型) are translations. 词元所 (Ciyuansuo) went live earlier (36氪 report of Nov 5), so it is not presented as new. 02:00Z approximates the morning keynote in Beijing.",
+      "score": {
+        "total": 56.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.565
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "google-agent-substrate-gvisor-cncf-kubecon",
+      "title": "Google donates Agent Substrate and gVisor to the CNCF, makes GKE Agent Sandbox generally available",
+      "summary": "At KubeCon North America 2026, Google said it is donating Agent Substrate, an orchestrator for running AI agents on Kubernetes, to the Cloud Native Computing Foundation at Sandbox status, along with the gVisor sandbox. Coverage says Agent Substrate 1.0 is designed to scale from tens to millions of concurrent agents with gVisor or optional microVM isolation. Google also made GKE Agent Sandbox generally available.",
+      "why_it_matters": "Google is trying to make Kubernetes the standard runtime for agent fleets under neutral governance, as it did for containers.",
+      "key_numbers": [
+        "Agent Substrate v1.0",
+        "CNCF Sandbox status"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google",
+        "CNCF"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-12T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://opensource.googleblog.com/2026/11/sandboxing-untrusted-ai-agents-at-scale.html",
+          "outlet": "Google Open Source Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Sandboxing untrusted AI agents at scale"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/containers-kubernetes/bringing-you-agent-sandbox-on-gke-and-agent-substrate",
+          "outlet": "Google Cloud Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Bringing you Agent Sandbox on GKE and Agent Substrate"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/12/agentic-workloads-push-google-retool-kubernetes-agents-kubeconna/",
+          "outlet": "SiliconANGLE",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google retools Kubernetes for agentic workloads"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Exact announcement day unconfirmed: Google blog URL shows only 2026/11; SiliconANGLE is dated Nov 12. Details from snippets; time is an estimate.",
+      "score": {
+        "total": 55.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.88,
+          "breadth": 0.393,
+          "momentum": 0.832
+        },
+        "coverage": 3,
+        "mentions": 5,
+        "baseline": 1.8,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "huang-scandal-revives-china-chip-curbs-remote-access-rule",
+      "title": "Huang scandal revives push for tighter China chip curbs; Commerce said to be finalizing remote-access rule",
+      "summary": "CNBC reports the Huang affair is adding momentum to lawmakers seeking tighter limits on China's access to advanced AI chips ahead of the Trump-Xi APEC meeting. Citing The Information, it says the Commerce Department is finalizing a long-awaited rule to stop Chinese AI firms from remotely using advanced chips in overseas data centers, which Nvidia has long opposed. The House-passed Remote Access Security Act, which would extend export controls to cloud access, still awaits Senate action.",
+      "why_it_matters": "Closing the cloud loophole would cut Chinese labs' offshore access to frontier GPUs and dent Nvidia's overseas neocloud demand.",
+      "key_numbers": [
+        "Trump-Xi APEC talks Nov 18-19"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US Department of Commerce",
+        "Nvidia",
+        "US Congress"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit"
+        },
+        {
+          "url": "https://www.theinformation.com/topics/ai-remote-access",
+          "outlet": "The Information",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI Remote Access News & Analysis"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The 'Commerce finalizing rule' claim is The Information's, relayed by CNBC citing two people familiar; only The Information's topic page was seen, not the article. No rule text seen. Time approximate.",
+      "score": {
+        "total": 54.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.565
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "singapore-alice-huang-no-evidence-prosecution",
+      "title": "Singapore says Alice Huang misled investigators but finds no evidence to prosecute; Megaspeed probe continues",
+      "summary": "Bloomberg reports Singapore's Ministry of Home Affairs said Alice Huang, the former Megaspeed CEO linked to Jensen Huang, gave investigators information she knew was inaccurate to play down her role, but that she was not investigated for espionage and there is no evidence to prosecute her. She was barred from re-entering Singapore and given a stern warning. Singapore's investigation of Megaspeed continues, and CNBC and Fortune detail the firm's Southeast Asia network and a parallel US smuggling probe involving Supermicro hardware.",
+      "why_it_matters": "It is the first official account from the jurisdiction at the centre of the chip-diversion case, undercutting the espionage framing while keeping the smuggling probe alive.",
+      "key_numbers": [
+        "Megaspeed probe opened Feb 2025"
+      ],
+      "topic": "policy",
+      "region": "other",
+      "entities": [
+        "Singapore Ministry of Home Affairs",
+        "Megaspeed",
+        "Nvidia",
+        "Supermicro"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://bloomberg.com/news/articles/2026-11-12/singapore-says-warns-alice-huang-lacks-evidence-of-offenses",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Singapore Bars Alice Huang, Finds No Evidence for Prosecution in Spy Case"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "What we know so far about Nvidia partner Megaspeed's Asia footprint"
+        },
+        {
+          "url": "https://fortune.com/2026/11/12/jensen-huang-affair-megaspeed-supermicro-nvidia-smuggling-doj/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Before Megaspeed, there was Supermicro: The other Nvidia partner tied to China chip smuggling"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": "nvidia-general-counsel-intervened-megaspeed-smuggling-probe",
+      "confidence_note": "MHA statement itself not found; content from a search summary of Bloomberg. Timing of the re-entry ban not confirmed. Time unknown, 10:00Z is an estimate.",
+      "score": {
+        "total": 52.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "united-airlines-bans-ai-agents-booking",
+      "title": "United Airlines bars customers from using AI agents to book flights, citing cybersecurity risks",
+      "summary": "United Airlines says customers may not use AI agents to book flights or manage reservations on their behalf, citing cybersecurity risks and possible conflicts with federal rules. Agents can still look up flight information but cannot complete purchases. CBS News first reported the policy, which drew 376 points on Hacker News.",
+      "why_it_matters": "A major US airline formally shutting out agentic commerce signals merchant resistance to the consumer agents OpenAI, Google and Anthropic are pushing.",
+      "key_numbers": [
+        "376 Hacker News points"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "United Airlines"
+      ],
+      "tickers": [
+        "UAL"
+      ],
+      "published_at": "2026-11-11T21:24:35Z",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "outlet": "CBS News",
+          "lang": "en",
+          "tier": "press",
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "CBS first seen in the harvest at 21:24Z, 24 minutes before the window opened; TechCrunch followed on Nov 12. The look-up-but-not-book detail comes from an IT之家 headline in the harvest. Reasons from TechCrunch snippet.",
+      "score": {
+        "total": 52.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "smic-q3-2026-revenue-3-19b-gross-margin-29-9",
+      "title": "SMIC Q3 revenue hits a record $3.19B, up 6.1% on the quarter, as gross margin jumps to 29.9%",
+      "summary": "SMIC reported unaudited Q3 2026 revenue of $3.19 billion, up 6.1% from $3.006 billion in Q2 and from $2.38 billion a year earlier, beating its +2-4% guidance. Gross margin rose 4.6 points to 29.9%, above the 26-28% guide, and gross profit reached $953.2 million. For Q4 it guides revenue up 4-6% sequentially with a 26-28% gross margin.",
+      "why_it_matters": "China's leading foundry is running near full and beating guidance as domestic demand for locally made chips, including AI accelerators, stays strong despite US export curbs.",
+      "key_numbers": [
+        "Revenue $3.19B (+6.1% q/q)",
+        "Gross margin 29.9% (+4.6 pts)",
+        "Gross profit $953.2M",
+        "Q4 guide +4-6% q/q, GM 26-28%"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "SMIC"
+      ],
+      "tickers": [
+        "0981.HK"
+      ],
+      "published_at": "2026-11-12T09:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.tipranks.com/news/company-announcements/smic-reports-third-quarter-2026-unaudited-results",
+          "outlet": "TipRanks",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SMIC Reports Third-Quarter 2026 Unaudited Results"
+        },
+        {
+          "url": "https://news.futunn.com/en/post/1004300142/smic-00981-hk-third-quarter-sales-revenue-reached-us-3",
+          "outlet": "Futu News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SMIC (00981.HK): Third-quarter sales revenue reached US$3.19 billion, up 6.1% quarter-on-quarter."
+        },
+        {
+          "url": "https://fourweekmba.com/ai-smic-hit-a-record-3-19b-as-smartphone-wafer-sales-fell-10/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SMIC Hit a Record $3.19B as Smartphone Wafer Sales Fell 10%"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "From search-result text only; SMIC's HKEX filing was not opened. Released after the Hong Kong close on Nov 12; 09:30Z is an estimate. Net-profit figures differ by source (US$428.4M vs RMB2.847B) and are omitted.",
+      "score": {
+        "total": 50.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.578,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "fireworks-breach-notion-ai-insights-transcripts",
+      "title": "Fireworks AI breach may have exposed Notion AI chat transcripts; Notion disables Insights",
+      "summary": "Notion says chat transcripts from Notion AI customers who used its Insights feature may have been exposed in the Fireworks AI breach; Notion had used Fireworks for Insights classification jobs and as an inference provider for open-weight models. It says fewer than 1% of workspaces may be affected and that transcripts were unattributable and excluded tool-call results. Notion has disabled Insights during the investigation and stopped serving open-weight models through Fireworks.",
+      "why_it_matters": "The Fireworks incident has now reached a major downstream app's user data, underlining the supply-chain risk of routing prompts through third-party inference providers.",
+      "key_numbers": [
+        "<1% of Notion workspaces possibly affected"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Fireworks AI",
+        "Notion"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+          "outlet": "Notion",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Notice about the Fireworks AI incident that may impact some Notion workspaces"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "fireworks-ai-breach-widens-model-weights-datasets",
+      "confidence_note": "Details from search snippets; Notion's page not fetched. Some coverage notes actual exfiltration of transcripts is not established. Time is an estimate (TechCrunch dated Nov 12).",
+      "score": {
+        "total": 50.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.51
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.4,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "cerebras-q3-2026-record-revenue-microsoft-deal",
+      "title": "Cerebras posts record Q3 revenue of $210.8M and announces a Microsoft deal; shares jump about 18%",
+      "summary": "Cerebras reported record Q3 2026 GAAP revenue of $210.8 million and core revenue of $230.9 million, above its $214-216 million guidance, with core cloud revenue up 272% year on year to $144.9 million. The company cited commercial wins with two new hyperscalers, and CNBC reports it announced a deal with Microsoft. Shares rose about 18% but remain well below their May IPO level.",
+      "why_it_matters": "A Microsoft win diversifies Cerebras beyond OpenAI and adds a non-Nvidia inference supplier at a hyperscaler just as Nvidia's leadership is in flux.",
+      "key_numbers": [
+        "GAAP revenue $210.8M",
+        "Core revenue $230.9M",
+        "Core cloud revenue $144.9M (+272% y/y)",
+        "Shares about +18%"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Cerebras",
+        "Microsoft"
+      ],
+      "tickers": [
+        "CBRS"
+      ],
+      "published_at": "2026-11-12T21:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0002021728/000162828026073366/cbrsannouncesfinancialresu.htm",
+          "outlet": "Cerebras (SEC Form 8-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Cerebras Systems Inc. - Form 8-K (Q3 results)"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "8-K figures from search excerpts (sec.gov blocked). Microsoft deal and 18% move from CNBC headline/snippet; deal terms not seen. Release time unconfirmed; the share move is likely after hours.",
+      "score": {
+        "total": 50.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "google-a2ui-cli-0-3-bytedance-adoption",
+      "title": "Google's A2UI agent-UI protocol ships CLI 0.3 linting and SDK updates; Chinese press says ByteDance uses it",
+      "original_title": "让AI直接回复用户UI界面：谷歌开源跨平台协议A2UI 1.0版本上线，字节跳动已用上",
+      "summary": "Google's open-source A2UI project, which lets agents send declarative UI as JSON instead of executable code, released A2UI CLI v0.3.0 with an 'a2ui lint' command on Nov 11, after shipping a2ui-core 0.6.0 and a2ui-agent-sdk 0.11.0 (v1.0 renderer function calls) on Nov 10. IT之家 and ifeng reported A2UI 1.0 as live and said ByteDance already uses it.",
+      "why_it_matters": "A2UI is one of several competing standards for how agents render interactive UI; ByteDance adoption would be a notable cross-vendor win.",
+      "key_numbers": [
+        "CLI v0.3.0",
+        "a2ui-agent-sdk 0.11.0"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Google",
+        "ByteDance"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T01:08:04Z",
+      "sources": [
+        {
+          "url": "https://github.com/google/A2UI/releases",
+          "outlet": "GitHub (google/A2UI)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Releases · google/A2UI"
+        },
+        {
+          "url": "https://a2ui.org/specification/v1.0-a2ui/",
+          "outlet": "A2UI.org",
+          "lang": "en",
+          "tier": "primary",
+          "title": "A2UI v1.0 specification"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "GitHub releases fetched directly. The '1.0 live, ByteDance uses it' claim comes only from Chinese headlines in the harvest (Google News links, not cited); a2ui.org last labelled v1.0 a release candidate. No formal Google 1.0 GA announcement confirmed.",
+      "score": {
+        "total": 47.5,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.84,
+          "breadth": 0.393,
+          "momentum": 0.832
+        },
+        "coverage": 3,
+        "mentions": 5,
+        "baseline": 1.8,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "anthropic-ipo-six-times-oversubscribed-nvidia-pledge-scrutiny",
+      "title": "Anthropic IPO said to be about six times oversubscribed as Huang exit puts Nvidia's $10B pledge in focus",
+      "summary": "Bloomberg reported on Nov 12 that Anthropic's IPO book is about six times oversubscribed. A separate Bloomberg story says Huang's exit puts Nvidia's $10 billion commitment to the IPO's $26 billion strategic private placement under scrutiny, and Fortune says the shake-up makes the listing harder, with pricing slated for Nov 18 and trading as soon as Nov 19. Terms are unchanged at 825M shares and a $70-$78 range.",
+      "why_it_matters": "Nvidia is both Anthropic's key chip supplier and an anchor investor in the placement, so its turmoil feeds directly into the biggest IPO test of the AI trade.",
+      "key_numbers": [
+        "About 6x oversubscribed (Bloomberg)",
+        "Nvidia $10B of $26B private placement",
+        "Range $70-$78",
+        "Pricing Nov 18"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/anthropic-s-ipo-is-said-to-be-about-six-times-oversubscribed",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's IPO Is Said to Be About Six Times Oversubscribed"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-s-10-billion-anthropic-ipo-pledge-in-focus-with-ceo-exit",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia CEO Exit Puts $10 Billion Anthropic IPO Pledge Under Scrutiny"
+        },
+        {
+          "url": "https://fortune.com/2026/11/12/anthropic-ipo-jensen-huang-resignation-nvidia/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's blockbuster IPO just got harder after Jensen Huang's dramatic exit as Nvidia CEO"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": "anthropic-ipo-oversubscribed-bankers-weigh-pricing-above-range",
+      "confidence_note": "Only Bloomberg reported the 'about six times' multiple; both Bloomberg items known from headlines and snippets only. Time approximate.",
+      "score": {
+        "total": 47.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.221
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 3.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-17",
+      "title": "Nvidia fiscal Q3 FY2027 results (2pm PT call), the first under interim CEO Colette Kress",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Anthropic Australian retail IPO offer closes",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "AWS re:Invent 2026 opens in Las Vegas (to Dec 4)",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://www.cxtoday.com/events/aws-reinvent-2026/"
+    },
+    {
+      "date": "2026-12-10",
+      "title": "Google Intelligent Eyewear (Android XR glasses) goes on sale",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://www.androidauthority.com/samsung-android-xr-smart-glass-pre-order-3734248/"
+    }
+  ],
+  "notes": "The nightly harvest was 20 h stale (last run 2026-11-12T01:59Z); the rest of the window was covered by WebSearch only. The search index reached few Nov 12 pages, and WebFetch was blocked for sec.gov, techcrunch.com, blog.google, aws.amazon.com and most Chinese outlets, so most facts rest on search-result text, flagged per item. Skipped: Nebius Q3 and a reported $40B 2027 capex plan (not corroborated), a CNBC live-blog claim that OpenAI raised $15B at $1.25T (Bloomberg says $11B), the AWS AgentCore Web Search API (no detail beyond the title), and in-window Chinese clusters with only Google News links (Double 11 token passes, Zhongguancun AI forum). Kioxia appears to have reported on Oct 30, so the Nov 12 calendar entry may be stale.",
+  "learn": [
+    {
+      "id": "judge-calibration-brier-ece",
+      "gap": "llm-eval",
+      "title": "Measure whether a yes/no judge's probabilities are calibrated: Brier score and ECE",
+      "item_ids": [
+        "google-gemini-decisions-api-decision-1"
+      ],
+      "why_today": "Google pitches Gemini Decision 1 as returning fast, calibrated judgments for classification and rubric scoring, and calibration is a property you can measure rather than take on trust.",
+      "explanation": "A judge is calibrated if, among all items it scores at probability q, a fraction q are actually positive. The Brier score, the mean of (q - y)^2, is a proper scoring rule: it is minimised in expectation by reporting the true probability, and it mixes calibration with sharpness (how far from 0.5 the forecasts sit). Expected calibration error bins forecasts by q and averages |confidence - accuracy| weighted by bin size, isolating miscalibration. The simulation shows that both overconfident and underconfident judges raise the ECE about twelvefold while the Brier score moves only about 12%, because Brier is dominated by irreducible label noise. ECE is biased by the binning choice and sparse bins, so report it with the bin count and, ideally, a reliability diagram; and calibrate on the same distribution you will deploy on, because calibration does not transfer across domains.",
+      "math": "\\text{Brier}=\\frac{1}{n}\\sum_i (q_i-y_i)^2,\\qquad \\text{ECE}=\\sum_{b}\\frac{|B_b|}{n}\\left|\\bar q_b-\\bar y_b\\right|",
+      "python": "# Calibration of a yes/no judge: Brier score and expected calibration error (synthetic data)\nimport random\nrandom.seed(0)\ndef simulate(n, temp):\n    # true P(yes) per item; the judge reports a distorted probability (temp<1 = overconfident)\n    out = []\n    for _ in range(n):\n        p = random.random()\n        y = 1 if random.random() < p else 0\n        logit = (p / (1 - p + 1e-9)) ** (1 / temp)\n        q = logit / (1 + logit)\n        out.append((q, y))\n    return out\ndef brier(data):\n    return sum((q - y) ** 2 for q, y in data) / len(data)\ndef ece(data, bins=10):\n    tot = 0.0\n    for b in range(bins):\n        lo, hi = b / bins, (b + 1) / bins\n        sel = [(q, y) for q, y in data if lo <= q < hi or (b == bins - 1 and q == 1.0)]\n        if sel:\n            conf = sum(q for q, _ in sel) / len(sel)\n            acc = sum(y for _, y in sel) / len(sel)\n            tot += len(sel) / len(data) * abs(conf - acc)\n    return tot\nfor name, t in [(\"calibrated\", 1.0), (\"overconfident\", 0.4), (\"underconfident\", 2.5)]:\n    d = simulate(20000, t)\n    print(f\"{name:15s} Brier={brier(d):.4f}  ECE={ece(d):.4f}\")\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "On Calibration of Modern Neural Networks (Guo et al., 2017)",
+          "url": "https://arxiv.org/abs/1706.04599"
+        }
+      ]
+    },
+    {
+      "id": "event-study-abnormal-return",
+      "gap": "domain-ai",
+      "title": "Separate a stock's news reaction from the market move with a market-model abnormal return",
+      "item_ids": [
+        "amd-broadcom-jump-nvidia-leadership-vacuum-coreweave-falls"
+      ],
+      "why_today": "AMD rose 5.86% and Broadcom 5.54% on the day Nvidia's CEO resigned; an event study asks how much of that is news and how much is beta.",
+      "explanation": "Fit r_stock = alpha + beta * r_market + e by OLS on a clean estimation window (here 60 sessions) that ends before the event. On the event day, the abnormal return is the actual return minus alpha + beta * r_market, and dividing by the residual standard deviation gives a t-statistic. For a multi-day window you sum the abnormal returns into a CAR; its variance grows with the number of days, so the t-statistic is divided by sqrt(k). With high-beta chip stocks a market dip makes the expected return negative, so a +5.9% day becomes a +7% surprise. The fitted alpha is noisy over 60 days (here it comes out negative though the true value is positive), confounding events on the same day break the attribution, and fat-tailed returns make |t| > 2 less rare than a normal table suggests.",
+      "math": "AR_t = r_t - (\\hat\\alpha + \\hat\\beta\\, r_{m,t}),\\qquad t_{CAR}=\\frac{\\sum_{t=0}^{k-1} AR_t}{\\hat\\sigma_e\\sqrt{k}}",
+      "python": "# Market-model event study: abnormal return and its t-stat (synthetic, illustrative numbers)\nimport random, statistics as st\nrandom.seed(1)\nalpha_true, beta_true, sigma = 0.0003, 1.6, 0.025      # daily; illustrative for a high-beta chip stock\nmkt = [random.gauss(0.0005, 0.01) for _ in range(60)]  # 60-session estimation window\nstk = [alpha_true + beta_true * m + random.gauss(0, sigma) for m in mkt]\n# OLS fit r_i = a + b r_m + e\nmx, my = st.mean(mkt), st.mean(stk)\nb = sum((x - mx) * (y - my) for x, y in zip(mkt, stk)) / sum((x - mx) ** 2 for x in mkt)\na = my - b * mx\nresid = [y - (a + b * x) for x, y in zip(mkt, stk)]\ns = (sum(e * e for e in resid) / (len(resid) - 2)) ** 0.5\n# Event day: stock +5.9% while the market is -0.4% (illustrative)\nr_event, m_event = 0.059, -0.004\nar = r_event - (a + b * m_event)\nprint(f\"alpha={a:.4f} beta={b:.2f} sigma_e={s:.4f}\")\nprint(f\"expected return={a + b*m_event:+.4f}  abnormal return={ar:+.4f}  t={ar/s:.2f}\")\n# 3-day CAR: variance adds, so t scales with sqrt(3)\nars = [ar, -0.010, 0.004]\ncar = sum(ars)\nprint(f\"CAR[0,2]={car:+.4f}  t={car/(s*3**0.5):.2f}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Event Studies in Economics and Finance (MacKinlay, 1997)",
+          "url": "https://www.jstor.org/stable/2729691"
+        }
+      ]
+    }
+  ]
+}
