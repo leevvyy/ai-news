@@ -1,0 +1,1827 @@
+{
+  "date": "2026-11-13",
+  "window": {
+    "start": "2026-11-12T21:49:00Z",
+    "end": "2026-11-13T21:48:00Z"
+  },
+  "tldr": [
+    "Four nonprofits including Public Citizen sued OpenAI, Anthropic, Google, Meta and SpaceX in San Francisco, seeking an injunction that freezes each lab at its current model until it can prove human control. Separately, SpaceX laid out more than $74B for AI campuses in Arizona (up to 6 GW) and Texas.",
+    "The Huang scandal reached Chinese AI: a forensic study says six top Chinese open models, including DeepSeek-V4 and Kimi K3, were initialised on export-banned Blackwell chips, and The Information reports Alice Huang-linked Litong put about $14M into DeepSeek's $15.8B round. Nvidia closed below $4T for the first time since July 2025, and AMD fell about 10%.",
+    "DeepSeek opened its full app stack by API, offering search, fetch, OCR, ASR and TTS at ¥5 per 1,000 searches. OpenAI launched ChatGPT Wallet so its 'dots' agents can check out for US Pro users."
+  ],
+  "items": [
+    {
+      "id": "nonprofits-sue-five-labs-halt-frontier-ai-development",
+      "title": "Nonprofits sue OpenAI, Anthropic, Google, Meta and SpaceX to freeze frontier AI development",
+      "summary": "The Irreplaceable Education Fund, Public Citizen, Heat Initiative and the Alliance for Secure AI sued in San Francisco Superior Court under California's Unfair Competition Law and a public-nuisance theory. Defendants are OpenAI (Group PBC and Foundation), Anthropic, Google, Meta and SpaceX Super Intelligence. The suit seeks an injunction barring development or deployment of systems more capable than each defendant's latest model, and a ban on using AI to autonomously conduct or direct R&D of future models, until the companies can show the systems are under human control. The complaint leans on the companies' own public warnings about catastrophic risks such as bioweapons and cyberattacks.",
+      "why_it_matters": "It is the first attempt by civil-society plaintiffs to impose a court-ordered capability freeze across all leading US labs, landing in the week of Anthropic's IPO roadshow.",
+      "key_numbers": [
+        "4 plaintiffs",
+        "5 defendant groups"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Public Citizen",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "SpaceX"
+      ],
+      "tickers": [
+        "GOOGL",
+        "META"
+      ],
+      "published_at": "2026-11-12T18:23:00Z",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/advocacy-groups-sue-ai-companies/",
+          "outlet": "CBS News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic, OpenAI and other AI developers can't control their own tech, new lawsuit alleges"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
+          "outlet": "Al Jazeera",
+          "lang": "en",
+          "tier": "press",
+          "title": "US nonprofits sue tech giants to halt AI development"
+        },
+        {
+          "url": "https://www.courthousenews.com/san-francisco-court-asked-to-freeze-ai-development-stave-off-catastrophic-harm/",
+          "outlet": "Courthouse News Service",
+          "lang": "en",
+          "tier": "press",
+          "title": "San Francisco court asked to freeze AI development, stave off catastrophic harm"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/openai-google-anthropic-hit-lawsuit-182328643.html",
+          "outlet": "Reuters (via Yahoo News)",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development"
+        },
+        {
+          "url": "https://www.techspot.com/news/114545-ai-companies-own-doomsday-warnings-come-back-haunt.html",
+          "outlet": "TechSpot",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AI companies' own doomsday warnings come back to haunt them in lawsuit demanding development freeze"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "Publish time inferred from the Yahoo/Reuters syndication ID (~18:23Z Nov 12), just before the window; coverage kept developing on Nov 13 (IT之家, 凤凰网). Outlets differ on plaintiff descriptions. Defendants had not commented; Meta declined. No SpaceX ticker (Yahoo symbol unverified).",
+      "score": {
+        "total": 72.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.834,
+          "breadth": 0.811,
+          "momentum": 0.632
+        },
+        "coverage": 10,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "unemployment-labs-blackwell-fingerprints-chinese-open-models",
+      "title": "Forensic study says six top Chinese open models were initialised on export-banned Nvidia Blackwell chips",
+      "summary": "A report from former OpenAI researcher Will DePue's nonprofit Unemployment Labs says the initial weights of six Chinese open models carry fingerprints of Nvidia Blackwell hardware. The six are DeepSeek-V4-Flash, DeepSeek-V4-Pro, Kimi K3, Kimi K3.1-Pro, MiniMax-M3 and Ant's Ling-3.1-flash. With a recovered seed, a B300 reproduced DeepSeek-V4-Flash's untouched initial weights bit for bit, while an H100 and an AMD MI300X reproduced none of the tested rows. Four models matched GB200/GB300 systems and two matched B200/B300.",
+      "why_it_matters": "It is a new way to check export-control compliance from published weights alone, and it lands during the Huang/Megaspeed scandal and the push for a tighter remote-access rule. It cannot show where the chips were (rented overseas Blackwell capacity is legal) or how access was obtained.",
+      "key_numbers": [
+        "6 models flagged",
+        "4 matched GB200/GB300, 2 matched B200/B300",
+        "bit-exact reproduction on B300"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Unemployment Labs",
+        "Nvidia",
+        "DeepSeek",
+        "Moonshot AI",
+        "MiniMax",
+        "Ant Group"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://unemploymentlabs.com/checkpoint-forensics",
+          "outlet": "Unemployment Labs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Export-banned Nvidia chips are behind China's most powerful AI models — uh oh, Jensen!"
+        },
+        {
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891",
+          "outlet": "The Register",
+          "lang": "en",
+          "tier": "press",
+          "title": "Chinese AI labs are training models on Nvidia's Blackwell despite export controls, says ex-OpenAI engineer"
+        },
+        {
+          "url": "https://dataconomy.com/2026/11/13/forensic-analysis-links-chinese-ai-models-to-restricted/",
+          "outlet": "Dataconomy",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Forensic Analysis Links Chinese AI Models To Restricted Nvidia Chips"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "One search summary dates the report Nov 12, with no time given, so published_at is an estimate; press pickup is all dated Nov 13. All coverage traces back to this one report, with no independent replication and no comment found from DeepSeek, Moonshot, MiniMax, Ant or Nvidia. The report covers only the hardware used for initialization, not the chips' location or how they were obtained.",
+      "score": {
+        "total": 71.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.879,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "spacex-74b-ai-data-centers-texas-arizona",
+      "title": "SpaceX plans more than $74B of AI supercomputing campuses in Arizona and Texas",
+      "summary": "SpaceX said it plans more than $74B of AI data-centre investment: about $50B for a campus of up to 6 GW on roughly 747 acres in Cochise County, Arizona, and up to $24B for a self-powered, gas-fired 'super-compute facility' on about 444 acres near Starbase/Brownsville, Texas. It says the Arizona site will use dry cooling with no planned industrial groundwater use, and pledged $220M to expand Brownsville's water supply. The Arizona plan still needs county approval at a Dec 9 zoning hearing amid local opposition.",
+      "why_it_matters": "It is one of the largest single AI-infrastructure pledges and puts SpaceX's merged xAI business on a gigawatt-scale path comparable to Stargate and Meta's Hyperion, continuing the trend of campuses generating their own power.",
+      "key_numbers": [
+        ">$74B planned",
+        "AZ ≈$50B, up to 6 GW",
+        "TX up to $24B, ~444 acres",
+        "$220M Brownsville water"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "xAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://thehill.com/policy/technology/6217630-spacex-plans-data-centers-texas-arizona/",
+          "outlet": "The Hill",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX to invest $74B into data center construction projects in Texas, Arizona"
+        },
+        {
+          "url": "https://www.upi.com/Top_News/US/2026/11/12/spacex-musk-AI-supercomputing-texas-arizona/8361794521839",
+          "outlet": "UPI",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX to build $74B AI supercomputing facilities in Texas, Arizona"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/11/13/spacex-plans-to-spend-74-billion-on-ai-supercomputers/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SpaceX Plans to Spend $74 Billion on AI Supercomputers"
+        },
+        {
+          "url": "https://www.cryptopolitan.com/spacex-74b-texas-arizona-ai-campuses/",
+          "outlet": "Cryptopolitan",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SpaceX commits over $74B to Texas and Arizona AI supercomputing campuses"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.7,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Exact announcement time unknown; UPI and The Hill date it Nov 12, and the harvest's Chinese cluster first saw it at 22:52Z, so 20:00Z is an estimate. A separate ~$40B GPU lease-financing figure appears in Cryptopolitan only and is omitted. No ticker (Yahoo symbol unverified).",
+      "score": {
+        "total": 70.3,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.777,
+          "momentum": 0.865
+        },
+        "coverage": 9,
+        "mentions": 2,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "alice-huang-linked-litong-invested-deepseek-round",
+      "title": "Report: Alice Huang-linked Litong put about $14M into DeepSeek's $15.8B round, pitched as a Nvidia Blackwell channel",
+      "original_title": "美媒：黃樂關聯企業投資Deepseek 提供英偉達先進Blackwell晶片",
+      "summary": "The Information reported that Century Litong and its Shanghai-listed parent Jiangsu Lettall Electronics, linked through family members to Alice Huang, joined DeepSeek's ¥105.5B ($15.8B) funding round that closed in October, investing via SPVs including ¥95M (~$14M) into a vehicle managed by Monolith, DeepSeek's third-largest investor. DeepSeek staff reportedly pitched Litong as a major black-market supplier of Nvidia hardware; Litong is said to have imported about 240,000 Nvidia chips worth $7.5B+ since 2023. Neither DeepSeek nor Litong has responded publicly.",
+      "why_it_matters": "The report ties China's top open-model lab directly to the Megaspeed/Huang chip-diversion saga, raising the risk of US entity-list or sanctions action against DeepSeek and its suppliers ahead of its reported 2027 STAR IPO.",
+      "key_numbers": [
+        "¥95M (~$14M) via Monolith-managed vehicle",
+        "DeepSeek round ¥105.5B ($15.8B)",
+        "~240,000 Nvidia chips imported by Litong since 2023 (reported)"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Jiangsu Lettall Electronics",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/companies-tied-to-alice-huang-invested-in-deepseek-to-supply-nvidia-chips--report-5022509",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Companies tied to Alice Huang invested in DeepSeek to supply Nvidia chips - report"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4671540-alice-huang-tied-companies-made-14m-investment-in-deepseek-report",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alice Huang-tied companies made $14M investment in DeepSeek: report"
+        },
+        {
+          "url": "https://www.hk01.com/%E5%8D%B3%E6%99%82%E5%9C%8B%E9%9A%9B/60410648/%E7%BE%8E%E5%AA%92-%E9%BB%83%E6%A8%82%E9%97%9C%E8%81%AF%E4%BC%81%E6%A5%AD%E6%8A%95%E8%B3%87deepseek-%E6%8F%90%E4%BE%9B%E8%8B%B1%E5%81%89%E9%81%94%E5%85%88%E9%80%B2blackwell%E6%99%B6%E7%89%87",
+          "outlet": "HK01",
+          "lang": "zh",
+          "tier": "press",
+          "title": "美媒：黃樂關聯企業投資Deepseek 提供英偉達先進Blackwell晶片"
+        },
+        {
+          "url": "https://inews.hket.com/article/4224492/%E3%80%90%E9%BB%83%E4%BB%81%E5%8B%B3%E5%87%BA%E8%BB%8C%E3%80%91%E9%BB%83%E6%A8%82%E9%97%9C%E8%81%AF%E5%85%AC%E5%8F%B8%E6%93%9A%E5%A0%B1%E6%8A%95%E8%B3%87DeepSeek%E3%80%80%E4%B8%A6%E6%89%BF%E8%AB%BE%E4%BE%9B%E6%87%89%E8%8B%B1%E5%81%89%E9%81%94%E8%8A%AF%E7%89%87",
+          "outlet": "HKET",
+          "lang": "zh",
+          "tier": "press",
+          "title": "【黃仁勳出軌】黃樂關聯公司據報投資DeepSeek 並承諾供應英偉達芯片"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "Everything rests on one paywalled report from The Information that was not read; coverage is secondary. Publish time is an estimate (Nov 12 US evening). No response from DeepSeek, Litong or Lettall found. The Alice Huang link is indirect (via family members).",
+      "score": {
+        "total": 69.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.777
+        },
+        "coverage": 7,
+        "mentions": 3,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "deepseek-full-app-api-search-ocr-tts",
+      "title": "DeepSeek opens its full app toolkit by API: web search, file input, URL reading, OCR, ASR and TTS",
+      "original_title": "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App",
+      "summary": "On Friday evening Beijing time DeepSeek opened its consumer-app features to developers. Search with deep thinking, file input, URL reading and model safety checks can now be switched on with parameters in the existing API, and Search, Fetch, OCR, ASR and TTS are also offered as standalone APIs. For now the features run on V4.1-Flash (deepseek-flash) across the Messages, Responses and Chat Completions endpoints. Public-facing apps must keep the safety check on, and developers stay responsible for moderation, model filing and AI-content labelling.",
+      "why_it_matters": "DeepSeek moves from selling raw tokens to a packaged agent and app stack at very low prices, undercutting Chinese and US search and voice API vendors and making it trivial to clone a DeepSeek-style assistant.",
+      "key_numbers": [
+        "¥5 per 1,000 search requests",
+        "¥5 per 1,000 web fetches",
+        "¥1.5 per 1,000 pages for file parsing/OCR",
+        "Voice services 50% off for a limited time (reported)"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://api-docs.deepseek.com/news/news261113/",
+          "outlet": "DeepSeek",
+          "lang": "en",
+          "tier": "primary",
+          "title": "The full DeepSeek App experience, now via API"
+        },
+        {
+          "url": "https://finance.sina.cn/tech/2026-11-13/detail-iniyriiv3454447.d.html",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261113/c681820070.shtml",
+          "outlet": "10jqka (Tonghuashun)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek 发布全家桶应用 API"
+        },
+        {
+          "url": "https://cryptobriefing.com/deepseek-opens-app-features-developers-api/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "DeepSeek opens its full app toolkit to developers through its API"
+        },
+        {
+          "url": "https://blockweeks.com/news/340715",
+          "outlet": "BlockWeeks",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek重磅开放全套App能力API：开发者可直接接入搜索、文件解析与语音"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The DeepSeek news page appeared in search results but could not be fetched; details and prices come from search snippets of the notice and the Sina/10jqka reports. Publish time estimated from 'Friday evening' Beijing reports.",
+      "score": {
+        "total": 67.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.632,
+          "momentum": 0.777
+        },
+        "coverage": 6,
+        "mentions": 3,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "nvidia-board-approaches-arm-ceo-rene-haas",
+      "title": "Nvidia board approaches Arm CEO Rene Haas as possible successor to Jensen Huang, FT reports",
+      "summary": "The Financial Times reported on Friday Nov 13 that Nvidia's board has approached Arm chief executive Rene Haas as a possible replacement for Jensen Huang, citing people familiar with the matter. Haas is one of several candidates and nothing has been offered or accepted; the FT also named internal candidates, interim CEO Colette Kress and Ian Buck, who runs Nvidia's AI hardware and software products. Haas spent seven years at Nvidia before joining Arm in 2013 and became Arm's CEO in 2022. Arm declined to comment and Nvidia did not respond; on Nov 12 President Trump had publicly floated Apple's Tim Cook for the job.",
+      "why_it_matters": "It is the first named external candidate to lead the world's most valuable AI-chip supplier, and a CEO from Arm would bear on Nvidia's Arm-based CPU and server roadmap and its ties with SoftBank and Arm.",
+      "key_numbers": [
+        "Haas: 7 yrs at Nvidia before Arm (2013)",
+        "Arm CEO since 2022"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Arm",
+        "Rene Haas",
+        "Colette Kress",
+        "Apple"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-13T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.koreatimes.co.kr/world/20261114/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports",
+          "outlet": "The Korea Times (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports"
+        },
+        {
+          "url": "https://www.globalbankingandfinance.com/arms-haas-approached-nvidia-board-part-ceo-search-ft-reports/",
+          "outlet": "Global Banking & Finance Review",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia Board Approaches Arm CEO Rene Haas in CEO Succession Search"
+        },
+        {
+          "url": "https://www.geo.tv/latest/691012-nvidia-turns-to-arm-boss-rene-haas-to-replace-huang-after-scandal-hit-exit",
+          "outlet": "Geo News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia eyes UK chip firm Arm's boss to succeed Huang after scandalous exit"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump floats Apple chairman Tim Cook as Jensen Huang's successor"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "nvidia-huang-resigns-kress-interim-ceo-jones-chair",
+      "confidence_note": "The FT original was not seen; details come from Reuters syndication and secondary write-ups citing the FT. Publish time is an estimate (Friday US morning). The Tim Cook remark is from Nov 12 (~16:12Z, TechCrunch).",
+      "score": {
+        "total": 67.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.767
+        },
+        "coverage": 7,
+        "mentions": 7,
+        "baseline": 3.8,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "openai-chatgpt-wallet-dots-agent-purchases",
+      "title": "OpenAI launches ChatGPT Wallet so its 'dots' agents can buy things for US Pro users",
+      "summary": "OpenAI launched ChatGPT Wallet, which lets its 'dots' personal agents help users choose a product and then check out for them. The card is charged with a payment token, so neither the dot nor the merchant sees the real card details, and every purchase needs a security check. At launch it is only for US ChatGPT Pro subscribers aged 18+ with a US-issued Visa, Mastercard or American Express card. It works inside dots conversations only, not in ordinary ChatGPT chats or ChatGPT Work.",
+      "why_it_matters": "This is the first time a major consumer assistant lets an agent pay by itself with a tokenized card. It moves OpenAI into checkout and payments, and merchants that block agents (United did this week) are now a direct friction point.",
+      "key_numbers": [
+        "US Pro subscribers only, 18+",
+        "Visa, Mastercard, Amex (US-issued)",
+        "0% transaction cut at launch (per CNBC)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Visa",
+        "Mastercard",
+        "American Express"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "ChatGPT's new Wallet lets AI agents shop and check out for you"
+        },
+        {
+          "url": "https://cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users"
+        },
+        {
+          "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
+          "outlet": "9to5Mac",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI launches ChatGPT Wallet, enabling 'dot' agents to make purchases"
+        },
+        {
+          "url": "https://www.androidauthority.com/chatgpt-wallet-3735154/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI launches ChatGPT Wallet, lets AI agents make purchases"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The time is an estimate; all coverage is dated Nov 13. The OpenAI post (reportedly openai.com/index/introducing-chatgpt-wallet) could not be fetched or confirmed, so it is not cited. The card networks and the 'no cut of transactions' claim come from search snippets of the coverage. Card networks are listed as accepted cards, not announced partners, so they get no tickers. The claim that this is the first wallet letting agents pay without seeing users' card details is OpenAI's own.",
+      "score": {
+        "total": 65.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.777,
+          "momentum": 0.565
+        },
+        "coverage": 9,
+        "mentions": 3,
+        "baseline": 2.6,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "bessent-blames-lutnick-commerce-megaspeed-entity-list",
+      "title": "Bessent publicly blames Lutnick's Commerce Department for not blacklisting Nvidia customer Megaspeed",
+      "summary": "In a CNBC interview on Nov 13, Treasury Secretary Scott Bessent said the Commerce Department had delayed adding Megaspeed, the Nvidia customer at the centre of the Huang scandal, to the Entity List. He said Treasury, the Pentagon, State and USTR had favoured blacklisting it for months, 'but Commerce has the pen', and that the delay went against Trump's wishes. WSJ and CNN report that some Trump advisers are urging the president to remove Commerce Secretary Howard Lutnick. Commerce has not added any company to the Entity List since October 2025.",
+      "why_it_matters": "A public Cabinet-level split makes faster export-control action more likely, including a Megaspeed listing and the pending remote-access rule, and raises political risk around Nvidia's China-adjacent sales.",
+      "key_numbers": [
+        "4 agencies backed listing (Treasury, Pentagon, State, USTR)",
+        "no Entity List additions since Oct 2025"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US Treasury",
+        "US Department of Commerce",
+        "Megaspeed",
+        "Nvidia",
+        "Scott Bessent",
+        "Howard Lutnick"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://edition.cnn.com/2026/11/13/politics/bessent-lutnick-nvidia-megaspeed-blame",
+          "outlet": "CNN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bessent points finger at Commerce Department in Nvidia scandal as Trump advisers discuss possible Lutnick ouster"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china",
+          "outlet": "PBS NewsHour (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/business/article-scott-bessent-howard-lutnick-chip-export-controls-nvidia-scandal/",
+          "outlet": "The Globe and Mail",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bessent blames Lutnick for failing to blacklist firm at heart of Nvidia scandal"
+        },
+        {
+          "url": "https://www.cbc.ca/news/world/bessent-lutnick-nvidia-chips-exports-9.7421237",
+          "outlet": "CBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "U.S. Treasury Secretary frustrated by Commerce Department's inaction on Nvidia chips"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bessent confronted Lutnick over Nvidia customer Megaspeed, sources say"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "huang-scandal-revives-china-chip-curbs-remote-access-rule",
+      "confidence_note": "The chip threshold Bessent cited differs by outlet (AP: H100s; CNN: A100s). The ouster talk rests on anonymous sourcing (WSJ/CNN); no decision reported. Publish time is an estimate (Friday morning ET interview).",
+      "score": {
+        "total": 65.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.565
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "reuters-3b-chinese-ai-projects-restricted-nvidia-chips",
+      "title": "Reuters finds over $3B of Chinese AI computing projects built around restricted Nvidia chips",
+      "summary": "A Reuters review of more than 150 Chinese procurement notices, investment plans, construction contracts and disclosures found projects worth over ¥23B (~$3.2B) that specify Nvidia H100/H200 processors barred from China. Examples include a proposed ¥6.2B centre in Fujian, a ¥3B Shaanxi project with a Sinomach subsidiary as contractor, and a ¥2.26B Jilin project mixing H100s with domestic chips. Reuters says the projects are not linked to Megaspeed or Jensen Huang; China's commerce ministry and Nvidia had not commented.",
+      "why_it_matters": "It is public evidence that banned GPUs remain embedded in Chinese state-linked compute plans, landing as Washington weighs remote-access and smuggling curbs after Huang's exit.",
+      "key_numbers": [
+        ">$3.2B (¥23B+) in projects",
+        "150+ documents reviewed",
+        "¥6.2B Fujian centre (H100)",
+        "IDC: Nvidia 34% of China AI-accelerator shipments in H1 2026"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Nvidia",
+        "Sinomach"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T08:31:00Z",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/articles/exclusive-huang-exit-us-scrutiny-083117970.html",
+          "outlet": "Reuters (via Yahoo News)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive-Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/exclusivehuang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia-5024462",
+          "outlet": "Reuters (via Investing.com)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive-Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia"
+        },
+        {
+          "url": "https://www.rappler.com/technology/jensen-huang-exit-us-scrutiny-imperil-chinese-ai-projects-reliant-nvidia/",
+          "outlet": "Rappler (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Huang exit, US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/chinas-3-billionplus-pipeline-of-nvidiapowered-ai-data-centres-5024599",
+          "outlet": "Reuters (via Investing.com)",
+          "lang": "en",
+          "tier": "press",
+          "title": "China's $3 billion-plus pipeline of Nvidia-powered AI data centres"
+        },
+        {
+          "url": "https://www.globalbankingandfinance.com/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects/",
+          "outlet": "Global Banking & Finance Review",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Chinese AI Projects at Risk from Nvidia Exit and US Export Controls"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/china/article/348441/Huang-exit-and-US-scrutiny-imperil-3-billion-in-Chinese-AI-projects-reliant-on-Nvidia",
+          "outlet": "The Standard (HK)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "A single Reuters exclusive syndicated by several outlets, not independently confirmed. Publish time estimated from a syndication timestamp.",
+      "score": {
+        "total": 63.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.767
+        },
+        "coverage": 6,
+        "mentions": 7,
+        "baseline": 3.8,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "chip-selloff-nov13-amd-falls-10pct-nvidia-below-4t",
+      "title": "Chip stocks slide: AMD drops about 10% and Nvidia closes below $4T for the first time since July 2025",
+      "summary": "Chip stocks gave back much of their Nvidia-turmoil rally on Friday Nov 13. AMD fell about 9.9%, erasing roughly a third of the nearly 45% it had gained over the previous five sessions, and Broadcom also fell. Nvidia lost another 2.01% and closed below $4 trillion in market value for the first time since July 2025, down 12.75% for the week, its sixth straight weekly loss. In Seoul, SK hynix reversed an early 4%+ gain to close down 3.03% and Samsung Electronics fell 0.96%, with the KOSPI down 0.98% to 5,290.53.",
+      "why_it_matters": "The rotation from Nvidia into AMD and Broadcom reversed within days, so markets are now marking down the whole AI-hardware complex, raising the stakes for Nvidia's Nov 17 results under its interim CEO.",
+      "key_numbers": [
+        "NVDA -2.01%, closes < $4T mkt cap",
+        "NVDA -12.75% on the week",
+        "AMD ≈ -9.9%",
+        "SK hynix -3.03%",
+        "KOSPI -0.98% to 5,290.53"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "AMD",
+        "Broadcom",
+        "SK hynix",
+        "Samsung Electronics"
+      ],
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "000660.KS",
+        "005930.KS"
+      ],
+      "published_at": "2026-11-13T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Stock Heads for Worst Week Since Trump Tariff Rout as Huang Exits"
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today/",
+          "outlet": "The Motley Fool",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Why Advanced Micro Devices Stock Is Down Today"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/equities/26/11/63259862/stock-market-today-amd-nvidia-chip-selloff-cisco-modine-november-13",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AMD Sinks 10.5%, Nasdaq 100 Falls 1.7%: Stock Market Today"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/business/kospi-drops-nearly-1-erasing-earlier-gains-following-nvidia-jitters/12972128",
+          "outlet": "Korea JoongAng Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Kospi drops nearly 1%, erasing earlier gains following Nvidia jitters"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "amd-broadcom-jump-nvidia-leadership-vacuum-coreweave-falls",
+      "confidence_note": "AMD's close is about -9.9% per a Yahoo quote page; intraday reports range from -8% to -14% (Benzinga headline -10.5%). SOX and Micron figures conflicted between sources and are omitted. Publish time set at the US close.",
+      "score": {
+        "total": 61.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.767
+        },
+        "coverage": 9,
+        "mentions": 7,
+        "baseline": 3.8,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "autoark-edge0-145b-on-device-open-weights",
+      "title": "Beijing startup AutoArk open-sources Edge0-145B, a 145B MoE model it says runs on a laptop in 29 GB",
+      "original_title": "端侧 AI 迎来「高智能」时刻，比肩云端模型",
+      "summary": "AutoArk (无界方舟) released NVFP4 open weights for Edge0-145B on Hugging Face plus its on-device inference runtime on GitHub. Edge0-145B is a sparse MoE with about 10B parameters active per token, and the runtime streams weights from SSD. The company claims a 29 GB memory peak, over 80 tokens/s on a laptop (Apple M-series, RTX 4090/5090), 128K-256K context, 86.52 on Terminal-Bench 2.1 and 64.6 on DeepSWE 1.1. It follows September's 35B and 8B phone-class models.",
+      "why_it_matters": "If the claims hold, frontier-adjacent coding agents could run fully offline on consumer hardware, which bears on cloud token economics and China's on-device AI push.",
+      "key_numbers": [
+        "145B total / ~10B active",
+        "29 GB peak memory",
+        "80+ tok/s on laptop",
+        "Terminal-Bench 2.1: 86.52 (self-reported)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "AutoArk"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://github.com/Edge0-AI/edge0",
+          "outlet": "Edge0 (GitHub)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Edge0: Device-native foundation models: 145B on a laptop, 35B on a phone"
+        },
+        {
+          "url": "https://www.sohu.com/a/1101081047_413980",
+          "outlet": "GeekPark via Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "端侧 AI 迎来「高智能」时刻，比肩云端模型"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LBKDLLO005119FMA.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "端侧 AI 迎来「高智能」时刻，比肩云端模型"
+        },
+        {
+          "url": "https://news.lavx.hu/article/edge0-releases-open-source-145-billion-parameter-model-for-local-inference-on-laptops",
+          "outlet": "LavX News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Edge0 releases open-source 145-billion-parameter model for local inference on laptops"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Release date conflicts (some English sources say Nov 12, Chinese coverage Nov 13). All benchmarks are self-reported. The Edge0 = AutoArk mapping comes from Chinese coverage.",
+      "score": {
+        "total": 58.4,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "applied-materials-fq4-2026-record-53pct-guide-11-1b",
+      "title": "Applied Materials posts record $10.41B quarter, up 53%, and guides to $11.1B on AI demand",
+      "summary": "After the close on Nov 12, Applied Materials reported fiscal Q4 2026 revenue of $10.41B, up 53% year on year, against a $10.30B consensus; non-GAAP EPS rose 92% to $4.16 and gross margin was 50.6%. Fiscal 2026 revenue reached a record $34.45B, up 21%. It guided fiscal Q1 revenue to $11.1B ± $0.5B, about 58% growth at the midpoint, and said Semiconductor Systems is on track to grow more than 40% in calendar 2026.",
+      "why_it_matters": "The largest US chip-equipment maker is guiding to near-60% growth, a sign that AI-driven foundry, DRAM and HBM capex is still accelerating despite the Nvidia turmoil; read-through for Lam, KLA, Tokyo Electron and ASML.",
+      "key_numbers": [
+        "Q4 rev $10.41B (+53%)",
+        "non-GAAP EPS $4.16 (+92%)",
+        "GM 50.6%",
+        "FY26 rev $34.45B (+21%)",
+        "FQ1 guide $11.1B ± $0.5B"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Applied Materials"
+      ],
+      "tickers": [
+        "AMAT"
+      ],
+      "published_at": "2026-11-12T21:01:00Z",
+      "sources": [
+        {
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026",
+          "outlet": "Applied Materials",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm",
+          "outlet": "SEC EDGAR (8-K Ex. 99.1)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "APPLIED MATERIALS INC /DE - Form 8-K - FY2026"
+        },
+        {
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-applied-materials-tops-q4-2026-forecasts-as-ai-demand-lifts-outlook-93CH-5023634",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Earnings call transcript: Applied Materials tops Q4 2026 forecasts as AI demand lifts outlook"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Release time inferred from a Yahoo syndication ID (21:01Z), about 48 minutes before the window. The Nov 13 stock reaction was not found.",
+      "score": {
+        "total": 57.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.88,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "world-labs-atlas-public-apps-api",
+      "title": "World Labs opens its Atlas world model to everyone with Viewfinder and Chisel apps and public APIs",
+      "summary": "Fei-Fei Li's World Labs opened Atlas, its spatial world model announced on Sept 1 and until now limited to partners, to all users. It comes with two web apps: Viewfinder builds scenes from uploaded photos, and Chisel turns a rough 3D block-out into views, video or walkable scenes. Output can be exported as 3D Gaussian splats or meshes for Blender and game engines, and the endpoints behind both apps are exposed as public developer APIs.",
+      "why_it_matters": "This is one of the first frontier 'world models' that developers and agents can call on demand, competing with Google's Genie line for 3D, games and simulation pipelines.",
+      "key_numbers": [
+        "2 web apps (Viewfinder, Chisel)",
+        "10,000 free credits for new users (Chinese press)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "World Labs"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T18:05:00Z",
+      "sources": [
+        {
+          "url": "https://x.com/theworldlabs/status/2120942033401717108",
+          "outlet": "World Labs (X)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "We're opening up access to Atlas to everyone today."
+        },
+        {
+          "url": "https://www.vp-land.com/stories/world-labs-atlas-world-model-opens-to-everyone-turning-photos-into-video-and-3d-gaussian-s",
+          "outlet": "VP Land",
+          "lang": "en",
+          "tier": "trade",
+          "title": "World Labs' Atlas World Model Opens to Everyone, Turning Photos into Video and 3D Gaussian Splats"
+        },
+        {
+          "url": "https://www.tokenpost.com/news/technology/56192",
+          "outlet": "TokenPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "World Labs Opens Atlas Tools and APIs for Public 3D World Creation"
+        },
+        {
+          "url": "https://ifanr.com/1689379",
+          "outlet": "爱范儿",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "published_at is estimated from the X post ID (next to Google's Gemini 4 Hydrogen post, about 18:00Z Nov 12). Chinese press dates it Nov 13. No pricing page yet, and the API hosts still carry beta labels.",
+      "original_title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城",
+      "score": {
+        "total": 57.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "alice-huang-indirect-stake-huawei-cloud-data-center-cnbc",
+      "title": "CNBC: Alice Huang held indirect stakes in a Shenzhen data center whose key customer was Huawei Cloud",
+      "summary": "A CNBC investigation drawing on private intelligence firm Tesari found that Alice Huang, the former Megaspeed executive at the centre of the Jensen Huang scandal, held indirect financial interests in businesses tied to a Shenzhen data centre whose key customer was Huawei Cloud, and that her firm Hexi guaranteed loans that financed the facility. CNBC could not confirm that the site acquired Nvidia GPUs and found no evidence of chip transfers to Huawei or export-control breaches. Nvidia and Huawei did not comment.",
+      "why_it_matters": "The case now links the woman at the centre of the scandal to Nvidia's main Chinese competitor, adding pressure for Megaspeed's blacklisting and wider diversion probes.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Megaspeed",
+        "Huawei",
+        "Nvidia",
+        "Alice Huang"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T20:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Alice Huang connected to Nvidia's Chinese competitor Huawei"
+        },
+        {
+          "url": "https://www.ibtimes.com/alice-huang-china-data-center-huawei-links-3809705",
+          "outlet": "International Business Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Alice Huang Held Stake in Data Center Network Serving a Chinese Nvidia Rival: Report"
+        },
+        {
+          "url": "https://www.techtimes.co.uk/alice-huang-indirect-stake-huawei-cloud-data-centre-1809929",
+          "outlet": "TechTimes UK",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alice Huang's Linked Data Centre Reportedly Served Huawei, Nvidia's Biggest China Rival"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Findings come from one CNBC/Tesari investigation picked up by others. CNBC timestamp (~20:10Z Nov 12) is from the harvest, inside the 6-hour pre-window allowance. No wrongdoing has been established.",
+      "score": {
+        "total": 54.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "langchain-300m-series-c-3b-capitalg",
+      "title": "LangChain raises $300M Series C at a $3B valuation led by CapitalG",
+      "summary": "LangChain raised a $300M Series C at a $3B valuation, led by Alphabet's growth fund CapitalG. GIC and DFJ Growth are new investors, and IVP and Sapphire Ventures returned. The company says total funding is now $460M and its LangSmith agent platform serves more than 7,000 organizations. The money goes to LangSmith (agent observability, evaluation and governance), and a LangSmith release event is set for Nov 20.",
+      "why_it_matters": "The valuation is up about 2.4x from $1.25B roughly a year ago, which shows investors paying for the agent ops and evaluation layer between the model labs and enterprises.",
+      "key_numbers": [
+        "$300M Series C",
+        "$3B valuation (from $1.25B)",
+        "$460M total raised",
+        "7,000+ LangSmith organizations"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "LangChain",
+        "CapitalG"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T15:53:00Z",
+      "sources": [
+        {
+          "url": "https://www.langchain.com/blog/series-c",
+          "outlet": "LangChain",
+          "lang": "en",
+          "tier": "primary",
+          "title": "LangChain Raises $300M Series C at $3B Valuation"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI agent startup LangChain hits $3B valuation"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/langchain-raises-300m-enable-every-155300515.html",
+          "outlet": "Yahoo Finance (press release)",
+          "lang": "en",
+          "tier": "trade",
+          "title": "LangChain Raises $300M to Enable Every Company to Own Their Intelligence"
+        },
+        {
+          "url": "https://www.unite.ai/langchain-secures-300m-series-c-at-3b-valuation-for-agent-governance/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "LangChain Secures $300M Series C at $3B Valuation for Agent Governance"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "published_at is inferred from the timestamp in the Yahoo wire article's ID (15:53). Investor names, the $460M total and the Nov 20 event come from search summaries of the press release. Revenue was not disclosed.",
+      "score": {
+        "total": 54.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.835,
+          "breadth": 0.736,
+          "momentum": 0.632
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "tencent-hunyuan-hy-realtime-voice-model",
+      "title": "Tencent Hunyuan launches Hy Realtime voice model with agentic tool calling and singing",
+      "original_title": "腾讯混元发布Hy Realtime实时语音模型，支持拟人对话、工具调用与歌唱",
+      "summary": "Tencent Hunyuan released Hy Realtime, a real-time speech model that Tencent says improves speech understanding, instruction following and human-like expression. It adds agentic tool calling (including deciding by itself when to search the web) and singing, built with Tencent Music's TME Lingyin AI team. It is already live in Yuanbao voice calls and Tencent customer service, with a Tencent Cloud API to follow.",
+      "why_it_matters": "Chinese labs are racing to ship real-time voice agents; Tencent can push this straight into Yuanbao and its customer-service base, and a cloud API would put it up against ByteDance's and Alibaba's voice stacks.",
+      "key_numbers": [
+        "Live in Yuanbao voice calls and Tencent customer service",
+        "Tencent Cloud API 'coming soon'"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent",
+        "Tencent Music"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-13T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://ai.zol.com.cn/1272/12726164.html",
+          "outlet": "ZOL",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯混元发布Hy Realtime实时语音模型，支持拟人对话、工具调用与歌唱"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LBKNG2LU0511CPVM.html",
+          "outlet": "NetEase (Kuai Keji)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯混元发布Hy Realtime语音模型！AI不仅能聊天 还能唱歌和执行任务"
+        },
+        {
+          "url": "https://www.aastocks.com/en/stocks/news/aafn-con/now.1554542/latest-news",
+          "outlet": "AASTOCKS",
+          "lang": "en",
+          "tier": "press",
+          "title": "Tencent Hunyuan Launches Hy Realtime Real-Time Voice Model With Agentic Tool Calling and Singing Capability"
+        },
+        {
+          "url": "https://news.futunn.com/post/1004441386/tencent-hunyuan-releases-hy-realtime-a-real-time-voice-model",
+          "outlet": "Futu News",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯混元发布Hy Realtime实时语音模型 新增Agentic工具调用与唱歌能力"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "No Tencent primary post was found; no benchmarks or pricing. Publish time is an estimate (Nov 13, Beijing daytime).",
+      "score": {
+        "total": 53.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.565
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "ibm-granite-4-1-llmon-preview-prompt-injection",
+      "title": "IBM releases Granite 4.1 LLMON previews: 3B and 8B models built on a markup format to resist prompt injection",
+      "summary": "IBM's Granite team introduced LLMON (LLM Object Notation), a markup format for LLM inputs that marks trusted instructions apart from untrusted content, and released granite-4.1-3b-llmon-preview and granite-4.1-8b-llmon-preview on Hugging Face under Apache 2.0. IBM reports general performance comparable to the standard models and much stronger resistance to prompt injection; coverage cites attack success on the OPI benchmark falling from 100% to 0.1% (3B) and from 96.3% to 0.02% (8B).",
+      "why_it_matters": "It is a concrete, open-weight attempt to train input structure into the model rather than rely on chat templates, aimed at the agent security hole behind this week's incidents. IBM itself says the separation is learned behaviour, not a guarantee.",
+      "key_numbers": [
+        "3B and 8B previews, Apache 2.0",
+        "OPI attack success 100% → 0.1% (3B)",
+        "96.3% → 0.02% (8B)"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "IBM"
+      ],
+      "tickers": [
+        "IBM"
+      ],
+      "published_at": "2026-11-12T19:07:35Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "outlet": "Hugging Face Blog (IBM Granite)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B"
+        },
+        {
+          "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview",
+          "outlet": "Hugging Face (IBM Granite)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "ibm-granite/granite-4.1-8b-llmon-preview"
+        },
+        {
+          "url": "https://byteiota.com/ibm-llmon-granite-prompt-injection/",
+          "outlet": "byteiota",
+          "lang": "en",
+          "tier": "trade",
+          "title": "IBM LLMON: Granite 4.1 Cuts Prompt Injection to Near Zero"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Release time is from the HF blog feed in the harvest (19:07Z Nov 12). Injection numbers come from secondary write-ups and differ by source (the paper is summarised as a 53–100% → 0.02–5.6% range).",
+      "score": {
+        "total": 53.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.7,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "openai-15b-round-1-25t-half-original-target",
+      "title": "OpenAI's round reaches $15B at $1.25T valuation, about half its original target, CNBC reports",
+      "summary": "CNBC's David Faber reported on Nov 12, citing sources, that OpenAI has raised $15B at a $1.25 trillion valuation, up from the roughly $11B Bloomberg reported on Nov 6. OpenAI had first sought as much as $30B at about $1.4T. The round has not formally closed and is expected to wrap up within a couple of weeks, and was described as a bridge to an IPO expected in 2027.",
+      "why_it_matters": "OpenAI raised less than it sought just as Anthropic prepares to price its IPO, a sign that private-market appetite for frontier labs has limits.",
+      "key_numbers": [
+        "$15B raised",
+        "$1.25T valuation",
+        "original target up to $30B at ~$1.4T",
+        "IPO expected 2027"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-12T17:47:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/video/2026/11/12/openai-raises-15b-at-a-1-point-25t-valuation-what-it-means-for-the-ipo.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI raises $15B at a $1.25T valuation, sources say. What it means for the IPO"
+        },
+        {
+          "url": "https://app.dealroom.co/news/note/openai-raises-15b-at-a-1-25t-valuation-half-its-original-target-as-it-bridges-to-a-2027-ipo",
+          "outlet": "Dealroom",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI raises $15B at a $1.25T valuation, half its original target, as it bridges to a 2027 IPO"
+        },
+        {
+          "url": "https://techfundingnews.com/openai-reportedly-raises-15b-at-1-25t-valuation-as-anthropic-ipo-approaches",
+          "outlet": "Tech Funding News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI reportedly raises $15B at $1.25T valuation as Anthropic IPO approaches"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "openai-closes-11b-tranche-at-1-25t-valuation",
+      "confidence_note": "Rests on a single CNBC report (David Faber) citing anonymous sources; OpenAI has not confirmed. One outlet gives the original target as $1.5T rather than $1.4T. Nov 12 17:47Z is inside the 6-hour pre-window allowance.",
+      "score": {
+        "total": 52.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.565
+        },
+        "coverage": 6,
+        "mentions": 3,
+        "baseline": 2.6,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "smic-q3-call-2026-revenue-over-12b-capacity-tight-2027",
+      "title": "SMIC expects 2026 revenue above $12B and warns foundry capacity will be very tight in 2027 as AI demand outruns supply",
+      "original_title": "中芯国际赵海军：AI配套芯片需求提速，全年收入有望超120亿美元",
+      "summary": "On SMIC's Q3 earnings call on Nov 13, co-CEO Zhao Haijun said demand for AI-adjacent chips is growing faster than expected and put full-year 2026 revenue above $12B, up nearly 30%. Q4 guidance is revenue up 4-6% quarter on quarter at a 26-28% gross margin. Smartphone and consumer revenue fell 8% and 1% sequentially while PC/tablet and industrial/auto each rose 26%. Zhao said AI compute is supply-constrained and foundry capacity will be 'very tight' in 2027.",
+      "why_it_matters": "China's largest foundry is signalling sustained localisation-driven demand and pricing power into 2027, supporting the domestic AI-chip trade even as consumer electronics stay weak.",
+      "key_numbers": [
+        "2026 revenue >$12B (~+30%)",
+        "Q4 revenue +4-6% QoQ",
+        "Q4 gross margin 26-28%"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "SMIC"
+      ],
+      "tickers": [
+        "0981.HK",
+        "688981.SS"
+      ],
+      "published_at": "2026-11-13T01:30:00Z",
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20261113A07C0S00",
+          "outlet": "Tencent News",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中芯国际赵海军：AI配套芯片需求提速，全年收入有望超120亿美元"
+        },
+        {
+          "url": "https://www.eet-china.com/news/202611136479.html",
+          "outlet": "EE Times China",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "中芯国际预计2026年收入超120亿美元，四季度营收指引环比增长4%至6%"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-13/doc-iniypzqc1084239.shtml",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中芯国际赵海军：AI 算力供不应求，2027 年半导体代工产能将非常紧缺"
+        },
+        {
+          "url": "https://finance.sina.com.cn/stock/estate/integration/2026-11-13/doc-iniypzqm3780885.shtml",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中芯国际三季度智能手机收入环比降8% 四季度收入预计增4%-6%"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "smic-q3-2026-revenue-3-19b-gross-margin-29-9",
+      "confidence_note": "Q4 guidance may already have been in the Nov 12 release; the new elements are the call commentary (>$12B full-year and the 2027 capacity warning). Call time estimated.",
+      "score": {
+        "total": 50.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.565
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "hk-ai-model-stocks-slump-zhipu-minimax-below-ipo-nov13",
+      "title": "Hong Kong AI stocks slide: Zhipu falls over 10% and MiniMax drops below its IPO price as Hang Seng Tech loses 3%",
+      "original_title": "港股收评：恒指、恒科集体收跌；智谱、MINIMAX、联想大跌，阿里、百度、腾讯集体飘绿",
+      "summary": "Hong Kong-listed Chinese AI stocks sold off on Friday as the fallout from Nvidia's leadership crisis and US chip-curb fears hit tech. Zhipu (2513.HK) closed down over 10% at HK$408, a new low, after falling as much as 11.3% intraday, and MiniMax (0100.HK) fell more than 8% to HK$152.4, below its HK$165 IPO price. The Hang Seng Index fell 1.55% to 23,637.6 and the Hang Seng Tech Index 3.02% to 3,813.19, with Alibaba, Baidu, Tencent and Hua Hong also lower.",
+      "why_it_matters": "The drop wipes out the bounce from Zhipu's HK$4B buyback earlier in the week, and MiniMax slipping below its IPO price tests appetite for Chinese model-maker listings with Kling, T-Head and others lining up for Hong Kong.",
+      "key_numbers": [
+        "Zhipu -10%+ to HK$408",
+        "MiniMax -8%+ to HK$152.4 (IPO HK$165)",
+        "Hang Seng Tech -3.02%",
+        "Hang Seng -1.55% to 23,637.6"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu",
+        "MiniMax"
+      ],
+      "tickers": [
+        "2513.HK",
+        "0100.HK"
+      ],
+      "published_at": "2026-11-13T08:15:00Z",
+      "sources": [
+        {
+          "url": "https://www.21jingji.com/article/20261113/herald/044fbc9a4ef05bf2132f7487685453ef.html",
+          "outlet": "21st Century Business Herald",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收评：恒指、恒科集体收跌；有色金属、半导体、硬件设备重挫；智谱、MINIMAX、联想大跌"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-11-13/4647097.html",
+          "outlet": "National Business Daily",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股持续低迷 恒科跌超3% 智谱又创新低了！"
+        },
+        {
+          "url": "https://www.fx168news.com/express/fastnews/1468378",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "港股AI大模型、半导体、PCB概念午后跌幅扩大，智谱跌11.32%，MINIMAX-W跌8.31%"
+        },
+        {
+          "url": "https://www.techflowpost.com/en-US/newsletter/143365",
+          "outlet": "TechFlow",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Hong Kong stocks closed: Zhipu fell over 10%, and MINIMAX dropped more than 8%."
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "zhipu-hk-4b-h-share-buyback",
+      "confidence_note": "Closing prices (HK$408 / HK$152.4) and the HK$165 MiniMax IPO price come from a 21jingji snippet; exact closing percentages are given only as 'over 10%' / 'over 8%'.",
+      "score": {
+        "total": 49.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.465
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.6,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "china-ai-chip-a-shares-cambricon-hygon-rise-nov13",
+      "title": "China AI-chip A-shares rise as Nvidia turmoil fuels a domestic-substitution bid: Cambricon and Hygon up about 5%",
+      "original_title": "AI芯片大变局！英伟达官宣换帅，国产替代主线强势爆发！寒武纪涨超5%",
+      "summary": "While Hong Kong AI names fell, mainland chip designers rallied on Friday morning after Jensen Huang's exit from Nvidia and reports of tighter US curbs. Cambricon rose about 5.3% to around ¥1,025, Hygon about 5%, and the A-share GPU index more than 3%. Commentators described the move as a 'security premium' rather than proof that domestic training chips have caught up.",
+      "why_it_matters": "Investors are betting that any tightening of Nvidia's China access, including remote access, shifts orders to Cambricon, Hygon and Huawei Ascend; upcoming order books will test the bet.",
+      "key_numbers": [
+        "Cambricon +5.34% (~¥1,025, intraday)",
+        "Hygon +5.2% intraday",
+        "A-share GPU index +3%+"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Cambricon",
+        "Hygon"
+      ],
+      "tickers": [
+        "688256.SS",
+        "688041.SS"
+      ],
+      "published_at": "2026-11-13T02:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.fx168news.com/article/1115464",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "AI芯片大变局！英伟达官宣换帅，国产替代主线强势爆发！寒武纪涨超5%"
+        },
+        {
+          "url": "https://fund.jrj.com.cn/2026/11/13102259127437.shtml",
+          "outlet": "JRJ (Jinrongjie)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国产芯行情升温！科创芯片设计ETF华宝（589430）标的指数再涨超2%，寒武纪领涨算力芯片"
+        },
+        {
+          "url": "https://www.sohu.com/a/1100920296_122014422",
+          "outlet": "Sina Fund Studio via Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "寒武纪股价涨5.34%，汇添富基金旗下30只基金重仓"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5364801041599481.html",
+          "outlet": "Sina",
+          "lang": "zh",
+          "tier": "social",
+          "title": "别把安全溢价当实力，国产芯片的底气得看季报"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": "china-ai-chip-stocks-rebound-nov11-cambricon",
+      "confidence_note": "All figures are intraday (around 10:00 Beijing); no closing prices found.",
+      "score": {
+        "total": 46.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.565
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.2,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "vals-ai-nextladder-financial-advice-benchmark",
+      "title": "Vals AI benchmark of 28 models across 256 financial-counseling scenarios finds leading models still miss critical details",
+      "summary": "Vals AI and NextLadder Ventures, advised by the Financial Health Network, published benchmarks testing 28 AI models on 256 simulated financial-counseling scenarios such as eviction and medical debt, plus a companion Access to Justice benchmark for legal scenarios. The release says leading models still leave out critical details when giving financial advice.",
+      "why_it_matters": "It is a domain eval for high-stakes consumer advice, an area where general assistants are increasingly used unsupervised, and may inform regulators and fintech deployments.",
+      "key_numbers": [
+        "28 models",
+        "256 scenarios"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Vals AI",
+        "NextLadder Ventures",
+        "Financial Health Network"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/leading-ai-models-still-missing-critical-details-when-giving-financial-advice-new-research-finds-302938452.html",
+          "outlet": "PR Newswire (Vals AI / NextLadder)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Leading AI Models Still Missing Critical Details When Giving Financial Advice, New Research Finds"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Only the press release was seen; time estimated from its Nov 13 dateline. Per-model scores not found.",
+      "score": {
+        "total": 35.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "github-copilot-gemini-4-hydrogen-ga",
+      "title": "Gemini 4 Hydrogen becomes generally available in GitHub Copilot a day after launch",
+      "summary": "GitHub says Google's Gemini 4 Hydrogen is now generally available in GitHub Copilot, pitched for fast agentic coding, tool use and multistep workflows. It arrives one day after Google launched the model at $1.50/$7.50 per million tokens.",
+      "why_it_matters": "Day-two availability in Microsoft-owned Copilot puts Google's cheap agentic model in front of Copilot's developer base and sharpens price competition with OpenAI and Anthropic models in the picker.",
+      "key_numbers": [
+        "GA in Copilot 1 day after launch"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "GitHub",
+        "Google",
+        "Microsoft"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+          "outlet": "GitHub Changelog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Hydrogen in GitHub Copilot"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.2,
+      "follow_up_of": "google-gemini-4-hydrogen-launch",
+      "confidence_note": "The changelog URL is dated Nov 13; time is an estimate. Details come from a search snippet only; plan/tier availability not confirmed.",
+      "score": {
+        "total": 35.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.2,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 23
+    },
+    {
+      "id": "gridai-acquires-pronghorn-wyoming-gas-ai-power",
+      "title": "GridAI agrees to acquire Wyoming gas producer Pronghorn Resources for a multi-gigawatt AI power platform",
+      "summary": "GridAI Technologies signed a definitive share-exchange agreement to acquire Pronghorn Resources LLC, a Wyoming natural gas and power company, to build an owned-gas power platform that could support multi-gigawatt data-centre campuses, targeting 300 MW of initial power delivery in 2027.",
+      "why_it_matters": "A small but typical deal in which AI-power developers buy upstream gas for behind-the-meter data-centre supply; Wyoming is becoming a hub after the Google and Crusoe projects there.",
+      "key_numbers": [
+        "300 MW initial target (2027)"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "GridAI Technologies",
+        "Pronghorn Resources"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/11/13/3402604/0/en/gridai-technologies-signs-definitive-agreement-to-acquire-pronghorn-resources-establishing-major-wyoming-owned-natural-gas-and-multi-gigawatt-ai-power-infrastructure-platform-targe.html",
+          "outlet": "GlobeNewswire (GridAI Technologies)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "GridAI Technologies Signs Definitive Agreement to Acquire Pronghorn Resources"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only the company press release; deal value not disclosed in the snippet. Time is an estimate.",
+      "score": {
+        "total": 33.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 24
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-20",
+      "title": "LangChain LangSmith release event (announced with $300M Series C)",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://www.langchain.com/blog/series-c"
+    },
+    {
+      "date": "2026-12-06",
+      "title": "NeurIPS 2026 opens: three sites, Sydney (main, Dec 6-12), Atlanta (Dec 8-13), Paris (Dec 9-13)",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://neurips.cc/Conferences/2026/Dates"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Dell Technologies Q3 FY2027 results (aggregator date, not confirmed by Dell)",
+      "kind": "earnings",
+      "confidence": "rumored",
+      "url": "https://en.arincen.com/instruments/DELL/earnings"
+    },
+    {
+      "date": "2026-12-09",
+      "title": "Cochise County zoning hearing on SpaceX's 6 GW, ~747-acre AI campus",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.kjzz.org/fronteras-desk/2026-11-10/spacex-is-behind-proposed-data-center-in-cochise-county"
+    },
+    {
+      "date": "2026-11",
+      "title": "NeurIPS 2026 opens across three sites: Sydney (main, Dec 6-12), Atlanta (Dec 8-13), Paris (Dec 9-13)",
+      "kind": "policy",
+      "confidence": "rumored",
+      "url": "https://finance.yahoo.com/technology/ai/articles/u-finalizing-rule-block-china-042215614.html"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Alibaba September-quarter 2026 results before US open; call 7:00am ET",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://www.alibabagroup.com/en-US/document-2054756418245885952"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Huawei debuts AI-phone sub-brand OSTA (星芒), first device reportedly OSTA O1 Pro",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.sina.cn/weibo/detail/5364418216984852.html"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Huawei Cloud launches CloudRobo-WM1.2, billed as the first Ascend-native embodied world model",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://ai.cnmo.com/news/822427.html"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Tencent Music Q3 2026 results",
+      "kind": "earnings",
+      "confidence": "confirmed",
+      "url": "https://feng.ifeng.com/c/8xC3T1sW00g"
+    }
+  ],
+  "notes": "The nightly harvest was stale (last run 2026-11-13T01:25Z, covering only the first ~4 h of the window); the rest of Nov 13 was covered by WebSearch only. WebFetch was blocked for most news domains (cnbc.com, yahoo.com, openai.com, huggingface.co, api-docs.deepseek.com, sina), so most facts rest on search-result text, flagged per item. Anthropic's IPO had no new pricing news on Nov 13 (pricing still expected Nov 18). Skipped as unverified: DeepMind staff union escalation to the UK government (Wired, no corroboration), UK–Norway AI statement (Google News link only), Thinking Machines Inkling 2 Small weights, a reported Claude auth outage, and a Semafor report on three DOJ probes touching Nvidia (URL not seen).",
+  "learn": [
+    {
+      "id": "publish-bit-exact-reproducible-results",
+      "gap": "public-output",
+      "title": "Publish a result others can reproduce bit for bit: seeds, reduction order and hashes",
+      "item_ids": [
+        "unemployment-labs-blackwell-fingerprints-chinese-open-models"
+      ],
+      "why_today": "Unemployment Labs says a B300, given a recovered seed, reproduced DeepSeek-V4-Flash's initial weights bit for bit while an H100 and an MI300X did not. A public claim like that is only as strong as the recipe others can rerun.",
+      "explanation": "Floating-point addition is not associative, so the same seeded computation can give different bits when a kernel sums in a different order. Different GPUs, tile sizes and library versions all change that order. The seed fixes the random stream, but the hardware and kernel fix the arithmetic, which is why the weights end up carrying a hardware fingerprint. When you publish, release the seed, the exact code and library versions, the hardware and kernel settings, a SHA-256 of the output, and a short script that recomputes the hash; then a reader can verify your claim instead of trusting it. The limit is that bit-exactness proves only that the recipe matches. It says nothing about where or when the computation ran, so state your claim no more strongly than that.",
+      "math": "(a+b)+c \\neq a+(b+c) \\text{ in floating point, so } \\mathrm{fl}\\big(\\textstyle\\sum_i x_i\\big) \\text{ depends on the summation order}",
+      "python": "# Why bit-exact reproduction needs the same seed AND the same reduction order (illustrative)\nimport hashlib, random, struct\ndef init_weights(seed, n=4096):\n    rng = random.Random(seed)\n    return [rng.gauss(0.0, 0.02) for _ in range(n)]\ndef digest(xs):\n    return hashlib.sha256(b\"\".join(struct.pack(\"<d\", x) for x in xs)).hexdigest()[:16]\ndef reduce_seq(xs):                       # left-to-right sum\n    s = 0.0\n    for x in xs: s += x\n    return s\ndef reduce_tree(xs, width=32):            # blocked sum, like a GPU warp/tile reduction\n    partial = [reduce_seq(xs[i:i + width]) for i in range(0, len(xs), width)]\n    return reduce_seq(partial)\nw1, w2, w3 = init_weights(7), init_weights(7), init_weights(8)\nprint(\"same seed, same hash :\", digest(w1) == digest(w2), digest(w1))\nprint(\"other seed           :\", digest(w3))\na, b = reduce_seq(w1), reduce_tree(w1)\nprint(f\"sequential sum {a!r}\\nblocked sum    {b!r}\\nbit-identical? {a == b}\")\n# Publish: seed, code version, hardware/kernel, and the hash, plus a script that recomputes it.\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "What Every Computer Scientist Should Know About Floating-Point Arithmetic (Goldberg, 1991)",
+          "url": "https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html"
+        },
+        {
+          "title": "PyTorch docs: Reproducibility",
+          "url": "https://pytorch.org/docs/stable/notes/randomness.html"
+        }
+      ]
+    },
+    {
+      "id": "moe-memory-vs-active-params-ssd-streaming",
+      "gap": "llm-internals",
+      "title": "Separate MoE memory from MoE compute, and check an SSD-streaming speed claim",
+      "item_ids": [
+        "autoark-edge0-145b-on-device-open-weights"
+      ],
+      "why_today": "AutoArk says Edge0-145B, a sparse MoE with about 10B active parameters, runs on a laptop at a 29 GB peak and more than 80 tokens/s by streaming weights from SSD.",
+      "explanation": "In a mixture-of-experts model, the per-token FLOPs scale with the active parameters, but the memory needed scales with all parameters, because any expert may be routed to. Weight bytes are about N·b/8. At roughly 4.5 effective bits (FP4 plus scales), 145B parameters is about 82 GB. A 29 GB peak therefore keeps only about a third of the weights resident, and the router's choices decide how often a token needs an expert that is still on disk. Every such miss costs SSD bandwidth, so throughput is capped near B_SSD/(miss rate × active bytes). With illustrative numbers (7 GB/s, 10% misses) the cap is about 12 tok/s, so a claim of 80+ tok/s implies the misses are well below about 2%: experts must be very predictable or very well cached. Expert locality is therefore the number to ask for when you evaluate an on-device MoE claim.",
+      "math": "M_W \\approx N_{\\text{total}}\\,\\tfrac{b}{8},\\qquad \\text{tok/s} \\lesssim \\frac{B_{\\text{SSD}}}{m\\,N_{\\text{active}}\\,b/8}",
+      "python": "# Memory vs compute for a sparse MoE (illustrative numbers taken from one vendor claim)\ndef gb(params, bits):\n    return params * bits / 8 / 1e9\ntotal, active = 145e9, 10e9          # Edge0-145B as reported: 145B total, ~10B active per token\nfor name, bits in [(\"bf16\", 16), (\"int8\", 8), (\"~4.5-bit (FP4 + scales)\", 4.5)]:\n    print(f\"{name:24s} all weights {gb(total, bits):6.1f} GB | active slice {gb(active, bits):5.1f} GB\")\nresident_gb = 29.0                     # reported peak memory\nfrac = resident_gb / gb(total, 4.5)\nprint(f\"resident fraction at ~4.5 bits: {frac:.0%} of weights; the rest must stream from SSD\")\n# If a token touches experts that are not resident, it must read them from disk:\nssd_gbps, miss_rate = 7.0, 0.10      # illustrative NVMe bandwidth and expert-miss fraction\nbytes_per_tok = gb(active, 4.5) * miss_rate\nprint(f\"SSD reads/token {bytes_per_tok*1e3:.0f} MB -> SSD-bound ceiling {ssd_gbps/bytes_per_tok:.0f} tok/s\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Switch Transformers (Fedus, Zoph, Shazeer, 2021)",
+          "url": "https://arxiv.org/abs/2101.03961"
+        },
+        {
+          "title": "LLM in a flash: Efficient LLM Inference with Limited Memory (Alizadeh et al., 2023)",
+          "url": "https://arxiv.org/abs/2312.11514"
+        }
+      ]
+    },
+    {
+      "id": "gigawatts-to-accelerators-to-flops",
+      "gap": "dl-training",
+      "title": "Turn a data-centre gigawatt figure into accelerator counts and yearly training FLOPs",
+      "item_ids": [
+        "spacex-74b-ai-data-centers-texas-arizona"
+      ],
+      "why_today": "SpaceX's Arizona campus is described as up to 6 GW, and a power figure is the most common, and most misread, way compute is announced.",
+      "explanation": "Site power covers more than chips. Divide by PUE (cooling and conversion overhead, often 1.1–1.4) to get the IT load. Then divide by the all-in power per accelerator, which includes its share of CPUs, networking and storage, to get a device count. Multiply by peak FLOP/s, model FLOPs utilisation (MFU, often 30–45% for large training runs) and seconds per year to get usable training compute, and compare it with C ≈ 6ND for a dense model of N parameters on D tokens. Each factor is uncertain by tens of percent, so report a range rather than a point. Announced capacity is a ceiling, not a commitment: campuses come online in phases.",
+      "math": "N_{acc} = \\frac{P_{site}}{\\mathrm{PUE}\\cdot p_{acc}},\\qquad C_{yr} = N_{acc}\\, F_{peak}\\, \\mathrm{MFU}\\, t_{yr},\\qquad C_{train}\\approx 6ND",
+      "python": "# From a campus power figure to an order-of-magnitude accelerator count (illustrative assumptions)\ndef accelerators(site_gw, pue, kw_per_accel_all_in):\n    it_kw = site_gw * 1e6 / pue                  # power left for IT load\n    return it_kw / kw_per_accel_all_in\nsite_gw = 6.0                                     # reported upper bound for the Arizona campus\nfor pue in (1.1, 1.3):\n    for kw in (1.8, 2.5):                         # accelerator + share of CPU, network, storage\n        n = accelerators(site_gw, pue, kw)\n        print(f\"PUE {pue}, {kw} kW/accel -> {n/1e6:.2f}M accelerators\")\n# Training compute per year at a utilisation (MFU) assumption:\npeak_flops, mfu = 2.5e15, 0.35                    # illustrative dense BF16 peak per accelerator\nn = accelerators(site_gw, 1.2, 2.2)\nprint(f\"~{n*peak_flops*mfu*3.15e7:.1e} FLOP/yr at {mfu:.0%} MFU\")\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "Training Compute-Optimal Large Language Models (Hoffmann et al., 2022)",
+          "url": "https://arxiv.org/abs/2203.15556"
+        }
+      ]
+    }
+  ]
+}
