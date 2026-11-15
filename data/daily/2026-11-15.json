@@ -1,0 +1,842 @@
+{
+  "date": "2026-11-15",
+  "window": {
+    "start": "2026-11-14T21:48:00Z",
+    "end": "2026-11-15T21:48:00Z"
+  },
+  "tldr": [
+    "Washington piled onto Nvidia over the weekend: Treasury Secretary Bessent called for an outside CEO and gave the board 10 days to answer on export compliance, while Jensen Huang agreed to closed-door testimony before 3 House committees.",
+    "The FT says Huang has discussed a comeback as allies lobby the board, and the NYT reports Lutnick pushed a narrower 7-country remote-access chip rule that overlaps with Cantor's business, two days before Nvidia's Nov 17 earnings.",
+    "Outside the Nvidia saga, a scan of 159,041 Lovable-built apps found 24,664 leaking database records without login; in China, Huawei Cloud put its openPangu-2.1-Pro flagship live on its MaaS platform."
+  ],
+  "items": [
+    {
+      "id": "bessent-nvidia-outside-ceo-10-day-answers",
+      "title": "Bessent says Nvidia needs a 'dramatic shakeup' and an outside CEO, wants board answers within 10 days",
+      "summary": "Treasury Secretary Scott Bessent said on Fox News on Sunday that Nvidia's board should look outside the company for Jensen Huang's permanent successor, calling for a 'dramatic shakeup'. He said he wants the board and its outside counsel to answer within 10 days on export-control compliance and whether China sales were pushed to hit revenue targets. He did not say what would happen if they miss that deadline. The comments come two days before Nvidia's first earnings report under interim CEO Colette Kress.",
+      "why_it_matters": "A sitting Treasury Secretary is publicly steering the CEO search at the world's most valuable chipmaker and setting it a compliance deadline. That raises the political stakes of the succession and of Nvidia's China business.",
+      "key_numbers": [
+        "10-day deadline (~Nov 25)",
+        "Nvidia earnings Nov 17"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Scott Bessent",
+        "US Treasury",
+        "Colette Kress",
+        "Jensen Huang"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-15T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2026/11/15/bessent-nvidia-earnings-china-chip-sales-ceo",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bessent questions Nvidia's sales and calls for external CEO"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-bessent/",
+          "outlet": "The Globe and Mail",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia must 'go outside the company' to find Huang's replacement, Bessent says"
+        },
+        {
+          "url": "https://qz.com/bessent-nvidia-outside-ceo-leadership-shakeup-111526",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Scott Bessent urges Nvidia to hire outside CEO after Jensen Huang"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": "bessent-blames-lutnick-commerce-megaspeed-entity-list",
+      "confidence_note": "Taken from search-result summaries; articles not fetched. The ~Nov 25 end date for the 10 days is one outlet's calculation. The publish time is approximate (Sunday Fox News interview).",
+      "score": {
+        "total": 69.4,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.675
+        },
+        "coverage": 6,
+        "mentions": 6,
+        "baseline": 4.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "nyt-lutnick-narrower-remote-access-chip-rule-cantor-overlap",
+      "title": "NYT: Lutnick pushed a narrower chip rule for overseas data centers that overlap with Cantor's business",
+      "summary": "The New York Times reported on Sunday that Commerce Secretary Howard Lutnick has argued for a narrower version of a pending rule on Chinese remote access to US AI chips in overseas data centers. His version would cover seven countries (Singapore, Malaysia, Thailand, Indonesia, Brazil, South Africa and Norway), apply only to future shipments, and require notification rather than a licence when Chinese customers train models there. Data centers already full of US hardware would be exempt. Cantor Fitzgerald, now run by Lutnick's sons, has done business with several Southeast Asian operators serving Chinese clients. The Times said it found no evidence that those dealings influenced his decisions.",
+      "why_it_matters": "It ties a conflict-of-interest question to the specific export rule meant to close the Megaspeed-style remote-access loophole, which could weaken or delay the rule.",
+      "key_numbers": [
+        "7 countries in Lutnick's version"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Howard Lutnick",
+        "US Commerce Department",
+        "Cantor Fitzgerald",
+        "Nvidia",
+        "The New York Times"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-15T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.inquirer.com/news/nation-world/howard-lutnick-commerce-secretary-rules-data-centers-nvidia-chips-china-southeast-asia-cantor-fitzgerald-20261115.html",
+          "outlet": "The Philadelphia Inquirer (NYT syndication)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Lutnick pushed to weaken chip rules that overlap with his family business"
+        },
+        {
+          "url": "https://www.business-standard.com/world-news/nvidia-row-lutnick-pushed-to-weaken-chip-rules-linked-to-family-business-126111500775_1.html",
+          "outlet": "Business Standard",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia row: Lutnick pushed to weaken chip rules linked to family business"
+        },
+        {
+          "url": "https://mlq.ai/news/lutnick-pushed-narrower-chip-rules-for-overseas-data-centers-that-overlap-with-cantors-business-nyt-reports/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Lutnick pushed narrower chip rules for overseas data centers that overlap with Cantor's business, NYT reports"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "lutnick-pressure-curtis-letter-blumenthal-cantor-ties",
+      "confidence_note": "The NYT original was reached only through a Google News link (not cited). Details come from syndicated and aggregator snippets. The Bitdeer and Gorilla Technology links to Cantor appear only in secondary write-ups and are left out of the summary.",
+      "score": {
+        "total": 65.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.777
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "ft-huang-discusses-nvidia-comeback-allies-war-room",
+      "title": "FT: Jensen Huang has discussed a return as Nvidia CEO as allies organise a lobbying push",
+      "summary": "The Financial Times reported on Sunday that Jensen Huang has discussed with confidants a possible return as Nvidia CEO, days after resigning. Allies are reportedly organising a Silicon Valley group to lobby the board and seek White House backing, and an associate told the FT that Huang supports the effort. Huang does not hold a controlling stake, so any return is up to the board. Nvidia says it has not engaged any candidate and calls the speculation premature.",
+      "why_it_matters": "It reopens the question of Nvidia's leadership just before earnings, and it puts Huang's allies directly against Treasury Secretary Bessent's same-day call for an outside CEO.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Financial Times",
+        "Colette Kress",
+        "Harvey Jones"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-15T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cp24.com/news/world/2026/11/15/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports/",
+          "outlet": "CP24 (wire)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports"
+        },
+        {
+          "url": "https://www.globalbankingandfinance.com/jensen-huang-discusses-comeback-nvidia-ceo-allies-ft-reports/",
+          "outlet": "Global Banking & Finance Review",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Jensen Huang Considers Nvidia CEO Comeback Amid Leadership Crisis"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-reportedly-wants-back-192349080.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang Reportedly Wants Back In As Nvidia CEO. How Will Stock React?"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "nvidia-altimeter-atreides-letter-musk-petition-huang-return",
+      "confidence_note": "The FT original was not seen; this rests on wire and aggregator write-ups found in search, and the FT's account comes from unnamed associates. The 'war room' wording appears in secondary headlines. The publish time is approximate (Sunday).",
+      "score": {
+        "total": 65.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.675
+        },
+        "coverage": 7,
+        "mentions": 6,
+        "baseline": 4.333,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "huang-agrees-closed-door-house-testimony-no-date",
+      "title": "Jensen Huang agrees to closed-door testimony before three House committees; no date set",
+      "summary": "House China committee chairman John Moolenaar said on Sunday that former Nvidia CEO Jensen Huang has agreed to a private session about his ties to former Megaspeed executive Alice Huang. The session would cover the China, Foreign Affairs and Intelligence committees, and Moolenaar said the agreement removes the immediate need for a subpoena. Foreign Affairs chair Brian Mast said the session will be recorded and transcribed. CNBC reported it will likely be under oath. Timing is still being negotiated, with Mast aiming for roughly a week.",
+      "why_it_matters": "Huang's first sworn-style account to Congress of the Megaspeed affair could shape the export-control legislation and enforcement now moving through Washington.",
+      "key_numbers": [
+        "3 House committees"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Jensen Huang",
+        "Nvidia",
+        "House Select Committee on the CCP",
+        "John Moolenaar",
+        "Brian Mast"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-15T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/house-chairman-says-huang-agrees-to-testify-but-no-date-set-yet",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia's Jensen Huang Agrees to Testify Before House Panel, Date Not Set"
+        },
+        {
+          "url": "https://www.washingtonpost.com/politics/2026/11/15/gop-glare-lutnick-grows-amid-nvidia-scandal/",
+          "outlet": "The Washington Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "GOP glare on Lutnick grows amid Nvidia scandal"
+        },
+        {
+          "url": "https://mlq.ai/news/jensen-huang-agrees-to-answer-house-china-committee-questions-privately-moolenaar-says/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Jensen Huang agrees to answer House China committee questions privately, Moolenaar says"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "congress-set-to-subpoena-jensen-huang-moolenaar-deadline",
+      "confidence_note": "Taken from search snippets. A Daily Caller piece dated Nov 12 already said Huang agreed to testify before House Foreign Affairs, so the new element on Nov 15 is Moolenaar's confirmation covering the China committee and the dropped subpoena threat. Accounts of timing differ ('within a week' vs 'before Thanksgiving').",
+      "score": {
+        "total": 59.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.777
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "lovable-apps-expose-passports-200k-chat-messages-crissy-field",
+      "title": "Researchers find thousands of Lovable-built apps exposing passport data and 200,000+ chat messages",
+      "summary": "Hamburg security firm Crissy Field, working with Handelsblatt, scanned 159,041 projects built on the Lovable vibe-coding platform and found user data readable without any login. Of the projects, 34,545 used Supabase and 24,664 returned database records with no authentication; one lifestyle forum exposed more than 200,000 chat messages and about 80,000 user profiles, and one service exposed more than 1,000 passport-related records. The cause was missing database access rules (row-level security) on Supabase tables, not a break-in. Lovable called it a known, industry-wide Supabase configuration problem.",
+      "why_it_matters": "This is the largest measured sample so far of how AI-generated apps ship with insecure defaults. It also raises the question of who is responsible as Lovable moves from generating apps to hosting and running them.",
+      "key_numbers": [
+        "159,041 Lovable projects scanned",
+        "24,664 Supabase-backed projects returned records without auth",
+        "7,403 sites with personal data readable without login",
+        "200,000+ chat messages exposed by one forum",
+        "~80,000 user profiles exposed",
+        "1,000+ passport-related records"
+      ],
+      "topic": "products",
+      "region": "eu",
+      "entities": [
+        "Lovable",
+        "Crissy Field",
+        "Supabase",
+        "Handelsblatt"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-14T17:43:10Z",
+      "sources": [
+        {
+          "url": "https://www.crissyfield.de/research/lovable-en/",
+          "outlet": "Crissy Field",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Lovable research (Crissy Field)"
+        },
+        {
+          "url": "https://cybernews.com/security/lovable-ai-apps-expose-personal-information/",
+          "outlet": "Cybernews",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apps built on Lovable AI expose passport details and 200,000 chat messages"
+        },
+        {
+          "url": "https://www.techzine.eu/news/security/145550/thousands-of-lovable-apps-are-leaking-personal-data/",
+          "outlet": "Techzine",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Thousands of Lovable apps are leaking personal data"
+        },
+        {
+          "url": "https://sifted.eu/articles/lovable-apps-expose-sensitive-user-data-researchers-find/",
+          "outlet": "Sifted",
+          "lang": "en",
+          "tier": "press",
+          "title": "Lovable apps expose sensitive user data, researchers find"
+        },
+        {
+          "url": "https://runtimewire.com/article/lovable-built-apps-exposed-passport-numbers-chat-messages",
+          "outlet": "RuntimeWire",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apps built with Lovable left passport numbers and 200,000 chat messages readable without a login"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.45,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The earliest timestamp seen is the Hacker News submission of the Crissy Field report at 2026-11-14T17:43Z (589 points), about 4h before the window opens, so it falls inside the 6h grace period. The Handelsblatt article may have been published earlier, but its date was not confirmed. All figures come from search snippets: the crissyfield.de page could not be fetched (host blocked in the sandbox), and none of the news articles were opened. Outlets disagree on the headline count: 24,664 projects returned records without auth (Cybernews) versus 7,403 sites with personal data (RuntimeWire/others), and the two may measure different things. Lovable's 'industry-wide Supabase configuration problem' response is reported by Cybernews; no Lovable statement was seen directly.",
+      "score": {
+        "total": 58.3,
+        "components": {
+          "impact": 0.45,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "senate-republicans-press-lutnick-testify-megaspeed",
+      "title": "Senate Republicans press Lutnick to testify on why Commerce didn't blacklist Megaspeed",
+      "summary": "Senate Republicans, including Sen. Jim Banks, are pressing Commerce Secretary Howard Lutnick to explain to Congress the 'glaring mistakes' that let Megaspeed avoid the US entity list, adding to Senate Banking chair Tim Scott's earlier request. CNN reported that in a Situation Room meeting last week, Treasury Secretary Bessent asked Lutnick why Megaspeed was not on the list, and Lutnick said he would look into it. A Beacon Policy Advisors note said Lutnick or a lower official such as BIS head Jeffrey Kessler could 'take the fall'. Lutnick is still expected to join Trump's China trip.",
+      "why_it_matters": "Criticism from Lutnick's own party is growing, which makes it likelier that someone at Commerce/BIS is replaced and export enforcement is tightened during the APEC trip.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Howard Lutnick",
+        "US Commerce Department",
+        "Jim Banks",
+        "Tim Scott",
+        "Megaspeed",
+        "BIS"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-15T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Senate Republicans Press Lutnick to Testify on Nvidia Chip Exports to China"
+        },
+        {
+          "url": "https://www.cnn.com/2026/11/15/politics/lutnick-jensen-alice-huang-trump-nvidia",
+          "outlet": "CNN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Lutnick under fire: How Trump's commerce secretary cultivated Nvidia's CEO while chip controls slipped"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/bessent-congress-zero-lutnick-role-140618725.html",
+          "outlet": "Yahoo News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bessent, Congress zero in on Lutnick's role in Nvidia-Megaspeed scandal"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "lutnick-pressure-curtis-letter-blumenthal-cantor-ties",
+      "confidence_note": "Taken from search snippets. Tim Scott's request (Dec 10 date) was already tracked, so the new elements are the GOP senators' push, CNN's Situation Room detail and the Beacon note. No testimony date is confirmed.",
+      "score": {
+        "total": 54.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.777
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "nvidia-lobbied-taiwan-officials-manager-smuggling-case",
+      "title": "Bloomberg: Nvidia sought Taiwanese officials' help over a manager's AI-server smuggling prosecution",
+      "summary": "Bloomberg reported on Sunday, citing people familiar, that Nvidia raised concerns with Taiwanese political officials about the prosecution of a manager surnamed Chang. Chang was detained in July and indicted in August for forgery and breach of trust. Prosecutors say he was the 'core figure' in a scheme to ship 74 servers with B300 chips to China via Japan and Indonesia, and a further 56 servers were seized. The report says Nvidia also sought advice from TSMC, which declined to get involved. Taiwan has not accused Nvidia itself of wrongdoing.",
+      "why_it_matters": "It adds to evidence that Nvidia leadership intervened in chip-smuggling probes, after the earlier report on its general counsel and the US Megaspeed probe, as Congress and Treasury press the board.",
+      "key_numbers": [
+        "74 B300 servers allegedly shipped",
+        "56 servers seized",
+        "5-year sentence sought"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Taiwan prosecutors",
+        "TSMC"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-15T09:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/nvidia-sought-taipei-s-help-over-employee-s-chip-smuggling-case",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Sought Taipei's Help Over Employee's Chip Smuggling Case"
+        },
+        {
+          "url": "https://huggingnews.com/business/nvidia-lobbies-taiwan-to-end-prosecution-of-manager-accused-of-chip-smug-e715ab10",
+          "outlet": "HuggingNews",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia Lobbies Taiwan to End Prosecution of Manager Accused of Chip Smuggling"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-24/taiwan-indicts-nvidia-manager-following-chip-smuggling-probe",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Taiwan Indicts Nvidia Manager Over Alleged AI Chip Smuggling to China (Aug 24 background)"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": "nvidia-general-counsel-intervened-megaspeed-smuggling-probe",
+      "confidence_note": "Single-outlet scoop (Bloomberg, anonymous sources), seen only through its headline and secondary summaries; the article was not fetched. The secondary summary did not include a Nvidia comment. The indictment figures come from August coverage. The publish time is approximate.",
+      "score": {
+        "total": 53.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.675
+        },
+        "coverage": 3,
+        "mentions": 6,
+        "baseline": 4.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "huawei-openpangu-2-1-pro-huawei-cloud-maas",
+      "title": "Huawei Cloud launches openPangu-2.1-Pro flagship model on its MaaS platform, tuned for agents and HarmonyOS coding",
+      "original_title": "开源盘古模型openPangu-2.1-Pro正式上线华为云",
+      "summary": "Huawei Cloud put openPangu-2.1-Pro, the new flagship of its openPangu family, live on its MaaS (model-as-a-service) platform on Nov 15. Reports say the upgrade targets agent development, AI coding and inference optimisation, with tool selection and calling tuned on more than 100,000 specialised samples, and dedicated work on HarmonyOS control and ArkTS app development, Ascend operator generation and faster inference. Huawei plans to connect it to its AgentArts, CodeArts and OfficeAce products. Huawei disclosed no parameter count, context length or benchmark scores. The model had already appeared in Huawei's paid Xiaoyi Work beta.",
+      "why_it_matters": "This is Huawei's main home-grown model built for its own HarmonyOS and Ascend stack, launched as Nvidia's turmoil sharpens Chinese interest in domestic compute. It is aimed at keeping developers inside Huawei's ecosystem.",
+      "key_numbers": [
+        "100,000+ specialised samples for agent/tool-use tuning",
+        "Launch date Nov 15, pre-announced"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Huawei",
+        "Huawei Cloud"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-15T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/027/450.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级"
+        },
+        {
+          "url": "https://finance.sina.cn/2026-11-15/detail-iniyvrfu6254309.d.html",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "开源盘古模型openPangu-2.1-Pro正式上线华为云"
+        },
+        {
+          "url": "http://stock.10jqka.com.cn/20261115/c681831733.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "开源盘古模型openPangu-2.1-Pro正式上线华为云"
+        },
+        {
+          "url": "https://post.smzdm.com/p/awwdd02m/",
+          "outlet": "什么值得买",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "openPangu-2.1-Pro上线华为云：不发参数的新盘古旗舰，先服务鸿蒙与昇腾开发者"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Built from search snippets of press reprints (IT之家, Sina/格隆汇, 10jqka, smzdm); I could not fetch the pages or find the original Huawei Cloud notice. The Nov 15 date is confirmed by the URLs, but the hour in published_at is approximate. IT之家 had already reported the Nov 15 launch date in advance (ithome.com/1/022/974.htm). The reports do not say whether the 2.1-Pro weights are actually published; the 'open-source Pangu' label is a brand name.",
+      "score": {
+        "total": 49.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.528
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.333,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "li-mu-joins-aimotion-cofounder-cto",
+      "title": "Former Amazon scientist Li Mu becomes co-founder and CTO of Silicon Valley startup Aimotion while staying at Boson AI",
+      "original_title": "刚刚，李沐加入Aimotion！出任联创兼CTO",
+      "summary": "Li Mu, a well-known deep-learning researcher and co-founder and CTO of Boson AI, has also become co-founder and CTO of Aimotion, a Silicon Valley startup, according to Chinese tech media on Nov 15. He will lead Aimotion's next-generation 'industrial-grade' AI technology, and the two companies will jointly build industry world models and commercial AI agents. Aimotion sells AI sales and marketing tools to high-value sectors such as cars, with customers in the Americas, Europe and Asia-Pacific. It recently closed a Series A worth tens of millions of dollars led by BAI Capital.",
+      "why_it_matters": "Li Mu is one of the most-followed AI technologists in the Chinese-language developer community, and the move ties Boson AI to an applied-agent startup instead of a job change. Its impact on the industry is small.",
+      "key_numbers": [
+        "Aimotion Series A: tens of millions of USD, led by BAI Capital"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Aimotion",
+        "Boson AI",
+        "Li Mu",
+        "BAI Capital"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-15T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-15/doc-iniyupue9831605.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "刚刚，李沐加入Aimotion！出任联创兼CTO"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LBPBUSUC0511N33R.html",
+          "outlet": "网易订阅",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "李沐新身份：出任硅谷初创Aimotion联创兼CTO，去产业里造世界模型"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8y4HAROf71n",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "李沐加入Aimotion！出任联创兼CTO"
+        },
+        {
+          "url": "https://www.sohu.com/a/1101868834_362225",
+          "outlet": "搜狐",
+          "lang": "zh",
+          "tier": "press",
+          "title": "李沐新增Aimotion联创兼CTO身份，携Boson AI双线布局产业级世界模型"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.25,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Built from search snippets; I could not fetch the pages. A Sina hourly roundup credits the original report to 机器之心. One Weibo post called it a rumour ('传'), but several outlets report it as fact and say Aimotion will disclose technology and product progress later. Aimotion and Boson AI are US-based, and the story belongs on the China desk only because of who Li Mu is and where it was covered. Publish it only as a brief, or drop it if space is short. published_at is approximate; only the date is confirmed.",
+      "score": {
+        "total": 47.0,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "megaspeed-internal-probe-alice-huang-left-aug-2025",
+      "title": "Megaspeed says Alice Huang left in August 2025 and opens internal probe into reports on its business",
+      "summary": "In an emailed statement to CNBC on Sunday, Singapore-based Megaspeed said Alice Huang officially left the company effective August 30, 2025, and has no current role there. It said it has launched an internal investigation into media reports about its business and supply chain. Megaspeed and its Malaysian affiliate Speedmatrix have bought about $4.8B of Nvidia AI equipment over three years and are under US and Singapore investigation.",
+      "why_it_matters": "It is the first time the company at the centre of the Nvidia scandal has said it is investigating its own supply chain, and its departure date for Alice Huang gives a fixed point in a timeline other reports had left unclear.",
+      "key_numbers": [
+        "Left Aug 30, 2025",
+        "~$4.8B of Nvidia gear bought over 3 years"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Megaspeed",
+        "Alice Huang",
+        "Nvidia",
+        "Speedmatrix"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-15T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": "singapore-alice-huang-no-evidence-prosecution",
+      "confidence_note": "Single source (CNBC, statement given to CNBC), seen as a search snippet. A second search found no other outlet carrying it, and earlier reports gave different accounts of when she left (filings show a 2023 directorship). The $4.8B figure is from earlier coverage. The publish time is approximate.",
+      "score": {
+        "total": 41.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.576
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 1.333,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "chinasc-2026-hpc-top100-lingsheng-first",
+      "title": "China's 2026 HPC TOP100 list puts Shenzhen's Lingsheng supercomputer first at 2.198 exaflops",
+      "original_title": "中国高性能计算机性能TOP100排行榜出炉，深圳超算“灵晟”夺冠",
+      "summary": "The 8th China Supercomputing Conference (ChinaSC 2026) in Beijing published the 2026 China HPC TOP100 ranking on Nov 15. The National Supercomputing Center in Shenzhen's Lingsheng (LineShine) system took first place with 2.198 EFlops of measured double-precision Linpack performance. Lingsheng, a CPU-only machine built from domestic processors, already topped the global TOP500 list in June 2026. The ranking has been published for 25 consecutive years, and this year's conference theme was 'intelligent compute, large models, new economy'.",
+      "why_it_matters": "The list confirms that China's top domestic machine is an all-Chinese-silicon exascale system at a time when access to US accelerators is under fresh scrutiny. The rest of the ranking would show how much of China's national HPC capacity is now built for AI.",
+      "key_numbers": [
+        "2.198 EFlops Linpack (Rmax)",
+        "25th consecutive year of the China TOP100 list",
+        "8th ChinaSC conference"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "National Supercomputing Center in Shenzhen",
+        "ChinaSC"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-15T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.sina.cn/weibo/detail/5365667651912813.html",
+          "outlet": "新浪新闻(微博)",
+          "lang": "zh",
+          "tier": "social",
+          "title": "【中国高性能计算机性能TOP100排行榜出炉，深圳超算“灵晟”夺冠】"
+        },
+        {
+          "url": "https://k.sina.cn/article_1726918143_66eeadff02001x6og.html",
+          "outlet": "新浪新闻 (中国青年报 reprint)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "我国高性能计算机排行榜连续发布25年，“灵晟”今年得第一"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "Based only on search snippets. The Weibo post gives the Nov 15 date, the Beijing venue and the 2.198 EFlops figure. A search summary attributes the k.sina.cn item to 中国青年报 (China Youth Daily). I did not see the full TOP100 list or the other systems on it, and published_at is approximate. Lingsheng was already world #1 on TOP500 in June, so the result itself is expected.",
+      "score": {
+        "total": 35.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.2,
+          "credibility": 0.505,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "sound-ventures-7b-anthropic-stake",
+      "title": "Bloomberg estimates Sound Ventures' Anthropic stake at about $7B at the IPO valuation",
+      "summary": "Bloomberg reported on Sunday that Sound Ventures, the venture firm run by Madonna's manager, holds an Anthropic stake that would be worth about $7 billion at the roughly $1.4 trillion valuation implied by Anthropic's IPO range. Anthropic is due to price on Nov 18 and start trading on Nasdaq on Nov 19.",
+      "why_it_matters": "It shows how the IPO is set to make some early non-traditional investors very rich, which is part of the frenzy around the listing.",
+      "key_numbers": [
+        "~$7B stake",
+        "~$1.4T target valuation"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Sound Ventures",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-15T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/vc-firm-run-by-madonna-s-manager-has-7-billion-anthropic-stake",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "VC Firm Run by Madonna's Manager Has $7 Billion Anthropic Stake"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": "anthropic-ipo-demand-durability-doubts-china-orders-rebuffed",
+      "confidence_note": "Bloomberg headline and search snippet only. The $7B is Bloomberg's own estimate at the target valuation, not a disclosed figure. A minor item.",
+      "score": {
+        "total": 30.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "brief",
+      "rank": 12
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-25",
+      "title": "Approximate end of Bessent's 10-day window for Nvidia's board to answer on China sales",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://www.axios.com/2026/11/15/bessent-nvidia-earnings-china-chip-sales-ceo"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "SC26 (Supercomputing 2026) in Chicago, Nov 15-20; Nvidia attending",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://www.nvidia.com/en-us/events/supercomputing/"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "QbitAI (量子位) 2026 AI annual rankings: nominations close; results due at its MEET2027 conference",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.qbitai.com/2026/11/508745.html"
+    }
+  ],
+  "notes": "Quiet Sunday. The nightly harvest did not land (latest is 2026-11-15T00:08Z), so everything after that comes from WebSearch. WebFetch was blocked for most news domains, so most facts rest on search-result snippets; this is flagged per item. Weekend coverage was dominated by Washington's response to the Nvidia/Huang affair. Skipped: Thinking Machines Inkling 2 Small open weights (released Nov 12, outside the window); Alibaba's T-Head spin-off plan (Nov 10); a reported US-allies AI supply-chain pact (search found only the Dec 2025 and Jun 2026 Pax Silica pacts); a claimed $12B of Alice Huang-linked Nvidia orders (search supports only the earlier $7.5B figure); a rumoured deepseek-v4.1-flash-1114 model id. Calendar caveat: a Nov 6 newsletter says Meta indefinitely paused the business-terms update listed for Nov 20; unconfirmed.",
+  "learn": [
+    {
+      "id": "sft-loss-masking-tool-calls",
+      "gap": "llm-internals",
+      "title": "Mask the SFT loss to assistant tokens when tuning tool calling",
+      "item_ids": [
+        "huawei-openpangu-2-1-pro-huawei-cloud-maas"
+      ],
+      "why_today": "Huawei says openPangu-2.1-Pro's tool selection and calling were tuned on more than 100,000 specialised samples, which is supervised fine-tuning on multi-turn traces.",
+      "explanation": "A tool-use training example interleaves a system prompt with tool schemas, a user turn, the assistant's tool call, the tool's output and the final answer. Only the assistant spans are behaviour you want to teach, so the cross-entropy is averaged over those tokens and every other position gets a zero weight. Without the mask, most of the loss (and gradient) comes from predicting user text and tool outputs, which are noisy, long and not under the model's control, so the model learns to imitate tool responses instead of to call tools well. The mask also changes the normalisation: averaging over assistant tokens only means short tool calls are not drowned out by long tool outputs. It breaks down when the tool output itself must be parsed into structured state the model later relies on; some recipes then add a small weight on those tokens rather than zero.",
+      "math": "\\mathcal{L} = -\\frac{\\sum_t m_t \\log p_\\theta(x_t\\mid x_{<t})}{\\sum_t m_t},\\quad m_t = \\mathbb{1}[\\text{token } t \\text{ is assistant-authored}]",
+      "python": "import math\n# Toy SFT example for tool calling: per-token log-probs the model assigns to the target token.\n# Roles: S=system/tool schema, U=user, A=assistant (tool call + answer), T=tool output.\nroles  = list(\"SSSSUUUUAAAATTTTTAAA\")\nlogp   = [-0.1,-0.2,-0.1,-0.3, -2.0,-1.5,-2.2,-1.8, -0.9,-0.4,-0.2,-0.6,\n          -3.0,-2.5,-2.8,-3.1,-2.9, -0.7,-0.5,-0.3]   # illustrative numbers\ndef nll(mask):\n    picked = [-lp for lp, m in zip(logp, mask) if m]\n    return sum(picked) / len(picked), len(picked)\nfull = nll([True] * len(roles))\nasst = nll([r == \"A\" for r in roles])\nprint(f\"loss on all tokens      : {full[0]:.3f} over {full[1]} tokens\")\nprint(f\"loss on assistant only  : {asst[0]:.3f} over {asst[1]} tokens\")\n# Gradient share: fraction of the summed loss that comes from tokens the model never has to produce\nwaste = sum(-lp for lp, r in zip(logp, roles) if r != \"A\") / sum(-lp for lp in logp)\nprint(f\"share of unmasked loss from user/tool tokens: {waste:.0%}\")\n",
+      "minutes": 10
+    },
+    {
+      "id": "linpack-to-training-days",
+      "gap": "dl-training",
+      "title": "Turn a Linpack exaflops figure into training days, and see why it misleads",
+      "item_ids": [
+        "chinasc-2026-hpc-top100-lingsheng-first"
+      ],
+      "why_today": "China's HPC TOP100 put the Lingsheng system first at 2.198 EFlops Linpack, a number often read as AI-training capacity.",
+      "explanation": "Training compute for a dense transformer is about C = 6ND FLOPs (N parameters, D tokens: 2ND forward, 4ND backward). Wall-clock time is C divided by sustained throughput, which is peak FLOP/s times model FLOPs utilisation (MFU, typically 30-50% at scale). Linpack Rmax is measured in FP64 on dense linear algebra, while training runs in BF16 or FP8, where accelerators can be an order of magnitude or more faster, so plugging Rmax in directly overstates training time; the uplift factor depends entirely on the hardware and is an assumption in the snippet. Interconnect bandwidth, memory capacity and failure rates then decide whether the MFU you assume is reachable, which is why HPL rank is a weak proxy for AI capacity. The numbers below are illustrative, not a claim about any real machine or model.",
+      "math": "T = \\frac{6ND}{P_{\\text{peak}}\\cdot \\text{MFU}}",
+      "python": "# Back-of-envelope: how long would a training run take on a machine of a given Linpack score?\n# Illustrative model size and token count; HPL Rmax is FP64, AI training runs in BF16/FP8.\nN = 1e12          # parameters (dense, illustrative)\nD = 20e12         # training tokens (illustrative)\nC = 6 * N * D     # training FLOPs, the 6ND rule for a dense transformer\nrmax_fp64 = 2.198e18          # FLOP/s, Linpack Rmax quoted for the system\nfor label, peak in [(\"FP64 Rmax as-is\", rmax_fp64),\n                    (\"x16 low-precision uplift (assumed)\", rmax_fp64 * 16)]:\n    for mfu in (0.3, 0.5):\n        days = C / (peak * mfu) / 86400\n        print(f\"{label:36s} MFU={mfu:.0%}: {days:10.1f} days\")\nprint(f\"C = {C:.2e} FLOPs\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Scaling Laws for Neural Language Models (Kaplan et al., 2020)",
+          "url": "https://arxiv.org/abs/2001.08361"
+        }
+      ]
+    }
+  ]
+}

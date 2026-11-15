@@ -1,0 +1,48 @@
+{
+  "week": "2026-W46",
+  "headline": "Jensen Huang's resignation from Nvidia dominated a week in which Anthropic's IPO book filled several times over and Google and Anthropic both shipped new frontier models.",
+  "themes": [
+    {
+      "title": "Nvidia loses its founder-CEO",
+      "summary": "After a shareholder suit and a board probe tied to the Megaspeed affair, Jensen Huang resigned on Nov 11 and CFO Colette Kress became interim CEO with Harvey Jones as chair. By the weekend Altimeter and Atreides were urging the board to keep Huang's return open, and a petition Musk backed passed 100,000 signatures.",
+      "item_ids": [
+        "nvidia-shares-fall-two-days-shareholder-suit-huang-probe",
+        "nvidia-huang-resigns-kress-interim-ceo-jones-chair",
+        "nvidia-board-approaches-arm-ceo-rene-haas",
+        "nvidia-altimeter-atreides-letter-musk-petition-huang-return"
+      ]
+    },
+    {
+      "title": "The scandal turns into an export-control fight",
+      "summary": "Washington's response centred on chip curbs and on Commerce. Bessent blamed Lutnick's department for not blacklisting Megaspeed, Reuters found over $3B of Chinese AI projects built around restricted Nvidia chips, and bipartisan senators pressed Lutnick to close loopholes.",
+      "item_ids": [
+        "huang-scandal-revives-china-chip-curbs-remote-access-rule",
+        "bessent-blames-lutnick-commerce-megaspeed-entity-list",
+        "reuters-3b-chinese-ai-projects-restricted-nvidia-chips",
+        "lutnick-pressure-curtis-letter-blumenthal-cantor-ties"
+      ]
+    },
+    {
+      "title": "Anthropic's IPO and the AI money question",
+      "summary": "Anthropic set a $70-$78 range to raise up to about $64.4B, and reports said the book was several times oversubscribed. Meanwhile OpenAI's Q3 revenue reportedly topped $10B as its operating loss widened to $10.9B, and the Fed's Financial Stability Report said 87% of market contacts now name AI as a top risk.",
+      "item_ids": [
+        "anthropic-ipo-price-range-70-78-roadshow-launch",
+        "anthropic-ipo-oversubscribed-bankers-weigh-pricing-above-range",
+        "openai-q3-2026-revenue-10b-operating-loss-10-9b",
+        "fed-fsr-nov-2026-ai-top-financial-stability-risk"
+      ]
+    },
+    {
+      "title": "New frontier models, US and Chinese",
+      "summary": "Anthropic released Claude Fable 5.2 at $8/$40 per million tokens, and Google opened Gemini 4 Carbon to paying users and launched the faster Gemini 4 Hydrogen. In China, Alibaba previewed Qwen4-Max with a 1M-token context on its Token Plan.",
+      "item_ids": [
+        "anthropic-claude-fable-mythos-5-2",
+        "google-gemini-4-carbon-public-rollout-swarm",
+        "google-gemini-4-hydrogen-launch",
+        "alibaba-qwen4-max-preview-token-plan"
+      ]
+    }
+  ],
+  "upcoming": [],
+  "notes": "No daily issue was published for Mon Nov 9; the week covers the Nov 10-15 dailies."
+}
