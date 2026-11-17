@@ -1,0 +1,1601 @@
+{
+  "date": "2026-11-17",
+  "window": {
+    "start": "2026-11-16T21:49:00Z",
+    "end": "2026-11-17T21:48:00Z"
+  },
+  "tldr": [
+    "OpenAI released GPT-6.2 Astra and Sol in ChatGPT, Codex and the API, cutting Astra to $8/$40 per million tokens (from $10/$50). Its system card says Astra is the first model OpenAI has deployed at its 'High' AI self-improvement threshold.",
+    "Nvidia's fiscal Q3 revenue rose 103% to $115.8B (data center $107.6B) in its first report under interim CEO Colette Kress. It guided to $130B and added $150B to its buyback, and the shares rose about 2-3% after hours following a day when the Dow fell 849 points.",
+    "At Ignite, Microsoft launched seven in-house MAI models, led by MAI Code 2, which it pitches at 5% of Claude Opus 5.5's cost, and said 50M agents now run under Agent 365. In China, a Reuters report on industrial-scale distillation of US models and the US chip-access rule hit Hong Kong tech (Alibaba -5.2%, Baidu -5.8%)."
+  ],
+  "items": [
+    {
+      "id": "openai-gpt-6-2-astra-sol-launch",
+      "title": "OpenAI releases GPT-6.2 Astra and Sol in ChatGPT Work, Codex and API, cutting Astra's price 20%",
+      "summary": "OpenAI released GPT-6.2 Astra, its frontier model for complex professional work, and GPT-6.2 Sol, a cheaper everyday model. Both are available in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu users, and in the API as gpt-6.2-astra and gpt-6.2-sol. Astra costs $8/$40 per million input/output tokens, down from $10/$50 for GPT-6 Astra, with cached input at $0.40. Sol stays at $2/$10. OpenAI says Astra scores 5.2 points above GPT-6 Astra on Agents' Last Exam at under a third of the cost per task, and that Sol comes within half a point of Astra on FrontierCode 2.0 at a fifth of the cost. The launch follows OpenAI's September decision not to ship GPT-6.1 Astra over safety concerns.",
+      "why_it_matters": "OpenAI is back on the frontier release cycle after the scrapped GPT-6.1 Astra, and it is cutting price to compete with Anthropic's Fable 5.2 ($8/$40) and Google's Gemini 4 Carbon. Independent rankings so far put Astra second to Fable 5.2 on Artificial Analysis, which narrows the gap without changing the leader.",
+      "key_numbers": [
+        "Astra $8/$40 per M tokens (was $10/$50)",
+        "Sol $2/$10 per M tokens",
+        "+5.2 pts vs GPT-6 Astra on Agents' Last Exam (OpenAI)",
+        "Artificial Analysis: Astra 62, Sol 57",
+        "Above 272K input tokens: input rate x2, output x1.5"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing GPT-6.2 Astra and Sol"
+        },
+        {
+          "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531",
+          "outlet": "OpenAI Developer Community",
+          "lang": "en",
+          "tier": "primary",
+          "title": "GPT-6.2 Astra and Sol are now available"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/openai-unveils-new-astra-ai-model-after-scrapping-prior-release",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Unveils Astra, Its Most Advanced AI Model for Professional Use"
+        },
+        {
+          "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains"
+        },
+        {
+          "url": "https://www.trendingtopics.eu/gpt-6-2-astra-openai-takes-second-place-behind-anthropics-fable-5-2/",
+          "outlet": "Trending Topics",
+          "lang": "en",
+          "tier": "trade",
+          "title": "GPT-6.2 Astra and Sol: OpenAI's New A.I. Models, No. 2 on Artificial Analysis, Pricing and What OpenAI Promises"
+        },
+        {
+          "url": "https://qz.com/openai-gpt-6-2-astra-release-scrapped-version-111726",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI is unveiling GPT-6.2 Astra after scrapping a prior AI model"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.85,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "OpenAI's own pages could not be fetched (domain blocked in the sandbox). Prices, benchmark claims and availability come from search snippets of OpenAI's post, the developer forum and several outlets, and they agree. Benchmark scores are vendor-reported. The Artificial Analysis (62/57) and Vals figures come from secondary outlets. The publication time is estimated.",
+      "score": {
+        "total": 78.3,
+        "components": {
+          "impact": 0.85,
+          "novelty": 0.5,
+          "credibility": 0.912,
+          "breadth": 0.811,
+          "momentum": 0.814
+        },
+        "coverage": 10,
+        "mentions": 6,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "nvidia-q3-fy2027-revenue-115-8b-guide-130b-buyback-150b",
+      "title": "Nvidia's Q3 revenue rises 103% to $115.8B and it guides to $130B in its first report under interim CEO Kress",
+      "summary": "Nvidia reported fiscal Q3 FY2027 (quarter ended Oct 25) revenue of $115.8B, up 103% year on year, against its own August guide of $108B ±2% and consensus of about $108.8-109.2B. Data Center revenue was $107.6B, up 110%. Non-GAAP EPS was $2.68 against about $2.47 expected, and GAAP gross margin was 74.8%. Nvidia guided Q4 revenue to $130B ±3%, which includes an extra week and assumes no Data Center compute revenue from China. It also added $150B to its share buyback authorization. Shares rose about 2-3% in extended trading. This is the first report since Jensen Huang resigned, with CFO Colette Kress serving as interim CEO.",
+      "why_it_matters": "The beat and raise came after a two-week, roughly 25% slide driven by the Huang/Megaspeed scandal. It shows AI infrastructure demand, including the Vera Rubin ramp, holding up despite the leadership vacuum, and is a read-through for TSMC, SK hynix, Micron, Broadcom and the neoclouds. The muted after-hours move suggests governance and China-exposure risk, not demand, is now the stock's main overhang.",
+      "key_numbers": [
+        "Revenue $115.8B, +103% YoY",
+        "Data Center $107.6B, +110% YoY",
+        "Q4 guide $130B ±3% (includes extra week, no China DC compute)",
+        "Non-GAAP EPS $2.68 vs ~$2.47 est.",
+        "GAAP gross margin 74.8%",
+        "+$150B buyback authorization; shares ~+2-3% after hours"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Colette Kress"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-17T21:20:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+          "outlet": "NVIDIA Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia beats on results and guidance in first earnings report since Huang's exit: Live updates"
+        },
+        {
+          "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
+          "outlet": "CoinDesk",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia tops estimates, issues strong guidance, adds $150 billion to buyback authorization"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia earnings live: Nvidia beats Q3 expectations, offers better-than-anticipated Q4 outlook"
+        },
+        {
+          "url": "https://investinglive.com/stocks/nvidia-price-up-tops-forecasts-by-7-billion-as-kress-steers-first-report-since-huang-exit/",
+          "outlet": "investingLive",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia (price up) tops forecasts by $7 billion as Kress steers first report since Huang exit"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.9,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The primary release and other pages could not be fetched (domains blocked), so the figures come from search-result summaries of Nvidia's release and press coverage. Revenue, EPS, guide and buyback match across several outlets. The Data Center $107.6B and 74.8% GAAP gross margin each came from a single search summary of the release. One summary also said Nvidia shipped $2.4B of Hopper data center chips to China in the quarter; this is unverified and left out of key numbers. The after-hours move is given as +2.4% (CoinDesk) and about +3% (CNBC). published_at is an estimate (release just after the 4pm ET close). The earnings call at 22:00 UTC falls after the window.",
+      "score": {
+        "total": 75.0,
+        "components": {
+          "impact": 0.9,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.487
+        },
+        "coverage": 8,
+        "mentions": 4,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "openai-gpt-6-2-system-card-high-self-improvement",
+      "title": "OpenAI's GPT-6.2 system card: Astra is the first deployed model to hit its 'High' AI self-improvement threshold",
+      "summary": "The GPT-6.2 system card rates both Astra and Sol 'Critical' for cybersecurity, the same level as GPT-6 Astra, and 'High' for biology and chemistry. Astra is the first model OpenAI has deployed externally at the 'High' threshold for AI self-improvement, which OpenAI describes as an early milestone short of fully automated recursive self-improvement. Mitigations include tighter cyber safeguards, which OpenAI admits also block some legitimate security research, and its Control Room monitoring of research workloads. In two tests, both new models were more likely than GPT-6 Astra to leave out obstacles such as a missing file.",
+      "why_it_matters": "This is the first public deployment of a model that a frontier lab says crosses a self-improvement risk line. Regulators such as California, already suing OpenAI over rogue agents, and New York under the RAISE Act will likely cite it, and it sets the bar rival labs will be measured against.",
+      "key_numbers": [
+        "Cyber: Critical (both models)",
+        "AI self-improvement: High (Astra only)",
+        "Bio/chem: High (both)"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+          "outlet": "OpenAI Deployment Safety Hub",
+          "lang": "en",
+          "tier": "primary",
+          "title": "GPT-6.2 System Card"
+        },
+        {
+          "url": "https://cryptobriefing.com/openai-gpt-6-2-astra-self-improvement-threshold/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI says GPT-6.2 Astra is first deployed model to hit High self-improvement threshold"
+        },
+        {
+          "url": "https://www.implicator.ai/openai-gpt-6-2-astra-sol-cost-per-task/",
+          "outlet": "Implicator",
+          "lang": "en",
+          "tier": "trade",
+          "title": "GPT-6.2 Astra and Sol: What OpenAI's New Models Can Do"
+        },
+        {
+          "url": "https://www.digitaltrends.com/computing/openai-gpt-6-2-astra-sol-launch/",
+          "outlet": "Digital Trends",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI's GPT-6.2 Astra finally arrives, promising better performance and fewer safety problems"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "This could be merged into the GPT-6.2 launch item if desk space is tight. The system card could not be fetched. Ratings come from search snippets of the system card and coverage. Outlets differ on how the cyber safeguards were tested.",
+      "score": {
+        "total": 70.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.835,
+          "breadth": 0.565,
+          "momentum": 0.814
+        },
+        "coverage": 5,
+        "mentions": 6,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "microsoft-mai-seven-models-ignite-code-2",
+      "title": "Microsoft launches seven MAI models at Ignite, led by MAI Code 2, which it pitches at 5% of Claude Opus 5.5's price",
+      "summary": "At Ignite, Microsoft AI released seven in-house models: MAI Code 2, Code 2 Flash, Cyber 2 Flash, Image 2.7, Realtime 1 (its first speech-to-speech model), Transcribe 2 and Decision 1.1. Microsoft says Code 2 reaches 96% of Claude Opus 5.5's coding performance at 5% of the cost and 98% of GPT-6.1 Sol's at 40%, though it is not yet tuned for long-horizon agentic or science work. Code 2 and Code 2 Flash are generally available in GitHub Copilot. Code 2 Flash is a limited preview in Foundry, with a context window of about 1.05M tokens. Realtime 1 is priced at $0.01 per audio minute. All seven run in production on Microsoft's Maia 200 accelerators.",
+      "why_it_matters": "Microsoft is now shipping a full first-party model stack that undercuts its partners OpenAI and Anthropic on price in Copilot. That reduces its dependence on them and adds price pressure on coding-model margins.",
+      "key_numbers": [
+        "7 new MAI models",
+        "Code 2: 96% of Opus 5.5 coding perf at 5% of the cost (Microsoft)",
+        "Code 2 Flash ~$0.10/$0.50 per M tokens (reported)",
+        "Realtime 1: $0.01/audio minute",
+        "Decision 1.1: 68 on AA Decision Index (vs 62)"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-11-17T16:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.thurrott.com/a-i/microsoft-ai/343999/ignite-2026-microsoft-ai-announces-7-new-models",
+          "outlet": "Thurrott",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Ignite 2026: Microsoft AI Announces 7 New Models"
+        },
+        {
+          "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/",
+          "outlet": "TestingCatalog",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft launches seven MAI models at Ignite 2026"
+        },
+        {
+          "url": "https://mlq.ai/news/microsoft-launches-seven-mai-models-at-ignite-pitching-its-coding-model-at-5-of-claude-opuss-price/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft launches seven MAI models at Ignite, pitching its coding model at 5% of Claude Opus's price"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-microsofts-mai-code-2-costs-40-of-sol-at-its-promo-price/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft's MAI Code 2 Costs 40% of Sol at Its Promo Price"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Microsoft's blog and Book of News could not be fetched (domains blocked). All performance and cost comparisons are Microsoft's own, and they are measured against half-price launch rates. Per-token prices for Code 2 vary by source ($0.50/$2.50 promo in Copilot, $1/$5 list), so they are left out of the summary. Sources disagree on Foundry availability. The publication time is estimated from the keynote.",
+      "score": {
+        "total": 68.9,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.578,
+          "breadth": 0.736,
+          "momentum": 0.98
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "microsoft-ignite-2026-keynote-microsoft-iq-agent-365",
+      "title": "Ignite 2026: Nadella unveils Microsoft IQ context layer and Agent 365 Business Analytics; says 50M agents managed",
+      "summary": "Satya Nadella opened Ignite in San Francisco by presenting Microsoft IQ, an enterprise context platform that combines Work IQ, Fabric IQ, Foundry IQ and Web IQ, with about 350 new third-party connectors. Work IQ is generally available in Foundry and Copilot Studio over MCP, REST and A2A. Microsoft said 50 million agents are already managed through Agent 365, its control plane for agent identity and governance. It added Agent 365 Business Analytics to tie AI spend to business outcomes, Copilot Workspaces (a shared multiplayer space in the Copilot app, in early access), and Foundry tooling that improves agents based on production signals. On security, Microsoft Perception, which bundles security agents and playbooks, is now generally available.",
+      "why_it_matters": "Microsoft is positioning itself as the governance and context layer for enterprise agents whichever model sits underneath. That puts it in direct competition with Salesforce, ServiceNow and Google's Gemini agent for that control point.",
+      "key_numbers": [
+        "50M agents managed via Agent 365",
+        "~350 new third-party connectors",
+        "Ignite runs Nov 17-20"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Microsoft"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-11-17T16:30:00Z",
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+          "outlet": "Official Microsoft Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Ignite 2026: Building the frontier ecosystem"
+        },
+        {
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/",
+          "outlet": "Microsoft Source",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Microsoft Ignite 2026: Empowering human ambition, intelligence and trust"
+        },
+        {
+          "url": "https://redmondmag.com/articles/2026/11/17/microsoft-ignite-2026-puts-enterprise-ai-infrastructure-at-center.aspx",
+          "outlet": "Redmondmag",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft Ignite 2026 Puts Enterprise AI Infrastructure at Center of Nadella's Vision"
+        },
+        {
+          "url": "https://www.constellationr.com/insights/news/ignite-2026-microsoft-makes-case-be-your-work-operating-system-intelligence-layer",
+          "outlet": "Constellation Research",
+          "lang": "en",
+          "tier": "trade",
+          "title": "At Ignite 2026, Microsoft makes case to be your work operating system, intelligence layer"
+        },
+        {
+          "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/ignite-2026-whats-new-in-microsoft-defender--sentinel/4569975",
+          "outlet": "Microsoft Tech Community",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Ignite 2026: What's new in Microsoft Defender & Sentinel"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Microsoft's pages could not be fetched. Details come from search snippets. The 350-connector count comes from a live blog. The 50M-agents figure is attributed to Nadella in coverage. The publication time is estimated.",
+      "score": {
+        "total": 68.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.936,
+          "breadth": 0.736,
+          "momentum": 0.98
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "microsoft-salesforce-copilotforce",
+      "title": "Microsoft and Salesforce launch Copilotforce, putting Salesforce CRM data and sales actions inside Microsoft Copilot",
+      "summary": "Microsoft and Salesforce announced Copilotforce at Ignite. A 'Salesforce in Copilot' plugin, now in public preview, comes with 38+ prebuilt sales skills and authenticated Salesforce MCP access, so sellers can retrieve customer data and act within their existing Salesforce permissions. The partnership also adds a two-way Zero Copy data link between Salesforce Data 360 and Microsoft Fabric, and brings Sales Cloud into Teams (pilot, with an open beta promised later this year). Accenture is the first pilot customer.",
+      "why_it_matters": "Salesforce and Microsoft had been rivals in agents, and here they are using MCP to let each other's agents reach each other's data. It suggests enterprise agent platforms are settling on interoperability rather than lock-in.",
+      "key_numbers": [
+        "38+ prebuilt sales skills",
+        "Plugin in public preview"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "Salesforce"
+      ],
+      "tickers": [
+        "MSFT",
+        "CRM"
+      ],
+      "published_at": "2026-11-17T16:30:00Z",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+          "outlet": "Microsoft Source",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences"
+        },
+        {
+          "url": "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+          "outlet": "Salesforce",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Salesforce and Microsoft Announce Copilotforce, Bringing Salesforce Customer Context and Sales Workflows to Microsoft Copilot"
+        },
+        {
+          "url": "https://cxtoday.com/in-brief/microsoft-and-salesforce-launch-copilotforce-at-ignite-unVhN5svsT2qGbmAI3bxXjA",
+          "outlet": "CX Today",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft and Salesforce Launch Copilotforce at Ignite"
+        },
+        {
+          "url": "https://www.unite.ai/microsoft-and-salesforce-introduce-copilotforce-for-ai-sales-workflows/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft and Salesforce Introduce Copilotforce for AI Sales Workflows"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Sources differ on the Teams status: pilot now versus open beta later this year. The publication time is estimated.",
+      "score": {
+        "total": 66.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.88,
+          "breadth": 0.632,
+          "momentum": 0.98
+        },
+        "coverage": 6,
+        "mentions": 5,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "reuters-china-labs-distill-us-models-chip-curbs",
+      "title": "Reuters: Chinese labs increasingly distil US frontier models to train domestic rivals as chip curbs bite",
+      "original_title": "中企工业化蒸馏AI模型 美再收紧海外算力管制",
+      "summary": "A Reuters investigation published Nov 17 says Chinese groups are moving distillation from academic experiments into industrial use. They use leading American models to generate answers, code and problem solutions for training smaller domestic models, and companies are building software to automate the process. Cited examples include a February 2026 Shanghai Jiao Tong University and Meituan paper that used GPT-4o, and Alibaba's April 2025 use of GPT-4 and GPT-4o to train smaller Qwen models. A US official said Washington sees distillation as the main reason Chinese models have narrowed the gap. Chinese officials defended it as a standard technique, and government documents encourage distillation without telling companies to use American models.",
+      "why_it_matters": "The report lands the day after the US remote-access chip rule and just before Trump-Xi talks in Shenzhen. It strengthens the case for anti-distillation controls on API access, not only chip curbs, which would affect OpenAI and Anthropic terms enforcement and Chinese labs' training pipelines.",
+      "key_numbers": [
+        "US accused Chinese firms of industrial-scale distillation in Sept 2026"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Alibaba",
+        "Meituan",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://bworldonline.com/technology/2026/11/17/794447/china-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite/",
+          "outlet": "BusinessWorld (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "China taps US AI models to train homegrown rivals as chip curbs bite"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/china-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite-ce785edfdf8efe2d",
+          "outlet": "MarketScreener (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "China taps US AI models to train homegrown rivals as chip curbs bite"
+        },
+        {
+          "url": "https://www.rappler.com/technology/china-taps-us-ai-models-train-homegrown-rivals/",
+          "outlet": "Rappler (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "China taps US AI models to train homegrown rivals as chip curbs bite"
+        },
+        {
+          "url": "https://dataconomy.com/2026/11/17/china-uses-us-ai-model-outputs-to-train-domestic-rivals/",
+          "outlet": "Dataconomy",
+          "lang": "en",
+          "tier": "trade",
+          "title": "China Uses US AI Model Outputs To Train Domestic Rivals"
+        },
+        {
+          "url": "https://epochtimes.com/gb/26/11/17/n14890221.htm",
+          "outlet": "大纪元",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中企工业化蒸馏AI模型 美再收紧海外算力管制"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "This is a Reuters exclusive seen only through syndications and snippets; the full text was not read. Publication time is estimated: syndications are dated Nov 17, and one snippet mentions a Reuters-linked Nov 16 report. The US desk may also pick this up, so dedupe.",
+      "score": {
+        "total": 66.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.753
+        },
+        "coverage": 8,
+        "mentions": 2,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "anthropic-ipo-books-close-guided-top-of-range-or-above",
+      "title": "Anthropic closes IPO books and guides to pricing at or above the top of its $70-$78 range",
+      "summary": "Multiple sources told CNBC on Nov 17 that Anthropic will likely price its IPO above the $70-$78 range. Bloomberg reported that the company is guiding investors to the top of the range or higher. The order book was due to close at 4pm ET on Tuesday, with pricing expected Nov 18 and Nasdaq trading under ANT from Nov 19. Anthropic and its co-founders are marketing 825 million shares. The Australian retail offer led by CommSec also closed at 5pm AEDT on Nov 17.",
+      "why_it_matters": "Pricing above range would make this the largest AI listing yet, at roughly a $1T+ market value. It would set the valuation benchmark for OpenAI's planned 2027 IPO and test public appetite for frontier labs during a chip-stock rout.",
+      "key_numbers": [
+        "Range $70-$78 per share",
+        "825M shares marketed",
+        "Up to ~$64.4B raised at top of range",
+        "Books closed 4pm ET Nov 17; trading from Nov 19"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic IPO: Claude Maker to Guide Price to Top of Range or Above"
+        },
+        {
+          "url": "https://bloomberg.com/news/articles/2026-11-17/anthropic-apunta-a-fijar-precio-de-opi-en-parte-alta-del-rango-o-sobrepasarla",
+          "outlet": "Bloomberg Línea (Spanish)",
+          "lang": "other",
+          "tier": "press",
+          "title": "Anthropic apunta a fijar precio de OPI en parte alta del rango o sobrepasarla"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.8,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-ipo-oversubscribed-bankers-weigh-pricing-above-range",
+      "confidence_note": "Based on anonymous sources; no final price yet. The Spanish Bloomberg piece says orders are close to seven times the shares on offer, which is not verified in English reporting. The 5pm AEDT Australian close comes from earlier pre-offer coverage. published_at is estimated (CNBC Faber report during US trading).",
+      "score": {
+        "total": 65.6,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.839
+        },
+        "coverage": 4,
+        "mentions": 6,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "cognition-devin-bots",
+      "title": "Cognition launches Devin Bots, persistent agents that lead teams of Devin coding agents for days or weeks",
+      "summary": "Cognition released Devin Bots, persistent 'engineering teammates' that take a goal, spin up and coordinate teams of Devin coding agents, and see the work through to merge-ready pull requests over days or weeks. Launch templates include Software Factory, Android Engineer, QA Engineer and Latency Optimizer. Cognition says Bots run on separate cloud computers without access to secrets on engineers' laptops, and that usage among early-access customers including Decagon, Fireworks AI and Reducto grew tenfold in two weeks. Pricing was not disclosed.",
+      "why_it_matters": "Coding agents are moving from task-level to outcome-level ownership. That puts the $48B startup in direct competition with OpenAI's always-on Dots and Anthropic's persistent agents for enterprise engineering budgets.",
+      "key_numbers": [
+        "10x usage growth in 2 weeks among early customers (Cognition)",
+        "Cognition valued at $48B"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Cognition",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://devin.ai/blog/introducing-devin-bots",
+          "outlet": "Cognition (Devin blog)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Devin Bots: from tasks to outcomes"
+        },
+        {
+          "url": "https://fortune.com/2026/11/17/exclusive-cognition-bets-on-devin-bots-coding-agents-in-challenge-to-anthropics-duet-and-openais-dots/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive: Cognition launches Devin Bots, a persistent software development agent to compete with OpenAI's Dots and Anthropic's Duet"
+        },
+        {
+          "url": "https://mlq.ai/news/cognition-launches-devin-bots-coding-agents-that-manage-teams-of-devins-on-projects-for-days-or-weeks/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Cognition launches Devin Bots, coding agents that manage teams of Devins on projects for days or weeks"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The publication time is estimated. The usage-growth figure is Cognition's own claim. The rival product name 'Duet' appears only in Fortune's headline.",
+      "score": {
+        "total": 59.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "google-gemini-tasks-free-calls-purchases",
+      "title": "Google makes Gemini Tasks free in six countries, adding phone calls to businesses, purchases and website sign-ins",
+      "summary": "Google expanded Tasks in Gemini, which started as Gemini Spark for US Ultra subscribers in May, as a free feature. Gemini can now call businesses on a user's behalf, book appointments, buy things through Google Pay and sign into websites when prompted. Reported launch countries are the US, Japan, Korea, Canada, Australia and India. The feature runs on Gemini 4 Hydrogen. Gemini identifies itself as an AI on calls, businesses can opt out, purchases need confirmation or pre-approval, and spending caps are available.",
+      "why_it_matters": "Offering a transacting agent free to a mass audience puts pressure on OpenAI's paid ChatGPT Wallet/Dots and on Amazon's efforts to keep outside shopping agents off its platform.",
+      "key_numbers": [
+        "6 countries (reported)",
+        "Free tier"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-17T19:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google expands access to Gemini Tasks, which can help with calls, purchases"
+        },
+        {
+          "url": "https://www.androidauthority.com/google-gemini-tasks-update-3736266/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Gemini Tasks is now free, can make purchases and call business"
+        },
+        {
+          "url": "https://www.unite.ai/google-makes-tasks-in-gemini-free-and-adds-calls-and-payments/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Makes Tasks in Gemini Free and Adds Calls and Payments"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The country list comes from one source and other coverage differs slightly. TechCrunch's teaser line says the feature is aimed at Ultra subscribers, while other coverage says it is free. The publication time is estimated from the Yahoo syndication ID. No Google primary post was found.",
+      "score": {
+        "total": 55.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.456
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "genesis-ai-500m-series-a-3-5b-robot-dexterity",
+      "title": "Robotics startup Genesis AI raises $500M Series A at a $3.5B valuation, with Nvidia participating",
+      "summary": "Genesis AI announced a $500M Series A at a $3.5B post-money valuation. Premji Invest, Khosla Ventures and Eclipse co-led the round, with Nvidia, HSG (formerly Sequoia China), Bpifrance and Durable Capital Partners also taking part. The company, founded by CMU robotics PhD Zhou Xian and ex-Mistral researcher Théophile Gervet, builds foundation models and full-stack robots aimed at human-level dexterity. It raised a $105M seed from Eclipse and Khosla in 2025, and Bloomberg first reported the talks in July.",
+      "why_it_matters": "It is one of the largest Series A rounds in robotics and shows capital still flowing to physical-AI model builders despite the public-market AI selloff. Nvidia's participation extends its strategic stakes across robotics foundation-model companies.",
+      "key_numbers": [
+        "$500M Series A",
+        "$3.5B post-money valuation",
+        "$105M seed (2025)"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Genesis AI",
+        "Nvidia",
+        "Khosla Ventures",
+        "Premji Invest",
+        "Eclipse"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html",
+          "outlet": "PR Newswire (Genesis AI)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Genesis AI Raises $500M Series A at $3.5B Valuation to Master Human-Level Dexterity in General-Purpose Robots and Deploy at Scale"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/nvidia-backed-genesis-ai-raises-funds-at-3-5-billion-valuation",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia-Backed Genesis AI Raises Funds at $3.5 Billion Valuation"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/genesis-ai-raises-500m-series-140000887.html",
+          "outlet": "Yahoo Finance (syndicated release)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Genesis AI Raises $500M Series A at $3.5B Valuation to Master Human-Level Dexterity in General-Purpose Robots and Deploy at Scale"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "The release could not be fetched; details come from search summaries. One summary called Genesis AI a 'French robotics company' (it has Paris and US roots), so region is set to global. The investor list combines two summaries. The talks were first reported in July 2026, so this is the formal close.",
+      "score": {
+        "total": 54.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.912,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "windows-11-agent-security-ignite-2026",
+      "title": "Windows 11 gets built-in agent identity and Agent 365 policy enforcement for AI agents; Copilot file actions coming",
+      "summary": "At Ignite, Microsoft announced OS-level controls for AI agents on Windows 11. These include built-in agent identity backed by Entra, Agent 365 policies enforced on every device, and agent access to on-premises apps through agent identities (preview), all on top of the Microsoft Execution Containers that went GA in October. Copilot on Windows will gain file actions and PC troubleshooting, starting on Copilot+ PCs, and Copilot in Windows Search enters opt-in preview. Antivirus tools can now run outside the Windows kernel.",
+      "why_it_matters": "Enterprises have been cautious about agents taking actions on PCs. Identity-bound, policy-enforced agents are what IT departments need before allowing desktop agents widely, though several of these controls are still in preview.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Microsoft"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-11-17T16:30:00Z",
+      "sources": [
+        {
+          "url": "https://blogs.windows.com/windowsexperience/2026/11/17/windows-security-at-ignite-2026-start-secure-protect-what-matters-prepare-for-ai/",
+          "outlet": "Windows Experience Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Windows security at Ignite 2026: Start secure, protect what matters, prepare for AI"
+        },
+        {
+          "url": "https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/",
+          "outlet": "Windows Experience Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Microsoft Ignite 2026: Building Windows for the next era of work"
+        },
+        {
+          "url": "https://petri.com/microsoft-windows-security-ai-enterprise-it/",
+          "outlet": "Petri",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Microsoft Expands Windows Security for AI and Enterprise IT"
+        },
+        {
+          "url": "https://www.thurrott.com/microsoft/343991/ignite-2026-agents-are-still-coming-to-windows-11",
+          "outlet": "Thurrott",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Ignite 2026: Agents Are Still Coming to Windows 11"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.35,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Taken from search snippets. Copilot file actions are listed as 'coming soon' with no date. Low-priority item.",
+      "score": {
+        "total": 54.0,
+        "components": {
+          "impact": 0.35,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.565,
+          "momentum": 0.98
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "baidu-robin-li-apec-ai-bubble-warning-organisation",
+      "title": "Baidu's Robin Li warns at APEC Shenzhen that AI is a bubble if adopters see no revenue or profit gains",
+      "original_title": "李彦宏APEC峰会警示AI泡沫：企业看不到收入和利润，AI就只是泡沫",
+      "summary": "Speaking at the APEC CEO Summit in Shenzhen on Nov 17, Baidu CEO Robin Li said AI's spread into applications was slower than expected. Many companies using AI have not seen clear revenue or profit gains, he said, and if heavy spenders keep seeing none, fears that AI is 'just a bubble' could come true. He called the situation 'very urgent'. He split the industry into chips, cloud, models and applications, argued that value ultimately sits in applications, and said firms must reorganise, breaking job silos and writing down staff's unwritten knowledge, to capture it. Li spoke at the 'open and inclusive AI innovation ecosystem' panel and in a business dialogue the day after Baidu reported a 1% fall in Q3 revenue.",
+      "why_it_matters": "A bubble warning from a top Chinese AI CEO, as Chinese AI stocks sell off, feeds the global debate on AI returns. It also matches Baidu's shift toward selling GPU cloud capacity, where its growth now comes from, rather than relying on AI apps.",
+      "key_numbers": [
+        "APEC CEO Summit Nov 17-18, Shenzhen Qianhai",
+        "Baidu AI revenue >50% of total for 3 straight quarters"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Baidu"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T03:40:00Z",
+      "sources": [
+        {
+          "url": "https://www.caixinglobal.com/2026-11-17/organizational-overhaul-is-key-to-reaping-benefits-of-ai-baidu-chief-says-102505897.html",
+          "outlet": "Caixin Global",
+          "lang": "en",
+          "tier": "press",
+          "title": "Organizational Overhaul Is Key to Reaping Benefits of AI, Baidu Chief Says"
+        },
+        {
+          "url": "https://original.ifeng.com/c/8y7rIc10cCW",
+          "outlet": "凤凰网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "李彦宏APEC峰会警示AI泡沫：企业看不到收入和利润，AI就只是泡沫"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261117/c681900846.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "李彦宏在APEC工商领导人峰会中分享AI判断：价值最终在应用层，组织能力要跟上"
+        },
+        {
+          "url": "https://udn.com/news/story/7333/9883570",
+          "outlet": "聯合新聞網",
+          "lang": "zh",
+          "tier": "press",
+          "title": "APEC工商領導人峰會登場 曾毓群談電池創新、李彥宏聚焦AI應用"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "The time is estimated from the agenda: the AI panel ran 10:55-11:40 Beijing time. Quotes are paraphrased from snippets. Ifeng's claim that Li said GPU rental now contributes a bigger share of profit comes from one source and is left out. Xiaomi's Lei Jun reportedly said at the summit that few companies have closed the commercial loop on large models, but this was not verified beyond an aggregator.",
+      "score": {
+        "total": 53.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.753
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "sensetime-sensenova-loop-9b-open-release",
+      "title": "SenseTime releases open-weight SenseNova Loop-9B, a looped 9B model with 512K context; Cambricon adds day-0 support",
+      "original_title": "商汤发布 SenseNova Loop-9B 模型：部署显存需求低至 10 GB 内",
+      "summary": "On the evening of Nov 17, SenseTime released the full SenseNova Loop-9B, following the Loop-9B-Preview it open-sourced on Oct 30. The model has about 9B parameters and runs its shared middle layers twice, so 32 physical decoder layers do 56 layer computations. It uses manifold-constrained hyper-connections (mHC), takes text and image input, outputs text and handles up to 512K tokens of context. Weights and code are published. SenseTime says the 4-bit build is about 4.9 GB and runs in under 10 GB of GPU memory, and claims it performs on par with Qwen3.8-27B. Cambricon said it completed day-0 adaptation of the model on its chips.",
+      "why_it_matters": "Looped and weight-sharing designs offer a way to get the depth of a bigger model from a small, cheap-to-serve one, which matters for Chinese labs short of compute. Day-0 Cambricon support adds to the trend of new Chinese open models shipping with domestic-chip inference at launch.",
+      "key_numbers": [
+        "~9B parameters",
+        "32 physical layers -> 56 layer computations",
+        "512K-token context",
+        "~4.9 GB at 4-bit",
+        "<10 GB GPU memory to deploy"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "SenseTime",
+        "Cambricon"
+      ],
+      "tickers": [
+        "0020.HK",
+        "688256.SS"
+      ],
+      "published_at": "2026-11-17T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/028/534.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "商汤发布 SenseNova Loop-9B 模型：部署显存需求低至 10 GB 内"
+        },
+        {
+          "url": "https://www.fx168news.com/express/fastnews/1470625",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "press",
+          "title": "11月17日，商汤科技正式发布SenseNova Loop-9B。该模型总参数量约为9B……上下文长度最高可达512Ktokens。"
+        },
+        {
+          "url": "https://m.huxiu.com/moment/1297650.html",
+          "outlet": "虎嗅",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "商汤发布SenseNova Loop-9B模型。"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8y8aoqsuYMB",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "寒武纪Day 0完成商汤SenseNova Loop-9B适配，打通新型循环计算架构推理链路"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Facts come from search snippets of IT之家, FX168 and ifeng; the article pages and Hugging Face could not be opened from the sandbox. The release time is estimated from reports saying 'evening of Nov 17' Beijing time. Benchmark figures differ between reports (NL2Repo 41.36 vs Qwen3.8-27B's 44.60 in one, 45.68 in a community post), so they are left out of key_numbers. The Cambricon day-0 claim is from one ifeng headline only. The Oct 30 Preview is not in recent.txt.",
+      "score": {
+        "total": 52.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "github-copilot-fusion-mai-code-2-local-models",
+      "title": "GitHub Copilot Fusion adds MAI Code 2, local on-device models in preview and wider app availability",
+      "summary": "GitHub expanded Copilot Fusion, its multi-model router that went GA at Universe on Oct 28, to github.com, Visual Studio and the GitHub Mobile betas. Fusion's effort tiers now map to Claude Sonnet 5.5 (Max), GPT-6.1 Terra (High) and MAI-Code-2 (Standard). Microsoft says Fusion can now also route to local models on developer PCs, in preview. GitHub says Fusion Max scores 60 on the Artificial Analysis Coding Agent Index, two points behind Claude Code running Opus 5.5 Max. MAI Code 2 and Code 2 Flash are generally available in the Copilot model picker.",
+      "why_it_matters": "With Microsoft's own model as the default tier, more of Copilot's routine coding volume is likely to run on MAI Code 2 than on OpenAI or Anthropic models.",
+      "key_numbers": [
+        "Fusion Max: 60 on AA Coding Agent Index (GitHub)",
+        "Standard tier = MAI-Code-2"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Microsoft",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "tickers": [
+        "MSFT"
+      ],
+      "published_at": "2026-11-17T16:30:00Z",
+      "sources": [
+        {
+          "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models/",
+          "outlet": "GitHub Changelog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models"
+        },
+        {
+          "url": "https://windowsforum.com/news/github-copilot-adds-mai-code-2-and-flash-plans-pricing-and-admin-controls.452768/",
+          "outlet": "WindowsForum",
+          "lang": "en",
+          "tier": "trade",
+          "title": "GitHub Copilot Adds MAI Code 2 and Flash: Plans, Pricing and Admin Controls"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The changelog could not be fetched. Details come from search snippets. The tier-to-model mapping and the benchmark are GitHub's claims. Sources disagree on the length of the Fusion discount (through Nov 30 vs first 30 days). Consider merging this into the MAI models item.",
+      "score": {
+        "total": 51.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.7,
+          "breadth": 0.393,
+          "momentum": 0.98
+        },
+        "coverage": 3,
+        "mentions": 5,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "hk-tech-falls-nov17-alibaba-baidu-tencent-minimax-zhipu-chip-rule",
+      "title": "Hong Kong tech slides on US chip-access rule: Alibaba -5.2%, Baidu -5.8%, Tencent -3.7%, MiniMax down over 7%",
+      "original_title": "港股收评：恒指跌1.03% 恒生科技指数跌1.14%",
+      "summary": "On Nov 17 the Hang Seng Index closed down 1.03% at 23,508.17 and the Hang Seng Tech Index fell 1.14% to 3,758.17. Internet and AI names fell the most after the new US rule on remote access to advanced chips. Alibaba fell 5.21%, Baidu 5.78% (the day after its Q3 results) and Tencent 3.69%. Listed model makers MiniMax and Zhipu fell more than 7% and more than 5%, extending Monday's 18% and 13% falls. Mainland chipmakers held up better: the STAR 50 rose 0.62% to 1,221.19 and Cambricon gained 0.76%, while Hygon fell 3.93%.",
+      "why_it_matters": "The market is splitting Chinese AI between cloud and model players that rely on rented Nvidia capacity abroad, which are being sold, and domestic-chip suppliers, which are holding up. This comes ahead of Tencent's Q3 results and Alibaba's Nov 19 report.",
+      "key_numbers": [
+        "HSI -1.03% to 23,508.17",
+        "HSTECH -1.14% to 3,758.17",
+        "Alibaba -5.21%, Baidu -5.78%, Tencent -3.69%",
+        "MiniMax >-7%, Zhipu >-5%",
+        "STAR 50 +0.62%; Cambricon +0.76%, Hygon -3.93%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Alibaba",
+        "Tencent",
+        "Baidu",
+        "MiniMax",
+        "Zhipu AI",
+        "Cambricon",
+        "Hygon"
+      ],
+      "tickers": [
+        "9988.HK",
+        "0700.HK",
+        "9888.HK",
+        "688256.SS",
+        "688041.SS"
+      ],
+      "published_at": "2026-11-17T08:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/hang-seng-closes-1-03-prozent-lower-as-ai-curbs-hit-tech-shares/70526630",
+          "outlet": "ad-hoc-news",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Hang Seng closes 1.03% lower as AI curbs hit tech shares"
+        },
+        {
+          "url": "https://sohu.com/a/1102759556_115433",
+          "outlet": "搜狐 (人民财讯)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收评：恒指跌1.03% 恒生科技指数跌1.14%"
+        },
+        {
+          "url": "https://nai500.com/blog/2026/11/china-ai-stocks-sink-as-us-curbs-hit-the-compute-trade/",
+          "outlet": "NAI500",
+          "lang": "en",
+          "tier": "trade",
+          "title": "China AI Stocks Sink as US Curbs Hit the Compute Trade"
+        },
+        {
+          "url": "https://investing.com/news/stock-market-news/why-is-tencent-stock-sliding-today-93CH-5031669",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Why is Tencent stock sliding today?"
+        },
+        {
+          "url": "https://finance.jrj.com.cn/2026/11/17174059177281.shtml",
+          "outlet": "金融界",
+          "lang": "zh",
+          "tier": "press",
+          "title": "11月17日北向资金追踪：中际旭创、寒武纪、宁德时代成交额居前"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.2,
+      "follow_up_of": "hk-ai-model-stocks-minimax-18pct-zhipu-13pct-nov16",
+      "confidence_note": "All figures come from snippets of secondary market wraps. Investing.com put Tencent at -3.0% (HK$378.6), probably an intraday figure; -3.69% is the close given by the market account. MiniMax and Zhipu moves are given only as 'over 7%' and 'over 5%' (人民财讯). Cambricon and Hygon closes come from one source (jrj), and another page conflicted, so treat them as approximate. MiniMax and Zhipu tickers are omitted because they were not verified.",
+      "score": {
+        "total": 50.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.2,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.753
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "mofcom-responds-us-remote-access-chip-rule",
+      "title": "China's commerce ministry condemns US rule curbing remote access to advanced chips, says it breaks leaders' consensus",
+      "original_title": "商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问",
+      "summary": "A spokesperson for China's Ministry of Commerce answered a reporter's question on the BIS interim final rule of Nov 16, which restricts Chinese access to advanced AI chips through overseas data centres. The spokesperson said the US is broadening the concept of national security and abusing export controls. The rule, the spokesperson said, interferes with normal trade between Chinese companies and companies in other countries, and departs from the consensus reached by the two heads of state. The statement came two days before Trump and Xi are due to meet at APEC in Shenzhen.",
+      "why_it_matters": "Beijing's formal objection puts the remote-access rule on the agenda for the Shenzhen Trump-Xi meeting and the planned US-China AI dialogue. Any retaliation could touch the rare-earth control suspension that runs to Jan 10, 2027.",
+      "key_numbers": [
+        "US rule issued Nov 16 (interim final rule)",
+        "Reported trigger: data centres with TPP >= 12 million"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "China Ministry of Commerce",
+        "US Commerce Department (BIS)"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T11:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.sohu.com/a/1102853576_162758",
+          "outlet": "搜狐 (转载商务微新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问"
+        },
+        {
+          "url": "https://m.huxiu.com/moment/1297621.html",
+          "outlet": "虎嗅",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问。"
+        },
+        {
+          "url": "https://www.sohu.com/a/1102854024_122014422",
+          "outlet": "搜狐",
+          "lang": "zh",
+          "tier": "press",
+          "title": "商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "bis-remote-access-chip-rule-five-country-licenses-diffusion-rescinded",
+      "confidence_note": "The MOFCOM site was not reached; the wording comes from repost snippets. The time is estimated (the huxiu post ID sits next to the Nov 17 evening SenseTime post). One search summary said MOFCOM warned of countermeasures 'if the US persists', but that wording is unconfirmed, so the summary leaves it out. The TPP 12 million threshold comes from a separate Sohu explainer, and the Nov 19 effective date is from social reposts only, so it is excluded.",
+      "score": {
+        "total": 49.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.583
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "apec-ceo-summit-shenzhen-opens-ai-agenda",
+      "title": "APEC CEO Summit opens in Shenzhen with AI on the agenda ahead of the Trump-Xi meeting",
+      "summary": "The APEC CEO Summit opened at Shenzhen's Qianhai International Convention Center on Nov 17. Xinhua reported more than 2,000 business and political representatives, and organizers said 115 Fortune Global 500 companies are attending. AI and the digital economy are core themes: China is proposing a digital economy and AI statement on safe, trusted AI and wider use in health, education and energy. Deloitte's Asia-Pacific CEO urged common regional AI rules and cybersecurity guardrails. A 'Shenzhen Initiative' is due at the close.",
+      "why_it_matters": "The summit opens the APEC week in which Trump and Xi are expected to start a US-China AI safety dialogue, against the backdrop of new US chip curbs. It is the main venue for any business-level AI commitments before the leaders meet.",
+      "key_numbers": [
+        "2,000+ attendees (Xinhua)",
+        "115 Fortune Global 500 firms"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "APEC",
+        "Deloitte"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://english.news.cn/20261117/638b232796ce47dcbca8fd94de3844be/c.html",
+          "outlet": "Xinhua",
+          "lang": "en",
+          "tier": "press",
+          "title": "Over 2,000 business, political representatives gather in Shenzhen for APEC CEO Summit 2026"
+        },
+        {
+          "url": "https://www.prnewswire.com/apac/news-releases/apec-ceo-summit-2026-gets-underway-in-shenzhen-302942544.html",
+          "outlet": "PR Newswire (organizers)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "APEC CEO Summit 2026 Gets Underway in Shenzhen"
+        },
+        {
+          "url": "https://www.scmp.com/tech/big-tech/article/3374612/apec-ceos-seek-common-ai-safeguards-adoption-accelerates-deloitte",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Apec CEOs seek common AI safeguards as adoption accelerates: Deloitte"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "No concrete AI announcement from the summit was found. The details on China's proposed AI statement come from a search summary. published_at is estimated (Shenzhen opening day).",
+      "score": {
+        "total": 48.9,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.879,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "stocks-fall-dow-849-chip-slide-asia-samsung-tsmc-nov17",
+      "title": "Dow falls 849 points and chip stocks slide again before Nvidia results; Samsung and TSMC drop about 5% in Asia",
+      "summary": "US stocks fell on Nov 17 ahead of Nvidia's earnings. The Dow lost 848.75 points (1.64%) to 50,759.42, the S&P 500 fell about 1% and the Nasdaq about 0.7%. Nvidia was down more than 3% early before paring losses. In Asia, Samsung Electronics and TSMC fell nearly 5% after the new US rule requiring licenses for advanced AI chip shipments to Singapore, Malaysia, Thailand, Indonesia and Brazil. The Nasdaq is now in correction, more than 10% below its October peak.",
+      "why_it_matters": "The selloff carried into a third session even as the Nvidia scandal and the new export-licence rule shift from headline risk to order risk for Asian foundry and memory suppliers. Nvidia's after-hours beat is the first test of whether the slide reverses.",
+      "key_numbers": [
+        "Dow -848.75 pts (-1.64%) to 50,759.42",
+        "S&P 500 ~-1%, Nasdaq ~-0.7%",
+        "Samsung, TSMC ~-5% in Asian trading"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Samsung",
+        "TSMC"
+      ],
+      "tickers": [
+        "005930.KS",
+        "2330.TW"
+      ],
+      "published_at": "2026-11-17T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stock market today: Dow sinks 850 points, S&P 500 and Nasdaq drop with focus on Nvidia earnings"
+        },
+        {
+          "url": "https://tipranks.com/news/samsung-tsmc-stocks-slide-as-u-s-tightens-ai-chip-curbs-on-china",
+          "outlet": "TipRanks",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Samsung, TSMC Stocks Slide as U.S. Tightens AI Chip Curbs on China"
+        },
+        {
+          "url": "https://coincentral.com/u-s-chip-export-licenses-now-required-for-five-countries-as-samsung-and-tsmc-shares-drop",
+          "outlet": "CoinCentral",
+          "lang": "en",
+          "tier": "trade",
+          "title": "U.S. Chip Export Licenses Now Required for Five Countries as Samsung and TSMC Shares Drop"
+        },
+        {
+          "url": "https://www.fxleaders.com/news/2026/11/17/the-ai-chip-bubble-meets-reality-amd-tsmc-intel-micron-broadcom-tumble/",
+          "outlet": "FX Leaders",
+          "lang": "en",
+          "tier": "trade",
+          "title": "The AI Chip Bubble Meets Reality: AMD, TSMC, Intel, Micron, Broadcom Tumble"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "ai-chip-selloff-nov16-kospi-sk-hynix-micron-nasdaq",
+      "confidence_note": "Index closes come from search summaries of Yahoo/CNBC market coverage. The Asian Samsung/TSMC moves (~5%) come only from search snippets of TipRanks/CoinCentral, and sources disagree on whether some US-listed declines (e.g. TSM -6.34%) happened Monday or Tuesday. Per-stock US moves for AMD, Micron and Broadcom on Nov 17 could not be confirmed. published_at is estimated (US close).",
+      "score": {
+        "total": 47.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.487
+        },
+        "coverage": 5,
+        "mentions": 4,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "spacex-40b-ai-chip-debt-hits-market-this-week",
+      "title": "Part of SpaceX's $40B off-balance-sheet AI-chip debt could hit the market this week",
+      "summary": "Bloomberg reported that part of the roughly $40B debt package financing SpaceX's Nvidia chip purchases could be sold to investors as soon as this week, with Goldman Sachs and Apollo underwriting. The debt is designed to stay off SpaceX's balance sheet. A special purpose vehicle run by Apollo-backed Atlas SP buys the GPUs, issues asset-backed securities, and leases the equipment to SpaceX. SpaceX disclosed a binding commitment for the financing in late October; pricing and closing were still pending.",
+      "why_it_matters": "It would be the largest test yet of investor demand for GPU-backed securities, a funding route the neoclouds and labs increasingly depend on. It comes as markets question AI capex and Nvidia's governance.",
+      "key_numbers": [
+        "~$40B total financing",
+        "Underwriters: Goldman Sachs, Apollo"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "Apollo",
+        "Goldman Sachs",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/spacex-debt-for-ai-chips-to-hit-market-as-soon-as-this-week",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX Debt for AI Chips to Hit Market as Soon as This Week"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX locks in $40B GPU financing deal with Apollo"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only Bloomberg reports the Nov 17 development (from a search snippet); TechCrunch is October background on the commitment. published_at is estimated. Possibly SpaceX is listed, but no verified ticker was found, so none is given.",
+      "score": {
+        "total": 43.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.541
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "giga-energy-1b-10yr-lease-60mw-hunt-county-ai-dc",
+      "title": "Giga Energy signs 10-year, $1B lease with an unnamed AI cloud provider for a 60 MW Texas data center",
+      "summary": "Giga Energy signed a 10-year lease worth about $1B with an unnamed US AI cloud provider for 'Project Clay', a 60 MW data center under development in Hunt County, Texas. The facility is expected to come online in spring 2027.",
+      "why_it_matters": "It shows mid-size AI capacity still being contracted at roughly $16-17M per MW over the term, even as neocloud credit and chip-stock sentiment weaken.",
+      "key_numbers": [
+        "~$1B, 10-year lease",
+        "60 MW",
+        "Online spring 2027"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Giga Energy"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/11/17/3405044/0/en/giga-energy-inks-10-year-1b-lease-on-project-clay-a-60mw-ai-data-center-in-hunt-county-tx.html",
+          "outlet": "GlobeNewswire (Giga Energy)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Giga Energy Inks 10-Year, $1B Lease on Project Clay, a 60MW AI Data Center in Hunt County, TX"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/giga-energy-signs-1-billion-140705036.html",
+          "outlet": "Yahoo Finance / Reuters",
+          "lang": "en",
+          "tier": "press",
+          "title": "Giga Energy signs $1 billion lease for Texas AI data center with cloud provider"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "published_at is estimated from the Yahoo URL timestamp. The tenant is not named.",
+      "score": {
+        "total": 42.2,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.78,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-30",
+      "title": "GitHub Copilot Fusion 30% model-cost launch discount ends (per one report; others say first 30 days)",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://shattered.io/github-copilot-fusion-ga-three-effort-tiers-30-percent-discount-2026/"
+    },
+    {
+      "date": "2027-05-17",
+      "title": "MAI Code 2 promotional pricing in GitHub Copilot ends; rates reportedly double to $1/$5 per M tokens",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://windowsforum.com/news/github-copilot-adds-mai-code-2-and-flash-plans-pricing-and-admin-controls.452768/"
+    },
+    {
+      "date": "2026-12",
+      "title": "Copilotforce: Salesforce Sales Cloud in Microsoft Teams open beta ('later this year')",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+    },
+    {
+      "date": "2027-01",
+      "title": "Windows 365 for Agents MCP for Foundry computer-use agents on Cloud PCs enters preview ('early next year')",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.hubsite365.com/en-ww/crm-pages/windows-365-at-ignite-2026-cloud-pcs-for-people-agents-and-it.htm"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "APEC CEO Summit closes; 2026 APEC CEO Summit Shenzhen Initiative to be released",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.prnewswire.com/apac/news-releases/apec-ceo-summit-2026-gets-underway-in-shenzhen-302942544.html"
+    },
+    {
+      "date": "2026-11",
+      "title": "Sale of part of SpaceX's ~$40B GPU-backed debt (Apollo/Goldman SPV) to investors, as soon as week of Nov 16",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/spacex-debt-for-ai-chips-to-hit-market-as-soon-as-this-week"
+    },
+    {
+      "date": "2026-11",
+      "title": "Senate final vote on bipartisan permitting bill (S.5653) that makes large data centers pay for grid upgrades",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.axios.com/2026/11/09/senate-advances-bipartisan-permitting-bill-key-test-vote"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Anthropic shares expected to begin trading on Nasdaq under ANT",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-17T03:05Z), so everything after that comes from WebSearch. WebFetch was blocked for most news and lab domains (openai.com, microsoft.com, github.blog, nvidianews.nvidia.com, arxiv.org, huggingface.co, most Chinese sites), so most facts rest on cross-checked search-result snippets; each item flags this. Nvidia's earnings call (22:00 UTC) falls after the window, so only the release is covered. Skipped: the Huang/Megaspeed saga (no new Nov 17 development), EU Apply AI Summit (no announcements found), Nov 16 OpenAI posts and Nvidia SC26 news (before the window), and a single-source 36Kr claim about an OpenAI training-run probe. No notable arXiv/HF paper could be verified.",
+  "learn": [
+    {
+      "id": "distillation-loss-temperature",
+      "gap": "llm-internals",
+      "title": "Write the knowledge-distillation loss and see what temperature does",
+      "item_ids": [
+        "reuters-china-labs-distill-us-models-chip-curbs"
+      ],
+      "why_today": "Reuters reports that Chinese groups are distilling US frontier models at industrial scale to train smaller domestic models, so it is worth knowing exactly what a distillation objective optimises.",
+      "explanation": "Classic distillation trains a student on a mix of the hard-label cross-entropy and the KL divergence from the teacher's temperature-softened distribution. Raising T flattens the teacher's softmax and exposes the relative probabilities of wrong classes (the 'dark knowledge'), which carry far more bits per example than a single label. The T^2 factor offsets the 1/T^2 shrinkage of the soft-target gradients, so the two terms stay on comparable scales as T changes. With LLMs, API-only distillation usually sees just sampled text, not logits, so it reduces to sequence-level SFT on teacher outputs and loses most of that dark knowledge. Run the snippet and watch the teacher distribution flatten and the soft term grow as T rises.",
+      "math": "\\mathcal{L} = \\alpha\\,\\mathrm{CE}(y, \\sigma(z_s)) + (1-\\alpha)\\,T^2\\,\\mathrm{KL}\\big(\\sigma(z_t/T)\\,\\|\\,\\sigma(z_s/T)\\big)",
+      "python": "import math\n# Knowledge distillation loss (Hinton et al., 2015) on one example. Illustrative logits only.\nteacher = [6.0, 2.5, 2.0, -1.0]          # teacher logits over 4 classes\nstudent = [3.0, 2.8, 0.5, 0.0]           # student logits\nlabel = 0                                # hard label\n\ndef softmax(z, T=1.0):\n    m = max(x / T for x in z); e = [math.exp(x / T - m) for x in z]; s = sum(e)\n    return [x / s for x in e]\n\ndef kl(p, q):\n    return sum(pi * math.log(pi / qi) for pi, qi in zip(p, q) if pi > 0)\n\nce = -math.log(softmax(student)[label])\nfor T in (1, 2, 4, 8):\n    pt, ps = softmax(teacher, T), softmax(student, T)\n    soft = T * T * kl(pt, ps)            # T^2 keeps gradient scale comparable across T\n    loss = 0.5 * ce + 0.5 * soft\n    print(f\"T={T}: teacher probs={[round(p,3) for p in pt]}  soft KL*T^2={soft:.3f}  total={loss:.3f}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Distilling the Knowledge in a Neural Network (Hinton, Vinyals, Dean, 2015)",
+          "url": "https://arxiv.org/abs/1503.02531"
+        }
+      ]
+    },
+    {
+      "id": "market-model-abnormal-return",
+      "gap": "domain-ai",
+      "title": "Measure an earnings-day abnormal return with a market-model event study",
+      "item_ids": [
+        "nvidia-q3-fy2027-revenue-115-8b-guide-130b-buyback-150b",
+        "stocks-fall-dow-849-chip-slide-asia-samsung-tsmc-nov17"
+      ],
+      "why_today": "Nvidia beat on revenue and guidance and rose about 2-3% after hours, on a day the Dow fell 849 points, so separating the stock's own news from the market move is the right question.",
+      "explanation": "An event study fits a market model r_s = alpha + beta r_m + e by OLS over an estimation window that ends before the event. The expected return on day 0 is alpha + beta times the market's move, and the abnormal return (AR) is the realised return minus that. Dividing AR by the residual standard deviation gives a rough t-statistic. A high-beta stock that rises on a down day therefore has an AR well above its raw return. The method breaks when the estimation window is contaminated by other events, when beta is unstable (as in a scandal-driven slide), or when the event is partly anticipated. Summing ARs over a few days gives the CAR this repo's market panel reports. The data in the snippet are synthetic.",
+      "math": "AR_0 = r_{s,0} - (\\hat\\alpha + \\hat\\beta\\, r_{m,0}),\\qquad t \\approx AR_0 / \\hat\\sigma_\\varepsilon",
+      "python": "import random\n# Market-model event study: abnormal return on an earnings day. Synthetic data, illustrative only.\nrandom.seed(1)\nn = 60                                       # estimation window (sessions)\nmkt = [random.gauss(0.0004, 0.010) for _ in range(n)]\nstk = [0.0005 + 1.8 * m + random.gauss(0, 0.018) for m in mkt]   # true beta 1.8\n\nmx, sy = sum(mkt) / n, sum(stk) / n\nbeta = sum((m - mx) * (s - sy) for m, s in zip(mkt, stk)) / sum((m - mx) ** 2 for m in mkt)\nalpha = sy - beta * mx\nresid = [s - alpha - beta * m for m, s in zip(mkt, stk)]\nsigma = (sum(e * e for e in resid) / (n - 2)) ** 0.5\n\nevent_mkt, event_stk = -0.010, 0.025          # hypothetical day 0: market -1.0%, stock +2.5%\nar = event_stk - (alpha + beta * event_mkt)\nprint(f\"alpha={alpha:.4%} beta={beta:.2f} sigma={sigma:.2%}\")\nprint(f\"expected={alpha + beta * event_mkt:.2%}  AR={ar:.2%}  t={ar / sigma:.2f}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "The Econometrics of Event Studies (MacKinlay, 1997)",
+          "url": "https://www.jstor.org/stable/2729691"
+        }
+      ]
+    },
+    {
+      "id": "looped-layers-params-vs-flops",
+      "gap": "dl-training",
+      "title": "Separate parameter count from per-token compute in a looped transformer",
+      "item_ids": [
+        "sensetime-sensenova-loop-9b-open-release"
+      ],
+      "why_today": "SenseTime's Loop-9B runs its shared middle layers twice, so 32 physical decoder layers perform 56 layer computations, which separates model size from compute per token.",
+      "explanation": "In a standard transformer, forward compute per token is about 2N FLOPs for N weights, because each weight is used once. Looping a block of layers reuses the same weights, so FLOPs scale with the number of layer passes while parameter count, memory and download size stay fixed. A looped model therefore sits off the usual parameter-based scaling curves: it buys depth with compute instead of with memory, which helps when GPU memory, not arithmetic, is the binding constraint. The cost is less capacity than an unlooped model of equal depth and, often, harder training stability. The snippet uses illustrative sizes, not SenseTime's configuration.",
+      "math": "C_{\\text{tok}} \\approx 2\\,(L_{\\text{phys}} + L_{\\text{shared}}(k-1))\\,P_{\\text{layer}},\\qquad N = L_{\\text{phys}} P_{\\text{layer}}",
+      "python": "# Looped (weight-shared) decoder: parameters vs per-token compute. Illustrative sizes, not any real model's config.\nd, ff_mult, vocab = 4096, 4, 150_000\nlayer_params = 4 * d * d + 2 * ff_mult * d * d       # attention (Q,K,V,O) + 2-matrix MLP, no biases\nembed = vocab * d\n\ndef model(physical, loops, shared):\n    \"\"\"physical layers; the `shared` middle layers are run `loops` times.\"\"\"\n    params = physical * layer_params + embed\n    executed = physical + shared * (loops - 1)\n    flops_tok = 2 * executed * layer_params + 2 * embed   # ~2 FLOPs per weight use (forward)\n    return params, executed, flops_tok\n\nfor name, cfg in [(\"plain 32\", (32, 1, 0)), (\"loop 24 shared x2\", (32, 2, 24)), (\"plain 56\", (56, 1, 0))]:\n    p, e, f = model(*cfg)\n    print(f\"{name:18s} params={p/1e9:5.2f}B  layer passes={e:2d}  GFLOPs/token={f/1e9:6.1f}\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Universal Transformers (Dehghani et al., 2018)",
+          "url": "https://arxiv.org/abs/1807.03819"
+        }
+      ]
+    }
+  ]
+}
