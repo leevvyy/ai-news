@@ -1,0 +1,1666 @@
+{
+  "date": "2026-11-18",
+  "window": {
+    "start": "2026-11-17T21:48:00Z",
+    "end": "2026-11-18T21:48:00Z"
+  },
+  "tldr": [
+    "Tencent's Q3 capex jumped to RMB81.4bn against about RMB55bn expected, which pushed it into RMB13.7bn of net debt as revenue missed at RMB207bn. On the call, management warned that compute limits may delay the next Hunyuan model.",
+    "Anthropic priced its IPO at $83 a share, above its $70-$78 range, ahead of its Nasdaq debut as ANT on Nov 19, per Bloomberg, CNBC and Reuters sources. Google launched Gemini 4 Neon at $3/$15 per million tokens and says it ranks #1 on Artificial Analysis' Coding Agent Index.",
+    "Nvidia said it has stopped shipping licensed Hopper chips to China after $2.4B of Q3 sales. The WSJ reports an SEC probe into its disclosures, and the stock gave up its earnings pop to close about 2.9% lower."
+  ],
+  "items": [
+    {
+      "id": "tencent-q3-2026-capex-81bn-revenue-miss-net-debt",
+      "title": "Tencent Q3 capex surges to RMB81.4bn as AI spending pushes it into net debt; revenue misses at RMB207bn",
+      "original_title": "腾讯，三季度资本开支暴增 527%",
+      "summary": "Tencent's Q3 2026 revenue rose 8% to RMB207.34bn, below the LSEG consensus of about RMB210.8bn. Net profit attributable rose just 0.8% to RMB63.61bn, and non-IFRS operating profit fell 6%. Capex hit RMB81.43bn against about RMB55.4bn expected, driven by large compute prepayments for Hunyuan upgrades, WorkBuddy inference and cloud customers. Free cash flow was -RMB69.1bn, and Tencent swung from RMB58.2bn of net cash in June to RMB13.7bn of net debt. R&D rose 41.8% to RMB32.36bn and cloud revenue grew 35%.",
+      "why_it_matters": "China's largest internet company is now spending on AI compute at a hyperscaler pace, giving up profit growth and its net-cash position, a sign that Chinese AI capex is accelerating despite US chip curbs.",
+      "key_numbers": [
+        "Capex RMB81.43bn vs ~RMB55.4bn expected",
+        "Revenue RMB207.34bn, +8%",
+        "Free cash flow -RMB69.1bn",
+        "Net debt RMB13.7bn (net cash RMB58.2bn at June 30)",
+        "R&D RMB32.36bn, +41.8%",
+        "Cloud revenue +35%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-18T08:30:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261118/herald/388aa4da941d5f3e17a27eb019d0b254.html",
+          "outlet": "21st Century Business Herald",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯，三季度资本开支暴增 527%"
+        },
+        {
+          "url": "https://cn.investing.com/news/stock-market-news/article-3674125",
+          "outlet": "Investing.com China",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯三季度营收不及预期，AI投入拖累调整后利润"
+        },
+        {
+          "url": "https://finance.sina.com.cn/roll/2026-11-18/doc-inizenst0943810.shtml",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豪掷 860 亿！腾讯 Q3 疯狂采购 AI 算力"
+        },
+        {
+          "url": "https://cryptobriefing.com/tencent-negative-free-cash-flow-q3-ai/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Tencent reports negative free cash flow of RMB69.1 billion in Q3 as AI spending surges"
+        },
+        {
+          "url": "https://startupfortune.com/tencents-third-quarter-sales-miss-estimates-as-ai-spending-outruns-forecasts/",
+          "outlet": "Startup Fortune",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Tencent's third-quarter sales miss estimates as AI spending outruns forecasts"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "confidence_note": "published_at is approximate (results came after the Hong Kong close). The capex growth rate depends on the measure: total capex is RMB81.43bn (+~527% YoY per 21st Century Business Herald), while other reports cite cash capex payments of RMB63.6bn-65.1bn. Tencent's own press release was not seen; figures come from several Chinese and English reports that agree.",
+      "follow_up_of": null,
+      "score": {
+        "total": 76.5,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.878
+        },
+        "coverage": 8,
+        "mentions": 3,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "google-gemini-4-neon-launch",
+      "title": "Google launches Gemini 4 Neon, a $3/$15 coding and agent model it says tops Artificial Analysis' Coding Agent Index",
+      "summary": "Google released Gemini 4 Neon on Nov 18. It sits between Gemini 4 Hydrogen and Gemini 4 Carbon and targets multi-file software engineering, knowledge work and science, either alone or orchestrating Hydrogen subagents. It costs $3 per million input tokens ($0.15 cached) and $15 per million output tokens, with a 1,048,576-token context window. Google says it scores 61 on the Artificial Analysis Intelligence Index at xhigh effort (#3 overall), 58.6 on the AA Coding Agent Index (#1) and 65.2% on Terminal-Bench 4.1, at 32% lower cost per task than Carbon. It is rolling out in the Gemini API/AI Studio, Gemini Enterprise Agent Platform, Antigravity and the Gemini app for Pro/Ultra users.",
+      "why_it_matters": "This is Google's fourth new Gemini model in about a month, and it lands in the mid-price coding tier a day after OpenAI's GPT-6.2 and Microsoft's MAI Code 2, undercutting Carbon on cost per task.",
+      "key_numbers": [
+        "$3 / $15 per M tokens (in/out)",
+        "$0.15 per M cached input",
+        "1,048,576-token context",
+        "AA Intelligence Index 61 (#3)",
+        "AA Coding Agent Index 58.6 (#1)",
+        "Terminal-Bench 4.1: 65.2%"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-18T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "outlet": "Google",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Gemini 4 Neon"
+        },
+        {
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-neon",
+          "outlet": "Google Cloud Documentation",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Gemini 4 Neon | Gemini Enterprise Agent Platform"
+        },
+        {
+          "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month"
+        },
+        {
+          "url": "https://mlq.ai/news/google-releases-gemini-4-neon-at-3-per-million-input-tokens-its-fourth-new-model-in-a-month/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google releases Gemini 4 Neon at $3 per million input tokens, its fourth new model in a month"
+        },
+        {
+          "url": "https://officechai.com/ai/gemini-4-neon-benchmarks/",
+          "outlet": "OfficeChai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Gemini 4 Neon Beats Claude Opus 5.5, GPT 6.2 Sol On Most Benchmarks"
+        },
+        {
+          "url": "https://cryptobriefing.com/gemini-4-neon-agent-arena-index-second/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Gemini 4 Neon takes second place on Agent Arena Index, trailing only Claude Fable 5.2"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "confidence_note": "Google's pages could not be fetched; facts come from search snippets of Google's blog and Cloud docs and of trade coverage. The exact hour is unknown, so published_at is set to the start of Nov 18. All benchmarks are Google-reported. Snippets say Claude Opus 5.5 scores slightly higher on Terminal-Bench 4.1 and FrontierCode 2.0. The Cloud docs say explicit context caching is not supported.",
+      "follow_up_of": null,
+      "score": {
+        "total": 74.3,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.88,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 3,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "anthropic-ipo-prices-83-above-range",
+      "title": "Anthropic prices IPO at $83 a share, above its $70-$78 range, ahead of Nasdaq debut as ANT on Nov 19",
+      "summary": "Anthropic priced its IPO at $83 per share on Nov 18, above the $70-$78 marketed range, according to people familiar with the deal cited by Bloomberg, CNBC and Reuters. CNBC estimates about $68.5B raised if all 825M marketed shares sell at $83; reports say the deal was upsized, but the final share count and proceeds were not disclosed. Orders were reported at about six times the shares available, with about 20% going to retail, and trading on Nasdaq under ANT is due Thursday, Nov 19. TechCrunch reported that Amazon and Google will together own nearly 30% after the IPO, and Bloomberg said existing backers Sequoia and Lightspeed are buying more in the offering.",
+      "why_it_matters": "This is the largest AI IPO to date and sets the first public-market price for a frontier lab, a benchmark for OpenAI's planned listing and for AI valuations in the middle of a chip-stock rout.",
+      "key_numbers": [
+        "$83/share vs $70-$78 range",
+        "~$68.5B raised if 825M shares sell (CNBC est.)",
+        "~6x oversubscribed (reported)",
+        "~20% retail allocation (reported)",
+        "Amazon + Google ~30% post-IPO (TechCrunch)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Amazon",
+        "Google",
+        "Sequoia Capital",
+        "Lightspeed Venture Partners"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-is-said-to-price-ipo-at-83-per-share",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Is Said to Price IPO at $83 Per Share"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-ce785edddc80f624",
+          "outlet": "MarketScreener (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic prices blockbuster IPO at $83 a share, source says"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4674403-anthropic-said-to-price-ipo-at-83-per-share-up-from-prior-range-amid-heavy-demand",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic said to price IPO at $83 per share, up from prior range, amid heavy demand"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-backers-sequoia-lightspeed-set-to-invest-more-in-ipo",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Backers Sequoia, Lightspeed Set to Invest More in IPO"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.9,
+      "novelty": 0.6,
+      "follow_up_of": "anthropic-ipo-books-close-guided-top-of-range-or-above",
+      "confidence_note": "The $83 price comes from anonymous sources; no company pricing release was seen. The final share count, proceeds and valuation are unconfirmed, and $68.5B is CNBC's arithmetic on 825M shares. published_at is estimated. The ~30% Amazon/Google figure and the Sequoia/Lightspeed detail come from harvest headlines (22:29Z and 23:53Z Nov 17), and other results gave differing stake estimates.",
+      "score": {
+        "total": 73.1,
+        "components": {
+          "impact": 0.9,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.442
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "sec-probe-nvidia-disclosures-wsj",
+      "title": "SEC opens a civil probe into whether Nvidia's disclosures misled investors after Huang's exit, WSJ reports",
+      "summary": "The Wall Street Journal reported on Nov 17 that the SEC has opened a civil investigation into Nvidia, and Bloomberg, TechCrunch and Axios relayed the report. The probe reportedly examines whether company disclosures misled investors, possibly including Nvidia's earlier denial that Jensen Huang had a relationship with Megaspeed's Alice Huang. The SEC declined to confirm or deny an investigation, and executives did not address it on the earnings call.",
+      "why_it_matters": "A federal securities probe adds enforcement risk to the Huang scandal and is likely to stretch out Nvidia's leadership uncertainty alongside the securities class action already filed.",
+      "key_numbers": [
+        "Civil probe (per WSJ)",
+        "Huang resigned Nov 12"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "US Securities and Exchange Commission",
+        "Jensen Huang"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-17T21:08:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "SEC Investigates Nvidia Over Disclosures After Jensen Huang's Departure: WSJ"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "SEC reportedly investigating Nvidia amid Huang exit"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/17/nvidia-earnings-jensen-huang-colette-kress",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia posts strong earnings amid Jensen Huang exit, reported SEC probe"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/sec-probes-nvidia-after-jensen-huang-s-resignation-ce785edcdf88f62c",
+          "outlet": "MarketScreener",
+          "lang": "en",
+          "tier": "press",
+          "title": "SEC Probes Nvidia After Jensen Huang's Resignation"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.7,
+      "novelty": 0.8,
+      "confidence_note": "First published about 40 minutes before the window opened (WSJ relay ~21:08Z; TechCrunch 21:48Z). The original WSJ story was not seen. One snippet said Nvidia's 10-Q will be delayed; this could not be verified and is left out.",
+      "follow_up_of": null,
+      "score": {
+        "total": 71.3,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.8,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.565
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "nvidia-halts-licensed-hopper-china-shipments-2-4b",
+      "title": "Nvidia says it has stopped shipping licensed Hopper data-center chips to China after $2.4B of Q3 sales",
+      "summary": "On the Nov 17 earnings call, interim CEO Colette Kress said Nvidia booked $2.4B of licensed Hopper data-center sales to China in fiscal Q3 but is 'no longer shipping licensed Hopper data center products to China', and Q4 guidance assumes no China data-center compute revenue. Kress gave no reason. Analysts read it as Nvidia getting ahead of Washington after the Commerce Department's Nov 16 remote-access rule and the Huang/Megaspeed scandal. TechCrunch framed it as Nvidia 'abandoning China' after Huang's ouster.",
+      "why_it_matters": "Nvidia is walking away from China sales the Trump administration had licensed, which removes a revenue line and a bargaining chip just as Trump and Xi meet in Shenzhen.",
+      "key_numbers": [
+        "$2.4B licensed Hopper China sales in Q3",
+        "~2.2% of Q3 data-center sales",
+        "Q4 guide assumes $0 China DC compute"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Colette Kress",
+        "US Department of Commerce"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-17T22:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/interim-nvidia-ceo-says-it-s-no-longer-sending-ai-chips-to-china",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Interim Nvidia CEO Says It's No Longer Sending AI Chips to China"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia is abandoning China after Jensen Huang's ouster"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/nvidia-no-longer-shipping-data-center-chips-to-china-ce785edcde88f726",
+          "outlet": "MarketScreener",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia No Longer Shipping Data Center Chips to China"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/sending-a-message-nvidia-signals-more-cautious-stance-on-china-after-huangs-departure-194945165.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "'Sending a message': Nvidia signals more cautious stance on China after Huang's departure"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.7,
+      "novelty": 0.7,
+      "follow_up_of": "nvidia-q3-fy2027-revenue-115-8b-guide-130b-buyback-150b",
+      "confidence_note": "published_at is estimated from the call time (22:00Z Nov 17); TechCrunch was first seen at 23:37Z. One live blog said $2.3B, but most sources give $2.4B. The 2.2% share comes from a search summary.",
+      "score": {
+        "total": 68.1,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.565
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "isomorphic-labs-5b-series-c-greenoaks-sequoia",
+      "title": "Isomorphic Labs raises $5B Series C co-led by Greenoaks and Sequoia to push AI-designed drugs toward trials",
+      "summary": "Isomorphic Labs, the Alphabet spinout led by Demis Hassabis, announced a $5B Series C co-led by Greenoaks and Sequoia Capital, with Andreessen Horowitz joining as a new investor alongside existing backers including Alphabet, Thrive, GV and the UK Sovereign AI Fund. No valuation was disclosed; Bloomberg had earlier reported a target of about $50B. The money will expand its drug-design engine and move first programmes towards clinical trials.",
+      "why_it_matters": "It is one of the largest private rounds ever for an AI-for-science company, six months after a $2.1B Series B, with investors paying frontier-lab-scale sums for AI drug discovery before any clinical data.",
+      "key_numbers": [
+        "$5B Series C",
+        "$7.7B raised since March 2025",
+        "Series B $2.1B six months earlier",
+        "~$50B valuation target (Bloomberg, earlier report)"
+      ],
+      "topic": "business",
+      "region": "eu",
+      "entities": [
+        "Isomorphic Labs",
+        "Greenoaks",
+        "Sequoia Capital",
+        "Andreessen Horowitz",
+        "Alphabet"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T17:15:00Z",
+      "sources": [
+        {
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round",
+          "outlet": "Isomorphic Labs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Isomorphic Labs announces Series C investment round"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Demis Hassabis' AI company raises $5 billion, months after he left as Google DeepMind CEO"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/sequoia-greenoaks-lead-isomorphic-lab-s-5-billion-funding-round",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Sequoia, Greenoaks Lead Isomorphic Labs $5 Billion Funding Round"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "confidence_note": "Published about 4.5 hours before the window opened (estimated ~17:15Z Nov 17). It was missed by the Nov 17 issue, so it is included late. The valuation is undisclosed.",
+      "follow_up_of": null,
+      "score": {
+        "total": 67.7,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "tencent-next-hunyuan-delayed-compute-workbuddy-500m-arr",
+      "title": "Tencent warns compute limits may delay its next Hunyuan model; WorkBuddy run-rate tops $500M",
+      "original_title": "腾讯：WorkBuddy七天年化收入突破5亿美元，是腾讯会议的两倍以上，受算力限制下一代混元推出时间可能延迟",
+      "summary": "On Tencent's Q3 call, President Martin Lau said both leased and self-built compute are constrained, which will affect training, so the next Hunyuan model may take longer to launch. He said the AI agent app WorkBuddy has over 10M daily users, processes over 100 trillion tokens a day and has an annualised revenue run-rate above US$500M based on the last seven days. Management said cash capex is at peak levels and pressure should ease from 2028.",
+      "why_it_matters": "It is an unusually direct admission from a top Chinese lab that compute shortages are slowing frontier model releases, even as agent products start to earn real revenue.",
+      "key_numbers": [
+        "WorkBuddy DAU >10M",
+        "WorkBuddy >100T tokens/day",
+        "WorkBuddy 7-day annualised revenue >US$500M",
+        "WorkBuddy Q3 revenue >5x QoQ"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/dy/article/LC231T8405198NMR.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯：WorkBuddy七天年化收入突破5亿美元，是腾讯会议的两倍以上，受算力限制下一代混元推出时间可能延迟"
+        },
+        {
+          "url": "http://stock.10jqka.com.cn/20261119/c681972220.shtml",
+          "outlet": "10jqka",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯三季报业绩会 管理层详解AI投资进展"
+        },
+        {
+          "url": "https://k.sina.cn/article_5952915705_162d248f906703tp86.html",
+          "outlet": "Sina (Lanjing)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯：可能需要更长时间才能推出下一个版本模型"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yA7yDHh2pg",
+          "outlet": "ifeng Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "资本开支暴涨528%！腾讯继续加码AI，WorkBuddy登顶国内AI用量第一"
+        },
+        {
+          "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-tencent-q3-2026-profit-slips-as-ai-spending-surges-93CH-5712707",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Earnings call transcript: Tencent Q3 2026 profit slips as AI spending surges"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "confidence_note": "Call remarks come via media reports, not an official transcript; the call time is approximate. The ticker is tagged only on the results item to avoid double-counting.",
+      "follow_up_of": null,
+      "score": {
+        "total": 66.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.878
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "palo-alto-networks-applied-compute-4-5b",
+      "title": "Palo Alto Networks agrees to buy open-weight AI model platform Applied Compute in a $4.5B all-stock deal",
+      "summary": "Palo Alto Networks will acquire Applied Compute, which builds a platform for training and customising open-weight models and agents for enterprises, in an all-stock deal valued at $4.5B, subject to adjustments. The deal is expected to close in Palo Alto's fiscal Q3 2027, pending regulatory clearance, and Applied Compute co-founder and CEO Yash Patil will become Palo Alto's Co-Chief AI Officer. Palo Alto announced it alongside fiscal Q1 2027 results: revenue rose 39% to $3.44B and Next-Generation Security ARR grew 66% to $9.73B.",
+      "why_it_matters": "A large security vendor paying billions for in-house post-training capability suggests enterprise security is moving towards customised open-weight models instead of relying only on frontier APIs.",
+      "key_numbers": [
+        "$4.5B all-stock",
+        "Close expected fiscal Q3 2027",
+        "Q1 FY27 revenue $3.44B, +39%",
+        "NGS ARR $9.73B, +66%"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Palo Alto Networks",
+        "Applied Compute"
+      ],
+      "tickers": [
+        "PANW"
+      ],
+      "published_at": "2026-11-18T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+          "outlet": "Palo Alto Networks",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Palo Alto Networks to Acquire Applied Compute, Bringing Secure Open-Weight AI to the Enterprise"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex992pressrelease_november.htm",
+          "outlet": "SEC EDGAR (8-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Palo Alto Networks Form 8-K press release"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/palo-alto-networks-to-buy-applied-compute-in-4-5-billion-deal",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Palo Alto Networks to Acquire Applied Compute in $4.5 Billion All-Stock Deal"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/palo-alto-networks-q1-adjusted-earnings-revenue-rises-lifts-2027-outlook-announces-applied-comput-ce785edddc8eff21",
+          "outlet": "MarketScreener",
+          "lang": "en",
+          "tier": "press",
+          "title": "Palo Alto Networks Q1 Adjusted Earnings, Revenue Rises; Lifts 2027 Outlook; Announces Applied Compute Acquisition"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "confidence_note": "published_at is estimated (the release came with after-close earnings on Nov 18). The share count is not yet set. Facts come from search snippets of the release and coverage.",
+      "follow_up_of": null,
+      "score": {
+        "total": 64.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.912,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "oregon-sues-openai-2b-chatgpt-kids",
+      "title": "Oregon sues OpenAI for about $2 billion, alleging ChatGPT misleads parents and endangers children",
+      "summary": "Oregon Attorney General Dan Rayfield sued OpenAI in Multnomah County Circuit Court seeking at least $2.035B, a figure the state says is based on the number of Oregon children using or able to access ChatGPT. The complaint alleges violations of the Unlawful Trade Practices Act, negligence and public nuisance, and says OpenAI often fails to verify parental consent and that 'ChatGPT for Teens' safeguards are easily bypassed. OpenAI said it supports AI policies that apply to the whole industry.",
+      "why_it_matters": "It is one of the largest damages demands yet in the wave of state child-safety suits against OpenAI, after eight states sued in October and California sued on Nov 16.",
+      "key_numbers": [
+        ">=$2.035B damages sought",
+        "Filed Nov 17, Multnomah County Circuit Court"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Oregon Department of Justice"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-17T19:46:00Z",
+      "sources": [
+        {
+          "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-files-2b-lawsuit-against-open-ai-launches-keeping-kids-safe-initiative/",
+          "outlet": "Oregon Department of Justice",
+          "lang": "en",
+          "tier": "primary",
+          "title": "AG Rayfield Launches \"Keeping Kids Safe\" Initiative, Takes Action Against OpenAI"
+        },
+        {
+          "url": "https://www.opb.org/article/2026/11/17/oregon-ag-sues-openai-claims-company-knowingly-endangers-teens/",
+          "outlet": "OPB",
+          "lang": "en",
+          "tier": "press",
+          "title": "Oregon AG sues OpenAI, claims company knowingly endangers teens"
+        },
+        {
+          "url": "https://katu.com/news/local/oregon-attorney-general-dan-rayfield-sues-openai-for-2-billion-over-child-teens-safety-on-chatgpt-lawsuit-generative-artificial-intelligence-keeping-kids-safe-initiative-internet-crimes-children",
+          "outlet": "KATU",
+          "lang": "en",
+          "tier": "press",
+          "title": "Oregon AG Rayfield sues OpenAI for $2 billion over kids' safety on ChatGPT"
+        },
+        {
+          "url": "https://www.koin.com/news/oregon/oregon-ag-rayfield-legal-action-protect-children-online-offline/",
+          "outlet": "KOIN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Oregon AG Rayfield files $2B lawsuit against OpenAI claiming ChatGPT harms children"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "confidence_note": "First seen at 19:46Z Nov 17, about 2 hours before the window opened. The claims are the state's allegations.",
+      "follow_up_of": null,
+      "score": {
+        "total": 62.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.565,
+          "momentum": 0.554
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "nvidia-stock-falls-nov18-chair-rules-out-huang-return",
+      "title": "Nvidia erases its earnings pop and closes down about 2.9% as the chair rules out Huang's return; CoreWeave falls 4%",
+      "summary": "Nvidia shares opened higher on Nov 18 after the Q3 beat, then reversed and closed down about 2.9%, according to CNBC. CoreWeave closed down 4.13% and Iren 3.61%, while Nebius ended up 0.87%. On the Nov 17 call, new board chair Harvey Jones said Jensen Huang would not return as CEO, and analysts criticised the lack of urgency on naming a permanent successor. Goldman Sachs kept its Buy rating but cut its target to $200 from $280.",
+      "why_it_matters": "A beat-and-raise quarter could not lift the stock, which suggests investors now price governance and leadership risk at Nvidia above demand, and the selling spread to the neoclouds that rely on its chips and financing.",
+      "key_numbers": [
+        "NVDA about -2.9% on Nov 18",
+        "CoreWeave -4.13%, Iren -3.61%, Nebius +0.87%",
+        "FY2028 growth outlook ~75% (from 70%)",
+        "Goldman PT $200 (from $280)"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Harvey Jones",
+        "CoreWeave",
+        "Goldman Sachs"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-18T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/18/analysts-react-to-nvidias-first-earnings-without-ceo-jensen-huang.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Here's what every major Wall Street analyst is saying about Nvidia after its earnings report"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-erases-earnings-pop-as-investors-face-life-after-jensen-huang-173547783.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia stock erases earnings pop as investors face life after Jensen Huang"
+        },
+        {
+          "url": "https://www.cnn.com/2026/11/18/tech/nvidias-earnings-report-jensen-huang-scandal-takeaways",
+          "outlet": "CNN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Four takeaways from Nvidia's first earnings report after Jensen Huang scandal"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/articles/nvidia-chair-closes-door-jensen-001351409.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia chair closes door on Jensen Huang comeback; analysts don't push on China/Singapore black box"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "nvidia-q3-fy2027-revenue-115-8b-guide-130b-buyback-150b",
+      "confidence_note": "Closing moves come from CNBC's end-of-day report as seen in search snippets; intraday figures elsewhere ranged from -0.4% to -3.5%. The FY2028 ~75% outlook and the analyst targets are snippet-level from CNBC and Yahoo.",
+      "score": {
+        "total": 58.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.565
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "trump-arrives-shenzhen-apec-xi-airport-welcome",
+      "title": "Xi greets Trump at Shenzhen airport as APEC opens; bilateral and Trump-Xi-Putin talks set for Nov 19",
+      "summary": "Trump arrived in Shenzhen on Nov 18 for the APEC leaders' meeting and was met at the airport by Xi Jinping, which SCMP says China's top leader has not done for a visiting head of state in nearly seven decades. At the welcome banquet Trump met Vladimir Putin. A Trump-Xi bilateral and a Trump-Xi-Putin trilateral are scheduled for Nov 19. Pre-summit reporting said the agenda includes an AI-incident communication channel and testing practices, with chip export curbs a flashpoint after the Nov 16 US remote-access rule.",
+      "why_it_matters": "Thursday's meetings test whether the US and China can set up an AI-safety dialogue while chip controls tighten, with Nvidia's China exit and the new US rule hanging over the talks.",
+      "key_numbers": [
+        "Bilateral and trilateral talks Nov 19",
+        "APEC leaders' meeting Nov 18-19"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Donald Trump",
+        "Xi Jinping",
+        "Vladimir Putin",
+        "APEC"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump, Xi and Putin gather in China: What happened at APEC"
+        },
+        {
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374931/returning-favour-xi-personally-welcomes-trump-ahead-high-stakes-apec-talks",
+          "outlet": "SCMP",
+          "lang": "en",
+          "tier": "press",
+          "title": "Returning the favour, Xi personally welcomes Trump ahead of high-stakes Apec talks"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/apec-talks-in-china",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Xi Welcomes Trump in Show of US-China Warmth and Cooperation"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Three things to watch as Trump, Xi and Putin meet in China"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "apec-ceo-summit-shenzhen-opens-ai-agenda",
+      "confidence_note": "No AI or chip outcomes yet. The AI agenda details come from pre-summit reporting (Nov 16). published_at is estimated.",
+      "score": {
+        "total": 56.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.541
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "google-genie-4-project-genie-ultra-rollout",
+      "title": "Google rolls out Genie 4 world model to AI Ultra subscribers in Project Genie, with chainable worlds and a gallery",
+      "summary": "Google is rolling out a new Project Genie experience built on Genie 4 to eligible Google AI Ultra subscribers, three weeks after Genie 4 was shown as a research preview for trusted testers on Oct 27. Users can change weather, add characters and hear natively generated adaptive audio by typing prompts, build worlds with a conversational agent, and chain, share or remix worlds in a community gallery. Google AI Pro members can join a waitlist.",
+      "why_it_matters": "It moves a real-time, audio-generating world model from research preview to paying consumers in about three weeks.",
+      "key_numbers": [
+        "Session length reportedly 2 min (up from 60 s)",
+        "Research preview Oct 27, 2026"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "outlet": "Google",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Project Genie update featuring Genie 4"
+        },
+        {
+          "url": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing"
+        },
+        {
+          "url": "https://www.androidauthority.com/google-genie-4-ai-world-model-launched-3728951/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google's Genie 4 lets you build worlds that sound and move like real life"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "confidence_note": "Google's post is dated Nov 18 per search results; the exact hour is unknown. The 2-minute session length comes from snippets of secondary coverage.",
+      "follow_up_of": null,
+      "score": {
+        "total": 56.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "xi-apec-ceo-summit-ai-cooperation-shenzhen-initiative",
+      "title": "Xi urges deeper digital and AI cooperation at the APEC CEO Summit, which issues its first-ever Shenzhen Initiative",
+      "original_title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+      "summary": "In a keynote at the APEC CEO Summit in Shenzhen on Nov 18, Xi Jinping made four proposals, the third of which was to deepen digital-economy and AI cooperation and build science and technology partnerships, and he called China a 'super-large-scale innovation testing ground' for robots, autonomous driving and drone delivery. The summit closed by releasing the 2026 APEC CEO Summit Shenzhen Initiative, the first outcome document issued as an initiative in its 30-year history, which calls for a responsible AI governance framework and help for SMEs to adopt AI.",
+      "why_it_matters": "Beijing is using its APEC host year to present itself as the champion of open AI cooperation just as the US tightens chip and remote-compute curbs.",
+      "key_numbers": [
+        "First outcome 'initiative' in 30 years of APEC CEO Summits"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Xi Jinping",
+        "APEC"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T02:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.news.cn/politics/leaders/20261118/656367581ebe4dcb8700fd9f59905ef6/c.html",
+          "outlet": "Xinhua",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "习近平在亚太经合组织工商领导人峰会上的主旨演讲（全文）"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34502089",
+          "outlet": "The Paper",
+          "lang": "zh",
+          "tier": "press",
+          "title": "详讯丨习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
+        },
+        {
+          "url": "https://tass.com/economy/2220653",
+          "outlet": "TASS",
+          "lang": "en",
+          "tier": "press",
+          "title": "APEC economies to combine traditional, new energy sources"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/foreignaffairs/20261118/lee-urges-apec-economies-to-harness-ai-for-growth",
+          "outlet": "The Korea Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Lee urges APEC economies to harness AI for growth"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "apec-ceo-summit-shenzhen-opens-ai-agenda",
+      "confidence_note": "The Shenzhen Initiative's AI wording comes from excerpts quoted by TASS and Xinhua-sourced reports; its full text was not seen. Times are approximate.",
+      "score": {
+        "total": 55.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.879,
+          "breadth": 0.632,
+          "momentum": 0.826
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "tencent-hy4-flash-50t-tokens-day-one-openrouter-top",
+      "title": "Tencent says Hy4 flash processed 50 trillion tokens on its first day and topped OpenRouter's daily chart",
+      "original_title": "Hy4 flash上线首日Token使用量突破50万亿，登顶OpenRouter",
+      "summary": "Tencent Hunyuan said its Hy4 flash model, released Nov 16, handled more than 50 trillion tokens on its first day, a record for the Hunyuan series, and topped OpenRouter's daily LLM ranking. On WorkBuddy, first-day calls were 10 times those of Hy4 preview's debut. The model is a 224B-parameter MoE with 12B active parameters.",
+      "why_it_matters": "Very low pricing is winning Tencent volume on global aggregators, adding to price pressure on Chinese and Western model APIs.",
+      "key_numbers": [
+        ">50T tokens on day one",
+        "#1 on OpenRouter daily chart",
+        "224B total / 12B active parameters"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent",
+        "OpenRouter"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34503707",
+          "outlet": "The Paper",
+          "lang": "zh",
+          "tier": "press",
+          "title": "Hy4 flash上线首日Token使用量突破50万亿，登顶OpenRouter"
+        },
+        {
+          "url": "https://tech.cnr.cn/techgd/20261118/t20261118_527876778.shtml",
+          "outlet": "CNR",
+          "lang": "zh",
+          "tier": "press",
+          "title": "用量暴增，Hy4 flash 上线首日 Token 使用量突破 50 万亿，登顶 OpenRoute"
+        },
+        {
+          "url": "https://finance.sina.cn/2026-11-18/detail-inizeacc6899875.d.html",
+          "outlet": "Sina Finance (STAR Market Daily)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯混元Hy4 flash上线首日Token使用量达到50万亿"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "tencent-hunyuan-hy4-flash-224b-moe-low-price",
+      "confidence_note": "The 50T figure is Tencent's own disclosure; the OpenRouter ranking is reported, not independently checked. published_at is approximate.",
+      "score": {
+        "total": 53.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.878
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "china-ai-stocks-nov18-star50-rebounds-zhipu-up-9pct-hstech-sixth-fall",
+      "title": "China AI stocks split: STAR 50 rebounds 2.2% and Zhipu jumps 9.6% as Hang Seng Tech falls for a sixth day",
+      "original_title": "港股收盘｜恒指跌0.91% 智谱涨超9%",
+      "summary": "On Nov 18 Hong Kong's Hang Seng Index fell 0.91% to 23,294.75 and the Hang Seng Tech index lost 0.58% to 3,736.33, its sixth straight decline. Model makers bucked the trend, with Zhipu up 9.61% and MiniMax up 4.40%. In Shanghai the STAR 50 rose 2.19% to 1,247.99 as money moved into domestic AI compute names such as Moore Threads, Cambricon and Hygon, even as Shanghai and Shenzhen turnover of RMB1.37trn was the lowest of the year.",
+      "why_it_matters": "After a two-day rout on the US remote-access chip rule, investors are rotating into Chinese 'self-reliant' compute and model names, while big-platform stocks stay under pressure from heavy AI spending.",
+      "key_numbers": [
+        "Zhipu +9.61%",
+        "MiniMax +4.40%",
+        "Hang Seng Tech -0.58% (6th straight fall)",
+        "STAR 50 +2.19% to 1,247.99",
+        "A-share turnover RMB1.37trn, 2026 low"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI",
+        "MiniMax",
+        "Cambricon",
+        "Moore Threads",
+        "Hygon"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T08:15:00Z",
+      "sources": [
+        {
+          "url": "https://finance.eastmoney.com/a/202611183933983998.html",
+          "outlet": "East Money",
+          "lang": "zh",
+          "tier": "press",
+          "title": "11月18日港股收盘：恒指跌0.91% 恒生科技指数跌0.58%"
+        },
+        {
+          "url": "https://www.sohu.com/a/1103233575_114986",
+          "outlet": "Sohu",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收盘｜恒指跌0.91% 智谱涨超9%"
+        },
+        {
+          "url": "https://m.jrj.com.cn/madapter/stock/2026/11/18150559192102.shtml",
+          "outlet": "JRJ",
+          "lang": "zh",
+          "tier": "press",
+          "title": "A股收评：双创指数午后大举反弹，科创50指数涨2.19％ 两市成交额仅1.37万亿，刷新年内新低"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tob/2026-11-18/doc-inizcvvc4829687.shtml",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "收评：科创50指数涨超2% 沪深两市成交额仅1.37万亿"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "hk-tech-falls-nov17-alibaba-baidu-tencent-minimax-zhipu-chip-rule",
+      "confidence_note": "No single catalyst was confirmed for Zhipu's rise; reports cited its earlier buyback plan and an unconfirmed report of a 10,000-card cluster being built for it. Tickers are left untagged because the symbols could not be verified.",
+      "score": {
+        "total": 51.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.471
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "nvidia-startup-stakes-65b-more-selective",
+      "title": "Nvidia's startup stakes balloon to $65B as interim leadership signals more selective dealmaking",
+      "summary": "TechCrunch reported that Nvidia's stakes in startups have grown to about $65B and that Huang's exit puts future deals in doubt. Bloomberg reported that the 'Bank of Nvidia' is becoming more 'disciplined' and selective. This follows a WSJ report that interim CEO Colette Kress had pushed to curb circular deals.",
+      "why_it_matters": "Nvidia's balance sheet has helped fund many GPU buyers, including neoclouds and labs, so a pullback would tighten financing for the AI compute buildout.",
+      "key_numbers": [
+        "Startup stakes ~$65B (TechCrunch)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T01:41:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia's startup stakes ballooned to $65B, but Huang's exit puts future deals in doubt"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/the-bank-of-nvidia-is-becoming-more-disciplined-and-selective",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "The Bank of Nvidia Is Becoming More 'Disciplined' and Selective"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "wsj-nvidia-funded-startups-gpu-demand-kress-pushback",
+      "confidence_note": "Headline-level only: neither article could be opened, so details beyond the headlines are unverified. NVDA is not tagged, to avoid counting the same price move across several Nvidia stories.",
+      "score": {
+        "total": 45.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.565
+        },
+        "coverage": 2,
+        "mentions": 5,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "kospi-rebounds-nov18-sk-hynix-samsung-nvidia",
+      "title": "Korean chip stocks rebound after Nvidia results: KOSPI +2% back above 5,000, SK hynix +4.2%, Samsung +2.3%",
+      "summary": "The KOSPI closed up 1.99% at 5,067.44 on Nov 18, a day after falling below 5,000 for the first time in about nine months, as bargain hunters bought after Nvidia's $115.8B Q3 revenue. SK hynix rose 4.19% and Samsung Electronics 2.31%. The index had been up as much as 3.31% intraday before retail selling trimmed the gains.",
+      "why_it_matters": "Memory makers had led the two-week AI-chip rout; the rebound shows Nvidia's demand guidance still supports HBM names even as Nvidia's own shares fall on governance worries.",
+      "key_numbers": [
+        "KOSPI +1.99% to 5,067.44",
+        "SK hynix +4.19%",
+        "Samsung Electronics +2.31%",
+        "Intraday high +3.31%"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "SK hynix",
+        "Samsung Electronics",
+        "Nvidia"
+      ],
+      "tickers": [
+        "000660.KS",
+        "005930.KS"
+      ],
+      "published_at": "2026-11-18T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.koreatimes.co.kr/economy/others/20261118/kospi-retakes-5000-after-nvidia-earnings-results-spur-chip-rally",
+          "outlet": "The Korea Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "KOSPI retakes 5,000 after Nvidia earnings results spur chip rally"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10940774",
+          "outlet": "The Korea Herald",
+          "lang": "en",
+          "tier": "press",
+          "title": "Seoul stocks open sharply higher on bargain hunting after upbeat Nvidia earnings"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "stocks-fall-dow-849-chip-slide-asia-samsung-tsmc-nov17",
+      "confidence_note": "Closing figures come from the Korea Times close report as summarised in search. published_at is estimated at the Seoul close.",
+      "score": {
+        "total": 44.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.503
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "banks-chip-curb-clauses-data-center-loans-bridge-bytedance",
+      "title": "Banks add US chip-curb compliance clauses to a Bain data-centre loan; a $480M ByteDance chip loan stalls",
+      "summary": "Bloomberg reported on Nov 18 that Citigroup and JPMorgan added language to financing documents for a possible upsized $6.6B loan to Bain Capital-owned Bridge Data Centres, making the borrower responsible for complying with US chip-access restrictions; Bridge previously sold compute to Megaspeed. Bloomberg separately reported that lenders on a $480M loan for Nvidia chips for ByteDance discussed pulling out for fear of breaching the new US remote-access rule.",
+      "why_it_matters": "Lenders, not only regulators, are now enforcing export controls, which raises financing costs for Asian data-centre operators serving Chinese customers.",
+      "key_numbers": [
+        "Bridge loan up to $6.6B (upsized)",
+        "ByteDance chip loan $480M"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "Bridge Data Centres",
+        "Citigroup",
+        "JPMorgan",
+        "ByteDance"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/us-banks-seek-chip-curbs-clause-on-loan-to-bain-data-center-firm",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "US Banks Seek Chip-Curbs Clause on Loan to Bain Data Center Firm"
+        },
+        {
+          "url": "https://bloomberg.com/news/articles/2026-11-17/banks-pause-480-million-chip-loan-tied-to-china-s-bytedance",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Banks Pause $480 Million Chip Loan Tied to China's ByteDance"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": "bis-remote-access-chip-rule-five-country-licenses-diffusion-rescinded",
+      "confidence_note": "Single outlet (Bloomberg), seen as search snippets only. The ByteDance loan story is dated Nov 17 with an unknown time and may predate the window. published_at is estimated.",
+      "score": {
+        "total": 43.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "scmp-token-export-huawei-ascend-950dt-shantou-tianyima",
+      "title": "China's 'token export' push takes shape at a Huawei Ascend 950DT cluster in Shantou serving overseas AI users",
+      "original_title": "天亿马：全国首个昇腾950DT词元出海算力集群正式启用",
+      "summary": "SCMP reports that a new AI computing cluster in Shantou, Guangdong, running on Huawei's Ascend 950DT chips and built to sell model inference ('tokens') to overseas customers, began operating last week; SCMP describes it as a roughly RMB1bn project by Huawei and several Chinese firms. Chinese reports name listed integrator Tianyima as operator, with 16 Ascend 950DT chips in the first phase and commercial service targeted for end-November.",
+      "why_it_matters": "Selling inference across borders while keeping chips inside China is Beijing's workaround to export controls, and it comes as the US moves to curb remote access to compute.",
+      "key_numbers": [
+        "16 Ascend 950DT chips (first phase)",
+        "~RMB1bn project (SCMP)",
+        "Commercial service targeted end-November"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Huawei",
+        "Tianyima"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T00:30:09Z",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/big-tech/article/3374791/chinas-token-export-ambitions-take-shape-new-huawei-powered-data-centre",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "China's 'token export' ambitions take shape with new Huawei-powered data centre"
+        },
+        {
+          "url": "https://caifuhao.eastmoney.com/news/20261108204918405798680",
+          "outlet": "East Money Caifuhao",
+          "lang": "zh",
+          "tier": "social",
+          "title": "昇腾950DT汕头点亮、4TB/s带宽直指KV Cache:11月底商用,算力芯片标尺从\"单卡算力\"换成\"每千Token成本\""
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "confidence_note": "Tianyima's own 'officially opened' headline was first reported about 19 hours before the window (harvest, Nov 17 02:55Z); only the SCMP piece is in window. The SCMP RMB1bn figure may cover the wider project, not just the 16-chip phase. SCMP text seen only via the harvest summary.",
+      "follow_up_of": null,
+      "score": {
+        "total": 40.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.505,
+          "breadth": 0.393,
+          "momentum": 0.471
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "australia-agentaus-1-accused-deepseek-wrapper",
+      "title": "Australian 'sovereign' model Agentaus 1 accused by Chinese commentators of being a rebadged DeepSeek model",
+      "original_title": "中国一开源，全球都自研：澳大利亚100%国产大模型被指DeepSeek套壳",
+      "summary": "Chinese media report that Agentaus 1, a model from Australian firm Trellis Data marketed as '100% self-developed', matched DeepSeek V4 Flash in model-fingerprinting checks run by an AI commentator on social media. The founder had not responded, according to the reports.",
+      "why_it_matters": "It shows how widely Chinese open weights may sit under other countries' 'sovereign AI' products, which raises provenance and disclosure questions.",
+      "key_numbers": [
+        "Claimed 220B parameters"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Trellis Data",
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://tech.ifeng.com/c/8y9viK1DOqf",
+          "outlet": "ifeng Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中国一开源，全球都自研：澳大利亚100%国产大模型被指DeepSeek套壳"
+        },
+        {
+          "url": "https://finance.sina.cn/tech/2026-11-18/detail-inizehkv0977171.d.html",
+          "outlet": "Sina Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中国一开源 全球都自研：澳大利亚100%国产大模型被指DeepSeek套壳"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.2,
+      "novelty": 0.4,
+      "confidence_note": "Unverified allegations from a social-media commentator, relayed only by Chinese outlets. No statement from Trellis Data and no independent technical analysis was found.",
+      "follow_up_of": null,
+      "score": {
+        "total": 39.5,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "hugging-face-transformers-moe-expert-streaming-180b-32gb",
+      "title": "Hugging Face shows a 180B-parameter MoE running in Transformers on 32GB of RAM by streaming experts from disk",
+      "summary": "A Hugging Face blog post published Nov 18 ('180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers') describes running a 180B-parameter mixture-of-experts model on a 32GB-RAM machine by loading expert weights from disk on demand. Technical takeaway: in a sparse MoE only a few experts fire per token, so keeping shared weights resident and paging in the active experts makes models far larger than RAM usable, at a throughput cost.",
+      "why_it_matters": "It brings SSD expert streaming into the mainstream Transformers library, lowering the hardware needed to run large open MoEs locally.",
+      "key_numbers": [
+        "180B parameters",
+        "32GB RAM"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Hugging Face"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://huggingface.co/blog/moe-expert-streaming",
+          "outlet": "Hugging Face",
+          "lang": "en",
+          "tier": "primary",
+          "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "confidence_note": "Only the title and a one-line snippet were seen. The model used, throughput figures and exact mechanism are unverified; the takeaway describes the general technique the title names.",
+      "follow_up_of": null,
+      "score": {
+        "total": 38.6,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.583
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "alfozan-openai-bugging-trial-jan-20-claude-discovery",
+      "title": "OpenAI bugging-case trial set for Jan 20; prosecutors object to defence reviewing evidence with Anthropic's Claude",
+      "summary": "A federal judge in San Francisco set a Jan 20 trial for Abdulrahman Alfozan, the former OpenAI engineer charged with hiding a recording device in an OpenAI conference room. Prosecutors raised a 'serious concern' about his lawyer's plan to review discovery with an AI tool from an OpenAI competitor, which the lawyer told CNBC is Anthropic's Claude. The judge ordered prosecutors to file a motion explaining the problem and to turn over all FBI reports by Nov 24.",
+      "why_it_matters": "It sets the first trial date in the AI-lab espionage case and raises a new question for courts about using a rival lab's model to process sensitive evidence.",
+      "key_numbers": [
+        "Trial Jan 20, 2027",
+        "FBI reports due Nov 24"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T01:29:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/17/openai-spy-alfozan-trial-saudi.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI bugging case defendant Alfozan set for trial in January"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "confidence_note": "Single outlet (CNBC); details come from a search summary of the article.",
+      "follow_up_of": null,
+      "score": {
+        "total": 37.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.554
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 2.714,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "openai-chatgpt-live-dictation-no-time-limit",
+      "title": "ChatGPT Live Dictation transcribes speech in real time and drops the 10-minute recording limit",
+      "summary": "OpenAI's ChatGPT release notes for Nov 18 describe Live Dictation, which converts speech to text in real time as the user talks, and remove the 10-minute recording cap. It is rolling out globally to all ChatGPT plans on iOS, Android, web and desktop.",
+      "why_it_matters": "It is a small but broad change to voice input for all users as OpenAI moves people off its older voice modes ahead of their Dec 11 retirement.",
+      "key_numbers": [
+        "10-minute recording limit removed",
+        "All plans, all platforms"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "outlet": "OpenAI Help Center",
+          "lang": "en",
+          "tier": "primary",
+          "title": "ChatGPT release notes"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "confidence_note": "Based only on the release-notes entry seen in a search snippet; no independent coverage found. The exact time is unknown.",
+      "follow_up_of": null,
+      "score": {
+        "total": 36.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.554
+        },
+        "coverage": 1,
+        "mentions": 3,
+        "baseline": 2.714,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 23
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-19",
+      "title": "Anthropic begins trading on Nasdaq (ANT) after pricing at $83",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Trump-Xi bilateral and Trump-Xi-Putin trilateral in Shenzhen (AI dialogue and chip controls expected)",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Claude Data turns on by default for Claude Enterprise organisations",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Singularity Intelligence Technology Conference (奇点智能技术大会), Beijing, Nov 20-21",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://ml-summit.org/"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Prosecutors must hand all FBI reports to the defence in the Alfozan OpenAI bugging case",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.cnbc.com/2026/11/17/openai-spy-alfozan-trial-saudi.html"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Jensen Huang closed-door interview with three House committees (replaces requested Nov 18 briefing)",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-house-committee.html"
+    },
+    {
+      "date": "2026-12-02",
+      "title": "Nvidia lawyer due to testify before House panels on Huang/Megaspeed",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-house-committee.html"
+    },
+    {
+      "date": "2027-01-20",
+      "title": "Trial of ex-OpenAI engineer Abdulrahman Alfozan (N.D. Cal.)",
+      "kind": "other",
+      "confidence": "confirmed",
+      "url": "https://www.cnbc.com/2026/11/17/openai-spy-alfozan-trial-saudi.html"
+    },
+    {
+      "date": "2026-11",
+      "title": "MiniMax M3.1 Pro flagship ('soon' since Oct 19; no official date)",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumae0907054.shtml"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-18T02:33Z), so everything after that comes from WebSearch. WebFetch was blocked for most news and lab domains, so many facts rest on cross-checked search-result snippets, as flagged per item. Three stories first reported shortly before the window opened are included because the Nov 17 issue missed them: the SEC probe of Nvidia (~21:08Z), Oregon's suit against OpenAI (19:46Z) and Isomorphic Labs' $5B round (~17:15Z). Calendar changes: Anthropic priced on Nov 18 at $83, so the Nov 19 pricing and Nov 26 trading entries are superseded; Huang's requested Nov 18 House briefing did not happen and moves to Dec 1; Nvidia reported on Nov 17, not Nov 18. Skipped: Cambridge Dictionary's 'human' word of the year (no direct outlet URL found), a claude.dev post on Claude Code verification (publication date unconfirmed, probably before the window), Reson8 Rumble-2-Flash (inconsistent model card), the Huang/Lutnick saga (no verifiable new Nov 18 development), and DeepSeek quota follow-ups (no new official statement). No notable arXiv paper could be verified.",
+  "learn": [
+    {
+      "id": "benchmark-gap-significance",
+      "gap": "llm-eval",
+      "title": "Check whether a one-point benchmark gap is signal or noise",
+      "item_ids": [
+        "google-gemini-4-neon-launch"
+      ],
+      "why_today": "Google reports Gemini 4 Neon at 65.2% on Terminal-Bench 4.1, and search snippets say Claude Opus 5.5 scores slightly higher. Before reading a ranking into that, it helps to know how many tasks it takes to separate two pass rates.",
+      "explanation": "A pass rate on n tasks is a binomial proportion, so its standard error is sqrt(p(1-p)/n). That is about 5 points at n=89 and still about 1.5 points at n=1000. When two models run the same tasks, the gap's variance is reduced by the per-task correlation rho of their outcomes, because both tend to solve the same easy tasks. That is why paired comparisons are tighter than comparing two separate confidence intervals. Even so, resolving a 1.3-point gap at z=2 needs thousands of tasks unless rho is very high. Agentic benchmarks add run-to-run variance from sampling and the harness, so multiple seeds per task matter too. The Wilson interval is better than the normal approximation when p is near 0 or 1 or n is small.",
+      "math": "\\mathrm{SE}(\\hat p_A-\\hat p_B)=\\sqrt{\\tfrac{p_A(1-p_A)+p_B(1-p_B)-2\\rho\\sqrt{p_A(1-p_A)p_B(1-p_B)}}{n}}",
+      "python": "import math\n# Is a benchmark gap real? Illustrative pass rates, not any vendor's actual per-task data.\ndef wilson(p, n, z=1.96):\n    c = p + z*z/(2*n); h = z*math.sqrt(p*(1-p)/n + z*z/(4*n*n)); d = 1 + z*z/n\n    return (c - h)/d, (c + h)/d\ndef gap_se(pa, pb, n, rho):\n    # SE of pa - pb when both models run the SAME n tasks; rho = per-task outcome correlation\n    va, vb = pa*(1-pa)/n, pb*(1-pb)/n\n    return math.sqrt(va + vb - 2*rho*math.sqrt(va*vb))\npa, pb = 0.652, 0.665   # model A vs model B: a 1.3-point gap\nfor n in (89, 300, 1000):\n    lo, hi = wilson(pa, n)\n    print(f\"n={n:5d}  A 95% CI [{lo:.3f}, {hi:.3f}]\", end=\"\")\n    for rho in (0.0, 0.6):\n        z = (pb - pa)/gap_se(pa, pb, n, rho)\n        print(f\"  rho={rho}: z={z:.2f}\", end=\"\")\n    print()\n# tasks needed to resolve a 1.3-pt gap at z=2 with paired rho=0.6\nse_needed = (pb - pa)/2\nv = pa*(1-pa) + pb*(1-pb) - 2*0.6*math.sqrt(pa*(1-pa)*pb*(1-pb))\nprint(\"tasks needed:\", math.ceil(v/se_needed**2))\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations (Miller, 2024)",
+          "url": "https://arxiv.org/abs/2411.00640"
+        }
+      ]
+    },
+    {
+      "id": "moe-expert-streaming-throughput",
+      "gap": "llm-internals",
+      "title": "Estimate MoE decode speed when experts are streamed from SSD",
+      "item_ids": [
+        "hugging-face-transformers-moe-expert-streaming-180b-32gb"
+      ],
+      "why_today": "Hugging Face describes running a 180B-parameter MoE in Transformers on 32GB of RAM by loading experts from disk, so it is worth knowing what limits the speed of that approach.",
+      "explanation": "In a top-k MoE each token touches k of E experts per layer, so per-token weight traffic is about L*k*bytes_per_expert, not the full model. If experts live on SSD, decode speed is roughly bandwidth divided by bytes missed per token, so an expert cache in RAM helps in proportion to its hit rate. Under uniform routing the hit rate is just cache/E, which makes small caches nearly useless. Real routers are skewed and consecutive tokens reuse experts, so measured hit rates are higher, and that skew is what makes streaming practical. Prefetching the next layer's experts while the current one computes can hide part of the latency, but not the bandwidth. The numbers below are illustrative and do not describe the model in the post.",
+      "math": "\\text{tok/s}\\approx\\frac{B_{\\text{SSD}}}{L\\,k\\,(1-h)\\,S_{\\text{expert}}}",
+      "python": "# Expert streaming: how fast can a MoE decode when experts live on SSD? Illustrative config, not a real model.\nL, E, k = 60, 128, 8           # layers, experts per layer, experts active per token\nexpert_bytes = 11e6            # one expert at 4-bit: 60*128*11MB ~ 84 GB ~ 170B params (illustrative)\nssd_bw = 6e9                   # NVMe read bandwidth, bytes/s\nfor cache_per_layer in (0, 8, 16, 32):\n    # assume uniform routing: P(an active expert is already cached) = cache/E\n    miss = 1 - cache_per_layer/E\n    bytes_per_token = L * k * miss * expert_bytes\n    tps = ssd_bw / bytes_per_token\n    ram_gb = L * cache_per_layer * expert_bytes / 1e9\n    print(f\"cache {cache_per_layer:3d}/layer  RAM for experts {ram_gb:5.1f} GB  \"\n          f\"read {bytes_per_token/1e9:5.2f} GB/token  ~{tps:5.2f} tok/s\")\nprint(\"total expert weights:\", round(L*E*expert_bytes/1e9, 1), \"GB\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (Fedus et al., 2021)",
+          "url": "https://arxiv.org/abs/2101.03961"
+        }
+      ]
+    }
+  ]
+}
