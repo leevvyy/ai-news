@@ -1,0 +1,1743 @@
+{
+  "date": "2026-11-19",
+  "window": {
+    "start": "2026-11-18T21:48:00Z",
+    "end": "2026-11-19T21:48:00Z"
+  },
+  "tldr": [
+    "Anthropic's Nasdaq debut: ANT opened at $111.50, 34% above its $83 IPO price, and closed day one at $97.17 (+17.1%), about $1.76T fully diluted per CNN.",
+    "Alibaba's AI cloud revenue rose 53% to RMB60.97bn, but the unit housing Qwen lost RMB10.5bn, and CEO Eddie Wu warned the new US chip-access rule may force a cut to its 20 GW data-centre target.",
+    "Washington tightens the China screws: House data show Commerce approved over 879,000 Nvidia/AMD AI chips for China out of 3.4M requested, and Reuters says the administration weighs making US firms disclose use of Chinese models such as Qwen."
+  ],
+  "items": [
+    {
+      "id": "anthropic-ant-nasdaq-debut-closes-97-17-up-17pct",
+      "title": "Anthropic opens at $111.50 in Nasdaq debut and closes first day at $97.17, up 17% on its $83 IPO price",
+      "summary": "Anthropic's Class A shares began trading on Nasdaq as ANT shortly before midday ET on Nov 19, opening at $111.50, about 34% above the $83 IPO price. The stock touched roughly $115 early before fading to close at $97.17, up $14.17 or 17.1%. CNN put the fully diluted market value at about $1.76 trillion at the close. CEO Dario Amodei rang the opening bell and said the company would continue to pace AI training and deployment.",
+      "why_it_matters": "The largest IPO on record is now a public benchmark for frontier-lab valuations, and its first-day fade on a weak tape shows how sensitive AI equities remain.",
+      "key_numbers": [
+        "Open $111.50 (+34%)",
+        "Close $97.17 (+17.1%)",
+        "Intraday high ~$115",
+        "~$1.76T fully diluted value at close (CNN)",
+        "IPO price $83"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Nasdaq"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-19T16:48:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic closes first day at $97.17 per share in landmark moment for AI: IPO live updates"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/",
+          "outlet": "CBS News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic shares gain 17% on first day of trading after record IPO"
+        },
+        {
+          "url": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo",
+          "outlet": "CNN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic valued at $1.76 trillion after historic first day of trading: Live Updates"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.9,
+      "novelty": 0.6,
+      "follow_up_of": "anthropic-ipo-prices-83-above-range",
+      "confidence_note": "Figures from search snippets of CNBC, CBS, CNN, Forbes and CBC, which agree on $111.50 open and $97.17 close. Intraday high is given as $114.99 or $115.10 depending on source. First-trade time reported as 11:48 or 11:50 a.m. ET; published_at is that time. Market value depends on share count (fully diluted $1.76T per CNN).",
+      "score": {
+        "total": 73.7,
+        "components": {
+          "impact": 0.9,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.253
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "alibaba-sep-q-2026-ai-cloud-53pct-qwen-loss-triples",
+      "title": "Alibaba September-quarter revenue rises 10% as AI cloud grows 53%; Qwen unit's loss triples to RMB10.5bn",
+      "original_title": "阿里上季度营收同比增长10%，资本支出超504亿元增长六成",
+      "summary": "Alibaba reported September-quarter revenue of about RMB271.5bn, up 10% and slightly above estimates, while net income roughly tripled to RMB64.4bn on investment gains. AI Cloud and Compute Services revenue rose 53% to RMB60.97bn (external customers +64%), and AI-related product revenue posted a 13th straight quarter of triple-digit growth. The AI Labs and Applications segment that houses Qwen grew revenue 51% but its adjusted EBITA loss widened to RMB10.5bn from RMB3.4bn, which Alibaba blamed on AI investment and Qwen app inference costs. Capex rose about 60% to RMB50.5bn and free cash flow was an outflow of RMB34.5bn; adjusted earnings missed forecasts.",
+      "why_it_matters": "China's largest cloud provider shows AI demand is accelerating revenue but that consumer AI (the Qwen app) is now a multi-billion-yuan-per-quarter loss centre, sharpening the investor debate over Chinese AI spending.",
+      "key_numbers": [
+        "Revenue ~RMB271.5bn (+10%)",
+        "AI cloud RMB60.97bn (+53%)",
+        "External cloud revenue +64%",
+        "AI Labs & Apps adj. EBITA loss RMB10.5bn (vs RMB3.4bn)",
+        "Capex RMB50.5bn (+60%)",
+        "FCF -RMB34.5bn"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Alibaba"
+      ],
+      "tickers": [
+        "BABA",
+        "9988.HK"
+      ],
+      "published_at": "2026-11-19T10:02:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-announces-september-quarter-100200549.html",
+          "outlet": "Alibaba Group (press release via Yahoo Finance)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Alibaba Group Announces September Quarter 2026 Results and Interim Results for the Six Months Ended September 30, 2026"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/china-s-alibaba-beats-quarterly-revenue-estimates-ce785ed2d98af226",
+          "outlet": "Reuters (via MarketScreener)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Alibaba tops revenue estimates on AI cloud growth; profit up on investment gains"
+        },
+        {
+          "url": "https://thenextweb.com/news/alibaba-results-profit-triples-ai-cloud-revenue-53",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alibaba's profit triples to $9.6bn as AI cloud revenue jumps 53%"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34512385",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "阿里上季度营收同比增长10%，资本支出超504亿元增长六成"
+        },
+        {
+          "url": "https://qz.com/alibaba-cloud-profit-ai-lab-losses-earnings-111926",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Alibaba Q2 2026 earnings show AI lab losses outweighing cloud profit"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.7,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Figures from search-result summaries of the release and press coverage; WebFetch blocked so the release was not read directly. Publication time estimated from the Yahoo/press-release URL and 'before US open'. Adjusted EPS: 8.10 yuan per ADS vs ~11.16 consensus (Reuters as summarised). Share reaction mixed: Reuters had US shares -1.5% pre-market; Benzinga had them +2.95% at $86.86 at 9:52 ET. No Alibaba-reported Qwen user number found; QuestMobile (third party) put Qwen app MAU at 158M in Sept 2026.",
+      "score": {
+        "total": 70.7,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.4,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.958
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "house-foreign-affairs-commerce-approved-879k-ai-chips-china",
+      "title": "House committee releases data showing Commerce approved over 879,000 Nvidia and AMD AI chips for China",
+      "summary": "The House Foreign Affairs Committee, led by Rep. Brian Mast, released export-licence data on Nov 19 showing Commerce's BIS approved more than 879,000 advanced AI chips for Chinese companies out of 3.4 million requested, covering Nvidia H200s and equivalent AMD parts approved between December 2025 and May 2026. Reported allocations include 150,000 for Tencent, 75,000 for Alibaba, 43,000 for Baidu and 4,000 for BYD; the committee flagged approvals for companies the Pentagon lists as Chinese military companies. Mast singled out Maginfra and New Matrix as suspected smuggling fronts. It is unclear how many approvals turned into shipments.",
+      "why_it_matters": "The disclosure turns the Nvidia-Megaspeed scandal into a fight over the administration's own licensing, adding pressure for statutory chip curbs.",
+      "key_numbers": [
+        ">879,000 chips approved",
+        "3.4M requested",
+        "Tencent 150,000",
+        "Alibaba 75,000",
+        "Baidu 43,000",
+        "Dec 2025-May 2026"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US House Foreign Affairs Committee",
+        "US Commerce Department",
+        "Nvidia",
+        "AMD",
+        "Tencent",
+        "Alibaba"
+      ],
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "published_at": "2026-11-19T20:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/license-information-ai-chips-sent-201033356.html",
+          "outlet": "Reuters (via Yahoo)",
+          "lang": "en",
+          "tier": "press",
+          "title": "License information for AI chips sent to China released by US House committee"
+        },
+        {
+          "url": "https://www.staradvertiser.com/2026/11/19/breaking-news/trump-administration-approved-nearly-900000-ai-chips-for-china/",
+          "outlet": "Honolulu Star-Advertiser",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump administration approved nearly 900,000 AI chips for China"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated from the Yahoo/Reuters URL id. Company allocations come from one secondary summary (CASRAI) of the committee release; the committee release itself was not opened. Reuters says 'nearly 900,000'; the committee and CNBC say 'more than 879,000'.",
+      "score": {
+        "total": 66.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "alibaba-warns-us-chip-rules-may-cut-20gw-datacenter-target",
+      "title": "Alibaba warns new US chip-access rules may force it to cut its 20 GW data-centre target and capex plans",
+      "summary": "On its September-quarter call, CEO Eddie Wu said the new US restrictions on Chinese access to advanced computing chips, including via overseas data centres, could disrupt Alibaba's data-centre expansion, and that its goal of more than 20 GW of global capacity by 2032 may be revised down, with knock-on effects for capex. Management said the rules could affect products and services in 2027 and that Alibaba will invest more actively in domestic compute and supply chains, with in-house Zhenwu V900 chips expected to enter mass production in early 2027. It reiterated a target of $100bn in external cloud revenue by 2030.",
+      "why_it_matters": "It is the first major Chinese hyperscaler to quantify how the Nov 16 US remote-access rule could shrink its AI infrastructure build-out, particularly in Southeast Asia, and push it toward domestic chips.",
+      "key_numbers": [
+        ">20 GW data-centre target by 2032 may be revised",
+        "Zhenwu V900 mass production early 2027",
+        "$100bn external cloud revenue target by 2030"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Alibaba",
+        "US Department of Commerce"
+      ],
+      "tickers": [
+        "BABA",
+        "9988.HK"
+      ],
+      "published_at": "2026-11-19T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/11/63429551/alibabas-ai-engine-is-roaring-but-us-chip-curbs-threaten-to-hit-the-brakes",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alibaba's AI Engine Is Roaring, but US Chip Curbs Threaten to Hit the Brakes"
+        },
+        {
+          "url": "https://www.theedgesingapore.com/news/tech/alibabas-ai-ambitions-face-steep-challenge-us-chip-controls",
+          "outlet": "The Edge Singapore (Bloomberg)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Alibaba's AI ambitions face steep challenge in US chip controls"
+        },
+        {
+          "url": "https://singjupost.com/transcript-alibaba-baba-september-quarter-2026-earnings-call/",
+          "outlet": "The Singju Post (call transcript)",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Transcript: Alibaba (BABA) September Quarter 2026 Earnings Call"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "bis-remote-access-chip-rule-five-country-licenses-diffusion-rescinded",
+      "confidence_note": "Based on search-result summaries of Bloomberg/Benzinga coverage and the call transcript; exact quote wording not read directly. Time estimated from the 7:00am ET call. One aggregator (BigGo) said next-year cloud growth target was lowered to 30-45%; not confirmed elsewhere, so omitted. Could be merged with the Alibaba results item.",
+      "score": {
+        "total": 64.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.958
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "reuters-us-weighs-forcing-firms-disclose-chinese-ai-model-use",
+      "title": "Reuters: Trump administration weighs making US firms publicly disclose their use of Chinese AI models",
+      "original_title": "路透社：美国政府考虑强制美企披露使用中国AI情况",
+      "summary": "Reuters, citing three people familiar with the matter, reported that Treasury and the White House OSTP have discussed requiring US companies to disclose on their websites any Chinese AI models they use, a 'name and shame' approach meant to discourage reliance without a ban. Airbnb, which uses Alibaba's Qwen for its AI customer service, was cited as an example. It is unclear whether the idea has broad support or would go through formal rulemaking; the Chinese embassy opposed politicising tech issues. Hong Kong-listed model makers MiniMax and Zhipu fell sharply intraday on Nov 19 as the report circulated in Chinese media.",
+      "why_it_matters": "Chinese open-weight models led OpenRouter usage in October, so a disclosure mandate could dent their main route into US enterprises.",
+      "key_numbers": [
+        "3 sources cited by Reuters",
+        "Top 3 OpenRouter models by tokens in Oct were Chinese"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "US Treasury",
+        "White House OSTP",
+        "Alibaba",
+        "Airbnb"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.usnews.com/news/top-news/articles/2026-11-18/exclusive-trump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use",
+          "outlet": "Reuters (via US News)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive-Trump Administration Weighs Forcing US Firms to Disclose Chinese AI Use"
+        },
+        {
+          "url": "https://global.hk01.com/%E5%8D%B3%E6%97%B6%E5%9B%BD%E9%99%85/60412417/%E8%B7%AF%E9%80%8F%E7%A4%BE-%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E8%80%83%E8%99%91%E5%BC%BA%E5%88%B6%E7%BE%8E%E4%BC%81%E6%8A%AB%E9%9C%B2%E4%BD%BF%E7%94%A8%E4%B8%AD%E5%9B%BDai%E6%83%85%E5%86%B5",
+          "outlet": "香港01",
+          "lang": "zh",
+          "tier": "press",
+          "title": "路透社：美国政府考虑强制美企披露使用中国AI情况"
+        },
+        {
+          "url": "https://www.technology.org/2026/11/19/trump-administration-disclose-chinese-ai-models-qwen-kimi/",
+          "outlet": "Technology.org",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US Weighs Rule Making Firms Disclose Chinese AI"
+        },
+        {
+          "url": "https://www.jpost.com/international/article-915362",
+          "outlet": "Jerusalem Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Donald Trump administration weighs forcing US firms to disclose Chinese AI use"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "TIMING: the Reuters exclusive is dated Nov 18 (US time) per the US News URL; exact publication time not seen and may be before the window start (21:48Z), within or beyond the 6h grace. published_at is an estimate. Chinese/HK coverage (hk01, on.cc) followed on Nov 19. A US desk may also carry this story, so dedupe against it. A separate USCC proposal for mandatory disclosure was also mentioned in one aggregator; not included.",
+      "score": {
+        "total": 64.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.541
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "trump-xi-shenzhen-talks-ai-cooperation-no-chip-deal-peace-declaration",
+      "title": "Trump and Xi discuss AI in Shenzhen but announce no chip deal; trilateral with Putin yields a 'peace declaration'",
+      "summary": "At their APEC-sideline bilateral in Shenzhen on Nov 19, Xi proposed cooperation areas including AI and warned the US over Taiwan, according to Xinhua's readout; Beijing's readout reportedly says both sides agreed to draft an action plan to stabilise ties. Xi said the two countries should work together to keep AI 'under human control', while Trump said the US opposes 'globalist regulation' of AI in any form, though he cited a shared interest in safety. Neither side announced any change to US chip export controls or the new remote-access rule. The first Trump-Xi-Putin meeting produced a symbolic 'peace declaration' pledging dialogue on nuclear risks, with no AI commitments or timetable.",
+      "why_it_matters": "The summit left US chip curbs, including the just-issued remote-access rule, untouched, so pressure on Chinese AI compute continues.",
+      "key_numbers": [
+        "Trade truce expires Jan 10",
+        "Trilateral lasted more than an hour (Fox News)"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "US government",
+        "China government",
+        "Russia government"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-19T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/world/2026/11/19/trump-xi-putin-china-apec/1aa6e9fc-e430-11f1-a99e-b3e3805c6b8b_story.html",
+          "outlet": "The Washington Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Takeaways from the historic summit between Trump, Xi and Putin"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/xi-tells-trump-us-must-181837751.html",
+          "outlet": "Yahoo News (wire)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Xi tells Trump US must do 'the right thing' over Taiwan to avoid 'great turbulence'"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit",
+          "outlet": "The Korea Times (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump arrives in China for historic meeting with Xi, Putin"
+        },
+        {
+          "url": "https://www.euronews.com/2026/11/19/us-president-trump-rejects-global-ai-regulation-as-chinas-xi-calls-for-cooperation-on-safe",
+          "outlet": "Euronews",
+          "lang": "en",
+          "tier": "press",
+          "title": "US President Trump rejects global AI regulation as China's Xi calls for cooperation on safety"
+        },
+        {
+          "url": "https://abcnews.com/International/xi-tells-trump-us-thing-taiwan-avoid-great/story?id=138283818",
+          "outlet": "ABC News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Xi tells Trump US must do 'the right thing' over Taiwan to avoid 'great turbulence'"
+        },
+        {
+          "url": "https://www.orientaldaily.com.my/news/international/2026/11/19/864240",
+          "outlet": "東方日報 (Malaysia)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "【深圳APEC会议】特朗普：反对任何形式的AI“全球主义式监管”"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "trump-arrives-shenzhen-apec-xi-airport-welcome",
+      "confidence_note": "published_at estimated (talks held during Nov 19 Shenzhen time). Readout details from snippets; the 'action plan' line comes from secondary coverage of Beijing's readout and was not seen in the original. Trump's AI-guardrails remark may stem from his Nov 18 dinner comments. No outcome on the AI incident hotline agreed in September had been reported when searched (Euronews/ABC snippets).",
+      "original_title": "【深圳APEC会议】特朗普：反对任何形式的AI“全球主义式监管”",
+      "score": {
+        "total": 64.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.811,
+          "momentum": 0.632
+        },
+        "coverage": 10,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "amd-falls-hunterbrook-short-ieit-firmware-china",
+      "title": "AMD falls about 8% after short seller Hunterbrook alleges firmware reached blacklisted Chinese server maker",
+      "summary": "Hunterbrook Capital disclosed a short position in AMD on Nov 19 alongside a Hunterbrook Media report alleging that IEIT Systems, put on the US Entity List in March 2025, has since shipped at least six newer versions of AMD firmware in updates for three server models. The report also traced $67 million of AMD's 2025 licensing income to two Chinese ventures blacklisted in 2019 and put AMD's 2025 China revenue at $7.75 billion, or 22.4% of the total. AMD said the claims 'misrepresent AMD's business practices and relationships.' Shares closed down roughly 8%.",
+      "why_it_matters": "After the Nvidia-Megaspeed affair, export-control compliance is now a direct valuation risk for the second US AI-GPU supplier.",
+      "key_numbers": [
+        "AMD shares ~-8%",
+        "6+ firmware versions alleged",
+        "$67M licensing income",
+        "$7.75B China revenue in 2025 (22.4%)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "AMD",
+        "Hunterbrook",
+        "IEIT Systems"
+      ],
+      "tickers": [
+        "AMD"
+      ],
+      "published_at": "2026-11-19T15:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "AMD stock dives on short-seller report of alleged China exposure"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/amd-slides-after-hunterbrook-shorts-stock-cites-circular-deals",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "AMD Falls on Hunterbrook Short Call That Cites China Risks"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/amd-shares-slide-as-report-says-china-links-could-invite-us-scrutiny-ce785ed2dc81f320",
+          "outlet": "Reuters (via MarketScreener)",
+          "lang": "en",
+          "tier": "press",
+          "title": "AMD shares slide as report says China links could invite US scrutiny"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "published_at estimated (US morning session). Size of the drop varies by source and time (7.7% to about 9%); Reuters says 8%. Allegations are Hunterbrook's; CNBC said it did not independently verify them.",
+      "score": {
+        "total": 63.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.72
+        },
+        "coverage": 7,
+        "mentions": 2,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "deepseek-second-round-registered-tencent-catl-31-investors",
+      "title": "DeepSeek's mega-round formally lands in registry filings, adding Tencent, CATL, China Mobile and 28 other backers",
+      "original_title": "DeepSeek第二轮千亿级融资正式落地，宁德时代入局",
+      "summary": "Business-registry data reported on Nov 19 show DeepSeek's operating company, Hangzhou DeepSeek AI Basic Technology Research, added a new shareholder, the Hangzhou Chengyan partnership, lifting registered capital about 21%. Chengyan, which holds about 17.3% of DeepSeek, has 31 limited partners including Tencent, China Mobile, China Telecom, CATL, GigaDevice, Xiaohongshu and vivo, plus funds such as IDG, Boyu, Lisi (砺思), Gaorong, Legend Capital and CITIC Securities. Tencent's vehicle and three CATL-linked funds each hold 9.5653% of the partnership, making them its largest contributors.",
+      "why_it_matters": "It confirms DeepSeek has brought China's biggest platform, telecom and battery companies onto its cap table ahead of an expected STAR Market IPO, ending its era as a purely founder-funded lab.",
+      "key_numbers": [
+        "31 new limited partners",
+        "Registered capital +~21%",
+        "Chengyan stake in DeepSeek ~17.3%",
+        "Tencent and CATL funds 9.5653% each of Chengyan"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Tencent",
+        "CATL",
+        "China Mobile",
+        "China Telecom"
+      ],
+      "tickers": [
+        "0700.HK",
+        "300750.SZ"
+      ],
+      "published_at": "2026-11-19T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34513518",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek第二轮千亿级融资正式落地，宁德时代入局"
+        },
+        {
+          "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/19/content_9374068.htm",
+          "outlet": "杭州网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek第二轮融资落地！31家出资方都是谁？"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yBAjgyfokc",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek，千亿融资落地"
+        },
+        {
+          "url": "https://www.chaincatcher.com/article/2306259",
+          "outlet": "ChainCatcher",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek 第二轮千亿融资落地，31 家出资主体入股"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Data come from Qichacha/Tianyancha registry records as relayed by media, not a DeepSeek announcement. The 9.5653% shares are of the Chengyan holding partnership, not of DeepSeek itself. Reports give registered capital as rising from ~RMB16.45M to ~RMB19.92M, but one Sina headline says 'increased to 3.4bn', so absolute figures are omitted. The earlier ~$15.8bn round size was reported previously (see alice-huang-linked-litong-invested-deepseek-round). Publication time estimated (Nov 19 Beijing daytime).",
+      "score": {
+        "total": 61.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.416
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "meta-muse-agent-conversation-mixups-private-data-reuters",
+      "title": "Reuters: Meta staff flag its Muse AI agent mixing up users' conversations and exposing private data",
+      "summary": "Reuters, citing internal posts and its own tests, reported that Meta employees worry the Muse agent is mixing up conversations across accounts. Staff described unsolicited messages about childcare requests, career advice and bank balances that were not theirs. Reuters also reported that Muse read Signal messages using permissions granted at setup, not through Meta's Connector tool. Meta said many of the flagged messages were hallucinations it had already addressed. Reuters could not establish whether the data was real or invented, and Meta declined to say how many such cases there were.",
+      "why_it_matters": "Muse is Meta's flagship consumer agent, with more than 10 million downloads since its September launch, and cross-account leakage or over-broad data access would be a serious privacy failure for a personal agent. The report comes as agents get deeper access to messaging and financial data.",
+      "key_numbers": [
+        "10M+ Muse downloads",
+        "launched September 2026"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Meta",
+        "Signal"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-11-18T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface-5035458",
+          "outlet": "Reuters (via Investing.com)",
+          "lang": "en",
+          "tier": "press",
+          "title": "As Meta bets big on Muse AI agent, early safety mishaps surface"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta's AI agent Muse is mixing up conversations and could be exposing private data, report says"
+        },
+        {
+          "url": "https://dataconomy.com/2026/11/19/metas-muse-ai-agent-accessed-encrypted-messages-reuters/",
+          "outlet": "Dataconomy",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta's Muse AI Agent Accessed Encrypted Messages, Reuters Finds"
+        },
+        {
+          "url": "https://www.techtimes.com/articles/331080/20261119/meta-employees-raise-muse-ai-privacy-concerns-exposing-security-flaws-chat-leaks.htm",
+          "outlet": "Tech Times",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta Employees Raise Muse AI Privacy Concerns, Exposing Security Flaws, Chat Leaks"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.55,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "A search summary dates the Reuters original to Nov 18, 2026, but its time is unknown, so published_at is an estimate. Follow-on coverage (TechCrunch, Dataconomy, Tech Times) is dated Nov 19. If the Reuters story ran before about 15:48Z on Nov 18, it falls outside the window. Details come from search snippets of syndicated copies; Reuters was not fetched directly.",
+      "score": {
+        "total": 60.0,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "tsmc-halts-china-16nm-orders-without-license-samsung-pauses",
+      "title": "TSMC halts Chinese designers' 16nm-and-below orders without US licences; Samsung also pauses some shipments",
+      "summary": "TSMC has told affected Chinese chip designers to halt orders on 16nm-and-below processes unless they obtain US export licences, Reuters reported on Nov 19, citing two people familiar with the matter. Its guidance generally limits them to 28nm and 40nm, provided chips use no HBM or advanced packaging, and the checks extend to orders placed through overseas subsidiaries or intermediaries. The change follows new Commerce rules that removed a compliance route under which TSMC could assess designs' technical characteristics. The FT reported that Samsung has also paused some shipments to Chinese customers while it seeks licences.",
+      "why_it_matters": "This closes a foundry loophole that let Chinese AI-chip designers keep using advanced nodes, squeezing domestic accelerators as well as Nvidia imports.",
+      "key_numbers": [
+        "Cut-off: 16nm and below",
+        "Fallback: 28nm/40nm, no HBM or advanced packaging"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "TSMC",
+        "Samsung",
+        "US Commerce Department"
+      ],
+      "tickers": [
+        "TSM",
+        "2330.TW",
+        "005930.KS"
+      ],
+      "published_at": "2026-11-19T12:46:00Z",
+      "sources": [
+        {
+          "url": "https://ca.finance.yahoo.com/news/tsmc-tightens-china-ai-chip-124653283.html",
+          "outlet": "Reuters (via Yahoo Finance)",
+          "lang": "en",
+          "tier": "press",
+          "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say"
+        },
+        {
+          "url": "https://ca.finance.yahoo.com/news/tsmc-samsung-halt-chip-shipments-161300600.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "TSMC and Samsung halt some chip shipments to China as US tightens export curbs"
+        },
+        {
+          "url": "https://finimize.com/content/tsmc-tightens-the-screws-on-chinese-chip-orders",
+          "outlet": "Finimize",
+          "lang": "en",
+          "tier": "trade",
+          "title": "TSMC Tightens The Screws On Chinese Chip Orders"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "bis-remote-access-chip-rule-five-country-licenses-diffusion-rescinded",
+      "confidence_note": "published_at estimated from the Yahoo URL id. Sourced from Reuters' anonymous sources; TSMC has not confirmed. One outlet says some Chinese designers still had 7nm access before Thursday; that detail is single-sourced and omitted. Reported Samsung customers (ByteDance, Baidu's Kunlun) not confirmed by order.",
+      "score": {
+        "total": 59.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.632,
+          "momentum": 0.503
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "kuaishou-q3-2026-revenue-down-11pct-kling-spending-net-loss",
+      "title": "Kuaishou swings to a Q3 loss as revenue falls 11% and Kling AI spending lifts R&D 42%",
+      "original_title": "快手三季度营收下滑11%，预计后续资本开支及AI投入对现金流压力逐步减轻",
+      "summary": "Kuaishou's third-quarter revenue fell 11.1% to RMB31.6bn and it posted a net loss of RMB959M versus a RMB4.5bn profit a year earlier; adjusted net profit fell 84.2% to RMB790M, slightly above forecasts. R&D rose 41.9% to RMB5.2bn, mainly for the Kling video-generation model, and domestic operating profit dropped to RMB420M from RMB5.4bn. The company did not break out Kling revenue but said Kling's bookings rose after the Kling 4.0 launch, its Vanchin AI infrastructure platform grew nearly 90% quarter on quarter, and Q4 revenue and profit will stay under pressure.",
+      "why_it_matters": "Kling is one of China's leading video models, and Kuaishou is now trading its core profits to fund it, a test of whether generative video can pay its way.",
+      "key_numbers": [
+        "Revenue RMB31.6bn (-11.1%)",
+        "Net loss RMB959M",
+        "Adj. net profit RMB790M (-84.2%)",
+        "R&D RMB5.2bn (+41.9%)",
+        "DAU 417M"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Kuaishou"
+      ],
+      "tickers": [
+        "1024.HK"
+      ],
+      "published_at": "2026-11-19T08:45:00Z",
+      "sources": [
+        {
+          "url": "https://www.tradingview.com/news/prnewswire:753f457ca2ec4:0-kuaishou-technology-announces-third-quarter-2026-unaudited-financial-results/",
+          "outlet": "Kuaishou (PR Newswire via TradingView)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Kuaishou Technology Announces Third Quarter 2026 Unaudited Financial Results"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34513516",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "快手三季度营收下滑11%，预计后续资本开支及AI投入对现金流压力逐步减轻"
+        },
+        {
+          "url": "http://stock.10jqka.com.cn/20261119/c682015408.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "快手业绩会释放多重信号：Kling 4.0上线后可灵AI流水提升 加码短剧生态建设"
+        },
+        {
+          "url": "https://mlq.ai/news/kuaishou-revenue-falls-11-to-316-billion-yuan-and-it-swings-to-a-quarterly-loss-as-ai-spending-rises/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Kuaishou revenue falls 11% to 31.6 billion yuan and it swings to a quarterly loss as AI spending rises"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Release not read directly (WebFetch blocked); figures from multiple consistent search summaries. Publication time estimated (results released after HK close on Nov 19).",
+      "score": {
+        "total": 58.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.835,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "google-gemini-mac-computer-use",
+      "title": "Google adds computer use to the Gemini Mac app, running tasks in a background window for paid US users",
+      "summary": "Google began rolling out computer use in the Gemini app for macOS, letting Gemini click and type across local desktop apps and websites to finish multi-step tasks such as navigating menus and filling out forms. Tasks run in an isolated background window with a live preview in the chat, leaving the user's screen and cursor free, and are started by adding @Computer use to a prompt. Users choose which apps it can use, can pause it, and must approve key actions; it pauses for logins and payments. The rollout is in English in the US for Google AI Plus, Pro and Ultra subscribers aged 18+ on Apple Silicon Macs running macOS Sequoia 15.0 or later, and is not available in Europe or the UK.",
+      "why_it_matters": "Google now ships a desktop computer-use agent to consumers on a rival's OS, competing directly with Anthropic's and OpenAI's computer-use agents. The background-window design is meant to fix a common complaint about computer-use agents: they take over the user's screen.",
+      "key_numbers": [
+        "AI Plus, Pro and Ultra tiers",
+        "macOS Sequoia 15.0+",
+        "US, English, 18+"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Apple"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-19T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://9to5google.com/2026/11/19/gemini-mac-computer-use/",
+          "outlet": "9to5Google",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Gemini app for Mac adds computer use to control desktop apps"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google gives Gemini the ability to use your Mac for you"
+        },
+        {
+          "url": "https://www.androidauthority.com/gemini-mac-computer-use-3737396/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google brings computer use to Mac, letting Gemini handle chores without hijacking your screen"
+        },
+        {
+          "url": "https://thenextweb.com/news/google-gemini-mac-computer-use-multi-step-tasks",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's Gemini can now take over tasks on your Mac"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.55,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Details come from search-result summaries of 9to5Google, TechCrunch, Android Authority, TNW and Business Upturn; the Google primary post could not be fetched because blog.google is blocked. The Nov 19 date comes from the outlet URLs, but the hour is an estimate. Business Upturn notes that Google's Mac help docs say local file access is limited to files and folders the user adds.",
+      "score": {
+        "total": 58.9,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 3,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "nvidia-delays-10q-huang-probe-legal-exposure",
+      "title": "Nvidia holds back its quarterly 10-Q over Huang probe disclosures as legal exposure widens",
+      "summary": "Nvidia, which usually files its 10-Q on results day, did not file it after its Nov 17 report; interim CEO Colette Kress said on the call it would not file immediately, and UBS's Timothy Arcuri was told the delay relates to whether more must be disclosed about the internal investigation into Jensen Huang, TechCrunch reported. CNBC on Nov 19 detailed exposure now spanning federal prosecutors, the SEC, Congress, state prosecutors and shareholder suits, including a securities suit filed in San Jose and a derivative suit against the board. Investor Bill Ackman has separately accused the board of rushing to judgment and acting against shareholders' interests.",
+      "why_it_matters": "A delayed periodic filing at the world's most valuable chipmaker signals the Huang investigation could still produce new disclosures.",
+      "key_numbers": [
+        "10-Q not filed on results day (Nov 17)",
+        "Stock down ~19% since Nov 8 (CNBC)",
+        "Huang House interview Dec 1"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Colette Kress",
+        "Bill Ackman"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-18T21:57:40Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang's — and Nvidia's — legal exposure balloons"
+        },
+        {
+          "url": "https://fortune.com/2026/11/19/bill-ackman-nvidia-jensen-huang-reinstatement-board/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bill Ackman is asking the wrong question about Nvidia"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "sec-probe-nvidia-disclosures-wsj",
+      "confidence_note": "TechCrunch piece timestamp from harvest (21:57Z Nov 18), inside window. Details from search snippets. Ackman's 'rushed to judgment' criticism was first reported ~19:04Z Nov 18 (just before window); included only as context. No NT 10-Q filing was found in searches.",
+      "score": {
+        "total": 57.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.479
+        },
+        "coverage": 5,
+        "mentions": 4,
+        "baseline": 5.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "hk-tech-two-year-low-tencent-6-55pct-minimax-record-low-nov19",
+      "title": "Hang Seng Tech hits two-year low as Tencent falls 6.55% after results and MiniMax closes at a record low",
+      "original_title": "港股收评：恒指跌1.95% 科指跌2.33% 科网股普跌 光通信板块逆势活跃 腾讯跌超6%",
+      "summary": "Hong Kong's Hang Seng Index fell 1.95% to 22,841.62 on Nov 19 and the Hang Seng Tech index lost 2.33% to 3,649.14, touching its lowest level in more than two years. Tencent dropped 6.55% to HK$348.40 after results showing RMB81.4bn of capex, and Alibaba fell more than 5% before its earnings. AI model stocks also slid: MiniMax fell 5.2% to HK$114.8, its lowest close since listing, and Zhipu fell 2% after intraday drops of 9% and 7%, with traders citing a Reuters report that Washington may make US firms disclose use of Chinese AI. In Shanghai the STAR 50 bucked the trend, rising 1.83% on semiconductor-equipment gains.",
+      "why_it_matters": "Investors are punishing China's heaviest AI spenders and the listed model labs at once, as US chip and model-use curbs pile up.",
+      "key_numbers": [
+        "Hang Seng -1.95% to 22,841.62",
+        "Hang Seng Tech -2.33% to 3,649.14",
+        "Tencent -6.55% to HK$348.40",
+        "MiniMax -5.2% to HK$114.8 (record low close)",
+        "Zhipu -2% to HK$359.8",
+        "STAR 50 +1.83%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Tencent",
+        "Alibaba",
+        "MiniMax",
+        "Zhipu AI"
+      ],
+      "tickers": [
+        "0700.HK",
+        "9988.HK",
+        "0100.HK",
+        "2513.HK"
+      ],
+      "published_at": "2026-11-19T08:15:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-19/doc-inizhfac6233718.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收评：恒指跌1.95% 科指跌2.33% 科网股普跌 光通信板块逆势活跃 腾讯跌超6%"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349013/Hang-Seng-plunges-450-points-to-four-month-low-on-Thursday-Tencent-Alibaba-down-55pc",
+          "outlet": "The Standard (HK)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Hang Seng plunges 450 points to four-month low on Thursday, Tencent, Alibaba down 5.5pc"
+        },
+        {
+          "url": "https://www.fx168news.com/express/fastnews/1472063",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "港股AI智能体概念股走低，MINIMAX-W(00100.HK)跌幅扩大至10%，智谱(02513.HK)跌8.5%。"
+        },
+        {
+          "url": "https://www.fx168news.com/article/1117572",
+          "outlet": "FX168",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "A股收评：科创50指数收盘涨近2% 沪深两市成交额仅1.31万亿 半导体板块分化明显"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "tencent-q3-2026-capex-81bn-revenue-miss-net-debt",
+      "confidence_note": "Closing figures from search-result summaries; MiniMax/Zhipu closing levels came from one summarised source and intraday moves varied across reports (MiniMax intraday -9% to -10%, Zhipu -7% to -8.5%). Tencent drop variously given as 6.55% to ~7%. Time set to HK close (16:10 HKT).",
+      "score": {
+        "total": 57.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.801
+        },
+        "coverage": 7,
+        "mentions": 3,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "moodys-cuts-nvidia-outlook-stable-huang-exit",
+      "title": "Moody's cuts Nvidia's rating outlook to stable from positive, citing governance after Huang's exit",
+      "summary": "Moody's lowered the outlook on Nvidia's Aa1 senior unsecured rating to stable from positive late on Nov 18, affirming the Aa1 and Prime-1 ratings. The agency said Jensen Huang's abrupt departure and the absence of a formal succession plan create uncertainty over Nvidia's strategy and financial policies. It is Moody's first formal action on Nvidia since Huang left on Nov 12.",
+      "why_it_matters": "A rating agency now formally treats Nvidia's leadership crisis as a credit-relevant governance issue, even though its balance sheet remains among the strongest in corporate credit.",
+      "key_numbers": [
+        "Rating Aa1 affirmed",
+        "Outlook: positive -> stable",
+        "Short-term rating Prime-1"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Moody's"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-18T22:29:01Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/moody-s-lowers-nvidia-s-ratings-outlook-to-stable-from-positive",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Moody's Lowers Nvidia's Ratings Outlook to Stable From Positive"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/nvidia-outlook-cut-to-stable-by-moody-s-on-ceo-exit-no-succession-plan-ce785edddf8ef522",
+          "outlet": "MarketScreener",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia Outlook Cut to Stable by Moody's on CEO Exit, no Succession Plan"
+        },
+        {
+          "url": "https://investinglive.com/stocks/moody-s-cuts-nvidia-outlook-to-stable-saying-huang-s-exit-clouds-strategy-and-policy/",
+          "outlet": "investingLive",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Moody's cuts Nvidia outlook to stable, saying Huang's exit clouds strategy and policy"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "nvidia-huang-resigns-kress-interim-ceo-jones-chair",
+      "confidence_note": "Timestamp from harvest (Bloomberg, 22:29Z Nov 18), inside the window. Details from snippets of several outlets; Moody's own release not seen.",
+      "score": {
+        "total": 55.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.479
+        },
+        "coverage": 6,
+        "mentions": 4,
+        "baseline": 5.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "google-genie-4-gemini-api-paid-launch",
+      "title": "Google opens Genie 4 world model to Gemini API developers at about $0.10 per second of streamed world",
+      "summary": "Google made its Genie 4 interactive world model available to developers through the Gemini Interactions API and Google AI Studio, as a paid-only service. Reported token pricing is $1.50 per million tokens for text or reference-image input, $9 per million for text output and $17.50 per million for video output with stereo audio. At 5,760 video tokens per second, that comes to roughly $0.10 per second, or about $6.05 per minute. The free tier, Batch API, Flex and Priority inference are not supported, and billing continues for as long as a session stays open.",
+      "why_it_matters": "This is the first public price for a frontier real-time world model, and it lets developers estimate costs for games, simulation and agent training built on Genie 4. At about $363 an hour of generated world, sustained use is still expensive.",
+      "key_numbers": [
+        "~$0.10/second (~$6.05/min)",
+        "$17.50/M video output tokens",
+        "$1.50/M input tokens",
+        "$9/M text output tokens",
+        "5,760 tokens per second of video"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-19T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.unite.ai/google-opens-genie-4-world-generation-to-gemini-api-developers/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Opens Genie 4 World Generation to Gemini API Developers"
+        },
+        {
+          "url": "https://ppc.land/google-charges-developers-about-10-cents-a-second-for-genie-4-worlds/",
+          "outlet": "PPC Land",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google charges developers about 10 cents a second for Genie 4 worlds"
+        },
+        {
+          "url": "https://businessupturn.com/technology/google-opens-genie-4-to-gemini-api-developers-with-paid-live-world-generation/",
+          "outlet": "Business Upturn",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google opens Genie 4 to Gemini API developers with paid live world generation"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-genie-4-hits-the-gemini-api-at-6-05-a-minute-363-an-hour/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Genie 4 Hits the Gemini API at $6.05 a Minute, $363 an Hour"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.45,
+      "novelty": 0.6,
+      "follow_up_of": "google-genie-4-project-genie-ultra-rollout",
+      "confidence_note": "Every source is secondary trade coverage seen as search snippets; Google's pricing page (ai.google.dev) could not be fetched. The Nov 19 launch date comes from search summaries, and the hour is an estimate. The token rates are said to come from Google's documentation.",
+      "score": {
+        "total": 54.1,
+        "components": {
+          "impact": 0.45,
+          "novelty": 0.6,
+          "credibility": 0.578,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "texas-tceq-resumes-data-center-permits-spacex-starbase-approval",
+      "title": "Texas regulator resumes data-center permits after Abbott pause and approves emissions for SpaceX's Starbase AI campus",
+      "summary": "The Texas Commission on Environmental Quality has resumed its normal review of data-center air permits, ending the pause Gov. Greg Abbott ordered on Sept. 21, after ERCOT gathered information for a community-impact review. A Nov. 16 TCEQ letter authorised emissions from 43 generators for SpaceX's proposed gas-powered data center at Starbase, reports on Nov 19 said. Governor-elect Gina Hinojosa, who takes office in January, wants new data-center permitting suspended until new laws are in place, and Public Citizen says ERCOT's findings have not been shared.",
+      "why_it_matters": "Texas has reopened a key permitting gate for gas-powered AI campuses in the weeks before an incoming governor who wants it shut.",
+      "key_numbers": [
+        "43 generators approved for SpaceX",
+        "Pause ordered Sept. 21",
+        "TCEQ letter dated Nov. 16"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "Texas Commission on Environmental Quality",
+        "ERCOT"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-19T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://qz.com/texas-resumes-data-center-permits-spacex-starbase-111926",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Texas resumes data center permits and gives SpaceX an approval"
+        },
+        {
+          "url": "https://www.insurancejournal.com/news/southcentral/2026/11/19/893149.htm",
+          "outlet": "Insurance Journal",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Texas Resumes Data Center Environmental Permits After Pause"
+        },
+        {
+          "url": "https://thehill.com/policy/energy-environment/6228413-texas-resumes-data-center-permits/",
+          "outlet": "The Hill",
+          "lang": "en",
+          "tier": "press",
+          "title": "Texas reverses course on data center permits after Abbott pause"
+        },
+        {
+          "url": "https://www.texastribune.org/2026/11/17/tceq-environmental-data-center-permits-resume/",
+          "outlet": "The Texas Tribune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Texas regulators are resuming environmental permits for data centers"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The resumption was first reported by the Texas Tribune on Nov 17, more than 6h before the window, and The Hill at 19:55Z Nov 18. The SpaceX Starbase emissions approval is the angle reported on Nov 19. published_at estimated. A $24B project value and 750 MW figure appear only in less established outlets and are omitted.",
+      "score": {
+        "total": 54.0,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.503
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "citi-pnc-citizens-customers-liable-third-party-ai-agent-losses",
+      "title": "Citi, PNC and Citizens make customers liable for losses caused by third-party AI agents",
+      "summary": "Citi, PNC and Citizens have updated customer terms so account holders bear losses from activity by third-party AI agents they connect to their accounts, TechCrunch reported on Nov 19, following JPMorgan and Bank of America last month. Citi's terms extend this to cases where an AI tool leaks login credentials or is hacked, but exempt Citi's own agents. PNC changed its terms on Nov 18, and Citizens emailed customers a similar warning this week.",
+      "why_it_matters": "As agentic shopping and payment tools spread, big US banks are pushing liability for AI-agent losses onto users, which could slow adoption of outside agents.",
+      "key_numbers": [
+        "5 large US banks with similar terms",
+        "PNC terms changed Nov 18"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Citigroup",
+        "PNC",
+        "Citizens Financial",
+        "JPMorgan",
+        "Bank of America"
+      ],
+      "tickers": [
+        "C",
+        "PNC",
+        "CFG"
+      ],
+      "published_at": "2026-11-19T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://startupfortune.com/citi-pnc-and-citizens-tell-customers-they-own-any-loss-an-ai-agent-causes/",
+          "outlet": "Startup Fortune",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Citi, PNC and Citizens tell customers they own any loss an AI agent causes"
+        },
+        {
+          "url": "https://allaboutcookies.org/citi-ai-agent-banking-liability",
+          "outlet": "All About Cookies",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Gave an AI Chatbot Your Bank Login? Citi Says You're Still on the Hook if It's Hacked"
+        },
+        {
+          "url": "https://www.cryptopolitan.com/citi-and-pnc-tighten-rules-as-ai-agents-gain-access-to-bank-accounts/",
+          "outlet": "Cryptopolitan",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Citi and PNC tighten rules as AI agents gain access to bank accounts"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "TechCrunch's original story was identified in search but its URL was not captured, so secondary outlets are cited. published_at estimated. The bank agreements themselves were not read.",
+      "score": {
+        "total": 50.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.578,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "ai-chip-stocks-nov19-kospi-up-us-chips-fall-anthropic-debut",
+      "title": "AI chip stocks split on Anthropic's debut day: SK hynix up 3.4% in Seoul, Nvidia and Micron fall in New York",
+      "summary": "The KOSPI recovered from an intraday dip below 5,000 to close up 1.39% at 5,137.89 on Nov 19, with SK hynix up 3.41% and Samsung Electronics up 1.13%. Kioxia gained over 3% in Tokyo. In the US the mood turned once Anthropic began trading: Nvidia fell about 3.4-4% and Micron about 3%, Broadcom also fell, AMD dropped about 8% on a short report, and US indexes slid broadly. Reports tied the weakness to rotation out of AI names as investors bought ANT.",
+      "why_it_matters": "Anthropic's listing gives investors a direct way to own frontier AI, and the first day suggests it may draw money away from chip stocks.",
+      "key_numbers": [
+        "KOSPI +1.39% to 5,137.89",
+        "SK hynix +3.41%",
+        "Samsung +1.13%",
+        "Nvidia ~-3.4% to -4%",
+        "Micron ~-3%"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "SK hynix",
+        "Samsung",
+        "Micron",
+        "Kioxia"
+      ],
+      "tickers": [
+        "NVDA",
+        "MU",
+        "000660.KS",
+        "005930.KS",
+        "285A.T"
+      ],
+      "published_at": "2026-11-19T06:40:00Z",
+      "sources": [
+        {
+          "url": "https://www.koreajoongangdaily.com/business/kospi-chip-tourism-shares-jump-onnbspanthropic-ipo-buzz-koreachina-fta/12981953",
+          "outlet": "Korea JoongAng Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Kospi rises 1.39% as Samsung, SK hynix gain ahead of Anthropic debut"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-micron-sink-anthropic-211206180.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price"
+        },
+        {
+          "url": "https://www.tradingkey.com/analysis/stocks/more/262312713-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-anthropic-krx-tradingkey",
+          "outlet": "TradingKey",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Japan and South Korea Stocks Both Close Higher After Seesaw Trading: Kospi Gains 1.39%, SoftBank Rises Over 4%, Kioxia and SK Hynix Advance Over 3%"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "kospi-rebounds-nov18-sk-hynix-samsung-nvidia",
+      "confidence_note": "Korean closing figures are consistent across sources. US closing moves are approximate: Nvidia's decline appears as 3.4% or 3.98% in Yahoo snippets, and final index closes were not confirmed (a Yahoo live blog headline says the Dow fell 1,100 points and the S&P/Nasdaq 2%, but this may be intraday). published_at is the Seoul close, estimated.",
+      "score": {
+        "total": 49.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.479
+        },
+        "coverage": 6,
+        "mentions": 4,
+        "baseline": 5.143,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "openai-chatgpt-for-accounting-plugin",
+      "title": "OpenAI launches ChatGPT for Accounting, a plugin with QuickBooks, Xero, NetSuite and other finance integrations",
+      "summary": "OpenAI released ChatGPT for Accounting, an OpenAI-built Accounting plugin (v1.0.0) for ChatGPT Work and Business plans. It sits in a sidebar next to the chat and targets invoice processing, bank reconciliation, month-end reports, data entry and audit preparation. It ships with partner integrations for QuickBooks, Xero, NetSuite, BILL, FreshBooks, Rillet and Campfire. Users must approve entries and reports, and workspace admins control which apps are enabled.",
+      "why_it_matters": "OpenAI is packaging ChatGPT into vertical plugins for back-office work with write access to systems of record, competing with accounting-software vendors' own AI tools. It follows an earlier sales plugin.",
+      "key_numbers": [
+        "8 partner plugin tiles, 7 vendors",
+        "plugin v1.0.0"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Intuit",
+        "Xero",
+        "Oracle"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://dataconomy.com/2026/11/19/openai-launches-chatgpt-for-accounting-with-finance/",
+          "outlet": "Dataconomy",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Launches ChatGPT For Accounting With Finance Software Plugins"
+        },
+        {
+          "url": "https://www.aninews.in/news/business/openai-launches-accounting-plugin-for-chatgpt-targets-bookkeeping-and-financial-reporting-tasks20261119123610/",
+          "outlet": "ANI",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI launches accounting plugin for ChatGPT, targets bookkeeping and financial reporting tasks"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-chatgpt-for-accounting-lists-8-partner-plugins-sales-had-33/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "ChatGPT for Accounting Lists 8 Partner Plugins; Sales Had 33"
+        },
+        {
+          "url": "https://cryptobriefing.com/openai-chatgpt-for-accounting-plugin-launch/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI launches ChatGPT for Accounting with plugins for QuickBooks, Xero, NetSuite and more"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.35,
+      "follow_up_of": null,
+      "confidence_note": "Search summaries say the launch was Nov 18, 2026, but no timestamp was found, and openai.com was blocked so the primary post could not be checked. The earliest dated coverage seen is ANI (Nov 19, about 07:06Z, from its URL) and Dataconomy (Nov 19). published_at is an estimate. Drop this item if the editor confirms it launched before 15:48Z Nov 18. Pricing and regions were not disclosed. Entities Intuit/Oracle are named only as owners of QuickBooks/NetSuite; they are not a party, so no tickers.",
+      "score": {
+        "total": 47.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.35,
+          "credibility": 0.691,
+          "breadth": 0.689,
+          "momentum": 0.244
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "linq-90m-series-b-a16z-1b-ai-agent-messaging",
+      "title": "Linq raises $90M Series B led by Andreessen Horowitz at a reported $1B valuation for AI-agent messaging",
+      "summary": "San Francisco-based Linq, which provides APIs connecting AI agents to customers over Apple Messages for Business, RCS and WhatsApp, raised a $90 million Series B led by Andreessen Horowitz; Ben Horowitz joins its board. The round reportedly values it at $1 billion and takes total funding past $120 million, after a $20 million Series A in February. Linq says customers including DoorDash have sent over one billion messages through it, and it is adding HD calling and computer-use infrastructure.",
+      "why_it_matters": "Investors are funding the plumbing that lets AI agents reach consumers over native messaging channels.",
+      "key_numbers": [
+        "$90M Series B",
+        "~$1B valuation (reported)",
+        ">$120M total raised",
+        ">1B messages processed"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Linq",
+        "Andreessen Horowitz"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-18T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://dealroom.co/news/174117-linq-raises-90m-to-put-ai-agents-inside-your-text-threads/",
+          "outlet": "Dealroom",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Linq raises $90M to put AI agents inside your text threads"
+        },
+        {
+          "url": "https://pulse2.com/linq-raises-90-million-to-build-infrastructure-for-ai-agents/",
+          "outlet": "Pulse 2.0",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Linq Raises $90 Million To Build Infrastructure For AI Agents"
+        },
+        {
+          "url": "https://www.thesaasnews.com/news/linq-raises-90m-series-b/",
+          "outlet": "The SaaS News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Linq Raises $90M Series B"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Announced Nov 18; the exact time is unknown and may fall up to a few hours before the window (published_at estimated). The $1B valuation is reported, not company-confirmed. Minor item.",
+      "score": {
+        "total": 43.9,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.578,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "deepmind-institute-agi-to-asi-essay",
+      "title": "DeepMind Institute publishes essay mapping routes from AGI to superintelligence; Shane Legg calls fast progress plausible",
+      "summary": "The DeepMind Institute, Google DeepMind's essay venue run by Shane Legg and Demis Hassabis, published 'What comes after AGI? From AGI to Superintelligence', which Legg promoted on X on Nov 19. Summaries say it sets out four routes to artificial superintelligence and calls fast progress over the next decade 'a serious possibility', without giving a date for ASI. The institute says its essays reflect their authors' views and are not Google's official position.",
+      "why_it_matters": "Senior Google DeepMind leaders are publicly sketching how AGI could become superintelligence within a decade. Statements like this shape policy debate even though they are not a corporate position.",
+      "key_numbers": [
+        "4 routes to superintelligence"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-19T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://x.com/ShaneLegg/status/2123433633692495908",
+          "outlet": "Shane Legg on X",
+          "lang": "en",
+          "tier": "social",
+          "title": "DeepMind Institute: Our new essay examines the path from AGI to ASI"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-deepmind-essay-1b-of-ai-work-could-cost-1000-in-10-years/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "DeepMind Essay: $1B of AI Work Could Cost $1,000 in 10 Years"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The essay itself (institute.deepmind.com) could not be fetched. Content comes from search summaries, which disagree on authorship (one credits Tim Genewein; another names Legg as senior author of a June 2026 'From AGI to ASI' report). The Nov 19 date is from Legg's X post as summarised; the hour is an estimate. Only one non-social outlet was seen, so this is weak as a lead.",
+      "score": {
+        "total": 35.6,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.325,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 2.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 22
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-12-01",
+      "title": "Billing begins for Microsoft Copilot harness in Foundry Agent Service (public preview, consumption pricing)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Dell Technologies Q3 FY2027 results (TheStreet calendar; earlier aggregator date was Nov 24)",
+      "kind": "earnings",
+      "confidence": "rumored",
+      "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Marvell Technology Q3 FY2027 results (estimated)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
+    },
+    {
+      "date": "2026-12-02",
+      "title": "Salesforce Q3 FY2027 results (estimated, after close)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
+    },
+    {
+      "date": "2026-12-02",
+      "title": "Hewlett Packard Enterprise fiscal Q4 results (estimated)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
+    },
+    {
+      "date": "2026-12-09",
+      "title": "Broadcom fiscal Q4 2026 results (estimated; one calendar says Dec 10)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://international.schwab.com/node/14441"
+    },
+    {
+      "date": "2026-12-09",
+      "title": "Oracle fiscal Q2 2027 results (estimated; one calendar says Dec 14)",
+      "kind": "earnings",
+      "confidence": "rumored",
+      "url": "https://international.schwab.com/node/14441"
+    },
+    {
+      "date": "2026-12-16",
+      "title": "Micron fiscal Q1 2027 results (estimated; one calendar says Dec 23)",
+      "kind": "earnings",
+      "confidence": "rumored",
+      "url": "https://www.smartcalendars.ai/en/feeds/ai-semiconductor-earnings-calendar"
+    },
+    {
+      "date": "2026-12",
+      "title": "Congress to take up NDAA package carrying AI OVERWATCH, MATCH and Chip Security Act chip-export amendments",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://finance.yahoo.com/technology/ai/articles/congress-wants-china-chip-limits-142719076.html"
+    },
+    {
+      "date": "2027-01",
+      "title": "Texas governor-elect Gina Hinojosa takes office, pledging to suspend new data-center permitting",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://qz.com/texas-resumes-data-center-permits-spacex-starbase-111926"
+    },
+    {
+      "date": "2027-01",
+      "title": "Alibaba in-house Zhenwu V900 AI chip expected to enter mass production (early 2027)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.theedgesingapore.com/news/tech/alibabas-ai-ambitions-face-steep-challenge-us-chip-controls"
+    },
+    {
+      "date": "2026-12",
+      "title": "NDAA package with AI OVERWATCH, MATCH and Chip Security Act chip-export amendments goes to Congress",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.sina.cn/weibo/detail/5366953461678376.html"
+    },
+    {
+      "date": "2026-12",
+      "title": "Texas governor-elect Gina Hinojosa takes office, pledging to suspend new data-center permits",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.infoq.cn/article/DQlimzDy7bqiZ3mc5Vvq"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-19T01:58Z), so everything after that comes from WebSearch. WebFetch was blocked for most news and lab domains, so many facts rest on cross-checked search-result snippets, as flagged per item. No frontier lab released a model in the window. Three items first reported shortly before the window opened are included because the Nov 18 issue missed them: OpenAI's ChatGPT for Accounting (Nov 18, time unconfirmed), Linq's $90M round and the Reuters report on Chinese-model disclosure (times estimated). Calendar: Anthropic began trading on Nov 19 as expected; Dell's results move to about Dec 1 (rumored). Skipped: OpenAI's Nov 18 research posts (published >6h before the window), the Energy-Based Reasoners paper (March 2026, resurfacing on HN), the Harvard coding-agent study (August paper), the KPMG audit trial (just outside the 6h allowance), Moonshot's HK IPO (rehash of a September report), Doubao Work's 8M DAU (Nov 17), the Gemini app on low-memory Android (thin), and final US index closes (unconfirmed). No notable arXiv paper could be verified.",
+  "learn": [
+    {
+      "id": "gigawatts-to-training-flops",
+      "gap": "dl-training",
+      "title": "Turn a data-centre power budget into training compute and model size",
+      "item_ids": [
+        "alibaba-warns-us-chip-rules-may-cut-20gw-datacenter-target",
+        "alibaba-sep-q-2026-ai-cloud-53pct-qwen-loss-triples"
+      ],
+      "why_today": "Alibaba says US chip-access rules may force it to revise its target of more than 20 GW of capacity by 2032. A power target is really a compute target, and the chain from watts to trainable parameters shows what such a cut costs.",
+      "explanation": "Facility power divided by PUE gives IT power, and IT power divided by all-in watts per accelerator gives a device count. Multiply by peak FLOP/s and model FLOPs utilisation (MFU, typically 30-50% for large dense or MoE training) to get sustained FLOP/s, then by wall-clock time to get a run's compute C. For a dense transformer, training costs about C = 6ND FLOPs for N parameters and D tokens, and the Chinchilla fit puts the compute-optimal ratio near D/N = 20, so N grows as sqrt(C). That square root is why a 40% power cut costs only about 23% in compute-optimal model size, though it costs the full 40% in throughput for inference. The chain breaks where its assumptions do: MoE models count only active parameters in 6ND, production runs are deliberately over-trained past Chinchilla for cheaper inference, and interconnect or memory limits can cap MFU well below the chip's peak.",
+      "math": "C = \\frac{P_{site}}{\\mathrm{PUE}\\, W_{acc}}\\, F_{peak}\\, \\mathrm{MFU}\\, t, \\qquad C \\approx 6ND,\\; D \\approx 20N \\Rightarrow N \\approx \\sqrt{C/120}",
+      "python": "# From gigawatts to a training run. All hardware numbers are illustrative, not any company's.\nP_site = 1e9          # 1 GW of facility power\nPUE = 1.3             # facility overhead: cooling, conversion losses\nW_per_accel = 1800.0  # all-in IT watts per accelerator (chip + host + network share)\npeak = 2.5e15         # dense BF16 FLOP/s per accelerator (illustrative)\nfor mfu in (0.30, 0.45):\n    n = P_site / PUE / W_per_accel\n    flops = n * peak * mfu                      # sustained FLOP/s for the whole site\n    days = 90\n    C = flops * days * 86400                    # FLOPs in a 90-day run\n    # Chinchilla-style compute-optimal split: C = 6 N D with D = 20 N\n    N = (C / 120) ** 0.5\n    D = 20 * N\n    print(f\"MFU {mfu:.0%}: {n/1e3:,.0f}k accelerators, {flops:.2e} FLOP/s, \"\n          f\"90-day C = {C:.2e} FLOP -> N = {N/1e12:.1f}T params, D = {D/1e12:.0f}T tokens\")\n# Same site, but only 60% of the planned power is built (a cut target):\nprint(\"power cut to 60% scales C by 0.6 and compute-optimal N by\", round(0.6**0.5, 3))\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Training Compute-Optimal Large Language Models (Hoffmann et al., 2022)",
+          "url": "https://arxiv.org/abs/2203.15556"
+        },
+        {
+          "title": "Scaling Laws for Neural Language Models (Kaplan et al., 2020)",
+          "url": "https://arxiv.org/abs/2001.08361"
+        }
+      ]
+    },
+    {
+      "id": "agent-principal-scoped-state",
+      "gap": "agent-engineering",
+      "title": "Scope every agent cache, memory and credential to the principal",
+      "item_ids": [
+        "meta-muse-agent-conversation-mixups-private-data-reuters",
+        "google-gemini-mac-computer-use"
+      ],
+      "why_today": "Reuters reports Meta staff saw the Muse agent surface messages from other people's accounts, which Meta says were mostly hallucinations. Whatever the cause there, cross-account bleed is a classic failure mode worth designing out as agents like Gemini's new Mac computer use gain access to personal data.",
+      "explanation": "An agent has more shared state than a chatbot: response and tool-result caches, long-term memory stores, retrieval indexes, and the credentials its tools use. If any of these is keyed on content alone (the prompt, a URL, a query embedding), two users who send the same request can receive each other's results, because the output depended on who asked but the key did not. The fix is to treat the principal (user, tenant, session) as part of every key and every row, to filter retrieval by principal before ranking rather than after, and to mint tool credentials per principal with least privilege, so a confused agent cannot read what its token cannot reach. Caching stays safe for genuinely public, user-independent results, but that must be an explicit decision. Tests should replay identical requests from two principals and assert that their outputs share nothing private.",
+      "python": "# Cross-account leakage from a cache keyed on content alone, and the fix: key on the principal too.\nimport hashlib\nclass Cache:\n    def __init__(self, scoped): self.d, self.scoped = {}, scoped\n    def key(self, user, prompt):\n        parts = (user, prompt) if self.scoped else (prompt,)\n        return hashlib.sha256(\"\\x1f\".join(parts).encode()).hexdigest()\n    def get_or_run(self, user, prompt, run):\n        k = self.key(user, prompt)\n        if k not in self.d:\n            self.d[k] = run(user, prompt)\n        return self.d[k]\ndef agent(user, prompt):  # stand-in for a tool-using agent that reads the user's own inbox\n    inbox = {\"alice\": \"Alice: biopsy results Friday\", \"bob\": \"Bob: no new messages\"}\n    return f\"[{user}] summary of inbox -> {inbox[user]}\"\nfor scoped in (False, True):\n    c = Cache(scoped)\n    c.get_or_run(\"alice\", \"summarise my messages\", agent)\n    out = c.get_or_run(\"bob\", \"summarise my messages\", agent)\n    leak = \"Alice\" in out\n    print(f\"scoped={scoped}: bob sees -> {out!r}  LEAK={leak}\")\n# Rule: every key, memory row and tool credential carries the principal; prompts are not identities.\n",
+      "minutes": 10
+    },
+    {
+      "id": "decode-cost-per-token",
+      "gap": "llm-internals",
+      "title": "Estimate serving cost per token from memory bandwidth and batch size",
+      "item_ids": [
+        "alibaba-sep-q-2026-ai-cloud-53pct-qwen-loss-triples"
+      ],
+      "why_today": "Alibaba blamed the widening RMB10.5bn loss in the segment that houses Qwen partly on Qwen app inference costs. The cost of a consumer chatbot comes down to how many tokens each accelerator-hour produces.",
+      "explanation": "In autoregressive decoding each step produces one token per sequence but must stream all active weights from HBM, plus each sequence's KV cache. At batch 1 the arithmetic units sit idle and throughput is roughly bandwidth / weight bytes, so decode is memory-bound. Batching amortises the weight read across sequences, so tokens per second rise almost linearly at first. That is why providers batch aggressively and why free consumer traffic with long contexts is expensive. The KV term grows with batch times context, so it eventually dominates and throughput saturates. That is the motivation for grouped-query or multi-head latent attention, KV quantisation, and paged KV memory. The model ignores prefill (compute-bound), latency targets that cap batch size, and speculative decoding; treat it as a first-order bound, not a price quote.",
+      "math": "\\text{tok/s} \\approx B\\, \\frac{BW}{N_{act} b_w + B\\, T\\, m_{KV}}, \\qquad \\$/\\text{M tok} = \\frac{10^6\\, p_{hr}}{3600\\, \\text{tok/s}}",
+      "python": "# Why serving a chat app costs real money: decode is memory-bandwidth bound.\n# Illustrative numbers only; not any vendor's model or GPU.\nHBM = 4.0e12          # bytes/s of memory bandwidth per accelerator\ngpu_hour = 3.0        # $ per accelerator-hour\nactive = 30e9         # active params per token (an MoE's activated experts)\nbytes_per_w = 1       # FP8 weights\nkv_per_tok = 70e3     # KV-cache bytes per token of context (layers x heads x dim x 2 x bytes)\nctx = 8000            # tokens of context per sequence\nfor batch in (1, 16, 128):\n    # each decode step streams the weights once (shared by the batch) + each sequence's KV cache\n    bytes_step = active * bytes_per_w + batch * ctx * kv_per_tok\n    steps = HBM / bytes_step                      # decode steps per second\n    tok_s = steps * batch\n    cost = gpu_hour / (tok_s * 3600) * 1e6        # $ per million output tokens\n    print(f\"batch {batch:4d}: {tok_s:8.0f} tok/s, ${cost:7.2f} per M output tokens\")\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention (Kwon et al., 2023)",
+          "url": "https://arxiv.org/abs/2309.06180"
+        }
+      ]
+    }
+  ]
+}
