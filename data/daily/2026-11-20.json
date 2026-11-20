@@ -1,0 +1,1821 @@
+{
+  "date": "2026-11-20",
+  "window": {
+    "start": "2026-11-19T21:48:00Z",
+    "end": "2026-11-20T21:48:00Z"
+  },
+  "tldr": [
+    "An Anthropic mathematician says he and Claude proved the Riemann hypothesis and released the proof as a 14-part Lean archive. It is unverified: nobody has yet replayed the full proof, and a rival 'all human' GRH proof came out the same day.",
+    "Nvidia's troubles deepen: Reuters says the SEC probe now covers its accounting, and the stock fell about 13%. California's AG subpoenaed the company over possible chip diversion to China, and the AI sell-off pushed the Nasdaq negative for 2026 (Micron -13%, SoftBank -14.5%, KOSPI -5.2%).",
+    "Trump threatened a 'tremendous tax' on US firms building data centers abroad, naming Google's ~€13B Finland plan. In China, Tencent open-sourced its full 770B-parameter Hy4 MoE as Hang Seng Tech fell 3.78%."
+  ],
+  "items": [
+    {
+      "id": "claude-riemann-hypothesis-proof-claim-alpoge-lean",
+      "title": "Anthropic mathematician says he and Claude proved the Riemann hypothesis; Lean proof not yet independently checked",
+      "summary": "Levent Alpöge, a mathematician at Anthropic, posted a four-page note on Nov 20 saying he believes he and Claude found a proof of the Riemann hypothesis. He says the method extends to the Generalized Riemann Hypothesis. Instead of a conventional paper he released a formal proof in Lean, split into a 14-part archive, along with a timeline he says Claude assembled (reportedly covering Oct 6 to Nov 16). Some preliminary technical details have been checked by others, but nobody has yet replayed and accepted the full formal proof. The same day, AMS president Ravi Vakil circulated a separate, 'all human' proposed proof of the Generalized Riemann Hypothesis by Stanford postdoc Alessandro Masullo, which Brian Conrad has been reviewing for months.",
+      "why_it_matters": "If the Lean proof checks out, it would be the first resolution of a Millennium Prize problem with major AI involvement, and a test of machine-checked proofs as a replacement for human refereeing. The rival human proof released the same day makes questions of priority and credit unavoidable.",
+      "key_numbers": [
+        "167-year-old problem",
+        "4-page note",
+        "14-part Lean archive",
+        "41-day timeline (Oct 6-Nov 16, reported)"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Levent Alpöge",
+        "Ravi Vakil",
+        "Alessandro Masullo",
+        "Stanford University"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-20T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/technology/2026/11/20/using-anthropic-ai-mathematician-claims-have-solved-riemann-hypothesis/",
+          "outlet": "The Washington Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Using Anthropic AI, mathematician claims to have solved Riemann hypothesis"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too"
+        },
+        {
+          "url": "https://interestingengineering.com/ai-robotics/anthropic-167-year-old-riemann-hypothesis-claude",
+          "outlet": "Interesting Engineering",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Claude helped crack the 167-year-old Riemann hypothesis, Anthropic researcher claims"
+        },
+        {
+          "url": "https://officechai.com/ai/hours-after-alpoges-ai-assisted-riemann-hypothesis-proof-ams-president-ravi-vakil-rushes-out-a-rival-all-human-proof-by-alessandro-masullo/",
+          "outlet": "OfficeChai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Hours After Alpöge's AI-Assisted Riemann Hypothesis Proof, AMS President Ravi Vakil Rushes Out A Rival \"All Human\" Proof By Alessandro Masullo"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.8,
+      "novelty": 0.9,
+      "follow_up_of": null,
+      "confidence_note": "The claim is unverified: the Clay Institute still lists RH as unsolved, and the full Lean proof had not been independently replayed when reported. Outlets disagree on scope (RH vs GRH). The publication time is estimated (Nov 20, time of day unknown). The 14-part archive and 41-day timeline come from secondary write-ups. Alpöge's note and Vakil's post could not be opened. Which Claude model was used is not stated in what was seen.",
+      "score": {
+        "total": 75.8,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.9,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.583
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "reuters-sec-nvidia-probe-accounting-focus-stock-falls-13pct",
+      "title": "Reuters: SEC's Nvidia probe is examining its accounting; shares fall about 13%",
+      "summary": "Reuters reported on Nov 20, citing two people briefed on the matter, that the SEC's investigation of Nvidia is looking at potential accounting issues. Reuters could not find out when the inquiry began or which accounting issues are involved. The SEC declined to comment. Nvidia's shares fell about 13% that day, according to LSEG data, and hit a new 52-week low. Nvidia's latest quarterly release had already mentioned an investigation by an independent board committee.",
+      "why_it_matters": "Questions about the accounting of the world's most valuable chipmaker go beyond the Huang governance story. They hit the core AI trade and fed a broad Nasdaq sell-off.",
+      "key_numbers": [
+        "NVDA about -13% (LSEG); -13.65% at close per one report",
+        "2 sources cited by Reuters"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "SEC"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-20T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460",
+          "outlet": "Reuters (via Investing.com)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive-Nvidia's accounting is a focus of US SEC investigation, sources say"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting"
+        },
+        {
+          "url": "https://www.newsnationnow.com/business/nvidia-accounting-under-sec-investigation-sources-say/",
+          "outlet": "NewsNation",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia accounting under SEC investigation, sources tell Reuters"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": "sec-probe-nvidia-disclosures-wsj",
+      "confidence_note": "The publication time is estimated (the Reuters story came out during the Nov 20 US session). The -13.65% close comes from a single market-wrap snippet (Stocktitan); Bloomberg's wrap said roughly 14%.",
+      "score": {
+        "total": 71.0,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.487
+        },
+        "coverage": 6,
+        "mentions": 4,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "trump-threatens-tremendous-tax-overseas-data-centers-google-finland",
+      "title": "Trump threatens a 'tremendous tax' on US firms that build data centers abroad, singling out Google's Finland plan",
+      "summary": "At a White House press conference on Nov 20, after his APEC trip, President Trump said: 'We are not going to allow companies to build data centers in other countries. If they do that, they can, but we are going to put a tremendous tax on them.' He named Google's roughly €13B Finnish data-center investment planned for 2027-28. He gave no rate, mechanism or timeline. Finnish regulators had already ordered Google to halt preparatory work at two sites after forest was cleared without environmental impact assessments.",
+      "why_it_matters": "An offshore data-center levy would threaten hyperscalers' international capex plans and could unsettle allied 'sovereign AI' build-outs in Europe, the Gulf and Asia.",
+      "key_numbers": [
+        "~€13B Google Finland investment",
+        "No rate or timeline given"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Donald Trump"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-20T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.washingtontimes.com/news/2026/nov/20/trump-flexes-power-issuing-america-first-rules-data-centers-urging/",
+          "outlet": "The Washington Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump flexes power by issuing America-first rules on data centers, urging compromise with Democrats"
+        },
+        {
+          "url": "https://gizmodo.com/trump-says-hell-prevent-u-s-companies-from-building-data-centers-overseas-2000843201",
+          "outlet": "Gizmodo",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump Wants to Keep U.S. Data Centers at Home—Or Else"
+        },
+        {
+          "url": "https://www.dailywire.com/news/trump-floats-a-price-for-taking-americas-ai-boom-overseas",
+          "outlet": "The Daily Wire",
+          "lang": "en",
+          "tier": "press",
+          "title": "Trump Floats A Price For Taking America's AI Boom Overseas"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "The time of the press conference is estimated. Reports differ on whether he described a ban or a tax. The Washington Times headline mentions 'rules', but no executive order or written rule was found.",
+      "score": {
+        "total": 67.8,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.669
+        },
+        "coverage": 6,
+        "mentions": 3,
+        "baseline": 1.714,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "california-ag-subpoenas-nvidia-china-chip-diversion-disclosures",
+      "title": "California AG subpoenas Nvidia over possible chip diversion to China and whether it misled investors",
+      "summary": "California Attorney General Rob Bonta issued an investigative subpoena to Nvidia on Nov 19. The state Department of Justice is examining whether Nvidia's advanced chips or confidential information reached China, whether the company misled investors and the public, and whether it broke state law. The probe follows reports about former CEO Jensen Huang's relationship with Megaspeed executive Alice Huang, who is suspected of being a Chinese spy. A subpoena is a fact-gathering step and carries no charge.",
+      "why_it_matters": "A state investigation now sits alongside the SEC probe and several congressional inquiries, which widens Nvidia's legal exposure while it is under interim leadership and has held back its 10-Q.",
+      "key_numbers": [
+        "Subpoena issued Nov 19, 2026"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "California Department of Justice",
+        "Rob Bonta",
+        "Jensen Huang",
+        "Megaspeed"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-19T22:31:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion"
+        },
+        {
+          "url": "https://www.cbsnews.com/sanfrancisco/news/california-nvidia-subpoena-jensen-huang-affair-alleged-chinese-spy/",
+          "outlet": "CBS San Francisco",
+          "lang": "en",
+          "tier": "press",
+          "title": "California AG subpoenas Nvidia over Jensen Huang's affair with alleged Chinese spy"
+        },
+        {
+          "url": "https://abcnews.com/Technology/wireStory/california-attorney-general-subpoenas-nvidia-chips-former-ceos-138308129",
+          "outlet": "ABC News (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "California attorney general subpoenas Nvidia over chips, former CEO's affair"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Search snippets say Bonta announced the subpoena in a press release; the release itself could not be opened. The time is the earliest Bloomberg item in the harvest (22:31Z).",
+      "score": {
+        "total": 66.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.487
+        },
+        "coverage": 9,
+        "mentions": 4,
+        "baseline": 5.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "ai-rout-nov20-nasdaq-erases-2026-gain-micron-softbank-kospi",
+      "title": "AI sell-off spreads: Nasdaq erases its 2026 gain, Micron falls 13%, SoftBank 14.5% and KOSPI 5.2%",
+      "summary": "The AI sell-off deepened on Friday, Nov 20. SoftBank Group closed 14.48% lower in Tokyo after falling as much as 16% intraday, its worst day since August 2024, and Tokyo Electron fell 7.19%. Korea's KOSPI fell 5.21% to 4,869.96, with Samsung Electronics down 7.01% and SK hynix down 5.92%. TSMC lost 4.8% in Taipei, and Taiwan's index had its worst week since 1990. In New York the Nasdaq Composite fell about 5.3% and turned negative for 2026. Micron fell 13% to about $603, SanDisk 15%, and CoreWeave almost 11%.",
+      "why_it_matters": "Neither Anthropic's IPO nor Nvidia's results revived the AI trade, and memory and AI-infrastructure stocks are now pricing in a slowdown in AI spending that has not yet appeared in company earnings.",
+      "key_numbers": [
+        "SoftBank -14.48% close",
+        "KOSPI -5.21% to 4,869.96",
+        "Samsung -7.01%, SK hynix -5.92%",
+        "Micron -13% to ~$603",
+        "Nasdaq Composite ~-5.3%",
+        "TSMC -15.8% on the week"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Micron",
+        "SoftBank",
+        "SK hynix",
+        "Samsung",
+        "TSMC",
+        "CoreWeave"
+      ],
+      "tickers": [
+        "MU",
+        "9984.T",
+        "000660.KS",
+        "005930.KS",
+        "2330.TW",
+        "CRWV"
+      ],
+      "published_at": "2026-11-20T01:07:00Z",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+          "outlet": "Stocktitan",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Stock Market Today Live, November 20, 2026: US Stocks Close Sharply Lower"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/11/20/micron-stock-plunges-13-as-barrons-calls-memory-stocks-agonizingly-cheap-western-digital-sandisk-and-seagate-sink-in-ai-chip-selloff/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'"
+        },
+        {
+          "url": "https://en.sedaily.com/market/2026/11/20/samsung-sk-hynix-tumble-4-5-percent-as-kospi-opens-below",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung, SK hynix Tumble 4-5% as KOSPI Opens Below 5,000"
+        },
+        {
+          "url": "https://www.nacionale.com/en/articles/why-is-softbank-stock-down-today-16-percent-anthropic-debut-openai-nikkei-november-20",
+          "outlet": "Nacionale",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Why is SoftBank stock down today? It fell as much as 16% in Tokyo the morning after Anthropic's debut"
+        },
+        {
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63483975/tsmc-stock-slides-as-taiwan-market-suffers-worst-week-since-1990-whats-going-on",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "TSMC Stock Slides As Taiwan Market Suffers Worst Week Since 1990"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/20/stocks-moving-the-most-today-live-updates.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stocks moving the most today: Live updates"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.7,
+      "novelty": 0.4,
+      "follow_up_of": "ai-chip-stocks-nov19-kospi-up-us-chips-fall-anthropic-debut",
+      "confidence_note": "Nikkei figures conflict (-4.23% intraday vs -5.06% at close), so they are left out. The S&P 500 at -3.7% for a seventh straight down day is from a Bloomberg snippet only. The SoftBank close and the KOSPI and Samsung/SK hynix closes are snippet figures confirmed by 2+ outlets.",
+      "score": {
+        "total": 65.5,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.811,
+          "momentum": 0.541
+        },
+        "coverage": 10,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "anthropic-greenshoe-93-5bn-stabilisation-ends-ant-closes-near-88",
+      "title": "Anthropic closes IPO at $93.5B after full greenshoe; stabilisation ends and shares slide toward $83 issue price",
+      "summary": "Anthropic said its underwriters exercised their full over-allotment option of 147 million shares at $83, which brought gross IPO proceeds to about $93.5B. Morgan Stanley, the stabilisation agent, bought the shares directly from Anthropic and closed its short position, so it can no longer buy in the market to support the stock. On day two ANT fell as low as $83.05 and closed around $88.30, about 9% down, hit by the AI sell-off and a Bloomberg report that Apple is building its own autonomous AI agent.",
+      "why_it_matters": "The stock no longer has underwriter support just above its issue price, and options are due to list next week, so the share price is now a live test of investors' appetite for frontier labs.",
+      "key_numbers": [
+        "147M greenshoe shares at $83",
+        "~$93.5B gross IPO proceeds",
+        "Day-2 low $83.05",
+        "Close ~$88.30 (about -9%)",
+        "$772M retail trading on debut day (Vanda)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Morgan Stanley",
+        "Apple"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-20T00:40:00Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters' option to purchase additional shares, and closing of concurrent private placement"
+        },
+        {
+          "url": "https://lufkindailynews.com/news_reuters/business/anthropics-ipo-bank-closed-position-meant-to-stabilize-stock-removing-source-of-support/article_7e146e27-0c01-5892-be61-0141c8d5c14a.html",
+          "outlet": "Reuters (syndicated)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's IPO bank closed position meant to stabilize stock, removing source of support"
+        },
+        {
+          "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
+          "outlet": "CNN",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-ant-nasdaq-debut-closes-97-17-up-17pct",
+      "confidence_note": "Reported closes differ: $88.30 (CNN/CNBC) vs $88.91 (FourWeekMBA). One source puts proceeds at $119.5B including the concurrent placement; that figure is single-source and left out. Details of the Apple agent report are snippet-only.",
+      "score": {
+        "total": 63.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.583
+        },
+        "coverage": 8,
+        "mentions": 3,
+        "baseline": 2.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "tencent-hy4-770b-open-weights-hunyuan-llm-fully-open",
+      "title": "Tencent open-sources the full Hy4 model, a 770B-parameter MoE, completing open release of its Hunyuan LLM line",
+      "original_title": "腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放",
+      "summary": "Tencent's Hunyuan team released the weights of the full Hy4 model on GitHub, Hugging Face, ModelScope and GitCode on Nov 20. Tencent says this completes the open release of its Hunyuan LLM series. Hy4 is a MoE model with about 770B total and 49B active parameters and a context window of over 1M tokens. Reports say it uses the Apache 2.0 licence. It follows the open release of the smaller Hy4 flash (224B/12B active) on Nov 18. Tencent had unveiled Hy4 on Nov 4 and promised weights 'soon'.",
+      "why_it_matters": "Tencent now has an open-weight model in the 770B class, competing with DeepSeek, Zhipu and Moonshot on open frontier weights. It comes days after Tencent warned that compute limits may delay its next Hunyuan model.",
+      "key_numbers": [
+        "770B total parameters",
+        "49B active parameters",
+        "1M+ token context",
+        "Apache 2.0 licence (reported)",
+        "4 hosting platforms"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-20T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/029/841.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yChdfRbhnQ",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯混元Hy4正式开源，混元LLM系列实现全量开放"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-20/doc-inizkctf5607044.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放"
+        },
+        {
+          "url": "https://huggingface.co/tencent/Hy4",
+          "outlet": "Hugging Face (Tencent)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "tencent/Hy4"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "tencent-hunyuan-hy4-flash-224b-moe-low-price",
+      "confidence_note": "Publication time is estimated (Nov 20 morning, UTC+8). The tencent/Hy4 Hugging Face URL appeared in search results but could not be opened (huggingface.co is blocked here). One English search found only the Aug 28 Hy4-preview weights (also 770B/49B), so check that the Nov 20 release is the full Hy4 checkpoint rather than the preview. The Apache 2.0 licence is press-reported.",
+      "score": {
+        "total": 63.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.487,
+          "momentum": 0.731
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "apple-autonomous-ai-agent-browse-code-control-apps-bloomberg",
+      "title": "Bloomberg: Apple is building an autonomous AI agent that can browse, write code and control apps",
+      "summary": "Bloomberg reported late on Nov 19 (US time) that Apple job listings show it is developing an autonomous agent that can browse the web, write code and operate apps on a user's devices. The work is in early stages, and Apple has eyed a launch as soon as the end of 2027. Anthropic shares, at the end of their first trading day, fell in after-hours trading on the report; estimates range from about 1.8% (Benzinga, $95.38) to more than 3%. Apple's own shares were little changed.",
+      "why_it_matters": "An agent built into Apple's operating systems would compete directly with the computer-use agents from Anthropic, OpenAI and Google, and with Gemini's new Mac computer use, on the platform where those third-party agents need Apple's permissions.",
+      "key_numbers": [
+        "Launch eyed as soon as end-2027",
+        "ANT after-hours: -1.8% to -3%+ (reports vary)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Apple",
+        "Anthropic"
+      ],
+      "tickers": [
+        "AAPL"
+      ],
+      "published_at": "2026-11-19T22:56:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-shares-drop-post-market-on-apple-s-ai-agent-plans",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Shares Drop Post-Market on Apple's AI Agent Plans"
+        },
+        {
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63461769/anthropic-stock-slips-as-apple-aims-to-develop-ai-agent",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Stock Slips as Apple Aims to Develop AI Agent"
+        },
+        {
+          "url": "https://interestingengineering.com/ai-robotics/apple-develops-autonomous-agent-device-control-apps",
+          "outlet": "Interesting Engineering",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Apple plans autonomous agent to handle tasks across its devices"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Based on job listings as reported by Bloomberg; Apple has not confirmed. The published_at value is the first harvest sighting (IT之家, 22:56Z); Bloomberg's original story may be slightly earlier on Nov 19 US time. Size of the share move varies by outlet.",
+      "score": {
+        "total": 62.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.689
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "spacex-44b-gpu-financing-priced-apollo-goldman",
+      "title": "Apollo and Goldman price $44B SpaceX GPU financing, the largest AI-chip debt deal, at yields above 8%",
+      "summary": "Apollo and Goldman Sachs priced a roughly $44B debt package to fund SpaceX's purchase of Nvidia chips. Reuters reports the firms call it the largest AI-related chip financing ever arranged, and it was upsized on demand. The largest tranche, $25.17B of senior secured A3 notes due April 2033, priced at 8.259%. About $4.4B of A2 notes due 2031 priced at 7.66% and $2.564B of subordinated notes at 8.36%. Under the structure, an Apollo-affiliated vehicle buys the chips and leases them to SpaceX. Lease payments start when the chips are delivered in H1 2027.",
+      "why_it_matters": "Investors demanded more than 8% yields, against about 5.95% on average investment-grade debt. That premium prices in the risk of GPU-backed, off-balance-sheet funding, which is becoming a template for AI capex.",
+      "key_numbers": [
+        "~$44B total package",
+        "$25.17B A3 notes at 8.259%",
+        "$4.4B A2 notes at 7.66%",
+        "$2.564B sub notes at 8.36%",
+        "IG average ~5.95%"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "Apollo",
+        "Goldman Sachs",
+        "Nvidia"
+      ],
+      "tickers": [
+        "APO",
+        "GS"
+      ],
+      "published_at": "2026-11-20T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/apollo-goldman-lead-44-billion-174543000.html",
+          "outlet": "Reuters (via AOL)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Apollo, Goldman lead $44 billion SpaceX GPU debt financing"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/spacex-sells-32-billion-ai-234112045.html",
+          "outlet": "Bloomberg (via Yahoo Finance)",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX Sells $32 Billion of AI Chip Debt at Yields Topping 8%"
+        },
+        {
+          "url": "https://invezz.com/news/2026/11/20/spacex-stock-slips-why-its-8-26-bond-yield-matters/",
+          "outlet": "Invezz",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SpaceX stock slips: why its 8.26% bond yield matters"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "spacex-40b-ai-chip-debt-hits-market-this-week",
+      "confidence_note": "The time is estimated: one tranche sold on Thursday Nov 19 (US) and the pricing was reported overnight into Nov 20. Bloomberg describes about $32B of bonds within the $44B total. SpaceX's own ticker is left out because its Yahoo symbol could not be verified. One report says SpaceX shares fell 6.57% premarket (single source).",
+      "score": {
+        "total": 60.7,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.471
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "cognition-talks-75b-valuation-new-funding",
+      "title": "Cognition in early talks to raise $2B+ at a $75B valuation, weeks after its $48B round",
+      "summary": "Bloomberg reported on Nov 20 that Cognition, maker of the Devin coding agent, is in early talks to raise $2B or more at about a $75B valuation. The talks come only weeks after a September round at $48B. Business Insider reported that investors have offered valuations of $70B to $80B. The terms could still change and no deal has been signed.",
+      "why_it_matters": "A 50%+ markup in about two months, on the day public AI stocks sold off hard, shows private money is still chasing AI coding agents even as public markets reprice AI risk.",
+      "key_numbers": [
+        "$75B target valuation",
+        "$2B+ raise",
+        "$48B September valuation",
+        "$70-80B offers (Business Insider)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Cognition"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/cognition-in-talks-for-75-billion-value-with-new-funding",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Cognition in Talks for $75 Billion Value With New Funding"
+        },
+        {
+          "url": "https://thedailyguardian.com/news/science-tech/cognition-ai-in-talks-to-be-valued-at-75-billion-in-latest-funding-round-bloomberg-news-reports-776684/",
+          "outlet": "Reuters (via The Daily Guardian)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Cognition AI in talks to be valued at $75 billion in latest funding round, Bloomberg News reports"
+        },
+        {
+          "url": "https://dealroom.co/news/167954-cognition-fields-75b-offers-weeks-after-48b-round/",
+          "outlet": "Dealroom",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Cognition in talks at $75B valuation, weeks after $48B-valued raise"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Single-origin Bloomberg report based on unnamed people; the company had not commented. The publication time is estimated.",
+      "score": {
+        "total": 57.3,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.583
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "meta-muse-charm-300-price-verizon-5g-the-information",
+      "title": "The Information: Meta plans $300 price and up to a year of free 5G for its Muse Charm AI device",
+      "summary": "The Information reported on Nov 19 that Meta aims to price Muse Charm, its keychain-sized device for the Muse agent shown at Connect in September, at $300, bundled with up to 12 months of free 5G data, which outlets attribute to Verizon. The device has a roughly 2-inch screen, a fingerprint reader and a 5G modem but cannot make calls. According to the report, Meta pushed its smartwatch from this year to 2027 to focus on Charm. Meta has not confirmed the price.",
+      "why_it_matters": "A $300 price puts Charm against smartwatches and earbuds. It tests whether a dedicated agent device can succeed where the Humane Pin and Rabbit R1 struggled.",
+      "key_numbers": [
+        "$300 (reported)",
+        "Up to 12 months free 5G",
+        "~2-inch screen",
+        "Smartwatch delayed to 2027"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Meta",
+        "Verizon"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-11-19T20:22:00Z",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+          "outlet": "The Verge",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta's Muse Charm might cost $300"
+        },
+        {
+          "url": "https://www.pymnts.com/news/wearables/2026/meta-plans-300-price-tag-and-free-5g-for-muse-charm-ai-device/",
+          "outlet": "PYMNTS",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta Plans $300 Price Tag and Free 5G for Muse Charm AI Device"
+        },
+        {
+          "url": "https://gizmodo.com/muse-charm-price-2000842608",
+          "outlet": "Gizmodo",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta's 'Joyful' Muse Charm May Cost a Not-So-Joyful $300"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Single-source report (The Information, unnamed sources); Meta has not confirmed. First seen 20:22Z on Nov 19, about 1.5 h before the window (within tolerance). The Verizon attribution comes from secondary outlets.",
+      "score": {
+        "total": 53.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.789
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "meta-muse-chrome-extension-200k-users",
+      "title": "Meta officially launches Muse agent Chrome extension; Alexandr Wang says 200,000 people already use it",
+      "summary": "Meta's chief AI officer Alexandr Wang announced on X on Nov 20 the Muse from Meta Chrome extension, which puts the Muse agent in Chrome's side panel. He called the announcement 'belated' because about 200,000 people already use it. The agent can fill forms, compare prices and pursue refunds, and asks for approval before purchases. The Chrome Web Store listing shows 200,000 users, a 4.6 rating and version 2.1.9 updated Nov 20. It requires Chrome 137+. Meta says it cannot see saved passwords, browsing history or Chrome settings.",
+      "why_it_matters": "Meta is pushing Muse beyond its own apps into the browser, where it competes with Gemini in Chrome, Claude for Chrome and OpenAI's Atlas. This comes a day after Reuters reported Muse mixing up users' conversations.",
+      "key_numbers": [
+        "200,000 users",
+        "4.6 rating (237 ratings)",
+        "v2.1.9",
+        "Chrome 137+"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Meta",
+        "Alexandr Wang"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-11-20T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd",
+          "outlet": "Chrome Web Store (Meta listing)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Muse from Meta - Chrome Web Store"
+        },
+        {
+          "url": "https://www.digitaltrends.com/computing/meta-is-putting-muse-in-a-chrome-sidebar-and-the-official-announcement-just-arrived/",
+          "outlet": "Digital Trends",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta is putting Muse in a Chrome sidebar, and the official announcement just arrived"
+        },
+        {
+          "url": "https://thenextweb.com/news/meta-muse-chrome-extension-charm-300-australia-instagram",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta brings Muse to a Chrome sidebar used by 200,000 people"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The time of Wang's X post is estimated. The extension was live before the official announcement. The 200,000 figure is from Wang and the store listing.",
+      "score": {
+        "total": 52.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.789
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "google-gemini-api-tool-retrieval-preview",
+      "title": "Google adds Tool Retrieval to the Gemini API, loading tool schemas only when an agent needs them",
+      "summary": "Google introduced Tool Retrieval in preview in the Gemini Interactions API for Gemini 3.6 and later models, including all Gemini 4 models. Developers add a tool_search tool and mark tools defer_loading: true. Only names and descriptions stay in context, and Google fetches a full parameter schema when the model asks for it, with no developer-hosted embedding index. Google's example: a 150-tool agent falls from 240,000 input tokens to about 19,800. There is no separate fee.",
+      "why_it_matters": "Large tool catalogs, such as MCP servers and enterprise connectors, consume much of the context window. Google is following Anthropic's tool search and making on-demand tool loading a standard API feature, which cuts cost and tool-selection errors for big agents.",
+      "key_numbers": [
+        "150 tools: 240,000 -> ~19,800 input tokens",
+        "Gemini 3.6+ models",
+        "No extra fee"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-19T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "outlet": "Google (The Keyword)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Tool Retrieval in the Gemini API"
+        },
+        {
+          "url": "https://www.unite.ai/google-previews-on-demand-tool-retrieval-for-gemini-api-agents/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Previews On-Demand Tool Retrieval for Gemini API Agents"
+        },
+        {
+          "url": "https://alphasignal.ai/news/google-s-gemini-api-drops-schema-overhead-for-agents-with-hundreds-of-tools",
+          "outlet": "AlphaSignal",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google's Gemini API Drops Schema Overhead for Agents With Hundreds of Tools"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Published about 3.8 h before the window opens (within tolerance). The Google post could not be opened. The 240K-to-19.8K example comes from search summaries of coverage, and one outlet gives conflicting model support.",
+      "score": {
+        "total": 51.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.669
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 1.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "openai-chatgpt-space-plus-rollout-mobile-editing",
+      "title": "OpenAI rolls out ChatGPT Space shared workspaces to Plus users worldwide, adding mobile editing",
+      "summary": "OpenAI's ChatGPT release notes say ChatGPT Space is rolling out globally from Nov 20 to Plus users aged 18 and over. Space launched at DevDay on Sept 29 for Pro, Business and Enterprise only. It replaces the Library entry in the left navigation bar. Reports say the expansion adds editing on mobile (previously view and share only) and Slides support. Plus users cannot yet use Dot agents inside Spaces; OpenAI began testing Dots with a small group of Plus subscribers on Nov 19.",
+      "why_it_matters": "Bringing the collaborative workspace down to the $20 tier makes it a mass-market product that competes with Google Docs, Notion and Anthropic's new Claude Whiteboards/Sheets.",
+      "key_numbers": [
+        "Plus users 18+, global",
+        "Launched for Pro/Business/Enterprise Sept 29"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/",
+          "outlet": "Engadget",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI brings its collaborative Space hubs to Plus users"
+        },
+        {
+          "url": "https://cryptobriefing.com/chatgpt-space-plus-users-mobile-editing/",
+          "outlet": "Crypto Briefing",
+          "lang": "en",
+          "tier": "trade",
+          "title": "ChatGPT brings Space to Plus users, adding mobile editing"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Time of day is estimated. Slides support is reported as only partly live by one source. Details come from search snippets; the release notes page could not be opened. OpenAI's release-notes page reportedly lists the rollout, but it is not cited here because an earlier item already used that URL.",
+      "score": {
+        "total": 50.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.587,
+          "breadth": 0.487,
+          "momentum": 0.554
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 2.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "huawei-osta-o1-pro-ai-phone-launch-5499-yuan",
+      "title": "Huawei launches OSTA sub-brand with O1 Pro, billed as the first HarmonyOS phone 'built for AI', from 5,499 yuan",
+      "original_title": "5499 元起，“首款为 AI 而生的鸿蒙手机”华为星芒 OSTA O1 Pro 阔直板正式发布",
+      "summary": "Huawei debuted its OSTA (星芒) sub-brand on Nov 20 at an event alongside the Harmony Intelligent Mobility Xiangjie V8 electric MPV. The first device is the O1 Pro, pitched as the first HarmonyOS phone 'born for AI'. It runs Kirin 9030S, ships with a HarmonyOS 7 AI pioneer edition and has an AI companion called 'Xiao Xingmang'. It has a 6.39-inch 1.5K screen and a 7,000mAh battery, and starts at 5,499 yuan (4,999 after national subsidy). OSTA executive Liu He said the 16GB version sold out across platforms shortly after launch.",
+      "why_it_matters": "Huawei is using a separate brand to test an agent-first phone built on HarmonyOS 7. Its AI-handset strategy now diverges from Android-based rivals.",
+      "key_numbers": [
+        "5,499 yuan starting price",
+        "4,999 yuan after subsidy",
+        "Kirin 9030S",
+        "7,000mAh battery",
+        "Xiangjie V8 from 319,800 yuan"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Huawei"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/030/120.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "5499 元起，“首款为 AI 而生的鸿蒙手机”华为星芒 OSTA O1 Pro 阔直板正式发布"
+        },
+        {
+          "url": "https://mobile.zol.com.cn/1275/12750728.html",
+          "outlet": "中关村在线",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "华为星芒品牌发布汇总：星芒O1 Pro首发5499元起登场，享界V8上市31.98万起"
+        },
+        {
+          "url": "https://news.17173.com/content/11212026/033046451.shtml",
+          "outlet": "17173",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "华为星芒刘赫：OSTA O1 Pro 最受欢迎的 16G 版本已在全平台售罄，远超预期"
+        },
+        {
+          "url": "https://m.jiemian.com/article/15323023.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "华为; 余承东; OSTA; 星芒; 子品牌; 首款机型; 阔直板; 官宣"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Launch was at 14:30 UTC+8 (06:30Z); publication time is estimated. One report gives 5,699 yuan list with a 5,499 launch offer; most say 5,499 start. The sell-out claim comes from the company. The Jiemian link is a pre-launch announcement piece.",
+      "score": {
+        "total": 49.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.487,
+          "momentum": 0.442
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "minneapolis-frey-veto-data-center-ordinance-override-fails",
+      "title": "Minneapolis mayor vetoes strict data-center ordinance; council fails to override as moratorium expires",
+      "summary": "Minneapolis Mayor Jacob Frey vetoed the council's data-center ordinance on Nov 19. The council had passed it 7-6 on Nov 13, with case-by-case council approval of each site plus energy, water and generator disclosure. Frey said he would sign the original staff framework but called the amended version a de facto ban. On Friday Nov 20 the council's override attempt fell short (reported 7-5; nine votes needed), a day before the city's six-month moratorium on new data centers expires.",
+      "why_it_matters": "It shows the local fight over AI data-center siting: even a progressive city is split between strict controls and an outright freeze.",
+      "key_numbers": [
+        "Passed 7-6 on Nov 13",
+        "Override 7-5 (9 needed)",
+        "6-month moratorium ends Nov 21"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "City of Minneapolis",
+        "Jacob Frey"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-19T21:56:00Z",
+      "sources": [
+        {
+          "url": "https://www.mprnews.org/story/2026/11/19/minneapolis-mayor-jacob-frey-vetoes-data-center-ordinance-denial-of-police-chief-nominee",
+          "outlet": "MPR News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Minneapolis Mayor Jacob Frey vetoes council's data center ordinance, denial of police chief nominee"
+        },
+        {
+          "url": "https://kstp.com/kstp-news/top-news/minneapolis-council-falls-short-in-attempts-to-override-frey-vetoes-on-data-centers-police-chief/",
+          "outlet": "KSTP",
+          "lang": "en",
+          "tier": "press",
+          "title": "Minneapolis council falls short in attempts to override Frey vetoes on data centers, police chief"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The 7-5 override tally comes from KSTP only.",
+      "score": {
+        "total": 48.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "china-ai-stocks-nov20-hstech-3-78pct-minimax-zhipu-chinext-3-54pct",
+      "title": "China tech sell-off deepens: Hang Seng Tech falls 3.78%, MiniMax drops about 11%, ChiNext and STAR 50 lose over 3%",
+      "original_title": "香港恒生科技指数收跌3.78% 网易大跌17%；港股大模型股下挫",
+      "summary": "The Hang Seng Tech index closed down 3.78% at 3,511.14 on Nov 20, down 7.92% for the week. The Hang Seng fell 1.89% to its lowest close since April 2025. NetEase lost about 17-18% after results. MiniMax fell about 10-11% to a record low and Zhipu about 7%; both had been down more than 12% intraday. In Shanghai and Shenzhen, ChiNext fell 3.54% to 2,212.13 and the STAR 50 fell 3.12% to 1,231.09. Semiconductors and communications equipment led losses, as the Nikkei and KOSPI each fell more than 5%.",
+      "why_it_matters": "Investors are now judging China's independent model makers on revenue quality, and AI hardware is falling with the global chip rout, so funding conditions for Chinese AI are tightening.",
+      "key_numbers": [
+        "Hang Seng Tech -3.78% to 3,511.14",
+        "HSTECH -7.92% on the week",
+        "MiniMax about -11% (record low)",
+        "Zhipu about -7%",
+        "ChiNext -3.54%",
+        "STAR 50 -3.12%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "Zhipu AI",
+        "NetEase"
+      ],
+      "tickers": [
+        "0100.HK",
+        "2513.HK"
+      ],
+      "published_at": "2026-11-20T08:15:00Z",
+      "sources": [
+        {
+          "url": "https://www.caiwennews.com/article/1710733.shtml",
+          "outlet": "财闻网",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "香港恒生科技指数收跌3.78% 网易大跌17%"
+        },
+        {
+          "url": "https://techflowpost.com/newsletter/145955",
+          "outlet": "深潮 TechFlow",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "港股收盘，MINIMAX 跌超 10%，智谱跌超 7%"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34520151",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "A股收评：超5200只个股飘绿，三大指数集体收跌，科创50%跌超3%；半导体、通信设备、地产跌幅居前"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349132/Hang-Seng-touches-lowest-since-April-2025-on-Friday-tech-shares-hits-two-year-low",
+          "outlet": "The Standard (HK)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Hang Seng touches lowest since April 2025 on Friday, tech shares hits two-year low"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "hk-tech-two-year-low-tencent-6-55pct-minimax-record-low-nov19",
+      "confidence_note": "MiniMax and Zhipu closing moves vary slightly by outlet (MiniMax -10% to -11%, Zhipu 'over 7%'). Midday reports of -10.45% and -8.28% were intraday figures. NetEase is put at -17% to -17.6%. The tickers 0100.HK (MiniMax) and 2513.HK (Zhipu) come from Chinese press codes 00100/02513.",
+      "score": {
+        "total": 47.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.393
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "house-records-tencent-150k-alibaba-75k-ai-chip-approvals",
+      "title": "Commerce licence records: Tencent cleared for 150,000 AI chips in full, Alibaba 75,000 of about 950,000 requested",
+      "summary": "A Bloomberg analysis of the Commerce licence records released by the House Foreign Affairs Committee breaks down the 879,868 approved Nvidia and AMD chips by buyer. Tencent received 150,000 across Nvidia and AMD licences, its full request. Alibaba got 75,000 of roughly 950,000 requested, and Baidu and BYD also had their full requests approved. The 21 licences ran from Dec 2025 to May 2026, against about 3.4M chips requested. Little appears to have shipped because Beijing has not approved large-scale imports.",
+      "why_it_matters": "Licences went to companies on the Pentagon's Chinese-military-company list, which adds to pressure on Commerce over Megaspeed and its China chip policy.",
+      "key_numbers": [
+        "Tencent 150,000 (full request)",
+        "Alibaba 75,000 of ~950,000",
+        "879,868 chips over 21 licences",
+        "~3.4M chips requested"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US Department of Commerce",
+        "Tencent",
+        "Alibaba",
+        "Nvidia",
+        "AMD"
+      ],
+      "tickers": [
+        "0700.HK",
+        "9988.HK",
+        "NVDA",
+        "AMD"
+      ],
+      "published_at": "2026-11-19T22:21:00Z",
+      "sources": [
+        {
+          "url": "https://www.business-standard.com/amp/world-news/us-approved-ai-chip-sales-for-china-firms-including-tencent-alibaba-data-126112000173_1.html",
+          "outlet": "Business Standard (Bloomberg)",
+          "lang": "en",
+          "tier": "press",
+          "title": "US approved AI chip sales for China firms, including Tencent, Alibaba: Data"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months",
+          "outlet": "Al Jazeera",
+          "lang": "en",
+          "tier": "press",
+          "title": "US signed off on sales of nearly 900,000 AI chips to China in six months"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "house-foreign-affairs-commerce-approved-879k-ai-chips-china",
+      "confidence_note": "New here is the per-company breakdown; the 879k total was already covered. A ByteDance figure of 150,000 appears in one trade source only and is left out.",
+      "score": {
+        "total": 47.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.698,
+          "breadth": 0.565,
+          "momentum": 0.471
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "amd-rejects-hunterbrook-china-claims-shares-fall-again",
+      "title": "AMD rejects Hunterbrook's China firmware allegations as its shares fall about 6% more",
+      "summary": "AMD said Hunterbrook's short report misrepresents its business practices and relationships, and that it complies with US export-control laws. The report alleges that blacklisted Chinese server maker IEIT Systems used at least six newer AMD firmware versions after it was added to the Entity List. It also traces $67M of 2025 licensing income to two Chinese ventures blacklisted in 2019. Hunterbrook admits the records do not by themselves prove a violation, and its affiliate is short AMD. After falling 7.72% on Nov 19, AMD dropped about 6.3% to $458.28 on Nov 20.",
+      "why_it_matters": "Export-control compliance risk is spreading from Nvidia to AMD. A Commerce/BIS response, not the short report, would decide whether this becomes a real legal issue.",
+      "key_numbers": [
+        "-7.72% to $489.19 on Nov 19",
+        "~-6.3% to $458.28 on Nov 20",
+        "$67M 2025 licensing income cited",
+        "6 firmware versions cited"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "AMD",
+        "Hunterbrook",
+        "IEIT Systems"
+      ],
+      "tickers": [
+        "AMD"
+      ],
+      "published_at": "2026-11-20T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://financefeeds.com/amd-stock-falls-again-after-hunterbrook-china-allegations/",
+          "outlet": "FinanceFeeds",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AMD Stock Drops 6% More on Hunterbrook China Firmware Claims"
+        },
+        {
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/amd-stock-company-rejects-china-related-allegations/70540369",
+          "outlet": "ad-hoc-news",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AMD stock: Company rejects China-related allegations"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/11/20/amd-slides-6-despite-jim-cramer-calling-hunterbrook-short-report-a-hitjob-nvidia-falls-3-near-damodarans-140-buy-price-intel-declines-2/",
+          "outlet": "24/7 Wall St.",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AMD Slides 6% Despite Jim Cramer Calling Hunterbrook Short Report a 'Hitjob'"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "amd-falls-hunterbrook-short-ieit-firmware-china",
+      "confidence_note": "The time is estimated. The Nov 20 price is from a single source and was captured intraday. AMD's statement is quoted from trade outlets only; no primary AMD release was found.",
+      "score": {
+        "total": 45.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.578,
+          "breadth": 0.487,
+          "momentum": 0.689
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "cac-genai-filings-sep-oct-2026-133-new-1245-total",
+      "title": "China's internet regulator adds 133 generative AI services to its filing list, taking the total to 1,245",
+      "original_title": "国家网信办：9月至10月新增133款生成式人工智能服务完成备案",
+      "summary": "The Cyberspace Administration of China said 133 more generative AI services completed national filing in September-October 2026. They include three on-device phone services and one 'anthropomorphic interaction' (companion-style) service, and one existing filing was changed. Local regulators registered another 224 apps or features that call already-filed models through APIs. As of Oct 31, 1,245 generative AI services were filed and 955 apps or features registered.",
+      "why_it_matters": "Filings grew faster than the previous two-month batch (124). The first filing under the 'anthropomorphic interaction' label shows companion-style AI now has its own regulatory track.",
+      "key_numbers": [
+        "133 new filed services (Sep-Oct)",
+        "224 new registered apps/features",
+        "1,245 cumulative filings",
+        "955 cumulative registrations",
+        "3 on-device phone services"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Cyberspace Administration of China"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34524609",
+          "outlet": "澎湃新闻（政务号）",
+          "lang": "zh",
+          "tier": "press",
+          "title": "关于发布生成式人工智能服务已备案信息的公告（2026年9月至10月）"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LC6NK6710534A4SC.html",
+          "outlet": "网易（每日经济新闻）",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国家网信办：9-10月新增133款生成式人工智能服务完成备案"
+        },
+        {
+          "url": "https://www.sohu.com/a/1104192105_122014422",
+          "outlet": "搜狐（观点网）",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国家网信办：9-10月新增133款生成式人工智能服务完成备案"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "The cac.gov.cn original was not seen. The totals are consistent with the Sep 14 notice (1,112 + 133 = 1,245; 731 + 224 = 955). Publication time is estimated (Nov 20 afternoon or evening, UTC+8).",
+      "score": {
+        "total": 45.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.393,
+          "momentum": 0.632
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "openai-gpt-live-1-1-api-standby-billing",
+      "title": "OpenAI brings GPT-Live-1.1 voice model to the API with $0.02-a-minute standby billing for idle sessions",
+      "summary": "OpenAI added GPT-Live-1.1, its full-duplex voice model, to the API along with a standby mode. On WebRTC sessions configured with wake_policy and idle_timeout_s (5-60 s), idle time is billed at $0.02 a minute against $0.05 for active inference, about 60% cheaper. Standby also works with GPT-Live-1. It does not apply to telephone calls or to simply muting the mic. Backend reasoning and tool calls are still billed separately.",
+      "why_it_matters": "Billing for idle time has been a major cost in always-on voice agents. A cheaper hold state makes long open sessions, such as companions, call-center co-pilots and devices like Dots, cheaper to run.",
+      "key_numbers": [
+        "$0.05/min active",
+        "$0.02/min standby",
+        "5-60 s idle timeout",
+        "~60% cheaper idle"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://thedefiant.io/frontier/ai/openai-brings-gpt-live-1-1-to-api-with-cheaper-standby",
+          "outlet": "The Defiant",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Brings GPT-Live-1.1 to API With Cheaper Standby"
+        },
+        {
+          "url": "https://alphasignal.ai/news/openai-ships-gpt-live-1-1-to-developers-with-60-cheaper-idle-sessions",
+          "outlet": "AlphaSignal",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Ships GPT-Live-1.1 to Developers With 60% Cheaper Idle Sessions"
+        },
+        {
+          "url": "https://dev.to/paullovelace/openai-just-put-gpt-live-11-in-the-api-and-idle-voice-sessions-are-now-60-cheaper-4oik",
+          "outlet": "DEV Community",
+          "lang": "en",
+          "tier": "social",
+          "title": "OpenAI Just Put GPT-Live-1.1 in the API, and Idle Voice Sessions Are Now 60% Cheaper"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Sources disagree on the launch date (Nov 19 vs Nov 20), so this may fall just before the window; published_at is estimated. No OpenAI primary page for 1.1 turned up in search (only the Sept 10 GPT-Live-1 API post), so figures rest on trade coverage.",
+      "score": {
+        "total": 44.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.494,
+          "breadth": 0.487,
+          "momentum": 0.554
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 2.714,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "amazon-polly-voice-cloning-gated-ga",
+      "title": "Amazon Polly launches gated voice cloning, building a custom brand voice from minutes of consented audio",
+      "summary": "AWS made voice cloning in Amazon Polly generally available as a gated release. Approved customers can build a custom voice from a few minutes of recordings by a consenting speaker. It launches in seven languages: English, Spanish, German, French, Italian, Portuguese and Hindi. Creating a cloned voice is free, and usage is billed pay-as-you-go. AWS says Polly does not keep the recordings once the voice is built and does not use them for training.",
+      "why_it_matters": "A hyperscaler is bringing self-serve voice cloning to the market served by ElevenLabs and Cartesia. The consent gating sets a template for how big clouds will ship a feature prone to abuse.",
+      "key_numbers": [
+        "7 languages",
+        "Voice creation free",
+        "A few minutes of audio"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Amazon"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-11-19T19:53:32Z",
+      "sources": [
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Amazon Polly launches voice cloning: A unique voice for your brand"
+        },
+        {
+          "url": "https://fluf.io/seller-news/story/amazon-polly-adds-gated-voice-cloning-for-custom-brand-voices-122846",
+          "outlet": "Fluf",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Amazon Polly Adds Gated Voice Cloning for Custom Brand Voices"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Published about 2 h before the window opens (within tolerance). The AWS page could not be opened; details come from search summaries of it. Per-minute or per-character pricing for cloned voices was not given.",
+      "score": {
+        "total": 42.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.7,
+          "breadth": 0.283,
+          "momentum": 0.541
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "gemini-app-gif-generation-omni-1-2-flash",
+      "title": "Google adds GIF generation to the Gemini app, powered by its Gemini Omni 1.2 Flash video model",
+      "summary": "Google began a gradual rollout of GIF creation in the Gemini app. Users can turn text, images or video into looping clips of about 3 seconds and copy or download them as .gif files. The feature uses Gemini Omni 1.2 Flash, requires a paid Google AI plan, and is launching in a handful of markets including the US, UK, Canada, Australia, Germany, Japan and Korea (Google's help page also lists France).",
+      "why_it_matters": "A small consumer feature, but it matches OpenAI's GIF generation in ChatGPT and shows Google putting its Omni video model into everyday app features.",
+      "key_numbers": [
+        "~3-second loops",
+        "7-8 countries",
+        "Paid plans only"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-20T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.androidauthority.com/gemini-gif-generation-rollout-3737901/",
+          "outlet": "Android Authority",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Gemini can now be your go-to source for making GIFs"
+        },
+        {
+          "url": "https://wisevoter.com/world/2026/11/20/google-gemini-gif-generation-rollout",
+          "outlet": "WiseVoter",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Adds GIF Generation to Gemini"
+        },
+        {
+          "url": "https://support.google.com/gemini/answer/16126339?hl=en&co=GENIE.Platform%3DAndroid",
+          "outlet": "Gemini Apps Help",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Generate videos with Gemini Apps"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.2,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "Time of day is estimated. Announced on X; one secondary source says it is not in the Gemini release notes. The country list differs between sources.",
+      "score": {
+        "total": 39.1,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.2,
+          "credibility": 0.775,
+          "breadth": 0.393,
+          "momentum": 0.669
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 1.714,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 23
+    },
+    {
+      "id": "autoragbench-agents-build-rag-systems-gpt-6-1-sol-codex",
+      "title": "AutoRAGBench tests whether coding agents can build RAG systems from scratch; GPT-6.1 Sol with Codex CLI tops at 56.1",
+      "summary": "A new arXiv benchmark, AutoRAGBench (2611.25582, submitted Nov 19), asks LLM agents to build retrieval-augmented generation systems end to end with no starter code, within a six-hour budget on one H800 GPU per task. The authors report GPT-6.1 Sol running in Codex CLI scored the highest average, 56.1. Technical takeaway: even the best agent completes only about half of what the benchmark scores in ML-systems engineering under a fixed compute budget.",
+      "why_it_matters": "Benchmarks are moving from coding puzzles to agents doing full ML engineering under fixed compute, a better proxy for how much research and engineering work agents can automate.",
+      "key_numbers": [
+        "Top avg score 56.1 (GPT-6.1 Sol + Codex CLI)",
+        "6-hour budget",
+        "1 H800 GPU per task"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "AutoRAGBench",
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T01:00:00Z",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.25582",
+          "outlet": "arXiv",
+          "lang": "en",
+          "tier": "primary",
+          "title": "AutoRAGBench: A Benchmark for LLM Agents Automating RAG System Development"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only, single primary source: arXiv could not be opened. Authors and affiliations are unknown, and the submission time is estimated (submitted Nov 19, listed Nov 20). The score scale is undefined in what was seen, so the 'about half' gloss assumes a 0-100 scale.",
+      "score": {
+        "total": 39.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 24
+    },
+    {
+      "id": "tencent-cloud-deepseek-official-api-web-search-free-refunds",
+      "title": "Tencent Cloud stops charging for web search on DeepSeek's official API models and will refund past fees",
+      "original_title": "腾讯云：11月18日12时起 DeepSeek原厂服务端联网搜索免费",
+      "summary": "Tencent Cloud said that since 12:00 Beijing time on Nov 18, server-side web search and page fetching triggered when calling DeepSeek's official ('原厂直供') models are no longer charged. Customers now pay only for tokens. Fees already charged will be refunded by Nov 30. The notice came out on Nov 20, after DeepSeek's mega-round that added Tencent as a shareholder.",
+      "why_it_matters": "Cloud platforms are cutting prices on DeepSeek's official API models, pushing agent tooling such as search toward zero cost.",
+      "key_numbers": [
+        "Free from Nov 18 12:00 (UTC+8)",
+        "Refunds by Nov 30 23:59:59"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Tencent",
+        "DeepSeek"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-20T06:47:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34520155",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯云：11月18日12时起，DeepSeek原厂服务端联网搜索免费"
+        },
+        {
+          "url": "http://stock.10jqka.com.cn/20261120/c682042021.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯云：11月18日12时起 DeepSeek原厂服务端联网搜索免费"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "The original Tencent Cloud notice was not seen; this rests on reposts. The time comes from a Jin10 flash stamped 14:47 UTC+8.",
+      "score": {
+        "total": 36.3,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.587,
+          "breadth": 0.283,
+          "momentum": 0.731
+        },
+        "coverage": 2,
+        "mentions": 3,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 25
+    },
+    {
+      "id": "xpeng-turing-ai-co-driving-vla-adaptive-deceleration-tech-day",
+      "title": "Xpeng to debut 'Turing AI co-driving' at Nov 25 Tech Day, using its VLA model to manage deceleration in manual driving",
+      "original_title": "行业首次：小鹏2026科技日将首发「图灵AI共驾」，把智能辅助驾驶能力赋能于人驾",
+      "summary": "Xpeng said its 2026 Tech Day on Nov 25 in Guangzhou (theme '原点') will debut 'Turing AI co-driving', which brings its assisted-driving AI into manual driving. The first feature, 'VLA adaptive deceleration', has the VLA model judge road conditions when the driver lifts off the accelerator and set how hard the car slows. Xpeng claims this adds 12.4% usable range in congested city driving compared with regeneration switched off. It will launch first on the G9L and MONA L05. Xpeng says its Turing AI chip has shipped more than 200,000 units since entering cars in Q3 2025.",
+      "why_it_matters": "Carmakers are starting to run onboard VLA models even when the human is driving, which gives in-car AI compute a use in every drive.",
+      "key_numbers": [
+        "12.4% range gain claimed (urban congestion)",
+        "200,000+ Turing chips shipped (by Aug 2026)",
+        "Tech Day Nov 25, Guangzhou"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Xpeng"
+      ],
+      "tickers": [
+        "9868.HK"
+      ],
+      "published_at": "2026-11-20T01:20:00Z",
+      "sources": [
+        {
+          "url": "https://www.sina.cn/weibo/detail/5367261490843834.html",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "小鹏 2026 科技日：智驾赋能人驾，松开踏板不晕车"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5367323504412427.html",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "松开踏板后 AI 接管减速，小鹏说能提升 12.4% 续航"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.2,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "This is a pre-announcement; the Tech Day itself is Nov 25. The 12.4% figure is Xpeng's own claim. Both URLs are Sina reposts. The harvest shows IT之家 and 凤凰网 coverage, but only through news.google links. Publication time comes from the harvest.",
+      "score": {
+        "total": 34.6,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.4,
+          "credibility": 0.45,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 26
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-12",
+      "title": "Meta Muse Charm AI keychain device expected to ship (price reportedly $300 with up to 12 months of free 5G)",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.pymnts.com/news/wearables/2026/meta-plans-300-price-tag-and-free-5g-for-muse-charm-ai-device/"
+    },
+    {
+      "date": "2027-12",
+      "title": "Apple's autonomous on-device AI agent: launch eyed as soon as end-2027 (Bloomberg)",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.fxleaders.com/news/2026/11/20/anthropic-and-meta-shares-slide-as-apple-develops-autonomous-ai-agent/"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Nvidia presents at UBS Global Technology and AI Conference (6:35am PT, webcast)",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://www.globenewswire.com/news-release/2026/11/19/3407166/0/en/nvidia-announces-upcoming-event-for-financial-community.html"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Deadline for Lutnick to tell House Democrats whether Nvidia tried to influence the Megaspeed probe",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://finance.biggo.com/news/53f80af0-ebc4-447b-bca5-d437e4a7ade0"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Minneapolis six-month moratorium on new data centers expires after the council fails to override Frey's veto",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://www.yahoo.com/news/politics/articles/minneapolis-city-council-fails-override-170431730.html"
+    },
+    {
+      "date": "2026-11",
+      "title": "Options trading on Anthropic (ANT) shares expected to begin week of Nov 23",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://finimize.com/content/anthropics-ipo-lost-a-key-source-of-price-support-early"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Xpeng 2026 Tech Day in Guangzhou: Turing AI co-driving debut",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://www.sina.cn/weibo/detail/5367281576054772.html"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Huawei Cloud Ascend 950 AI-cluster cloud service due for global commercial availability",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.ithome.com/1/003/981.htm"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-20T01:52Z), so everything after that comes from WebSearch. WebFetch was blocked for most news and lab domains, so many facts rest on cross-checked search-result snippets, as flagged per item. Several items first reported shortly before the window opened are included because the Nov 19 issue missed them: Google's Gemini API Tool Retrieval (18:00Z), Amazon Polly voice cloning (19:53Z) and the Muse Charm price report (20:22Z). The Riemann-hypothesis claim is unverified: the Lean proof had not been independently replayed when reported. Skipped: Claude's black-hole physics results (Nov 17), the KPMG audit trial (Nov 18), Google's self-improving harness paper (Nov 17), DaisyRose-27B (unconfirmed beyond HN), the Wuhan agent interconnection centre (Nov 19), CXMT's buyback (Nov 19 evening) and Gartner's 2027 spending forecast (thin). No new Qwen, Kimi, GLM, MiniMax, DeepSeek, Doubao or StepFun model was found in the window. Calendar: Huawei's OSTA debut happened on Nov 20 as expected.",
+  "learn": [
+    {
+      "id": "audit-the-spec-not-just-the-checker",
+      "gap": "llm-eval",
+      "title": "A formal checker certifies the stated theorem; audit the statement separately",
+      "item_ids": [
+        "claude-riemann-hypothesis-proof-claim-alpoge-lean"
+      ],
+      "why_today": "Alpöge released his Claude-assisted Riemann claim as a Lean proof, outlets disagree on whether it covers RH or GRH, and nobody has yet replayed the whole proof. Those are the two separate questions any machine-checked result raises: does it check, and is the checked statement the one claimed?",
+      "explanation": "A proof assistant's kernel guarantees that the proof term inhabits the formal statement, assuming the axioms and the kernel are sound. It says nothing about whether that statement, together with every definition it depends on, means what the English claim says. Errors hide in definitions (a mis-specified zeta function, a wrong domain), in dropped hypotheses, or in an added axiom or 'sorry' that the checker accepts. The same split runs through agent and LLM evaluation: a passing unit-test suite or grader certifies the spec it encodes, and a weak spec lets wrong answers through, which is reward hacking under another name. In practice, review the statement and its definitions by hand, list the axioms used (Lean's #print axioms), and test the spec against deliberately bad 'proofs' that it ought to reject. The toy below shows a dropped divisibility condition letting a nonsense witness verify.",
+      "python": "# A checker certifies the statement it was given, not the one you meant.\n# Claim: every n >= 2 has a certificate f with 1 < f, f | n, and (f == n or f*f <= n).\n# A \"proof\" here is a function producing f; the checker runs the spec on every n < N.\nimport math\n\ndef intended(n, f):\n    return 1 < f and n % f == 0 and (f == n or f * f <= n)\n\ndef weakened(n, f):                    # the formal statement silently dropped \"f divides n\"\n    return 1 < f and (f == n or f * f <= n)\n\ndef good_proof(n):                     # smallest factor: a genuine witness\n    return next((p for p in range(2, math.isqrt(n) + 1) if n % p == 0), n)\n\ndef bad_proof(n):                      # nonsense witness: always 2 (or n when n < 4)\n    return 2 if n >= 4 else n\n\nN = 50_000\nfor name, proof in [(\"good\", good_proof), (\"bad\", bad_proof)]:\n    ok_w = all(weakened(n, proof(n)) for n in range(2, N))\n    ok_i = all(intended(n, proof(n)) for n in range(2, N))\n    print(f\"{name:4s} proof | passes weakened spec: {ok_w} | passes intended spec: {ok_i}\")\n# The checker's 'verified' is only as strong as the statement: audit the spec separately.\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "Theorem Proving in Lean 4 (Avigad, de Moura, Kong, Ullrich)",
+          "url": "https://lean-lang.org/theorem_proving_in_lean4/"
+        }
+      ]
+    },
+    {
+      "id": "moe-total-vs-active-params",
+      "gap": "llm-internals",
+      "title": "MoE sizing: memory follows total parameters, compute follows active ones",
+      "item_ids": [
+        "tencent-hy4-770b-open-weights-hunyuan-llm-fully-open"
+      ],
+      "why_today": "Tencent's open Hy4 is reported as a MoE with about 770B total and 49B active parameters, a 15.7x gap that sets what hardware you need to serve it.",
+      "explanation": "In a mixture-of-experts layer a router sends each token to k of E expert FFNs, so the forward pass costs about 2 FLOPs per active parameter, the same as a dense model of the active size. Every expert must still sit in memory, because the next token may route anywhere, so weight memory scales with total parameters. Decode at small batch is bound by memory bandwidth: each step reads the active experts' weights, so latency tracks active bytes. As batch size grows, tokens spread over more experts until a step touches nearly all of them, and serving cost moves toward the dense-total regime. That trade-off is why MoE is cheap per token at scale but needs many GPUs, or expert offloading, just to load the model. The numbers below are illustrative and ignore KV cache, activations and parallelism overheads.",
+      "math": "\\text{FLOPs/token} \\approx 2N_{active}, \\qquad M_{weights} = N_{total}\\, b, \\qquad t_{decode} \\gtrsim \\frac{\\min(N_{total},\\, B N_{active})\\, b}{BW}",
+      "python": "# MoE: memory scales with TOTAL parameters, per-token compute with ACTIVE ones.\n# Illustrative numbers only, using the reported 770B total / 49B active split.\ntotal, active = 770e9, 49e9\ndense_equiv = 49e9\n\nfor name, bytes_per_param in [(\"BF16\", 2), (\"FP8\", 1), (\"INT4\", 0.5)]:\n    weights_gb = total * bytes_per_param / 1e9\n    gpus_80gb = weights_gb / 80\n    print(f\"{name}: weights {weights_gb:,.0f} GB -> at least {gpus_80gb:.1f} x 80GB GPUs just to hold them\")\n\nflops_per_token = 2 * active          # forward pass ~ 2 FLOPs per active parameter\nprint(f\"forward FLOPs/token ~ {flops_per_token:.2e} (same as a {dense_equiv/1e9:.0f}B dense model)\")\nprint(f\"memory/compute ratio vs a 49B dense model: {total/active:.1f}x more weight bytes per FLOP\")\n\n# Decode is memory-bandwidth bound: at batch 1 each token must read the active experts' weights.\nbw = 3.35e12                           # bytes/s, illustrative HBM bandwidth per GPU\nfor batch in (1, 32):\n    bytes_read = min(total, active * batch)  # FP8 bytes; worst case: tokens spread over different experts\n    print(f\"batch {batch}: ~{bytes_read/1e9:,.0f} GB of expert weights touched per step \"\n          f\"-> {bytes_read/bw*1e3:.1f} ms on one GPU's bandwidth\")\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "Switch Transformers (Fedus, Zoph, Shazeer, 2021)",
+          "url": "https://arxiv.org/abs/2101.03961"
+        }
+      ]
+    }
+  ]
+}
