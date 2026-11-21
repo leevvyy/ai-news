@@ -1,0 +1,1358 @@
+{
+  "date": "2026-11-21",
+  "window": {
+    "start": "2026-11-20T21:48:00Z",
+    "end": "2026-11-21T21:48:00Z"
+  },
+  "tldr": [
+    "The Information reports SoftBank's Masayoshi Son explored a roughly $1 trillion buyout of SK hynix, a ~40% premium to its peak value. SoftBank says the idea is no longer under consideration, and any deal would need Seoul's approval.",
+    "Thinking Machines open-sourced Inkling 2 Mini, a 26.4B-total / 3.4B-active looped MoE with a 1M-token context that runs in about 20GB. In maths, Anthropic's Alpöge and NYU's Buckmaster posted an unverified, AI-assisted 79-page claim of unforced 3D Navier-Stokes blowup.",
+    "Privacy pushback on agents: Signal now blocks screenshots and OS AI agents by default, and OpenRouter warned that prompts sent to MiniMax, even 'zero data retention' traffic, may have been read after a ~2M-canary Dragos study. Tencent's Hunyuan team says its next model will be much larger despite a chip shortage."
+  ],
+  "items": [
+    {
+      "id": "softbank-son-explored-1-trillion-sk-hynix-buyout",
+      "title": "The Information: SoftBank's Son explored a roughly $1 trillion buyout of SK hynix; idea since dropped",
+      "summary": "SoftBank Group CEO Masayoshi Son sounded out Wall Street institutions about financing a takeover of SK hynix at roughly $1 trillion, according to The Information, as relayed by Reuters. The price reportedly reflected SK hynix's recent peak value plus a 40% control premium. SK hynix's market value is now about $578B. SoftBank said it reviews many opportunities and this one is no longer under active consideration. SK hynix said it had no knowledge of the matter and noted that any foreign acquisition would need prior Korean government approval.",
+      "why_it_matters": "It shows how far Son has been willing to go to control AI memory supply, though Korean approval rules and the size make a deal impractical. The report lands as memory stocks swing sharply in the AI selloff.",
+      "key_numbers": [
+        "~$1T floated price",
+        "~$577.7B SK hynix market value",
+        "40% control premium"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "SoftBank Group",
+        "SK hynix",
+        "Masayoshi Son"
+      ],
+      "tickers": [
+        "9984.T",
+        "000660.KS"
+      ],
+      "published_at": "2026-11-20T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/21/softbanks-son-explored-1-trillion-buyout-of-sk-hynix-the-information-reports",
+          "outlet": "The Star (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "SoftBank's Son explored $1 trillion buyout of SK Hynix, the Information reports"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/softbank-s-son-explored-1-trillion-buyout-of-sk-hynix-the-information-reports-ce785ed3df8bf025",
+          "outlet": "MarketScreener (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "SoftBank's Son explored $1 trillion buyout of SK Hynix, the Information reports"
+        },
+        {
+          "url": "https://thenextweb.com/news/softbank-son-sk-hynix-buyout-1-trillion-the-information",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SoftBank's Son explored a $1tn SK Hynix buyout, The Information reports"
+        },
+        {
+          "url": "https://www.asiaone.com/asia/softbanks-son-explored-13-trillion-buyout-sk-hynix-information-reports",
+          "outlet": "AsiaOne",
+          "lang": "en",
+          "tier": "press",
+          "title": "SoftBank's Son explored $1.3 trillion buyout of SK Hynix, the Information reports"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "published_at is ESTIMATED: search summaries say The Information reported on Nov 20, and The Star dates its Reuters copy Nov 21 (MYT). The exact time is unknown. AsiaOne's headline says $1.3 trillion, while the others say $1 trillion. All facts come from search snippets; no page was fetched.",
+      "score": {
+        "total": 68.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "thinking-machines-inkling-2-mini-open-weights",
+      "title": "Thinking Machines releases Inkling 2 Mini, a 26.4B open-weight looped MoE that runs on a laptop",
+      "summary": "Thinking Machines Lab released Inkling 2 Mini under Apache 2.0, a mixture-of-experts model with 26.4B total and 3.4B active parameters that needs roughly 20GB of memory and has a 1M-token context window. It is a looped transformer: its middle layers run multiple times per token (three, per one report), so it does more internal reasoning per token. Weights are on Hugging Face, it is on Tinker for inference and fine-tuning, and Ollama supports it on Macs with at least 32GB of RAM. The lab claims it leads open-weight models under 100B parameters on DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%).",
+      "why_it_matters": "A credible US lab shipping a laptop-class open-weight agentic coder, with a looped architecture, adds competition to Chinese small open models and to cloud-only coding agents. It is also Thinking Machines' clearest bid for developer mindshare beyond Tinker.",
+      "key_numbers": [
+        "26.4B total / 3.4B active params",
+        "~20GB memory",
+        "1M-token context",
+        "48.2% DeepSWE v1.1",
+        "46.5% Vals Index v2.2",
+        "Apache 2.0"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "Thinking Machines Lab"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T20:22:00Z",
+      "sources": [
+        {
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "outlet": "Thinking Machines Lab",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Inkling 2 Mini"
+        },
+        {
+          "url": "https://huggingface.co/blog/inkling2mini",
+          "outlet": "Hugging Face",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup"
+        },
+        {
+          "url": "https://thenextweb.com/news/inkling-2-mini-thinking-machines-looped-open-weights-laptop",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "Thinking Machines releases Inkling 2 Mini, a looped AI model for laptops"
+        },
+        {
+          "url": "https://www.testingcatalog.com/thinking-machines-releases-inkling-2-mini-looped-open-model/",
+          "outlet": "TestingCatalog",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Thinking Machines releases Inkling 2 Mini open-weight model"
+        },
+        {
+          "url": "https://x.com/kimmonismus/status/2123874600761303296",
+          "outlet": "X (@kimmonismus)",
+          "lang": "en",
+          "tier": "social",
+          "title": "Thinking Machines released Inkling 2 Mini, an open-weights model small enough to run on your laptop"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Released Nov 20 per search results; exact time unknown. published_at is an upper bound: the earliest timestamped post seen (X post ID decodes to 2026-11-20T20:22Z); the HF blog is date-stamped Nov 20 only. If the release was before ~15:48Z it falls outside the 6h tolerance; it was not in recent.txt. Benchmarks are vendor-reported. Primary pages could not be fetched (WebFetch DNS-blocked); specifics come from search snippets corroborated across TNW, daily.dev, TestingCatalog and the X post. 'Three times per token' looping comes from one social post only.",
+      "score": {
+        "total": 66.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.912,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "alpoge-buckmaster-unforced-navier-stokes-blowup-claim",
+      "title": "Alpöge and Buckmaster post AI-assisted claim of unforced finite-time blowup for 3D Navier-Stokes",
+      "summary": "NYU's Tristan Buckmaster and Anthropic mathematician Levent Alpöge posted a 79-page paper dated Nov 20 claiming finite-time blowup for the 3D Navier-Stokes equations with no external force, the version most mathematicians consider the 'real' problem. OpenAI's September result needed a precisely tuned forcing term. Buckmaster said the write-up is unpolished and heavily LLM-assisted, using Anthropic and OpenAI models including Codex. A companion Euler paper with Matei Coiculescu comes with a Lean formalisation. Terence Tao called the paper technically human-readable with a broadly clear strategy, but said more work is needed before it is a properly written proof.",
+      "why_it_matters": "If it holds, it would be a much stronger AI-assisted result than OpenAI's forced-blowup proof, and it sharpens the credit dispute between Buckmaster and OpenAI. It lands a day after Alpöge's Riemann-hypothesis claim, so AI-assisted proofs of famous problems are arriving faster than experts can check them.",
+      "key_numbers": [
+        "79-page paper",
+        "no external forcing",
+        "55-page companion Euler paper (Lean-formalised)"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "OpenAI",
+        "New York University"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/",
+          "outlet": "Scientific American",
+          "lang": "en",
+          "tier": "press",
+          "title": "AI just solved the 'real' Navier-Stokes problem"
+        },
+        {
+          "url": "https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "Navier-Stokes can blow up with no outside force, Buckmaster and Alpöge say"
+        },
+        {
+          "url": "https://officechai.com/ai/tristan-buckmaster-levent-alpoge-claim-proof-of-navier-stokes-millennium-prize-problem-without-forcing/",
+          "outlet": "OfficeChai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Tristan Buckmaster, Levent Alpöge Claim Proof Of Navier-Stokes Millennium Prize Problem Without Forcing"
+        },
+        {
+          "url": "https://www.unite.ai/buckmaster-and-alpoge-post-ai-fluid-blowup-proofs-dispute-openai-contact/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Buckmaster and Alpöge Post AI Fluid Blowup Proofs, Detail OpenAI Calls"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "UNVERIFIED claim: not peer-reviewed, and no independent expert has confirmed it. The paper is dated Nov 20; posting time unknown, so published_at (20:00Z) is an ESTIMATE. If it was posted before ~15:48Z it falls outside the window tolerance; aggregators listed it in Nov 21 roundups. Tao quotes, the 79-page length and the 55-page Euler companion come from search snippets (one report says the Lean certificate of numerical data is not yet included). Separate from the already-covered Riemann item (claude-riemann-hypothesis-proof-claim-alpoge-lean), so follow_up_of is null. Scientific American headline seen in search but not fetched.",
+      "score": {
+        "total": 64.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.416
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 2.714,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "signal-blocks-screenshots-default-os-ai-agents",
+      "title": "Signal blocks screenshots by default on iOS and Android to keep OS-level AI agents out of chats",
+      "summary": "Signal now blocks screenshots by default on iOS 27 and adds a 'Block Siri AI' toggle, on by default, which also hides chats in the App Switcher. On supported Android devices, its Screen Security feature switches on when an AI assistant tries to read the screen. President Meredith Whittaker called OS-built AI agents an 'existential threat' to Signal. Signal concedes the gaps: the block won't work on every Android device, there is no reliable block on macOS, agents may still reach data through the filesystem, and a contact who disables protections exposes the conversation on their own device.",
+      "why_it_matters": "It is the first major app to turn on anti-agent defences by default on phones, which puts pressure on Apple and Google to give apps enforceable opt-outs from on-device agents such as Siri AI, Gemini and Meta's Muse. Agent builders that rely on screen-reading should expect more apps to follow.",
+      "key_numbers": [
+        "on by default on iOS 27",
+        "Android: auto Screen Security when an AI reads the screen"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Signal",
+        "Apple",
+        "Google",
+        "Meta"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://signal.org/blog/protecting-your-privacy/",
+          "outlet": "Signal",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Restricting AI agents in mobile operating systems platforms from capturing data"
+        },
+        {
+          "url": "https://gizmodo.com/signal-is-fighting-to-keep-ai-agents-out-of-your-private-messages-2000843160",
+          "outlet": "Gizmodo",
+          "lang": "en",
+          "tier": "press",
+          "title": "Signal Is Fighting to Keep AI Agents Out of Your Private Messages"
+        },
+        {
+          "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/",
+          "outlet": "Engadget",
+          "lang": "en",
+          "tier": "press",
+          "title": "Signal now blocks screenshots by default to stymie AI agents"
+        },
+        {
+          "url": "https://thenextweb.com/news/signal-ai-agents-blocks-screenshots-siri-gemini-whittaker",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "Signal blocks Siri AI and Gemini from reading chats on iPhone and Android"
+        },
+        {
+          "url": "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots",
+          "outlet": "Decrypt",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Signal Calls OS-Level AI an 'Existential Threat' and Blocks Screenshots to Fight It"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Announced Nov 20 per coverage; exact time unknown, so published_at (18:00Z) is an ESTIMATE. The HN thread had 508 points by the 01:41Z harvest, which suggests a US-afternoon post, but if it was before ~15:48Z it falls outside the tolerance. The Signal blog URL is taken from the harvest's HN listing and was not fetched; the post's title as listed on HN is used. Details come from search snippets across Gizmodo, Engadget, TNW and Decrypt. Related to the earlier Meta Muse / Signal reporting but a distinct Signal action.",
+      "score": {
+        "total": 64.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.736,
+          "momentum": 0.583
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "openrouter-minimax-zdr-prompts-may-have-been-read",
+      "title": "OpenRouter warns prompts routed to MiniMax, including 'zero data retention' traffic, may have been read",
+      "summary": "OpenRouter emailed customers that prompts and outputs sent to MiniMax models may have been accessed by a third party, and removed the Zero Data Retention label from the affected MiniMax endpoints while it investigates. The notice follows a Dragos study by HD Moore that seeded about two million prompts with canary links and credentials; links sent to MiniMax were opened 40 to 130 hours later, including requests flagged ZDR. Per OpenRouter, MiniMax told reseller StreamLake that content moderation was enabled on its endpoints before October 22 and that it has since enabled ZDR. Dragos separately says at least three AI hosting providers were breached by attackers copying customer prompts, none of which knew until notified.",
+      "why_it_matters": "It shows that 'zero data retention' flags on API routers are only as good as every downstream reseller and host, which matters for any enterprise sending code or secrets through aggregators. Expect pressure on routers to audit their supply chains and publish provider-level retention attestations.",
+      "key_numbers": [
+        "~2M canary prompts (Dragos)",
+        "links opened 40-130h after request",
+        "≥3 AI hosting providers breached",
+        "~2/3 of ZDR-flagged requests fetched (Dragos, per reports)"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "OpenRouter",
+        "MiniMax",
+        "Dragos"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-11-21T08:04:00Z",
+      "sources": [
+        {
+          "url": "https://startupfortune.com/openrouter-warns-minimax-prompts-may-have-been-read-by-a-third-party/",
+          "outlet": "Startup Fortune",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenRouter warns MiniMax prompts may have been read by a third party"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-openrouter-test-links-sent-to-minimax-opened-40-130h-later/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenRouter: Test Links Sent to MiniMax Opened 40-130h Later"
+        },
+        {
+          "url": "https://thecybersecguru.com/news/openrouter-minimax-zero-data-retention-canary-prompts/",
+          "outlet": "The CyberSec Guru",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenRouter MiniMax Prompts Read: Why ZDR Labels Failed"
+        },
+        {
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "outlet": "Dragos",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Three breaches, endless leaks: Your AI supply chain needs canaries"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=50585962",
+          "outlet": "Hacker News",
+          "lang": "en",
+          "tier": "social",
+          "title": "Tell HN: OpenRouter prompts to Minimax may have been read"
+        },
+        {
+          "url": "https://x.com/thecybersecguru/status/2124051200475549837",
+          "outlet": "X (@thecybersecguru)",
+          "lang": "en",
+          "tier": "social",
+          "title": "BREAKING: OpenRouter is warning users that their private AI prompts may have been read by third parties"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "OpenRouter's customer email itself was not seen; details (ZDR label removal, StreamLake/MiniMax explanation, 40-130h figure) come from search snippets of secondary/trade outlets. Sources disagree on the affected date range (June-October 2026 vs Sept 23-Oct 19, possibly also ERNIE 4.5 VL). published_at is estimated from the earliest timestamped post seen (X post decoded to 2026-11-21T08:04Z); the email may have gone out late Nov 20 UTC. The Dragos post itself dates to Nov 19 and was not previously covered, so it is folded in here as context. No page fetched (WebFetch blocked); Dragos figures from search snippets.",
+      "score": {
+        "total": 62.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.632,
+          "momentum": 0.826
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "ai-selloff-week-sp500-dow-correction-nvidia-seventh-weekly-loss",
+      "title": "AI selloff ends the week with S&P 500 and Dow in correction; Nvidia falls 14% and posts a seventh straight weekly loss",
+      "summary": "US stocks closed sharply lower on Friday Nov 20 as the AI sell-off deepened. Reuters and others reported that the S&P 500 and Dow joined the Nasdaq in correction territory. Nvidia fell about 14% on the day, a seventh straight weekly decline and its longest losing streak since the 2008 financial crisis, per CNBC. Anthropic gave back most of its IPO pop, closing around $88 according to one report. In Asia, Taiwan's market had its worst week since 1990, with TSMC down about 15.8% on the week. NPR's weekend coverage tied the rout to doubts about AI financing and Nvidia's circular investments, and to post-midterm political risk for data centers.",
+      "why_it_matters": "A correction in the broad indexes moves the AI trade from a sector rout to a macro event. It raises funding costs for neoclouds and labs and puts pressure on the coming wave of AI IPOs and debt deals.",
+      "key_numbers": [
+        "NVDA -14% Friday",
+        "7 straight weekly losses (longest since 2008)",
+        "TSMC -15.8% on the week",
+        "ANT ~$88.30 Friday close (one report)"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Anthropic",
+        "TSMC"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T21:00:32Z",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis"
+        },
+        {
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia",
+          "outlet": "NPR",
+          "lang": "en",
+          "tier": "press",
+          "title": "The AI boom had a really bad week — and it's raising loud alarms"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/asia/26/11/63470648/taiwan-stocks-worst-week-since-1990-16nm-export-rules-tsmc",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Taiwan Stocks Post Worst Week Since 1990 on 16nm Chip Curbs"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": "ai-rout-nov20-nasdaq-erases-2026-gain-micron-softbank-kospi",
+      "confidence_note": "This is the Friday-close and weekend follow-up to items already published (ai-rout-nov20..., reuters-sec-nvidia-probe...-13pct). The new facts are the S&P 500 and Dow corrections, the 7-week streak and the weekly totals. The Reuters close story was seen only as a news.google link in the harvest (21:00Z), so it is not cited. Weekly S&P figures conflict across sources and are omitted. The ANT close comes from a single secondary source.",
+      "score": {
+        "total": 60.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.592
+        },
+        "coverage": 8,
+        "mentions": 5,
+        "baseline": 4.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "tencent-hunyuan-reddit-ama-next-model-larger-hy4-mini",
+      "title": "Tencent's Hunyuan team says next model will be much larger; Hy4-mini and Flash-Lite are on the roadmap",
+      "original_title": "姚顺雨与腾讯混元团队首次公开问答：下一代模型将显著扩容，也会推出小模型",
+      "summary": "Tencent chief AI scientist Yao Shunyu and the Hunyuan research team held a two-hour Reddit AMA on r/LocalLLaMA (Nov 20, 8-10am PT). They said the next Hy generation will significantly scale up parameters, while Hy4 will keep improving through post-training and large-scale reinforcement learning. They confirmed a Hy4-mini and a Flash-Lite model are on the roadmap, said they are weighing 24B-31B dense models and a smaller open image model, and declined to confirm 1.5T-2T parameter figures raised by users. They acknowledged limited access to advanced chips and said they are using existing resources as fully as possible to catch up.",
+      "why_it_matters": "This follows Tencent's warning that compute limits could delay its next Hunyuan model. It shows Tencent still plans a scale-up despite US chip curbs, and it is courting the local-model developer community that Qwen and DeepSeek dominate.",
+      "key_numbers": [
+        "~2-hour AMA",
+        "Hy4 flash: 224B total / 12B active",
+        "24B-31B dense models under consideration"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://x.com/TencentAI_News/status/2123953842761191887",
+          "outlet": "Tencent AI (X)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "A few things the Hy team hadn't said publicly before, straight from today's AMA"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-21/doc-iniznhsh6798925.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "姚顺雨与腾讯混元团队首次公开问答：下一代模型将显著扩容，也会推出小模型"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261121/herald/d4aef80719405a6afb6f492d241df3cb.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "算力约束下，腾讯姚顺雨携团队回答混元“一切”"
+        },
+        {
+          "url": "https://eu.36kr.com/en/p/4078768364754050",
+          "outlet": "36Kr",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Tencent's Yao Shunyu Team Late-Night Full Response: Computing Power Shortages, Benchmark Gaming Models, and In-Depth Strategic Insights on Leiting"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LC8LH6AF05118O92.html",
+          "outlet": "网易",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "姚顺雨现身Reddit答问两小时：混元后训练最难的问题，是过度思考"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "tencent-next-hunyuan-delayed-compute-workbuddy-500m-arr",
+      "confidence_note": "The AMA ran 16:00-18:00Z Nov 20, about 4-6h before the window opens; Chinese write-ups landed Nov 21 Beijing time. Details come from the official Tencent AI X thread (seen as a search snippet) and media accounts. I did not read the Reddit thread directly. Some reports say the team favours MLA over GQA and warns that very sparse MoE hurts inference; these are snippet-level details, so I left them out of the summary.",
+      "score": {
+        "total": 60.0,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.777,
+          "momentum": 0.322
+        },
+        "coverage": 9,
+        "mentions": 1,
+        "baseline": 1.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "bessent-no-new-china-chip-curbs-h200-threshold-huang-not-discussed",
+      "title": "Bessent says no further China chip curbs needed, H200 stays the threshold, and Huang did not come up with Xi",
+      "summary": "Treasury Secretary Scott Bessent told CNBC on Friday that he does not anticipate any change in US AI-chip policy toward China after the Trump-Xi talks in Shenzhen, saying the two sides had agreed H200s are 'the threshold level of chips' that can be sold to China and that current export controls plus the new remote-access rule are sufficient. He said Jensen Huang was not mentioned in the talks, although Trump told Fox News he 'might have' raised the situation briefly with Xi. Bessent attributed Nvidia's halt of licensed shipments to China to weak demand rather than policy, and reportedly said Commerce had delayed adding Megaspeed to a US restriction list.",
+      "why_it_matters": "It signals no further tightening from Treasury after the Nov 16 remote-access rule, which eases one overhang for Nvidia and AMD. But Bessent's remark that Commerce was slow on Megaspeed adds to the pressure on Lutnick.",
+      "key_numbers": [
+        "H200: agreed export threshold"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Scott Bessent",
+        "Nvidia",
+        "Donald Trump",
+        "Xi Jinping",
+        "Megaspeed"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T15:52:58Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang wasn't mentioned in latest talks with China, Bessent says"
+        },
+        {
+          "url": "https://www.usnews.com/news/business/articles/2026-11-20/treasury-secretary-says-no-further-restrictions-are-needed-for-nvidia-chip-exports-to-china",
+          "outlet": "U.S. News & World Report (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Treasury Secretary Says No Further Restrictions Are Needed for Nvidia Chip Exports to China"
+        },
+        {
+          "url": "https://qz.com/bessent-h200-china-chip-policy-unchanged-trump-xi-112026",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bessent said U.S. AI chip policy toward China is unchanged after Trump-Xi talks"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "trump-xi-shenzhen-talks-ai-cooperation-no-chip-deal-peace-declaration",
+      "confidence_note": "First seen 15:52Z Nov 20, at the very edge of the 6h pre-window allowance. Quotes and the Megaspeed-delay remark come from search snippets (CNBC, AP via US News, Quartz, IBTimes), not fetched pages. Note the tension with Bessent's own Nov 15 call for an outside Nvidia CEO and, per IBTimes, earlier support for tougher limits.",
+      "score": {
+        "total": 57.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "huang-agrees-public-senate-banking-testimony",
+      "title": "Jensen Huang will testify publicly before the Senate Banking Committee, chair Tim Scott's office says",
+      "summary": "A spokesperson for Senate Banking chair Tim Scott said on Friday that former Nvidia CEO Jensen Huang will testify in public, rather than in a closed-door interview, on export controls and the Megaspeed affair. No date has been set; Scott had originally requested Dec 3 and said he hopes to hear from Huang and Commerce Secretary Howard Lutnick 'before Christmas'. It would reportedly be Huang's first public testimony before Congress. Separately, he is due for a closed-door interview with three House committees on Dec 1.",
+      "why_it_matters": "A public hearing puts Huang under oath on camera about Megaspeed and Nvidia's China sales while the SEC, California AG and House probes run, raising headline risk for Nvidia and for Lutnick's Commerce Department.",
+      "key_numbers": [
+        "Dec 3: date originally requested",
+        "Dec 1: closed-door House interview"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Jensen Huang",
+        "Senate Banking Committee",
+        "Nvidia",
+        "Howard Lutnick"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T19:27:38Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/jensen-huang-testify-senate-panel-164506315.html",
+          "outlet": "Yahoo News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang to testify before Senate panel"
+        },
+        {
+          "url": "https://qz.com/jensen-huang-howard-lutnick-senate-banking-testify-111826",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang and Howard Lutnick agreed to testify before Senate Banking Committee"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "huang-agrees-closed-door-house-testimony-no-date",
+      "confidence_note": "CNBC timestamp from harvest feed (19:27Z Nov 20, ~2h before window start). CNBC page could not be fetched; details ('public', no date, 'before Christmas', first public testimony) come from search snippets of CNBC/Yahoo/Quartz. The Quartz piece (Nov 18) is earlier context on Huang and Lutnick agreeing to appear.",
+      "score": {
+        "total": 57.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.561
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 1.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "nyt-huang-humiliated-nvidia-staff-years-bloomberg-complaints",
+      "title": "NYT: Huang humiliated Nvidia staff for two decades; Bloomberg says employees complained years ago",
+      "summary": "The New York Times, citing more than a dozen current and former Nvidia employees, reported that Jensen Huang verbally abused and publicly humiliated staff for more than 20 years, creating a climate of fear in which employees filtered what reached him. One cited example was Huang singling out executive Jay Puri in a February meeting of over 30 executives. Bloomberg separately reported that employees had complained about Huang's behaviour years ago. Reports differ on Huang's response: some say his spokesman called the allegations 'fabrications that are now impossible to disprove', others that he declined to comment.",
+      "why_it_matters": "It strengthens the board's case against bringing Huang back as Altimeter, Atreides and Musk push for his return, and it bears on the governance questions in the SEC and shareholder cases.",
+      "key_numbers": [
+        "12+ current and former employees",
+        "20+ years"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Jensen Huang",
+        "Nvidia",
+        "The New York Times"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-20T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/articles/jensen-huang-humiliated-nvidia-employees-213237416.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang humiliated Nvidia employees, report alleges"
+        },
+        {
+          "url": "https://en.sedaily.com/world/2026/11/21/jensen-huang-berated-nvidia-staff-for-20-years-nyt-reports",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang Berated Nvidia Staff for 20 Years, NYT Reports"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/nvidia-staff-complained-about-huang-s-behavior-years-ago-video",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Employees Complained About Huang's Behavior Years Ago"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The NYT original URL was not found. Details come from secondary coverage (Yahoo, SEDaily, RedState, Unusual Whales, Implicator). published_at is ESTIMATED (NYT published Friday Nov 20; RedState and Yahoo items are dated Nov 20; Bloomberg video at 18:20Z). The 'fabrications' quote and the 'declined to comment' accounts conflict across secondary sources.",
+      "score": {
+        "total": 53.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.561
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 1.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "coreweave-dips-below-40-ipo-price-debt-worries",
+      "title": "CoreWeave briefly falls below its $40 IPO price for the first time as debt worries mount",
+      "summary": "CoreWeave shares touched an intraday low of $39.96 on Friday Nov 20, below the $40 IPO price for the first time since listing, and about 79% below the June 2025 peak of $187. Reports cite about $47B of debt at end-September and Q3 net interest expense of $846M, about 23% of revenue. Its 9.75% 2031 bonds trade near 80 cents on the dollar, a yield of about 16%. Co-founder Brian Venturo has disclosed a $30M purchase of the company's bonds.",
+      "why_it_matters": "CoreWeave is the bellwether for debt-funded GPU clouds, so breaking its IPO price signals that credit markets are repricing the neocloud model just as SpaceX, Oracle and others lean on GPU-backed debt.",
+      "key_numbers": [
+        "$39.96 intraday low vs $40 IPO",
+        "-79% from $187 peak",
+        "~$47B debt",
+        "~16% bond yield"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "CoreWeave"
+      ],
+      "tickers": [
+        "CRWV"
+      ],
+      "published_at": "2026-11-20T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://beincrypto.com/coreweave-stock-below-ipo-price/",
+          "outlet": "BeInCrypto",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CoreWeave Briefly Trades Below $40 IPO Price Amid Financing Worries"
+        },
+        {
+          "url": "https://en.coinotag.com/coreweave-slips-below-40-ipo-price",
+          "outlet": "COINOTAG",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CoreWeave (CRWV) Falls Below $40 IPO Price"
+        },
+        {
+          "url": "https://www.tipranks.com/news/coreweave-stock-plunges-toward-its-40-ipo-price-as-66-2-billion-debt-load-rattles-ai-investors",
+          "outlet": "TipRanks",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CoreWeave Stock Plunges Toward Its $40 IPO Price as $66.2 Billion Debt Load Rattles AI Investors"
+        },
+        {
+          "url": "https://www.streetinsider.com/Investing/CoreWeave+shares+on+debt+concerns,+Anthropic+selloff/27380081.html",
+          "outlet": "StreetInsider",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CoreWeave shares on debt concerns, Anthropic selloff"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Only trade or crypto outlets were found; no major-press confirmation. published_at is ESTIMATED (intraday Friday Nov 20 US session). Debt figures vary: TipRanks cites $66.2B total debt load versus ~$47B in others. The closing price was not confirmed.",
+      "score": {
+        "total": 49.4,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.578,
+          "breadth": 0.565,
+          "momentum": 0.541
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "fortune-us-data-centers-serve-chinese-models-remote-access-gap",
+      "title": "Fortune: US-owned data centres full of American chips are serving Chinese AI models worldwide",
+      "summary": "A Fortune analysis published Nov 21 finds US-owned data centres still rent capacity to inference providers that serve Chinese open models to users worldwide, and that Nvidia itself publishes guides for deploying Chinese models on its hardware. The piece weighs this against the Commerce Department's Nov 16 interim final rule, which requires licences for remote access to advanced chips by companies headquartered in China, Macau or other D:5 countries. Analysts told Fortune the rule could hurt Southeast Asian hubs that want to host Chinese customers, with Megaspeed's Malaysian facilities as the central case.",
+      "why_it_matters": "It shows a gap the remote-access rule does not close: serving Chinese models from US infrastructure helps them spread globally even when the customers are not Chinese. That could invite pressure for a broader rule.",
+      "key_numbers": [
+        "Nov 16: BIS remote-access interim final rule",
+        "Nov 19: rule took effect"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Bureau of Industry and Security",
+        "Nvidia",
+        "Megaspeed"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-21T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Data centers full of U.S. chips are serving Chinese AI models–undermining Trump's tech ambitions"
+        },
+        {
+          "url": "https://www.dagens.com/technology/ai/us-computing-infrastructure-accelerates-global-spread-of-chinese-ai-models",
+          "outlet": "Dagens",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US computing infrastructure accelerates global spread of Chinese AI models"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": "bis-remote-access-chip-rule-five-country-licenses-diffusion-rescinded",
+      "confidence_note": "This is an analysis piece. The date (Nov 21) comes from the Fortune URL; the time is ESTIMATED. Content comes from search snippets, since the Fortune page was not fetched. Dagens appears to summarise Fortune, so it is not independent; inkl and wdctv are syndicated copies.",
+      "score": {
+        "total": 47.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.587,
+          "breadth": 0.393,
+          "momentum": 0.583
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "china-gpu-makers-rebut-samsung-foundry-rumour-metax-c600",
+      "title": "Chinese GPU makers respond after a Samsung foundry-scrutiny rumour sinks shares; MetaX says C600 is in volume shipment",
+      "original_title": "沐曦股份：曦云C600已大规模出货",
+      "summary": "A rumour that Samsung is tightening look-through checks on foundry customers hit China's listed GPU designers on Nov 20. Enflame closed limit-down, MetaX fell 14.72%, Moore Threads fell 8.34%, Hong Kong-listed Biren closed down 4.02%, and Iluvatar CoreX fell as much as 22% intraday. Enflame and Iluvatar issued responses. MetaX said its Xiyun C600, built on a domestic supply chain and benchmarked against mainstream international GPUs, is already in large-scale shipment to computing centres and the finance, energy and government sectors.",
+      "why_it_matters": "After TSMC's halt on 16nm-and-below Chinese orders, investors now fear Samsung could close the other advanced-foundry route for Chinese AI chips. That makes domestic supply-chain claims, and SMIC capacity, the key variable for these stocks.",
+      "key_numbers": [
+        "Enflame limit-down (-20%)",
+        "MetaX -14.72%",
+        "Moore Threads -8.34%",
+        "MetaX 9M revenue RMB2.824bn (+128.45%)"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "MetaX",
+        "Enflame",
+        "Moore Threads",
+        "Iluvatar CoreX",
+        "Biren Technology",
+        "Samsung"
+      ],
+      "tickers": [
+        "688802.SS",
+        "688801.SS"
+      ],
+      "published_at": "2026-11-20T23:00:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261121/herald/b34380f3249df8ec512224b55f4fc90f.html",
+          "outlet": "21财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "沐曦股份：曦云C600已大规模出货"
+        },
+        {
+          "url": "https://21jingji.com/article/20261120/herald/99e57855c01c3288ce0493286bf98654.html",
+          "outlet": "21经济网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国产GPU板块巨震，燧原科技、天数智芯先后回应"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "china-ai-stocks-nov20-hstech-3-78pct-minimax-zhipu-chinext-3-54pct",
+      "confidence_note": "The share moves were on Nov 20 (before the window). The MetaX statement story is dated Nov 21; published_at is an estimate. All figures are from search snippets of the two 21st Century Business Herald stories, which I could not open. The Samsung rumour itself is unverified. Exchange suffixes: MetaX 688802 and Enflame 688801 are STAR Market codes as reported (.SH), mapped to Yahoo .SS. Moore Threads (688795) is untagged because the story is mainly about the rebuttals.",
+      "score": {
+        "total": 46.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "xinhua-china-open-models-10bn-downloads-openrouter-29-weeks",
+      "title": "Xinhua: China's open-source models top 10bn downloads and lead OpenRouter usage for a 29th straight week",
+      "original_title": "国产大模型引领全球开源生态 累计下载量突破100亿次",
+      "summary": "A Xinhua feature published Nov 21 says global cumulative downloads of China's open-source AI models have passed 10 billion, citing MIIT. It also says Chinese models handled 119.1 trillion tokens on OpenRouter in the week of Nov 9-15, ranking first worldwide for a 29th consecutive week. Financial outlets put that week's global OpenRouter total at 211 trillion tokens and US models at 14.83 trillion. DeepSeek V4.1-Flash-1017 led all models for a fourth week with 59.2 trillion tokens.",
+      "why_it_matters": "State media is pushing the 'China leads open-source' line in a week dominated by US chip curbs and OpenAI's campaign against distillation. The usage lead is real, but the 'high usage, low revenue' gap that commentators flag is still unresolved.",
+      "key_numbers": [
+        ">10bn cumulative downloads",
+        "119.1T tokens/week (Nov 9-15)",
+        "29 straight weeks #1",
+        "DeepSeek V4.1-Flash: 59.2T tokens/week"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MIIT",
+        "OpenRouter",
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-21T01:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.news.cn/politics/20261121/d02ffe3d36144ceea8847030acd97936/c.html",
+          "outlet": "新华网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国产大模型引领全球开源生态 累计下载量突破100亿次"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261121/herald/b03efcebf2b606dde99d23dd64ba2b90.html",
+          "outlet": "21经济网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国产开源大模型下载量突破100亿次，引领全球开源生态"
+        },
+        {
+          "url": "https://news.fx678.com/202611161022182461.shtml",
+          "outlet": "汇通财经",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "中国AI大模型周调用量连续29周超美国，全球前五占四席"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.3,
+      "novelty": 0.2,
+      "follow_up_of": null,
+      "confidence_note": "The figures are not new. MIIT first gave the 10bn downloads figure on Jul 20, 2026, and the OpenRouter weekly data circulated around Nov 16. What is new is the Nov 21 Xinhua roundup. Xinhua frames the 29-week streak as among open-source models; financial media frame it as China vs US overall. published_at is an estimate. Numbers come from search snippets.",
+      "score": {
+        "total": 44.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.2,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "google-research-duplex-gemini-business-calls",
+      "title": "Google Research explains how Duplex evolved to power Gemini's calls to businesses",
+      "summary": "Google Research published a post on how its Duplex phone-calling technology, first shown in 2018, was adapted so Gemini can call businesses on a user's behalf. It follows Google making Gemini Tasks free in six countries with phone calls to businesses, and the Pixel 11 'Call for Me' feature from September.",
+      "why_it_matters": "It is the technical backstory to one of the first mass-market agent actions in the real world, voice calls to businesses, as Google pushes Gemini from chat into tasks.",
+      "key_numbers": [],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Google"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-20T23:30:30Z",
+      "sources": [
+        {
+          "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+          "outlet": "Google Research",
+          "lang": "en",
+          "tier": "primary",
+          "title": "How Google Duplex evolved to also call businesses for you in Gemini"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Google tests letting Gemini make phone calls, initially for US Pixel owners"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": "google-gemini-tasks-free-calls-purchases",
+      "confidence_note": "Only the headline and timestamp are known (from the harvest feed); the post could not be fetched (research.google DNS-blocked) and searches did not surface its contents, so no technical details or numbers are claimed. The TechCrunch link is September background only.",
+      "score": {
+        "total": 41.4,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.503
+        },
+        "coverage": 2,
+        "mentions": 2,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "amazon-aws-quick-flows-web-multi-agent-update",
+      "title": "Amazon updates AWS Quick with more capable flows, a new web experience and agents that work together",
+      "summary": "AWS published an update to AWS Quick, its agentic workspace for business users, announcing more capable flows, an updated web experience, and agents that can work together. Quick Flows already combine AI responses over company or web data, actions in connected apps, and logic, and can call custom chat agents as workflow steps.",
+      "why_it_matters": "It is an incremental step in Amazon's push to sell an agent workspace to enterprises against Microsoft Copilot/Agent 365 and Google Gemini Enterprise.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Amazon"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-11-21T01:06:42Z",
+      "sources": [
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Only the headline and timestamp are known (from the harvest feed); aws.amazon.com could not be fetched, so the specific new features are not detailed. Background on Quick Flows comes from AWS docs seen in search results. Low priority; candidate for a brief.",
+      "score": {
+        "total": 38.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.753
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "amazon-sagemaker-hyperpod-global-inference-gateway",
+      "title": "Amazon launches SageMaker HyperPod Global Inference Gateway, one endpoint across Regions and clusters",
+      "summary": "AWS introduced the SageMaker HyperPod Global Inference Gateway, which puts a single endpoint in front of model deployments across multiple AWS Regions and HyperPod clusters. AWS had earlier described a two-tier design: a per-cluster HyperPod Inference Gateway, plus a 'coming soon' global router for cross-cluster failover, global rate limiting and cost-aware traffic shaping. The same evening AWS also published managed cluster extensions for observability and user management in HyperPod Slurm, and a distributed KV-caching agent skill for self-hosted LLMs.",
+      "why_it_matters": "Multi-region routing helps teams that self-host open-weight models on scarce GPUs ride out regional capacity shortfalls, a sore point as accelerator supply stays tight.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "Amazon"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-11-20T22:35:24Z",
+      "sources": [
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters"
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm"
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill"
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+          "outlet": "AWS Machine Learning Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Amazon SageMaker HyperPod Inference Gateway"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "The launch post could not be fetched (aws.amazon.com DNS-blocked); the headline and time come from the harvest. That this ships the earlier 'coming soon' global router is an inference from search snippets of the earlier Inference Gateway post, not confirmed. Pricing and Region availability are unknown. Low priority; candidate for a brief.",
+      "score": {
+        "total": 38.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.753
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "chongqing-national-ai-pilot-base-hr-services-unveiled",
+      "title": "Chongqing opens China's national AI application pilot base for human-resources services",
+      "original_title": "“两院一湾”人工智能人才需求清单发布",
+      "summary": "At the opening of the Chongqing International Talent Exchange Conference on Nov 21, the national AI application pilot base (human-resources services) and a human-resources AI innovation centre were unveiled. Reports describe it as the only base of its kind in China. A parallel AI industry talent conference, with about 300 attendees at Chongqing's AI Bay in Nanan district, released an AI talent-demand list. Chongqing's HR bureau, Nanan district and the Guang'an city government signed a deal on a recruitment-information inspection agent built from the base's work.",
+      "why_it_matters": "This is part of Beijing's network of sector-specific 'AI+' pilot bases that push agents into government and labour-market services. It is useful context for how local governments deploy AI, but it is not market-moving.",
+      "key_numbers": [
+        "~300 attendees",
+        "Chongqing policy: up to RMB20M one-off subsidy for pilot-base projects"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Chongqing Municipal Government"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-21T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/dy/article/LC9KDVQR053469M5.html",
+          "outlet": "网易",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "“两院一湾”人工智能人才需求清单发布"
+        },
+        {
+          "url": "https://www.sohu.com/a/1103569579_122559721",
+          "outlet": "搜狐",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "3.46亿，又一个国家级AI基地将落户重庆！"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5367755593485470.html",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "人才如何精准对接产业？这场大会给出了重庆答案"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Minor, filler-level item. The facts come from search snippets of NetEase, Sohu and Sina posts plus Sina's hourly AI roundup. The RMB20M subsidy cap is from an earlier Chongqing policy document seen in search, not from the Nov 21 event. The Sohu headline mentions RMB346M, which I could not attribute, so it is omitted. published_at is an estimate (morning opening, Beijing time).",
+      "score": {
+        "total": 38.2,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.578,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-12-08",
+      "title": "Nothing launches its first AI-native gadget, a screen-free voice note-taker",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://www.engadget.com/ai/"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Gemini 4 Neon API pricing reportedly drops about 25% from Dec 1 (introductory pricing through Nov 30)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://aiweekly.co/alerts/google-launches-gemini-4-neon-at-315-per-million-tokens"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Leveraged Anthropic (ANT) ETFs from ProShares, Tradr and GraniteShares start trading; Cboe expects ANT options",
+      "kind": "other",
+      "confidence": "confirmed",
+      "url": "https://finance.yahoo.com/markets/options/articles/proshares-antu-anty-etfs-targeting-210500261.html"
+    },
+    {
+      "date": "2026-12",
+      "title": "Jensen Huang public Senate Banking testimony (no date; Scott hopes before Christmas)",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "CrowdStrike Q3 FY2027 results (after close)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://guptadeepak.com/earnings/calendar/"
+    },
+    {
+      "date": "2026-12-02",
+      "title": "Snowflake Q3 FY2027 results (after close)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://guptadeepak.com/earnings/calendar/"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Huawei Cloud takes openPangu-2.0-Flash/Pro offline (replaced by openPangu-2.1-Pro)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.163.com/dy/article/LBD519MN0511CPVM.html"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Tencent Cloud deadline to refund past web-search fees on DeepSeek official-API models",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.sina.cn/weibo/detail/5367342863483721.html"
+    },
+    {
+      "date": "2026-11",
+      "title": "Zhipu AI GLM-5.5 flagship (reportedly 2.5T-3.5T params) launch, end-Nov or around December",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://news.17173.com/content/11202026/203110958.shtml"
+    },
+    {
+      "date": "2026-12",
+      "title": "Alibaba Qwen comes to Apple Intelligence for China users with iOS 27.3",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.sina.cn/weibo/detail/5360011661546219.html"
+    },
+    {
+      "date": "2026-12",
+      "title": "Baidu targets completing its Hong Kong primary listing by year-end",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.ithome.com/0/991/340.htm"
+    },
+    {
+      "date": "2027-01",
+      "title": "Kuaishou's Kling AI expected to file for a Hong Kong IPO (CICC, Goldman, UBS; at least $1bn)",
+      "kind": "other",
+      "confidence": "rumored",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-06/doc-iniuhcmr5884498.shtml"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-21T01:41Z), so the rest of the window was covered with WebSearch. WebFetch failed for nearly every news, lab and AWS domain, so most facts rest on cross-checked search snippets, as flagged per item. Saturday was very quiet. Several Friday-evening US stories first reported in the 6 hours before the window opened are included because the Nov 20 issue missed them; Signal's, Inkling 2 Mini's and the Navier-Stokes paper's exact posting times are unknown and are estimated. Dropped for timing: Amazon's reported ~$7.5B Decart deal (first reported around Nov 19) and Oracle's 'OpenAI buildout fully funded' remark (time unknown). Unconfirmed and left out: GPT-6.2 Sol as Codex default for Plus/Pro, AMD's Nitro-P image model, and Amazon's claim that attacker agents exploited a zero-day in 11 minutes. No new Chinese model release, policy document or HK/STAR listing was found in the window.",
+  "learn": [
+    {
+      "id": "looped-transformer-weight-tying",
+      "gap": "ai-off-fluency",
+      "title": "Build a looped transformer block: reuse weights to buy depth without parameters",
+      "item_ids": [
+        "thinking-machines-inkling-2-mini-open-weights"
+      ],
+      "why_today": "Inkling 2 Mini is described as a looped transformer whose middle layers run several times per token, so its 26.4B parameters understate the compute it spends per token.",
+      "explanation": "A looped (weight-tied, or universal) transformer applies the same block f_theta R times: x_{r+1} = x_r + f_theta(x_r). Parameter count, and so weight memory, is fixed, while FLOPs and effective depth scale linearly with R, which lets a small model spend more serial computation per token, much like iterating a fixed-point solver. Training backpropagates through all R passes, so gradients for theta are summed over every pass, the same way gradients are shared across time steps in an RNN. That can make optimisation less stable: the residual stream norm grows with each pass, as the toy below shows, which is why pre-norm, careful initialisation or a learned exit or halting rule matter. The trade-off: loops buy depth cheaply in memory but not in latency, because the passes are sequential. The sizes below are illustrative and unrelated to any real model's configuration.",
+      "math": "x_{r+1} = x_r + f_\\theta(x_r),\\quad r = 0..R-1, \\qquad |\\theta| \\text{ fixed}, \\quad \\text{FLOPs} \\propto R \\cdot 2|\\theta| T",
+      "python": "# Looped (weight-tied) residual block, stdlib only: one block reused R times.\n# Parameters stay fixed while depth and FLOPs grow with R. Illustrative sizes only.\nimport math, random\nrandom.seed(0)\nd, T = 32, 8                                   # width, tokens\n\ndef mat(r, c, s): return [[random.gauss(0, s) for _ in range(c)] for _ in range(r)]\ndef mm(A, B): return [[sum(a * b for a, b in zip(row, col)) for col in zip(*B)] for row in A]\ndef ln(X): return [[(v - sum(r)/len(r)) / math.sqrt(sum((u - sum(r)/len(r))**2 for u in r)/len(r) + 1e-5) for v in r] for r in X]\ndef add(A, B): return [[a + b for a, b in zip(ra, rb)] for ra, rb in zip(A, B)]\n\nWq, Wk, Wv, Wo = (mat(d, d, d**-0.5) for _ in range(4))\nW1, W2 = mat(d, 4*d, d**-0.5), mat(4*d, d, (4*d)**-0.5)\n\ndef attn(H):\n    Q, K, V = mm(H, Wq), mm(H, Wk), mm(H, Wv)\n    out = []\n    for t in range(T):                          # causal: token t sees 0..t\n        s = [sum(q*k for q, k in zip(Q[t], K[j])) / math.sqrt(d) for j in range(t + 1)]\n        m = max(s); w = [math.exp(x - m) for x in s]; z = sum(w)\n        out.append([sum(w[j]/z * V[j][i] for j in range(t + 1)) for i in range(d)])\n    return mm(out, Wo)\n\ndef block(X):\n    X = add(X, attn(ln(X)))\n    return add(X, mm([[max(v, 0) for v in r] for r in mm(ln(X), W1)], W2))\n\nparams = 4*d*d + 2*4*d*d\nX0 = mat(T, d, 1.0)\nfor R in (1, 2, 3):\n    X = X0\n    for _ in range(R):                          # the same weights on every pass\n        X = block(X)\n    flops = R * T * 2 * params                  # weight matmuls only\n    norm = math.sqrt(sum(v*v for r in X for v in r))\n    print(f\"R={R}: params={params:,}  matmul FLOPs~{flops:,}  |X|={norm:.1f}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Universal Transformers (Dehghani et al., 2018)",
+          "url": "https://arxiv.org/abs/1807.03819"
+        }
+      ]
+    },
+    {
+      "id": "canary-rate-wilson-interval",
+      "gap": "experimental-rigor",
+      "title": "Put an interval on a canary hit rate, including the zero-hit case",
+      "item_ids": [
+        "openrouter-minimax-zdr-prompts-may-have-been-read"
+      ],
+      "why_today": "OpenRouter's warning followed a Dragos study that seeded about two million prompts with canary links and watched which providers' links were later opened, which is a proportion-estimation problem.",
+      "explanation": "A canary study turns 'does this provider read prompts?' into counting k hits out of n planted canaries and estimating the rate p. The naive Wald interval p ± z·sqrt(p(1-p)/n) collapses to zero width when k = 0 and goes outside [0, 1] near the edges. The Wilson score interval inverts the score test instead, so it stays inside [0, 1] and keeps close to nominal coverage for small k. With zero hits the useful statement is an upper bound: the 'rule of three' gives p < 3/n at 95%, so clearing a provider at a 0.1% access rate needs about 3,000 clean canaries. Two caveats outweigh the arithmetic: canaries detect only access that triggers them (fetching a link), and hits that cluster in time or by endpoint violate the independence the interval assumes. The counts below are illustrative, not the study's data.",
+      "math": "\\tilde p = \\frac{\\hat p + \\frac{z^2}{2n}}{1+\\frac{z^2}{n}}, \\quad \\text{half-width} = \\frac{z\\sqrt{\\frac{\\hat p(1-\\hat p)}{n} + \\frac{z^2}{4n^2}}}{1+\\frac{z^2}{n}}, \\qquad k=0 \\Rightarrow p < 1-0.05^{1/n} \\approx 3/n",
+      "python": "# Canary study: how sure are you that a provider reads prompts?\n# Wilson score interval for a proportion, plus the \"zero hits\" upper bound.\n# Counts below are ILLUSTRATIVE, not the Dragos study's data.\nfrom math import sqrt\n\ndef wilson(k, n, z=1.96):\n    p = k / n\n    c = (p + z*z/(2*n)) / (1 + z*z/n)\n    h = z * sqrt(p*(1-p)/n + z*z/(4*n*n)) / (1 + z*z/n)\n    return max(0.0, c - h), min(1.0, c + h)\n\nfor name, k, n in [(\"provider A\", 0, 5000), (\"provider B\", 7, 5000), (\"provider C\", 40, 60)]:\n    lo, hi = wilson(k, n)\n    print(f\"{name}: {k}/{n} canaries fired -> rate in [{lo:.4%}, {hi:.4%}] (95%)\")\n\n# Rule of three: with 0 hits in n trials the 95% upper bound is about 3/n.\nfor n in (100, 1000, 100000):\n    print(f\"0 hits in {n:>6}: rate < {3/n:.4%}  (exact: {1 - 0.05**(1/n):.4%})\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Probable inference, the law of succession, and statistical inference (Wilson, 1927)",
+          "url": "https://doi.org/10.1080/01621459.1927.10502953"
+        }
+      ]
+    }
+  ]
+}
