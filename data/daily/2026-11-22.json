@@ -1,0 +1,822 @@
+{
+  "date": "2026-11-22",
+  "window": {
+    "start": "2026-11-21T21:48:00Z",
+    "end": "2026-11-22T21:48:00Z"
+  },
+  "tldr": [
+    "MiniMax says its unreleased internal model MIM broke four old NIST crypto candidates, including a Waterfall-256 collision in ~0.045 s on one core. The claims are unreproduced, and MiniMax says AES, RSA, SHA-256 and ML-KEM are unaffected. Separately, the Lean FRO and Mathlib Initiative said they have 'full confidence' in Alpöge's Claude-assisted Lean proof of the Riemann hypothesis; a Waterloo replay checked all 175,187 files.",
+    "Asia moved against the AI rout: after Friday's 5.2% KOSPI drop, South Korea is readying its market stabilization fund and easing buyback caps, and China cut its margin-financing ratio to 80% from 100%. Separately, OpenAI's Jakub Pachocki proposed industry-wide limits keyed to perplexity, publishing internal figures of ~0.91 for GPT-4.",
+    "OpenRouter removed three inference providers and pulled 125 endpoints from Zero Data Retention after Dragos's ~2M-canary study found leaked prompts. In China, Zhipu's ~700B GLM-5.4 is reportedly due this week and its 3T+ GLM-5.5 has reportedly slipped to December."
+  ],
+  "items": [
+    {
+      "id": "minimax-mim-internal-model-cryptanalysis-nist-candidates",
+      "title": "MiniMax says its internal model MIM broke several old NIST crypto candidates, with attack code released",
+      "original_title": "MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录",
+      "summary": "MiniMax published cryptanalysis results from MIM, an internal research model it has not released. It says automated analysis found previously unknown construction flaws and turned some theoretical attacks into practical ones that run in seconds to minutes. MiniMax claims a first practical collision for the SHA-3 candidate Waterfall-256 in about 0.045 s on one core and key recovery for the post-quantum candidate LOCKER in about 2 s, plus breaks of Blender-256 and ROLLO-I-128. MiniMax says AES, RSA, SHA-256 and NIST's chosen ML-KEM are unaffected, that it notified the scheme authors, and that it released a technical report and attack code but not the model.",
+      "why_it_matters": "A Chinese lab is claiming verifiable, offence-relevant AI-for-science results at a time when US and Chinese labs are publicly limiting cyber capabilities. The claims are self-reported, so independent reproduction will decide how much they count; several of the broken schemes were early-round eliminations that had received little scrutiny.",
+      "key_numbers": [
+        "~0.045 s Waterfall-256 collision on one core",
+        "~2 s LOCKER key recovery",
+        "4 old NIST candidates broken (claimed)"
+      ],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "MiniMax"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-11-22T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.minimax.io/blog/practical-cryptanalysis-with-minimaxs-latest-internal-model",
+          "outlet": "MiniMax Research",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Practical cryptanalysis with MiniMax's latest Internal Model"
+        },
+        {
+          "url": "https://www.ithome.com/1/030/711.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34536334",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "大模型竞赛进入AI4S深水区，MiniMax在密码学领域取得重要突破"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202611223936973885.html",
+          "outlet": "东方财富网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "AI科研作用延伸至可验证成果，大模型竞赛进入AI4S深水区"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yGeuiIDL7W",
+          "outlet": "凤凰网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MiniMax利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-minimax-says-its-ai-broke-4-old-nist-crypto-candidates/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "MiniMax Says Its AI Broke 4 Old NIST Crypto Candidates"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "All results are MiniMax's own claims; no independent reproduction reported yet. WebFetch was blocked for minimax.io and the Chinese outlets, so details come from search snippets that agree across IT之家, 凤凰, FourWeekMBA and others. A forum-only claim of 55 newly solved TII McEliece challenge instances is left out. published_at is an estimate: several outlets say MiniMax announced on the evening of 22 Nov Beijing time, though one Weibo post may suggest the English blog went up earlier.",
+      "score": {
+        "total": 72.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.879,
+          "breadth": 0.777,
+          "momentum": 0.632
+        },
+        "coverage": 9,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "lean-mathlib-certify-alpoge-claude-riemann-proof-sutherland",
+      "title": "Lean FRO and Mathlib Initiative certify Alpöge's Claude-assisted Riemann hypothesis proof; MIT's Sutherland independently compiles it",
+      "summary": "In a joint statement on Saturday 21 November, the Lean FRO and the Mathlib Initiative said they have 'full confidence' that Levent Alpöge's Lean proof of the Riemann hypothesis is correct. To check that the theorem says what it should, they compared it, using the comparator and con-leche tools, against Mathlib's existing formal statement of RH, written by David Loeffler and Michael Stoll. Scientific American reports that independent mathematicians, including MIT's Andrew Sutherland, compiled the proof themselves with no problems, and that the Lean kernel accepts it using only Lean's three standard axioms. A University of Waterloo page by M. Rubinstein reports a replay of all 175,187 files.",
+      "why_it_matters": "A machine-checked proof of the best-known open problem in mathematics, produced with Claude and accepted by the formal-math community, would be a landmark for AI in research. It also tests whether a proof that is formally verified but not readable by humans counts as accepted mathematics.",
+      "key_numbers": [
+        "175,187 Lean files replayed (Waterloo check)",
+        "3 standard axioms only"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Anthropic",
+        "Lean FRO",
+        "Mathlib Initiative",
+        "MIT"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-21T21:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/",
+          "outlet": "Scientific American",
+          "lang": "en",
+          "tier": "press",
+          "title": "The AI Riemann hypothesis proof is true, independent mathematicians confirm"
+        },
+        {
+          "url": "https://officechai.com/ai/lean-community-certifies-levent-alpoges-claude-assisted-proof-of-the-riemann-hypothesis-as-correct/",
+          "outlet": "OfficeChai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Lean Community Certifies Levent Alpöge's Claude-Assisted Proof Of The Riemann Hypothesis As Correct"
+        },
+        {
+          "url": "https://mlq.ai/news/lean-and-mathlib-communities-certify-levent-alpoges-claude-assisted-proof-of-the-riemann-hypothesis/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Lean and Mathlib communities certify Levent Alpöge's Claude-assisted proof of the Riemann hypothesis"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": "claude-riemann-hypothesis-proof-claim-alpoge-lean",
+      "confidence_note": "published_at is an estimate: the statement came on Saturday 21 Nov (US time) with no time given; 21:00Z is inferred from the ID of Yahoo's syndicated copy of the SciAm piece. The Lean FRO statement itself was not seen; quotes come from search summaries. The certification covers Mathlib's classical RH, not the Generalized RH claimed in Alpöge's note. One account says Sutherland's end-to-end comparator run on the original export was still in progress on 22 Nov. Reported sceptical remarks from other mathematicians could not be confirmed and are left out. No human-readable proof exists yet.",
+      "score": {
+        "total": 66.8,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.689,
+          "momentum": 0.262
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "asia-weekend-market-rescue-korea-fund-china-margin-ai-rout",
+      "title": "South Korea readies stabilization fund and China eases margin rules as Asia moves to stem AI stock rout",
+      "summary": "After an emergency meeting on Sunday 22 Nov chaired by Finance Minister Lee Hyoung-il, South Korea said it will immediately prepare its securities market stabilization fund so it can be activated if conditions worsen. It will also loosen the daily cap on listed companies' share buybacks for three months, step up monitoring of leveraged positions and margin calls, and crack down on illegal short selling. The trigger was Friday's 5.2% KOSPI fall to a 10-month closing low, driven by AI and chip stocks. Over the same weekend, China's Shanghai and Shenzhen exchanges, with CSRC approval, cut the margin-financing ratio to 80% from 100%. Taiwan's expanded short-selling ban, announced on Nov 21, takes effect on Monday.",
+      "why_it_matters": "Three of Asia's biggest chip markets are now intervening directly against an AI-driven sell-off, which sets up Monday's open for SK hynix, Samsung and TSMC.",
+      "key_numbers": [
+        "KOSPI -5.2% Friday (10-month low)",
+        "Buyback-cap easing for 3 months",
+        "China margin ratio 100% -> 80%"
+      ],
+      "topic": "policy",
+      "region": "other",
+      "entities": [
+        "South Korea Ministry of Economy and Finance",
+        "China Securities Regulatory Commission",
+        "Taiwan Financial Supervisory Commission"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-22T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/south-korea-prepares-stock-market-112422594.html",
+          "outlet": "Yahoo Finance (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2%"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349274/South-Korea-prepares-market-stabilization-funds-after-KOSPI-hits-10-month-low",
+          "outlet": "The Standard (HK)",
+          "lang": "en",
+          "tier": "press",
+          "title": "South Korea prepares market stabilization funds after KOSPI hits 10-month low"
+        },
+        {
+          "url": "https://ca.investing.com/news/stock-market-news/asian-countries-take-steps-to-aid-stock-markets-after-ai-rout-4974447",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Asian countries take steps to aid stock markets after AI rout"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/economy/20261122/kospi-rout-fuels-calls-for-bolder-stabilization-measures",
+          "outlet": "The Korea Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "KOSPI rout fuels calls for bolder stabilization measures"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/s-korea-rolls-out-phased-measures-to-stabilize-volatile-markets",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "S. Korea Rolls Out Phased Measures to Stabilize Stock Market"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "ai-selloff-week-sp500-dow-correction-nvidia-seventh-weekly-loss",
+      "confidence_note": "published_at is an estimate: the Korean meeting was on Sunday 22 Nov KST, with no exact time seen. Details come from search snippets of syndicated Reuters copy; no page was opened. A reported ₩10.76T fund size (Korean press only) is left out. China's 80% margin-ratio step is described as 'Sunday' in syndicated Reuters copy but its exact date was not independently confirmed. Taiwan's measure was announced Nov 21 and is context only.",
+      "score": {
+        "total": 65.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "openai-pachocki-perplexity-common-limits-proposal",
+      "title": "OpenAI chief scientist Pachocki proposes industry-wide AI development limits tied to perplexity",
+      "summary": "In a Nov 22 post titled 'Perplexity and Intelligence', OpenAI chief scientist Jakub Pachocki asked frontier labs to agree on common limits based on perplexity and other measurements. Labs would not cross those limits until the ability to understand and monitor models reaches a concrete milestone, such as a successor to chain-of-thought monitors. OpenAI published internal log-perplexity figures: about 0.99 for GPT-3.5, 0.91 for GPT-4, and a model near 0.76 linked to progress on open math problems. Pachocki concedes perplexity is hard to compare across labs and misses chain-of-thought gains, and says this is not a call to halt research.",
+      "why_it_matters": "This is the first time a top lab has publicly proposed a quantitative, cross-industry brake on capability, and it lands as governors and Congress debate federal AI rules. Whether it means anything depends on rival labs signing on.",
+      "key_numbers": [
+        "GPT-3.5 log-perplexity ~0.99",
+        "GPT-4 ~0.91",
+        "~0.76: model linked to open-math progress"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Jakub Pachocki"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-22T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/openai-chief-scientist-urges-industry-limits-on-ai-development",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Chief Scientist Urges Industry Limits on AI Development"
+        },
+        {
+          "url": "https://www.techrepublic.com/article/news-openai-scientist-ai-research-safety-limits/",
+          "outlet": "TechRepublic",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Scientist Urges Safety Limits on AI Research"
+        },
+        {
+          "url": "https://www.therundown.ai/news/openai-pachocki-ai-slowdown-safety-standards",
+          "outlet": "The Rundown AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI's chief scientist calls for an AI slowdown, but the plan needs specifics"
+        },
+        {
+          "url": "https://www.unite.ai/openai-proposes-shared-ai-development-limits-tied-to-safety-milestones/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Proposes Shared AI Development Limits Tied to Safety Milestones"
+        },
+        {
+          "url": "https://officechai.com/ai/openai-wants-perplexity-to-become-the-industrys-shared-yardstick-for-ai-progress-and-safety-limits/",
+          "outlet": "OfficeChai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Wants 'Perplexity' To Become The Industry's Shared Yardstick For AI Progress And Safety Limits"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "The primary openai.com URL was not found. The Nov 22 date comes from the Bloomberg URL and secondary coverage; the time is estimated. All figures rest on secondary search snippets. A reported 0.68-0.7 proposed limit window from a single outlet is left out.",
+      "score": {
+        "total": 63.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.691,
+          "breadth": 0.689,
+          "momentum": 0.244
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "openrouter-offboards-three-providers-125-endpoints-lose-zdr",
+      "title": "OpenRouter removes three inference providers and pulls 125 endpoints from Zero Data Retention after prompt-theft research",
+      "summary": "In a 22 November post titled 'Data Processing Incidents on Inference Providers', OpenRouter said it had removed three inference providers. It also took 125 endpoints off Zero Data Retention (ZDR) eligibility, some of them as a precaution, and notified customers who may have been affected. The trigger was Dragos research that seeded about 2 million prompts with canary credentials between July and November and found that data had leaked from at least three AI providers, in some cases from requests marked ZDR. OpenRouter says its own systems were not breached, but it has not named the three providers it removed. Its incident list links notices from Novita, Phala and Together AI. Separately, on 21 November Together AI disclosed that an AI coding agent committed a credential that exposed stored prompt samples sent to MiniMax M3, GLM-5.2 and Kimi K2.6.",
+      "why_it_matters": "This is the first time a major model router has cut providers over data handling. It shows that a ZDR flag only binds the first hop, so enterprises using aggregators for open-weight Chinese models will want contractual and technical guarantees for every provider downstream. It also adds to the pressure on cheap third-party inference resellers.",
+      "key_numbers": [
+        "3 providers off-boarded",
+        "125 endpoints lose ZDR eligibility",
+        "~2M canary prompts (Dragos)",
+        "intrusions traced back to mid-July"
+      ],
+      "topic": "products",
+      "region": "global",
+      "entities": [
+        "OpenRouter",
+        "Dragos",
+        "Together AI",
+        "MiniMax"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-22T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "outlet": "OpenRouter",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Data Processing Incidents on Inference Providers"
+        },
+        {
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "outlet": "Dragos",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Three breaches, endless leaks: Your AI supply chain needs canaries"
+        },
+        {
+          "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+          "outlet": "The Hacker News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms"
+        },
+        {
+          "url": "https://www.unite.ai/openrouter-cuts-three-providers-after-ai-prompt-exposure-findings/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenRouter Cuts Three Providers After AI Prompt Exposure Findings"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": "openrouter-minimax-zdr-prompts-may-have-been-read",
+      "confidence_note": "published_at is an estimate: search results date OpenRouter's post to 22 Nov but give no time. No page could be opened (WebFetch blocked), so every fact comes from search-result summaries of the OpenRouter post and the trade coverage. Neither Dragos nor OpenRouter has named the three removed providers, or said whether Dragos's three are the same. The Together AI details come from secondary reports; Together's own post was not seen.",
+      "score": {
+        "total": 63.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.88,
+          "breadth": 0.736,
+          "momentum": 0.503
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "nga-governors-ai-principles-federal-state-split",
+      "title": "US governors call for federal AI rules on frontier-model risks while keeping state power over AI use",
+      "summary": "The National Governors Association released bipartisan AI principles on Nov 22. They ask Congress to address national and cross-border risks that arise during AI development, while states keep authority over how AI is used, including consumer protection, discrimination and jobs. Bloomberg reports the plan calls for independent safety reviews of advanced models and mandatory reporting of serious security breaches and safety incidents. The plan also asks that federal and state rules avoid duplication.",
+      "why_it_matters": "Governors are pushing back on the White House framework's call for Congress to preempt 'unduly burdensome' state AI laws, setting up the main fight over any federal AI bill.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "National Governors Association"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-22T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/",
+          "outlet": "National Governors Association",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Governors Call for AI Action"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/governors-call-for-federal-ai-rules-without-sidelining-states",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Governors Call for Federal AI Rules Without Sidelining States"
+        },
+        {
+          "url": "https://startupfortune.com/governors-ask-congress-for-one-ai-rulebook-that-leaves-state-laws-standing/",
+          "outlet": "Startup Fortune",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Governors ask Congress for one AI rulebook that leaves state laws standing"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The NGA page could not be fetched; its content and date come from search snippets. The independent safety reviews and incident reporting are in Bloomberg's account; one summary says those specifics are not in the NGA release itself. The time is estimated.",
+      "score": {
+        "total": 57.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "ant-afu-doctor-edition-uptodate-pc-workstation",
+      "title": "Ant Group's Afu doctor edition adds Wolters Kluwer's UpToDate and a PC workstation for Chinese clinicians",
+      "original_title": "国内首个！蚂蚁阿福医生版升级 上线循证金标准UpToDate",
+      "summary": "On 22 Nov Ant Group launched a desktop PC workstation for the doctor edition of its Afu (阿福) health AI and integrated Wolters Kluwer's UpToDate clinical decision support, which Ant says makes Afu the first AI platform in China to offer it. Doctors, nurses and pharmacists get a limited-time free trial. They can ask clinical questions by text or voice and get answers with sources cited, and the PC version can pull up medical records and follow-up notes and offers 12 medical skills. This extends a partnership that began in August 2026.",
+      "why_it_matters": "Licensing a Western gold-standard evidence base gives Ant a credibility edge in clinician-facing medical AI in China, as the same weekend's exam-centre statement shows regulators pushing back on unverified accuracy claims.",
+      "key_numbers": [
+        "12 medical skills on PC workstation"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Ant Group",
+        "Wolters Kluwer"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-22T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.163.com/tech/article/LCBRFDEJ00098IEO.html",
+          "outlet": "网易科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "蚂蚁阿福医生版上线PC版并接入UpToDate"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34534030",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "蚂蚁阿福医生版接入“循证金标准”UpToDate"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1167/1167639.htm",
+          "outlet": "快科技",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "国内首个！蚂蚁阿福医生版升级 上线循证金标准UpToDate"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261122/c682076477.shtml",
+          "outlet": "同花顺",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国内首个医生用的专业AI来了！蚂蚁阿福医生版升级，上线“循证金标准”UpToDate"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "'First in China' is the company's own claim. published_at is an estimate: coverage is dated 22 Nov Beijing time with no exact hour. Unverified first-week usage figures from one outlet are left out. Details come from search snippets.",
+      "score": {
+        "total": 51.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "natcm-tcm-exam-centre-denies-ai-model-exam-testing-claims",
+      "title": "China's TCM licensing exam centre says it never released past papers or tested any AI model, warns over marketing claims",
+      "original_title": "部分AI大模型宣称经过中医类别医师资格考试测试，官方回应",
+      "summary": "The Physician Qualification Certification Center of the National Administration of Traditional Chinese Medicine issued a statement on the evening of 21 Nov (Beijing time) responding to AI model products that market themselves as having been tested on the traditional Chinese medicine physician licensing exam. The centre said it has never published past exam papers, has no partnership with any AI model company, platform or institution, and has never tested, certified or endorsed any model. It said material sold or used to train or evaluate models as 'past papers', 'official papers' or 'internal question banks' did not come from the centre, told those responsible to stop the promotion and remove the content, and reserved the right to take legal action.",
+      "why_it_matters": "Chinese medical AI vendors often cite licensing-exam scores in their marketing. A regulator-linked body disowning those claims raises the risk of 'passed the exam' advertising and points to scrutiny of benchmark-data provenance in healthcare AI.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "National Administration of Traditional Chinese Medicine"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-21T18:59:25Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34530585",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "部分AI大模型宣称经过中医类别医师资格考试测试，官方回应"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-22/doc-inizqmrh6130838.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "试题经过大模型测试？国家中医药管理局认证中心：未与任何大模型企业合作，亦未开展测评"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261122/herald/9d0a5bd952e64eaa96fbc747cd183e6c.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "部分AI大模型宣称经过中医类别医师资格考试测试，官方回应"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yFrwvSD4Rz",
+          "outlet": "凤凰网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国家中医药管理局认证中心：未与任何大模型企业合作，亦未开展测评"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The statement came on the evening of 21 Nov Beijing time, so its first appearance may be slightly before the window's 6h allowance. published_at is the harvest's first sighting of ThePaper's piece. The centre's original statement page was not found, and no company or product is named. Details come from consistent search snippets.",
+      "score": {
+        "total": 51.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "california-nvidia-probe-potential-criminal-violations-bonta",
+      "title": "California AG says Nvidia probe covers potential criminal law violations over China chip sales",
+      "summary": "California Attorney General Rob Bonta said his office's investigation into Nvidia, which began with a Nov 19 investigative subpoena, covers potential violations of California criminal law, Bloomberg reported. The probe is looking at whether Nvidia's advanced chips or confidential information were diverted to China and whether investors were misled. Bonta said the investigation is preliminary and has reached no conclusions, but that it 'could' lead to criminal charges and monetary sanctions. Nvidia denies wrongdoing.",
+      "why_it_matters": "A possible state criminal case raises Nvidia's legal exposure on top of the SEC civil probe and congressional hearings, the same exposure behind its delayed 10-Q.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "California Department of Justice"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-21T17:11:23Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/california-nvidia-probe-covers-potential-criminal-law-violations",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Faces California Investigation Over Alleged Illegal Chip Sales to China"
+        },
+        {
+          "url": "https://www.briefs.co/news/california-eyes-potential-criminal-violations-in-probe-of-nv/",
+          "outlet": "Briefs",
+          "lang": "en",
+          "tier": "trade",
+          "title": "California Probes Nvidia Over China Chip Sales"
+        },
+        {
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia",
+          "outlet": "California Attorney General",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Attorney General Bonta Serves Investigative Subpoena on Nvidia"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.4,
+      "follow_up_of": "california-ag-subpoenas-nvidia-china-chip-diversion-disclosures",
+      "confidence_note": "First seen 4.6h before the window start (inside the 6h grace). published_at is the harvest's first-seen time for the Bloomberg URL. The 'criminal' framing and the 'could' quote rest on search snippets relaying Bloomberg; the Bloomberg page was not opened. The OAG link is the Nov 19 subpoena release, background only.",
+      "score": {
+        "total": 49.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.4,
+          "credibility": 0.835,
+          "breadth": 0.393,
+          "momentum": 0.164
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 4.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "zhipu-glm-5-4-reportedly-next-week-glm-5-5-december",
+      "title": "Zhipu reportedly to release GLM-5.4, a roughly 700B-parameter model, next week; 3T-plus GLM-5.5 slips to December",
+      "original_title": "憋了近百天 3万亿参数国产AI巨兽还没到：下周先发GLM-5.4",
+      "summary": "Chinese media reported on 22 Nov that Zhipu AI will release GLM-5.4 next week, about 96 days after its last flagship. They describe it as a lightweight new flagship of about 700B parameters that replaces GLM-5.3, which is not multimodal. A GLM-5.4 Preview is said to be in limited testing with some users. The larger GLM-5.5, reported at over 3 trillion parameters, is now said to be due in December.",
+      "why_it_matters": "If confirmed, this would end a roughly three-month lull in Chinese flagship releases from Zhipu ahead of GLM-5.5, after this month's sell-off in HK-listed AI model stocks.",
+      "key_numbers": [
+        "~700B params (GLM-5.4, reported)",
+        "3T+ params (GLM-5.5, reported)",
+        "~96 days since last release"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-22T09:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-22/doc-inizrhva8881849.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "憋了近百天 3万亿参数国产AI巨兽还没到：下周先发GLM-5.4"
+        },
+        {
+          "url": "https://news.qq.com/rain/a/20261122A0CD2H00",
+          "outlet": "腾讯新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "智谱下周发布GLM-5.4轻量新旗舰"
+        },
+        {
+          "url": "https://www.sina.cn/weibo/detail/5368117010104974.html",
+          "outlet": "新浪微博",
+          "lang": "zh",
+          "tier": "social",
+          "title": "智谱 GLM-5.4 预览版发布及性能对比"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Unconfirmed media and blogger reports, not a Zhipu announcement. The Sina piece looks like a 快科技 repost, so independence is limited. Specifics come from search snippets only. published_at is estimated from Weibo post times on 22 Nov. No ticker tagged because Zhipu did not announce anything.",
+      "score": {
+        "total": 44.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.728,
+          "breadth": 0.393,
+          "momentum": 0.416
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-23",
+      "title": "Taiwan's expanded short-selling ban (no shorts below prior close; margin to 150%) takes effect",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://en.sedaily.com/market/2026/11/21/taiwan-curbs-short-selling-after-175-percent-weekly-plunge"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Hewlett Packard Enterprise fiscal Q4 2026 results after close (replaces the Dec 2 estimate)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63517315/dell-and-hp-enterprise-earnings-in-focus-as-reports-point-to-server-price-hikes-on-signed-deals"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Dell Technologies Q3 FY2027 results after close (several week-ahead calendars now agree on Nov 24)",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.openingbelldailynews.com/p/thanksgiving-week-earnings-nov-21-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Workday Q3 FY2027 results after close",
+      "kind": "earnings",
+      "confidence": "expected",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Human Frontier Mission global launch (AI agents on open science questions, reviewable experiments)",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://prnewswire.com/news-releases/the-next-frontier-for-ai-human-frontier-mission-announces-global-launch-302947034.html"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Quiet period ends for Anthropic's IPO underwriters; research initiations on ANT expected (approx. date)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://financefeeds.com/anthropic-ant-stock-88-91-sunday-week-ahead-second-week-after-ipo-bull-97-bear-83/"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "Approximate deadline for Nvidia's delayed Q3 10-Q filing (early December)",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"
+    },
+    {
+      "date": "2026-12-21",
+      "title": "Anthropic (ANT) expected to join the Nasdaq-100 via fast entry (Bloomberg; Nasdaq not yet confirmed)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://stockanalysis.com/news/anthropic-nasdaq-100-funds-december-21/"
+    },
+    {
+      "date": "2026-11",
+      "title": "Zhipu GLM-5.4 (~700B) release, reportedly the week of Nov 23; preview already with limited testers",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://news.qq.com/rain/a/20261122A0CD2H00"
+    },
+    {
+      "date": "2026-12",
+      "title": "Zhipu GLM-5.5 (3T+ params) flagship now reportedly due in December",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-11-22/doc-inizrhva8881849.shtml"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-22T00:37Z), so most of the window was covered with WebSearch. WebFetch failed for nearly every news, lab and government domain, so most facts rest on cross-checked search snippets, as flagged per item. Sunday was very quiet: no new frontier or open-weight model release was found. Dropped for timing: the FT report that Amazon is in final talks to buy Decart for ~$7.5B (Saturday, time unknown, talks first reported earlier), Nvidia's reported $500M+ talks for Inception (~Nov 20), METR's time-horizon update (Nov 20) and Cursor weighing Chinese open-weight models (Nov 20). Unconfirmed and left out: a ₩10.76T size for Korea's stabilization fund and a forum-only MiniMax McEliece figure. No new DeepSeek, Qwen, Kimi, ByteDance, Baidu, Huawei or CAC/MIIT news was found in the window.",
+  "learn": [
+    {
+      "id": "log-perplexity-bits-per-byte",
+      "gap": "llm-internals",
+      "title": "Read log-perplexity correctly, and normalise it to bits per byte across tokenizers",
+      "item_ids": [
+        "openai-pachocki-perplexity-common-limits-proposal"
+      ],
+      "why_today": "Pachocki proposed industry limits keyed to perplexity, quoting log-perplexities of about 0.99 for GPT-3.5 and 0.91 for GPT-4, while conceding perplexity is hard to compare across labs.",
+      "explanation": "Log-perplexity is the average negative log-likelihood the model assigns to held-out tokens, i.e. cross-entropy in nats per token; perplexity is its exponential, the effective number of equally likely choices per token. Because it is averaged per token, it depends on the tokenizer: a tokenizer that cuts text into more, smaller pieces makes each token easier to predict, lowering per-token loss without the model compressing the text any better. Dividing by ln 2 and by the average bytes per token gives bits per byte, which measures compression of the raw text and is comparable across tokenizers (given the same evaluation text). It still depends on the evaluation distribution and on contamination, and it says nothing about gains from reasoning at inference time, since chain-of-thought tokens are generated rather than scored. The toy below shows a model with lower per-token log-perplexity that is worse in bits per byte; all numbers are illustrative.",
+      "math": "\\log \\mathrm{PPL} = -\\frac{1}{N}\\sum_{t=1}^{N} \\ln p_\\theta(x_t \\mid x_{<t}), \\qquad \\mathrm{BPB} = \\frac{N \\cdot \\log \\mathrm{PPL}}{B \\ln 2}",
+      "python": "# Log-perplexity is cross-entropy in nats per token; it depends on the tokenizer.\n# Convert to bits per byte (BPB) to compare models with different tokenizers.\n# All numbers are illustrative, not any real model's figures.\nimport math, random\nrandom.seed(0)\n\ndef log_ppl(probs):                     # probs the model gave the observed tokens\n    return -sum(math.log(p) for p in probs) / len(probs)\n\ndef bits_per_byte(lp_nats_per_tok, bytes_per_tok):\n    return lp_nats_per_tok / math.log(2) / bytes_per_tok\n\ntext_bytes = 10_000\n# Model A: coarse tokenizer (4.0 bytes/token). Model B: fine tokenizer (3.0 bytes/token).\nfor name, bpt, mean_p in [(\"A\", 4.0, 0.42), (\"B\", 3.0, 0.50)]:\n    n_tok = int(text_bytes / bpt)\n    probs = [min(0.999, max(1e-4, random.gauss(mean_p, 0.15))) for _ in range(n_tok)]\n    lp = log_ppl(probs)\n    print(f\"model {name}: tokens={n_tok:5d} log-ppl={lp:.3f} nats/tok \"\n          f\"ppl={math.exp(lp):.2f}  BPB={bits_per_byte(lp, bpt):.3f}\")\n# B has the lower log-ppl per token, yet A spends fewer bits per byte of text.\nfor lp in (0.99, 0.91, 0.76):\n    print(f\"log-ppl {lp:.2f} -> ppl {math.exp(lp):.3f}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling (Gao et al., 2020), bits-per-byte evaluation",
+          "url": "https://arxiv.org/abs/2101.00027"
+        }
+      ]
+    },
+    {
+      "id": "ngram-benchmark-contamination-check",
+      "gap": "llm-eval",
+      "title": "Detect benchmark contamination with n-gram overlap before trusting an exam score",
+      "item_ids": [
+        "natcm-tcm-exam-centre-denies-ai-model-exam-testing-claims"
+      ],
+      "why_today": "China's TCM licensing exam centre says material sold to train or evaluate models as 'past papers' or 'internal question banks' did not come from it, and that it never tested any model.",
+      "explanation": "A score on an exam-style benchmark only measures generalisation if the test items, or close paraphrases, were not in the training data. The standard first check is n-gram overlap: tokenise each test item, take its set of long n-grams (13 words is a common choice) and measure what fraction also appear in the training corpus; items above a threshold are flagged and the score is reported on the clean subset as well. Long n-grams make chance matches rare, so high overlap almost always means the item was seen. It misses paraphrases, translations and reformatted questions, which need embedding similarity or model-based probes such as checking whether the model completes a question verbatim or prefers the original over a reworded version. When the training data is unknown, as with a vendor claim, the honest move is to evaluate on fresh items written after the model's cutoff. The strings below are toy examples.",
+      "math": "\\mathrm{overlap}(q) = \\frac{|G_{13}(q) \\cap G_{13}(\\mathcal{D}_{train})|}{|G_{13}(q)|}",
+      "python": "# Benchmark contamination check: share of each test item's word 13-grams that also\n# appear in a training corpus. Toy strings, illustrative only.\ndef ngrams(text, n=13):\n    w = text.lower().split()\n    return {tuple(w[i:i + n]) for i in range(len(w) - n + 1)}\n\ntrain_docs = [\n    \"a patient presents with fever thirst and a rapid floating pulse which pattern \"\n    \"best describes the presentation according to the classical texts on exterior conditions\",\n    \"unrelated web text about stock markets and chips falling sharply in a broad sell off \"\n    \"across asia on friday afternoon trading sessions\",\n]\ntest_items = [\n    \"q1: a patient presents with fever thirst and a rapid floating pulse which pattern \"\n    \"best describes the presentation according to the classical texts\",\n    \"q2: a patient reports chronic fatigue cold limbs and a deep slow pulse what is \"\n    \"the most appropriate treatment principle in this case\",\n]\ntrain_grams = set().union(*(ngrams(d) for d in train_docs))\nfor item in test_items:\n    g = ngrams(item)\n    overlap = len(g & train_grams) / max(1, len(g))\n    flag = \"CONTAMINATED\" if overlap > 0.5 else \"clean\"\n    print(f\"{item[:3]} 13-gram overlap {overlap:.0%} -> {flag}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Language Models are Few-Shot Learners (Brown et al., 2020), Appendix C contamination analysis",
+          "url": "https://arxiv.org/abs/2005.14165"
+        }
+      ]
+    }
+  ]
+}

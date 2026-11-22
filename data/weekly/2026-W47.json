@@ -1,0 +1,48 @@
+{
+  "week": "2026-W47",
+  "headline": "Anthropic's above-range IPO collided with the worst week for tech stocks since 2020, as regulators closed in on a leaderless Nvidia and new US chip rules began to bite in China.",
+  "themes": [
+    {
+      "title": "Nvidia's strong quarter is swamped by probes",
+      "summary": "In its first report under interim CEO Colette Kress, Nvidia posted Q3 revenue of $115.8B, up 103%, and guided to $130B. Within days the WSJ reported an SEC civil probe, Reuters said it was looking at accounting, and California's attorney general subpoenaed the company over possible chip diversion to China; the shares fell about 13% on Nov 20.",
+      "item_ids": [
+        "nvidia-q3-fy2027-revenue-115-8b-guide-130b-buyback-150b",
+        "sec-probe-nvidia-disclosures-wsj",
+        "reuters-sec-nvidia-probe-accounting-focus-stock-falls-13pct",
+        "california-ag-subpoenas-nvidia-china-chip-diversion-disclosures"
+      ]
+    },
+    {
+      "title": "Anthropic lists into an AI sell-off",
+      "summary": "Anthropic priced at $83, above its $70-$78 range, opened at $111.50 and closed its Nasdaq debut at $97.17. A full greenshoe lifted gross proceeds to about $93.5B, but by Friday ANT had given back most of the pop as the Nasdaq erased its 2026 gain and the S&P 500 and Dow joined it in correction.",
+      "item_ids": [
+        "anthropic-ipo-prices-83-above-range",
+        "anthropic-ant-nasdaq-debut-closes-97-17-up-17pct",
+        "anthropic-greenshoe-93-5bn-stabilisation-ends-ant-closes-near-88",
+        "ai-selloff-week-sp500-dow-correction-nvidia-seventh-weekly-loss"
+      ]
+    },
+    {
+      "title": "US chip curbs start to bite in China",
+      "summary": "Commerce's Nov 16 rule requires licences for large remote access to AI compute by Chinese firms. Nvidia said it had stopped shipping licensed Hopper chips to China after $2.4B of Q3 sales, TSMC reportedly told Chinese designers to halt 16nm-and-below orders without licences, and Alibaba warned its 20 GW data-centre target may be cut.",
+      "item_ids": [
+        "bis-remote-access-chip-rule-five-country-licenses-diffusion-rescinded",
+        "nvidia-halts-licensed-hopper-china-shipments-2-4b",
+        "tsmc-halts-china-16nm-orders-without-license-samsung-pauses",
+        "alibaba-warns-us-chip-rules-may-cut-20gw-datacenter-target"
+      ]
+    },
+    {
+      "title": "New frontier models and an AI maths claim",
+      "summary": "OpenAI shipped GPT-6.2 Astra and Sol and cut Astra's price to $8/$40 per million tokens, Google launched the $3/$15 Gemini 4 Neon for coding agents, and Alibaba formally released the 2.4T-parameter Qwen4-Max. An Anthropic mathematician also posted a Lean proof he says he and Claude found for the Riemann hypothesis; it has not yet been independently checked.",
+      "item_ids": [
+        "openai-gpt-6-2-astra-sol-launch",
+        "google-gemini-4-neon-launch",
+        "alibaba-qwen4-max-official-launch-58pct-cheaper-cyber-filtered",
+        "claude-riemann-hypothesis-proof-claim-alpoge-lean"
+      ]
+    }
+  ],
+  "upcoming": [],
+  "notes": "Covers the Nov 16-22 daily issues."
+}
