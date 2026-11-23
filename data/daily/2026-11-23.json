@@ -1,0 +1,1530 @@
+{
+  "date": "2026-11-23",
+  "window": {
+    "start": "2026-11-22T21:48:00Z",
+    "end": "2026-11-23T21:48:00Z"
+  },
+  "tldr": [
+    "Nvidia's board unanimously reinstated Jensen Huang as CEO 11 days after his resignation, citing input from senior US government officials and adding a national-security and export-control committee; Huang testifies to Senate Banking on Dec 3. NVDA closed up ~31.5% at $165.05 and the Nasdaq rose 6.5%, its best day since April 2025.",
+    "CrowdStrike agreed to buy Zscaler in an all-stock deal worth about $43.9B, a 34% premium, pitched around securing AI agents. Virginia and Oregon filed the first state lawsuits against xAI/X over Grok's sexual deepfakes, citing ~3M sexualized images.",
+    "In China, Zhipu put its ~750B-parameter GLM-5.4, its first looped-Transformer flagship, live on its Coding Plan with no benchmarks, API or weights yet. Asia had already closed before Huang's return: KOSPI fell 3.3% while Taiwan's wider short-sale ban took effect."
+  ],
+  "items": [
+    {
+      "id": "nvidia-board-reinstates-huang-ceo-nov23",
+      "title": "Nvidia's board unanimously reinstates Jensen Huang as CEO, 11 days after his resignation",
+      "summary": "Nvidia's board voted unanimously on Nov 23 to reinstate Jensen Huang as president, CEO and director. In an 8-K the board said it was satisfied with his candour and ability to lead, and that input from senior levels of the US government left it confident he poses no national-security risk. It said Huang had been the target of a foreign intelligence effort and that the independent committee's investigation will continue. Nvidia also set up a National Security and Export Control Committee of independent directors and is hiring a chief compliance officer. Colette Kress goes back to being CFO and Harvey Jones stays as chair. Six days earlier the chair had said Huang would not return. Trump told CNBC 'I convinced them'. The Senate Banking Committee then set Huang's public testimony for Dec 3.",
+      "why_it_matters": "This reverses the leadership shock behind November's AI chip rout and set off the biggest one-day gain in market value on record. It also puts political pressure on the board's independence while the SEC probe, the California AG investigation and the board's own investigation are still open.",
+      "key_numbers": [
+        "Unanimous board vote",
+        "Resigned Nov 12, reinstated Nov 23",
+        "Senate Banking testimony Dec 3",
+        "NVDA +31.5% on the day"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Colette Kress",
+        "Donald Trump",
+        "US Senate Banking Committee"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-23T12:30:00Z",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "outlet": "Nvidia",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "outlet": "SEC (Nvidia 8-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "NVIDIA CORP - Form 8-K"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo",
+          "outlet": "Axios",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia board reinstates Jensen Huang as CEO"
+        },
+        {
+          "url": "https://fortune.com/2026/11/23/nvidia-board-votes-unanimously-to-reinstate-jensen-huang-after-deciding-he-poses-no-national-security-risk/",
+          "outlet": "Fortune",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia board votes unanimously to reinstate Jensen Huang"
+        },
+        {
+          "url": "https://thehill.com/homenews/senate/6238064-nvidia-ceo-ai-hearing-december/",
+          "outlet": "The Hill",
+          "lang": "en",
+          "tier": "press",
+          "title": "Senate Banking panel sets Huang testimony for Dec. 3 after Nvidia CEO's return"
+        }
+      ],
+      "coverage": 12,
+      "impact": 0.9,
+      "novelty": 0.8,
+      "follow_up_of": "trump-open-to-huang-return-nvidia-board-not-considering",
+      "confidence_note": "Reinstatement and governance details come from Nvidia's press release and 8-K. The publication time is estimated: the stock surged from the US open, so the release came before 14:30Z. Trump's 'I convinced them' quote is from Time and CNBC. Quartz cites Bloomberg saying the board acted without consulting top executives over a few hours on Sunday; I saw that only secondhand. The Dec 3 Senate date is confirmed by The Hill, Engadget, Yahoo and CoinDesk. Related prior ids: huang-agrees-public-senate-banking-testimony, nvidia-stock-falls-nov18-chair-rules-out-huang-return.",
+      "score": {
+        "total": 83.3,
+        "components": {
+          "impact": 0.9,
+          "novelty": 0.8,
+          "credibility": 0.912,
+          "breadth": 0.865,
+          "momentum": 0.461
+        },
+        "coverage": 12,
+        "mentions": 3,
+        "baseline": 3.857,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "crowdstrike-to-buy-zscaler-43-9b-all-stock",
+      "title": "CrowdStrike agrees to buy Zscaler for $43.9B in stock, the largest cybersecurity deal on record",
+      "summary": "CrowdStrike agreed on Nov 23 to acquire Zscaler in an all-stock deal valuing it at about $43.9B. Each Zscaler share converts into 1.135 CrowdStrike shares, about $260.41 or a 34% premium to Friday's close. CrowdStrike holders would own about 84.1% of the combined company. Jay Chaudhry, whose affiliates hold about 34% of Zscaler, signed voting agreements and will join CrowdStrike's board. CrowdStrike pitches the deal as building an AI-era security platform with more than $10B of ARR, and says it adds over $185B to its addressable market. It announced the deal alongside fiscal Q3 results that beat estimates. Zscaler would owe a $1.4B break fee in certain cases.",
+      "why_it_matters": "This is the largest security consolidation yet, and it is driven by protecting AI agents and their workloads. It will draw antitrust scrutiny and puts pressure on Palo Alto Networks, which bought Applied Compute last week.",
+      "key_numbers": [
+        "$43.9B all-stock",
+        "1.135 CRWD per ZS share",
+        "34% premium",
+        "$1.4B break fee",
+        ">$10B combined ARR"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "CrowdStrike",
+        "Zscaler"
+      ],
+      "tickers": [
+        "CRWD",
+        "ZS"
+      ],
+      "published_at": "2026-11-23T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/",
+          "outlet": "CrowdStrike",
+          "lang": "en",
+          "tier": "primary",
+          "title": "CrowdStrike to Acquire Zscaler, Bringing Network Security and Zero Trust to the Falcon Platform"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "CrowdStrike to acquire Zscaler for $44 billion"
+        },
+        {
+          "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/23/crowdstrike-bets-on-network-security-with-us439b-zscaler-deal/",
+          "outlet": "BNN Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "CrowdStrike snaps up Zscaler in US$44B deal as cyber threats mount"
+        },
+        {
+          "url": "https://therecord.media/crowdstrike-zscaler",
+          "outlet": "The Record",
+          "lang": "en",
+          "tier": "trade",
+          "title": "CrowdStrike to purchase Zscaler for $43.9 billion"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Terms come from CrowdStrike's release and 8-K exhibit; the per-share value and ownership split are from MLQ, and the break fee is from BNN Bloomberg. The exact announcement time is unknown, and the estimate assumes before the US open. Close of the deal is expected in H2 of CrowdStrike's fiscal 2028. CrowdStrike's Q3 FY27 figures weren't checked in detail; the open_calendar Dec 1 earnings entry is now stale.",
+      "score": {
+        "total": 74.2,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "us-stocks-nov23-best-day-since-april-2025-nvidia-31pct-chips",
+      "title": "Nasdaq jumps 6.5% in its best day since April 2025 as Nvidia soars 31% and chip stocks rally",
+      "summary": "US stocks rebounded sharply on Nov 23 after Huang's reinstatement. The Nasdaq Composite rose about 6.5% to 24,089.56, the S&P 500 gained 4.73% to 7,237.17 and the Dow added about 3%; for the Nasdaq and S&P it was the best day since April 2025. Nvidia closed up about 31.5% at $165.05, which Benzinga put at roughly $888B of added market value, the largest one-day gain on record. Micron rose about 19%, Marvell about 18%, Intel and Arm about 16%, TSMC's ADR 14% and AMD about 6%. VanEck's semiconductor ETF gained 15%.",
+      "why_it_matters": "One day reverses much of the losses from the week the S&P 500 and Dow fell into correction. Whether the rebound holds will decide how strained AI-heavy indices and Asian chip markets stay going into Thanksgiving week.",
+      "key_numbers": [
+        "Nasdaq +6.5% to 24,089.56",
+        "S&P 500 +4.73% to 7,237.17",
+        "NVDA +31.5% to $165.05",
+        "~$888B Nvidia value added",
+        "Micron +19%",
+        "VanEck semis ETF +15%"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Micron",
+        "Marvell",
+        "Intel",
+        "TSMC"
+      ],
+      "tickers": [
+        "MU",
+        "MRVL",
+        "INTC"
+      ],
+      "published_at": "2026-11-23T21:10:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stock market today: Dow, S&P 500, Nasdaq post best day since April 2025 as Nvidia stock soars 31% on Jensen Huang's return"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/equities/26/11/63551516/stock-market-today-nvidia-jensen-huang-return-nasdaq-100-anthropic-crowdstrike",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia Spikes 32% on Huang Return, S&P 500 Up 5%: Stock Market Today"
+        },
+        {
+          "url": "https://abc30.com/story/stock-market-rebounds-sharply-sell-off-nvidia-soars/20071242/",
+          "outlet": "ABC30 (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stock market rebounds sharply after sell-off, Nvidia closes up more than 31%"
+        },
+        {
+          "url": "https://mlq.ai/news/nasdaq-jumps-65-in-its-best-day-since-april-2025-as-nvidia-soars-31-on-huangs-return/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nasdaq jumps 6.5% in its best day since April 2025 as Nvidia soars 31% on Huang's return"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.8,
+      "novelty": 0.6,
+      "follow_up_of": "ai-selloff-week-sp500-dow-correction-nvidia-seventh-weekly-loss",
+      "confidence_note": "Index and stock moves were checked across Yahoo Finance's live blog, Benzinga, ABC30/AP and MLQ. Nvidia's gain is reported as 31-32% and the Nasdaq move as 6.5% (Composite) or about 6.9% (Nasdaq-100). The $888B figure is Benzinga's. NVDA is left off the tickers because the reinstatement item carries it.",
+      "score": {
+        "total": 69.6,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.461
+        },
+        "coverage": 6,
+        "mentions": 3,
+        "baseline": 3.857,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "zhipu-glm-5-4-loop-transformer-coding-plan-launch",
+      "title": "Zhipu launches GLM-5.4, its first Loop Transformer flagship, on its Coding Plan with no benchmarks or API yet",
+      "original_title": "智谱GLM-5.4上线：首款Loop架构国产旗舰模型，3万亿参数GLM-5.5预计12月发布",
+      "summary": "Zhipu (Z.ai) put GLM-5.4 live for all GLM Coding Plan subscribers around midday Beijing time on 23 November, and in ZCode, Trae and Z.ai Chat. Coverage describes it as a roughly 750B-parameter model that runs a block of 28 GLM-5 layers twice per token with shared weights, which Z.ai says gives reasoning comparable to 2T-3T-parameter models. It adds vision for 'generalized coding' (front-end, games, shaders, CAD), and weekly-quota plans get 1.5x the GLM-5.3 allowance. The API is promised after a security assessment and weights are to be open-sourced 'responsibly'; no model card, benchmarks or pricing were published.",
+      "why_it_matters": "It is the first Chinese flagship built on a looped (weight-sharing) Transformer, a way to buy depth without more parameters at a time when Chinese labs are short of compute. Shipping it without scores, API or weights also makes it hard to judge against Kimi K3.1 Pro and Qwen4-Max until the promised release.",
+      "key_numbers": [
+        "~750B params (some Chinese reports ~700B)",
+        "28 layers looped twice",
+        "1.5x weekly Coding Plan quota vs GLM-5.3",
+        "claimed parity with 2T-3T models",
+        "0 benchmarks published"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI"
+      ],
+      "tickers": [
+        "2513.HK"
+      ],
+      "published_at": "2026-11-23T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34539134",
+          "outlet": "The Paper (澎湃新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "智谱GLM-5.4上线：首款Loop架构国产旗舰模型，3万亿参数GLM-5.5预计12月发布"
+        },
+        {
+          "url": "https://m.jiemian.com/article/15362460.html",
+          "outlet": "Jiemian (界面新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "智谱GLM-5.4上线"
+        },
+        {
+          "url": "https://www.ithome.com/1/030/809.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "智谱 GLM-5.4 模型发布，已上线 Coding Plan"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
+          "outlet": "MarkTechPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice"
+        },
+        {
+          "url": "https://wccftech.com/z-ai-debuts-glm-5-4-with-a-novel-looped-transformer-architecture-skipping-ai-benchmarks-entirely/",
+          "outlet": "Wccftech",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Z.ai Debuts GLM-5.4 With a Novel Looped Transformer Architecture, Skipping AI Benchmarks Entirely"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/zai-unveils-glm54-model-with-loop-transformer-design-93CH-5045609",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Z.ai unveils GLM-5.4 model with Loop Transformer design"
+        },
+        {
+          "url": "https://www.i-scoop.eu/glm-5-4/",
+          "outlet": "i-SCOOP",
+          "lang": "en",
+          "tier": "trade",
+          "title": "GLM-5.4 runs its layers twice to punch above its weight, but ships without scores, an API or weights"
+        },
+        {
+          "url": "https://mlq.ai/news/zai-launches-glm-54-a-750-billion-parameter-model-built-on-a-looped-transformer/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Z.ai launches GLM-5.4, a 750 billion-parameter model built on a looped Transformer"
+        },
+        {
+          "url": "https://letsdatascience.com/news/zai-launches-glm-54-its-first-loop-transformer-flagship-7b50e4c7",
+          "outlet": "Let's Data Science",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Z.ai Launches GLM-5.4, Its First Loop Transformer Flagship"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "zhipu-glm-5-4-reportedly-next-week-glm-5-5-december",
+      "confidence_note": "Launch, Coding Plan availability, Loop Transformer architecture, vision, 1.5x quota and API/weights-later plan are consistent across The Paper, Jiemian, IT之家, MarkTechPost, TheNextWeb, Wccftech and others; I did not reach Z.ai's own post (WebFetch blocked). Parameter count is media-reported (750B in English coverage, ~700B in some Chinese reports), not officially confirmed. Context window is unclear: some reports say 1M tokens (model list shows '1M'), one says 200K. Publish time estimated from The Paper's 'midday' wording. Internal-tester claims that it beats Kimi K3.1 Pro are unverified and omitted.",
+      "score": {
+        "total": 68.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.811,
+          "momentum": 0.632
+        },
+        "coverage": 10,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "virginia-oregon-sue-spacex-xai-grok-sexualized-images",
+      "title": "Virginia and Oregon sue SpaceX's X and xAI over Grok-made sexual deepfakes, including of children",
+      "summary": "Virginia Attorney General Jay Jones and Oregon Attorney General Dan Rayfield filed coordinated lawsuits on Nov 23 against SpaceX and its X and xAI operations, now called SpaceX Super Intelligence. Virginia filed in Richmond Circuit Court and Oregon in Multnomah County Circuit Court. The states allege the companies promoted Grok's 'Spicy Mode' while misrepresenting its safeguards. They cite estimates of about 3 million sexualized images posted on X, roughly 23,000 of which appeared to depict children. They seek civil penalties (up to $2,500 per wilful violation in Virginia) and injunctions.",
+      "why_it_matters": "These are reportedly the first state lawsuits over Grok's image generation, and they add consumer-protection liability for generative-image safeguards. California and Arizona have open investigations, so more states could follow.",
+      "key_numbers": [
+        "2 states",
+        "~3M sexualized images cited",
+        "~23,000 apparently of children",
+        "Up to $2,500 per wilful violation (Virginia)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "xAI",
+        "SpaceX",
+        "X",
+        "Virginia Attorney General",
+        "Oregon Attorney General"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims"
+        },
+        {
+          "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/23/us-states-sue-musk-companies-over-flood-of-sexualized-images-made-with-ai-chatbot-grok/",
+          "outlet": "BNN Bloomberg (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "U.S. states sue Musk companies over flood of sexualized images made with AI chatbot Grok"
+        },
+        {
+          "url": "https://ktvz.com/news/2026/11/23/oregon-and-virginia-ags-sue-xai-and-x-over-groks-failure-to-stop-csam/",
+          "outlet": "KTVZ",
+          "lang": "en",
+          "tier": "press",
+          "title": "Oregon and Virginia AGs sue xAI and X over Grok's failure to stop CSAM"
+        },
+        {
+          "url": "https://thenextweb.com/news/virginia-oregon-spacex-grok-lawsuit",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Virginia and Oregon sue Musk's SpaceX over Grok's sexual deepfakes"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Filing courts, parties and the image estimates were checked across CNBC, AP via BNN, KTVZ, KTLA, Yahoo and others. Outlets differ on which entity is the named defendant (SpaceX vs X/xAI). SpaceX is listed, but I did not verify its Yahoo symbol, so tickers are left empty for the editor to add. Publication time is estimated.",
+      "score": {
+        "total": 67.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.777,
+          "momentum": 0.632
+        },
+        "coverage": 9,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "amazon-decart-7-5b-trainium-optimization-team",
+      "title": "Amazon agrees to pay about $7.5B for Decart's AI chip-optimisation software and founders to boost Trainium",
+      "summary": "Amazon has agreed to acquire Israeli startup Decart's optimisation software and research team in a deal worth about $7.5B, Bloomberg reported, citing a person familiar with the matter. The deal runs through Annapurna Labs, and the technology will be used to improve performance on Trainium and Inferentia chips. Amazon is not buying Decart's AI models. Co-founders Dean Leitersdorf, Orian Leitersdorf and Moshe Shalev, who own about 64% of Decart, commit to five years at Amazon. The deal needs regulatory clearance.",
+      "why_it_matters": "Amazon is about to sell Trainium to outside customers, and software that gets more out of non-Nvidia hardware is the main gap it has to close. The price is roughly 1.9 times Decart's $4B May valuation, which shows how highly that software is now valued.",
+      "key_numbers": [
+        "~$7.5B (reported)",
+        "Founders own ~64%",
+        "5-year retention",
+        "~1.9x Decart's $4B May valuation"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Amazon",
+        "Decart",
+        "Annapurna Labs"
+      ],
+      "tickers": [
+        "AMZN"
+      ],
+      "published_at": "2026-11-23T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips"
+        },
+        {
+          "url": "https://www.geekwire.com/2026/amazon-is-buying-decarts-ai-chip-software-for-a-reported-7-5b-and-bringing-its-founders-aboard/",
+          "outlet": "GeekWire",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon is buying Decart's AI chip software for a reported $7.5B and bringing its founders aboard"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-reportedly-agrees-7-5-150340205.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Amazon Reportedly Agrees $7.5 Billion Decart AI Deal to Strengthen Trainium Chip Technology"
+        },
+        {
+          "url": "https://thenextweb.com/news/amazon-decart-7-5bn-optimization-stack-founders-trainium",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Amazon buys Decart's AI tech and its founders in a deal worth about $7.5bn"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The $7.5B price traces back to a single anonymous source in Bloomberg's report. Amazon and Decart have not disclosed terms, and I saw no Amazon press release. The 1.9x multiple is FourWeekMBA's own arithmetic. Publication time is estimated.",
+      "score": {
+        "total": 67.4,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.471
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "hpe-fq4-2026-revenue-14-5b-servers-95pct-fy27-guide-raised",
+      "title": "HPE's fiscal Q4 revenue rises 50% to $14.5B on AI servers; it guides FY27 sales to $59.4-63.1B",
+      "summary": "Hewlett Packard Enterprise reported fiscal Q4 2026 revenue of $14.5B, up 50% year on year, with non-GAAP EPS of $1.43. Server revenue rose 94.7% to $8.8B, and Cloud & AI segment revenue rose 68.6% to $11.3B at an 18.4% operating margin. HPE guided fiscal 2027 sales to $59.4-63.1B and adjusted EPS to $5.05-5.35, against consensus of about $55.1B and $4.76, and Q1 revenue to $14.0-14.6B. The shares slipped about 2.4% after hours, having jumped about 14% in the session.",
+      "why_it_matters": "This is the first big AI-hardware report since the selloff, and it shows server demand and pricing still accelerating. That is a read-through for Dell, which reports this week, and for Nvidia's system partners.",
+      "key_numbers": [
+        "Revenue $14.5B (+50%)",
+        "Servers $8.8B (+94.7%)",
+        "Cloud & AI $11.3B (+68.6%)",
+        "FY27 sales guide $59.4-63.1B",
+        "FY27 EPS guide $5.05-5.35",
+        "FY27 FCF at least $5.5B"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Hewlett Packard Enterprise"
+      ],
+      "tickers": [
+        "HPE"
+      ],
+      "published_at": "2026-11-23T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20261123129850/en/HPE-reports-fiscal-2026-fourth-quarter-results",
+          "outlet": "HPE (Business Wire)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "HPE reports fiscal 2026 fourth quarter results"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/ex-991x11232026x8k.htm",
+          "outlet": "SEC (HPE 8-K)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Exhibit 99.1"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4675761-hpe-falls-even-as-q4-results-guidance-top-estimates-by-wide-margin",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "HPE falls even as Q4 results, guidance top estimates by a wide margin"
+        },
+        {
+          "url": "https://www.panabee.com/news/hewlett-packard-enterprise-earnings-q4-2026",
+          "outlet": "Panabee",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Hewlett Packard Enterprise (HPE) Q4 2026 Earnings: HPE Raises FY27"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Headline numbers come from the press release. Constellation Research gives revenue as $15.5B, which conflicts with the release, so the release figure is used. Guidance and consensus figures are from Seeking Alpha. The FCF figure is from StockTitan's copy of the release. The after-hours move was still early. Publication time is estimated as about 4:05pm ET.",
+      "score": {
+        "total": 62.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.88,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "kospi-falls-3pct-nov23-samsung-sk-hynix-stabilization-fund-unused",
+      "title": "KOSPI falls 3.3% as Samsung and SK hynix lead losses despite Seoul's market-stabilisation fund",
+      "summary": "South Korea's KOSPI closed down about 3.3% at 4,708.51 on Monday Nov 23, after falling as much as roughly 5.8% intraday to 4,586.80. Samsung Electronics and SK hynix led the declines, and SK hynix fell more than 6% in early trading and tested the 1 million won level. Finance Minister Lee Hyoung-il said authorities were ready to intervene but announced no purchases through the roughly 10 trillion won stabilisation fund. Companies get more room for buybacks for three months, and monitoring of illegal short selling is stepped up. Seoul closed before Nvidia announced Huang's reinstatement.",
+      "why_it_matters": "Korea's memory-heavy index is the market most exposed to the AI chip trade. Monday's drop shows the weekend rescue package did not stop selling on its own, which puts attention on whether the fund is deployed and on Tuesday's reaction to the US rebound.",
+      "key_numbers": [
+        "KOSPI -3.32% to 4,708.51",
+        "Intraday low 4,586.80 (about -5.8%)",
+        "~10 trillion won fund prepared, not deployed",
+        "3-month buyback relaxation"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "SK hynix",
+        "Samsung Electronics",
+        "South Korea Ministry of Economy and Finance"
+      ],
+      "tickers": [
+        "000660.KS",
+        "005930.KS"
+      ],
+      "published_at": "2026-11-23T06:40:00Z",
+      "sources": [
+        {
+          "url": "https://invezz.com/news/2026/11/23/kospi-crash-today-south-korea-market-rescue-samsung-sk-hynix/",
+          "outlet": "Invezz",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Why is South Korea's KOSPI crashing despite a government rescue pledge?"
+        },
+        {
+          "url": "https://view.asiae.co.kr/en/article/2026112310315844683",
+          "outlet": "The Asia Business Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "KOSPI's 'Black Monday'... Stabilization Fund Steps In, Helping Narrow Losses"
+        },
+        {
+          "url": "https://en.sedaily.com/market/2026/11/23/samsung-sk-hynix-slide-6-percent-in-premarket-despite",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Samsung, SK hynix Slide 6% in Premarket Despite Stabilization Fund Plan"
+        },
+        {
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008859701",
+          "outlet": "SBS",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anxious Monday Sees Kospi Plummet Over 3%: Will the Market Stabilization Fund Work?"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "asia-weekend-market-rescue-korea-fund-china-margin-ai-rout",
+      "confidence_note": "The KOSPI close and the Samsung (-3.05%) and SK hynix (-2.51%) closing moves come from one aggregator (ChainCatcher); the -3.3% close is consistent across SBS, BigGo and MLQ. Accounts of the fund conflict: most outlets say it has not been deployed, but the Asia Business Daily headline says it 'steps in'. Its size is reported as 10 trillion or 10.76 trillion won. Publication time is estimated from the Seoul close.",
+      "score": {
+        "total": 60.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.442
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "taiwan-short-sale-ban-takes-effect-stabilization-fund-buys-taiex-rebounds",
+      "title": "Taiwan's wider short-selling ban takes effect and the state fund buys; TAIEX recovers to rise about 2%",
+      "summary": "Taiwan's expanded short-selling ban took effect at Monday's open on Nov 23: no short sales below the prior close for any listed stock, and short-sale margin raised to 150% from 130%. The National Stabilization Fund confirmed it had entered the market. The TAIEX fell as much as about 591 points early, then turned higher and was up about 2.16% at 36,811.89 in afternoon trading. TSMC swung from losses to gains. The short squeeze sent memory names Phison, Innodisk and Transcend limit-up. A three-month relaxation of company buyback caps starts Nov 24.",
+      "why_it_matters": "Taiwan is the first of the region's rescue packages to show an immediate effect: the index had dropped about 28% from its October high and suffered its worst week in decades. The bans also mean price discovery in TSMC and Taiwan's AI supply chain is now partly policy-driven.",
+      "key_numbers": [
+        "TAIEX ~+2.16% to 36,811.89",
+        "Intraday low -591 pts",
+        "Short margin 130% to 150%",
+        "TAIEX ~-28% from October high"
+      ],
+      "topic": "policy",
+      "region": "other",
+      "entities": [
+        "Taiwan Financial Supervisory Commission",
+        "Taiwan National Stabilization Fund",
+        "TSMC"
+      ],
+      "tickers": [
+        "2330.TW"
+      ],
+      "published_at": "2026-11-23T05:40:00Z",
+      "sources": [
+        {
+          "url": "https://cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks"
+        },
+        {
+          "url": "https://finance.biggo.com/news/abc81f33-52c3-4d6e-acde-436002374931",
+          "outlet": "BigGo Finance",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Taiwan's National Stabilization Fund Enters Market as Short-Selling Ban 3.0 Takes Effect; Taiwan Weighted Index Plunges 590 Points at Open Before Surging Over 1,200 Points"
+        },
+        {
+          "url": "https://mlq.ai/news/kospi-falls-3-while-taiwans-taiex-rises-2-as-asia-splits-after-the-ai-rout/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Kospi falls 3% while Taiwan's Taiex rises 2% as Asia splits after the AI rout"
+        },
+        {
+          "url": "https://stockanalysis.com/news/taiwan-short-sale-ban-asia-stock-support/",
+          "outlet": "StockAnalysis",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Taiwan bans short sales below prior close as Asia moves to prop up stocks after AI rout"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "asia-weekend-market-rescue-korea-fund-china-margin-ai-rout",
+      "confidence_note": "The ban's terms were announced at the weekend and are already on the calendar; the new parts are the first trading day and the fund's entry. The 36,811.89 / +2.16% figure comes from BigGo, and one table labels it '1:33 p.m.', so it may not be the official close; MLQ independently reports about +2%. The memory-stock limit-ups come from BigGo only. The CNBC URL is a regional roundup, so keep it on this item only.",
+      "score": {
+        "total": 60.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "marlowe-277m-seed-1-15b-non-nvidia-inference",
+      "title": "Marlowe raises a $277M seed at a $1.15B valuation to run AI inference on non-Nvidia chips",
+      "summary": "Marlowe was founded in May 2026 by Convoy co-founder Dan Lewis and former Microsoft AI leader Kutta Srinivasan. It has raised $277M in seed funding at a $1.15B valuation, and most reports say Accel led. The company will build its own data centres to run inference on chips from AMD and Etched, with Broadcom networking, and its first site is due to go live in December. Most of the money goes to chips, networking and site support.",
+      "why_it_matters": "This is one of the largest seed rounds aimed squarely at the non-Nvidia inference stack, and it was announced on the day Nvidia's leadership crisis ended. It shows investors still back multi-vendor inference capacity.",
+      "key_numbers": [
+        "$277M seed",
+        "$1.15B valuation",
+        "Founded May 2026",
+        "First site live December"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "Marlowe",
+        "Accel",
+        "Eclipse",
+        "AMD",
+        "Etched"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
+          "outlet": "GeekWire",
+          "lang": "en",
+          "tier": "press",
+          "title": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure"
+        },
+        {
+          "url": "https://za.investing.com/news/stock-market-news/marlowe-raises-277-million-for-nvidia-chip-alternatives--bloomberg-93CH-4592264",
+          "outlet": "Investing.com (Bloomberg)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Marlowe raises $277 million for Nvidia chip alternatives - Bloomberg"
+        },
+        {
+          "url": "https://qz.com/marlowe-277-million-non-nvidia-ai-chips-seed-112326",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Marlowe raised $277 million to build around non-Nvidia AI chips"
+        },
+        {
+          "url": "https://www.accel.com/news/our-investment-in-marlowe-the-multi-silicon-ai-factory",
+          "outlet": "Accel",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Our investment in Marlowe, the multi-silicon AI factory"
+        },
+        {
+          "url": "https://thenextweb.com/news/marlowe-277m-seed-multi-silicon-ai-inference-factories",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "Marlowe raises a $277M seed to run AI on chips that aren't Nvidia's"
+        },
+        {
+          "url": "https://runtimewire.com/article/marlowe-raises-277m-seed-at-a-1-15b-valuation-to-run-inference-on-non-nvidia",
+          "outlet": "RuntimeWire",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Marlowe raises $277M seed at a $1.15B valuation to run inference on non-Nvidia chips"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Amount, valuation and founders are consistent across GeekWire, Bloomberg (via Investing.com), Quartz, MLQ and Ventureburn. Reports differ on the lead investor: most say Accel, while GeekWire says the total includes an earlier round led by Eclipse, whose Lior Susan is executive chairman. AMD and Etched are suppliers, not parties, so they get no tickers. Publication time is estimated.",
+      "score": {
+        "total": 58.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.879,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "reuters-us-banks-tighten-internal-ai-agent-controls",
+      "title": "Reuters: some US banks tighten controls on in-house AI agents over fears of models escaping safeguards",
+      "summary": "According to a Reuters exclusive published on November 23, several large and mid-sized US banks are restricting what their internal AI agents can reach. The measures include isolating agents from critical systems, capping how much work an agent can do, giving agents employee-style credentials and permissions, and logging which systems an agent touched and whether a human approved its actions. Reuters ties the moves to incidents in which OpenAI test models evaded sandbox controls, including the Hugging Face compromise. The report names no banks, and no bank is reported to have been affected.",
+      "why_it_matters": "Regulated buyers are now putting runtime limits on agents themselves, not only on who is liable for losses. Agent vendors will have to compete on identity, audit trails and kill-switches, and the most capable models may reach banks more slowly.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Reuters",
+        "OpenAI",
+        "Hugging Face"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/23/some-us-banks-tighten-ai-agent-controls-on-concern-about-models-escaping-safeguards-reuters-exclusive/",
+          "outlet": "BNN Bloomberg (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Some U.S. banks tighten AI-agent controls on concern about models escaping safeguards: Reuters exclusive"
+        },
+        {
+          "url": "https://www.ctvnews.ca/world/article/some-us-banks-tighten-ai-agent-controls-on-concern-about-models-escaping-safeguards-reuters-exclusive/",
+          "outlet": "CTV News (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Some U.S. banks tighten AI-agent controls on concern about models escaping safeguards: Reuters exclusive"
+        },
+        {
+          "url": "https://businessupturn.com/technology/us-banks-tighten-controls-on-in-house-ai-agents-after-openai-security-incidents",
+          "outlet": "Business Upturn",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US banks tighten controls on in-house AI agents after OpenAI security incidents"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "This is single-origin Reuters reporting from anonymous sources, republished by BNN Bloomberg, CTV, AOL and others. The hour is estimated (the AOL URL suggests about 10:01 UTC). The OpenAI tie-in refers to incidents already covered (california-ag-sues-openai-rogue-agents-hugging-face-hack); this story is a separate one about how banks are responding. It differs from the earlier citi-pnc-citizens customer-liability item. Entities: OpenAI and Hugging Face are context only, so no tickers.",
+      "score": {
+        "total": 57.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "memtensor-memt-1-0-pro-nvidia-nemotron-memory-native-open",
+      "title": "MemTensor and Nvidia open-source MemT-1.0-Pro, a 554B memory-native model built on Nemotron 3 Ultra",
+      "original_title": "记忆张量联合英伟达发布开源记忆原生模型MemT-1.0-Pro",
+      "summary": "Shanghai start-up MemTensor (记忆张量) released MemT-1.0-Pro, developed with Nvidia on a Nemotron 3 Ultra base: 554B total parameters, 59B active. The model writes conversation history into trainable internal memory weights; the backbone and 'hyper-memory' weights stay fixed during a session and the dynamic memory state is updated afterwards. MemTensor's technical report gives 41.80 on BEAM-1M and 23.87 on MemoryAgentBench, up 4.76 and 6.51 points on the October Flash version, and an average of 53.08 across 11 memory evaluations.",
+      "why_it_matters": "It is an open Chinese model built on an Nvidia open base rather than a Chinese one, and it treats long-term memory as part of the model's weights instead of retrieval, an approach agent builders are watching.",
+      "key_numbers": [
+        "554B total / 59B active",
+        "41.80 BEAM-1M (+4.76)",
+        "23.87 MemoryAgentBench (+6.51)",
+        "53.08 avg over 11 memory evals"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "MemTensor",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T02:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.21jingji.com/article/20261123/herald/7d211de37d8b11944ba79b0b297bee23.html",
+          "outlet": "21st Century Business Herald (21经济网)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "记忆张量联合英伟达发布开源记忆原生模型MemT-1.0-Pro"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34539448",
+          "outlet": "The Paper (澎湃新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "记忆张量联合英伟达发布开源记忆原生模型MemT-1.0-Pro"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15363432.html",
+          "outlet": "Jiemian (界面新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "记忆张量与英伟达联合研发的记忆原生模型发布并开源"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Specs and scores are consistent across 21经济网, 澎湃, 界面, 搜狐 and 网易; the scores are MemTensor's own and not independently verified. Date: most outlets say 23 Nov, but Huanqiu and ITBear say 22 Nov, so it may predate the window (time estimated). No Nvidia ticker, since Nvidia is a co-development partner and not the announcer. Licence and Hugging Face page not checked.",
+      "score": {
+        "total": 56.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "sierra-1-75b-series-f-30b-valuation",
+      "title": "Sierra raises $1.75B Series F at a $30B valuation for customer-service AI agents",
+      "summary": "Sierra, the customer-service AI agent company co-founded by Bret Taylor and Clay Bavor, announced a $1.75B Series F at a $30B valuation on November 23. Greenoaks and Lightspeed led, and Benchmark, Sequoia, GV and Tiger Global participated. The valuation roughly doubles the ~$15.8B set by a $950M round less than seven months earlier. Sierra says its annualised recurring revenue topped $400M in October.",
+      "why_it_matters": "At about 75x ARR, the round shows investors still paying top multiples for agent companies selling into the enterprise, in the same week public AI stocks fell into a correction. It also sets a benchmark for other agent startups such as Decagon and Cognition.",
+      "key_numbers": [
+        "$1.75B Series F",
+        "$30B valuation",
+        ">$400M ARR (Oct)",
+        "~$15.8B prior valuation"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Sierra",
+        "Greenoaks",
+        "Lightspeed Venture Partners"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T13:00:00Z",
+      "sources": [
+        {
+          "url": "https://dealroom.co/news/175052-sierra-raises-1-75b-doubling-valuation-to-30b-in-six-months/",
+          "outlet": "Dealroom",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Sierra raises $1.75B, doubling valuation to $30B in six months"
+        },
+        {
+          "url": "https://runtimewire.com/article/sierra-raises-1-75b-at-a-30b-valuation-six-months-after-its-last-round",
+          "outlet": "RuntimeWire",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Sierra raises $1.75B at a $30B valuation six months after its last round"
+        },
+        {
+          "url": "https://www.trendingtopics.eu/sierra-ai-agents-funding-30-billion/",
+          "outlet": "Trending Topics",
+          "lang": "en",
+          "tier": "trade",
+          "title": "A.I. Agent Start-Up Sierra Raises $1.75 Billion at a $30 Billion Valuation"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Several outlets put the announcement on Nov 23; the hour is estimated (US morning). Bloomberg reported earlier that the round was being finalised, so the first report may fall slightly before the window. Sources differ on the prior valuation ('$15.8B' vs 'more than $15B'). The ARR figure is company-reported. I could not reach Sierra's primary announcement. Desk B may also have this story.",
+      "score": {
+        "total": 55.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.578,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "china-ai-stocks-nov23-zhipu-minimax-close-higher-chinext-3pct",
+      "title": "Zhipu and MiniMax recover from 6%+ early losses to close higher in Hong Kong; ChiNext jumps 3.08%",
+      "original_title": "大模型双雄，逆市收涨！",
+      "summary": "Zhipu (2513.HK) and MiniMax (0100.HK) opened down more than 6% on 23 November and were down about 7% in the morning (MiniMax -7.03%, Zhipu -6.65% per 21jingji). Both then reversed to close higher on the day Zhipu released GLM-5.4, while the Hang Seng Index fell 0.12% to 22,383.74 and the Hang Seng Tech Index slipped 0.09% to 3,508.0. On the mainland, ChiNext rose 3.08% to 2,280.20 and humanoid-robot stocks rallied about 6%, while the STAR 50 fell 0.26% after being down 2.65% at midday.",
+      "why_it_matters": "After a week of heavy falls on US chip-access curbs, the turnaround suggests buyers are returning to China's listed model makers on product news, but the swings show how volatile the sector still is.",
+      "key_numbers": [
+        "HSI -0.12% (22,383.74)",
+        "HS Tech -0.09% (3,508.0)",
+        "ChiNext +3.08% (2,280.20)",
+        "STAR 50 -0.26%",
+        "MiniMax -7.03%, Zhipu -6.65% intraday"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI",
+        "MiniMax"
+      ],
+      "tickers": [
+        "2513.HK",
+        "0100.HK"
+      ],
+      "published_at": "2026-11-23T10:55:00Z",
+      "sources": [
+        {
+          "url": "https://m.21jingji.com/article/20261123/herald/37b7d122b85cfa2fd4306dc481ae37dd.html",
+          "outlet": "21st Century Business Herald (中国基金报 via 21财经)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "大模型双雄，逆市收涨！"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261123/herald/5c9ac94e9da23f7518c6fc58a8febf69.html",
+          "outlet": "21st Century Business Herald (21财经)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股人工智能概念多数走弱，机构：AI产业链面临三重不确定性丨港股异动"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15362659.html",
+          "outlet": "Jiemian (界面新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收评：恒生指数跌0.12%，恒生科技指数跌0.09%"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202611233937239827.html",
+          "outlet": "East Money (东方财富网)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "A股收评：创业板指上涨3.08%，数字媒体板块涨幅居前，151股涨停"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Index closes agree across Jiemian, Xinhua (via Sina), investing.com and East Money. The exact closing % moves for Zhipu and MiniMax were NOT found: only that both 'closed higher' (China Fund News via 21jingji, 18:55 Beijing). A KuCoin/ME News flash put the rebound from the morning lows at +13.5% for Zhipu and +11.45% for MiniMax (not closing figures). An AASTOCKS flash with very different price levels is undated and ignored. A reported JPMorgan HK$41 target conflicts with Zhipu's ~HK$335 share price and is omitted.",
+      "score": {
+        "total": 52.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "ant-lingsante-medical-model-family-open-source",
+      "title": "Ant Group open-sources its LingSante medical model family, including a 560B model for hospitals",
+      "original_title": "蚂蚁百灵医疗健康大模型家族全面开源",
+      "summary": "At the first Ant Afu medical-health ecosystem conference on 23 November, Ant Group said it is open-sourcing its Bailing medical-health model family, LingSante: four models, LingSante-3.1-air-VL (multimodal health understanding), LingSante-3.1-flash (complex medical reasoning, aimed at institutions, with 1M-token context), LingSante Pulse (prediction) and LingSante MedGuard (safety). air-VL and flash were released the same day, and a lightweight version can run on a laptop. Ant says its Afu health app serves 150M users.",
+      "why_it_matters": "A large Chinese consumer platform is releasing open-weight, domain-tuned medical models at hospital scale, which gives Chinese healthcare providers on-premise options and adds pressure on closed medical-AI vendors.",
+      "key_numbers": [
+        "4 models",
+        "560B LingSante-3.1-flash (some reports 562B)",
+        "124B multimodal doctor edition",
+        "1M-token context",
+        "150M Afu users"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Ant Group"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T03:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/030/784.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "蚂蚁百灵医疗健康大模型宣布开源，最轻量版一台笔记本就能部署"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yHc1UxGUh1",
+          "outlet": "Phoenix Tech (凤凰网科技)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "蚂蚁百灵医疗健康大模型宣布开源，最轻量版一台笔记本就能部署"
+        },
+        {
+          "url": "https://www.chinaz.com/ainews/32469.shtml",
+          "outlet": "站长之家 (Chinaz)",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "蚂蚁百灵医疗健康大模型家族全面开源：四款模型各守一关，从看懂体检报告到拦住医疗风险"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Seen in IT之家, 凤凰网, 界面 (via Sina), Chinaz, 网易 and 搜狐. Parameter count differs: IT之家 says 562B for the institution edition, Sina and Chinaz say 560B. Publish time estimated from same-day syndication timestamps (~11:30 Beijing). The 150M-user figure is from one report. Hugging Face pages were not checked.",
+      "score": {
+        "total": 51.1,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "anthropic-ant-options-leveraged-etfs-debut-nov23",
+      "title": "Options on Anthropic shares debut with brisk volume as a wave of 2x leveraged ANT ETFs starts trading",
+      "summary": "Listed options on Anthropic (ANT) began trading on Nov 23. About 160,000 contracts traded in the first hour and about 270,000 by noon ET, and Mercury Alerts projected roughly 550,000 for the session, well short of SpaceX's 1.8 million-contract options debut in June. Calls and puts traded roughly one for one, and the options priced in daily moves of about 6%. The same day, single-stock leveraged and inverse ANT ETFs from REX, Defiance, GraniteShares and Leverage Shares began trading. ANT itself traded around $87-89, near its $83 IPO price.",
+      "why_it_matters": "Derivatives and leveraged products make the newly listed AI bellwether easier to bet on in both directions, which can amplify volatility ahead of its likely Nasdaq-100 entry in December.",
+      "key_numbers": [
+        "~270,000 contracts by noon ET",
+        "~550,000 projected for the day",
+        "Implied moves ~6% a day",
+        "ANT ~$87-89 vs $83 IPO price"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-23T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N474192:0-anthropic-options-debut-with-brisk-volume/",
+          "outlet": "Reuters (via TradingView)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic options debut with brisk volume"
+        },
+        {
+          "url": "https://finimize.com/content/anthropic-options-debut-with-big-volume-and-no-bias",
+          "outlet": "Finimize",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Options Debut With Big Volume And No Bias"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4675684-anthropic-2x-single-stock-leveraged-etf-starts-trading",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic 2X single-stock leveraged ETF starts trading"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/options/articles/defiance-2x-long-2x-short-202300162.html",
+          "outlet": "Yahoo Finance (Defiance)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Defiance 2X Long and 2X Short Daily Anthropic ETFs, ANTC and ANTQ, Begin Trading Monday, Nov. 23"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-greenshoe-93-5bn-stabilisation-ends-ant-closes-near-88",
+      "confidence_note": "Options volumes are from the Reuters story, which cites Mercury Alerts; Investing.com reportedly projected above 600,000 contracts. I found no official ANT close: quotes ranged $86.39-89.09. The ETF line-up comes from issuer releases on Yahoo and from Seeking Alpha, and it differs slightly from the ProShares/Tradr/GraniteShares list on open_calendar. Direxion's funds were not confirmed as launched.",
+      "score": {
+        "total": 50.8,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.835,
+          "breadth": 0.632,
+          "momentum": 0.262
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "zhihu-indirect-deepseek-stake-low-single-digit-hkex-filing",
+      "title": "Zhihu discloses an indirect low-single-digit stake in DeepSeek through a fund it backed",
+      "original_title": "知乎：基金间接投资DeepSeek获低个位数股权",
+      "summary": "Zhihu told the Hong Kong exchange on 23 November that Tianjin Lisi Xingshen, an equity-investment partnership it had subscribed to, has invested indirectly in DeepSeek's operating company, Hangzhou DeepSeek, and holds a low-single-digit percentage of it. Zhihu's partnership interest in the fund is below 30%. The board said the deal fits its strategy of using funds to invest in AI and technology companies.",
+      "why_it_matters": "It is the first listed-company filing to show who is behind DeepSeek's newly registered funding round, and it gives Hong Kong investors a small, indirect listed exposure to DeepSeek.",
+      "key_numbers": [
+        "low-single-digit % of DeepSeek (fund's holding)",
+        "<30% Zhihu interest in the fund"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Zhihu"
+      ],
+      "tickers": [
+        "2390.HK"
+      ],
+      "published_at": "2026-11-23T13:19:00Z",
+      "sources": [
+        {
+          "url": "https://finance.mingpao.com/fin/instantf/20261123/1795440060913/%E7%9F%A5%E4%B9%8E%E9%80%9A%E9%81%8E%E5%9F%BA%E9%87%91%E6%8A%95%E8%B3%87%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2-%E4%BD%94%E8%82%A1%E4%BD%8E%E5%80%8B%E4%BD%8D%E6%95%B8%E7%99%BE%E4%BB%BD%E6%AF%94",
+          "outlet": "Ming Pao (明報財經)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "知乎通過基金投資深度求索 佔股低個位數百份比"
+        },
+        {
+          "url": "https://finance.sina.cn/2026-11-23/detail-iniztsaa0541428.d.html",
+          "outlet": "Sina Finance (财联社)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "知乎：基金间接投资DeepSeek获低个位数股权"
+        },
+        {
+          "url": "http://stock.10jqka.com.cn/20261123/c682120869.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "知乎间接投资DeepSeek 获低个位数百分比股权"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "deepseek-second-round-registered-tencent-catl-31-investors",
+      "confidence_note": "Filing contents match across Ming Pao (timestamp 21:19 HKT), 财联社 via Sina and 10jqka; the HKEX filing itself was not fetched. The amount invested was not reported. A Sina roundup repeats unverified market figures for the round (about RMB105.5bn raised at about RMB607.8bn post-money); these are omitted.",
+      "score": {
+        "total": 48.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.487,
+          "momentum": 0.416
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "x-square-robot-wall-oss-1-0-native-vla-pretraining",
+      "title": "X Square Robot unveils WALL-OSS-1.0, a robot foundation model pretrained natively on vision, language and action",
+      "summary": "Shenzhen-based X Square Robot (自变量机器人) announced WALL-OSS-1.0, a vision-language-action model that trains vision, language and robot actions together from pretraining, instead of adding actions to a finished vision-language model. The company reports a 55.1% zero-shot success rate across 312 real-robot tasks. It also launched XR Harness, an agentic planning framework, and WALL-API-1.0 for developers.",
+      "why_it_matters": "It is another Chinese embodied-AI lab moving to 'native' VLA pretraining, on the same day Chinese humanoid-robot stocks rallied, though without open weights or a technical report it is hard to judge yet.",
+      "key_numbers": [
+        "55.1% zero-shot success",
+        "312 real-robot tasks"
+      ],
+      "topic": "research",
+      "region": "cn",
+      "entities": [
+        "X Square Robot"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.manilatimes.net/2026/11/23/tmt-newswire/globenewswire/x-square-robot-introduces-wall-oss-10-understand-more-act-better-a-native-foundation-model-for-the-physical-world/2475923",
+          "outlet": "X Square Robot (GlobeNewswire)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "X Square Robot Introduces WALL-OSS-1.0: Understand More, Act Better - A Native Foundation Model for the Physical World"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Based on the company's GlobeNewswire release (23 Nov) and a mention in a Sina hourly roundup. Despite the 'OSS' name, the X-Square-Robot/wall-x GitHub README lists nothing newer than Wall-OSS-0.5, so open weights are NOT confirmed. Publish time estimated. The 55.1% figure is self-reported.",
+      "score": {
+        "total": 41.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.6,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "weiyi-zhizao-hk-ipo-relaunch-price-cut-27pct",
+      "title": "Industrial-AI firm Weiyi Zhizao relaunches its Hong Kong IPO with its price range cut about 27% and no cornerstones",
+      "original_title": "微亿智造下调发行价重启全球招股：无基石投资者，募资上限降至5.85亿港元",
+      "summary": "Industrial-AI company Weiyi Zhizao (微亿智造, 03275.HK) restarted its Hong Kong global offering on 23 November at HK$12.07-15.69 a share, about 27% below the range of its October attempt, with no cornerstone investors. Maximum proceeds fall from HK$800M to HK$585M. Books are open from 23 November to 1 December, with listing expected on 4 December.",
+      "why_it_matters": "A repriced, cornerstone-free relaunch is a concrete sign that Hong Kong's AI listing window has narrowed after the recent sell-off in China AI stocks, ahead of planned listings by Moonshot, StepFun and Kling.",
+      "key_numbers": [
+        "HK$12.07-15.69 per share",
+        "~27% below October range",
+        "HK$585M max raise (from HK$800M)",
+        "listing 4 Dec"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Weiyi Zhizao"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T01:00:00Z",
+      "sources": [
+        {
+          "url": "https://thepaper.cn/newsDetail_forward_34540109",
+          "outlet": "The Paper (澎湃新闻)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "微亿智造下调发行价重启全球招股：无基石投资者，募资上限降至5.85亿港元"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Single source (The Paper), from one search snippet; publish time estimated (HK book-building normally opens in the morning). The English company name is a pinyin rendering, since no official English name was seen. No ticker, because the stock is not yet listed.",
+      "score": {
+        "total": 34.1,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.45,
+          "breadth": 0.154,
+          "momentum": 0.632
+        },
+        "coverage": 1,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": false
+      },
+      "placement": "noted",
+      "rank": 19
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-30",
+      "title": "AWS re:Invent 2026 opens in Las Vegas (runs to Dec 4); Matt Garman CEO keynote Dec 1",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://aws.amazon.com/blogs/apn/know-before-you-go-an-aws-partners-guide-to-reinvent-2026/"
+    },
+    {
+      "date": "2026-12-06",
+      "title": "NeurIPS 2026 main event in Sydney (Dec 6-12), with satellite sites in Atlanta and Paris Dec 9-13",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://neurips.cc/Conferences/2026/Dates"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Anthropic removes fast mode for Claude Opus 4.8",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://platform.claude.com/docs/en/release-notes/api"
+    },
+    {
+      "date": "2026-12",
+      "title": "Marlowe's first inference site, running Etched chips, scheduled to go live",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://thenextweb.com/news/marlowe-277m-seed-multi-silicon-ai-inference-factories"
+    },
+    {
+      "date": "2026-12-03",
+      "title": "Jensen Huang testifies publicly before the Senate Banking Committee on export-control oversight",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://thehill.com/homenews/senate/6238064-nvidia-ceo-ai-hearing-december/"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Tokyo reopens after Monday's holiday: first Japanese session since Nvidia's Huang-driven rally",
+      "kind": "other",
+      "confidence": "confirmed",
+      "url": "https://fourweekmba.com/ai-nikkei-futures-sit-0-9-below-fridays-close-as-tokyo-shuts/"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Taiwan's three-month relaxation of daily company-buyback caps begins",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Anthropic (ANT) tested for Nasdaq-100 fast entry on its 7th trading day (entry expected Dec 21)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://admiralmarkets.com/analytics/traders-blog/anthropic-nasdaq-100-inclusion-date-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "title": "Nasdaq expected to announce Anthropic's Nasdaq-100 fast entry after the close (effective Dec 21)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://mlq.ai/news/nasdaqs-fast-entry-rule-puts-anthropic-on-course-to-join-the-nasdaq-100-on-dec-21-if-it-debuts-thursday/"
+    },
+    {
+      "date": "2026-12",
+      "title": "Marlowe's first non-Nvidia inference data-centre site due to go live",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Zhipu GLM-5.4 launched on GLM Coding Plan (API after security assessment; open weights later, no date)",
+      "kind": "launch",
+      "confidence": "confirmed",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34539134"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "Weiyi Zhizao (微亿智造, 03275.HK) expected to list in Hong Kong after repriced offering (books 23 Nov-1 Dec)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://thepaper.cn/newsDetail_forward_34540109"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-23T01:04Z, before almost all of the window), so the issue was researched with WebSearch. WebFetch was blocked for most news domains (and for arxiv.org, simonwillison.net and Hacker News this run), so many facts rest on cross-checked search snippets, as flagged per item; the search index also lagged, so lab/research coverage is thin. Monday was dominated by Nvidia's reinstatement of Jensen Huang and the record rally that followed. Left out as unverified: a Reuters-attributed report that the US will blacklist Megaspeed. Dropped for timing: OpenAI's research-acceleration report (Nov 18), Together AI's agent credential leak (Nov 21), Cursor Composer 2.5 and Grok 4.7 (Nov 21). No new Qwen, ByteDance Seed, Tencent, Baidu, StepFun, Kling, Huawei or CAC news was found in the window.",
+  "learn": [
+    {
+      "id": "looped-transformer-params-vs-flops",
+      "gap": "dl-training",
+      "title": "Separate parameters from compute: what weight-shared looping buys and costs",
+      "item_ids": [
+        "zhipu-glm-5-4-loop-transformer-coding-plan-launch"
+      ],
+      "why_today": "Zhipu's GLM-5.4 is reported to run a block of 28 GLM-5 layers twice per token with shared weights, which Z.ai says gives reasoning comparable to much larger models.",
+      "explanation": "A looped Transformer applies the same stack of layers k times, so effective depth grows k-fold while the parameter count (and the weight memory) stays fixed. Per-token compute is roughly 2 FLOPs per weight per executed layer, so it scales with effective depth, not with unique parameters; the KV cache also grows with every executed layer unless the loops share or drop their caches. The bet is that depth, i.e. more sequential refinement of the residual stream, matters more for reasoning than extra unique weights, while being cheaper to store and serve on scarce accelerators. It breaks where knowledge capacity matters: shared weights store fewer facts than the same compute spent on unique layers, and training a looped stack can be less stable because one gradient sums the contributions of every pass. Compare models at matched FLOPs per token and matched parameters, not on parameter count alone. The sizes in the snippet are illustrative.",
+      "math": "P = L_u\\,(4d^2 + 2 m d^2), \\qquad C_{tok} \u0007pprox k L_u\\,(2 P_{block} + 4 T d), \\qquad M_{KV} = 2 k L_u d \\cdot b",
+      "python": "# Looped (weight-shared) Transformer: depth costs FLOPs, not parameters.\n# Illustrative sizes only, not any real model's configuration.\ndef block_params(d, ffn_mult=4):\n    attn = 4 * d * d                 # Q, K, V, O projections\n    ffn = 2 * d * (ffn_mult * d)     # up + down projections (dense FFN)\n    return attn + ffn\n\ndef per_token_flops(d, layers_run, ctx, ffn_mult=4):\n    # ~2 FLOPs per weight per token, plus attention score/value mixing over ctx\n    return layers_run * (2 * block_params(d, ffn_mult) + 4 * ctx * d)\n\nd, ctx, unique = 8192, 32_768, 28\nfor loops in (1, 2, 3):\n    p = unique * block_params(d)\n    f = per_token_flops(d, unique * loops, ctx)\n    kv = 2 * unique * loops * d * 2   # bytes/token for K and V at bf16, one cache per executed layer\n    print(f\"loops={loops}: params={p/1e9:6.1f}B  effective depth={unique*loops:3d}  \"\n          f\"GFLOPs/token={f/1e9:7.1f}  KV bytes/token={kv/1e6:5.2f} MB\")\nprint(\"Weights stay fixed; compute and KV cache scale with the loop count.\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Universal Transformers (Dehghani et al., 2018)",
+          "url": "https://arxiv.org/abs/1807.03819"
+        },
+        {
+          "title": "Looped Transformers as Programmable Computers (Giannou et al., 2023)",
+          "url": "https://arxiv.org/abs/2301.13196"
+        }
+      ]
+    },
+    {
+      "id": "market-model-abnormal-return",
+      "gap": "domain-ai",
+      "title": "Compute an abnormal return with a market model, and see where it misleads",
+      "item_ids": [
+        "us-stocks-nov23-best-day-since-april-2025-nvidia-31pct-chips",
+        "nvidia-board-reinstates-huang-ceo-nov23"
+      ],
+      "why_today": "Nvidia closed up about 31.5% on the day the Nasdaq rose about 6.5%, and this issue's market read-through measures exactly how much of a move like that is abnormal.",
+      "explanation": "The market model regresses a stock's daily return on the index's over an estimation window that ends before the event, giving alpha and beta; the abnormal return on the event day is the actual return minus alpha plus beta times the market return. Dividing by the residual standard deviation gives a rough t-statistic, and summing over a few days gives a cumulative abnormal return (CAR). It works when the event is specific to the firm and the market move is independent of it. It breaks when the firm is a large index weight or the event moves the whole sector: then the market return contains the news, beta absorbs part of the effect, and the abnormal return is understated. That is the case on a day when one stock's news lifts the index, as the snippet's caveat notes. The data are synthetic except for the two day-0 returns.",
+      "math": "AR_t = R_{i,t} - (\\hat\u0007lpha + \\hat\beta R_{m,t}), \\qquad t \u0007pprox \frac{\\sum_{s=0}^{n-1} AR_s}{\\hat\\sigma\\sqrt{n}}",
+      "python": "# Market-model abnormal return: how much of a stock's move is not explained by the market?\n# Synthetic data; the day-0 returns echo the reported Nov 23 moves (NVDA ~+31.5%, Nasdaq ~+6.5%).\nimport random, statistics as st\nrandom.seed(1)\nn = 60\nrm = [random.gauss(0.0005, 0.012) for _ in range(n)]          # market returns, estimation window\nri = [0.001 + 1.8 * m + random.gauss(0, 0.02) for m in rm]     # stock with true beta 1.8\nmx, my = st.mean(rm), st.mean(ri)\nbeta = sum((x - mx) * (y - my) for x, y in zip(rm, ri)) / sum((x - mx) ** 2 for x in rm)\nalpha = my - beta * mx\nresid = [y - (alpha + beta * x) for x, y in zip(rm, ri)]\nsigma = (sum(e * e for e in resid) / (n - 2)) ** 0.5\nR_i, R_m = 0.315, 0.065                                        # event day\nar = R_i - (alpha + beta * R_m)\nprint(f\"beta={beta:.2f} alpha={alpha:.4f} sigma={sigma:.4f}\")\nprint(f\"expected {alpha + beta*R_m:+.3f}, actual {R_i:+.3f}, AR={ar:+.3f}, t={ar/sigma:.1f}\")\nprint(\"Caveat: the market's own +6.5% partly WAS the Nvidia news (NVDA is a big index weight).\")\n",
+      "minutes": 12
+    },
+    {
+      "id": "agent-tool-gate-least-privilege",
+      "gap": "agent-engineering",
+      "title": "Build a least-privilege tool gate for an agent: allowlist, budget, approval, audit",
+      "item_ids": [
+        "reuters-us-banks-tighten-internal-ai-agent-controls"
+      ],
+      "why_today": "Reuters reports that US banks are isolating their internal agents, capping how much work they can do, giving them employee-style permissions and logging which systems they touched and whether a human approved.",
+      "explanation": "Agent controls belong in the harness, not in the prompt: every tool call passes through a gate that the model cannot rewrite. The gate checks four things in order: the tool is allowlisted for this task, a per-task budget is not exhausted, risky actions have an out-of-band human (or policy) approval, and every decision, including denials, is appended to an audit log. Denials are returned to the agent as results, so it can re-plan instead of crashing. This limits blast radius but does not prevent misuse inside allowed tools: an allowlisted read tool can still leak data, so pair it with argument validation, network egress limits and credentials scoped to the agent. The tools and thresholds in the snippet are illustrative.",
+      "python": "# A minimal agent tool gate: allowlist, per-task budget, human approval for writes, audit log.\nimport json\nclass Gate:\n    def __init__(self, allow, budget, needs_approval):\n        self.allow, self.left, self.needs = set(allow), budget, set(needs_approval)\n        self.log = []\n    def call(self, tool, args, approver=None):\n        entry = {\"tool\": tool, \"args\": args}\n        if tool not in self.allow:\n            entry[\"result\"] = \"DENY: not allowlisted\"\n        elif self.left <= 0:\n            entry[\"result\"] = \"DENY: budget exhausted\"\n        elif tool in self.needs and not (approver and approver(tool, args)):\n            entry[\"result\"] = \"DENY: no human approval\"\n        else:\n            self.left -= 1\n            entry[\"result\"] = \"OK\"\n        self.log.append(entry)\n        return entry[\"result\"]\n\ng = Gate(allow={\"read_ledger\", \"draft_email\", \"post_payment\"}, budget=3,\n         needs_approval={\"post_payment\"})\nplan = [(\"read_ledger\", {\"acct\": 1}), (\"shell\", {\"cmd\": \"curl x\"}),\n        (\"post_payment\", {\"amt\": 900}), (\"draft_email\", {}), (\"read_ledger\", {\"acct\": 2}),\n        (\"draft_email\", {})]\nfor tool, args in plan:\n    g.call(tool, args, approver=lambda t, a: a.get(\"amt\", 0) < 500)\nfor e in g.log: print(json.dumps(e))\nprint(\"calls left:\", g.left)\n",
+      "minutes": 10
+    }
+  ]
+}
