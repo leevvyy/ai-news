@@ -1,0 +1,1564 @@
+{
+  "date": "2026-11-24",
+  "window": {
+    "start": "2026-11-23T21:48:00Z",
+    "end": "2026-11-24T21:48:00Z"
+  },
+  "tldr": [
+    "The US added Nvidia customer Megaspeed and six affiliates to the Entity List, including Alibaba's Singapore compute unit Apex, which reportedly prepaid ~$4.2B for Southeast Asian compute; Alibaba calls the listing erroneous and vows legal action.",
+    "OpenAI and Cisco open-sourced Shirudo, where agents write signed, operator-approved eBPF 'shields' that block exploits on unpatched Linux, while Anthropic's Claude Ship lets three agents review, fix and approve GitHub PRs. Dell's AI backlog hit a record $132.3B on $54.9B quarterly revenue (+103%), and it lifted its FY27 guide to $202B.",
+    "In China, ByteDance opened the beta of Xiaodou, a standalone Doubao personal agent with paid tiers up to ¥500/month, and Baidu open-sourced the 280B-parameter ERNIE 5.5 Flash Preview. Huang's return lifted the Taiex a record 8.99%, but Nvidia gave back 5.9% in New York and Anthropic closed below its $83 IPO price."
+  ],
+  "items": [
+    {
+      "id": "us-entity-list-megaspeed-six-affiliates-alibaba-apex",
+      "title": "US adds Megaspeed and six affiliates, including Alibaba's Singapore unit Apex, to the Entity List; Alibaba vows to fight",
+      "original_title": "阿里巴巴回应子公司被列入美实体清单：将通过一切法律途径维护公司权益",
+      "summary": "The Commerce Department's Bureau of Industry and Security added Nvidia customer Megaspeed International and six related companies in Singapore, Malaysia and Thailand to the Entity List, citing a significant risk that they are or will become involved in diverting advanced computing chips to unauthorised end users. The seven include MSFusion, PT Megaspeed International, Speedmatrix, Swiftdata, Megaspeed (Thailand) and Apex Enterprise Solutions, which Reuters and Bloomberg identify as Alibaba's Singapore compute-procurement subsidiary. US suppliers now need a licence to ship them any items subject to US export rules. Alibaba called the listing 'erroneous', said Apex has never diverted restricted chips, and said it would pursue 'all legal avenues'; Megaspeed denies wrongdoing.",
+      "why_it_matters": "This is the first concrete enforcement action in the Nvidia/Megaspeed affair, and the first time an Alibaba entity has been hit by a US chip-diversion listing. Apex reportedly prepaid about $4.2B to Megaspeed and partners for Southeast Asian compute, so the listing raises the risk for Chinese labs renting US chips abroad.",
+      "key_numbers": [
+        "7 entities listed",
+        "3 countries: Singapore, Malaysia, Thailand",
+        "~$4.2B reportedly prepaid by Apex for SE Asian compute (Reuters)"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "US Commerce Department (BIS)",
+        "Megaspeed",
+        "Alibaba",
+        "Apex Enterprise Solutions",
+        "Nvidia"
+      ],
+      "tickers": [
+        "BABA",
+        "9988.HK"
+      ],
+      "published_at": "2026-11-23T23:16:00Z",
+      "sources": [
+        {
+          "url": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist",
+          "outlet": "Semafor",
+          "lang": "en",
+          "tier": "press",
+          "title": "Exclusive / Commerce adds Megaspeed to trade blacklist"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-blacklists-alibaba-owned-company-in-setback-to-ai-ambitions",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "US Blacklists Alibaba-Owned Company in Megaspeed Crackdown"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy"
+        },
+        {
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/25/2003868323",
+          "outlet": "Taipei Times (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "US blacklists Alibaba subsidiary and Megaspeed linked to Nvidia scandal"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15368709.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "阿里巴巴回应子公司被列入美实体清单：将通过一切法律途径维护公司权益"
+        },
+        {
+          "url": "https://thenextweb.com/news/alibaba-apex-us-entity-list-megaspeed",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US blacklists Alibaba's Singapore unit Apex over its Megaspeed ties"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The official Federal Register/BIS notice was not reachable or indexed; one aggregator cites Final Rule 2026-23999 effective Nov 23 and a presumption-of-denial licence policy, both unverified. The $4.2B Apex prepayment figure comes via Reuters syndication; another outlet puts 2024 payments at about $474M. published_at is the harvest's first-seen time (BBC/Guardian/Al Jazeera); Semafor's scoop on Nov 23 may be a few hours earlier. Nvidia is not tagged as a party. Facts from search snippets.",
+      "score": {
+        "total": 71.2,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.811,
+          "momentum": 0.583
+        },
+        "coverage": 10,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "openai-cisco-shirudo-open-source-ebpf-agent-shields",
+      "title": "OpenAI and Cisco open-source Shirudo, letting AI agents write eBPF shields for unpatched Linux systems",
+      "summary": "OpenAI and Cisco released Shirudo, an open-source Linux runtime in which agents write small temporary eBPF programs ('shields'). Each shield blocks the specific behaviour a vulnerability depends on, so the system needs no reboot while the full patch is tested and rolled out. An operator must approve each shield, and shields are cryptographically signed. In a demo, Codex generated a shield that blocked 'Java4Shell' exploitation on a running Elasticsearch instance. Shirudo builds on Isovalent's Tetragon, is BSD-2-Clause licensed (BPF programs dual BSD/GPL), and needs Shirudo's kernel patches plus TPM 2.0 in production.",
+      "why_it_matters": "This is a frontier lab shipping defensive agent tooling at kernel level, aimed at the patch gap that AI-accelerated exploitation is widening. It also gives Cisco's Isovalent stack a role in agentic security operations.",
+      "key_numbers": [
+        "BSD 2-Clause licence",
+        "Requires TPM 2.0 + kernel patches",
+        "Deep-dive webinar Dec 15"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Cisco",
+        "Isovalent"
+      ],
+      "tickers": [
+        "CSCO"
+      ],
+      "published_at": "2026-11-23T21:20:00Z",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-shirudo",
+          "outlet": "OpenAI",
+          "lang": "en",
+          "tier": "primary",
+          "title": "OpenAI and Cisco introduce Shirudo"
+        },
+        {
+          "url": "https://isovalent.com/blog/post/cisco-openai-shirudo/",
+          "outlet": "Isovalent (Cisco)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Cisco and OpenAI introduce Shirudo"
+        },
+        {
+          "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
+          "outlet": "Help Net Security",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+          "outlet": "BleepingComputer",
+          "lang": "en",
+          "tier": "trade",
+          "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits"
+        },
+        {
+          "url": "https://www.cybersecuritydive.com/news/ai-vulnerability-openai-cisco-shirudo-linux/875644/",
+          "outlet": "Cybersecurity Dive",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI, Cisco debut tool that lets AI agents safely block vulnerability exploitation"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "OpenAI post time 21:20Z Nov 23 per harvest, 28 min before window start; accepted with flag. Details come from search summaries (openai.com fetch blocked by sandbox). 'Java4Shell' is spelled as the sources give it.",
+      "score": {
+        "total": 71.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.8,
+          "credibility": 0.88,
+          "breadth": 0.632,
+          "momentum": 0.704
+        },
+        "coverage": 6,
+        "mentions": 4,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "bytedance-doubao-xiaodou-personal-agent-public-beta",
+      "title": "ByteDance opens public beta of Xiaodou, a standalone Doubao personal-assistant agent app with paid tiers to ¥500/month",
+      "original_title": "豆包旗下AI个人助理「小豆」开启公测，能够帮你处理日常事务",
+      "summary": "ByteDance's Doubao team opened an invitation-only public beta of Xiaodou (小豆), a standalone iOS/Android personal AI assistant app, separate from the main Doubao app, that carries out everyday tasks within permissions the user grants. Doubao says it covers information lookup, calendar and to-dos, local services, shopping after-sales, health reminders and office help, and that these capabilities will later come to the Doubao app. The App Store listing shows a free tier plus three paid tiers at ¥68, ¥200 and ¥500 a month (¥688, ¥2,048 and ¥5,088 a year). Separately, Jiemian reports the Doubao app is gray-testing a top-level 'Doubao Shopping' entry wired directly into Douyin Mall.",
+      "why_it_matters": "It is the first standalone, separately priced personal-agent product from China's largest chatbot. Its uptake will show whether Chinese consumers pay subscription prices for agents that act for them, and the shopping test shows ByteDance wiring its assistant straight into Douyin e-commerce.",
+      "key_numbers": [
+        "Paid tiers ¥68 / ¥200 / ¥500 per month",
+        "Annual ¥688 / ¥2,048 / ¥5,088",
+        "Invite-code-only public beta",
+        "Doubao MAU ~419M in Sept (QuestMobile)"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "Doubao",
+        "Xiaodou",
+        "Douyin"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T02:37:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/031/329.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "豆包旗下 AI 个人助理“小豆”开启公测，能够帮你处理日常事务"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-24/doc-inizvecm2214654.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豆包旗下 AI 个人助理“小豆”开启公测，能够帮你处理日常事务"
+        },
+        {
+          "url": "https://www.36kr.com/p/4083642845615751",
+          "outlet": "36氪",
+          "lang": "zh",
+          "tier": "press",
+          "title": "字节“小豆”开启公测，大厂Personal Agent之战正式打响"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LCGFHAH005118EDB.html",
+          "outlet": "网易",
+          "lang": "zh",
+          "tier": "press",
+          "title": "小豆上架公测：豆包旗下AI个人助理，目前须凭邀请码体验"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15366926.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豆包App灰测“豆包购物”：配有一级入口，与抖音商城直连"
+        }
+      ],
+      "coverage": 12,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Seen through search snippets only (WebFetch blocked). Prices come from the App Store listing as outlets reported it. Publication time is the harvest's first-seen time. The Doubao Shopping gray test is unannounced by ByteDance (Jiemian/The Paper/17173 reports); the 419M MAU figure is QuestMobile via those reports.",
+      "score": {
+        "total": 68.5,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.865,
+          "momentum": 0.583
+        },
+        "coverage": 12,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "anthropic-claude-ship-pr-review-fix-approve-agents",
+      "title": "Anthropic launches Claude Ship, agents that review, fix and approve GitHub pull requests",
+      "summary": "Anthropic launched Claude Ship on Nov 23, a beta for Claude Team and Enterprise organisations on GitHub. It bundles three agents: Code Review (already generally available), plus PR Steward and Claude Approvals, both in beta. Claude Approvals follows a policy file each team writes in its repo, and Anthropic suggests starting it in observe-only mode. Developers start it with a /ship command in Claude Code and the desktop app. It is billed by tokens, separately from plan usage, and is unavailable to Zero Data Retention, HIPAA or customer-managed-key organisations.",
+      "why_it_matters": "Letting an agent approve merges, not just comment on them, takes the last human gate in the coding pipeline and makes it policy-driven. That raises the stakes for code-review rivals such as GitHub Copilot, Cursor and Cognition. Anthropic has published no benchmark and warns it may miss bugs and vulnerabilities.",
+      "key_numbers": [
+        "3 agents: Code Review (GA), PR Steward (beta), Claude Approvals (beta)",
+        "Team and Enterprise plans, GitHub only"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "GitHub"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-23T20:05:43Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/23/anthropics-claude-ship-automates-the-final-stage-of-the-software-development-pipeline/",
+          "outlet": "SiliconANGLE",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic's Claude Ship automates the final stage of the software development pipeline"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+          "outlet": "MarkTechPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes"
+        },
+        {
+          "url": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/",
+          "outlet": "9to5Mac",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic launches new Claude Ship feature for builders"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Published ~1.7 h before window start (TechCrunch 20:05Z Nov 23); accepted with flag. Facts come from search-result summaries of several outlets (WebFetch blocked). The harvest also lists Reuters coverage. No Anthropic primary URL seen.",
+      "score": {
+        "total": 66.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.777,
+          "momentum": 0.782
+        },
+        "coverage": 9,
+        "mentions": 5,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "dell-q3-fy27-revenue-54-9b-ai-backlog-132b-guide-202b",
+      "title": "Dell's quarterly revenue doubles to $54.9B as AI backlog hits $132.3B; it lifts FY27 guide to $202B",
+      "summary": "Dell reported record fiscal Q3 2027 revenue of $54.9B, up 103% year on year and well above the roughly $49.3B consensus. AI-optimised server revenue was a record $22.0B, up 291%. It booked $60.2B of new AI orders and ended the quarter with a record $132.3B AI backlog, up from about $95B a quarter earlier. Dell raised its full-year revenue forecast to $202B from $192B and its AI server forecast to $78B from $74B, guided Q4 revenue to $56.3B and authorised another $25B of buybacks; inventory rose to $29.4B from $10.4B a year earlier, and shares fell in extended trading.",
+      "why_it_matters": "Dell's results are the clearest read yet on enterprise and neocloud demand for Nvidia systems after the Huang turmoil: a $132B backlog suggests GPU orders are still accelerating, while the jump in inventory and reliance on customer financing are the risks to watch.",
+      "key_numbers": [
+        "Revenue $54.9B (+103% YoY)",
+        "AI server revenue $22.0B (+291%)",
+        "AI orders $60.2B; AI backlog $132.3B",
+        "FY27 revenue guide $202B (from $192B)",
+        "FY27 AI server guide $78B (from $74B)",
+        "$25B added buyback"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Dell Technologies",
+        "Nvidia"
+      ],
+      "tickers": [
+        "DELL"
+      ],
+      "published_at": "2026-11-24T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+          "outlet": "Dell Technologies",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/dell-lifts-annual-forecasts-after-record-quarter-on-surging-ai-server-demand-5049024",
+          "outlet": "Investing.com (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Dell lifts annual forecasts after record quarter on surging AI server demand"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/earnings/26/11/63609544/dell-delivers-q3-double-beat-raises-fy27-outlook-we-are-now-a-different-company",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Dell Delivers Q3 Double Beat, Raises FY27 Outlook: 'We Are Now a Different Company'"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Figures seen in search snippets of the press release, Reuters, CNBC and others, not the full release. Release time estimated as a standard after-close release. The size of the after-hours share move was not given.",
+      "score": {
+        "total": 63.2,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.879,
+          "breadth": 0.689,
+          "momentum": 0.632
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "anthropic-ant-closes-below-83-ipo-price-nov24",
+      "title": "Anthropic shares close below their $83 IPO price on the fourth trading day",
+      "summary": "Anthropic (ANT) fell 6.5% on Tuesday to close at $81.91, below its $83 IPO price, after trading below the offer in premarket. CNBC noted that ANT broke its issue price in four trading days, against 21 for SpaceX. Reports tied the drop to the wider AI-stock selloff and valuation worries; options on the stock, which began trading Monday, saw heavy volume.",
+      "why_it_matters": "A listing that priced above range and opened at $111.50 has erased its whole debut premium in a week, which could weigh on the AI IPOs that follow and on the stock's Nasdaq-100 fast-entry case.",
+      "key_numbers": [
+        "Close $81.91 (-6.5%)",
+        "IPO price $83",
+        "Debut open $111.50 on Nov 19",
+        "4 trading days to break issue (SpaceX: 21)"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-24T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Shares Fall Below $83 IPO Price in Fourth Trading Day (ANT)"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic stock sinks below $83 IPO price"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/investing/article-anthropic-stock-price-after-debut-rally/",
+          "outlet": "The Globe and Mail",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/equities/26/11/63596550/stock-market-today-anthropic-below-ipo-price-nvidia-record-rally-reversal",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Drops Below IPO Price, Nvidia Sinks 7%: Stock Market Today"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "anthropic-ant-options-leveraged-etfs-debut-nov23",
+      "confidence_note": "The $81.91 close is per Bloomberg and Yahoo snippets; intraday lows conflict between snippets. published_at is estimated from Bloomberg's premarket headline.",
+      "score": {
+        "total": 63.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.782
+        },
+        "coverage": 6,
+        "mentions": 5,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "meta-muse-agent-uk-launch-retail-partners-ico",
+      "title": "Meta launches its Muse personal AI agent in the UK, with retail partners and ICO monitoring",
+      "summary": "Meta made Muse, its task-completing agent (US launch in September), available to anyone 18+ in the UK on iOS, Android, muse.ai and WhatsApp. It is free with optional paid subscriptions. Meta names M&S, Debenhams Group, ASOS, Currys, easyJet and Jet2 for web actions. Other outlets add Sainsbury's, Argos (150,000+ products connected) and Trainline. Meta says Muse asks before sending emails or buying, cannot see passwords or card details, and has signed up to a voluntary monitoring and reporting scheme with the ICO. TechCrunch separately reports that Muse is coming into Instagram DMs.",
+      "why_it_matters": "Muse is Meta's first expansion of its consumer agent outside North America, timed for Christmas shopping. The ICO arrangement makes the UK an early test of how regulators supervise agents that act for consumers.",
+      "key_numbers": [
+        "Age 18+, free with optional paid tiers",
+        "Argos: 150,000+ products connected"
+      ],
+      "topic": "products",
+      "region": "eu",
+      "entities": [
+        "Meta",
+        "Muse",
+        "ICO"
+      ],
+      "tickers": [
+        "META"
+      ],
+      "published_at": "2026-11-24T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+          "outlet": "Meta Newsroom",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Muse in the UK: A Personal AI Agent You Control"
+        },
+        {
+          "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/11/statement-on-uk-launch-of-meta-muse",
+          "outlet": "ICO",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Statement on UK launch of Meta Muse"
+        },
+        {
+          "url": "https://www.macrumors.com/2026/11/24/metas-muse-personal-ai-agent-launches-in-the-uk/",
+          "outlet": "MacRumors",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta's Muse Personal AI Agent Launches in the UK"
+        },
+        {
+          "url": "https://thenextweb.com/news/meta-muse-uk-launch",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Meta's AI agent Muse lands in the UK in time for Christmas shopping"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Meta brings its Muse AI assistant directly into Instagram DMs"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "published_at is estimated as UK morning Nov 24; the hour is unknown. The Instagram-DMs detail comes only from a TechCrunch headline seen in search; the country list could not be confirmed. Partner lists differ between Meta and other outlets.",
+      "score": {
+        "total": 61.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.912,
+          "breadth": 0.632,
+          "momentum": 0.471
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "baidu-ernie-5-5-flash-preview-open-weights-apache",
+      "title": "Baidu open-sources ERNIE 5.5 Flash Preview weights: 280B-parameter MoE, 14B active, Apache 2.0",
+      "original_title": "百度文心 5.5 Flash Preview 正式开源：2800 亿参数 140 亿激活，编程能力位居开源模型前列",
+      "summary": "Baidu released the weights of ERNIE 5.5 Flash Preview under Apache 2.0 on Hugging Face and ModelScope, ahead of its pledged Nov 25 date. It is the first post-trained checkpoint on top of the ERNIE 5.5 Flash Base released Nov 5: a MoE with 280B total and 14B active parameters, 1M-token context, and vLLM/SGLang support. Baidu's self-reported scores include AutomationBench 61.9 (vs Claude Opus 5.5 at 58.0), Terminal-Bench 4.0 46.5 (vs 63.6), and CodeArena WebDev 1,668 (2nd among open models). Baidu calls it an intermediate checkpoint that may still have gaps from incomplete training.",
+      "why_it_matters": "It completes an open base-to-post-trained weight chain for Baidu's flagship line, adding another large Chinese open-weight coding and agent model to a field already crowded by Qwen, Hunyuan Hy4 and GLM.",
+      "key_numbers": [
+        "280B total / 14B active parameters",
+        "1M-token context",
+        "AutomationBench 61.9 vs Opus 5.5 58.0 (self-reported)",
+        "Terminal-Bench 4.0: 46.5 vs 63.6",
+        "CodeArena WebDev 1,668 (#2 open)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Baidu",
+        "ERNIE 5.5 Flash Preview"
+      ],
+      "tickers": [
+        "BIDU",
+        "9888.HK"
+      ],
+      "published_at": "2026-11-24T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/031/501.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "百度文心 5.5 Flash Preview 正式开源：2800 亿参数 140 亿激活，编程能力位居开源模型前列"
+        },
+        {
+          "url": "https://www.sohu.com/a/1105773815_122066678",
+          "outlet": "搜狐",
+          "lang": "zh",
+          "tier": "press",
+          "title": "文心5.5 Flash Preview开源，支持百万Token上下文"
+        },
+        {
+          "url": "https://ai.cnmo.com/news/823149.html",
+          "outlet": "CNMO",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "文心5.5 Flash Preview正式开源 面向全球开源社区开放"
+        },
+        {
+          "url": "https://news.futunn.com/hk/post/1005449477",
+          "outlet": "富途牛牛",
+          "lang": "zh",
+          "tier": "press",
+          "title": "百度文心5.5 Flash Preview正式開源，2800億參數模型面向全球開發者開放"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The publication time is estimated: Chinese reports are dated Nov 24, with one copy timestamped 15:33 UTC+8; one third-party site says the weights went up on Nov 23. Benchmarks are Baidu's own, seen only in search snippets. The HF card reportedly says '300B', against Baidu's 280B.",
+      "score": {
+        "total": 60.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.541
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "us-chip-stocks-reverse-nov24-nvidia-down-5-86pct-sox-amd-tariff-report",
+      "title": "US chip stocks give back the Huang rally: Nvidia falls 5.9%, AMD 9.6% as tariff report and Washington backlash weigh",
+      "summary": "A day after its 31% jump, Nvidia closed down 5.86% at $155.38 on Tuesday, with reports citing bipartisan criticism of Huang's reinstatement and questions about board independence. AMD fell 9.55%, and Micron and CoreWeave each fell about 11% intraday; late-session figures put the Philadelphia Semiconductor Index down roughly 7.9%. Bloomberg reported that the administration was readying tariff hikes on China, the EU and other economies as soon as Tuesday, adding to the selling. The Nasdaq fell while the Dow rose about 0.9% to around 50,019.",
+      "why_it_matters": "The quick reversal shows the AI trade is still driven by governance and politics more than fundamentals, and the losses in memory and neocloud names show the relief rally did not resolve worries about debt-funded build-outs.",
+      "key_numbers": [
+        "NVDA -5.86% to $155.38",
+        "AMD -9.55%",
+        "SOX ~-7.9% (one source)",
+        "Micron ~-11.5%, CoreWeave ~-11% (intraday)",
+        "Dow +0.85% to 50,018.70"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "AMD",
+        "Micron",
+        "CoreWeave"
+      ],
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "CRWV"
+      ],
+      "published_at": "2026-11-24T14:30:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Stock market today: Dow rises, S&P 500 and Nasdaq decline as chip sector tumbles, Nvidia stock falls 6%"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia shares fall more than 5% as Huang comeback rally cools"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Floated"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-as-soon-as-tuesday",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "US Readies Tariff Hike on China, EU Goods as Soon as Tuesday"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": "us-stocks-nov23-best-day-since-april-2025-nvidia-31pct-chips",
+      "confidence_note": "The Nasdaq close conflicts between sources (-1.48% vs -2.47%), so it is omitted. The SOX close is from one source; Micron and CoreWeave moves are intraday. The tariff plan had not been formally announced in anything seen. published_at is estimated from the Yahoo live blog.",
+      "score": {
+        "total": 59.4,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.471
+        },
+        "coverage": 8,
+        "mentions": 3,
+        "baseline": 3.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "axios-openai-anthropic-unreleased-models-safety-release-requirements",
+      "title": "Axios: OpenAI and Anthropic staff question releasing top models; OpenAI adds requirements that could slow launches",
+      "summary": "Axios, citing more than two dozen people familiar with internal discussions, reported that staff at OpenAI and Anthropic are debating whether their most advanced unreleased models should reach the public. The report says researchers lack reliable technical ways to control them. An OpenAI spokesperson said the company has adopted new safety requirements that could slow the pace of model releases. Anthropic said 'keeping a model internal doesn't make it safe' and that it 'may slow down or hold back even when it costs us', citing a delayed pre-training run.",
+      "why_it_matters": "Release cadence at the two leading US labs drives the competitive and investor narrative, which now includes Anthropic's public ANT shares. Any formal slowdown would shift timing assumptions for rivals and customers.",
+      "key_numbers": [
+        "2 dozen+ sources cited"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Axios"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-24T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63595954/openai-anthropic-ai-safety-risks",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI and Anthropic Face a New AI Safety Dilemma"
+        },
+        {
+          "url": "https://www.tradingview.com/news/seekingalpha:ebaf6be45094b:0-anthropic-openai-have-ai-models-some-staff-see-too-unsafe-to-release-report/",
+          "outlet": "Seeking Alpha (via TradingView)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic, OpenAI have AI models some staff see too unsafe to release: report"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The original Axios article was not seen; everything is from secondary write-ups (Benzinga, Seeking Alpha/TradingView, KuCoin). published_at is estimated. Quotes are as the secondary sources render them.",
+      "score": {
+        "total": 55.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.704
+        },
+        "coverage": 4,
+        "mentions": 4,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "openclaw-shellbench-agents-fail-four-in-ten-everyday-tasks",
+      "title": "ShellBench: best AI agent completes 62.5% of everyday tasks drawn from 10M+ real agent interactions",
+      "summary": "The OpenClaw Foundation, with Parsewave, Hugging Face, Red Hat and UC Berkeley, released ShellBench. It is a benchmark of 100 everyday tasks drawn from more than 10 million anonymised real-world agent interactions, run across five harnesses: Claude Code, Codex, Hermes, OpenClaw and Pi. The top result was GPT-6 Astra at 62.5% ($1.01 per run), with GPT-6.1 Sol at 61.4% for $0.17. Across all models, 15.7% of attempts broke at least one safety requirement. Technical takeaway: with the harness fixed, the median spread between models was 45.7 points; with the model fixed, swapping harnesses gave a median spread of only 6.2 points.",
+      "why_it_matters": "It adds data from real usage to the 'agents aren't ready' debate: frontier agents still fail about 4 in 10 delegated tasks. It also shows that model choice dominates harness choice, which matters for the many agent-harness startups.",
+      "key_numbers": [
+        "Top score 62.5% (GPT-6 Astra, $1.01/run)",
+        "GPT-6.1 Sol 61.4% at $0.17/run",
+        "15.7% of attempts violated a safety requirement",
+        "Model spread 45.7 pts vs harness spread 6.2 pts (median)",
+        "10M+ source interactions; 12-13 models, 5 harnesses"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "OpenClaw Foundation",
+        "Hugging Face",
+        "Red Hat",
+        "UC Berkeley",
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T14:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Even the best AI agents struggle with everyday life"
+        },
+        {
+          "url": "https://www.thedeepview.com/articles/exclusive-openclaw-offers-an-agent-reality-check",
+          "outlet": "The Deep View",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Exclusive: OpenClaw offers an agent reality check"
+        },
+        {
+          "url": "https://www.theneuron.ai/news/openclaw-shellbench-ai-agent-harnesses/",
+          "outlet": "The Neuron",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenClaw ShellBench Shows Why AI Agent Harnesses Matter"
+        },
+        {
+          "url": "https://oodaloop.com/briefs/technology/openclaws-shellbench-benchmark-delivers-a-reality-check-on-ai-agent-reliability/",
+          "outlet": "OODAloop",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenClaw's ShellBench Benchmark Delivers a Reality Check on AI Agent Reliability"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "published_at is estimated (TechCrunch dated Nov 24, hour unknown). Sources disagree on the model count (12 vs 13). TechCrunch also cites 40.3% wrong or duplicate invoice payments on one task type. The original ShellBench report was not seen; figures come from search summaries.",
+      "score": {
+        "total": 55.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "alfozan-prosecutors-hidden-bug-160-hours-recordings-detention",
+      "title": "Prosecutors say ex-OpenAI engineer Alfozan likely captured trade secrets on a hidden bug and fight his release",
+      "summary": "In a detention filing, US prosecutors say former OpenAI engineer Abdulrahman Alfozan likely recorded trade secrets with a device hidden behind a TV in an OpenAI conference room. Investigators say they found hundreds of audio files on his personal computer, including dozens of OpenAI meeting recordings from September 2026 and more than 160 hours of audio in total. Prosecutors also cite a photo of a confidential 'strategic partnership' document on his phone and regular contact with people tied to the Saudi government, and say he used OpenAI's Codex to improve the device. Alfozan, who denies spying for Saudi Arabia, is seeking release on a $1M bond, which prosecutors oppose as a flight risk.",
+      "why_it_matters": "This is the most detailed public account yet of insider espionage at a frontier lab, ahead of the Jan 20 trial, and adds pressure on AI labs' physical and insider security controls.",
+      "key_numbers": [
+        "160+ hours of recordings (per prosecutors)",
+        "Dozens of September 2026 meeting recordings",
+        "$1M bond sought by defence",
+        "Trial Jan 20, 2027"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Abdulrahman Alfozan",
+        "US Department of Justice"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-23T23:56:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/openai-staffer-likely-captured-secrets-on-hidden-bug-us-says",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI Staffer Likely Captured Secrets on Hidden Bug, US Says"
+        },
+        {
+          "url": "https://qz.com/openai-engineer-alfozan-trade-secrets-bail-prosecutors-112426",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Prosecutors say fired OpenAI engineer likely recorded trade secrets on hidden bug"
+        },
+        {
+          "url": "https://www.rappler.com/technology/openai-engineer-abdulrahman-alfozan-vibecode-recording-devices-filing/",
+          "outlet": "Rappler",
+          "lang": "en",
+          "tier": "press",
+          "title": "Ex-OpenAI engineer vibecoded better bugs to record meetings"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "alfozan-openai-bugging-trial-jan-20-claude-discovery",
+      "confidence_note": "The 160-hour figure comes from Quartz and an FT summary seen secondhand. Outlets differ on the recording window (Sept 8-28 vs 'three weeks in September'). FT and NYT also covered it, per the harvest. Details come from search snippets, not the court filing.",
+      "score": {
+        "total": 54.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.704
+        },
+        "coverage": 5,
+        "mentions": 4,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "deepseek-liang-wenfeng-wealth-55bn-stake-67pct",
+      "title": "Bloomberg puts DeepSeek founder Liang Wenfeng's wealth at $55B after mega-round; stake diluted to 67.4%",
+      "original_title": "DeepSeek创始人梁文锋身家在完成融资后增至550亿美元",
+      "summary": "The Bloomberg Billionaires Index raised Liang Wenfeng's estimated net worth by 45% to about $55B after DeepSeek's second funding round, making him the richest founder of an AI-model company. Registry filings show his stake fell from 81.65% in June to 67.4%. People familiar put the round at about ¥100B, implying a valuation of roughly $86B. Other Chinese reports cite ¥105.5B raised at a ¥607.8B post-money valuation, which DeepSeek has not confirmed.",
+      "why_it_matters": "It puts a market-implied price on DeepSeek, around $86B, still far below US frontier labs, and shows Liang keeps more than two-thirds control after taking state-linked and strategic money.",
+      "key_numbers": [
+        "Net worth ~$55B (+45%)",
+        "Stake 81.65% → 67.4%",
+        "Round ~¥100B (other reports ¥105.5B)",
+        "Implied valuation ~$86B"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "DeepSeek",
+        "Liang Wenfeng"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.hk01.com/%E5%8D%B3%E6%99%82%E4%B8%AD%E5%9C%8B/60414414/deepseek%E6%A2%81%E6%96%87%E9%8B%92%E8%BA%AB%E5%AE%B6%E9%A3%86%E8%87%B3550%E5%84%84%E7%BE%8E%E5%85%83-%E6%88%90%E4%B8%96%E7%95%8C%E6%9C%80%E5%AF%8C%E6%9C%89ai%E6%A8%A1%E5%9E%8B%E5%89%B5%E9%80%A0%E8%80%85",
+          "outlet": "香港01",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek梁文鋒身家飆至550億美元 成世界最富有AI模型創造者"
+        },
+        {
+          "url": "https://www.chinatimes.com/realtimenews/20261124002905-260410",
+          "outlet": "工商时报",
+          "lang": "zh",
+          "tier": "press",
+          "title": "身家飆破550億美元！DeepSeek梁文鋒登全球AI模型創辦人首富"
+        },
+        {
+          "url": "https://m.jrj.com.cn/madapter/stock/2026/11/24174659251243.shtml",
+          "outlet": "金融界",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek创始人梁文锋身家在完成融资后增至550亿美元"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "deepseek-second-round-registered-tencent-catl-31-investors",
+      "confidence_note": "The original Bloomberg story was not seen directly, only Chinese and HK outlets citing it. Publication time estimated from Nov 24 Asia-dated reports. The ¥607.8B valuation report first surfaced Nov 23 14:19Z, before the window, and is included only as context.",
+      "score": {
+        "total": 52.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.442
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "workday-q3-fy27-ai-acv-150m-anthropic-partnership-c1-ai",
+      "title": "Workday beats Q3 estimates; its AI products bring in nearly $150M of new contract value, and it announces an Anthropic tie-up",
+      "summary": "Workday's fiscal Q3 2027 revenue rose 11.2% to $2.705B, subscription revenue grew 12.8%, and adjusted EPS of $2.82 beat the roughly $2.75 consensus. It raised its full-year subscription revenue forecast to $9.958B. Workday said its AI products added nearly $150M of new annual contract value, more than triple a year earlier, with more than 2,200 core customers buying at least one AI product. It also launched Autopilot Agents and announced the acquisition of agentic-identity platform C1.ai and a partnership pairing Anthropic's Claude with its Sana agents; shares slipped about 2.8% in choppy after-hours trade.",
+      "why_it_matters": "Workday is one of the first large SaaS vendors to put a dollar figure on AI-agent sales, showing agent revenue is real but still small against a roughly $10B subscription base — the core of the 'AI eats SaaS' debate.",
+      "key_numbers": [
+        "Revenue $2.705B (+11.2%)",
+        "Subscription revenue +12.8%",
+        "Adj. EPS $2.82",
+        "FY27 subscription guide $9.958B",
+        "~$150M new AI ACV (3x YoY)",
+        "2,200+ customers on AI products"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Workday",
+        "Anthropic",
+        "C1.ai"
+      ],
+      "tickers": [
+        "WDAY"
+      ],
+      "published_at": "2026-11-24T21:05:00Z",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/workday-announces-fiscal-2027-third-quarter-financial-results-302949793.html",
+          "outlet": "Workday via PR Newswire",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Workday Announces Fiscal 2027 Third Quarter Financial Results"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/workday-shares-fall-28-in-choppy-trading-after-thirdquarter-earnings-beat-5049010",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Workday shares fall 2.8% in choppy trading after third-quarter earnings beat"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Release time estimated as a standard after-close release. The Anthropic partnership and C1.ai deal were seen only as one-line snippets from the release, with no terms. The after-hours move was still choppy.",
+      "score": {
+        "total": 52.4,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.78,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "china-ai-stocks-nov24-zhipu-reverses-15pct-pop-closes-down-6pct",
+      "title": "Zhipu erases a 15% opening pop to close down 6.2% as Hang Seng falls a seventh day; STAR 50 gains 1.8%",
+      "original_title": "港股大模型股高开低走 智谱震幅近20%",
+      "summary": "Zhipu and MiniMax opened nearly 15% higher in Hong Kong on Tuesday after Nvidia reinstated Jensen Huang, then reversed. Zhipu closed down 6.23% at HK$319, a day after launching GLM-5.4, and MiniMax also turned lower. The Hang Seng fell 0.73% to 22,219.65, its seventh straight loss and 20.55% below its January closing high, and the Hang Seng Tech Index fell 1.17% to 3,466.87. Mainland chip stocks held up better: the STAR 50 rose 1.81%, Cambricon gained over 6% and Hua Hong rose about 10%, as investors bet US remote-compute curbs will push buyers to domestic suppliers.",
+      "why_it_matters": "The intraday swing of nearly 20% shows how fragile sentiment toward HK-listed model makers is, while capital rotates toward mainland chip-substitution names seen as winners from US controls.",
+      "key_numbers": [
+        "Zhipu -6.23% to HK$319 (intraday high ~+15%)",
+        "HSI -0.73% to 22,219.65, 7th straight fall",
+        "HSTECH -1.17% to 3,466.87",
+        "STAR 50 +1.81%",
+        "Cambricon +6%, Hua Hong ~+10%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu",
+        "MiniMax",
+        "Cambricon",
+        "Hua Hong"
+      ],
+      "tickers": [
+        "2513.HK",
+        "0100.HK",
+        "688256.SS"
+      ],
+      "published_at": "2026-11-24T08:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.huxiu.com/article/4908135.html",
+          "outlet": "虎嗅",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "智谱发布GLM-5.4后股价收跌6.23%，技术叙事未能扭转估值压力"
+        },
+        {
+          "url": "https://news.mingpao.com/pns/%E7%B6%93%E6%BF%9F/article/20261125/s00004/1795536092213/%E6%81%92%E6%8C%87%E4%B8%83%E9%80%A3%E8%B7%8C-%E9%87%8D%E7%A3%85%E7%A7%91%E7%B6%B2%E8%82%A1%E8%BF%91%E5%85%A8%E6%8C%AB-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%9C%9D-ai%E8%82%A1%E9%A0%98%E6%BC%B2%E6%97%A5%E9%9F%93%E5%8F%B0%E8%82%A1%E5%B8%82",
+          "outlet": "明报",
+          "lang": "zh",
+          "tier": "press",
+          "title": "恒指七連跌 重磅科網股近全挫 黃仁勳回朝 AI股領漲日韓台股市"
+        },
+        {
+          "url": "https://www.caiwennews.com/article/1714747.shtml",
+          "outlet": "财闻网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股大模型股高开低走 智谱震幅近20%"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261124/herald/1c84548a8bcfa3644434c0e19f0badc8.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "恒生科技指数下跌1.17%，光通信板块持续活跃｜港股收评"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "china-ai-stocks-nov23-zhipu-minimax-close-higher-chinext-3pct",
+      "confidence_note": "MiniMax's closing move was not found (only midday 'turned lower'). Cambricon and Hua Hong moves come from fund-flow and ETF snippets. Publication time set to the HK close (estimated).",
+      "score": {
+        "total": 51.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.393
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "asia-chip-stocks-nov24-taiex-record-point-gain-tsmc-limit-up-kospi-5000",
+      "title": "Asian chip stocks surge on Huang's return: Taiex posts record point gain, TSMC hits limit-up, KOSPI tops 5,000",
+      "summary": "In the first Asian session after Nvidia reinstated Jensen Huang, Taiwan's Taiex closed up 3,310.46 points, or 8.99%, at 40,122.35, which Focus Taiwan says is the largest single-day point gain on record. TSMC hit its 10% daily limit to close at NT$2,230. In Seoul, SK hynix rose 6.73% to 1,158,000 won and Samsung Electronics about 6.7%, lifting the KOSPI back above 5,000. Japanese chip stocks also rebounded as Tokyo reopened after a holiday.",
+      "why_it_matters": "The rally reverses part of last week's rout, but US chip stocks gave the gains back later on Tuesday, so the rebound looks fragile.",
+      "key_numbers": [
+        "Taiex +8.99% to 40,122.35 (+3,310.46 pts, record)",
+        "TSMC +10% to NT$2,230",
+        "SK hynix +6.73% to 1,158,000 won",
+        "Samsung ~+6.7%",
+        "KOSPI ~+6.3-7.0%, above 5,000"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "TSMC",
+        "SK hynix",
+        "Samsung Electronics"
+      ],
+      "tickers": [
+        "2330.TW",
+        "000660.KS",
+        "005930.KS"
+      ],
+      "published_at": "2026-11-24T00:24:00Z",
+      "sources": [
+        {
+          "url": "https://focustaiwan.tw/business/202611240019",
+          "outlet": "Focus Taiwan (CNA)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Taiex posts record single-day point gain on Huang's return to Nvidia"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10947677",
+          "outlet": "The Korea Herald",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang's return eases HBM uncertainty for Samsung, SK hynix"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-stocks-rebound-as-huang-s-return-resuscitates-ai-trade",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Japan Stocks Rebound as Huang's Return Resuscitates AI Trade"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "kospi-falls-3pct-nov23-samsung-sk-hynix-stabilization-fund-unused",
+      "confidence_note": "KOSPI close figures conflict (5,006.03 +6.32% vs 5,036.99 +6.98% vs 5,000.08 +6.2%). Japanese index and Advantest figures were single-source and inconsistent, so they are omitted.",
+      "score": {
+        "total": 51.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.416
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "google-ai-mode-personal-intelligence-google-wallet",
+      "title": "Google AI Mode can now read Google Wallet for personal finance answers; Drive and Gemini app links coming",
+      "summary": "Google began rolling out an opt-in link between Google Wallet and AI Mode in Search, announced by Search VP Robby Stein. Once connected, AI Mode can suggest how to use card cash-back categories, travel perks and reward points, and can help plan financial goals. Google says access is read-only: AI Mode 'can't move, manage, or invest your money'. Drive and the Gemini app join Gmail, Calendar and Photos as sources in the coming weeks.",
+      "why_it_matters": "Google is extending Search personalisation into financial data, a step toward agentic commerce. It also raises unanswered questions about whether Wallet data could shape ads or paid card placements.",
+      "key_numbers": [
+        "3 new sources: Wallet now, Drive and Gemini app in coming weeks"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Google Search",
+        "Google Wallet"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-23T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+          "outlet": "Google (The Keyword)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "A more tailored Google Search that's uniquely yours"
+        },
+        {
+          "url": "https://www.technology.org/2026/11/24/google-search-ai-mode-personal-intelligence-wallet-drive-gemini/",
+          "outlet": "Technology.org",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google Search AI Mode Can Now Read Google Wallet, With Drive Coming Next"
+        },
+        {
+          "url": "https://www.marketingtechnews.net/news/google-ai-search-personalisation/",
+          "outlet": "MarketingTech",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google expands AI search with access to personal spending data"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Published 17:00Z Nov 23, ~4.8 h before window start (inside the 6 h tolerance; flagged). The post names no countries; earlier Personal Intelligence expansions were US-only.",
+      "score": {
+        "total": 51.0,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.775,
+          "breadth": 0.565,
+          "momentum": 0.503
+        },
+        "coverage": 5,
+        "mentions": 2,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "oceanbase-oceanlake-ai-data-platform-open-source-oceanseek",
+      "title": "Ant's OceanBase launches OceanLake lakehouse AI data platform and open-sources its core engine as OceanSeek",
+      "original_title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+      "summary": "At its AI data conference in Beijing, Ant Group's OceanBase launched OceanLake, a platform that combines database transaction processing, data-warehouse analytics and data-lake storage for structured, semi-structured and unstructured data. It open-sourced the core AI database engine under the codename OceanSeek, aimed at agent workloads with multimodal data management, hybrid retrieval and data sandboxes. OceanBase says Ant's Lingguang app runs more than 30M 'flash apps' on the platform, and Ping An Life cut typical data-pull delivery from 2–5 days to about 15 minutes.",
+      "why_it_matters": "Chinese database vendors are repositioning around agent-ready data infrastructure; an open-source engine from Ant gives Chinese AI developers a domestic alternative to Western lakehouse stacks.",
+      "key_numbers": [
+        "30M+ Lingguang 'flash apps' on the platform",
+        "Data delivery 2–5 days → ~15 min (Ping An Life)"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "OceanBase",
+        "Ant Group"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T03:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.qbitai.com/2026/11/512330.html",
+          "outlet": "量子位",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源"
+        },
+        {
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/24/content_618548.html",
+          "outlet": "科技日报",
+          "lang": "zh",
+          "tier": "press",
+          "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261124/herald/402b71e9f1adafbaf97aac92280edae1.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "AI数据基础设施应坚持四大原则，OceanBase开源湖库一体AI数据库"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Seen through search snippets only. No repository URL or licence was seen.",
+      "score": {
+        "total": 49.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "anthropic-enterprise-frontier-safeguards-public-beta-zdr",
+      "title": "Anthropic opens Enterprise Frontier Safeguards public beta: zero retention with misuse checks across requests",
+      "summary": "Anthropic put zero data retention with Enterprise Frontier Safeguards (EFS) into public beta for eligible Claude Platform organisations. Encrypted copies of Messages API traffic go to the customer's own cloud storage (S3 or Google Cloud Storage) under its keys. Automated checks look for misuse patterns across multiple requests and flag serious risks to the customer's own security team. It is switched on per workspace in the Claude Console and covers every Messages API request in that workspace. EFS was announced in September and built with 100+ customers, including Bridgewater, Salesforce and Stripe in private beta.",
+      "why_it_matters": "It resolves the conflict between enterprise demands for zero retention and Anthropic's retention requirement for its most capable models. It also offers a template for monitoring misuse without the vendor holding customer data.",
+      "key_numbers": [
+        "100+ design-partner customers",
+        "Retention window in customer bucket reported as up to 28 or 30 days (sources conflict)"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-23T18:17:00Z",
+      "sources": [
+        {
+          "url": "https://x.com/ClaudeDevs/status/2124930253344948518",
+          "outlet": "ClaudeDevs (Anthropic) on X",
+          "lang": "en",
+          "tier": "social",
+          "title": "Zero data retention with Enterprise Frontier Safeguards is now in public beta for eligible orgs on the Claude Platform"
+        },
+        {
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-expands-availability-of-ai-safety-monitoring-with-zero-data-retention/",
+          "outlet": "PYMNTS",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Expands Availability of AI Safety Monitoring With Zero Data Retention"
+        },
+        {
+          "url": "https://itdaily.com/news/security/claude-enterprise-frontier-safeguards-beta/",
+          "outlet": "ITdaily",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic launches Enterprise Frontier Safeguards in public beta"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "published_at is estimated from the X post's snowflake ID (~18:17Z Nov 23), ~3.5 h before window start; accepted with flag. Sources conflict on the retention window (28 vs 30 days) and on which models are eligible. The claude.com docs page was not seen for this beta.",
+      "score": {
+        "total": 49.0,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.494,
+          "breadth": 0.487,
+          "momentum": 0.782
+        },
+        "coverage": 4,
+        "mentions": 5,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "samr-china-leads-29-ai-international-standards-15-foreign-language",
+      "title": "China says it leads 29 foundational AI international standards and issues first 15 AI national standards in foreign languages",
+      "original_title": "从“积极参与”到“牵头主导” 我国已牵头29项人工智能基础共性国际标准研制",
+      "summary": "At a State Administration for Market Regulation (SAMR) press conference, officials said China leads development of 29 foundational international AI standards, covering data governance, human-machine interaction and trustworthiness, and is coordinating 49 industry-application standards. SAMR released the first 15 foreign-language versions of Chinese AI national standards, covering large models and server performance testing, as part of translating 78 standards into 12 languages. An official said EU bodies have adopted the China-led ISO/IEC 5259-4:2024 AI data-quality standard as a technical reference for compliance assessment.",
+      "why_it_matters": "Beijing is pairing open-weight model exports with a push to export its AI standards, particularly to the Global South, aiming to shape the testing and compliance rules foreign buyers of Chinese AI will follow.",
+      "key_numbers": [
+        "29 foundational + 49 industry international AI standards",
+        "15 national standards in foreign languages (first batch)",
+        "78 standards into 12 languages"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "State Administration for Market Regulation"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/24/content_618455.html",
+          "outlet": "科技日报",
+          "lang": "zh",
+          "tier": "press",
+          "title": "从“积极参与”到“牵头主导” 我国已牵头29项人工智能基础共性国际标准研制"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15368753.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "市场监管总局：我国牵头制定的人工智能数据质量国际标准被欧盟采纳"
+        },
+        {
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhz2158920.shtml",
+          "outlet": "新浪财经 (新华社)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "我国牵头制定78项人工智能国际标准"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. Publication time estimated (afternoon press conference, UTC+8). Xinhua's '78 international standards' equals 29 + 49, while the '78 national standards into 12 languages' is a separate figure as snippets reported it.",
+      "score": {
+        "total": 48.0,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "deepmind-gemini-agents-quantum-algorithms-lean-verified",
+      "title": "DeepMind: teams of Gemini 4 agents find cheaper quantum algorithms, each result formally verified in Lean",
+      "summary": "Google DeepMind published results in which teams of Gemini 4 agents searched for cheaper quantum algorithms and subroutines, with every result formally verified in the Lean proof assistant. One report cites a 290x cost reduction in a quantum arithmetic subroutine. DeepMind open-sourced its Lean library, the problem specs and the verified solutions on GitHub. Technical takeaway: pairing agent search with machine-checked proofs lets AI-found algorithm improvements be trusted without human re-derivation.",
+      "why_it_matters": "Agent search plus formal verification is becoming a repeatable recipe for AI-driven discovery, as in the recent Lean-certified math claims. Quantum resource estimates feed directly into timelines for useful and cryptographically relevant quantum computing.",
+      "key_numbers": [
+        "290x reduction in one arithmetic subroutine (single report)"
+      ],
+      "topic": "research",
+      "region": "global",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-23T16:59:40Z",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "outlet": "Google DeepMind",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Finding faster quantum algorithms with agents and formal verification"
+        }
+      ],
+      "coverage": 1,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Published 16:59Z Nov 23, ~4.8 h before window start (inside the 6 h tolerance; flagged). The blog itself was not fetched (blocked); details come from a search summary, and the 290x figure comes from one secondary source.",
+      "score": {
+        "total": 45.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.6,
+          "breadth": 0.154,
+          "momentum": 0.503
+        },
+        "coverage": 1,
+        "mentions": 2,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-12-15",
+      "title": "OpenAI/Cisco deep-dive webinar on Shirudo (open-source agent-written eBPF exploit shields)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/"
+    },
+    {
+      "date": "2026-12",
+      "title": "Google AI Mode adds Google Drive and the Gemini app as Personal Intelligence sources ('coming weeks')",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://www.technology.org/2026/11/24/google-search-ai-mode-personal-intelligence-wallet-drive-gemini/"
+    },
+    {
+      "date": "2026-11",
+      "title": "US tariff hikes on China, the EU and other economies (Section 301 'excess capacity'), reported as imminent",
+      "kind": "policy",
+      "confidence": "rumored",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-as-soon-as-tuesday"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-24T04:56Z), so the rest of the window (US Tuesday) was researched with WebSearch. WebFetch was blocked for most news domains, openai.com and federalregister.gov, so many facts rest on cross-checked search snippets, as flagged per item. Several items first published 0.5-5 h before the window start (Shirudo, Claude Ship, Enterprise Frontier Safeguards, DeepMind's quantum-algorithm agents, Google AI Mode + Wallet) are included as they were not covered yesterday. Dropped for timing or thin sourcing: GPT-6.2 Sol in ChatGPT's Chat tab and AWS Strands Decider v2 (Nov 23, hour unknown), the Goldman memory price-target cuts (single source), China Telecom Xingchen 4.1 (no date or primary source). Calendar housekeeping: Baidu's ERNIE 5.5 Flash weights shipped Nov 24 (a day early) and Dell reported Q3 on Nov 24, so the Dec 1 Dell entry is obsolete.",
+  "learn": [
+    {
+      "id": "model-vs-harness-variance-decomposition",
+      "gap": "llm-eval",
+      "title": "Split an agent benchmark's variance into model, harness and noise",
+      "item_ids": [
+        "openclaw-shellbench-agents-fail-four-in-ten-everyday-tasks"
+      ],
+      "why_today": "ShellBench reports a median 45.7-point spread between models with the harness fixed, against only 6.2 points between harnesses with the model fixed, across 100 everyday tasks.",
+      "explanation": "Treat a models x harnesses score grid as a two-way layout: score = grand mean + model effect + harness effect + interaction/noise. Sums of squares of the row and column means tell you what share of the variation each factor explains, which is more robust than max-min spreads. Spreads are biased upward by noise: with 100 binary tasks a single run at 60% has a standard error of about 4.9 points, so a max-min across five harnesses can show 10+ points even when the true harness effect is small. Before claiming a harness 'matters', compare its effect with the binomial noise floor, rerun with seeds, or use paired tests on the same tasks. The snippet uses synthetic scores, not ShellBench data.",
+      "math": "SS_{model} = H\\sum_m (\\bar y_{m\\cdot}-\\bar y)^2,\\quad SS_{harness} = M\\sum_h (\\bar y_{\\cdot h}-\\bar y)^2,\\quad SE = \\sqrt{p(1-p)/n}",
+      "python": "# Two-way decomposition of agent-benchmark scores: model effect vs harness effect.\n# Synthetic, illustrative scores only (not ShellBench data).\nimport random, statistics as st\nrandom.seed(0)\nmodels = {f\"M{i}\": random.uniform(20, 65) for i in range(8)}      # true model skill\nharness = {h: random.gauss(0, 3) for h in \"ABCDE\"}                  # small harness offsets\nn_tasks = 100\nscore = {}\nfor m, mu in models.items():\n    for h, off in harness.items():\n        p = min(max((mu + off) / 100, 0), 1)\n        score[m, h] = 100 * sum(random.random() < p for _ in range(n_tasks)) / n_tasks\ngrand = st.mean(score.values())\nm_eff = {m: st.mean(score[m, h] for h in harness) - grand for m in models}\nh_eff = {h: st.mean(score[m, h] for m in models) - grand for h in harness}\nss_m = len(harness) * sum(v * v for v in m_eff.values())\nss_h = len(models) * sum(v * v for v in h_eff.values())\nss_tot = sum((v - grand) ** 2 for v in score.values())\nprint(f\"share of variance: model {ss_m/ss_tot:.0%}, harness {ss_h/ss_tot:.0%}, \"\n      f\"interaction+noise {1-(ss_m+ss_h)/ss_tot:.0%}\")\nspread_m = st.median(max(score[m, h] for m in models) - min(score[m, h] for m in models) for h in harness)\nspread_h = st.median(max(score[m, h] for h in harness) - min(score[m, h] for h in harness) for m in models)\nprint(f\"median spread across models (harness fixed): {spread_m:.1f} pts\")\nprint(f\"median spread across harnesses (model fixed): {spread_h:.1f} pts\")\n# Binomial noise floor: one run on 100 tasks at p=0.6 has SE ~ 4.9 pts\nprint(f\"binomial SE at p=0.6, n={n_tasks}: {100*(0.6*0.4/n_tasks)**0.5:.1f} pts\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations (Miller, 2024)",
+          "url": "https://arxiv.org/abs/2411.00640"
+        }
+      ]
+    },
+    {
+      "id": "moe-total-vs-active-serving-cost",
+      "gap": "llm-internals",
+      "title": "Price an MoE: memory follows total parameters, decode speed follows active ones",
+      "item_ids": [
+        "baidu-ernie-5-5-flash-preview-open-weights-apache"
+      ],
+      "why_today": "Baidu's open ERNIE 5.5 Flash Preview is reported as a mixture-of-experts with 280B total and 14B active parameters per token.",
+      "explanation": "In a mixture-of-experts model a router sends each token to a few experts, so per-token compute is about 2 FLOPs per active weight, while all experts must still sit in accelerator memory. A 280B/14B MoE therefore needs the memory footprint of a 280B dense model but has the per-token FLOPs of a 14B one. At small batch sizes decoding is memory-bandwidth-bound, and the ceiling is roughly bandwidth divided by bytes of active weights read per token, which is why MoEs decode fast. The idea breaks at large batches, where different tokens hit different experts and the whole weight set gets read anyway, and under expert-parallel sharding, where all-to-all communication and load imbalance between experts dominate. The bandwidth and HBM figures in the snippet are illustrative.",
+      "math": "C_{tok}\\approx 2P_{active},\\qquad M_{weights}= P_{total}\\cdot b,\\qquad \\text{tok/s}_{\\max}\\approx \\frac{BW}{P_{active}\\cdot b}",
+      "python": "# MoE serving arithmetic: memory scales with TOTAL params, per-token compute with ACTIVE.\n# 280B total / 14B active matches the reported ERNIE 5.5 Flash headline figures;\n# the dense comparison and bandwidth numbers are illustrative.\ndef serve(total_b, active_b, bytes_per_w=1.0, hbm_gb=141, bw_tbs=4.8):\n    weights_gb = total_b * bytes_per_w                # FP8 weights ~1 byte each\n    gpus = -(-weights_gb // (hbm_gb * 0.8))           # leave 20% HBM for KV cache\n    flops_tok = 2 * active_b * 1e9                    # ~2 FLOPs per active weight\n    # Decode at batch 1 is bandwidth-bound: read the active weights once per token\n    tok_s = bw_tbs * 1e12 / (active_b * 1e9 * bytes_per_w)\n    return weights_gb, int(gpus), flops_tok, tok_s\n\nfor name, tot, act in [(\"MoE 280B/14B\", 280, 14), (\"dense 70B\", 70, 70), (\"dense 280B\", 280, 280)]:\n    w, g, f, t = serve(tot, act)\n    print(f\"{name:13s} weights={w:5.0f} GB  GPUs(141GB)={g}  \"\n          f\"GFLOPs/token={f/1e9:5.0f}  batch-1 decode ceiling~{t:5.0f} tok/s per GPU-bandwidth\")\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (Fedus et al., 2021)",
+          "url": "https://arxiv.org/abs/2101.03961"
+        }
+      ]
+    }
+  ]
+}
