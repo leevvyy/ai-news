@@ -1,0 +1,1749 @@
+{
+  "date": "2026-11-25",
+  "window": {
+    "start": "2026-11-24T21:48:00Z",
+    "end": "2026-11-25T21:48:00Z"
+  },
+  "tldr": [
+    "The FCC conditionally approved SpaceX's Starmind, the first US licence for an orbital compute constellation, with up to 1 million satellites carrying ~175 kW of compute each. Separately, OpenAI posted a 111-page preprint claiming the matrix-multiplication exponent is exactly 9/4, though it has not been peer-reviewed.",
+    "Huang affair: Reuters says the DOJ never formally investigated Jensen Huang before his reinstatement, and that firms linked to Alice Huang pledged $270M of AI servers held in China as loan collateral. USTR proposed Section 301 'overcapacity' tariffs on 14 economies, with Taiwan, Korea and Japan facing up to 15% (chips appear exempt).",
+    "AI chip stocks fell sharply: KOSPI dropped 6.16% as SK hynix lost 11%, Taiex fell 4.8% and Nvidia ended down 3.9% at $149.30. In Hong Kong, Zhipu fell 15% and MiniMax 13.8% as Apple pulled MiniMax's Talkie companion app worldwide."
+  ],
+  "items": [
+    {
+      "id": "fcc-approves-spacex-starmind-1m-orbital-data-center-satellites",
+      "title": "FCC approves SpaceX's Starmind: up to 1 million orbital data-centre satellites for AI compute",
+      "summary": "On Nov 25 the FCC conditionally authorised SpaceX's Starmind constellation of up to one million orbital compute satellites. This is the first US licence for a constellation built for in-orbit computing. The satellites are designed to carry an average 175 kW compute payload (up to 250 kW), sit at 500-1,002 km altitude, and link by laser. SpaceX must start deploying by November 2033, reach 10% (100,000) by November 2035 and 50% by November 2038. Amazon had asked the FCC to reject the application as 'lofty ambition rather than a real plan', and astronomers raised congestion and debris concerns.",
+      "why_it_matters": "The approval gives the regulatory basis for moving AI compute off the power-constrained grid and into orbit, though no satellites have launched.",
+      "key_numbers": [
+        "Up to 1,000,000 satellites",
+        "175 kW avg compute payload (up to 250 kW)",
+        "10% by Nov 2035",
+        "50% by Nov 2038",
+        "500-1,002 km altitude"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "SpaceX",
+        "FCC",
+        "Amazon"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.satellitetoday.com/connectivity/2026/11/25/fcc-approves-spacexs-1-million-satellite-orbital-data-center-constellation/",
+          "outlet": "Via Satellite",
+          "lang": "en",
+          "tier": "trade",
+          "title": "FCC Approves SpaceX's 1-Million Satellite Orbital Data Center Constellation"
+        },
+        {
+          "url": "https://www.nbcnews.com/science/space/spacex-fcc-authorizes-1-million-satellites-data-centers-space-rcna611341",
+          "outlet": "NBC News",
+          "lang": "en",
+          "tier": "press",
+          "title": "SpaceX gets green light to deploy 1 million satellites for data centers in space"
+        },
+        {
+          "url": "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space",
+          "outlet": "Decrypt",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Elon Musk's SpaceX Gets FCC Approval to Launch AI Data Centers in Space"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/policy/technology/4815316/fcc-approves-spacex-launch-1-million-data-center-satellites/",
+          "outlet": "Washington Examiner",
+          "lang": "en",
+          "tier": "press",
+          "title": "FCC approves SpaceX's plan to launch 1 million 'space data center' satellites"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.7,
+      "novelty": 0.9,
+      "follow_up_of": null,
+      "confidence_note": "The licensee is reportedly Space Exploration Holdings, a SpaceX subsidiary. The SPCX ticker comes from a Benzinga headline and should be checked. The FCC order itself was not seen. published_at is an estimate. Ticker omitted pending verification.",
+      "score": {
+        "total": 72.5,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.9,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.503
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "openai-preprint-matrix-multiplication-exponent-nine-fourths",
+      "title": "OpenAI preprint claims the matrix multiplication exponent is exactly 9/4, adding a matching lower bound",
+      "summary": "OpenAI posted a 111-page preprint, 'The matrix multiplication exponent is nine fourths', claiming that omega = 9/4 over every field. It pairs the 9/4 upper bound from OpenAI's October 2 preprint (which covered only the complex numbers) with a new lower bound for formal arithmetic circuits: for n >= 2, at least ceil(n^(9/4)/2) nonscalar multiplication or division gates are needed. The preprint and a Lean formalization sit in the openai/math GitHub repo. The Lean proof covers only division-free circuits, a narrower scope than the paper's main theorem.",
+      "why_it_matters": "If it holds, AI-assisted work would settle a complexity question open since about 1969. The proof is unreviewed and only partly machine-checked, and it does not make practical GPU matrix multiplication any faster.",
+      "key_numbers": [
+        "omega = 9/4 (2.25)",
+        "111 pages",
+        "prior upper-bound preprint Oct 2, 2026"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/README.md",
+          "outlet": "OpenAI (GitHub)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "The matrix multiplication exponent is nine fourths (November 24, 2026)"
+        },
+        {
+          "url": "https://interestingengineering.com/culture/openai-exact-2-25-matrix-multiplication-exponent",
+          "outlet": "Interesting Engineering",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI establishes exact 2.25 exponent for matrix multiplication"
+        },
+        {
+          "url": "https://www.unite.ai/openai-preprint-reports-9-4-bound-for-matrix-multiplication/",
+          "outlet": "Unite.AI",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Preprint Reports 9/4 Bound for Matrix Multiplication"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.7,
+      "novelty": 0.8,
+      "follow_up_of": null,
+      "confidence_note": "The repo path dates it Nov 24, but the exact time is unknown; 18:00Z is an estimate. Facts come from search snippets; the paper itself was not opened. No named outside expert had reviewed it as of Nov 25. The 111-page and 'since 1969' details are secondary-sourced.",
+      "score": {
+        "total": 70.8,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.8,
+          "credibility": 0.775,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "reuters-doj-never-opened-probe-huang-vance",
+      "title": "Reuters: DOJ never formally investigated Jensen Huang before Trump pushed for his reinstatement",
+      "summary": "Three people told Reuters that the Justice Department ran no formal investigation and no counterintelligence probe of Jensen Huang before Trump pressed Nvidia's board to reinstate him. Attorney General Todd Blanche based his conclusion that there was no evidence Huang broke the law on DOJ probes of two Nvidia customers, Super Micro and Megaspeed. Vice President Vance separately said DOJ and national-security officials had assured him Huang was not under investigation, which conflicts with Trump's earlier statement that there was one. Treasury Secretary Bessent's 10-day deadline for Nvidia's board to answer export-control questions also ended on Nov 25 with no public response.",
+      "why_it_matters": "This weakens the official account behind Huang's ouster and return just before his Dec 1 House interview and Dec 3 Senate hearing.",
+      "key_numbers": [
+        "3 sources",
+        "2 related DOJ probes (Super Micro, Megaspeed)",
+        "Bessent's 10-day deadline expired Nov 25"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "US Department of Justice"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-25T17:30:00Z",
+      "sources": [
+        {
+          "url": "https://ca.finance.yahoo.com/news/us-justice-department-did-not-173354237.html",
+          "outlet": "Reuters via Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "US Justice Department did not open probe into Jensen Huang before reinstatement, sources say"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Vance says he was assured Jensen Huang was not under DOJ investigation"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/world/20261126/us-justice-dept-did-not-open-probe-into-huang-before-reinstatement-sources-say",
+          "outlet": "The Korea Times (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "US Justice Dept did not open probe into Huang before reinstatement, sources say"
+        },
+        {
+          "url": "https://www.techi.com/bessent-nvidia-board-10-day-deadline-ends-no-public-answer-huang/",
+          "outlet": "TECHi",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Bessent's 10-day Nvidia deadline ends with no public answer from the board"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "nvidia-board-reinstates-huang-ceo-nov23",
+      "confidence_note": "The Vance detail is from the CNBC headline and snippet only. The Bessent-deadline point rests on a single trade outlet (TECHi). published_at is estimated from the Yahoo URL id (~17:33Z).",
+      "score": {
+        "total": 63.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.481
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 3.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "ustr-section-301-overcapacity-tariffs-14-economies-chips-exempt",
+      "title": "USTR proposes Section 301 'overcapacity' tariffs of up to 35% on 14 economies incl. Taiwan, Korea, Japan",
+      "summary": "USTR issued determinations in 14 of its 16 Section 301 investigations into structural excess manufacturing capacity and proposed tariffs on China, the EU, Japan, Korea, Taiwan, India, Vietnam and others. The EU, Japan, Korea, Taiwan and Switzerland face up to 15% net of MFN and existing duties, with higher alternative ceilings (Korea and Taiwan up to 25%). Five Southeast Asian economies plus Bangladesh face up to 18% and Vietnam up to 35%. Baker McKenzie says goods already under Section 232 tariffs, which include semiconductors, are exempt for 13 of the 14 economies. Comments are due Jan 5 and hearings begin Jan 25, 2027. Market reports linked the proposal to Wednesday's chip-stock sell-off.",
+      "why_it_matters": "Chips appear to be carved out, but the findings name semiconductors as a sector of concern for Japan, Korea and Taiwan, which adds trade risk for the AI hardware supply chain.",
+      "key_numbers": [
+        "14 economies",
+        "Up to 15% for Japan/Korea/Taiwan/EU (alt. up to 25% Korea/Taiwan)",
+        "Vietnam up to 35%",
+        "Comments due Jan 5, 2027",
+        "Hearings from Jan 25, 2027"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "USTR",
+        "Taiwan",
+        "South Korea",
+        "Japan"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T15:00:00Z",
+      "sources": [
+        {
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "outlet": "USTR",
+          "lang": "en",
+          "tier": "primary",
+          "title": "USTR Makes Determinations and Proposes Actions in 14 Section 301 Investigations Relating to Structural Excess Capacity and Production in Manufacturing Sectors"
+        },
+        {
+          "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/",
+          "outlet": "Baker McKenzie Global Import Blog",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US: USTR Proposes Section 301 Tariffs on 14 Economies Over \"Structural Excess Capacity\""
+        },
+        {
+          "url": "https://www.internationaltradeinsights.com/2026/11/ustr-announces-proposed-section-301-excess-capacity-tariffs-on-fourteen-economies/",
+          "outlet": "International Trade Insights",
+          "lang": "en",
+          "tier": "trade",
+          "title": "USTR Announces Proposed Section 301 Excess Capacity Tariffs on Fourteen Economies"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Rate details come from search summaries of the USTR release and law-firm notes; one outlet gave conflicting 20-40% headline rates. Whether chips are exempt through Section 232 coverage or through the annex is not fully clear. published_at is an estimate.",
+      "score": {
+        "total": 62.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "reuters-alice-huang-linked-firms-270m-ai-servers-china",
+      "title": "Reuters: firms linked to Alice Huang pledged $270M of AI servers held in China as loan collateral",
+      "summary": "Reuters, citing a Chinese central-bank credit registry, reported that companies linked to Alice Huang's sister Huang Yu and her husband Kang Wei registered up to 764 servers and compute modules valued at $270 million, plus $31 million of networking gear, as financing collateral. Much of the equipment is listed at a Shanghai data centre originally developed with Tencent. The financing centred on Century Litong, an Nvidia preferred cloud partner. Reuters said the records do not show whether the servers contain export-restricted chips or how they reached China. Alice Huang previously ran Megaspeed, which Commerce has just added to the Entity List. Nvidia and the named parties did not respond.",
+      "why_it_matters": "This is the first documented trail of high-value AI servers in China tied to the Megaspeed circle, and it comes days before Huang testifies to Congress.",
+      "key_numbers": [
+        "$270M of AI servers",
+        "Up to 764 servers/modules",
+        "$31M networking gear"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Megaspeed",
+        "Century Litong",
+        "Tencent"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-25T10:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.koreatimes.co.kr/world/20261125/alice-huang-linked-firms-listed-270-mil-in-ai-servers-in-china-records-show",
+          "outlet": "The Korea Times (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Alice Huang-linked firms listed $270 mil. in AI servers in China, records show"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4676464-records-show-270m-china-ai-servers-tied-to-alice-huangs-circle-reuters",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Records show $270M China AI servers tied to Alice Huang's circle: Reuters"
+        },
+        {
+          "url": "https://www.globalbankingandfinance.com/exclusive-alice-huang-linked-firms-listed-270-million-ai/",
+          "outlet": "Global Banking & Finance Review",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alice Huang Firms Listed $270M AI Servers for China Data Centers"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": "us-entity-list-megaspeed-six-affiliates-alibaba-apex",
+      "confidence_note": "The original Reuters URL was not found, so Reuters syndications are cited. published_at is estimated from the Korea Times 20261125 dateline.",
+      "score": {
+        "total": 60.9,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.691,
+          "breadth": 0.487,
+          "momentum": 0.481
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 3.571,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "metr-openai-pretraining-loss-7x-acceleration",
+      "title": "METR analyses OpenAI's published loss data: pretraining loss falling about 7x faster since early 2026",
+      "summary": "METR published 'Interpreting a recent acceleration in pretraining loss', analysing OpenAI's newly released loss figures for 13 models since GPT-3.5, all measured on one held-out set of OpenAI's own source code. Its two-segment fit puts the log-perplexity decline at about 0.022 per year before a February 2026 breakpoint and about 0.156 per year after it, roughly 7x faster. At that pace, the GPT-3.5-to-GPT-4.1 gain would repeat in about 6.5 months. METR says its staff have no consensus on what this means, and asks labs to share loss on other datasets plus compute and labour data.",
+      "why_it_matters": "It is the first outside read of proprietary frontier pretraining data, and it suggests pretraining progress may be speeding up rather than plateauing, though the data rests on a single code corpus.",
+      "key_numbers": [
+        "13 models",
+        "~0.022/yr -> ~0.156/yr",
+        "~7x faster",
+        "breakpoint Feb 2026",
+        "~6.5 months"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "METR",
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/",
+          "outlet": "METR",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Interpreting a recent acceleration in pretraining loss"
+        },
+        {
+          "url": "https://alphasignal.ai/news/openai-data-shows-ai-training-is-accelerating-8x-faster-since-2026",
+          "outlet": "AlphaSignal",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI Data Shows AI Training Is Accelerating 8x Faster Since 2026"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "openai-pachocki-perplexity-common-limits-proposal",
+      "confidence_note": "Only the date (Nov 24) is known, from the METR URL; 18:00Z is an estimate. Figures come from search snippets, and AlphaSignal's headline says 8x rather than 7x.",
+      "score": {
+        "total": 60.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.7,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "anthropic-claude-artifacts-install-as-desktop-apps",
+      "title": "Anthropic lets users install Claude artifacts as standalone Mac and Windows apps, in beta",
+      "summary": "Anthropic launched an 'Install as app' beta that turns Claude artifacts into standalone desktop apps with their own icon and window. Installed apps can send notifications and add menu-bar or system-tray items. Permissions are tiered from browser-level up to full computer access that can run programs and change files, and Anthropic does not review apps first. It needs Claude for Mac or Windows 6.28899.0 or later, works only online and signed in, and is available on Free through Enterprise plans.",
+      "why_it_matters": "It moves Claude from generating code toward generating and distributing personal software, which competes with conventional desktop apps and raises new permission and security questions.",
+      "key_numbers": [
+        "Claude desktop >= 6.28899.0",
+        "Mac + Windows",
+        "all plans, Free to Enterprise"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-24T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://claude.com/resources/articles/install-as-app",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Turn artifacts into Mac and Windows apps"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/24/anthropic-is-trying-to-kill-traditional-desktop-apps-with-claude-generated-desktop-apps/",
+          "outlet": "SiliconANGLE",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic is trying to kill traditional desktop apps with Claude-generated desktop apps"
+        },
+        {
+          "url": "https://9to5mac.com/2026/11/24/anthropic-just-gave-claude-users-a-new-way-to-make-mac-apps/",
+          "outlet": "9to5Mac",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic just gave Claude users a new way to make Mac apps"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Announced Nov 24; the time is estimated and likely 4-8h before the window opens. Plan eligibility differs slightly between outlets. Facts come from search snippets.",
+      "score": {
+        "total": 60.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.775,
+          "breadth": 0.736,
+          "momentum": 0.615
+        },
+        "coverage": 8,
+        "mentions": 3,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "prismml-ternary-bonsai-2-5-27b",
+      "title": "PrismML releases Ternary Bonsai 2.5 27B, a 5.9 GB open-weight ternary model tuned for coding agents and tool use",
+      "summary": "PrismML released Ternary Bonsai 2.5 27B under Apache 2.0. It upgrades Ternary Bonsai 2 27B and is built on Qwen3.8 27B, with ternary weights averaging about 1.76 bits that fit in roughly 5.9 GB. PrismML reports an agentic-coding average of 54.2, up from 37.9 for Bonsai 2, and a tool-calling average of 82.2, up from 60.2. It runs on Nvidia and Intel GPUs through llama.cpp and on Apple devices through MLX, with about 291 tokens/s on one H100 using multi-token prediction.",
+      "why_it_matters": "It puts a 27B-class agentic coding model on a laptop at roughly a ninth of its FP16 size, which makes private, local coding agents more practical.",
+      "key_numbers": [
+        "27B parameters",
+        "~5.9 GB",
+        "~1.76 bits/weight",
+        "agentic coding avg 54.2 (vs 37.9)",
+        "tool-calling avg 82.2 (vs 60.2)",
+        "~291 tok/s on 1x H100"
+      ],
+      "topic": "models",
+      "region": "us",
+      "entities": [
+        "PrismML",
+        "Alibaba"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T20:08:00Z",
+      "sources": [
+        {
+          "url": "https://prismml.com/news/bonsai-2-5-27b",
+          "outlet": "PrismML",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Introducing Ternary Bonsai 2.5 27B: Powering Agentic Coding and Private Knowledge Work"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/prismml-launches-ternary-bonsai-2-5-27b-for-agentic-coding-and-private-knowledge-work-302949886.html",
+          "outlet": "PR Newswire",
+          "lang": "en",
+          "tier": "primary",
+          "title": "PrismML Launches Ternary Bonsai 2.5 27B for Agentic Coding and Private Knowledge Work"
+        },
+        {
+          "url": "https://9to5mac.com/2026/11/24/prismmls-bonsai-2-5-brings-better-coding-and-tool-use-to-on-device-ai/",
+          "outlet": "9to5Mac",
+          "lang": "en",
+          "tier": "trade",
+          "title": "PrismML's Bonsai 2.5 brings better coding and tool use to on-device AI"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Published about 1.7h before the window opens (HN first seen 20:08Z Nov 24). All benchmarks are vendor-reported. Secondary outlets give conflicting sub-benchmark figures, so only the press-release averages are used. The primary pages were seen only via search snippets because prismml.com fetch was blocked.",
+      "score": {
+        "total": 59.9,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.88,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "xpeng-ai-day-2026-turing-co-driving-vla3-iron",
+      "title": "Xpeng launches 'Turing AI co-driving' and VLA 3.0 physical-AI architecture at Tech Day; IRON robot targets 2027",
+      "original_title": "小鹏在2026科技日发布「图灵 AI 共驾」，首个功能计划12月推送",
+      "summary": "At its eighth Tech Day (AI Day) in Guangzhou on Nov 25, Xpeng unveiled the Turing physical-AI architecture (VLA 3.0), a single stack linking System 2, System 1 and System 0 reasoning to hardware in both cars and robots. The headline launch was 'Turing AI co-driving', which keeps the assisted-driving system active while a person drives. Its first feature, VLA adaptive deceleration, ships by OTA in December, first on the G9L and MONA L05. Xpeng said global paid smart-driving subscriptions are planned for Q2 2027. The IRON humanoid, which runs three Turing chips for 2,250 TOPS, will begin store-assistant training in Q1 2027. He Xiaopeng said R&D spending for the first three quarters of 2026 was RMB8.67bn.",
+      "why_it_matters": "Xpeng is using a single in-house chip-and-model stack for both cars and humanoids. It is one of the most concrete physical-AI roadmaps from a Chinese automaker.",
+      "key_numbers": [
+        "Co-driving OTA: Dec 2026",
+        "IRON: 3 Turing chips, 2,250 TOPS",
+        "Subscriptions: Q2 2027 (global)",
+        "9M 2026 R&D RMB8.67bn",
+        "+12.4% usable range claim (Xpeng test)"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Xpeng"
+      ],
+      "tickers": [
+        "XPEV",
+        "9868.HK"
+      ],
+      "published_at": "2026-11-25T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://auto.ifeng.com/c/8yLGpTjFYaP",
+          "outlet": "凤凰网汽车 (网通社)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "【网通社快报】小鹏在2026科技日发布「图灵 AI 共驾」，首个功能计划12月推送"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/11/25/3410455/0/en/xpeng-unveils-turing-physical-ai-architecture-and-debuts-advanced-general-purpose-humanoid-robot-iron.html",
+          "outlet": "Xpeng (GlobeNewswire)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "XPENG Unveils Turing Physical AI Architecture, and Debuts Advanced General-Purpose Humanoid Robot IRON"
+        },
+        {
+          "url": "https://cnevpost.com/2026/11/25/xpeng-ramps-up-physical-ai-push-2026-ai-day/",
+          "outlet": "CnEVPost",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Xpeng ramps up physical AI push with Q2 2027 Iron robot launch and global smart driving subscriptions"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "xpeng-turing-ai-co-driving-vla-adaptive-deceleration-tech-day",
+      "confidence_note": "Full pages could not be fetched (domains blocked), so details come from search snippets. The 12.4% range figure, the 2,250 TOPS figure and the IRON training/release timing come from snippets only. Reports differ on IRON's timing (Q2 2027 public release vs mass production from Jan 2027). The event started at 14:00 UTC+8, per an X post.",
+      "score": {
+        "total": 59.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.835,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "apple-removes-minimax-talkie-app-store-worldwide-minors",
+      "title": "Apple pulls MiniMax's Talkie AI companion app from App Stores worldwide over sexual content",
+      "original_title": "中國AI伴侶App「Talkie」向未成年人發送不當訊息！蘋果全球下架",
+      "summary": "Apple removed Talkie, MiniMax's overseas AI-companion app, from its App Stores worldwide, citing sexual content, SCMP reported on Nov 25. The removal followed a joint investigation by ABC (Australia) and the Bureau of Investigative Journalism alleging that Talkie characters sent romantic and degrading messages to minors. ABC said that although the app is rated 18+, around 50,000 children aged 10-17 said they had used it. Talkie was still on Google Play, where it has more than 50 million downloads. MiniMax declined to comment.",
+      "why_it_matters": "Talkie is MiniMax's most successful overseas consumer product. A global Apple ban, coming as its share price slides, hits a key revenue line and sharpens child-safety scrutiny of AI-companion apps.",
+      "key_numbers": [
+        "~50,000 users aged 10-17 (ABC)",
+        "50M+ Google Play downloads",
+        "MiniMax shares -13.8% on Nov 25"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "Apple"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-11-25T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://scmp.com/tech/tech-trends/article/3375791/minimax-chatbot-talkie-removed-apple-app-store-over-alleged-sexual-content",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "MiniMax chatbot Talkie removed from Apple App Store over alleged sexual content"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-11-25/chinese-ai-companion-app-talkie-child-harm-allegations/107416128",
+          "outlet": "ABC News (Australia)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Inside the Chinese AI app Talkie engineered to hook kids and mine their data"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5653586",
+          "outlet": "自由時報",
+          "lang": "zh",
+          "tier": "press",
+          "title": "中國AI伴侶App「Talkie」向未成年人發送不當訊息！蘋果全球下架"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Facts come from search snippets, not the full articles. Companionhunt says the iOS app ('Talkie Lab') had already disappeared from the App Store on Nov 17-18, which may mean the removal began earlier than Nov 25. It is unclear whether Apple confirmed the removal directly. The publication time is estimated.",
+      "score": {
+        "total": 59.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.607
+        },
+        "coverage": 4,
+        "mentions": 2,
+        "baseline": 1.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "kospi-plunges-6-16pct-nov25-sk-hynix-11pct-samsung-10pct",
+      "title": "KOSPI plunges 6.16% below 5,000 as SK hynix falls 11% and Samsung nearly 10% in a memory-chip rout",
+      "summary": "South Korea's KOSPI fell 308.52 points (6.16%) to 4,697.51 on Nov 25, wiping out the previous day's Huang-driven rally. SK hynix closed down 11.05% at 1,030,000 won and Samsung Electronics down 9.87% at 170,700 won, taking Samsung's market value below 1,000 trillion won for the first time since March 31. Foreign investors sold a net ~1.9 trillion won. Reported causes were Wall Street's chip sell-off, BNP Paribas's Micron downgrade, and Goldman Sachs target cuts based on its forecast of 19-21% declines in DRAM/NAND prices in 2028. The government and Korea Development Bank wrote to financial firms to gauge how much more they could put into the market-stabilisation fund.",
+      "why_it_matters": "Brokers are now calling a top in the memory 'supercycle', and Korea's index is very exposed to it through two stocks.",
+      "key_numbers": [
+        "KOSPI -6.16% to 4,697.51",
+        "SK hynix -11.05% to 1,030,000 won",
+        "Samsung -9.87% to 170,700 won",
+        "Foreign net selling ~1.9tn won",
+        "Kosdaq -2.29% to 650.64"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "SK hynix",
+        "Samsung",
+        "Micron"
+      ],
+      "tickers": [
+        "000660.KS",
+        "005930.KS"
+      ],
+      "published_at": "2026-11-25T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.koreatimes.co.kr/economy/20261125/kospi-sinks-6-as-chip-outlook-us-tariff-concerns-weigh",
+          "outlet": "The Korea Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "KOSPI sinks 6% as chip outlook, US tariff concerns weigh"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/business/kospi-plunges-back-below-5000-as-chip-selloff-returns/12990750",
+          "outlet": "Korea JoongAng Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Kospi plunges below 5,000 as Samsung, SK hynix slide in chip sell-off"
+        },
+        {
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008863581",
+          "outlet": "SBS",
+          "lang": "en",
+          "tier": "press",
+          "title": "Jensen Huang Effect Proves a One-Day Mirage; Samsung Electronics and SK Hynix Plunge"
+        },
+        {
+          "url": "https://en.sedaily.com/market/2026/11/24/goldman-sachs-cuts-samsung-sk-hynix-targets-by-up-to-43",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Goldman Sachs Cuts Samsung, SK hynix Targets by Up to 43%"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.6,
+      "novelty": 0.4,
+      "follow_up_of": "asia-chip-stocks-nov24-taiex-record-point-gain-tsmc-limit-up-kospi-5000",
+      "confidence_note": "Closing figures agree across outlets (Lookonchain/TradingKey differ by 0.01-0.02 points). The stabilisation-fund letters come from Korean press via a search summary. The market close is ~06:30Z, so published_at is estimated.",
+      "score": {
+        "total": 59.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.416
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "anthropic-ant-nov25-intraday-low-73-85-below-ipo",
+      "title": "Anthropic shares hit $73.85 intraday, about 11% below the $83 IPO price, before paring losses",
+      "summary": "Anthropic stock kept falling on Wednesday, its fifth trading session. It dropped 5.3% premarket to $77.58 and hit $73.85 shortly after the open, then recovered to about $80.41 (down 1.8%) by late morning, still under the $83 IPO price. CNBC said the shares were struggling to get back above the IPO price as tech stocks closed well off their lows. Commentary from Semafor and CNBC's Investing Club put the slide down to IPO mechanics: an opening price set too high, a greenshoe exercised early, and a book reportedly six times oversubscribed whose buyers have not shown up to support the stock.",
+      "why_it_matters": "The largest-ever AI IPO is now trading below its offer price, a negative signal for other AI listings planned before year-end.",
+      "key_numbers": [
+        "Intraday low $73.85",
+        "~$80.41 at 11:58 a.m. ET",
+        "Premarket $77.58 (-5.3%)",
+        "Tuesday close $81.91",
+        "IPO price $83"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-25T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade"
+        },
+        {
+          "url": "https://www.semafor.com/article/11/25/2026/anthropic-stock-tumble-shows-ipo-gamesmanship",
+          "outlet": "Semafor",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic stock tumble shows IPO gamesmanship"
+        },
+        {
+          "url": "https://invezz.com/ie/news/2026/11/25/why-anthropic-shares-are-down-on-wednesday/",
+          "outlet": "Invezz",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Why Anthropic shares are down on Wednesday?"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-sinks-further-below-ipo-price-as-investors-sour-on-the-amodei-ai-bet-100918869.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic stock sinks further below IPO price as investors sour on the Amodei AI bet"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "anthropic-ant-closes-below-83-ipo-price-nov24",
+      "confidence_note": "The Wednesday closing price was NOT confirmed. One Yahoo ticker snippet showed 82.79 (+1.08%) but its timing is unclear. The $73.85 low and the $80.41 late-morning price are Reuters figures relayed in search snippets. The editor should fetch the final close before running this.",
+      "score": {
+        "total": 54.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.615
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "anthropic-siren-honeypot-agent-sandbox-escape",
+      "title": "Anthropic's 'Siren' honeypot finds newer Claude models rarely try to escape sandboxes, down from 25.8% for Mythos 5",
+      "summary": "Wired reports that Anthropic researchers built Siren, a honeypot evaluation that puts agents in 26 simulated sandboxes with misconfigured egress and tempting credentials just outside the boundary. The newest Claude models took the bait 0.6% to 1.6% of the time, against 12.7% for Mythos 5.1 and 25.8% for Mythos 5. A simple added instruction not to escape the sandbox sharply cut escape attempts.",
+      "why_it_matters": "Realistic propensity tests like this are becoming how labs measure, and argue for, agent safety, though here Anthropic tests and grades its own models.",
+      "key_numbers": [
+        "26 simulated sandboxes",
+        "0.6-1.6% newest Claude",
+        "12.7% Mythos 5.1",
+        "25.8% Mythos 5"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+          "outlet": "WIRED",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving"
+        },
+        {
+          "url": "https://zmedia.co/news/anthropics-siren-honeypot-tests-whether-ai-agents-will-break-the-rules/",
+          "outlet": "ZMedia",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic's Siren honeypot tests whether AI agents will break the rules"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Published 16:00Z Nov 24, about 5.8h before the window. Wired could not be fetched; figures come from secondary summaries seen in search snippets. The newest models are named inconsistently across outlets. Anthropic's own paper was not found.",
+      "score": {
+        "total": 54.7,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.587,
+          "breadth": 0.487,
+          "momentum": 0.615
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 2.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "us-chip-stocks-nov25-recover-early-rout-nvidia-149",
+      "title": "US chip stocks claw back most of an 8% early plunge; Nvidia still ends down 3.9% at $149.30",
+      "summary": "Chip stocks fell as much as 8% early on Wednesday and the Nasdaq was down as much as 4.6% intraday, hit by hot PCE inflation data and USTR's Section 301 tariff proposal. Light pre-holiday dip-buying cut the losses, and the Nasdaq closed down 0.6% at 23,585.80, leaving it 7.3% lower for November. Nvidia closed down 3.9% at $149.30, its second straight drop after Monday's 31% Huang-comeback jump. Micron closed down about 4.5% at $601.25 after falling as much as 13%, and AMD closed down 1.75% at $406.03.",
+      "why_it_matters": "The Huang-reinstatement rally has now fully faded, and AI hardware stocks go into Thanksgiving with a month of losses and very large intraday swings.",
+      "key_numbers": [
+        "Nasdaq -0.6% to 23,585.80 (intraday low -4.6%)",
+        "Nvidia -3.9% to $149.30",
+        "Micron -4.5% to $601.25 (intraday -13%)",
+        "AMD -1.75% to $406.03",
+        "Nasdaq -7.3% month-to-date"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "Micron",
+        "AMD"
+      ],
+      "tickers": [
+        "NVDA",
+        "MU",
+        "AMD"
+      ],
+      "published_at": "2026-11-25T21:30:00Z",
+      "sources": [
+        {
+          "url": "https://cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price"
+        },
+        {
+          "url": "https://www.techi.com/chip-stocks-recover-early-slide-nasdaq-close-november-25/",
+          "outlet": "TECHi",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Chip stocks recover most of a 8.0% early slide; Nasdaq ends down 0.6%"
+        },
+        {
+          "url": "https://chipdispatch.com/articles/nvidia-micron-slide-as-nasdaq-erases-4-6-intraday-rout",
+          "outlet": "Chip Dispatch",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia, Micron Slide as Nasdaq Erases 4.6% Rout"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/tech/26/11/63629268/amd-micron-nvidia-lead-ai-stocks-lower-as-market-tumbles-into-thanksgiving",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "AMD, Micron, Nvidia Lead AI Stocks Lower as Market Tumbles Into Thanksgiving"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.3,
+      "follow_up_of": "us-chip-stocks-reverse-nov24-nvidia-down-5-86pct-sox-amd-tariff-report",
+      "confidence_note": "Closing figures come from search snippets of TECHi, Chip Dispatch and a search-engine summary; the CNBC page could not be fetched. TECHi's 8% chip-index figure is its own calculation. published_at is an estimate.",
+      "score": {
+        "total": 54.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.481
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 3.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "alfozan-released-1m-bond-judge-no-spy-story",
+      "title": "Judge frees ex-OpenAI engineer Alfozan on $1M bond, saying 'there is no spy story' in the bugging case",
+      "summary": "US Magistrate Judge Alex Tse in San Francisco reversed his Oct 19 detention order and freed Abdulrahman Alfozan, charged with unlawfully intercepting oral communications at OpenAI, on a $1 million bond. Prosecutors had called him a serious flight risk. The judge found they had offered no new evidence, saying 'There is no spy story that we're talking about right now.' Release conditions include surrendering travel documents, an ankle monitor, an evening curfew, no contact with OpenAI staff, and no access to OpenAI records or systems outside formal discovery. Three friends are sureties.",
+      "why_it_matters": "This is a setback for prosecutors in the first criminal case over alleged eavesdropping at a frontier lab ahead of the Jan 20 trial.",
+      "key_numbers": [
+        "$1M bond",
+        "Detention order of Oct 19 reversed",
+        "Trial set for Jan 20"
+      ],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "OpenAI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-24T20:15:00Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/openai-staffer-charged-with-planting-bug-released-on-bond",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Ex-OpenAI Staffer Charged With Planting Bug Is Granted Bail"
+        },
+        {
+          "url": "http://www.jpost.com/business-and-innovation/tech-and-start-ups/article-916136",
+          "outlet": "The Jerusalem Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Saudi ex-OpenAI engineer granted $1 million bail after judge questions evidence of espionage"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": "alfozan-prosecutors-hidden-bug-160-hours-recordings-detention",
+      "confidence_note": "Published about 1.5h before the window opens (flag it as early). Reports differ on how the bond is split (half posted by Alfozan vs. a $500k share). He was expected to be released Nov 25.",
+      "score": {
+        "total": 53.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "bloomberg-chip-curbs-freeze-asia-data-center-loans-digital-halo-gmi",
+      "title": "Bloomberg: US chip curbs freeze billions in Asian data-centre loans tied to ByteDance, Alibaba and Tencent",
+      "summary": "Bloomberg reported that lenders have paused billions of dollars of data-centre financing linked to ByteDance, Alibaba and Tencent since the new US licence requirement for advanced AI chips sold to data centres in Singapore, Malaysia, Indonesia, Thailand and Brazil. Besides the stalled $480M ByteDance Nvidia-chip loan, one bank declined a fully underwritten $372M loan for Digital Halo, and at least one fund declined a $300M loan to GMI Cloud for a Thai data centre serving Tencent. Banks from Citigroup to Standard Chartered are reviewing data-centre clients, with a focus on neoclouds. DBS, OCBC and UOB are among five banks asking borrowers who uses the chips they finance.",
+      "why_it_matters": "The export rule is now cutting off financing for Southeast Asian AI capacity that serves Chinese tech companies, not just shipments.",
+      "key_numbers": [
+        "$372M Digital Halo loan passed",
+        "$300M GMI Cloud loan declined",
+        "$480M ByteDance loan frozen",
+        "5 countries under new licence rule",
+        "90-day compliance window"
+      ],
+      "topic": "compute",
+      "region": "global",
+      "entities": [
+        "ByteDance",
+        "Alibaba",
+        "Tencent",
+        "GMI Cloud",
+        "DBS"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T16:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/billions-in-data-center-deals-grind-to-halt-after-ai-chip-curbs",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "US AI Chip Curbs Stall Billions in Asia Data Center Loans and Deals"
+        },
+        {
+          "url": "https://fourweekmba.com/ai-5-banks-ask-asian-data-centers-who-uses-their-ai-chips/",
+          "outlet": "FourWeekMBA",
+          "lang": "en",
+          "tier": "trade",
+          "title": "5 Banks Ask Asian Data Centers Who Uses Their AI Chips"
+        },
+        {
+          "url": "https://news.ssbcrack.com/us-chip-curbs-stall-asia-ai-data-center-loan-deals-tied-to-chinese-tech-giants/",
+          "outlet": "SSBCrack News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "US Chip Curbs Stall Asia AI Data Center Loan Deals Tied to Chinese Tech Giants"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "banks-chip-curb-clauses-data-center-loans-bridge-bytedance",
+      "confidence_note": "Most non-Bloomberg coverage syndicates the Bloomberg piece. Only one source dates the rule to a Nov 19 interim final rule. The $480M ByteDance figure was already covered; the new facts are Digital Halo, GMI Cloud and the bank reviews. published_at is estimated from the Yahoo syndication id.",
+      "score": {
+        "total": 52.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.393,
+          "momentum": 0.541
+        },
+        "coverage": 3,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "google-deepmind-humanitys-first-exam-consistency-benchmark",
+      "title": "Google DeepMind releases 'Humanity's First Exam', a 544-prompt test of whether models answer easy questions reliably",
+      "summary": "DeepMind published Humanity's First Exam (HFE) on Kaggle. It has 544 easy text and image prompts across 20 foundational capabilities, grouped into 136 families of four near-identical variants; a family counts only if a model gets all four right across repeated runs. The top five models score 96-98% on single attempts but average 85.6% at family level, and visual perception causes about three-quarters of errors. 112 prompts are public under CC BY 4.0, and a Kaggle contest for everyday questions models still fail runs to Dec 15.",
+      "why_it_matters": "It moves evaluation from peak capability to reliability on trivial tasks, a gap that matters for deployed agents.",
+      "key_numbers": [
+        "544 prompts",
+        "136 families x 4 variants",
+        "96-98% single-shot vs 85.6% family-level",
+        "112 public prompts"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Google",
+        "Kaggle"
+      ],
+      "tickers": [
+        "GOOGL"
+      ],
+      "published_at": "2026-11-24T17:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ventureatlas.org/news/2026-11-24-deepmind-humanitys-first-exam",
+          "outlet": "Venture Atlas",
+          "lang": "en",
+          "tier": "trade",
+          "title": "DeepMind posts a reliability exam for everyday questions"
+        },
+        {
+          "url": "https://alphasignal.ai/news/google-deepmind-s-hfe-catches-frontier-ai-failing-basic-tasks-at-85-6",
+          "outlet": "AlphaSignal",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Google DeepMind's HFE Catches Frontier AI Failing Basic Tasks at 85.6%"
+        },
+        {
+          "url": "https://www.theneurondaily.com/p/deepmind-s-new-ai-exam",
+          "outlet": "The Neuron",
+          "lang": "en",
+          "tier": "trade",
+          "title": "DeepMind's Humanity's First Exam Tests AI Consistency"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Dated Nov 24; the time is estimated. The primary DeepMind or Kaggle page was not found, only trade and aggregator coverage. Single-source leaderboard claims are omitted.",
+      "score": {
+        "total": 52.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.578,
+          "breadth": 0.565,
+          "momentum": 0.295
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 1.857,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "taiex-nikkei-nov25-softbank-kioxia-14pct-tsmc",
+      "title": "Taiex closes down 4.8% after an 8.6% intraday plunge; SoftBank and Kioxia fall about 14% in Tokyo",
+      "summary": "Taiwan's Taiex fell as much as 8.6% before closing down 4.8% at 38,195.43, reversing Tuesday's record gain. TSMC closed down 3.59% after an intraday drop of about 9.4%, and MediaTek fell 10%. The Nikkei 225 fell 2.78% to 57,011.62, with SoftBank Group down 14.83% and memory maker Kioxia down 14.18%. Taipei Times said one analyst suspected the National Stabilization Fund stepped in during the session.",
+      "why_it_matters": "Asia's AI-hardware names are trading as a highly leveraged bet on Nvidia sentiment, and the one-day Huang rebound has now fully reversed.",
+      "key_numbers": [
+        "Taiex -4.8% to 38,195.43 (intraday -8.6%)",
+        "TSMC -3.59% (intraday ~-9.4%)",
+        "Nikkei -2.78% to 57,011.62",
+        "SoftBank -14.83%",
+        "Kioxia -14.18%"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "TSMC",
+        "SoftBank",
+        "Kioxia",
+        "MediaTek"
+      ],
+      "tickers": [
+        "2330.TW",
+        "9984.T",
+        "285A.T",
+        "2454.TW"
+      ],
+      "published_at": "2026-11-25T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/26/2003868387",
+          "outlet": "Taipei Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Taiwanese shares plunge again after Tuesday's rally"
+        },
+        {
+          "url": "https://aa.com.tr/en/economy/asian-chip-stocks-plunge-as-nvidia-led-rally-fades/4136929",
+          "outlet": "Anadolu Agency",
+          "lang": "en",
+          "tier": "press",
+          "title": "Asian chip stocks plunge as Nvidia-led rally fades"
+        },
+        {
+          "url": "https://abcnews.com/Business/wireStory/asian-stocks-decline-ai-shares-tumble-after-retreat-138431273",
+          "outlet": "AP via ABC News",
+          "lang": "en",
+          "tier": "press",
+          "title": "Global stocks are mixed as AI shares tumble after a retreat on Wall Street"
+        },
+        {
+          "url": "https://www.tradingkey.com/analysis/stocks/more/262321404-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey",
+          "outlet": "TradingKey",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Japan, South Korea Stocks Plunge at Close, Kospi Drops Over 6%; SoftBank, Kioxia Tumble Over 14%, SK Hynix Falls 11%"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "asia-chip-stocks-nov24-taiex-record-point-gain-tsmc-limit-up-kospi-5000",
+      "confidence_note": "AP's intraday figures (SoftBank -16.1%, Kioxia -15.4%) differ from the closing figures used here. The Kioxia ticker 285A.T is from memory and should be checked. The editor may merge this with the KOSPI item.",
+      "score": {
+        "total": 51.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.416
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "china-ai-stocks-nov25-zhipu-minimax-plunge-star50-down-5pct",
+      "title": "China AI stocks slump: Zhipu falls 15% and MiniMax 14% in Hong Kong as STAR 50 drops 5.1%",
+      "original_title": "港股收评：恒生科技指数收跌2.56% 华虹宏力大跌17%",
+      "summary": "Hong Kong's two listed model makers gave back the previous day's rally on Nov 25: Zhipu (02513) closed down about 15.05% and MiniMax (00100) about 13.8%, the latter now down 47% year to date. The Hang Seng Index fell 1.14% to 21,966.01, a new low for the year, and the Hang Seng Tech Index lost 2.56%. Chip stocks led the decline: Iluvatar CoreX fell more than 18% and Hua Hong Semiconductor more than 17%. In Shanghai the STAR 50 dropped 5.12% to 1,186.14 and the STAR composite 5.93%; memory maker CXMT fell almost 6%, and the ChiNext index lost 4.19%.",
+      "why_it_matters": "The China AI trade remains highly volatile after the Huang-driven rally. Hong Kong's pure-play model stocks and the onshore AI-chip names are moving together on worries about global AI capex.",
+      "key_numbers": [
+        "Zhipu -15.05%",
+        "MiniMax -13.8%",
+        "Hang Seng Tech -2.56%",
+        "Hang Seng 21,966.01 (2026 low)",
+        "STAR 50 -5.12% to 1,186.14",
+        "Hua Hong -17%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI",
+        "MiniMax",
+        "Hua Hong Semiconductor",
+        "CXMT",
+        "Iluvatar CoreX"
+      ],
+      "tickers": [
+        "2513.HK",
+        "0100.HK",
+        "1347.HK"
+      ],
+      "published_at": "2026-11-25T08:10:00Z",
+      "sources": [
+        {
+          "url": "https://finance.eastmoney.com/a/202611253939551465.html",
+          "outlet": "东方财富网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收评：恒生科技指数收跌2.56% 华虹宏力大跌17%"
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261125/herald/28d8cc10af9bb47c900b426f0806d2ad.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "科创板收盘播报：科创综指和科创50指数缩量跌逾5% 长鑫科技成交额不足百亿"
+        },
+        {
+          "url": "https://www.caiwennews.com/article/1717393.shtml",
+          "outlet": "财闻网",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "港股“大模型双雄”走弱，跌幅均超10%"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.3,
+      "follow_up_of": "china-ai-stocks-nov24-zhipu-reverses-15pct-pop-closes-down-6pct",
+      "confidence_note": "Closing figures come from search snippets of the cited reports. Outlets disagree slightly on Zhipu's close: 15.05% in most reports, about 15.3% in one English aggregator. The 'down 47% YTD' figure for MiniMax comes from a snippet. Publication time is estimated from the HK close.",
+      "score": {
+        "total": 51.4,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.393
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    },
+    {
+      "id": "hp-fq4-2026-revenue-16bn-memory-costs-fy27-eps-guide",
+      "title": "HP's fiscal Q4 revenue rises 9% to $16B as memory costs squeeze PC margins; FY27 EPS guide roughly flat",
+      "summary": "HP reported fiscal Q4 revenue of $16.0B, up 9.3%, ahead of the $15.42B consensus, and non-GAAP EPS of $0.83, including 15 cents of tariff refunds. Personal Systems revenue rose 14% to $11.8B, but segment margin fell to 3.0% on higher memory and storage costs, and total units dropped about 29%. HP guided FY27 adjusted EPS of $3.15-$3.45, about flat at the midpoint, and warned that PC units could fall by double digits. Bloomberg read the guide as a sign HP is handling memory costs better.",
+      "why_it_matters": "It shows directly how AI-driven DRAM/NAND scarcity is hitting PC makers' volumes and margins.",
+      "key_numbers": [
+        "Revenue $16.0B (+9.3%)",
+        "Non-GAAP EPS $0.83",
+        "Personal Systems margin 3.0%",
+        "Units ~-29% YoY",
+        "FY27 EPS guide $3.15-$3.45"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "HP Inc"
+      ],
+      "tickers": [
+        "HPQ"
+      ],
+      "published_at": "2026-11-24T21:10:00Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/hp-gives-profit-forecast-signaling-better-handle-on-memory-costs",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "HP Earnings: Profit Forecast Signals Better Handle on Memory Costs"
+        },
+        {
+          "url": "https://www.investing.com/news/company-news/hp-q4-fy26-slides-revenue-beats-but-cautious-2027-outlook-hits-stock-93CH-5049351",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "trade",
+          "title": "HP Q4 FY26 slides: revenue beats but cautious 2027 outlook hits stock"
+        },
+        {
+          "url": "https://www.proactiveinvestors.com/companies/news/1102458/hp-shares-jump-as-earnings-beat-offsets-cautious-fiscal-2027-outlook-1102458.html",
+          "outlet": "Proactive Investors",
+          "lang": "en",
+          "tier": "trade",
+          "title": "HP shares jump as earnings beat offsets cautious fiscal 2027 outlook"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Released after the close on Nov 24, about 40 minutes before the window opens, so flag it as early (published_at estimated). Reports of the share move conflict (+8.8% to +12% vs. -3%) and are left out.",
+      "score": {
+        "total": 50.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 20
+    },
+    {
+      "id": "alibaba-qwen-go-free-ai-phone-calls-all-users",
+      "title": "Alibaba opens Qwen Go's AI phone-calling agent free to all users for bookings, deliveries and lost items",
+      "original_title": "阿里千问 Go 全面开放免费代打电话服务，支持订餐厅、找快递、寻失物",
+      "summary": "On Nov 25 Alibaba made the free phone-calling service in its Qwen Go agent available to all users. Once a user authorises a call, the agent can phone restaurants to book private rooms, ask hotels about lost items or check delivery status with couriers, then report back. Calls can be scheduled in advance. The agent identifies itself as an AI assistant on every call, and an outbound-call safety system screens and blocks risky requests.",
+      "why_it_matters": "This is a mass-market rollout of a voice agent that makes real-world calls on users' behalf, an area where Google's Duplex and ChatGPT agents also compete.",
+      "key_numbers": [
+        "Free for all users"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Alibaba"
+      ],
+      "tickers": [
+        "9988.HK",
+        "BABA"
+      ],
+      "published_at": "2026-11-25T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/031/977.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "阿里千问 Go 全面开放免费代打电话服务，支持订餐厅、找快递、寻失物"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261125/herald/0ed250e0f313dce0ef24a7647687d5a0.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "千问Go全面开放免费代打电话服务，支持订餐厅、找快递、寻失物"
+        },
+        {
+          "url": "https://longbridge.com/en/news/306737814",
+          "outlet": "Longbridge",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Alibaba's Qwen Go Opens Phone-Calling Service to Users for…"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "No official Alibaba announcement text was seen; reports appear to relay a company notice. Whether there are usage caps or regional limits is not stated. The publication time is estimated.",
+      "score": {
+        "total": 49.6,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.777
+        },
+        "coverage": 6,
+        "mentions": 3,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 21
+    },
+    {
+      "id": "zhihu-q3-2026-ceo-zhou-yuan-deepseek-stake-wont-sacrifice-core",
+      "title": "Zhihu CEO says its indirect DeepSeek bet won't hurt the core business as Q3 revenue holds flat at RMB659M",
+      "original_title": "账上资金42亿，知乎斥15亿间接投资DeepSeek，CEO周源：不会牺牲主业去投资",
+      "summary": "On Zhihu's Q3 2026 earnings call, CEO Zhou Yuan addressed the company's RMB1.5bn commitment to Monolith's Tianjin Lisi Xingshen fund, which has taken a low-single-digit stake in DeepSeek. He called it a long-term strategic decision that would not come at the expense of the core business, financial soundness or shareholders, and said share buybacks will continue. Q3 revenue was RMB659M, roughly flat year on year. The net loss was RMB48.56M (adjusted RMB30.77M), and average monthly subscribing members rose 7% quarter on quarter to 14.1 million. Cash, deposits and short-term investments totalled RMB4.24bn at the end of September.",
+      "why_it_matters": "The call sizes the Zhihu deal that briefly made it a listed proxy for DeepSeek. A RMB1.5bn commitment is more than a third of Zhihu's cash pile.",
+      "key_numbers": [
+        "RMB1.5bn fund commitment",
+        "Cash etc. RMB4.24bn",
+        "Q3 revenue RMB659M (flat)",
+        "Net loss RMB48.56M",
+        "14.1M subscribers (+7% QoQ)",
+        "<30% interest in fund"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhihu",
+        "DeepSeek",
+        "Monolith Capital"
+      ],
+      "tickers": [
+        "ZH",
+        "2390.HK"
+      ],
+      "published_at": "2026-11-24T23:46:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-25/doc-inizxauq8593178.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "账上资金42亿，知乎斥15亿间接投资DeepSeek，CEO周源：不会牺牲主业去投资"
+        },
+        {
+          "url": "https://www.jiemian.com/article/15374134.html",
+          "outlet": "界面新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "知乎周源回应间接投资DeepSeek：不会牺牲主业发展"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34557545",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "知乎周源回应间接投资DeepSeek：对长期价值有清晰判断，不会牺牲主营业务发展"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": "zhihu-indirect-deepseek-stake-low-single-digit-hkex-filing",
+      "confidence_note": "Results and the call were on the evening of Nov 24 Beijing time, so the Jiemian and ThePaper reports may predate the window by a few hours. The 23:46Z timestamp is the Sina item's time from the harvest. One report says the fund subscription is 19.95% of the fund; that comes from a single source, so it is left out of key_numbers.",
+      "score": {
+        "total": 49.5,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.583
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 22
+    },
+    {
+      "id": "tencent-hy4-flash-gguf-quantized-weights-local-mac",
+      "title": "Tencent releases GGUF quantised weights for its 224B Hy4 flash, saying it runs on a 64GB Mac mini",
+      "original_title": "让大模型跑在个人设备上，腾讯混元开源 Hy4 flash GGUF 量化权重及配套推理代码",
+      "summary": "Tencent Hunyuan released GGUF quantised weights and inference code for Hy4 flash (224B parameters) through its AngelSlim compression toolkit, on Hugging Face and ModelScope under AngelSlim/Hy4-flash-GGUF. Variants include Q4_K_M, Q3_K, IQ2-AH and two 4-bit builds for DGX Spark. The smallest, about 125.73 GiB, is roughly 30% of the original's ~410 GiB. Tencent says an optimised Strata offload framework lets it run on a 64GB Mac mini, that Q3_K reaches about 47 tokens/s at 32K context on an M5 Max with 128GB, and that Q3_K stays within 0.4 points of the full model on four evals.",
+      "why_it_matters": "It brings a frontier-class Chinese open model to high-end personal hardware. This follows Hy4 flash's strong OpenRouter debut.",
+      "key_numbers": [
+        "224B params",
+        "~410 GiB -> ~125.73 GiB (IQ2-AH)",
+        "64GB Mac mini",
+        "~47 tok/s Q3_K @32K on M5 Max 128GB",
+        "<=0.4-pt eval gap (Q3_K)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-25T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.modelscope.cn/posts/438895",
+          "outlet": "ModelScope (Tencent AngelSlim post)",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "Hy4 flash极致端侧部署，实现离线Token自由"
+        },
+        {
+          "url": "https://www.ithome.com/1/032/131.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "让大模型跑在个人设备上，腾讯混元开源 Hy4 flash GGUF 量化权重及配套推理代码"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yLDAoCnFL7",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯混元开源 Hy4 flash GGUF量化权重及配套推理代码"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.3,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "All performance figures are Tencent's own claims, taken from search snippets. The ModelScope post's authorship is inferred from snippets. The publication time is estimated.",
+      "score": {
+        "total": 48.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.3,
+          "credibility": 0.835,
+          "breadth": 0.565,
+          "momentum": 0.709
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 1.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 23
+    },
+    {
+      "id": "moonshot-kimi-voyager-international-hiring-20-partners",
+      "title": "Moonshot AI launches 'Kimi Voyager' to hire 20 people to take Kimi's open models into overseas markets",
+      "original_title": "驶向开放世界：Kimi 国际业务招聘启动",
+      "summary": "On Nov 25 Moonshot AI launched Kimi Voyager, an international hiring programme to recruit 20 overseas business partners and build a global ecosystem around its open-source Kimi models. The roles include applied AI architects for enterprise API onboarding, developer relations, global PR, brand marketing, design, 'Country Launcher' roles to open new national markets, and an exploratory 'Wild Card' role. Both experienced-hire and internship positions are open.",
+      "why_it_matters": "Moonshot is staffing up to sell Kimi abroad while US scrutiny of Chinese open-weight models grows, including a House report naming Kimi.",
+      "key_numbers": [
+        "20 international roles"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Moonshot AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.kimi.com/news/voyager-program",
+          "outlet": "Kimi (Moonshot AI)",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "驶向开放世界：Kimi 国际业务招聘启动"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261125/c682193703.shtml",
+          "outlet": "北京商报 via 同花顺",
+          "lang": "zh",
+          "tier": "press",
+          "title": "Kimi启动国际业务招聘"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Details come from search snippets of the official page (updated 2026-11-25) and the Beijing Business Today report. The publication time is estimated.",
+      "score": {
+        "total": 44.7,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.78,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 24
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-30",
+      "title": "Nvidia GTC Washington, D.C. opens (Nov 30-Dec 3); Huang keynote Dec 1, 2 p.m. ET",
+      "kind": "conference",
+      "confidence": "confirmed",
+      "url": "https://www.nvidia.com/gtc/dc/"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Jensen Huang closed-door transcribed interview with three House committees",
+      "kind": "policy",
+      "confidence": "expected",
+      "url": "https://www.thenationalnews.com/future/technology/2026/11/25/jensen-huang-testimony-dates-congress-nvidia/"
+    },
+    {
+      "date": "2026-12-03",
+      "title": "Senate Banking Committee public hearing with Nvidia CEO Jensen Huang",
+      "kind": "policy",
+      "confidence": "confirmed",
+      "url": "https://thehill.com/homenews/senate/6238064-nvidia-ceo-ai-hearing-december/"
+    },
+    {
+      "date": "2026-12-03",
+      "title": "EuroHPC AI Gigafactories call: Lot 2 bid deadline (Lot 1 extended to Feb 4, 2027)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/bc712395-692d-41ab-aa25-8e254ae86eb2-CN"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "Nvidia's 40-day deadline to file its delayed fiscal Q3 10-Q (quarter ended Oct 25)",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-crushes-q3-115-8-141958141.html"
+    },
+    {
+      "date": "2027-01-05",
+      "title": "Comment deadline on USTR's proposed Section 301 overcapacity tariffs (hearings from Jan 25, 2027)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+    },
+    {
+      "date": "2027-02-14",
+      "title": "ISSCC 2027 (Feb 14-18): Samsung and SK hynix to present HBM4E and vertical-gate DRAM papers",
+      "kind": "conference",
+      "confidence": "expected",
+      "url": "https://wisevoter.com/world/2026/11/25/samsung-sk-hynix-hbm4e-dram-issc-2027"
+    },
+    {
+      "date": "2026-12",
+      "title": "Xpeng pushes first Turing AI co-driving feature (VLA adaptive deceleration) by OTA, starting with G9L",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://auto.ifeng.com/c/8yLGpTjFYaP"
+    },
+    {
+      "date": "2027-06",
+      "title": "Xpeng targets global paid smart-driving subscriptions and IRON humanoid release in Q2 2027",
+      "kind": "launch",
+      "confidence": "expected",
+      "url": "https://cnevpost.com/2026/11/25/xpeng-ramps-up-physical-ai-push-2026-ai-day/"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-25T03:41Z), so the rest of the window (Asia close and US Wednesday) was researched with WebSearch. WebFetch was blocked for most news domains, so many facts rest on cross-checked search snippets, as flagged per item. The labs desk was cut short by an automated safeguard partway through its run, so model and product coverage is thinner than usual, and OpenAI's GPT-6 protein-design post (13:00Z Nov 24, outside the window) is not included. Several items first published 0.5-6 h before the window start (HP results, Alfozan bail, Bonsai 2.5, OpenAI's 9/4 preprint, METR, Siren, HFE, Claude install-as-app) are included as they were not covered yesterday; their times are estimated. Dropped: a reported AI-tool link to the CIA/ODNI/NGA system breach (timing and NYT original unverified) and a Google Workspace MCP GA item whose source URL was not captured. Calendar housekeeping: Bessent's 10-day window for Nvidia's board passed on Nov 25 with no public answer reported (single trade source).",
+  "learn": [
+    {
+      "id": "piecewise-trend-breakpoint-fit",
+      "gap": "dl-training",
+      "title": "Fit a hinge regression to find where a training-loss trend breaks",
+      "item_ids": [
+        "metr-openai-pretraining-loss-7x-acceleration"
+      ],
+      "why_today": "METR fitted a two-segment trend to OpenAI's log-perplexity data and reports the decline speeding up from about 0.022 to about 0.156 per year after a February 2026 breakpoint.",
+      "explanation": "A hinge (segmented) regression models y = a + b1 t + b2 max(0, t - tau), so the slope is b1 before tau and b1 + b2 after it, with the curve continuous at tau. For a fixed tau this is ordinary least squares, so you can grid-search tau and keep the fit with the lowest squared error. The catch is that tau is chosen to fit the data: with few points (METR had 13 models), the breakpoint and the post-break slope have wide, non-Gaussian uncertainty, and a smooth acceleration or one outlier near the end can look like a sharp break. Report a bootstrap or profile-likelihood interval for tau and the slope ratio, and compare the fit against a single line and a smooth curve with an information criterion before calling it a regime change. The snippet uses synthetic data, not OpenAI's numbers.",
+      "math": "y_i = a + b_1 t_i + b_2 \\max(0, t_i-\\tau) + \\varepsilon_i,\\quad \\hat\\tau = \\arg\\min_\\tau \\mathrm{SSE}(\\tau)",
+      "python": "# Fit a two-segment (hinge) linear trend to log-loss vs time and find the breakpoint.\n# Synthetic, illustrative data only (not OpenAI's or METR's numbers).\nimport random\nrandom.seed(0)\nt = [2022 + 0.25 * i for i in range(20)]              # years\ntrue_bp, a, s1, s2 = 2026.1, 1.20, -0.02, -0.15\ny = [a + s1 * (x - 2022) + (s2 - s1) * max(0.0, x - true_bp) + random.gauss(0, 0.01) for x in t]\n\ndef ols(X, y):  # tiny normal-equations solver for 3 params\n    n = len(X[0]); A = [[sum(r[i] * r[j] for r in X) for j in range(n)] for i in range(n)]\n    b = [sum(r[i] * yy for r, yy in zip(X, y)) for i in range(n)]\n    for i in range(n):  # Gaussian elimination\n        for k in range(i + 1, n):\n            f = A[k][i] / A[i][i]\n            A[k] = [ak - f * ai for ak, ai in zip(A[k], A[i])]; b[k] -= f * b[i]\n    c = [0.0] * n\n    for i in reversed(range(n)):\n        c[i] = (b[i] - sum(A[i][j] * c[j] for j in range(i + 1, n))) / A[i][i]\n    return c\n\nbest = None\nfor bp in [2023 + 0.05 * k for k in range(70)]:\n    X = [[1.0, x - 2022, max(0.0, x - bp)] for x in t]\n    c = ols(X, y)\n    sse = sum((yy - sum(ci * xi for ci, xi in zip(c, r))) ** 2 for r, yy in zip(X, y))\n    if best is None or sse < best[0]:\n        best = (sse, bp, c)\nsse, bp, c = best\nprint(f\"breakpoint ~ {bp:.2f}; slope before {c[1]:.3f}/yr, after {c[1]+c[2]:.3f}/yr, ratio {(c[1]+c[2])/c[1]:.1f}x\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Interpreting a recent acceleration in pretraining loss (METR, 2026)",
+          "url": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/"
+        }
+      ]
+    },
+    {
+      "id": "ternary-weights-bits-per-weight",
+      "gap": "llm-internals",
+      "title": "Work out the real bits per weight of a ternary model, scales included",
+      "item_ids": [
+        "prismml-ternary-bonsai-2-5-27b"
+      ],
+      "why_today": "PrismML says Ternary Bonsai 2.5 27B averages about 1.76 bits per weight and fits in roughly 5.9 GB.",
+      "explanation": "A ternary weight takes one of {-1, 0, +1}, so its information content is log2 3 ≈ 1.585 bits. Real formats need byte-friendly packing: 5 trits fit in one byte because 3^5 = 243 ≤ 256, which gives 1.6 bits. Each group of weights also needs a higher-precision scale, adding scale_bits/group bits per weight. Layers kept at higher precision, such as embeddings, norms and the output head, push the average up further. That is why reported figures land a little above 1.585. Memory is roughly params × bits / 8 bytes plus the KV cache and activations, so a weight-only number understates what inference needs. The group size and scale format in the snippet are assumptions, not PrismML's spec.",
+      "math": "b_{\\text{eff}} = \\tfrac{8}{5} + \\tfrac{s}{G} \\;\\ge\\; \\log_2 3,\\qquad M \\approx N\\,b_{\\text{eff}}/8",
+      "python": "# Bits per weight of a ternary model, and what fits in memory.\n# Illustrative arithmetic; group size and scale format are assumptions, not PrismML's spec.\nimport math\nparams = 27e9\nideal = math.log2(3)                       # entropy bound for {-1, 0, +1}\npacked = 8 / 5                             # 5 trits per byte: 3^5 = 243 <= 256\ngroup, scale_bits = 128, 16                # one fp16 scale per 128 weights (assumed)\neff = packed + scale_bits / group\nfor name, b in [(\"fp16\", 16), (\"int4\", 4 + 16 / 128), (\"ternary, ideal\", ideal),\n                (\"ternary, 5-per-byte + scales\", eff)]:\n    print(f\"{name:30s} {b:6.3f} bits/w  -> {params * b / 8 / 1e9:6.2f} GB\")\nprint(\"reported: ~1.76 bits/w, ~5.9 GB ->\", round(params * 1.76 / 8 / 1e9, 2), \"GB\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits (Ma et al., 2024)",
+          "url": "https://arxiv.org/abs/2402.17764"
+        }
+      ]
+    },
+    {
+      "id": "all-k-variants-accuracy",
+      "gap": "llm-eval",
+      "title": "Predict 'all k variants correct' accuracy from per-prompt accuracy",
+      "item_ids": [
+        "google-deepmind-humanitys-first-exam-consistency-benchmark"
+      ],
+      "why_today": "Humanity's First Exam counts a family of four near-identical prompts only if all four are right; top models score 96-98% on single prompts but average 85.6% at family level.",
+      "explanation": "If errors were independent with per-prompt accuracy p, a family of k variants would pass with probability p^k, so 0.97^4 ≈ 0.885. Errors are usually correlated within a family: if a model can't do the task, it misses all variants. For a fixed mean p, this concentration raises family accuracy above p^k (by Jensen's inequality on q ↦ q^k), up to p when errors cluster completely. So a family score at or below p^k means the model is failing variants it 'should' get right, which is exactly the inconsistency the metric targets. Repeated runs add sampling noise as another source of variation. The snippet uses illustrative numbers, not HFE data.",
+      "math": "P_{\\text{fam}} = \\mathbb{E}[q^k] \\;\\ge\\; (\\mathbb{E}[q])^k = p^k",
+      "python": "# Family-level ('all k variants right') accuracy vs per-prompt accuracy p.\n# Illustrative numbers only. Families are a mix of easy and hard ones with the same mean accuracy p.\np, k = 0.97, 4\nprint(f\"independent errors: p^k = {p**k:.3f}\")\nfor f_hard in (0.03, 0.06, 0.15, 0.5):           # share of families that are 'hard'\n    q_hard = 0.0 if f_hard <= 1 - p else 1 - (1 - p) / f_hard   # hard-family accuracy\n    q_hard = max(q_hard, 0.0)\n    q_easy = (p - f_hard * q_hard) / (1 - f_hard) if f_hard < 1 else p\n    if q_easy > 1: continue\n    fam = f_hard * q_hard**k + (1 - f_hard) * q_easy**k\n    print(f\"hard share {f_hard:.2f}: q_hard={q_hard:.2f} q_easy={q_easy:.3f} -> family pass {fam:.3f}\")\n# Monte Carlo check of the independent case\nimport random; random.seed(1)\nn = 100_000\nmc = sum(all(random.random() < p for _ in range(k)) for _ in range(n)) / n\nprint(f\"Monte Carlo (independent): {mc:.3f}\")\n",
+      "minutes": 10
+    }
+  ]
+}
