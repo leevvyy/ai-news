@@ -1,0 +1,1290 @@
+{
+  "date": "2026-11-26",
+  "window": {
+    "start": "2026-11-25T21:48:00Z",
+    "end": "2026-11-26T21:48:00Z"
+  },
+  "tldr": [
+    "Nvidia told partners including Dell and Supermicro to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia under the new US licence rules, the FT reports. Separately, S&P put Nvidia's AA rating on CreditWatch negative over governance and key-man risk, with a likely one-notch cut within ~90 days.",
+    "China: Reuters says the US remote-compute rule could push Zhipu's ~3T-parameter GLM-5.5 to Q1 2027 and Moonshot's Kimi K4 to mid-2027, which Zhipu denies. MOFCOM and seven other agencies issued a 15th Five-Year services-trade plan that pushes cloud and large-model services abroad.",
+    "Anthropic says Claude agents wrote over 80% of the code that moved its Messages API from Python to Rust, cutting CPU per request ~70%. Outside the US (closed for Thanksgiving), chip stocks bounced: Taiex +2.5%, Kioxia +12.6% on an Nvidia SSD-memory tie-up."
+  ],
+  "items": [
+    {
+      "id": "nvidia-halts-server-shipments-four-southeast-asian-countries-ft",
+      "title": "Nvidia tells Dell, Supermicro to halt AI server shipments to Malaysia, Singapore, Thailand and Indonesia",
+      "summary": "The Financial Times reported on Nov 26, citing three people familiar with the matter, that Nvidia has told manufacturing partners including Dell and Supermicro to stop shipping servers built with its chips to Malaysia, Singapore, Thailand and Indonesia. The pause follows new US interim rules that require licences for advanced AI chip exports to data centres in those countries and close off remote access by Chinese firms. One person called it a stopgap until the administration defines how future sales can be made; the WSJ framed it as a compliance review of regional partners. No end date was given, and Nvidia declined to comment.",
+      "why_it_matters": "Southeast Asia, Singapore above all, is one of Nvidia's biggest billing regions and a known indirect route for Chinese AI developers. A freeze there hits regional data-centre buildouts and Nvidia revenue directly.",
+      "key_numbers": [
+        "4 countries paused",
+        "US rules effective Nov 19"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Dell",
+        "Supermicro",
+        "Bureau of Industry and Security"
+      ],
+      "tickers": [
+        "NVDA",
+        "DELL",
+        "SMCI"
+      ],
+      "published_at": "2026-11-26T06:00:00Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia hits pause on chip shipments to Southeast Asia"
+        },
+        {
+          "url": "https://www.business-standard.com/world-news/nvidia-halts-shipments-of-ai-servers-to-four-southeast-asian-countries-126112601562_1.html",
+          "outlet": "Business Standard",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia halts shipments of AI servers to four Southeast Asian countries"
+        },
+        {
+          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+          "outlet": "The Decoder",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.8,
+      "novelty": 0.8,
+      "follow_up_of": "bloomberg-chip-curbs-freeze-asia-data-center-loans-digital-halo-gmi",
+      "confidence_note": "The FT original was not opened; facts come from consistent search snippets of TechCrunch, Business Standard, The Decoder, TNW and others citing the FT and WSJ. published_at is an estimate. A secondary report of ~$104bn of 2025 revenue booked via Nvidia's Singapore unit is unverified and omitted.",
+      "score": {
+        "total": 75.8,
+        "components": {
+          "impact": 0.8,
+          "novelty": 0.8,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.689
+        },
+        "coverage": 6,
+        "mentions": 5,
+        "baseline": 3.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "reuters-zhipu-glm-5-5-kimi-k4-delays-chip-curbs-distillation-zhipu-denies",
+      "title": "Reuters: US curbs may push Zhipu's GLM-5.5 to 2027 and Kimi K4 to mid-2027; Zhipu denies a delay",
+      "original_title": "路透：智譜、月之暗面或推遲發布旗艦模型，因美設芯片限制及防蒸餾措施",
+      "summary": "Citing anonymous sources, Reuters reported on Nov 26 that Zhipu (Z.ai) had planned to launch its roughly 3-trillion-parameter GLM-5.5 in November, but the US offshore-compute licensing rule in force since Nov 19 could push it to Q1 2027 or later. Moonshot AI's next flagship, Kimi K4, is now expected around mid-2027, and Moonshot reportedly estimates internally that its 6-month release cycle could stretch to 12 months or more if overseas compute is fully cut off. Sources said tighter anti-distillation defences at OpenAI and Anthropic were also slowing work. Zhipu executive Yang Haoyi called the reports false, and investor-relations remarks relayed in a sell-side note said the December launch stands.",
+      "why_it_matters": "This is the first concrete report that the Nov 19 US remote-compute rule is delaying China's top labs' frontier releases. It also directly contests the GLM-5.5 timeline that drives Zhipu's (2513.HK) valuation.",
+      "key_numbers": [
+        "GLM-5.5 ~3T params",
+        "Possible slip to Q1 2027+",
+        "Kimi K4 ~mid-2027",
+        "Release cycle 6 → 12+ months (Moonshot internal estimate)"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI",
+        "Moonshot AI"
+      ],
+      "tickers": [
+        "2513.HK"
+      ],
+      "published_at": "2026-11-26T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=ETN361126779",
+          "outlet": "etnet",
+          "lang": "zh",
+          "tier": "press",
+          "title": "路透：智譜、月之暗面或推遲發布旗艦模型，因美設芯片限制及防蒸餾措施"
+        },
+        {
+          "url": "https://longbridge.com/zh-HK/news/306900229",
+          "outlet": "Longbridge",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "【AI】路透：智譜、月之暗面或推遲發布旗艦模型，因美設芯片限制及防蒸餾措施"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/11/26/126847859.html",
+          "outlet": "Wenxuecity",
+          "lang": "zh",
+          "tier": "press",
+          "title": "美芯片、算力限制及防范蒸馏使中国AI发展放缓"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1168/1168924.htm",
+          "outlet": "MyDrivers",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "智谱GLM-5.5延期是老外造谣：性能Fable级、上万张国产AI卡进展顺利"
+        },
+        {
+          "url": "https://finance.sina.cn/tech/2026-11-26/detail-inkaapny8176881.d.html",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "智谱GLM-5.5延期是老外造谣：性能Fable级、上万张国产AI卡进展顺利"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.7,
+      "novelty": 0.6,
+      "follow_up_of": "zhipu-glm-5-4-reportedly-next-week-glm-5-5-december",
+      "confidence_note": "published_at is an estimate. The Reuters original was not reachable; details come from Chinese and HK re-reports. Neither company responded to Reuters. Zhipu's denial is second-hand: an executive's WeChat Moments post reported by MyDrivers, plus an IR clarification relayed in a sell-side (国联民生) note, which also claims 'Fable-level' performance and smooth Ascend 950DT 10,000-card cluster training.",
+      "score": {
+        "total": 71.7,
+        "components": {
+          "impact": 0.7,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.811,
+          "momentum": 0.632
+        },
+        "coverage": 10,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "sp-places-nvidia-aa-rating-creditwatch-negative-governance",
+      "title": "S&P puts Nvidia's AA rating on CreditWatch negative over governance and key-man risk",
+      "summary": "On Nov 25, S&P Global Ratings placed Nvidia's AA issuer and senior unsecured ratings on CreditWatch with negative implications, flagging a possible downgrade, most likely one notch, within about 90 days. It cited weak board structure and oversight, long-tenured directors, no succession plan, and key-person risk around Jensen Huang after his resignation and reinstatement. S&P lowered its management and governance assessment to neutral from positive. It said any export-control violations or understated China disclosures would be credit negative.",
+      "why_it_matters": "This is the first agency to threaten an actual rating cut over the Huang affair, going beyond Moody's earlier outlook change, and it adds to rising credit-risk gauges across AI-heavy issuers.",
+      "key_numbers": [
+        "AA on CreditWatch negative",
+        "~90-day resolution",
+        "Likely 1-notch cut"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "S&P Global Ratings",
+        "Jensen Huang"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-25T19:26:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-puts-nvidia-creditwatch-over-192625970.html",
+          "outlet": "Investing.com via Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "S&P puts NVIDIA on CreditWatch over governance concerns"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "S&P considers Nvidia credit downgrade over governance and 'key man' risks"
+        },
+        {
+          "url": "https://www.ibtimes.com/nvidia-credit-downgrade-governance-concerns-3810220",
+          "outlet": "IBTimes",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Makes A Record $115.8 Billion In Revenue. Now S&P Warns Its Credit Rating Could Be Cut In 90 Days."
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.7,
+      "follow_up_of": "moodys-cuts-nvidia-outlook-stable-huang-exit",
+      "confidence_note": "S&P's own release was not opened; details agree across Investing.com/Yahoo, TechCrunch, IBTimes and FinanceFeeds snippets. published_at is estimated from the Yahoo URL stamp (about 2.4h before the window, within the allowance).",
+      "score": {
+        "total": 67.0,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.7,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.689
+        },
+        "coverage": 5,
+        "mentions": 5,
+        "baseline": 3.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "mofcom-eight-depts-services-trade-15th-fyp-ai-services-export",
+      "title": "China's commerce ministry and seven other agencies issue services-trade plan that pushes cloud and AI model services abroad",
+      "original_title": "八部门：稳妥有序推动云计算、大模型等人工智能相关服务出海 培育人工智能领域服务贸易新业态",
+      "summary": "MOFCOM and seven other departments published the Services Trade Development Plan for the 15th Five-Year Plan period (《服务贸易发展“十五五”规划》) on Nov 26. It calls for taking cloud computing, large models and other AI services overseas 'steadily and in an orderly way', and for growing new kinds of AI services trade. AI firms are encouraged to team up with hardware makers, compute providers and IT-infrastructure operators on integrated 'technology + product + service' packages for foreign markets, as long as they guard against technology leakage. The plan also backs localised products, joint operations with local partners, and AI deployment with Belt and Road countries in agriculture, healthcare, education, finance, culture and tourism.",
+      "why_it_matters": "This is the first five-year-level central plan to name exporting AI models and cloud services as a services-trade growth area. It comes as US remote-compute rules squeeze Chinese labs abroad, and its 'prevent technology outflow' caveat signals that export-control thinking now applies to model services as well.",
+      "key_numbers": [
+        "8 departments",
+        "Goals for 2030 and 2035"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Ministry of Commerce of China"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-26T01:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n11y26r/index.html",
+          "outlet": "Ministry of Commerce (MOFCOM)",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "商务部召开例行新闻发布会（2026年11月26日）"
+        },
+        {
+          "url": "http://www.news.cn/fortune/20261126/87e46d915f0848d2bea407b20aeefb65/c.html",
+          "outlet": "Xinhua",
+          "lang": "zh",
+          "tier": "press",
+          "title": "《服务贸易发展“十五五”规划》印发"
+        },
+        {
+          "url": "https://www.yicai.com/news/103454912.html",
+          "outlet": "Yicai",
+          "lang": "zh",
+          "tier": "press",
+          "title": "商务部等8部门：稳妥有序推动云计算、大模型等人工智能相关服务出海"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261126/herald/cee2856cbd5ec60bff2e287e4ac20fb7.html",
+          "outlet": "21st Century Business Herald",
+          "lang": "zh",
+          "tier": "press",
+          "title": "八部门发文：云计算、大模型等AI服务将稳妥有序出海"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8yMWiFQZXJm",
+          "outlet": "ifeng",
+          "lang": "zh",
+          "tier": "press",
+          "title": "八部门：稳妥有序推动云计算、大模型等人工智能相关服务出海 培育人工智能领域服务贸易新业态"
+        }
+      ],
+      "coverage": 9,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "published_at is an estimate; the first wire seen was at 02:07Z. The full plan text was not opened. The AI wording comes from agreeing search snippets of Yicai, 21jingji, Sohu and ifeng. Xinhua confirms the eight-department plan and the Nov 26 release; the 2030/2035 goals come from a Xinhua snippet. The MOFCOM press-conference page was seen only as a search result.",
+      "score": {
+        "total": 65.1,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.879,
+          "breadth": 0.777,
+          "momentum": 0.632
+        },
+        "coverage": 9,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "anthropic-messages-api-rust-migration-claude-agents",
+      "title": "Anthropic moves its Messages API from Python to Rust with Claude agents, cutting CPU per request ~70%",
+      "summary": "In an engineering post on Nov 25, Anthropic described rewriting its core Messages API, built in Python in 2023, in Rust. Claude wrote the first Rust version of the core request path in about a week, and by May 2026 it was writing more than 80% of merged code. Parity was checked by shadowing production traffic: the model was called once and its output replayed into the Rust path, so customers were billed once, and mismatches were reduced to text-free 'fingerprints' that a coordinating agent triaged. Anthropic reports CPU per request down about 70%, memory per request down more than 80%, and median time to first token down about 20%.",
+      "why_it_matters": "A detailed first-party case study of agents doing a large production migration, including how parity was verified on live traffic without reading user data.",
+      "key_numbers": [
+        "~70% less CPU per request",
+        ">80% less memory per request",
+        "~20% lower median TTFT",
+        "Claude wrote >80% of merged code by May 2026",
+        "~1,800x traffic growth since early 2024"
+      ],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-25T17:15:45Z",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "outlet": "Anthropic",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Migrating our Messages API to Rust"
+        },
+        {
+          "url": "https://finance.biggo.com/news/f208d2d2-d751-4b23-9365-df00ba562057",
+          "outlet": "BigGo Finance",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Rebuilds Core API: Claude Writes 80% of the Code, CPU Consumption Drops 70%"
+        },
+        {
+          "url": "https://www.theneuron.ai/news/anthropic-claude-api-rust-migration/",
+          "outlet": "The Neuron",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Uses Claude to Rebuild Its API in Rust"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.55,
+      "novelty": 0.7,
+      "follow_up_of": null,
+      "confidence_note": "The primary post was fetched and read; the numbers come from it. Timestamp from the harvest feed (~4.5h before the window, within the allowance).",
+      "score": {
+        "total": 60.6,
+        "components": {
+          "impact": 0.55,
+          "novelty": 0.7,
+          "credibility": 0.775,
+          "breadth": 0.393,
+          "momentum": 0.599
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "minimax-ceo-yan-accelerate-huawei-alibaba-chips-reduce-nvidia",
+      "title": "MiniMax CEO told staff it will speed up adoption of Huawei and Alibaba AI chips to cut Nvidia reliance, per The Information",
+      "original_title": "MiniMax创始人：加快采用华为和阿里AI芯片，减少对英伟达依赖",
+      "summary": "The Information, citing an employee at the meeting, reported that MiniMax founder and CEO Yan Junjie told a Nov 20 all-hands that the company will accelerate adoption of Huawei and Alibaba AI chips to reduce its dependence on Nvidia. He was answering questions about the US rule restricting remote use of advanced chips, which took effect the day before. Two people familiar said most of MiniMax's Nvidia clusters are in China, but it also uses thousands of Nvidia Blackwell chips remotely via cloud. Chinese outlets carried the report widely on Nov 26.",
+      "why_it_matters": "A listed Chinese frontier lab is committing to domestic accelerators as a direct response to the US offshore-compute rule. That adds demand signals for Huawei Ascend and Alibaba's in-house chips.",
+      "key_numbers": [
+        "All-hands held Nov 20",
+        "'Thousands' of remotely accessed Nvidia Blackwell chips"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "Huawei",
+        "Alibaba",
+        "Nvidia"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-11-25T23:00:00Z",
+      "sources": [
+        {
+          "url": "http://news.10jqka.com.cn/20261126/c682266473.shtml",
+          "outlet": "10jqka",
+          "lang": "zh",
+          "tier": "press",
+          "title": "MiniMax创始人：加快采用华为和阿里AI芯片，减少对英伟达依赖"
+        },
+        {
+          "url": "https://longbridge.com/en/news/306922454",
+          "outlet": "Longbridge",
+          "lang": "en",
+          "tier": "trade",
+          "title": "MiniMax Founder: Accelerate Adoption of Huawei and Alibaba AI Chips to Reduce Reliance on NVIDIA"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yMUn15Pycw",
+          "outlet": "ifeng Tech",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国产GPU崛起！MiniMax宣布加快适配昇腾、平头哥，降低对英伟达依赖"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LCLEI4970511CPVM.html",
+          "outlet": "NetEase",
+          "lang": "zh",
+          "tier": "press",
+          "title": "国产GPU崛起！MiniMax宣布加快适配昇腾、平头哥 降低对英伟达依赖"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "published_at is an estimate (The Information's story is dated Nov 25 US time). It rests on one attendee's account to The Information; the paywalled original was not seen and there is no official MiniMax statement. Mapping the chips to Ascend and T-Head is the Chinese outlets' gloss.",
+      "score": {
+        "total": 59.5,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 1.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "bank-of-korea-hikes-to-3-25pct-chip-export-boom-2027-growth-4-1pct",
+      "title": "Bank of Korea hikes to 3.25% and lifts 2027 growth forecast to 4.1% on the AI memory export boom",
+      "summary": "On Nov 26, the Bank of Korea raised its base rate 25bp to 3.25%, its third hike this year. It raised its 2026 GDP forecast to 3.9% from 3.3% and its 2027 forecast to 4.1% from 2.9%, citing a semiconductor cycle it expects to continue into next year, plus sticky inflation. Korea's exports passed $1 trillion for the year by Nov 19, with chips roughly half.",
+      "why_it_matters": "A major central bank is tightening on the strength of AI-memory demand even as markets price an AI slowdown, which signals that official forecasters see the HBM cycle holding up.",
+      "key_numbers": [
+        "Base rate 3.25% (+25bp)",
+        "2027 GDP forecast 4.1% (from 2.9%)",
+        "2026 forecast 3.9% (from 3.3%)",
+        "Exports >$1tn YTD"
+      ],
+      "topic": "business",
+      "region": "other",
+      "entities": [
+        "Bank of Korea"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-26T01:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast",
+          "outlet": "Al Jazeera",
+          "lang": "en",
+          "tier": "press",
+          "title": "South Korea's central bank hikes interest rates amid AI chip boom"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/business/bok-lifts-rate-to-325-as-it-sharply-upgrades-growth-forecasts-through-next-year/12991322",
+          "outlet": "Korea JoongAng Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "Bank of Korea raises interest rate to 3.25% and boosts growth forecasts"
+        },
+        {
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008864699",
+          "outlet": "SBS",
+          "lang": "en",
+          "tier": "press",
+          "title": "BOK Raises Base Rate to 3.25% Amid Semiconductor Boom and Inflation Pressures"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "published_at is an estimate (decision around 10:00 KST). The BOK release itself was not seen. Sources differ on the vote split.",
+      "score": {
+        "total": 57.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "kioxia-nvidia-ssd-gpu-memory-petabyte-poc-shares-jump",
+      "title": "Kioxia and Nvidia show SSDs stretching a GB200 NVL72 rack's memory to ~1.1 PB; Kioxia shares jump 12.6%",
+      "summary": "On Nov 26, Kioxia and Nvidia announced a proof of concept that uses Nvidia's SCADA software and 144 Kioxia XD8 7.68 TB SSDs in a GB200 NVL72 rack (about 1.1 PB raw) to extend effective GPU high-bandwidth memory capacity. They said it could potentially support 2 trillion 512-byte vectors, but published no benchmarks. Kioxia also said it will receive a ¥2.2 trillion dividend from its operating subsidiary, which fuelled buyback bets. Its stock rose as much as 14.5% and closed up 12.57% at ¥7,762.",
+      "why_it_matters": "This pitches flash as a cheaper extension of scarce HBM for inference and vector workloads, which could widen NAND's role in AI racks.",
+      "key_numbers": [
+        "144 SSDs, ~1.1 PB",
+        "2 trillion vectors (potential)",
+        "Kioxia +12.57% to ¥7,762",
+        "¥2.2 trillion subsidiary dividend"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "Kioxia",
+        "Nvidia"
+      ],
+      "tickers": [
+        "285A.T"
+      ],
+      "published_at": "2026-11-26T00:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.kioxia.com/en-jp/business/news/2026/20261126-1.html",
+          "outlet": "Kioxia",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs"
+        },
+        {
+          "url": "https://uk.investing.com/news/stock-market-news/kioxia-jumps-14-after-nvidia-collaboration-as-chip-stocks-rebound-5005286",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "press",
+          "title": "Kioxia jumps 14% after Nvidia collaboration as chip stocks rebound"
+        },
+        {
+          "url": "https://www.tweaktown.com/news/114898/nvidia-and-kioxia-combine-high-bandwidth-memory-with-fast-ssds-to-push-memory-capacity-beyond-1-petabyte/index.html",
+          "outlet": "TweakTown",
+          "lang": "en",
+          "tier": "trade",
+          "title": "NVIDIA and KIOXIA combine high-bandwidth memory with fast SSDs to push memory capacity beyond 1 Petabyte"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The primary release was seen only via search snippet. published_at is an estimate (dated Nov 26 JST). The ¥2.2tn dividend comes from Investing.com snippets. The 12.57% close comes from one market wrap; intraday highs vary (14.2–14.5%).",
+      "score": {
+        "total": 56.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.835,
+          "breadth": 0.565,
+          "momentum": 0.541
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "nvidia-gpu-resellers-shop-b300s-after-china-remote-access-rule-cnbc",
+      "title": "Nvidia GPU holders market thousands of B300s as US remote-access rule cuts off Chinese renters, CNBC says",
+      "summary": "Three people told CNBC that sellers are marketing an unusually large volume of Nvidia GPUs, including thousands of B300s, after BIS's interim final rule (effective Nov 19) restricted overseas data-centre arrangements that give China-linked customers remote access. Reseller GPU Mart said one seller tied its sale directly to the new rule. Nvidia declined to comment, and BIS did not respond.",
+      "why_it_matters": "This is early evidence that the remote-access curbs are stranding GPU capacity that served Chinese demand. Secondary-market supply could pressure GPU rental prices and neocloud economics.",
+      "key_numbers": [
+        "Thousands of B300s for sale",
+        "Rule effective Nov 19"
+      ],
+      "topic": "policy",
+      "region": "global",
+      "entities": [
+        "Nvidia",
+        "Bureau of Industry and Security",
+        "GPU Mart"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T17:28:24Z",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC"
+        },
+        {
+          "url": "https://www.breitbart.com/tech/2026/11/26/nvidia-chip-sellers-scramble-to-find-customers-after-government-tightens-china-remote-access-rules/",
+          "outlet": "Breitbart",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Chip Sellers Scramble to Find Customers After Government Tightens China Remote Access Rules"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The CNBC page was only partly visible in search; other details come from outlets citing it. Secondary write-ups say buyers are asked to certify that no more than half the compute is rented to China customers; not seen in CNBC directly, so omitted. Published ~4.3h before the window, within the allowance. No ticker: Nvidia is not a party to the resales.",
+      "score": {
+        "total": 56.2,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.689
+        },
+        "coverage": 3,
+        "mentions": 5,
+        "baseline": 3.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "coreweave-4-5b-meta-backed-gpu-loan-morgan-stanley-mufg",
+      "title": "CoreWeave's banks ready $4.5B Meta-backed GPU loan at ~7% while its own bonds yield ~18%",
+      "summary": "Bloomberg reported that Morgan Stanley and MUFG are preparing to sell a $4.5 billion delayed-draw term loan for CoreWeave, backed by GPUs for its Meta contract, as soon as next week. The proceeds would sit in escrow and be drawn to pay for chips at a Dalton, Georgia data centre. Price talk is about 7–7.5%, and the loan is expected to get investment-grade ratings on the strength of Meta. CoreWeave's own 9% 2031 unsecured bonds have fallen to record lows, yielding about 18%.",
+      "why_it_matters": "The roughly 11-point gap between contract-backed and unsecured CoreWeave debt shows how far credit markets have repriced neocloud risk in the AI sell-off, with Meta's credit doing the work.",
+      "key_numbers": [
+        "$4.5B loan",
+        "~7–7.5% price talk",
+        "~18% yield on CoreWeave 2031 bonds"
+      ],
+      "topic": "compute",
+      "region": "us",
+      "entities": [
+        "CoreWeave",
+        "Meta",
+        "Morgan Stanley",
+        "MUFG"
+      ],
+      "tickers": [
+        "CRWV"
+      ],
+      "published_at": "2026-11-25T21:02:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-bankers-reportedly-ready-4-210216828.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "CoreWeave's Bankers Reportedly Ready $4.5B GPU-Backed Loan Tied To Meta Deal"
+        },
+        {
+          "url": "https://qz.com/coreweave-banks-meta-backed-loan-sale-112526",
+          "outlet": "Quartz",
+          "lang": "en",
+          "tier": "press",
+          "title": "CoreWeave's banks are preparing to sell a $4.5 billion Meta-backed loan"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.5,
+      "novelty": 0.6,
+      "follow_up_of": "coreweave-dips-below-40-ipo-price-debt-worries",
+      "confidence_note": "The Bloomberg original was not opened; details come from Yahoo/Quartz/crypto.news snippets citing Bloomberg. published_at is estimated from the Yahoo URL stamp. Snippets differ on the bond yield (17% vs 18%).",
+      "score": {
+        "total": 55.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.6,
+          "credibility": 0.698,
+          "breadth": 0.487,
+          "momentum": 0.503
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "china-ai-stocks-nov26-zhipu-minimax-rebound-8pct-star50-smic-fall",
+      "title": "China AI stocks Nov 26: Zhipu and MiniMax rebound ~8% in Hong Kong; STAR 50 falls 1.36% as SMIC drops 4.5%",
+      "original_title": "港股收盘：恒生指数涨1.19%，恒生科技指数涨1.16%",
+      "summary": "Hong Kong-listed LLM stocks recovered part of the previous day's rout. Zhipu rose more than 10% intraday and closed up about 8%, and MiniMax closed up about 7.5–8% after touching HK$100. The Hang Seng Index rose 1.19% and the Hang Seng Tech Index 1.16%. Mainland chip stocks weakened: the STAR 50 fell 1.36% and SMIC's A-shares fell 4.51%, while ChiNext rose 0.29%.",
+      "why_it_matters": "The model makers bounced on the same day Reuters reported that US curbs are delaying GLM-5.5, while domestic chip stocks fell, showing how unsettled positioning around China AI is.",
+      "key_numbers": [
+        "Zhipu ~+8%",
+        "MiniMax ~+7.5–8%",
+        "HSTECH +1.16%",
+        "STAR 50 −1.36%",
+        "SMIC (A) −4.51%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI",
+        "MiniMax",
+        "SMIC"
+      ],
+      "tickers": [
+        "2513.HK",
+        "0100.HK",
+        "688981.SS"
+      ],
+      "published_at": "2026-11-26T08:10:00Z",
+      "sources": [
+        {
+          "url": "https://k.sina.cn/article_5953190046_162d6789e06703yb3b.html",
+          "outlet": "Sina Finance",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收盘：恒生指数涨1.19%，恒生科技指数涨1.16%"
+        },
+        {
+          "url": "https://www.kucoin.com/news/flash/hong-kong-stocks-close-higher-large-model-concept-stocks-rise-sharply",
+          "outlet": "KuCoin News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Hong Kong stocks closed higher, with large model concept stocks rising sharply."
+        },
+        {
+          "url": "https://m.21jingji.com/article/20261126/herald/496dcf8fa76f10c3591a5385179784d9.html",
+          "outlet": "21st Century Business Herald",
+          "lang": "zh",
+          "tier": "press",
+          "title": "A股收评：创业板指上涨0.29%，贵金属板块涨幅居前，70股涨停"
+        },
+        {
+          "url": "https://www.sohu.com/a/1106771945_114984",
+          "outlet": "Sohu (China Securities)",
+          "lang": "zh",
+          "tier": "press",
+          "title": "11月26日A股宽基指数多数下跌（3涨6跌），创业板指领涨（+0.29%），科创50领跌（-1.36%）"
+        },
+        {
+          "url": "https://www.scmp.com/business/china-business/article/3375856/chinese-ai-trade-turns-cautious-after-wall-street-volatility-anthropics-rocky-debut",
+          "outlet": "SCMP",
+          "lang": "en",
+          "tier": "press",
+          "title": "Chinese AI trade turns cautious after Wall Street volatility, Anthropic's rocky debut"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "china-ai-stocks-nov25-zhipu-minimax-plunge-star50-down-5pct",
+      "confidence_note": "published_at is the estimated HK close. Closing percentages differ by source: Zhipu +8.12% (HK$293) versus +8.71%, MiniMax +7.49% (HK$93.95) versus +8.01%. The SMIC −4.51% figure is from a 智通财经 snippet.",
+      "score": {
+        "total": 54.0,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.632
+        },
+        "coverage": 8,
+        "mentions": 2,
+        "baseline": 1.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "amodei-rejects-surrender-human-free-will-axios-absurd",
+      "title": "Amodei calls claims he would 'surrender human free will' to AI 'absurd', responding to an Axios report",
+      "summary": "Anthropic CEO Dario Amodei said on X on Nov 25 that he does not believe humans should 'surrender human free will' to AI and that suggesting he does is 'absurd', pointing to his essays' repeated call for AI to be governed by legitimate democratic processes. He was responding to an Axios report, citing unnamed sources, that Anthropic leaders consider it irrational not to delegate to AI the tasks it does better than people. He separated AI doing specific jobs from handing over governance, said 'we may want limits' on recursive self-improvement, and accused some rival CEOs of repeating slogans about human control without changing their products.",
+      "why_it_matters": "The newly listed company's CEO is publicly defending its stance on AI autonomy as rival labs push back on the same question.",
+      "key_numbers": [],
+      "topic": "policy",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "Axios"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T19:44:24Z",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "outlet": "TechCrunch",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's Dario Amodei calls accusations of surrendering human control to AI 'absurd'"
+        },
+        {
+          "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+          "outlet": "X (Dario Amodei)",
+          "lang": "en",
+          "tier": "primary",
+          "title": "No, I do not believe that we should \"surrender human free will\" to AI systems..."
+        },
+        {
+          "url": "https://www.analyticsinsight.net/news/anthropic-ceo-dario-amodei-rejects-claims-of-surrendering-human-control",
+          "outlet": "Analytics Insight",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic CEO Dario Amodei Rejects Claims of Surrendering Human Control"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Quotes come from search snippets of the X post and TechCrunch; neither page was fetched. Timestamp is TechCrunch's from the harvest; the X post may be slightly earlier.",
+      "score": {
+        "total": 53.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.4,
+          "credibility": 0.835,
+          "breadth": 0.565,
+          "momentum": 0.599
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "elevenlabs-early-talks-33b-valuation-700m-arr-bloomberg",
+      "title": "ElevenLabs in early talks to raise at a $33B valuation as ARR nears $700M, Bloomberg says",
+      "summary": "Bloomberg reported that voice-AI company ElevenLabs is in early talks to raise new funding at about a $33 billion valuation, 50% above the $22 billion set by a September employee tender. One source said annual recurring revenue has reached about $700 million, up from about $600 million in September. The round is planned for Q1 2027, though some investors want to start sooner; size and investors are undisclosed. ElevenLabs declined to comment.",
+      "why_it_matters": "Private AI valuations keep rising during the public-market AI rout, testing whether the private-public valuation gap holds.",
+      "key_numbers": [
+        "$33B target valuation",
+        "$22B in Sept tender",
+        "~$700M ARR"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "ElevenLabs"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
+          "outlet": "SiliconANGLE",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation"
+        },
+        {
+          "url": "https://thenextweb.com/news/elevenlabs-33bn-valuation-funding-talks-2027",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "ElevenLabs is in early talks to raise at a $33B valuation, Bloomberg says"
+        },
+        {
+          "url": "https://www.musicbusinessworldwide.com/elevenlabs-in-early-talks-to-raise-at-33b-valuation-more-than-six-times-that-of-ai-music-rival-suno-report/",
+          "outlet": "Music Business Worldwide",
+          "lang": "en",
+          "tier": "trade",
+          "title": "ElevenLabs in early talks to raise at $33B valuation"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "The Bloomberg original was not seen. published_at is an estimate (SiliconANGLE dated Nov 25; exact hour unknown). The ARR figure rests on one unnamed source.",
+      "score": {
+        "total": 52.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "openai-private-inference-alpha-select-api-customers",
+      "title": "OpenAI starts alpha of Private Inference, a confidential-computing API that shields prompts while models run",
+      "summary": "OpenAI has started a limited alpha of Private Inference for selected API customers, according to reports dated Nov 25-26 that say Sam Altman announced the trial on X on Nov 25. It uses confidential computing and 'strict verifiable controls' to protect business prompts and responses while the model runs. It is the second part of OpenAI's 'Private Intelligence' package, after Private Safety Processing. OpenAI says it is lining up more compute for a much larger rollout but has given no date, price, model list or hardware details.",
+      "why_it_matters": "Confidential inference from a frontier lab answers one of enterprises' main objections to sending sensitive data to hosted models, and competes with privacy-focused inference providers.",
+      "key_numbers": [],
+      "topic": "products",
+      "region": "us",
+      "entities": [
+        "OpenAI",
+        "Sam Altman"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T22:00:00Z",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/openai-private-inference-testing-customers",
+          "outlet": "The Next Web",
+          "lang": "en",
+          "tier": "press",
+          "title": "OpenAI is testing a way to shield business prompts while its models run"
+        },
+        {
+          "url": "https://mlq.ai/news/openai-starts-testing-private-inference-to-keep-enterprise-data-unseen/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI starts testing Private Inference to keep enterprise data unseen"
+        },
+        {
+          "url": "https://news.sulat.com/2026/11/26/openai-private-inference/",
+          "outlet": "Sulat AI & Tech News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "OpenAI tests Private Inference, a sealed prompt while the model runs"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "published_at is an estimate: reports say Altman posted on Nov 25, exact time unconfirmed. All details are from search snippets; openai.com and the X post could not be fetched. VentureBeat says Private Inference was first previewed at DevDay 2026; the new element is the alpha with select customers.",
+      "score": {
+        "total": 52.6,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.283
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 2.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "global-chip-stocks-rebound-nov26-taiex-2-5pct-kospi-bok-hike",
+      "title": "Chip stocks rebound outside the US on Thanksgiving: Taiex +2.5%, SoftBank +7%; KOSPI gains fade",
+      "summary": "With US markets shut on Nov 26, Asian and European chip stocks partly recovered from Wednesday's rout. Taiwan's Taiex rose 2.50% to 39,151.81, though TSMC slipped 0.23% to NT$2,145. SoftBank Group rose 7.32% after gaining as much as 11.3%. In Seoul, the KOSPI touched about 4,818 but closed only 0.29% higher at 4,711.21 after a Bank of Korea rate hike, with SK hynix up 2.23% and Samsung Electronics up 0.35%. In Europe, ASML rose about 3.2%.",
+      "why_it_matters": "The bounce came without US price discovery and Korea gave back most of its gains, so it is a weak signal that the AI-chip sell-off has bottomed.",
+      "key_numbers": [
+        "Taiex +2.50% to 39,151.81",
+        "TSMC −0.23%",
+        "SoftBank +7.32%",
+        "KOSPI +0.29% to 4,711.21",
+        "SK hynix +2.23%"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "SK hynix",
+        "Samsung Electronics",
+        "TSMC",
+        "SoftBank Group",
+        "ASML"
+      ],
+      "tickers": [
+        "000660.KS",
+        "005930.KS",
+        "2330.TW",
+        "9984.T"
+      ],
+      "published_at": "2026-11-26T08:00:00Z",
+      "sources": [
+        {
+          "url": "https://en.sedaily.com/market/2026/11/26/kospi-gives-up-most-gains-closes-up-029-percent-at-471121",
+          "outlet": "Seoul Economic Daily",
+          "lang": "en",
+          "tier": "press",
+          "title": "KOSPI Gives Up Most Gains, Closes Up 0.29% at 4711.21"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10950746",
+          "outlet": "Korea Herald (Yonhap)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Seoul shares slightly rebound amid AI uncertainties"
+        },
+        {
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/taiwan-weighted-closes-2-50-prozent-higher-above-39-000/70557969",
+          "outlet": "ad-hoc-news",
+          "lang": "en",
+          "tier": "press",
+          "title": "Taiwan Weighted Closes 2.50% Higher Above 39,000"
+        },
+        {
+          "url": "https://www.bnnbloomberg.ca/markets/2026/11/26/world-shares-push-higher-while-markets-in-us-will-be-closed-for-thanksgiving/",
+          "outlet": "BNN Bloomberg (AP)",
+          "lang": "en",
+          "tier": "press",
+          "title": "World shares push higher, while markets in U.S. will be closed for Thanksgiving"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "kospi-plunges-6-16pct-nov25-sk-hynix-11pct-samsung-10pct",
+      "confidence_note": "Closing figures are cross-checked across Seoul Economic Daily, Yonhap/Korea Herald, AP and Taiwan wrap snippets; no page was opened. SoftBank's +7.32% close and ASML's ~+3.2% each come from a single report. published_at is an estimate.",
+      "score": {
+        "total": 51.9,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.736,
+          "momentum": 0.416
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "google-research-fuse-verifiable-social-reasoning-hidden-motives",
+      "title": "Google Research's Fuse simulation tests whether assistants can infer hidden motives; 12 LLMs struggle",
+      "summary": "A Google Research blog post on Nov 25 presented 'Verifiable Social Reasoning for LLM Assistants' (arXiv 2609.17496). The paper introduces Fuse, a multi-agent simulation in which a target agent's hidden motive is fixed in advance, so an assistant's later answer about that motive can be checked. Across 12 LLMs, reasoning through a user made the task harder, models were swayed by biased user framing, and longer conversations did not reliably help. Faithfulness was validated with 24k human annotations, and a 21k-example dataset is released.",
+      "why_it_matters": "Technical takeaway: fixing the hidden motive at generation time turns hard-to-grade social reasoning into a checkable benchmark, and it shows user framing is a major failure mode for assistants.",
+      "key_numbers": [
+        "12 LLMs evaluated",
+        "24k human annotations",
+        "21k-example dataset"
+      ],
+      "topic": "research",
+      "region": "us",
+      "entities": [
+        "Google Research"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-25T17:10:27Z",
+      "sources": [
+        {
+          "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+          "outlet": "Google Research Blog",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Verifiable Social Reasoning for LLM Assistants"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.17496",
+          "outlet": "arXiv",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Verifiable Social Reasoning for LLM Assistants"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Blog URL and time come from the harvest; the pages could not be fetched, so findings and numbers come from search snippets of the arXiv listing and summaries. The paper dates from September 2026; the blog post is new.",
+      "score": {
+        "total": 47.9,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.84,
+          "breadth": 0.283,
+          "momentum": 0.632
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "hedgeye-analysts-split-anthropic-stock-short-59-target",
+      "title": "Hedgeye analysts split on Anthropic stock: one says short with a $59 target, a colleague says buy",
+      "summary": "Bloomberg reported a rare public split inside Hedgeye Risk Management over newly listed Anthropic (ANT). Global tech analyst Felix Wang told clients to short with a $59 target, 28% below the prior close, and forecast $120B of 2027 revenue against roughly $136B consensus. Software analyst Andrew Freedman argues the stock is attractive for long-term investors. Fifteen of the 17 analysts Bloomberg tracks rate ANT a buy.",
+      "why_it_matters": "With the stock below its $83 IPO price, the split shows how wide views on Anthropic's revenue path are before underwriter research starts around Nov 30.",
+      "key_numbers": [
+        "Short target $59 (−28%)",
+        "$120B vs ~$136B 2027 revenue",
+        "15 of 17 analysts Buy"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic",
+        "Hedgeye Risk Management"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-25T21:35:47Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/anthropic-s-stock-sparks-rare-divide-inside-one-wall-street-firm",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic's Stock Sparks Rare Divide Inside One Wall Street Firm"
+        },
+        {
+          "url": "https://invezz.com/za/news/2026/11/26/buy-or-short-anthropic-analysts-within-same-wall-street-firm-cant-decide/",
+          "outlet": "Invezz",
+          "lang": "en",
+          "tier": "press",
+          "title": "Buy or short Anthropic? Analysts within same Wall Street firm can't decide"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.2,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The Bloomberg page was not opened; details come from snippets (Bloomberg, OnInvest, Invezz, Longbridge). Spelling of Freedman's name varies across outlets.",
+      "score": {
+        "total": 40.8,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.4,
+          "credibility": 0.698,
+          "breadth": 0.393,
+          "momentum": 0.599
+        },
+        "coverage": 3,
+        "mentions": 3,
+        "baseline": 2.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "tencent-reportedly-mandates-hunyuan-hy4-internally-external-model-quota-10pct",
+      "title": "Tencent reportedly to push Hunyuan Hy4 company-wide, cutting non-technical staff's external-model quota to 10%",
+      "original_title": "腾讯被曝全公司推混元 HY4 模型，12 月起非技术岗外部模型额度降至 10%",
+      "summary": "IT之家 relayed a leak from the account '大厂日爆' saying Tencent will roll out its Hunyuan Hy4 model widely inside the company from Dec 1. Under the plan, non-technical roles' quota for external models drops to 10%, and from 2027 all employees default to Hy4. Tencent has not confirmed it.",
+      "why_it_matters": "If accurate, Tencent is forcing internal use of its newly open-weighted Hy4, cutting reliance on third-party models in its own workflows.",
+      "key_numbers": [
+        "Dec 1 rollout",
+        "External-model quota 10% (non-technical roles)",
+        "Hy4 default for all staff from 2027"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-26T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/032/781.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯被曝全公司推混元 HY4 模型，12 月起非技术岗外部模型额度降至 10%"
+        },
+        {
+          "url": "https://www.spke.com/zh/ai/article/10570",
+          "outlet": "WISE AI",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯被曝全公司推混元 HY4 模型，12 月起非技术岗外部模型额度降至 10%"
+        }
+      ],
+      "coverage": 2,
+      "impact": 0.25,
+      "novelty": 0.4,
+      "follow_up_of": "tencent-hy4-770b-open-weights-hunyuan-llm-fully-open",
+      "confidence_note": "Unconfirmed social-media leak relayed by IT之家, with no Tencent comment; the second source appears to be a re-post. published_at is an estimate and the Nov 26 date was not confirmed.",
+      "score": {
+        "total": 33.1,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.4,
+          "credibility": 0.438,
+          "breadth": 0.283,
+          "momentum": 0.338
+        },
+        "coverage": 2,
+        "mentions": 1,
+        "baseline": 1.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-12",
+      "title": "Morgan Stanley/MUFG launch sale of CoreWeave's $4.5B Meta-backed GPU loan (as soon as week of Nov 30)",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://qz.com/coreweave-banks-meta-backed-loan-sale-112526"
+    },
+    {
+      "date": "2027-02",
+      "title": "S&P to resolve Nvidia's AA CreditWatch negative (about 90 days from Nov 25)",
+      "kind": "result",
+      "confidence": "expected",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-puts-nvidia-creditwatch-over-192625970.html"
+    },
+    {
+      "date": "2027-06",
+      "title": "Moonshot AI's next flagship Kimi K4 now expected around mid-2027 (Reuters sources; US compute curbs)",
+      "kind": "launch",
+      "confidence": "rumored",
+      "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=ETN361126779"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-26T03:00Z), so the rest of the window (Asia/Europe trading and US Thanksgiving Day) was researched with WebSearch. WebFetch was blocked for most news domains, so many facts rest on cross-checked search snippets, as flagged per item. US markets were closed for Thanksgiving and no frontier model release was found for Nov 26. Several items first published 0.3-6 h before the window start (Anthropic Rust migration, Google Fuse, S&P CreditWatch, CNBC GPU resales, Amodei rebuttal, ElevenLabs, CoreWeave loan, Hedgeye) are included as they were not covered yesterday. Dropped as possibly outside the window or poorly dated: ChatGPT Chat/Work merge and pooled Codex limits (may date to early November), the lsernau/grh-lean compact RH/GRH Lean proof (no commit date), Gemini Channels in Google Messages, Anthropic Skills over MCP (Nov 24). Also dropped: DeepMind Mass Spec Skills (no citable URL), fake DeepSeek-site malware (no 2026 URL), and single-source SCMP items (UBS 88% China AI-chip share forecast; China-Netherlands military-AI statement). Zhipu disputes Reuters' report of a GLM-5.5 delay; the December calendar entry is kept but is contested.",
+  "learn": [
+    {
+      "id": "shadow-traffic-parity-wilson-ci",
+      "gap": "llm-eval",
+      "title": "Measure shadow-traffic parity and bound the mismatch rate with a Wilson interval",
+      "item_ids": [
+        "anthropic-messages-api-rust-migration-claude-agents"
+      ],
+      "why_today": "Anthropic checked its Rust rewrite by shadowing production traffic, replaying each model output into the new path and reducing mismatches to text-free fingerprints.",
+      "explanation": "Shadow (differential) testing runs the old and new systems on the same inputs and compares outputs. Comparing a fingerprint of the response structure (field names, types, lengths) instead of the raw text catches most behavioural bugs without anyone reading user content, but it misses bugs that change values while keeping the shape. The mismatch count over n requests is binomial, so report the rate with a confidence interval: the Wilson interval behaves well near 0, unlike the normal approximation, which can go negative. With zero mismatches, the 'rule of three' gives a 95% upper bound of about 3/n, which tells you how much traffic you need before claiming parity at a given level. Mismatches are rarely independent in practice: a bug hitting one customer's request pattern clusters, so stratify by endpoint or tenant before trusting a pooled rate.",
+      "math": "\\tilde p = \\frac{\\hat p + \\frac{z^2}{2n}}{1+\\frac{z^2}{n}},\\quad \\tilde p \\pm \\frac{z}{1+\\frac{z^2}{n}}\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}+\\frac{z^2}{4n^2}};\\quad k=0 \\Rightarrow p_{95} \\approx 3/n",
+      "python": "# Shadow-traffic parity: estimate the mismatch rate between an old and a new implementation\n# and put a Wilson confidence interval on it. Illustrative synthetic data only.\nimport hashlib, json, math, random\nrandom.seed(1)\n\ndef fingerprint(resp):  # hash the structure (keys, types, lengths), not the text itself\n    shape = {k: (type(v).__name__, len(v) if isinstance(v, (str, list)) else v if isinstance(v, (int, bool)) else None)\n             for k, v in sorted(resp.items())}\n    return hashlib.sha256(json.dumps(shape, sort_keys=True).encode()).hexdigest()[:12]\n\ndef old_impl(req):\n    return {\"id\": req, \"stop_reason\": \"end_turn\", \"content\": \"x\" * (req % 50), \"usage\": req % 7}\n\ndef new_impl(req):\n    r = old_impl(req)\n    if random.random() < 0.004:      # injected bug: wrong stop_reason in ~0.4% of requests\n        r[\"stop_reason\"] = \"max_tokens_x\"\n    return r\n\ndef wilson(k, n, z=1.96):\n    p = k / n; d = 1 + z * z / n\n    c = (p + z * z / (2 * n)) / d\n    h = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d\n    return c - h, c + h\n\nn = 20000\nbad = sum(fingerprint(old_impl(i)) != fingerprint(new_impl(i)) for i in range(n))\nlo, hi = wilson(bad, n)\nprint(f\"mismatches {bad}/{n} = {bad/n:.4%}, 95% Wilson CI [{lo:.4%}, {hi:.4%}]\")\n# Rule of three: with 0 mismatches in n requests, the 95% upper bound is ~3/n.\nprint(f\"zero-mismatch upper bound for n={n}: {3/n:.4%}\")\n",
+      "minutes": 15,
+      "refs": [
+        {
+          "title": "Migrating our Messages API to Rust (Anthropic, 2026)",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache-sizing-hbm-vs-ssd-tier",
+      "gap": "llm-internals",
+      "title": "Size a KV cache and see why an SSD tier trades capacity for reload latency",
+      "item_ids": [
+        "kioxia-nvidia-ssd-gpu-memory-petabyte-poc-shares-jump"
+      ],
+      "why_today": "Kioxia and Nvidia showed 144 SSDs adding about 1.1 PB to a GB200 NVL72 rack to extend effective high-bandwidth memory capacity.",
+      "explanation": "During decoding, each layer caches a key and a value vector per KV head for every past token, so KV memory grows linearly with context length and batch size. Grouped-query attention cuts it by sharing KV heads across query heads, which is why n_kv rather than the query-head count appears in the formula. Long-context serving is usually limited by HBM capacity, not compute, and tiering cold KV blocks to host RAM or flash multiplies how many sessions you can keep warm. The cost is bandwidth: reloading a 40 GB cache from one NVMe drive takes seconds, so flash tiers only pay off when reads are striped across many drives and prefetched before the session resumes. The snippet's model and drive numbers are illustrative, not any real model's or Kioxia's specs.",
+      "math": "M_{KV} = 2\\,L\\,n_{kv}\\,d_{head}\\,T\\,b,\\qquad t_{reload} = M_{KV} / (B_{drive} \\cdot N_{drives})",
+      "python": "# KV-cache sizing: how many concurrent long-context sequences fit in HBM, and how many more\n# an SSD tier could hold. All model and hardware numbers are illustrative, not any real model's config.\nL, n_kv, d_head, b = 80, 8, 128, 2          # layers, KV heads (GQA), head dim, bytes/elem (bf16)\nT = 128_000                                 # tokens per sequence\nper_token = 2 * L * n_kv * d_head * b       # K and V\nper_seq = per_token * T\nhbm_free = 72 * 80e9                        # e.g. 72 GPUs x 80 GB left after weights (illustrative)\nssd = 1.1e15                                # ~1.1 PB raw flash tier\nprint(f\"KV per token: {per_token/1024:.0f} KiB, per 128k-token sequence: {per_seq/1e9:.1f} GB\")\nprint(f\"sequences resident in HBM: {int(hbm_free // per_seq)}\")\nprint(f\"sequences parked on SSD:   {int(ssd // per_seq)}\")\n# Bandwidth is the catch: reloading one sequence's KV from flash at an assumed 14 GB/s per drive\nfor drives in (1, 8, 144):\n    print(f\"reload time with {drives:>3} drives: {per_seq / (14e9 * drives) * 1000:.1f} ms\")\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "GQA: Training Generalized Multi-Query Transformer Models (Ainslie et al., 2023)",
+          "url": "https://arxiv.org/abs/2305.13245"
+        }
+      ]
+    },
+    {
+      "id": "credit-spread-implied-default-probability",
+      "gap": "domain-ai",
+      "title": "Turn a bond yield into an implied default probability, and see how sensitive it is",
+      "item_ids": [
+        "coreweave-4-5b-meta-backed-gpu-loan-morgan-stanley-mufg"
+      ],
+      "why_today": "CoreWeave's Meta-backed GPU loan is talked at about 7-7.5% while its own unsecured 2031 bonds yield about 18%.",
+      "explanation": "In a reduced-form credit model, default arrives as a Poisson event with hazard rate lambda, and investors lose a fraction (1 - R) on default. To first order the spread over risk-free equals lambda(1 - R), so lambda is roughly s/(1 - R), and the probability of default by time t is 1 - exp(-lambda t). These are risk-neutral probabilities: they include a risk and liquidity premium, so they overstate real-world default odds, often by a lot for distressed names. The recovery assumption dominates the answer, and secured or contract-backed debt has a much higher R than unsecured bonds. Using the same R for both, as the snippet does to keep it simple, overstates the loan's implied risk. All inputs are illustrative assumptions, not CoreWeave's actual risk-free curve or recoveries.",
+      "math": "s \\approx \\lambda (1-R),\\qquad P(\\tau \\le t) = 1 - e^{-\\lambda t}",
+      "python": "# From bond yield to implied default probability (reduced-form, risk-neutral, flat hazard).\n# lambda ~ spread / (1 - R);  P(default within t) = 1 - exp(-lambda t). Illustrative inputs.\nimport math\nrisk_free = 0.040                 # assumed ~5-year Treasury yield (illustrative)\nrecovery = 0.40                   # assumed recovery rate for unsecured debt\nfor name, y in [(\"contract-backed loan\", 0.0725), (\"unsecured bond\", 0.18)]:\n    s = y - risk_free\n    lam = s / (1 - recovery)\n    for t in (1, 5):\n        print(f\"{name:21s} yield {y:.2%} spread {s:.2%} hazard {lam:.2%}/yr  P(default<{t}y) = {1-math.exp(-lam*t):.1%}\")\n# Sensitivity: the answer moves a lot with the recovery assumption\nfor R in (0.2, 0.4, 0.6):\n    lam = (0.18 - risk_free) / (1 - R)\n    print(f\"R={R:.0%}: 5y default prob {1-math.exp(-5*lam):.1%}\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Modeling Term Structures of Defaultable Bonds (Duffie & Singleton, 1999)",
+          "url": "https://doi.org/10.1093/rfs/12.4.687"
+        }
+      ]
+    }
+  ]
+}
