@@ -1,0 +1,1409 @@
+{
+  "date": "2026-11-27",
+  "window": {
+    "start": "2026-11-26T21:48:00Z",
+    "end": "2026-11-27T21:48:00Z"
+  },
+  "tldr": [
+    "China's CSI Semiconductor index posted a record 17.6% one-day gain and Zhipu and MiniMax each rose more than 17% in Hong Kong after a State Council meeting pledged stronger state-backed market support.",
+    "Compute: Japan's JERA is in talks with Anthropic and Meta to build data centres beside its Tokyo-area power plants, Nikkei reports. Separately, Bloomberg found Nvidia GB300 racks in loan filings for an Alice Huang-linked Shanghai data centre, days before Huang's Dec 3 Senate hearing.",
+    "SAP is weighing at least 10,000 job cuts (~9% of staff) in an AI restructuring, per Bloomberg. DeepSeek is grey-testing a per-turn cost card in its free chat (1 yuan/M input, 4 yuan/M output at API rates), and Anthropic shares jumped ~11% to $91.88 on Black Friday."
+  ],
+  "items": [
+    {
+      "id": "china-ai-chip-stocks-record-rally-state-council-zhipu-minimax-17pct",
+      "title": "China AI and chip stocks surge after State Council pledge: chip index +17.6%, Zhipu and MiniMax up 17%+",
+      "original_title": "港股收评：恒指涨2.11% 恒生科技指数大涨6.45% 科网股普涨 芯片股持续走强 智谱、MINIMAX均涨超17%",
+      "summary": "A State Council executive meeting chaired by Premier Li Qiang pledged to improve capital-market stabilisation, with reports saying Central Huijin and other state-backed funds will play a bigger role. The CSI Semiconductor index then closed up 17.6%, a record one-day gain, and the STAR 50 rose 15.07%, its third-largest; Hua Hong hit limit-up and Cambricon and SMIC rose 18.7% and 15.4%. In Hong Kong, Zhipu closed up 18.57% at HK$347.4 and MiniMax up 17.19% at HK$110.1 as the Hang Seng Tech Index jumped 6.45%. The Shanghai Composite gained 3.73%, its best day since October 2024.",
+      "why_it_matters": "Beijing is explicitly backstopping chip and AI stocks hit by US curbs and the global AI sell-off, reversing a week of heavy losses for its listed model makers and compute champions.",
+      "key_numbers": [
+        "CSI Semiconductor +17.6% (record)",
+        "STAR 50 +15.07%",
+        "Zhipu +18.57% to HK$347.4",
+        "MiniMax +17.19% to HK$110.1",
+        "HSTECH +6.45%",
+        "SMIC +15.4%"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhipu AI",
+        "MiniMax",
+        "SMIC",
+        "Cambricon",
+        "State Council"
+      ],
+      "tickers": [
+        "2513.HK",
+        "0100.HK",
+        "688981.SS",
+        "688256.SS"
+      ],
+      "published_at": "2026-11-27T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.caixinglobal.com/2026-11-27/china-signals-for-stronger-stock-market-support-102509283.html",
+          "outlet": "Caixin Global",
+          "lang": "en",
+          "tier": "press",
+          "title": "China Signals for Stronger Stock Market Support"
+        },
+        {
+          "url": "https://www.news.cn/politics/leaders/20261127/a7c52bc55082444da343d42d738f28b8/c.html",
+          "outlet": "新华网",
+          "lang": "zh",
+          "tier": "press",
+          "title": "李强主持召开国务院常务会议"
+        },
+        {
+          "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-27/doc-inkaefwe7906295.shtml",
+          "outlet": "新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "港股收评：恒指涨2.11% 恒生科技指数大涨6.45% 科网股普涨 芯片股持续走强 智谱、MINIMAX均涨超17%"
+        },
+        {
+          "url": "https://www.21jingji.com/article/20261127/herald/7627fd2ef4ac918f00541c491499f19a.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "科创50，今日涨幅居历史第三"
+        },
+        {
+          "url": "https://mlq.ai/news/chinas-chip-stocks-post-record-176-one-day-gain-on-state-support-pledge/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "China's chip stocks post record 17.6% one-day gain on state support pledge"
+        },
+        {
+          "url": "https://news.futunn.com/post/1005822971/star-50-index-records-third-highest-single-day-gain-in",
+          "outlet": "Futu News",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "科创50创单日历史第三高涨幅 国产算力领涨"
+        }
+      ],
+      "coverage": 10,
+      "impact": 0.6,
+      "novelty": 0.5,
+      "follow_up_of": "china-ai-stocks-nov26-zhipu-minimax-rebound-8pct-star50-smic-fall",
+      "confidence_note": "Snippet-only; pages not opened. The 17.6% CSI Semiconductor figure is attributed to CNBC citing Wind (no CNBC URL seen); some aggregators cite other sub-index figures. HK closes agree across Sina, Longbridge and Futu. Per-stock A-share moves come from aggregator and 21jingji summaries. The link between the State Council meeting and the rally is the media's reading, and the 'Central Huijin' detail comes via Caixin/aggregator snippets.",
+      "score": {
+        "total": 63.6,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.811,
+          "momentum": 0.373
+        },
+        "coverage": 10,
+        "mentions": 1,
+        "baseline": 1.143,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 1
+    },
+    {
+      "id": "jera-talks-anthropic-meta-data-centres-tokyo-power-plants",
+      "title": "Japan's JERA in talks with Anthropic and Meta to build data centres beside its Tokyo-area power plants",
+      "summary": "Nikkei reports that JERA, Japan's largest power generator, is in talks with Anthropic, Meta and other US tech companies to build AI data centres next to its power plants in the Tokyo area. Chairman Yukio Kani reportedly said Amazon, Microsoft and Google are also in contact. The talks build on an October memorandum with Dell Technologies and UK developer RHAELM for a $15B hyperscale data centre at JERA's Chiba thermal plant. The US companies did not comment to Reuters.",
+      "why_it_matters": "Siting next to existing generation sidesteps grid-connection queues, and would give Anthropic and Meta large-scale power in Japan.",
+      "key_numbers": [
+        "Anthropic, Meta in talks",
+        "$15B Chiba project (Oct MoU)"
+      ],
+      "topic": "compute",
+      "region": "other",
+      "entities": [
+        "JERA",
+        "Anthropic",
+        "Meta"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-26T21:51:00Z",
+      "sources": [
+        {
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-jera-aims-to-build-anthropic-meta-data-centers-near-power-plants",
+          "outlet": "Nikkei Asia",
+          "lang": "en",
+          "tier": "press",
+          "title": "Japan's JERA aims to build Anthropic, Meta data centers near power plants"
+        },
+        {
+          "url": "https://www.asiaone.com/asia/japans-jera-enters-talks-anthropic-meta-build-data-centres-nikkei-reports",
+          "outlet": "AsiaOne (Reuters)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Japan's JERA enters talks with Anthropic, Meta to build data centres, Nikkei reports"
+        },
+        {
+          "url": "https://www.infobae.com/america/agencias/2026/11/27/jera-negocia-con-anthropic-y-meta-para-construir-centros-de-datos-en-japon-segun-nikkei/",
+          "outlet": "Infobae (EFE)",
+          "lang": "other",
+          "tier": "press",
+          "title": "Jera negocia con Anthropic y Meta para construir centros de datos en Japón, según Nikkei"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Talks only; no deal, capacity or dollar figure reported for Anthropic or Meta. Kani's mention of Amazon, Microsoft and Google comes from the EFE/Infobae snippet. Pages not opened; facts from consistent search snippets. Tickers left empty since the US firms are only reported to be in talks.",
+      "score": {
+        "total": 63.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.487,
+          "momentum": 0.632
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 2
+    },
+    {
+      "id": "sap-weighs-10000-job-cuts-ai-restructuring",
+      "title": "SAP weighs cutting at least 10,000 jobs, about 9% of staff, in AI-driven restructuring, Bloomberg says",
+      "summary": "Bloomberg reports, citing people familiar, that SAP is considering at least 10,000 job cuts as it rebuilds its software business around AI, with product, engineering and sales in focus. The number is not final and could change in labour negotiations, and a German job-security agreement running to 2028 limits cuts at home. SAP told CNBC it continuously reviews how its organisation and workforce need to evolve.",
+      "why_it_matters": "Europe's most valuable software company would be one of the largest employers to tie mass job cuts directly to AI.",
+      "key_numbers": [
+        ">=10,000 roles",
+        "~9% of workforce",
+        ">110,000 employees"
+      ],
+      "topic": "business",
+      "region": "eu",
+      "entities": [
+        "SAP"
+      ],
+      "tickers": [
+        "SAP.DE"
+      ],
+      "published_at": "2026-11-26T16:15:48Z",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
+          "outlet": "Bloomberg",
+          "lang": "en",
+          "tier": "press",
+          "title": "SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+          "outlet": "CNBC",
+          "lang": "en",
+          "tier": "press",
+          "title": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push"
+        },
+        {
+          "url": "https://www.investing.com/news/company-news/sap-reportedly-weighs-at-least-10000-job-cuts-in-ai-restructuring-5052712",
+          "outlet": "Investing.com",
+          "lang": "en",
+          "tier": "trade",
+          "title": "SAP reportedly weighs at least 10,000 job cuts in AI restructuring"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "First published 16:15Z Nov 26, about 5.5 h before the window; included because it was not covered yesterday. Anonymous sources; SAP has not confirmed. A link to sales chief Thomas Saueressig's departure appears in one trade snippet only and is omitted. Share reaction unclear.",
+      "score": {
+        "total": 63.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.773,
+          "breadth": 0.565,
+          "momentum": 0.632
+        },
+        "coverage": 5,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 3
+    },
+    {
+      "id": "bloomberg-nvidia-gb300-found-shanghai-alice-huang-linked-site",
+      "title": "Bloomberg: Nvidia Blackwell GB300 racks appear in loan filings for an Alice Huang-linked Shanghai data centre",
+      "summary": "Chinese loan and financial filings reviewed by Bloomberg list Nvidia Blackwell hardware, including GB300 NVL72 racks, at a Yangtze River Delta Project data centre in Shanghai linked to Alice Huang. Bloomberg said it found no evidence that Megaspeed itself diverted the hardware there; Nvidia and Megaspeed did not respond. The report lands days after Commerce blacklisted Megaspeed and ahead of Jensen Huang's Dec 3 Senate Banking testimony.",
+      "why_it_matters": "It is fresh evidence that export-controlled Blackwell systems reached mainland China, raising the stakes of the congressional, SEC and California probes into Nvidia.",
+      "key_numbers": [
+        "GB300 NVL72 racks",
+        "Senate hearing Dec 3"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Nvidia",
+        "Megaspeed"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "published_at": "2026-11-27T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/us/articles/nvidia-blackwell-equipment-found-huang-183514875.html",
+          "outlet": "Yahoo News (Bloomberg)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Nvidia Blackwell Equipment Found at Huang-Linked Shanghai Facility, Loan Filings Show"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/nvidia-blackwell-servers-shanghai-megaspeed-links-1835285",
+          "outlet": "IBTimes UK",
+          "lang": "en",
+          "tier": "press",
+          "title": "NVIDIA-Powered Servers Surface at Alice Huang-Linked China Site Ahead of Senate Export Hearing"
+        },
+        {
+          "url": "https://dailycaller.com/2026/11/27/nvidia-chips-us-exports-megaspeed-alice-huang-shanghai-data-center/",
+          "outlet": "Daily Caller",
+          "lang": "en",
+          "tier": "press",
+          "title": "REPORT: Nvidia Chips Under US Export Controls Turn Up At Shanghai Data Center"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": "reuters-alice-huang-linked-firms-270m-ai-servers-china",
+      "confidence_note": "published_at estimated; the exact Bloomberg time is unknown. Details come from search snippets of syndicated pieces. Rack count and how the hardware reached China were not reported.",
+      "score": {
+        "total": 63.1,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.565,
+          "momentum": 0.492
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 3.429,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 4
+    },
+    {
+      "id": "deepseek-chat-cost-per-turn-display-grey-test",
+      "title": "DeepSeek tests a per-turn 'usage consumed' card showing tokens and API-priced cost in its free chat app",
+      "original_title": "DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额",
+      "summary": "DeepSeek is grey-testing a 'show this turn's consumption' feature on web and mobile: after each turn a card lists tokens used, how much of the context window is filled and an estimated cost at API rates, split into cache-hit input, cache-miss input and output. Screenshots show off-peak prices of 0.02 yuan per million cache-hit input tokens, 1 yuan per million cache-miss input tokens and 4 yuan per million output tokens. Personal chat is still labelled free and nothing is charged. The test follows the tighter free-user chat quotas DeepSeek introduced in mid-November, citing a compute shortage.",
+      "why_it_matters": "Showing users what each chat would cost looks like groundwork for metered or paid consumer tiers while DeepSeek's compute stays scarce.",
+      "key_numbers": [
+        "0.02 yuan/M cache-hit input",
+        "1 yuan/M cache-miss input",
+        "4 yuan/M output",
+        "Chat still free"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-27T00:21:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/033/157.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261127/c682316455.shtml",
+          "outlet": "同花顺财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "限额之后，DeepSeek开始“拉账单”了"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yO4BybuYcl",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek灰度测试“消耗额度”：直观展示对话成本，此前已实施限额"
+        },
+        {
+          "url": "https://www.oschina.net/news/503859",
+          "outlet": "OSCHINA",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "DeepSeek 正在灰度测试“对话消耗额度”"
+        },
+        {
+          "url": "https://www.sohu.com/a/1107039459_121423427",
+          "outlet": "搜狐",
+          "lang": "zh",
+          "tier": "press",
+          "title": "DeepSeek灰度测试对话资费显示 单轮消耗可见"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only; no page opened. Prices come from user screenshots quoted consistently by IT之家, ifeng, OSCHINA and others. No official DeepSeek statement; it is a grey test. Cailian's flash (00:09Z) was the earliest report; published_at is IT之家's harvest time. The mid-November quota date comes from a jiemian/ifeng snippet.",
+      "score": {
+        "total": 61.3,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.6,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.826
+        },
+        "coverage": 7,
+        "mentions": 3,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "lead",
+      "rank": 5
+    },
+    {
+      "id": "huawei-hbm-design-double-pin-density-isscc-bloomberg",
+      "title": "Huawei readies an HBM design with twice the data-pin density of Samsung and SK hynix chips, Bloomberg reports",
+      "summary": "Bloomberg reports that Huawei researchers have developed a high-bandwidth memory design with double the data-pin density of the HBM Samsung and SK hynix mass-produce today, and plan to present it at the ISSCC conference in February 2027. How close it is to mass production is unclear. US export rules bar Samsung, SK hynix and Micron from supplying HBM to Chinese customers.",
+      "why_it_matters": "Memory is a key bottleneck for China's AI accelerators; a competitive domestic HBM would ease it and, over time, pressure the Korean duopoly.",
+      "key_numbers": [
+        "2x data-pin density",
+        "ISSCC, Feb 2027"
+      ],
+      "topic": "compute",
+      "region": "cn",
+      "entities": [
+        "Huawei",
+        "Samsung",
+        "SK hynix"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-26T19:30:00Z",
+      "sources": [
+        {
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008865098",
+          "outlet": "SBS News",
+          "lang": "en",
+          "tier": "press",
+          "title": "China's Huawei Preparing to Unveil New HBM to Rival Samsung, SK Hynix"
+        },
+        {
+          "url": "https://www.digitaltoday.co.kr/en/view/131429/huawei-to-unveil-hbm-design-with-double-data-pin-density-in-february-2027",
+          "outlet": "Digital Today",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Huawei to unveil HBM design with double data pin density in February 2027"
+        },
+        {
+          "url": "https://x.com/Cointelegraph/status/2126043235139109087",
+          "outlet": "Cointelegraph (X)",
+          "lang": "en",
+          "tier": "social",
+          "title": "Huawei is set to unveil an HBM chip design with twice the data-pin density..."
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.6,
+      "novelty": 0.6,
+      "follow_up_of": null,
+      "confidence_note": "The Bloomberg original was not seen; facts come from SBS and Digital Today relaying it. published_at estimated from an X relay timestamped 19:59Z Nov 26, inside the 6 h allowance. One outlet places the unveiling in Shenzhen rather than ISSCC.",
+      "score": {
+        "total": 58.3,
+        "components": {
+          "impact": 0.6,
+          "novelty": 0.6,
+          "credibility": 0.629,
+          "breadth": 0.487,
+          "momentum": 0.541
+        },
+        "coverage": 4,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 6
+    },
+    {
+      "id": "zhihu-deepseek-content-partnership-search-api",
+      "title": "Zhihu opens its Q&A, articles and trending lists to DeepSeek search via API, days after disclosing a stake",
+      "original_title": "间接投资 DeepSeek 后，知乎官宣与 DeepSeek 展开内容合作",
+      "summary": "Zhihu announced a content partnership under which DeepSeek can retrieve Zhihu answers, articles, the trending list and topic discussions on demand through Zhihu's data-open platform API, across tech, science, careers, education and finance. It covers DeepSeek's web and mobile apps. When Zhihu content is used, the answer's references show the Zhihu label, title, summary and author with a link back to the original. No payment terms were disclosed.",
+      "why_it_matters": "DeepSeek gains a large attributed Chinese-language source to ground answers in, and Zhihu gets a commercial tie to the indirect DeepSeek stake it disclosed on Nov 23.",
+      "key_numbers": [
+        "DeepSeek web + mobile",
+        "Indirect low-single-digit % stake (Nov 23 filing)"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Zhihu",
+        "DeepSeek"
+      ],
+      "tickers": [
+        "ZH"
+      ],
+      "published_at": "2026-11-27T02:17:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/033/522.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "间接投资 DeepSeek 后，知乎官宣与 DeepSeek 展开内容合作"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yOabEJWb8t",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "间接投资DeepSeek后，知乎官宣与DeepSeek展开内容合作"
+        },
+        {
+          "url": "https://finance.sina.cn/stock/jdts/2026-11-27/detail-inkaczqf1054745.d.html?vt=4&cid=76993&node_id=76993",
+          "outlet": "环球网/新浪财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "知乎与DeepSeek开展内容合作：支持API信息调用，打通AI生成内容溯源"
+        },
+        {
+          "url": "https://news.fx678.com/202611271018362465.shtml",
+          "outlet": "汇通财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "知乎与DeepSeek展开内容合作"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.4,
+      "novelty": 0.5,
+      "follow_up_of": "zhihu-indirect-deepseek-stake-low-single-digit-hkex-filing",
+      "confidence_note": "Snippet-only. Reports cite Zhihu's own announcement, which was not seen directly; no DeepSeek statement seen. A single search summary said the deal covers retrieval rather than training data and that Zhihu is talking to others such as Qwen; omitted as unconfirmed. published_at from the 36kr/Sina flash (fx678 stamps 10:18 Beijing).",
+      "score": {
+        "total": 56.4,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.5,
+          "credibility": 0.834,
+          "breadth": 0.689,
+          "momentum": 0.541
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 7
+    },
+    {
+      "id": "asia-chip-stocks-nov27-kospi-4-34pct-sk-hynix-nikkei-2-11pct-taiex",
+      "title": "Asian chip stocks rally Nov 27: KOSPI jumps 4.34% as SK hynix gains 5.4%; Nikkei up 2.1%",
+      "summary": "South Korea's KOSPI rose 4.34% to 4,915.68, with SK hynix up 5.41% and Samsung Electronics up 4.55% to 179,100 won. Japan's Nikkei 225 climbed 2.11% to 58,711.11, led by Advantest, Tokyo Electron and SoftBank Group, while Taiwan's Taiex added just 0.40% to 39,308.08 with TSMC up 1.63% to NT$2,180. In Seoul, the finance minister met the central bank and regulators, who warned that AI-driven volatility is growing; Korea Times says they are working to enlarge the roughly ₩11 trillion stock-stabilisation fund.",
+      "why_it_matters": "Asia's AI-hardware markets recovered part of the Nov 25 rout, but Seoul is still readying a bigger backstop for a market heavily exposed to the memory cycle.",
+      "key_numbers": [
+        "KOSPI +4.34% to 4,915.68",
+        "SK hynix +5.41%",
+        "Samsung +4.55%",
+        "Nikkei +2.11%",
+        "TSMC +1.63%",
+        "Korea fund ~₩11T"
+      ],
+      "topic": "business",
+      "region": "global",
+      "entities": [
+        "SK hynix",
+        "Samsung",
+        "TSMC",
+        "SoftBank"
+      ],
+      "tickers": [
+        "000660.KS",
+        "005930.KS",
+        "2330.TW"
+      ],
+      "published_at": "2026-11-27T06:40:00Z",
+      "sources": [
+        {
+          "url": "https://focustaiwan.tw/business/202611270014",
+          "outlet": "Focus Taiwan",
+          "lang": "en",
+          "tier": "press",
+          "title": "Taiwan shares end slightly higher on late buying of TSMC"
+        },
+        {
+          "url": "https://www.gurufocus.com/news/9228780/samsung-electronics-stocks-jump-455-as-seoul-rallies-on-stabilization-hopes",
+          "outlet": "GuruFocus",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Samsung Electronics Stocks Jump 4.55% as Seoul Rallies on Stabilization Hopes"
+        },
+        {
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-2-11-prozent-higher-at-58-711-11-on-ai-rebound/70562186",
+          "outlet": "ad-hoc-news",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Nikkei 225 Closes 2.11% Higher at 58,711.11 on AI Rebound"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/economy/20261127/market-volatility-expanding-amid-ai-uncertainties-financial-authorities",
+          "outlet": "The Korea Times",
+          "lang": "en",
+          "tier": "press",
+          "title": "Market volatility expanding amid AI uncertainties: financial authorities"
+        },
+        {
+          "url": "https://www.ajupress.com/view/20261127161713947",
+          "outlet": "AJP (Aju Press)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Korea's financial chiefs hold fire as stocks rebound, tightening deepens"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "global-chip-stocks-rebound-nov26-taiex-2-5pct-kospi-bok-hike",
+      "confidence_note": "Snippet-only. KOSPI/Samsung/SK hynix figures agree across snippets; Taiex from Focus Taiwan (a conflicting +2.78% ignored). Korea Times says fund expansion is being worked on, while AJP says officials gave no deployment update. Time estimated from the Seoul/Tokyo closes.",
+      "score": {
+        "total": 52.7,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.659
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 8
+    },
+    {
+      "id": "singapore-engaging-firms-us-chip-curbs-nvidia-halt-unconfirmed",
+      "title": "Singapore says it cannot confirm Nvidia's server halt and is engaging local firms on the new US chip curbs",
+      "summary": "Singapore Deputy Prime Minister Gan Kim Yong said on Nov 27 that the government has not confirmed reports that Nvidia told partners to stop shipping AI servers to Singapore, Malaysia, Thailand and Indonesia, and that officials are engaging local companies to assess the impact of tighter US export licensing. Singapore will keep working with Washington on how local businesses can retain access to high-end chips; Bloomberg separately reported Singapore is in talks with the US to that end.",
+      "why_it_matters": "It is the first government response to the freeze from Southeast Asia's main AI data-centre hub.",
+      "key_numbers": [
+        "4 SE Asian countries affected"
+      ],
+      "topic": "policy",
+      "region": "other",
+      "entities": [
+        "Singapore government",
+        "Nvidia"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-27T04:00:00Z",
+      "sources": [
+        {
+          "url": "https://malaymail.com/news/singapore/2026/11/27/singapore-yet-to-verify-nvidia-chip-shipment-halt-says-dpm-gan/245024",
+          "outlet": "Malay Mail",
+          "lang": "en",
+          "tier": "press",
+          "title": "Singapore yet to verify Nvidia chip shipment halt, says DPM Gan"
+        },
+        {
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375994/singapore-reaches-out-local-firms-amid-reports-nvidia-chip-shipment-halt",
+          "outlet": "South China Morning Post",
+          "lang": "en",
+          "tier": "press",
+          "title": "Singapore reaches out to local firms amid reports of Nvidia chip shipment halt"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/business/2026/11/27/singapore-engaging-with-local-firms-over-us-chip-restrictions",
+          "outlet": "Free Malaysia Today",
+          "lang": "en",
+          "tier": "press",
+          "title": "Singapore 'engaging' with local firms over US chip restrictions"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/singapore-reportedly-talks-us-retain-105414781.html",
+          "outlet": "Yahoo Finance (Bloomberg)",
+          "lang": "en",
+          "tier": "press",
+          "title": "Singapore Reportedly In Talks With US To Retain Advanced AI Chip Access As Washington Tightens Export Restrictions"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "nvidia-halts-server-shipments-four-southeast-asian-countries-ft",
+      "confidence_note": "Snippet-only; published_at estimated (Singapore morning). Gan's remarks are consistent across Malay Mail, SCMP and FMT. No Nvidia statement found.",
+      "score": {
+        "total": 52.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.834,
+          "breadth": 0.632,
+          "momentum": 0.632
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.0,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 9
+    },
+    {
+      "id": "bytedance-doubao-work-jianying-plugin-one-sentence-video-editing",
+      "title": "ByteDance's Doubao Work adds an exclusive Jianying (CapCut) plugin for one-sentence, multi-track video editing",
+      "original_title": "一句话就能剪视频！豆包工作独家接入剪映官方插件：支持多轨编辑",
+      "summary": "Doubao Work, ByteDance's desktop agent, now has an exclusive official Jianying plugin: users describe an edit in natural language and the agent drives Jianying to cut repeated takes, fix slips and add styled subtitles, with multi-track editing. Users can refine by chat or open the multi-track draft by hand, and can call the new 'Jianying Hub' to turn scripts, code or product images into explainer or marketing clips. It needs the latest Jianying desktop client.",
+      "why_it_matters": "It is a concrete case of a Chinese agent operating a mass-market creative app, tying ByteDance's assistant more tightly to its own tools.",
+      "key_numbers": [
+        "Multi-track editing",
+        "200 Jianying credits for some new users"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "ByteDance"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-27T02:33:00Z",
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-27/doc-inkacvhk7862621.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "一句话就能剪辑视频了，豆包工作独家接入剪映官方插件"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1169/1169066.htm",
+          "outlet": "快科技",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "一句话就能剪视频！豆包工作独家接入剪映官方插件：支持多轨编辑"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LCO5LBOG0519DFFO.html",
+          "outlet": "北京商报/网易",
+          "lang": "zh",
+          "tier": "press",
+          "title": "豆包工作接入剪映官方插件，支持一句话剪辑视频"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only; reports restate ByteDance's announcement and no hands-on test was found. published_at is IT之家's harvest time.",
+      "score": {
+        "total": 52.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.789
+        },
+        "coverage": 7,
+        "mentions": 2,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 10
+    },
+    {
+      "id": "peoples-daily-dont-treat-doubao-as-doctor-20m-daily-health-queries",
+      "title": "People's Daily warns 'don't treat Doubao as a doctor', saying it fields 20M+ health queries a day",
+      "original_title": "人民日报刊文：别把“豆包”当医生",
+      "summary": "A People's Daily commentary says more patients consult general chatbots such as Doubao before seeing a doctor, and that Doubao alone handles more than 20 million health consultations a day. It cites a head-injury patient whose CT showed no bleeding but whose Doubao reading suggested a haemorrhage, which a neurosurgeon had to overrule. The paper says AI can be a 'health adviser' but not an 'attending physician', citing hallucination and misdiagnosis risk.",
+      "why_it_matters": "State media pushback on medical use of chatbots at this scale hints at tighter rules for consumer health advice.",
+      "key_numbers": [
+        ">20M Doubao health consultations/day"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "ByteDance",
+        "People's Daily"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-27T00:11:00Z",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_34573063",
+          "outlet": "澎湃新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "“豆包”每天健康咨询量超过2000万人次，人民日报：AI可以成为“健康顾问”，但不能成为“主治医生”"
+        },
+        {
+          "url": "https://news.sina.com.cn/zx/2026-11-27/doc-inkacksp1161137.shtml",
+          "outlet": "新浪新闻",
+          "lang": "zh",
+          "tier": "press",
+          "title": "人民日报：别把豆包当医生"
+        },
+        {
+          "url": "https://news.mydrivers.com/1/1168/1168960.htm",
+          "outlet": "快科技",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "每天健康咨询超2000万人次！人民日报：别把豆包当医生"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "The 20M/day figure appears in the commentary without source or method. Cited via re-reports; the People's Daily original was not reached.",
+      "score": {
+        "total": 52.2,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.789
+        },
+        "coverage": 7,
+        "mentions": 2,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 11
+    },
+    {
+      "id": "tencent-hunyuan-hy3d-3-6-professional-3d-generation",
+      "title": "Tencent Hunyuan releases Hy3D 3.6, a 3D generation model upgraded for high-poly meshes and PBR materials",
+      "original_title": "腾讯混元发布 3D 生成大模型 Hy3D 3.6：面向专业 3D 创作",
+      "summary": "Tencent Hunyuan released Hy3D 3.6, its latest native 3D generation model, focused on high-poly geometry and PBR material textures. Tencent says learning geometry, texture and material directly from 3D assets handles characters, creatures, clothing and complex props better than having a language model write code to build geometry. It is available as an API on Tencent Cloud Token Hub and already runs inside Tencent's Miora creative agent, LAP game-asset platform and WorkRally film platform, with 5 free generations a day on the Hunyuan 3D engine.",
+      "why_it_matters": "Tencent keeps shipping specialised Hunyuan models alongside Hy4, aimed at game and film production pipelines.",
+      "key_numbers": [
+        "5 free generations/day",
+        "API on Tencent Cloud Token Hub"
+      ],
+      "topic": "models",
+      "region": "cn",
+      "entities": [
+        "Tencent"
+      ],
+      "tickers": [
+        "0700.HK"
+      ],
+      "published_at": "2026-11-27T03:00:00Z",
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20261127A075JG00",
+          "outlet": "腾讯新闻",
+          "lang": "zh",
+          "tier": "primary",
+          "title": "久等了！腾讯混元Hy3D 3.6来了"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-27/doc-inkacvhq5656651.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "腾讯混元发布 3D 生成大模型 Hy3D 3.6：面向专业 3D 创作"
+        },
+        {
+          "url": "https://cn.technode.com/post/2026-11-27/tencent-hy3d-3-6-professional-3d-generation/",
+          "outlet": "动点科技",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "腾讯混元发布Hy3D 3.6，提升专业3D模型与材质生成能力"
+        }
+      ],
+      "coverage": 8,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. published_at is an estimate (all reports dated Nov 27). Whether open weights were released was not seen.",
+      "score": {
+        "total": 51.5,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.835,
+          "breadth": 0.736,
+          "momentum": 0.373
+        },
+        "coverage": 8,
+        "mentions": 1,
+        "baseline": 1.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 12
+    },
+    {
+      "id": "cac-digital-literacy-report-2026-first-ai-literacy-47pct",
+      "title": "China's internet regulator says 47.46% of adults have basic AI literacy in its first national AI-literacy survey",
+      "original_title": "网信办：我国超 64% 成年公民具备初级及以上数字素养与技能，近半数具备人工智能素养",
+      "summary": "The Cyberspace Administration of China published its 2026 National Digital Literacy and Skills Survey Report, which measures AI literacy for the first time. It finds 47.46% of adult citizens have basic-or-higher AI literacy and 4.75% are advanced, with young people, graduates and new-economy workers highest and farmers lowest. Basic-or-higher digital literacy reached 64.69%, up 4.08 points from 2024 (urban 71.02%, rural 52.60%).",
+      "why_it_matters": "It sets an official baseline for Beijing's 'AI+' literacy goals, and the urban-rural gap marks where policy is likely to aim next.",
+      "key_numbers": [
+        "AI literacy basic+ 47.46%",
+        "Advanced 4.75%",
+        "Digital literacy 64.69% (+4.08 pts)",
+        "Urban 71.02% vs rural 52.60%"
+      ],
+      "topic": "policy",
+      "region": "cn",
+      "entities": [
+        "Cyberspace Administration of China"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-27T10:20:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/033/732.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "网信办：我国超 64% 成年公民具备初级及以上数字素养与技能，近半数具备人工智能素养"
+        },
+        {
+          "url": "https://news.fx678.com/202611271823322289.shtml",
+          "outlet": "汇通财经",
+          "lang": "zh",
+          "tier": "press",
+          "title": "最新全民人工智能素养发展情况：47.46%成年公民具备初级及以上素养"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8yOpTVvxW8T",
+          "outlet": "凤凰网科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "网信办：我国超64%成年公民具备初级及以上数字素养与技能"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.3,
+      "novelty": 0.5,
+      "follow_up_of": null,
+      "confidence_note": "Figures agree across CCTV-sourced flashes and IT之家, but the original report on cac.gov.cn was not reached. published_at estimated from the fx678 flash (18:23 Beijing).",
+      "score": {
+        "total": 51.3,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.5,
+          "credibility": 0.773,
+          "breadth": 0.632,
+          "momentum": 0.583
+        },
+        "coverage": 6,
+        "mentions": 1,
+        "baseline": 0.143,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 13
+    },
+    {
+      "id": "minimax-dragos-canary-links-reuters-follow-up",
+      "title": "Dragos names MiniMax as the lab whose systems opened secret links seeded in 'zero-retention' AI prompts",
+      "summary": "Dragos research chief HD Moore told Reuters that MiniMax is the Chinese lab behind canary-link findings in an earlier anonymised report. Dragos seeded about 2 million prompts with unique URLs and test credentials from July to November; MiniMax systems fetched the links in more than half of requests sent to its cloud, including about two-thirds of those marked zero-data-retention. MiniMax says an automated security monitor logged and probed URLs, that the process has been disabled and the URLs deleted, and that it found no evidence prompt content reached third parties.",
+      "why_it_matters": "A named HK-listed Chinese lab is now tied to the API-router privacy breach, which could hurt MiniMax's overseas API business.",
+      "key_numbers": [
+        "~2M seeded prompts",
+        "Links fetched in >50% of MiniMax requests",
+        "~2/3 of ZDR-flagged requests"
+      ],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "MiniMax",
+        "Dragos",
+        "OpenRouter"
+      ],
+      "tickers": [
+        "0100.HK"
+      ],
+      "published_at": "2026-11-26T20:00:00Z",
+      "sources": [
+        {
+          "url": "https://aiweekly.co/alerts/dragos-names-minimax-as-ai-firm-opening-private-user-links",
+          "outlet": "AI Weekly",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Dragos names MiniMax as AI firm opening private user links"
+        },
+        {
+          "url": "https://mlq.ai/news/minimax-systems-opened-secret-links-in-ai-prompts-dragos-researcher-says/",
+          "outlet": "MLQ.ai",
+          "lang": "en",
+          "tier": "trade",
+          "title": "MiniMax systems opened secret links in AI prompts, Dragos researcher says"
+        }
+      ],
+      "coverage": 3,
+      "impact": 0.5,
+      "novelty": 0.5,
+      "follow_up_of": "openrouter-minimax-zdr-prompts-may-have-been-read",
+      "confidence_note": "Timing uncertain: secondary sources date the Reuters exclusive Nov 26 but no time was seen, so published_at is a guess and the story may predate the window. The Reuters article itself was not seen (no URL); cited via secondary trade coverage only. Sources disagree on whether any credentials were misused.",
+      "score": {
+        "total": 47.8,
+        "components": {
+          "impact": 0.5,
+          "novelty": 0.5,
+          "credibility": 0.438,
+          "breadth": 0.393,
+          "momentum": 0.561
+        },
+        "coverage": 3,
+        "mentions": 2,
+        "baseline": 1.429,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 14
+    },
+    {
+      "id": "anthropic-ant-black-friday-jumps-11pct-91-88-back-above-ipo",
+      "title": "Anthropic shares jump about 11% to $91.88 on Black Friday, back above the $83 IPO price",
+      "summary": "Anthropic (ANT) closed Wall Street's shortened Black Friday session at $91.88, up about 11% from Wednesday's $82.79 close, in what reports call its best day since its Nasdaq debut. It opened around $84, back above the $83 offer price, as AI stocks rebounded after Thanksgiving, and Ark Invest was reported to be still buying. The stock is still about 20% below its debut-day peak, and up to about 303 million more shares become eligible for sale from Dec 15.",
+      "why_it_matters": "The record IPO had closed below its offer price on recent sessions; the Dec 15 lock-up release is the next test.",
+      "key_numbers": [
+        "$91.88 close",
+        "+~11%",
+        "$83 IPO price",
+        "~303M shares eligible Dec 15"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Anthropic"
+      ],
+      "tickers": [
+        "ANT"
+      ],
+      "published_at": "2026-11-27T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://stockanalysis.com/news/anthropic-jumps-11-percent-back-above-ipo-price/",
+          "outlet": "StockAnalysis",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic jumps 11% to $91.88, leading the post-Thanksgiving AI rebound"
+        },
+        {
+          "url": "https://rollingout.com/2026/11/27/anthropic-stock-jumps-bigger-test/",
+          "outlet": "Rolling Out",
+          "lang": "en",
+          "tier": "press",
+          "title": "Anthropic stock jumps 11% as a bigger test looms"
+        },
+        {
+          "url": "https://www.gurufocus.com/news/9228774/anthropic-stocks-jump-849-back-above-ipo-price-as-ark-keeps-buying",
+          "outlet": "GuruFocus",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Anthropic Stocks Jump 8.49% Back Above IPO Price as ARK Keeps Buying"
+        },
+        {
+          "url": "https://financefeeds.com/ant-stock-at-91-88-back-above-its-83-ipo-price-on-black-friday/",
+          "outlet": "FinanceFeeds",
+          "lang": "en",
+          "tier": "trade",
+          "title": "ANT Stock at $91.88, Back Above Its $83 IPO Price on Black Friday"
+        }
+      ],
+      "coverage": 6,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "anthropic-ant-nov25-intraday-low-73-85-below-ipo",
+      "confidence_note": "Snippet-only. The $91.88 close (+10.98%) is reported by StockAnalysis, FinanceFeeds and Rolling Out; GuruFocus had +8.49% intraday. The Dec 15 lock-up figure comes from press reports, not an Anthropic filing. Time set to the 1pm ET early close. No Reuters/CNBC article seen.",
+      "score": {
+        "total": 47.6,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.632,
+          "momentum": 0.429
+        },
+        "coverage": 6,
+        "mentions": 2,
+        "baseline": 2.571,
+        "verified": true
+      },
+      "placement": "brief",
+      "rank": 15
+    },
+    {
+      "id": "us-chip-stocks-black-friday-rebound-nvidia-lags-sea-halt",
+      "title": "US chip stocks lead Black Friday rebound as Nasdaq gains about 2.3%; Nvidia lags on Southeast Asia halt",
+      "summary": "Semiconductor stocks led a rebound in the shortened Black Friday session, with the Nasdaq up about 2.3% and the Dow about 1.2%. AMD gained about 4.5% and memory names surged, with Micron up about 7% before the open and SanDisk up by double digits. Nvidia gave up early gains after the FT's report that it halted server shipments to Southeast Asia, briefly fell more than 2%, then closed slightly higher.",
+      "why_it_matters": "Nvidia lagging a sector rally suggests export-control and governance risk is now weighing on it more than on peers.",
+      "key_numbers": [
+        "Nasdaq +~2.3%",
+        "AMD +~4.5%",
+        "Micron +~7% premarket",
+        "Nvidia +0.3% to +0.8%"
+      ],
+      "topic": "business",
+      "region": "us",
+      "entities": [
+        "Nvidia",
+        "AMD",
+        "Micron",
+        "SanDisk"
+      ],
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "SNDK"
+      ],
+      "published_at": "2026-11-27T18:00:00Z",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-lead-a-black-friday-rally-but-nvidia-misses-out-alphacheck-145727185.html",
+          "outlet": "Yahoo Finance",
+          "lang": "en",
+          "tier": "press",
+          "title": "Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4676995-chip-stocks-rebound-to-cap-a-volatile-week",
+          "outlet": "Seeking Alpha",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Chip stocks rebound to cap a volatile week"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/tech/26/11/63669344/why-is-micron-stock-jumping-today",
+          "outlet": "Benzinga",
+          "lang": "en",
+          "tier": "trade",
+          "title": "Why Is Micron Stock Jumping Today?"
+        }
+      ],
+      "coverage": 5,
+      "impact": 0.4,
+      "novelty": 0.3,
+      "follow_up_of": "us-chip-stocks-nov25-recover-early-rout-nvidia-149",
+      "confidence_note": "Snippet-only; moves differ by source (Nvidia +0.33% to +0.8%; Nasdaq Composite ~2.3% vs Nasdaq-100 2.6%). Micron's +7% is premarket. Not checked against exchange data.",
+      "score": {
+        "total": 47.2,
+        "components": {
+          "impact": 0.4,
+          "novelty": 0.3,
+          "credibility": 0.691,
+          "breadth": 0.565,
+          "momentum": 0.492
+        },
+        "coverage": 5,
+        "mentions": 3,
+        "baseline": 3.429,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 16
+    },
+    {
+      "id": "deepseek-api-deferred-tool-loading-deepseek-flash",
+      "title": "DeepSeek documents deferred tool loading in its API so agents can add tools without breaking the prompt cache",
+      "original_title": "DeepSeek 官方正式推出 API 工具延迟加载机制",
+      "summary": "DeepSeek's API docs now describe deferred tool loading: clients declare tools and load their definitions on demand, with new definitions appended to the end of the conversation so the existing prompt-cache prefix stays valid. It works through the Anthropic-style Messages API (defer_loading) and the OpenAI-style Responses API (tool_search_output) for deepseek-flash only; deepseek-v4-pro and Chat Completions are not supported.",
+      "why_it_matters": "It lowers agent costs on DeepSeek's cheapest model and matches the tool-search features Anthropic and OpenAI already offer.",
+      "key_numbers": [
+        "deepseek-flash only",
+        "Not on deepseek-v4-pro or Chat Completions"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "DeepSeek"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-27T12:00:00Z",
+      "sources": [
+        {
+          "url": "https://api-docs.deepseek.com/guides/tool_calls/",
+          "outlet": "DeepSeek API Docs",
+          "lang": "en",
+          "tier": "primary",
+          "title": "Tool Calls"
+        },
+        {
+          "url": "https://www.kucoin.com/news/flash/deepseek-launches-deferred-tool-loading-api-mechanism",
+          "outlet": "KuCoin News",
+          "lang": "en",
+          "tier": "trade",
+          "title": "DeepSeek Launches Deferred Tool Loading API Mechanism"
+        },
+        {
+          "url": "https://agihunt.info/en/p/1a21cc6e8a72d79ff01321b7552",
+          "outlet": "AGI Hunt",
+          "lang": "en",
+          "tier": "trade",
+          "title": "DeepSeek officially documents Deferred Tool…"
+        }
+      ],
+      "coverage": 4,
+      "impact": 0.25,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "published_at is a rough estimate: flashes say it was announced 'today' (Nov 27), while the docs page metadata shows an older date, so the feature may have been documented earlier. Parameter names come from search snippets of the docs, which could not be fetched.",
+      "score": {
+        "total": 45.8,
+        "components": {
+          "impact": 0.25,
+          "novelty": 0.3,
+          "credibility": 0.775,
+          "breadth": 0.487,
+          "momentum": 0.826
+        },
+        "coverage": 4,
+        "mentions": 3,
+        "baseline": 0.714,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 17
+    },
+    {
+      "id": "moonshot-kimi-research-support-program-api-credits",
+      "title": "Moonshot AI opens a Kimi research support programme offering API credits to science and engineering researchers",
+      "original_title": "月之暗面：Kimi 科研支持计划现已开放申请",
+      "summary": "Moonshot AI opened applications for its first Kimi research support programme for researchers in natural sciences, engineering and cross-disciplinary fields. Selected applicants get Kimi API credits sized by research need and review, technical support, priority access to new models and research and community resources; strong performers may get longer-term support. First-round applications close Dec 8, 2026.",
+      "why_it_matters": "Another Chinese lab is using free compute to win AI-for-science researchers onto its models.",
+      "key_numbers": [
+        "Deadline Dec 8, 2026"
+      ],
+      "topic": "products",
+      "region": "cn",
+      "entities": [
+        "Moonshot AI"
+      ],
+      "tickers": [],
+      "published_at": "2026-11-27T02:30:00Z",
+      "sources": [
+        {
+          "url": "https://www.ithome.com/1/033/328.htm",
+          "outlet": "IT之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "月之暗面：Kimi 科研支持计划现已开放申请"
+        },
+        {
+          "url": "http://news.10jqka.com.cn/20261127/c682282479.shtml",
+          "outlet": "同花顺/36氪",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "月之暗面：Kimi科研支持计划开放申请"
+        },
+        {
+          "url": "https://www.chinaz.com/ainews/32570.shtml",
+          "outlet": "站长之家",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "月之暗面开放 Kimi 科研支持计划：面向自然科学与工程学科，送 API 额度和技术支持"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.3,
+      "novelty": 0.4,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. An unconfirmed MSN headline cited a 150,000-yuan maximum credit; omitted. The Dec 8 deadline comes from a Sohu snippet.",
+      "score": {
+        "total": 45.8,
+        "components": {
+          "impact": 0.3,
+          "novelty": 0.4,
+          "credibility": 0.578,
+          "breadth": 0.689,
+          "momentum": 0.541
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.286,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 18
+    },
+    {
+      "id": "alibaba-qwen-denies-post-training-lead-zhou-hao-departure",
+      "title": "Alibaba's Qwen denies its post-training lead Zhou Hao has quit and says it will sue the outlet behind the rumour",
+      "original_title": "千问辟谣：后训练负责人周昊离职不实",
+      "summary": "Qwen officially denied an article by the self-media account 'Top华人科创社' claiming that Zhou Hao, who leads Qwen post-training, had left. Qwen called the report fabricated, noted it misspelled his name, and said it would take legal action over a run of false reports about the team. Zhou joined Alibaba in January 2026, first at Quark and then Tongyi Lab.",
+      "why_it_matters": "Talent moves at China's big labs are sensitive (a report this week counted 100+ senior moves), and Alibaba is moving to stop speculation about Qwen's team.",
+      "key_numbers": [],
+      "topic": "business",
+      "region": "cn",
+      "entities": [
+        "Alibaba"
+      ],
+      "tickers": [
+        "9988.HK"
+      ],
+      "published_at": "2026-11-27T07:00:00Z",
+      "sources": [
+        {
+          "url": "https://21jingji.com/article/20261127/herald/5a73970309cfba76d66a4a0201889f81.html",
+          "outlet": "21世纪经济报道",
+          "lang": "zh",
+          "tier": "press",
+          "title": "千问辟谣：后训练负责人周昊离职不实"
+        },
+        {
+          "url": "https://cn.technode.com/post/2026-11-27/qwen-denies-zhou-hao-departure/",
+          "outlet": "动点科技",
+          "lang": "zh",
+          "tier": "trade",
+          "title": "千问否认后训练负责人周昊离职，将起诉造谣自媒体"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-27/doc-inkaefwk5603716.shtml",
+          "outlet": "新浪科技",
+          "lang": "zh",
+          "tier": "press",
+          "title": "连当事人名字都写错了！千问辟谣周昊离职 将起诉自媒体Top华人科创社"
+        }
+      ],
+      "coverage": 7,
+      "impact": 0.2,
+      "novelty": 0.3,
+      "follow_up_of": null,
+      "confidence_note": "Snippet-only. published_at estimated (a re-post is stamped 15:39 Beijing). No report that a lawsuit has been filed.",
+      "score": {
+        "total": 43.0,
+        "components": {
+          "impact": 0.2,
+          "novelty": 0.3,
+          "credibility": 0.773,
+          "breadth": 0.689,
+          "momentum": 0.416
+        },
+        "coverage": 7,
+        "mentions": 1,
+        "baseline": 0.857,
+        "verified": true
+      },
+      "placement": "noted",
+      "rank": 19
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2027-02-01",
+      "title": "Google enforces MCP servers or Workspace CLI as AI agents' only route to Workspace data (no direct REST)",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+    },
+    {
+      "date": "2026-12-06",
+      "title": "Comment period closes on China National Data Administration's draft opinions on data rules for AI",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34572294"
+    },
+    {
+      "date": "2026-12-08",
+      "title": "First-round application deadline for Moonshot's Kimi research support programme",
+      "kind": "deadline",
+      "confidence": "confirmed",
+      "url": "https://www.ithome.com/1/033/328.htm"
+    },
+    {
+      "date": "2026-12-15",
+      "title": "Anthropic (ANT) lock-up release: up to ~303M shares become eligible for sale (press reports)",
+      "kind": "deadline",
+      "confidence": "expected",
+      "url": "https://stockanalysis.com/news/anthropic-jumps-11-percent-back-above-ipo-price/"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "Trump to speak at groundbreaking of TSMC Arizona's next phase in Phoenix",
+      "kind": "other",
+      "confidence": "expected",
+      "url": "https://www.azfamily.com/2026/11/25/president-trump-attend-latest-tsmc-groundbreaking-phoenix-next-week/"
+    },
+    {
+      "date": "2027-02",
+      "title": "Huawei to present a double-pin-density HBM design at ISSCC (per Bloomberg)",
+      "kind": "conference",
+      "confidence": "expected",
+      "url": "https://www.digitaltoday.co.kr/en/view/131429/huawei-to-unveil-hbm-design-with-double-data-pin-density-in-february-2027"
+    }
+  ],
+  "notes": "The nightly harvest is stale (it ends at 2026-11-27T03:09Z; tonight's scheduled runs had not landed), so the rest of the window was researched with WebSearch. WebFetch failed for nearly all domains, so facts rest on cross-checked search snippets, as flagged per item. US markets were closed Nov 26 and had a half-day on Black Friday; no frontier model release was found for Nov 27. Items first published 0.3-6 h before the window (SAP job cuts, Huawei HBM, MiniMax/Dragos) are included as they were not covered yesterday. Dropped as more than 6 h before the window though not previously covered: Google's Cogentic agent posting six AI-written maths papers incl. a claimed unconditional L[1/3] factoring bound (Nov 25), OpenAI's GPT-6.2 billing fix making Astra/Sol hit ChatGPT limits up to 40%/25% sooner (Nov 26 ~03:36Z), Google Workspace MCP servers/CLI GA with REST cutoff for agents on Feb 1 2027 (Nov 26), and China's National Data Administration draft opinions on data rules for AI training (Nov 26 ~11:30Z). Also dropped: the 'AI+manufacturing' item (rehash of a January plan), Claude Duet expansion (newsletter-only), and a Goldman MiniMax target that looked inconsistent.",
+  "learn": [
+    {
+      "id": "multi-turn-chat-cost-prefix-cache",
+      "gap": "llm-internals",
+      "title": "Price a multi-turn chat: quadratic re-reads and what a prefix cache saves",
+      "item_ids": [
+        "deepseek-chat-cost-per-turn-display-grey-test"
+      ],
+      "why_today": "DeepSeek's test cost card splits each turn into cache-hit input (0.02 yuan/M), cache-miss input (1 yuan/M) and output (4 yuan/M), which is exactly the structure that decides what a long chat costs.",
+      "explanation": "A stateless chat API re-sends the full history every turn, so with per-turn length growing roughly linearly the total prompt tokens over n turns grow like n^2/2. Prefix (KV) caching stores the attention keys and values for an already-seen prefix, so only the new suffix has to be prefilled; providers pass that saving on as a much lower cache-hit price. When hits are 50x cheaper than misses, the cached cost of a long chat is dominated by output tokens and the new user message, and the saving over no cache grows with conversation length. It breaks when the prefix changes (an edited system prompt, a reordered tool list, a timestamp near the top), when the cache entry is evicted after idle time, or when requests land on a replica without the entry.",
+      "math": "T_{prompt}(n)=\\sum_{k=1}^{n}\\big(S+kU+(k-1)R\\big)\\approx \\tfrac{n^2}{2}(U+R);\\quad C=\\sum_k \\big(h_k p_{hit}+m_k p_{miss}+R\\,p_{out}\\big)",
+      "python": "# Cost of a multi-turn chat when every turn re-sends the whole history.\n# Prices: the off-peak rates reported for DeepSeek's cost card (yuan per million tokens).\n# Conversation sizes are illustrative.\nHIT, MISS, OUT = 0.02, 1.0, 4.0\nSYS, USER, REPLY = 2_000, 150, 600   # tokens: system prompt, each user msg, each reply\n\ndef chat_cost(turns, cached=True):\n    hist, total, prompt_tokens = SYS, 0.0, 0\n    for _ in range(turns):\n        prompt = hist + USER                 # model re-reads everything so far\n        hit = hist if cached else 0          # prefix from earlier turns is in the cache\n        miss = prompt - hit\n        total += (hit * HIT + miss * MISS + REPLY * OUT) / 1e6\n        prompt_tokens += prompt\n        hist = prompt + REPLY\n    return total, prompt_tokens\n\nfor n in (1, 10, 40):\n    c, p = chat_cost(n, True); u, _ = chat_cost(n, False)\n    print(f\"{n:>2} turns: {p:>9,} prompt tokens | cached {c:.4f} yuan | no cache {u:.4f} yuan | x{u/c:.1f}\")\n",
+      "minutes": 12,
+      "refs": [
+        {
+          "title": "Efficient Memory Management for LLM Serving with PagedAttention (Kwon et al., 2023)",
+          "url": "https://arxiv.org/abs/2309.06180"
+        }
+      ]
+    },
+    {
+      "id": "append-only-tool-loading-cache-prefix",
+      "gap": "agent-engineering",
+      "title": "Keep agent prompts append-only so new tools don't invalidate the cache",
+      "item_ids": [
+        "deepseek-api-deferred-tool-loading-deepseek-flash"
+      ],
+      "why_today": "DeepSeek's documented deferred tool loading appends new tool definitions to the end of the conversation so the existing prompt-cache prefix stays valid.",
+      "explanation": "Prefix caches match on the longest identical token prefix, so any change near the top of a prompt forces everything after it to be recomputed. The classic layout puts all tool schemas in the header; adding one tool mid-session then invalidates the whole history behind it. Appending the new definition after the history costs only its own tokens. The trade-off is that models may attend less reliably to instructions buried late in a long context, and providers must support tools declared outside the header. The same rule covers dynamic system-prompt text: put anything volatile (dates, user state, retrieved snippets) after the stable part.",
+      "python": "# Why deferred tools are APPENDED: a prefix cache reuses only the longest common prefix.\n# Token lists are toy stand-ins; each tool schema is ~800 tokens (illustrative).\ndef common_prefix(a, b):\n    n = 0\n    for x, y in zip(a, b):\n        if x != y: break\n        n += 1\n    return n\n\nsystem = [\"sys\"] * 1500\ntools = {t: [t] * 800 for t in (\"search\", \"calendar\", \"email\", \"sql\")}\nhistory = [\"msg\"] * 6000            # conversation so far\nnew_tool = tools[\"sql\"]\n\nbase = system + tools[\"search\"] + tools[\"calendar\"] + tools[\"email\"] + history\nfront = system + new_tool + tools[\"search\"] + tools[\"calendar\"] + tools[\"email\"] + history  # tool spliced into the header\nappend = base + new_tool             # tool definition added at the end\n\nfor name, p in ((\"insert in header\", front), (\"append at end\", append)):\n    reused = common_prefix(base, p)\n    print(f\"{name:17s}: prompt {len(p):>5} tokens, cache reuse {reused:>5}, recompute {len(p) - reused:>5}\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "DeepSeek API docs: Tool Calls",
+          "url": "https://api-docs.deepseek.com/guides/tool_calls/"
+        }
+      ]
+    },
+    {
+      "id": "base-rates-ppv-medical-chatbot-eval",
+      "gap": "llm-eval",
+      "title": "Evaluate a medical chatbot by PPV at realistic prevalence, not accuracy alone",
+      "item_ids": [
+        "peoples-daily-dont-treat-doubao-as-doctor-20m-daily-health-queries"
+      ],
+      "why_today": "People's Daily cites a case where Doubao read a bleed into a CT that showed none, and says the app handles more than 20 million health consultations a day.",
+      "explanation": "Sensitivity and specificity describe a test given the true condition, but a user cares about the positive predictive value: the chance the condition is present given that the system says so. By Bayes' rule PPV depends on prevalence, so a screener with 95% sensitivity and 90% specificity is right about most positives in a referral clinic but wrong about almost all of them when only 1 in 1,000 askers has the condition. At tens of millions of queries a day, even a small false-positive rate means a very large absolute number of false alarms, while the negative predictive value looks reassuringly close to 100% simply because negatives dominate. An evaluation should therefore report sensitivity, specificity and PPV/NPV at the prevalence of the actual user population, stratified by condition, rather than a single accuracy on a balanced benchmark.",
+      "math": "\\mathrm{PPV}=\\frac{s\\,\\pi}{s\\,\\pi+(1-c)(1-\\pi)}",
+      "python": "# A symptom checker with 'good' accuracy still mostly raises false alarms when the condition is rare.\n# Sensitivity, specificity and prevalences are illustrative, not measured figures for any product.\ndef ppv(sens, spec, prev):\n    tp = sens * prev\n    fp = (1 - spec) * (1 - prev)\n    return tp / (tp + fp)\n\ndef npv(sens, spec, prev):\n    tn = spec * (1 - prev)\n    fn = (1 - sens) * prev\n    return tn / (tn + fn)\n\nsens, spec = 0.95, 0.90\nfor prev in (0.30, 0.05, 0.01, 0.001):\n    print(f\"prevalence {prev:>6.1%}: PPV {ppv(sens, spec, prev):6.1%}  NPV {npv(sens, spec, prev):7.3%}  \"\n          f\"false alarms per 1M queries {round((1-spec)*(1-prev)*1e6):>7,}\")\n",
+      "minutes": 10,
+      "refs": [
+        {
+          "title": "Diagnostic tests 2: predictive values (Altman & Bland, BMJ 1994)",
+          "url": "https://www.bmj.com/content/309/6947/102"
+        }
+      ]
+    }
+  ]
+}
